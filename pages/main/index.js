@@ -307,7 +307,7 @@ export default function Mainpage() {
                                     <button 
                                         className="h-16 w-[250px] z-40 bg-gradient-to-r from-Agradient to-Bgradient shadow-lg rounded-full text-white font-bold text-2xl"
                                         onClick={
-                                            changeLanguage(id)
+                                            ()=> changeLanguage(id)
                                         }
                                     >
                                         언어 변경하기
@@ -324,8 +324,7 @@ export default function Mainpage() {
     )
 };
 
-
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
     const {locale} = context;
     return{
         props: {
@@ -333,3 +332,13 @@ export async function getStaticProps(context) {
         }
     }
 };
+
+
+// export async function getStaticProps(context) {
+//     const {locale} = context;
+//     return{
+//         props: {
+//             ...(await serverSideTranslations(locale, ['common', 'navbar']))
+//         }
+//     }
+// };
