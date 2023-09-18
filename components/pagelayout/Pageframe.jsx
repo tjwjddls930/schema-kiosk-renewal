@@ -22,8 +22,7 @@ export default function Pageframe({children}) {
                 <div className="flex flex-row space-x-2 h-9 w-1/3 mx-auto">
                     {/* {country && ( */}
                         <Image 
-                            src={`/img/flags/${i18n.language.toString()
-                                .padStart(4, '0')}}_circle.png `}
+                            src={`/img/flags/${i18n.language}_circle.png`}
                             height="50"
                             width="50"
                             alt="korea"
