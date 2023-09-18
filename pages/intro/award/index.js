@@ -1,44 +1,48 @@
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Introlayout from "@/components/intro/IntroLayout";
+import Awardlayout from "@/components/intro/award/AwardLayout";
 import { useState } from "react";
-import { introData } from "@/data/introData";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { AnimatePresence, motion } from "framer-motion";
+import { awardData } from "@/data/awardData";
+import Awardcontent from "@/components/intro/award/Awardcontent";
 
-export default function Structure() {
-    const [intro, setIntro] = useState(introData[0])
+export default function Award() {
+    const [award, setAward] = useState();
     return(
-        <Introlayout>
+        <Awardlayout>
             <div className="w-11/12 h-16 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center">
-                <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2">
-                    {introData.map((item)=> (
+                <ul className="flex flex-row space-x-12 font-bold text-xl pb-1">
+                    {awardData.map((item)=> (
                         <li
                             key={item.title}
-                            className={item === intro ? "text-white border-b-4 border-Cpurple": ""}
-                            onClick={()=> setIntro(item)}
+                            className={item === award ? "text-white border-b-4 border-Cpurple": ""}
+                            onClick={()=> setAward(item)}
                         >   
                             {`${item.title}`}
                         </li>
                     ))}
                 </ul>
             </div>
-            <div className="w-full h-3/4 bg-Awhite">
+            <div className="w-full h-3/4 bg-Bgrey">
                 <main>
                     <AnimatePresence>
                         <motion.div
-                            key={intro ? intro.title : ""}
+                            key={award ? award.title : ""}
                             intitial={{y: 10, opacity: 0}}
                             animate={{y: 0, opacity: 1}}
                             exit={{y: -10, opacity: 0}}
                             transition={{duration: 0.2}}
                         >
-                            {intro ? <div className="p-12 mx-auto items-center">
-                                {intro.component}
-                            </div> : ""}
+                            {award ? <Awardcontent 
+                                imgname={award.imgname}
+                                engname={award.engname}
+                                name={award.name}
+                                career={award.career}
+                            /> : ""}
                         </motion.div>
                     </AnimatePresence>
                 </main>
             </div>
-        </Introlayout>
+        </Awardlayout>
     )
 };
 
