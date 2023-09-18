@@ -8,12 +8,11 @@ export default function Pageframe({children}) {
     const [country, setCountry] = useState();
     const {t, i18n} = useTranslation('navbar');
     // setCountry(lang);
-    useEffect(()=> {
-        const lang = window.localStorage.getItem('i18n');
-        i18n.changeLanguage(lang);
-        setCountry(lang);
-        // console.log(lang)
-    },[country, i18n]);
+    // useEffect(()=> {
+    //     const lang = window.localStorage.getItem('i18n');
+    //     i18n.changeLanguage(lang);
+    //     setCountry(lang);
+    // },[country, i18n]);
     return(
         <div className={`h-[897.6px] w-[1522.4px]`}>
             {children}
@@ -21,9 +20,9 @@ export default function Pageframe({children}) {
             <footer className="absolute bottom-0 w-full h-20 bg-black px-10">
              <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5">
                 <div className="flex flex-row space-x-2 h-9 w-1/3 mx-auto">
-                    {country && (
+                    {/* {country && ( */}
                         <Image 
-                            src={`/img/flags/${country}_circle.png `}
+                            src={`/img/flags/${i18n.language}_circle.png `}
                             height="50"
                             width="50"
                             alt="korea"
@@ -32,7 +31,7 @@ export default function Pageframe({children}) {
                                 height: "auto"
                             }}
                        />
-                    )}
+                    {/* )} */}
                     <span className="text-2xl">{t("CURRENT_LANGUAGE")}</span>
                 </div>
                 <div className="flex flex-row space-x-1 h-9 w-3/4 rounded-full bg-Awhite justify-between">
