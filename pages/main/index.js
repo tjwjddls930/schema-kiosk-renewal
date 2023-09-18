@@ -12,7 +12,7 @@ export default function Mainpage() {
     function toggleModal () {
         setModal(!modal);
     };
-    const {t, i18n} = useTranslation('common');
+    const {t, i18n} = useTranslation(['common', 'navbar']);
     const router = useRouter();
     function handleLanguage(e, lng, language) {
         // i18n.changeLanguage(lng);
@@ -329,7 +329,7 @@ export async function getStaticProps(context) {
     const {locale} = context;
     return{
         props: {
-            ...(await serverSideTranslations(locale, ['common']))
+            ...(await serverSideTranslations(locale, ['common', 'navbar']))
         }
     }
 };
