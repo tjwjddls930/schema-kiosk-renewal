@@ -21,11 +21,11 @@ export default function Mainpage() {
         window.localStorage.setItem('i18n', lng);
         // router.replace('/main', undefined, {locale: lng});
     };
-    useEffect(()=> {
-        if(localStorage.getItem("language") === null || localStorage.getItem("i18n") === null) {
-            handleLanguage("ko", "Korean");
-        }
-    },[]);
+    // useEffect(()=> {
+    //     if(localStorage.getItem("language") === null || localStorage.getItem("i18n") === null) {
+    //         handleLanguage("ko", "Korean");
+    //     }
+    // },[]);
 
     function changeLanguage(lng) {
         i18n.changeLanguage(lng);
@@ -323,7 +323,9 @@ export default function Mainpage() {
         </Pageframe>
     )
 };
-export async function getServerSideProps(context) {
+
+
+export async function getStaticProps(context) {
     const {locale} = context;
     return{
         props: {
@@ -331,12 +333,3 @@ export async function getServerSideProps(context) {
         }
     }
 };
-
-// export async function getStaticProps(context) {
-//     const {locale} = context;
-//     return{
-//         props: {
-//             ...(await serverSideTranslations(locale, ['common', 'navbar']))
-//         }
-//     }
-// };
