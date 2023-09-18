@@ -7,7 +7,7 @@ import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
 export default function Mainpage() {
-    const [modal, setModal] = useState(false);
+    const [modal, setModal] = useState();
     const [id, setId] = useState(null);
     function toggleModal () {
         setModal(!modal);
