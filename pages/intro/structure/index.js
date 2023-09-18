@@ -26,10 +26,10 @@ export default function Structure() {
                     <AnimatePresence>
                         <motion.div
                             key={intro ? intro.title : ""}
-                            intitial={{y: 60, opacity: 0}}
+                            intitial={{y: 10, opacity: 0}}
                             animate={{y: 0, opacity: 1}}
-                            exit={{y: -60, opacity: 0}}
-                            transition={{duration: 0.3, ease: "easeInOut"}}
+                            exit={{y: -10, opacity: 0}}
+                            transition={{duration: 0.2}}
                         >
                             {intro ? <div className="p-12 text-black mx-auto items-center">
                                 {intro.order}
