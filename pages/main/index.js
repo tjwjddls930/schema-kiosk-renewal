@@ -324,7 +324,7 @@ export default function Mainpage() {
     )
 };
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
     const {locale} = context;
     return{
         props: {
@@ -332,13 +332,3 @@ export async function getServerSideProps(context) {
         }
     }
 };
-
-
-// export async function getStaticProps(context) {
-//     const {locale} = context;
-//     return{
-//         props: {
-//             ...(await serverSideTranslations(locale, ['common', 'navbar']))
-//         }
-//     }
-// };
