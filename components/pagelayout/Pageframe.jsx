@@ -1,7 +1,7 @@
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-// import ReactSlider from "react-slider";
+import ReactSlider from "react-slider";
 
 export default function Pageframe({children}) {
     const [volume, setVolume] = useState(Number(0.5));
