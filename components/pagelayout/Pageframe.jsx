@@ -6,7 +6,7 @@ import ReactSlider from "react-slider";
 export default function Pageframe({children}) {
     const [volume, setVolume] = useState(Number(0.5));
     const [country, setCountry] = useState();
-    const {t, i18n} = useTranslation();
+    const {t, i18n} = useTranslation('navbar');
     // setCountry(lang);
     useEffect(()=> {
         const lang = window.localStorage.getItem('i18n');

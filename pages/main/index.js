@@ -12,7 +12,7 @@ export default function Mainpage() {
     function toggleModal () {
         setModal(!modal);
     };
-    const {t, i18n} = useTranslation(['common', 'navbar']);
+    const {t, i18n} = useTranslation('common');
     const router = useRouter();
     function handleLanguage(e, lng, language) {
         // i18n.changeLanguage(lng);
