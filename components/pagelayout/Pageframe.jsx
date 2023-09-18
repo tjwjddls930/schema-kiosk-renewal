@@ -1,24 +1,24 @@
-// import { useTranslation } from "next-i18next";
-// import Image from "next/image";
-// import { useEffect, useState } from "react";
-// import ReactSlider from "react-slider";
+import { useTranslation } from "next-i18next";
+import Image from "next/image";
+import { useEffect, useState } from "react";
+import ReactSlider from "react-slider";
 
 export default function Pageframe({children}) {
-    // const [volume, setVolume] = useState(Number(0.5));
-    // const [country, setCountry] = useState();
-    // const {t, i18n} = useTranslation();
+    const [volume, setVolume] = useState(Number(0.5));
+    const [country, setCountry] = useState();
+    const {t, i18n} = useTranslation();
     // setCountry(lang);
-    // useEffect(()=> {
-    //     const lang = window.localStorage.getItem('i18n');
-    //     i18n.changeLanguage(lang);
-    //     setCountry(lang);
-    //     // console.log(lang)
-    // },[country]);
+    useEffect(()=> {
+        const lang = window.localStorage.getItem('i18n');
+        i18n.changeLanguage(lang);
+        setCountry(lang);
+        // console.log(lang)
+    },[country]);
     return(
         <div className={`h-[897.6px] w-[1522.4px]`}>
             {children}
             {/* navbar */}
-            {/* <footer className="absolute bottom-0 w-full h-20 bg-black px-10">
+            <footer className="absolute bottom-0 w-full h-20 bg-black px-10">
              <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5">
                 <div className="flex flex-row space-x-2 h-9 w-1/3 mx-auto">
                     {country && (
@@ -102,7 +102,7 @@ export default function Pageframe({children}) {
                     </button>
                 </div>
              </div>
-            </footer> */}
+            </footer>
         </div>
     )
 };
