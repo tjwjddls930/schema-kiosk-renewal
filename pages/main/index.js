@@ -306,9 +306,9 @@ export default function Mainpage() {
                                     {/* 언어 변경 버튼 */}
                                     <button 
                                         className="h-16 w-[250px] z-40 bg-gradient-to-r from-Agradient to-Bgradient shadow-lg rounded-full text-white font-bold text-2xl"
-                                        onClick={(id)=> {
+                                        onClick={
                                             changeLanguage(id)
-                                        }}
+                                        }
                                     >
                                         언어 변경하기
                                     </button>
@@ -323,8 +323,7 @@ export default function Mainpage() {
         </Pageframe>
     )
 };
-
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
     const {locale} = context;
     return{
         props: {
@@ -332,3 +331,12 @@ export async function getStaticProps(context) {
         }
     }
 };
+
+// export async function getStaticProps(context) {
+//     const {locale} = context;
+//     return{
+//         props: {
+//             ...(await serverSideTranslations(locale, ['common', 'navbar']))
+//         }
+//     }
+// };

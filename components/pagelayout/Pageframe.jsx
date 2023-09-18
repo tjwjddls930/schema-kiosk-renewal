@@ -13,7 +13,7 @@ export default function Pageframe({children}) {
         i18n.changeLanguage(lang);
         setCountry(lang);
         // console.log(lang)
-    },[country]);
+    },[country, i18n]);
     return(
         <div className={`h-[897.6px] w-[1522.4px]`}>
             {children}
