@@ -2,6 +2,7 @@ import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import ReactSlider from "react-slider";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function Pageframe({children}) {
     const [volume, setVolume] = useState(Number(0.5));
@@ -105,5 +106,13 @@ export default function Pageframe({children}) {
             </footer>
         </div>
     )
+};
+export async function getStaticProps(context) {
+    const {locale} = context;
+    return{
+        props: {
+            ...(await serverSideTranslations(locale, ['navbar']))
+        }
+    }
 };
 
