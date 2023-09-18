@@ -1,0 +1,80 @@
+import Image from "next/image"
+
+export default function Schemaintro() {
+    return(
+        <div className="h-2/3 w-full flex flex-row space-x-8">
+            <div className="mx-auto pt-10 space-y-12 text-center items-center">
+                <div className="border-4 border-black shadow-lg mb-4">
+                    <Image 
+                        src="/img/intro/introduction/schema_small.jpg"
+                        width={120}
+                        height={200}
+                        style={{
+                            width: "auto",
+                            height: "auto"
+                        }}
+                        alt="소전시실"
+                        priority={true}
+                        // fill={true}
+                    />
+                </div>
+                <span className="text-xl font-bold text-Cpurple">Schema</span>
+            </div>
+            <div className="h-5/6 w-2/5 flex flex-col space-y-4">
+                <div className="flex flex-col space-y-2">
+                    <div className="h-[2px] w-14 bg-Cpurple"></div>
+                    <span className="font-bold text-xl text-Cgrey">Schema Art Museum</span>
+                    <span className="font-bold text-3xl text-black">쉐마미술관</span>
+                </div>
+                <p className="text-Cgrey text-md font-bold">
+                    {'쉐마미술관은 그동안 대학 강단에서 30여 년간 교수로서의 길을 걸었던 서양화가 김재관 교수가 예술과 교육자로서의 열정과 지역 예술인들과 지역민들의 예술적 교감의 필요성을 인지하고, 고향 청주 근교에 2009년 6월 26일 설립한 사설 미술관으로써'}
+                    <span className="text-Cpurple text-md">{'충청북도 제 2011-01호 제1종 미술관'}</span> {'이며, 최근 한국박물관협회, 한국과학창의재단, 교육과학기술부로부터'}
+                     <span className="text-Cpurple text-md">{'박물'}</span>
+                    <span className="text-Cpurple text-md">{'관, 미술관 창제 프로그램 우수 운영기관으로 선정'}</span>{'되었습니다.'}
+                </p>
+                <div className="mx-auto text-center flex flex-row space-x-6">
+                    <div className="pt-6 h-20 w-20 shadow-2xl rounded-full font-bold text-black text-lg">
+                        격
+                    </div>
+                    <div className="pt-6 h-20 w-20 shadow-2xl rounded-full font-bold text-black text-lg">
+                        짜임
+                    </div>
+                    <div className="pt-6 h-20 w-20 shadow-2xl rounded-full font-bold text-black text-lg">
+                        계획
+                    </div>
+                </div>
+                <p className="text-Cgrey text-md font-bold">
+                    {'SCHEMA는 "격", "짜임", "계획"이라는 의미로 기하학적 구성요소로 이루어진 김재관 교수의 작품과 그 맥을 같이 하며, 미학적, 종교적 의미로서의 SCHEMA는 "하나님께 모든 것을 바친다."는 의미가 있습니다. 이는 미술관의 지역사회, 미술계에 봉사하고자 하는 열망으로 청주지역 뿐만 아니라'} 
+                    <span className="text-Cpurple text-md">{'현대미술'}</span>
+                    <span className="text-Cpurple text-md">{'의 격이 시대정신에 걸 맞는 창작 예술의 연구와 실천을 위한'}</span>
+                    <span className="text-Cpurple text-md">{'공간'}</span>{'이 될 수 있도록 최선의 역할을 하고자 합니다.'}
+                </p>
+            </div>
+            <div className="h-1/2 w-2/3 flex flex-row space-x-8">
+                    <p className="text-Cgrey text-md font-bold">
+                    {'특히 이 지역 젊은 작가들에게 다양하고 새로운 현대미술의 정보를 제공하고 국내,외 현대미술의 창의적인 작품들로 구성된 기획전시를 통하여'}
+                    <span className="text-Cpurple text-md">{'지역 국제 교류센터'}</span>
+                    {'로서의 역할을 하고자하며 예술가 뿐만 아니라 문화시민을 위해 제2의 교육기관으로 지역 사회단체의 문화예술교육 프로젝트뿐만 아니라 유소년, 청소냔, 어린이 등 '}
+                    <span className="text-Cpurple text-md">{'다양한 계층의 다양한 문화예술체험 교'}</span>
+                    <span className="text-Cpurple text-md">{'육기관'}</span>{'으로의 기능을 수행하고자 합니다.'}
+                </p>
+                <p className="text-Cgrey text-md font-bold">
+                    {'향후 예술가뿐만 아니라 문화시민을 위한 사회교육, 어린이 예술체험교육의 다양한 프로그램 개발과 독창적인 전시기획으로 내실을 다지고, 지역사회와 함께하는 사업을 추진하는 공공 미술관으로서의 역할을 하고자 합니다.'}
+                </p>
+            </div>
+            <div className="absolute right-0 bottom-10">
+                <Image 
+                    src="/img/intro/introduction/schema_image_보정.png"
+                    width={700}
+                    height={400}
+                    style={{
+                        width:"auto",
+                        height: "auto"
+                    }}
+                    alt="schema_background"
+                    property="true"
+                />
+            </div>
+        </div>
+    )
+};
