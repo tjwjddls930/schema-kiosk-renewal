@@ -16,7 +16,7 @@ export default function Mainpage() {
     const router = useRouter();
     function handleLanguage(e, lng, language) {
         // i18n.changeLanguage(lng);
-        setId(e.target.id)
+        setId(e.target.id);
         window.localStorage.setItem('language', language);
         window.localStorage.setItem('i18n', lng);
         // router.replace('/main', undefined, {locale: lng});
@@ -157,7 +157,7 @@ export default function Mainpage() {
                                         <div
                                             id="ko" 
                                             className="relative h-full w-full"
-                                            onClick={(e)=>handleLanguage(e, "ko", "Korean")}
+                                            // onClick={(e)=>handleLanguage(e, "ko", "Korean")}
                                         >
                                             <Image 
                                                 id="ko"
@@ -170,7 +170,7 @@ export default function Mainpage() {
                                                     height:"auto",
                                                     width:"auto"
                                                 }}
-                                                onClick={(e)=>handleLanguage(e, "ko", "Korean")}
+                                                // onClick={(e)=>handleLanguage(e, "ko", "Korean")}
                                             />
                                             <div className="absolute w-full h-20 bottom-0 pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
                                                 <span className="text-2xl font-bold z-40">한국어<br /></span>
@@ -186,7 +186,7 @@ export default function Mainpage() {
                                             id="en" 
                                             className="relative h-full w-full"
                                             // onClick={(e)=>handleClick(e)} 
-                                            onClick={(e)=>handleLanguage(e, "en", "English")}   
+                                            // onClick={(e)=>handleLanguage(e, "en", "English")}   
                                         >
                                             <Image 
                                                 id="en"
@@ -199,7 +199,7 @@ export default function Mainpage() {
                                                     height:"auto",
                                                     width:"auto"
                                                 }}
-                                                onClick={(e)=>handleLanguage(e, "en", "English")}
+                                                // onClick={(e)=>handleLanguage(e, "en", "English")}
                                             />
                                             <div className="absolute w-full h-20 bottom-0 pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
                                                 <span className="text-2xl font-bold">English<br /></span>
@@ -217,7 +217,7 @@ export default function Mainpage() {
                                             id="zh" 
                                             className="relative h-full w-full"
                                             // onClick={(e)=>handleClick(e)}
-                                            onClick={(e)=>handleLanguage(e, "zh", "Chinese")}
+                                            // onClick={(e)=>handleLanguage(e, "zh", "Chinese")}
                                         >
                                             <Image 
                                                 id="zh"
@@ -230,7 +230,7 @@ export default function Mainpage() {
                                                     height:"auto",
                                                     width:"auto"
                                                 }}
-                                                onClick={(e)=>handleLanguage(e, "zh", "Chinese")}
+                                                // onClick={(e)=>handleLanguage(e, "zh", "Chinese")}
                                             />
                                             <div className="absolute w-full h-20 bottom-0 pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
                                                 <span className="text-2xl font-bold z-40">中國語<br /></span>
@@ -246,7 +246,7 @@ export default function Mainpage() {
                                             id="th"
                                             className="relative h-full w-full"
                                             // onClick={(e)=>handleClick(e)}
-                                            onClick={(e)=>handleLanguage(e, "th", "Thai")}
+                                            // onClick={(e)=>handleLanguage(e, "th", "Thai")}
                                         >
                                             <Image 
                                                 id="th"
@@ -259,7 +259,7 @@ export default function Mainpage() {
                                                     height:"auto",
                                                     width:"auto"
                                                 }}
-                                                onClick={(e)=>handleLanguage(e, "th", "Thai")}
+                                                // onClick={(e)=>handleLanguage(e, "th", "Thai")}
                                             />
                                             <div className="absolute w-full h-20 bottom-0 pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
                                                 <span className="text-2xl font-bold">แบบไทย<br /></span>
@@ -275,7 +275,7 @@ export default function Mainpage() {
                                             id="vi" 
                                             className="relative h-full w-full"
                                             // onClick={(e)=>handleClick(e)}
-                                            onClick={(e)=>handleLanguage(e, "vi", "Vietnamese")}
+                                            // onClick={(e)=>handleLanguage(e, "vi", "Vietnamese")}
                                         >
                                             <Image 
                                                 id="vi"
@@ -288,7 +288,7 @@ export default function Mainpage() {
                                                     height:"auto",
                                                     width:"auto"
                                                 }}
-                                                onClick={(e)=>handleLanguage(e, "vi", "Vietnamese")}
+                                                // onClick={(e)=>handleLanguage(e, "vi", "Vietnamese")}
                                             />
                                             <div className="absolute w-full h-20 bottom-0 pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
                                                 <span className="text-2xl font-bold">Tiếng Việt<br /></span>
