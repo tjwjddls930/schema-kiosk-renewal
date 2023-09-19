@@ -320,7 +320,7 @@ export async function getStaticProps(context) {
     const {locale} = context;
     return{
         props: {
-            ...(await serverSideTranslations(locale, ['common']))
+            ...(await serverSideTranslations(locale, ['common', 'navbar']))
         }
     }
 };

@@ -96,12 +96,3 @@ export default function Pageframe({children}) {
         </div>
     )
 };
-
-export async function getStaticProps(context) {
-    const {locale} = context;
-    return{
-        props: {
-            ...(await serverSideTranslations(locale, ['navbar']))
-        }
-    }
-};
