@@ -15,16 +15,9 @@ export default function Mainpage() {
     const {t, i18n} = useTranslation('common');
     const router = useRouter();
     function handleLanguage(e, language) {
-        // i18n.changeLanguage(lng);
         setId(e.target.id);
         window.localStorage.setItem('language', language);
-        // router.replace('/main', undefined, {locale: lng});
     };
-    // useEffect(()=> {
-    //     if(localStorage.getItem("language") === null || localStorage.getItem("i18n") === null) {
-    //         handleLanguage("ko", "Korean");
-    //     }
-    // },[]);
 
     function changeLanguage(lng) {
         i18n.changeLanguage(lng);
@@ -45,7 +38,7 @@ export default function Mainpage() {
         <Pageframe>
             <div className="h-screen w-screen bg-[url('/img/mainpage/mainpage_bg_fix.png')]">
                 {/* 상단 로고 섹션 */}
-                <section className="w-full flex flex-row justify-between p-10 font-pretendard_bold">
+                <div className="w-full flex flex-row justify-between p-10 font-pretendard_bold">
                     <Image 
                        src="/img/mainpage/schema-logo.png"
                        width="160"
@@ -67,7 +60,7 @@ export default function Mainpage() {
                         </div>
                         <span className="rounded-lg shadow-md px-4 py-4 text-lg font-bold">23도</span>
                     </div>
-                </section>
+                </div>
                 {/* 중단 버튼 구역*/}
                 <section className="w-4/5 h-3/2 pt-10 px-14 flex flex-row space-x-5 mx-auto">
                     <div className="absolute transform -rotate-90 h-1 left-44 top-52">
