@@ -62,7 +62,7 @@ export default function Mainpage() {
                     </div>
                 </div>
                 {/* 중단 버튼 구역*/}
-                <section className="w-4/5 h-3/2 pt-10 px-14 flex flex-row space-x-5 mx-auto">
+                <div className="w-4/5 h-3/2 pt-10 px-14 flex flex-row space-x-5 mx-auto">
                     <div className="absolute transform -rotate-90 h-1 left-44 top-52">
                         <span className="text-Apurple font-bold">Schema</span>
                     </div>
@@ -101,9 +101,9 @@ export default function Mainpage() {
                     <div className="absolute transform rotate-90 right-36 bottom-60">
                         <span className="text-Apurple font-bold">Art Museum</span>
                     </div>
-                </section>
+                </div>
                 {/* 중단 텍스트 */}
-                <section className="flex flex-row space-x-4 text-md font-bold pt-7">
+                <div className="flex flex-row space-x-4 text-md font-bold pt-7">
                     <div className="mx-auto flex flex-row items-center">
                         <span className="text-Bpurple">{t("TIME_GUIDE")}</span>
                         <div className="mx-2 h-[12px] w-[0.5px] border border-Cgrey">
@@ -116,7 +116,7 @@ export default function Mainpage() {
                         </div>
                         <span className="text-Bgrey">{t("TIME_GUIDE_3")}</span>
                         </div>
-                </section>
+                </div>
                 {/* 언어변경 버튼 */}
                 <button 
                     className="absolute left-12 bottom-40 text-Bgrey space-y-4"
