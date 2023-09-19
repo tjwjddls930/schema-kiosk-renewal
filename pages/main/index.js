@@ -5,20 +5,21 @@ import { useState, useEffect } from "react";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
+import ReactSlider from "react-slider";
 
 export default function Mainpage() {
     const [modal, setModal] = useState();
     const [id, setId] = useState(null);
+    const [volume, setVolume] = useState(Number(0.5));    
     function toggleModal () {
         setModal(!modal);
     };
-    const {t, i18n} = useTranslation('common');
+    const {t, i18n} = useTranslation(['common', 'navbar']);
     const router = useRouter();
-    function handleLanguage(e, lng, language) {
+    function handleLanguage(e, language) {
         // i18n.changeLanguage(lng);
         setId(e.target.id);
         window.localStorage.setItem('language', language);
-        window.localStorage.setItem('i18n', lng);
         // router.replace('/main', undefined, {locale: lng});
     };
     // useEffect(()=> {
@@ -43,10 +44,10 @@ export default function Mainpage() {
     const ampm = hour >= 12 ? 'PM' : 'AM';  
 
     return(
-        <Pageframe>
+        <div className="h-[897.6px] w-[1522.4px]">
             <div className="h-screen w-screen bg-[url('/img/mainpage/mainpage_bg_fix.png')]">
                 {/* 상단 로고 섹션 */}
-                <section className="w-full flex flex-row justify-between p-10 font-pretendard_bold">
+                <div className="w-full flex flex-row justify-between p-10 font-pretendard_bold">
                     <Image 
                        src="/img/mainpage/schema-logo.png"
                        width="160"
@@ -68,9 +69,9 @@ export default function Mainpage() {
                         </div>
                         <span className="rounded-lg shadow-md px-4 py-4 text-lg font-bold">23도</span>
                     </div>
-                </section>
+                </div>
                 {/* 중단 버튼 구역*/}
-                <section className="w-4/5 h-3/2 pt-10 px-14 flex flex-row space-x-5 mx-auto">
+                <div className="w-4/5 h-3/2 pt-10 px-14 flex flex-row space-x-5 mx-auto">
                     <div className="absolute transform -rotate-90 h-1 left-44 top-52">
                         <span className="text-Apurple font-bold">Schema</span>
                     </div>
@@ -109,9 +110,9 @@ export default function Mainpage() {
                     <div className="absolute transform rotate-90 right-36 bottom-60">
                         <span className="text-Apurple font-bold">Art Museum</span>
                     </div>
-                </section>
+                </div>
                 {/* 중단 텍스트 */}
-                <section className="flex flex-row space-x-4 text-md font-bold pt-7">
+                <div className="flex flex-row space-x-4 text-md font-bold pt-7">
                     <div className="mx-auto flex flex-row items-center">
                         <span className="text-Bpurple">{t("TIME_GUIDE")}</span>
                         <div className="mx-2 h-[12px] w-[0.5px] border border-Cgrey">
@@ -124,7 +125,7 @@ export default function Mainpage() {
                         </div>
                         <span className="text-Bgrey">{t("TIME_GUIDE_3")}</span>
                         </div>
-                </section>
+                </div>
                 {/* 언어변경 버튼 */}
                 <button 
                     className="absolute left-12 bottom-40 text-Bgrey space-y-4"
@@ -157,7 +158,7 @@ export default function Mainpage() {
                                         <div
                                             id="ko" 
                                             className="relative h-full w-full"
-                                            onClick={(e)=>handleLanguage(e, "ko", "Korean")}
+                                            onClick={(e)=>handleLanguage(e, "Korean")}
                                         >
                                             <Image 
                                                 id="ko"
@@ -170,7 +171,7 @@ export default function Mainpage() {
                                                     height:"auto",
                                                     width:"auto"
                                                 }}
-                                                onClick={(e)=>handleLanguage(e, "ko", "Korean")}
+                                                onClick={(e)=>handleLanguage(e, "Korean")}
                                             />
                                             <div className="absolute w-full h-20 bottom-0 pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
                                                 <span className="text-2xl font-bold z-40">한국어<br /></span>
@@ -186,7 +187,7 @@ export default function Mainpage() {
                                             id="en" 
                                             className="relative h-full w-full"
                                             // onClick={(e)=>handleClick(e)} 
-                                            onClick={(e)=>handleLanguage(e, "en", "English")}   
+                                            onClick={(e)=>handleLanguage(e, "English")}   
                                         >
                                             <Image 
                                                 id="en"
@@ -199,7 +200,7 @@ export default function Mainpage() {
                                                     height:"auto",
                                                     width:"auto"
                                                 }}
-                                                onClick={(e)=>handleLanguage(e, "en", "English")}
+                                                onClick={(e)=>handleLanguage(e, "English")}
                                             />
                                             <div className="absolute w-full h-20 bottom-0 pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
                                                 <span className="text-2xl font-bold">English<br /></span>
@@ -217,7 +218,7 @@ export default function Mainpage() {
                                             id="zh" 
                                             className="relative h-full w-full"
                                             // onClick={(e)=>handleClick(e)}
-                                            onClick={(e)=>handleLanguage(e, "zh", "Chinese")}
+                                            onClick={(e)=>handleLanguage(e, "Chinese")}
                                         >
                                             <Image 
                                                 id="zh"
@@ -230,7 +231,7 @@ export default function Mainpage() {
                                                     height:"auto",
                                                     width:"auto"
                                                 }}
-                                                onClick={(e)=>handleLanguage(e, "zh", "Chinese")}
+                                                onClick={(e)=>handleLanguage(e, "Chinese")}
                                             />
                                             <div className="absolute w-full h-20 bottom-0 pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
                                                 <span className="text-2xl font-bold z-40">中國語<br /></span>
@@ -246,7 +247,7 @@ export default function Mainpage() {
                                             id="th"
                                             className="relative h-full w-full"
                                             // onClick={(e)=>handleClick(e)}
-                                            onClick={(e)=>handleLanguage(e, "th", "Thai")}
+                                            onClick={(e)=>handleLanguage(e, "Thai")}
                                         >
                                             <Image 
                                                 id="th"
@@ -259,7 +260,7 @@ export default function Mainpage() {
                                                     height:"auto",
                                                     width:"auto"
                                                 }}
-                                                onClick={(e)=>handleLanguage(e, "th", "Thai")}
+                                                onClick={(e)=>handleLanguage(e, "Thai")}
                                             />
                                             <div className="absolute w-full h-20 bottom-0 pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
                                                 <span className="text-2xl font-bold">แบบไทย<br /></span>
@@ -275,7 +276,7 @@ export default function Mainpage() {
                                             id="vi" 
                                             className="relative h-full w-full"
                                             // onClick={(e)=>handleClick(e)}
-                                            onClick={(e)=>handleLanguage(e, "vi", "Vietnamese")}
+                                            onClick={(e)=>handleLanguage(e, "Vietnamese")}
                                         >
                                             <Image 
                                                 id="vi"
@@ -288,7 +289,7 @@ export default function Mainpage() {
                                                     height:"auto",
                                                     width:"auto"
                                                 }}
-                                                onClick={(e)=>handleLanguage(e, "vi", "Vietnamese")}
+                                                onClick={(e)=>handleLanguage(e, "Vietnamese")}
                                             />
                                             <div className="absolute w-full h-20 bottom-0 pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
                                                 <span className="text-2xl font-bold">Tiếng Việt<br /></span>
@@ -320,7 +321,91 @@ export default function Mainpage() {
                     </div>
                 )}
             </div>
-        </Pageframe>
+            {/* navbar */}
+            <nav className="absolute bottom-0 w-full h-20 bg-black px-10">
+             <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5">
+                <div className="flex flex-row space-x-2 h-9 w-1/3 mx-auto">
+                    <Image 
+                        src={`/img/flags/${i18n.language}_circle.png`}
+                        height="50"
+                        width="50"
+                        alt="korea"
+                        style={{
+                            width: "auto",
+                            height: "auto"
+                        }}
+                    />
+                    <span className="text-2xl">{t("CURRENT_LANGUAGE")}</span>
+                </div>
+                <div className="flex flex-row space-x-1 h-9 w-3/4 rounded-full bg-Awhite justify-between">
+                    <div className="h-full w-1/2 rounded-full flex space-x-1 bg-gradient-to-r from-Agradient to-Bgradient">
+                        <div className="flex flex-row mx-auto space-x-2">
+                            <span className="text-md py-1">{t("HIGH")}</span>
+                            <Image 
+                                className="mx-auto py-1"
+                                src="/img/navbar/고대비_아이콘.png"
+                                height="20"
+                                width="20"
+                                alt="고대비"
+                                style={{
+                                    width: "auto",
+                                    height: "auto"
+                                }}
+                            /> 
+                        </div>                     
+                    </div>
+                    <div className="flex h-full w-1/2 rounded-full space-x-1">
+                        <div className="flex flex-row mx-auto space-x-2">
+                            <span className="text-Cgrey text-md py-1">{t("LOW")}</span>
+                            <Image 
+                                className="mx-auto py-1"
+                                src="/img/navbar/저대비_아이콘.png"
+                                height="20"
+                                width="20"
+                                alt="저대비"
+                                style={{
+                                    width: "auto",
+                                    height: "auto"
+                                }}
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className="flex flex-row h-9 w-[250px] justify-center text-center">
+                    <span className="text-xl w-[150px] mx-auto">{t("FONT_SIZE")}</span>
+                    <button className="rounded-full w-[100px] bg-Cgrey text-white font-bold">
+                        {t("BIG")}
+                    </button>
+                </div>
+                <div className="flex flex-row h-9 w-full justify-center">
+                    <span className="text-xl w-1/3">{t("VOLUME")}</span>
+                    <div className="w-2/3 bg-Cgrey rounded-full p-2">
+                        <ReactSlider 
+                            step={0.01}
+                            min={0}
+                            max={1}
+                            className="w-full h-3 bg-Awhite rounded-full cursor-grab mt-1"
+                            thumbClassName="absolute w-5 h-5 cursor-grab bg-Cpurple rounded-full border-2 border-Awhite -top-1"
+                            value={volume}
+                            onChange={(value)=> setVolume(value)}
+                        />
+                    </div>
+                </div>
+                <div className="flex flex-row w-[250px] justify-center text-center">
+                    <span className="text-xl w-[170px] mx-auto">{t("SOUND_GUIDE")}</span>
+                    <button className="rounded-full w-[80px] bg-Cgrey text-white font-bold">
+                        {t("START")}
+                    </button>
+                </div>
+                <div className="flex flex-row w-[250px] justify-center text-center">
+                    <span className="text-xl w-[170px] mx-auto">{t("SIGN_LANGUAGE")}</span>
+                    <button className="rounded-full w-[80px] bg-Cgrey text-white font-bold">
+                        {t("START")}
+                    </button>
+                </div>
+             </div>
+            </nav>
+        </div>
     )
 };
 
