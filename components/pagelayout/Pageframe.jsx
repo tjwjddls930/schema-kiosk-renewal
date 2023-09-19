@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import ReactSlider from "react-slider";
 
 export default function Pageframe({children}) {
-    // const [volume, setVolume] = useState(Number(0.5));
+    const [volume, setVolume] = useState(Number(0.5));
     const {t, i18n} = useTranslation('navbar');
     return(
         <div className="h-[897.6px] w-[1522.4px]">
@@ -68,7 +68,7 @@ export default function Pageframe({children}) {
                 <div className="flex flex-row h-9 w-full justify-center">
                     <span className="text-xl w-1/3">{t("VOLUME")}</span>
                     <div className="w-2/3 bg-Cgrey rounded-full p-2">
-                        {/* <ReactSlider 
+                        <ReactSlider 
                             step={0.01}
                             min={0}
                             max={1}
@@ -76,7 +76,7 @@ export default function Pageframe({children}) {
                             thumbClassName="absolute w-5 h-5 cursor-grab bg-Cpurple rounded-full border-2 border-Awhite -top-1"
                             value={volume}
                             onChange={(value)=> setVolume(value)}
-                        /> */}
+                        />
                     </div>
                 </div>
                 <div className="flex flex-row w-[250px] justify-center text-center">

@@ -52,10 +52,13 @@ export default function Mainpage() {
                     <span className="text-Cgrey font-bold text-2xl">{t("MAIN_TOP")}</span>
                     <div className="flex flex-row space-x-2 text-black">
                         <div className="flex flex-col">
-                            <span className="font-bold text-lg">{year}.{month}.{date}/{day}</span>
+                            {/* <span className="font-bold text-lg">{year}.{month}.{date}/{day}</span> */}
+                            <span className="font-bold text-lg">{'2023.09.19/화'}</span>
                             <div className="flex flex-row space-x-4 mx-auto">
-                                <span className="font-bold text-lg pt-1">{ampm}</span> 
-                                <span className="font-bold text-2xl">{hour}:{minutes}</span>
+                                {/* <span className="font-bold text-lg pt-1">{ampm}</span> 
+                                <span className="font-bold text-2xl">{hour}:{minutes}</span> */}
+                                <span className="font-bold text-lg pt-1">{'AM'}</span> 
+                                <span className="font-bold text-2xl">{'11:45'}</span>
                             </div>
                         </div>
                         <span className="rounded-lg shadow-md px-4 py-4 text-lg font-bold">23도</span>
