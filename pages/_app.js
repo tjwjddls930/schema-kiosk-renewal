@@ -3,6 +3,7 @@ import { appWithTranslation } from 'next-i18next';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Loading from '@/components/loading/Loading';
+import { Suspense } from 'react';
 
 function App({ Component, pageProps }) {
   const router = useRouter();
@@ -27,7 +28,11 @@ function App({ Component, pageProps }) {
   }, [router.events])
   
   return(
-    <>{loading ? <Loading/> : <Component {...pageProps} />}</>
+    <>{loading ? 
+      <Loading/> : 
+      <Suspense fallback={null}>
+        <Component {...pageProps} />  
+      </Suspense>}</>
   )
 };
 
