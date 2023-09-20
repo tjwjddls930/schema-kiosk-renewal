@@ -24,7 +24,7 @@ export default function Introlayout({children}) {
                         <span className="text-Awhite text-xl font-bold mt-2">{'> 미술관 소개 및 구조'}</span>
                     </div>
                     <div>
-                        <span className="text-Awhite textlg font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
+                        <span className="text-Awhite text-md font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
                     </div>
                 </div>
                 {children}

@@ -1,14 +1,29 @@
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ReactSlider from "react-slider";
+import Soundguide from "../docent/Soundguide";
 
 export default function Pageframe({children}) {
     const [volume, setVolume] = useState(Number(0.5));
+    const [soundguide, setSoundguide] = useState(false);
+    function toggleDocent () {
+        setSoundguide(!soundguide);
+    };
     const {t, i18n} = useTranslation('navbar');
     return(
         <div className="h-[897.6px] w-[1522.4px]">
             {children}
+            {soundguide && (
+                <div className="absolute top-0 left-0 h-[91%] w-screen bg-black bg-opacity-60 z-20">
+                    <Soundguide 
+                        videoUrl={"/video/docent/removed-test5.webm"}
+                        volume={Number(volume)}
+                        playing={true}
+                        end={toggleDocent}
+                    />
+                </div>
+            )}
             {/* navbar */}
             <nav className="absolute bottom-0 w-full h-20 bg-black px-10">
              <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5">
@@ -81,8 +96,11 @@ export default function Pageframe({children}) {
                 </div>
                 <div className="flex flex-row w-[250px] justify-center text-center">
                     <span className="text-xl w-[170px] mx-auto">{t("SOUND_GUIDE")}</span>
-                    <button className="rounded-full w-[80px] bg-Cgrey text-white font-bold">
-                        {t("START")}
+                    <button
+                        onClick={toggleDocent} 
+                        className="rounded-full w-[80px] bg-Cgrey text-white font-bold">
+                        {/* {soundguide ? {t("STOP")} : {t("START")}} */}
+                        {soundguide ? t("STOP") : t("START")}
                     </button>
                 </div>
                 <div className="flex flex-row w-[250px] justify-center text-center">

@@ -22,20 +22,12 @@ export default function Awardcontent({imgname, engname, name, career}) {
     ]
     
     return(
-        <div className="w-11/12 h-5/6 mx-auto px-20 py-12 flex flex-row">
-            <div className="absolute left-16 top-96 h-[400px]">
-                <div className="flex flex-col space-y-2">
-                    <div className="h-2 w-2 bg-Cpurple rounded-full"></div>
-                    <div className="h-2 w-2 bg-Cpurple rounded-full"></div>
-                    <div className="h-2 w-2 bg-Cpurple rounded-full"></div>
-                </div>
-            </div>
-            <div className="absolute left-24 top-64 h-[400px] w-6 rounded-r-xl bg-Cpurple"></div>
-            <div className="flex flex-col sticky">
-                <div className="border-2 border-Awhite">
+        <div className="w-11/12 h-3/4 mx-auto px-20 py-4 flex flex-row">
+            <div className="flex flex-col">
+                <div className="border-4 border-Awhite h-[400px] w-[530px]">
                     <img 
                         src={`/img/intro/award/${imgname}`}
-                        className="h-[400px] w-[550px] mx-auto shadow-lg mb-4"
+                        className="h-[392px] w-[530px] mx-auto shadow-lg mb-4"
                         alt="artist"
                     />
                 </div>

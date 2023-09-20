@@ -49,7 +49,10 @@ export default function Mainpage() {
                         height: "auto"
                        }}
                     />
-                    <span className="text-Cgrey font-bold text-2xl">{t("MAIN_TOP")}</span>
+                    <div className="h-[0.5px] flex flex-col mx-auto text-center items-center space-y-8">
+                        <span className="text-black font-bold text-2xl">{t("MAIN_TOP1")}</span>
+                        <span className="text-Cgrey font-bold text-xl">{t("MAIN_TOP2")}</span>
+                    </div>
                     <div className="flex flex-row space-x-2 text-black">
                         <div className="flex flex-col">
                             {/* <span className="font-bold text-lg">{year}.{month}.{date}/{day}</span> */}
@@ -64,40 +67,63 @@ export default function Mainpage() {
                         <span className="rounded-lg shadow-md px-4 py-4 text-lg font-bold">23도</span>
                     </div>
                 </div>
+                
                 {/* 중단 버튼 구역*/}
                 <div className="w-4/5 h-3/2 pt-10 px-14 flex flex-row space-x-5 mx-auto">
                     <div className="absolute transform -rotate-90 h-1 left-44 top-52">
                         <span className="text-Apurple font-bold">Schema</span>
                     </div>
-                    <div className="flex flex-col space-y-5 text-Agrey shadow-md rounded-sm">
-                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/미술관소개_배경_보정.png')]">
+                    <div className="flex flex-col space-y-5 text-Awhite shadow-md rounded-sm">
+                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/전시안내_배경_보정_1.png')]">
                             <Link href="/intro">
-                                <span className="text-xl font-bold">{t("MAIN_INTRO")}<br /></span>
-                                <span className="text-md font-bold">{t("MAIN_INTRO_1")} <br /> {t("MAIN_INTRO_2")} <br /> {t("MAIN_INTRO_3")}</span>
+                                    <div className="flex flex-col space-y-1">
+                                        <span className="text-2xl font-bold">{t("MAIN_INTRO")}</span>
+                                        <span className="text-xl font-bold pb-2">{'Gallery Guide'}</span>
+                                        <span className="text-md font-bold">{t("MAIN_INTRO_1")}</span>
+                                        <span className="text-md font-bold">{t("MAIN_INTRO_2")}</span>
+                                    </div>
                             </Link>
                         </button>
                         <button className="w-[300px] h-[250px] text-center bg-Bpurple text-white shadow-md rounded-sm">
-                            <span className="text-xl font-bold">{t("MAIN_CHATBOT")}<br /></span>
-                            <span className="text-md font-bold">{t("MAIN_CHATBOT_1")}</span>
+                            <div className="flex flex-col space-y-1">
+                                <span className="text-2xl font-bold">{t("MAIN_CHATBOT")}</span>
+                                <span className="text-xl font-bold pb-2">{'Gallery Guide'}</span>
+                                <span className="text-md font-bold">{t("MAIN_CHATBOT_1")}</span>
+                            </div>
                         </button>
                     </div>
-                    <div className="flex w-full bg-[url('/img/mainpage/전시안내_배경_보정.png')] items-center shadow-md">
-                        <button className="w-5/6 h-5/6 border-4 border-Bpurple bg-opacity-0 mx-auto">
+                    <div className="flex w-full bg-[url('/img/관장님_작품/jae_1.png')] bg-cover bg-no-repeat items-center shadow-md">
+                        {/* <div className="absolute h-full w-full bg-slate-300 bg-opacity-60"></div> */}
+                        <button className="w-[400px] h-[450px] border-4 border-Bpurple bg-slate-300 bg-opacity-70 mx-auto z-10">
                             <Link href="/exhibit">
-                                <span className="text-2xl font-bold">{t("MAIN_EXHIBIT_GUIDE")} <br /></span>
-                                <span className="text-lg font-bold">{t("MAIN_EXHIBIT_GUIDE_1")}</span>
+                                <div className="flex flex-col space-y-1">
+                                    <div className="flex flex-row space-x-2 pb-2 mx-auto">
+                                        <div className="w-1 h-1 bg-Cpurple rounded-full" />
+                                        <div className="w-1 h-1 bg-Cpurple rounded-full" />
+                                        <div className="w-1 h-1 bg-Cpurple rounded-full" />
+                                    </div>
+                                    <span className="text-2xl font-bold text-black">{t("MAIN_EXHIBIT_GUIDE")}</span>
+                                    <span className="text-lg font-bold text-black pb-3">{'Exhibition Guide'}</span>
+                                    <span className="text-lg font-bold text-Agrey">{t("MAIN_EXHIBIT_GUIDE_1")}</span>
+                                </div>
                             </Link>
                         </button>
                     </div>
                     <div className="flex flex-col space-y-5 text-Awhite shadow-md rounded-sm">
-                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/교육프로그램_배경_보정.png')]">
-                            <span className="text-xl font-bold">{t("MAIN_EDUCATION")}<br /></span>
-                            <span className="text-md font-bold">{t("MAIN_EDUCATION_1")}</span>
+                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/교육프로그램_배경_보정_1.png')]">
+                            <div className="flex flex-col space-y-1">
+                                <span className="text-2xl font-bold">{t("MAIN_EDUCATION")}</span>
+                                <span className="text-xl font-bold pb-2">{'Education Program'}</span>
+                                <span className="text-md font-bold">{t("MAIN_EDUCATION_1")}</span>
+                            </div>
                         </button>
-                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/시설안내_배경_보정.png')] text-white shadow-md rounded-sm">
+                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/시설안내_배경_보정_1.png')] text-white shadow-md rounded-sm">
                             <Link href="/facility">
-                                <span className="text-xl font-bold">{t("MAIN_FACILITY_GUIDE")}<br /></span>
-                                <span className="text-md font-bold">{t("MAIN_FACILITY_GUIDE_1")}</span>
+                                <div className="flex flex-col space-y-1">
+                                    <span className="text-2xl font-bold">{t("MAIN_FACILITY_GUIDE")}</span>
+                                    <span className="text-xl font-bold pb-2">{'Gallery Guide'}</span>
+                                    <span className="text-md font-bold">{t("MAIN_FACILITY_GUIDE_1")}</span>
+                                </div>
                             </Link>
                         </button>
                     </div>
