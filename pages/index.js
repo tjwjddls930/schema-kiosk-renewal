@@ -21,7 +21,7 @@ export default function Mainpage() {
 
     function changeLanguage(lng) {
         i18n.changeLanguage(lng);
-        router.replace('/main', undefined, {locale:lng});
+        router.replace('/', undefined, {locale:lng});
         setModal(!modal);
     }
     const today = new Date();
@@ -50,8 +50,8 @@ export default function Mainpage() {
                        }}
                     />
                     <div className="h-[0.5px] flex flex-col mx-auto text-center items-center space-y-8">
-                        <span className="text-black font-bold text-2xl">{t("MAIN_TOP1")}</span>
-                        <span className="text-Cgrey font-bold text-xl">{t("MAIN_TOP2")}</span>
+                        <span className="text-black font-bold text-2xl">{t("MAIN_TOP_1")}</span>
+                        <span className="text-Cgrey font-bold text-xl">{t("MAIN_TOP_2")}</span>
                     </div>
                     <div className="flex flex-row space-x-2 text-black">
                         <div className="flex flex-col">

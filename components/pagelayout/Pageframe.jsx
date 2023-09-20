@@ -100,7 +100,8 @@ export default function Pageframe({children}) {
                         onClick={toggleDocent} 
                         className="rounded-full w-[80px] bg-Cgrey text-white font-bold">
                         {/* {soundguide ? {t("STOP")} : {t("START")}} */}
-                        {soundguide ? t("STOP") : t("START")}
+                        {/* {soundguide ? t("STOP") : t("START")} */}
+                        {t("START")}
                     </button>
                 </div>
                 <div className="flex flex-row w-[250px] justify-center text-center">
