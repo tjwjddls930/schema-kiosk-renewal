@@ -5,25 +5,23 @@ import ReactSlider from "react-slider";
 import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
 
-export default function Pageframe({children}) {
+export default function Viewpageframe({children}) {
     const [volume, setVolume] = useState(Number(0.5));
     const [soundguide, setSoundguide] = useState(false);
     const [con, setCon] = useState(true);
     const {t, i18n} = useTranslation('navbar');
 
     return(
-        <div className="h-[897.6px] w-[1522.4px]">
+        <div className="h-[897.6px] w-[1522.4px] bg-[url('/img/exhibitpage/icons/작품관람_배경_1.png')] bg-cover">
             {children}
             {soundguide && (
-                <div className="absolute top-0 left-0 h-[91%] w-screen bg-black bg-opacity-60 z-20">
-                    <div className="flex mx-auto h-[530px] w-[530px] pt-40">
-                        <Soundguide 
-                            videoUrl={"/video/docent/removed-test5.webm"}
-                            volume={Number(volume)}
-                            playing={true}
-                            end={()=>setSoundguide(!soundguide)}
-                        />
-                    </div>
+                <div className="absolute bottom-20 right-4 h-[350px] w-[350px] z-20">
+                    <Soundguide 
+                        videoUrl={"/video/docent/removed-test5.webm"}
+                        volume={Number(volume)}
+                        playing={true}
+                        end={()=>setSoundguide(!soundguide)}
+                    />
                 </div>
             )}
             {/* navbar */}
@@ -80,7 +78,7 @@ export default function Pageframe({children}) {
                                 </div></>}
                             </div>
                     </label>
-                </div>
+                </div>       
                 <div className="flex flex-row h-9 w-[250px] justify-center text-center">
                     <span className="text-xl w-[150px] mx-auto">{t("FONT_SIZE")}</span>
                     <button className="rounded-full w-[100px] bg-Cgrey text-white font-bold">
@@ -98,10 +96,10 @@ export default function Pageframe({children}) {
                             thumbClassName="absolute w-5 h-5 cursor-grab bg-Cpurple rounded-full border-2 border-Awhite -top-1"
                             trackClassName="top-0 bottom-0 bg-Awhite bg-Cpurple"
                             renderTrack={(props, state)=> (
-                            <div {...props} 
-                                className={clsx('h-3 rounded-full cursor-pointer', {
-                                    'bg-Awhite' : state.index === 1,
-                                    'bg-Cpurple': state.index === 0
+                                <div {...props} 
+                                    className={clsx('h-3 rounded-full cursor-pointer', {
+                                        'bg-Awhite' : state.index === 1,
+                                        'bg-Cpurple': state.index === 0
                                 })}></div>)}
                             value={volume}
                             onChange={(value)=> setVolume(value)}

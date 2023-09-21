@@ -93,7 +93,6 @@ export default function Mainpage() {
                         </button>
                     </div>
                     <div className="flex w-full bg-[url('/img/관장님_작품/jae_1.png')] bg-cover bg-no-repeat items-center shadow-md">
-                        {/* <div className="absolute h-full w-full bg-slate-300 bg-opacity-60"></div> */}
                         <button className="w-[400px] h-[450px] border-4 border-Bpurple bg-slate-300 bg-opacity-70 mx-auto z-10">
                             <Link href="/exhibit">
                                 <div className="flex flex-col space-y-1">

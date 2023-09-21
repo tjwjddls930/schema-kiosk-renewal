@@ -59,9 +59,9 @@ export default function Presentpage() {
                     <AnimatePresence>
                         <motion.div
                             key={artist ? artist.order : ""}
-                            intitial={{y: 10, opacity: 0}}
+                            intitial={{y: 5, opacity: 0}}
                             animate={{y: 0, opacity: 1}}
-                            exit={{y: -10, opacity: 0}}
+                            exit={{y: -5, opacity: 0}}
                             transition={{duration: 0.2}}
                         >
                             {artist ? <Artistcontent 

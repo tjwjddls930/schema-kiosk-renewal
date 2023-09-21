@@ -1,4 +1,5 @@
-import { useState, useRef, useEffect } from "react"
+import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
 
 export default function Paintcontent() {
     const maxScrollWidth = useRef(0);
@@ -82,7 +83,7 @@ export default function Paintcontent() {
                 {paintdata.map((item, index)=> (
                     <div
                         key={item.order} 
-                        className="h-[500px] w-[300px] flex flex-col">
+                        className="h-[575px] w-[300px] flex flex-col">
                         <div className="w-[300px] flex justify-between p-2">
                             <div
                                 key={item.imgname} 
@@ -103,12 +104,14 @@ export default function Paintcontent() {
                             <div className="absolute h-20 w-full bg-black bg-opacity-50 bottom-0 left-0">
                                 <div className="flex justify-between p-4">
                                     <span className="font-bold pt-2">{'작품 감상하기'}</span>
-                                    <button className="bg-black rounded-full h-10 w-10 items-cetner text-center">
-                                        <img 
-                                            src="/img/exhibitpage/icons/화살표버튼.png"
-                                            alt="arrow"
-                                        />
-                                    </button>
+                                    <Link href="/exhibit/present/artist/paint/viewpage">
+                                        <button className="bg-black rounded-full h-10 w-10 items-cetner text-center">
+                                            <img 
+                                                src="/img/exhibitpage/icons/화살표버튼.png"
+                                                alt="arrow"
+                                            />
+                                        </button>
+                                    </Link>    
                                 </div>
                             </div>
                         </div>
@@ -118,6 +121,13 @@ export default function Paintcontent() {
             <button className="absolute h-14 w-[200px] text-xl font-bold text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient bottom-48 left-10 shadow-md">
                     {'작가노트 보기'}
             </button>
+            <div className="h-[60px] w-[300px] absolute bottom-36 right-72">
+                <div className="flex flex-row space-x-2">
+                    <div className="h-2 w-2 bg-Cpurple rounded-full" />
+                    <div className="h-2 w-2 bg-Cpurple rounded-full" />
+                    <div className="h-2 w-2 bg-Cpurple rounded-full" />
+                </div>
+            </div>
             <button 
                 // onClick={()=> prevExhibit()}
                 onClick={prevExhibit}

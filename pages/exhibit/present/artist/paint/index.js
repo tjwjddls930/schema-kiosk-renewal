@@ -6,8 +6,7 @@ import { paintData } from "@/data/paintData";
 export default function Painselect() {
     return(
         <Paintlayout>
-            <Paintcontent 
-            />
+            <Paintcontent />
         </Paintlayout>
     )
 };

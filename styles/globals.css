@@ -90,3 +90,16 @@ body {
     background: transparent;
   }
 }
+
+input {
+  background-color: #5A58C0;
+}
+
+input:checked {
+  background-color: #ffffff;
+}
+
+input:checked ~ #toggle {
+  --tw-translate-x: 6.5rem;
+  font-style: #ffffff;
+}
