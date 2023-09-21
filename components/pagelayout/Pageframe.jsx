@@ -52,7 +52,7 @@ export default function Pageframe({children}) {
                                 className="bg-gradient-to-r from-Agradient to-Bgradient absolute left-0 h-9 pt-1 w-[100px] transform rounded-full text-center transition-transform"
                                 onClick={()=> setCon(!con)}
                             >
-                                {con ? <><span className="text-Awhite text-base absolute left-3">{'고대비'}</span>
+                                {con ? <><span className="text-Awhite text-base absolute left-3">{t("HIGH")}</span>
                                 <div className="absolute bottom-2 right-3">
                                     <Image 
                                         src="/img/navbar/고대비_아이콘.png"
@@ -65,7 +65,7 @@ export default function Pageframe({children}) {
                                         }}
                                     />
                                 </div></> : <>
-                                <span className="text-Dgrey text-base absolute left-3">{'저대비'}</span>
+                                <span className="text-Dgrey text-base absolute left-3">{t("LOW")}</span>
                                 <div className="absolute bottom-2 right-3">
                                     <Image 
                                         src="/img/navbar/저대비_아이콘.png"

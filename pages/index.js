@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 export default function Mainpage() {
     const [modal, setModal] = useState(false);
     const [id, setId] = useState(null);
+    const [weather, setWeather] = useState([]);
     function toggleModal () {
         setModal(!modal);
     };
@@ -23,7 +24,19 @@ export default function Mainpage() {
         i18n.changeLanguage(lng);
         router.replace('/', undefined, {locale:lng});
         setModal(!modal);
-    }
+    };
+
+    useEffect(()=> {
+        const getWeather = async function() {
+            const response = await fetch(`/api/weather`);
+            const json = await response.json();
+            const temperature = json[0].main['temp'] - 273.15;
+            setWeather(Math.round(temperature));
+            // console.log(json[0].main['temp']);
+        };
+        getWeather();
+    });
+
     const today = new Date();
     const year = today.getFullYear();
     const month = today.getMonth() + 1;
@@ -64,7 +77,7 @@ export default function Mainpage() {
                                 <span className="font-bold text-2xl">{'11:45'}</span>
                             </div>
                         </div>
-                        <span className="rounded-lg shadow-md px-4 py-4 text-lg font-bold">23도</span>
+                        <span className="rounded-lg shadow-md px-4 py-4 text-lg font-bold">{weather}{'º'}</span>
                     </div>
                 </div>
                 
@@ -73,8 +86,8 @@ export default function Mainpage() {
                     <div className="absolute transform -rotate-90 h-1 left-44 top-52">
                         <span className="text-Apurple font-bold">Schema</span>
                     </div>
-                    <div className="flex flex-col space-y-5 text-Awhite shadow-md rounded-sm">
-                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/전시안내_배경_보정_1.png')]">
+                    <div className="flex flex-col space-y-5 text-Awhite">
+                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/전시안내_배경_보정_1.png')] shadow-lg rounded-lg">
                             <Link href="/intro">
                                     <div className="flex flex-col space-y-1">
                                         <span className="text-2xl font-bold">{t("MAIN_INTRO")}</span>
@@ -84,7 +97,7 @@ export default function Mainpage() {
                                     </div>
                             </Link>
                         </button>
-                        <button className="w-[300px] h-[250px] text-center bg-Bpurple text-white shadow-md rounded-sm">
+                        <button className="w-[300px] h-[250px] text-center bg-Bpurple text-white shadow-lg rounded-lg">
                             <div className="flex flex-col space-y-1">
                                 <span className="text-2xl font-bold">{t("MAIN_CHATBOT")}</span>
                                 <span className="text-xl font-bold pb-2">{'Gallery Guide'}</span>
@@ -92,7 +105,7 @@ export default function Mainpage() {
                             </div>
                         </button>
                     </div>
-                    <div className="flex w-full bg-[url('/img/관장님_작품/jae_1.png')] bg-cover bg-no-repeat items-center shadow-md">
+                    <div className="flex w-full bg-[url('/img/관장님_작품/jae_1.png')] bg-cover bg-no-repeat items-center shadow-lg rounded-lg">
                         <button className="w-[400px] h-[450px] border-4 border-Bpurple bg-slate-300 bg-opacity-70 mx-auto z-10">
                             <Link href="/exhibit">
                                 <div className="flex flex-col space-y-1">
@@ -108,15 +121,15 @@ export default function Mainpage() {
                             </Link>
                         </button>
                     </div>
-                    <div className="flex flex-col space-y-5 text-Awhite shadow-md rounded-sm">
-                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/교육프로그램_배경_보정_1.png')]">
+                    <div className="flex flex-col space-y-5 text-Awhite">
+                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/교육프로그램_배경_보정_1.png')] shadow-lg rounded-lg">
                             <div className="flex flex-col space-y-1">
                                 <span className="text-2xl font-bold">{t("MAIN_EDUCATION")}</span>
                                 <span className="text-xl font-bold pb-2">{'Education Program'}</span>
                                 <span className="text-md font-bold">{t("MAIN_EDUCATION_1")}</span>
                             </div>
                         </button>
-                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/시설안내_배경_보정_1.png')] text-white shadow-md rounded-sm">
+                        <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/시설안내_배경_보정_1.png')] text-white shadow-lg rounded-lg">
                             <Link href="/facility">
                                 <div className="flex flex-col space-y-1">
                                     <span className="text-2xl font-bold">{t("MAIN_FACILITY_GUIDE")}</span>

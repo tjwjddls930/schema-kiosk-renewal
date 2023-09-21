@@ -22,7 +22,7 @@ export default function Awardcontent({imgname, engname, name, career}) {
     ]
     
     return(
-        <div className="w-11/12 h-3/4 mx-auto px-20 py-4 flex flex-row">
+        <div className="w-11/12 h-3/4 mx-auto px-20 py-12 flex flex-row">
             <div className="flex flex-col">
                 <div className="border-4 border-Awhite h-[400px] w-[530px]">
                     <img 
