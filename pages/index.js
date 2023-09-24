@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 export default function Mainpage() {
     const [modal, setModal] = useState(false);
     const [id, setId] = useState(null);
-    const [weather, setWeather] = useState([]);
+    const [weather, setWeather] = useState(24);
     function toggleModal () {
         setModal(!modal);
     };
@@ -30,9 +30,9 @@ export default function Mainpage() {
         const getWeather = async function() {
             const response = await fetch(`/api/weather`);
             const json = await response.json();
-            const temperature = json[0].main[temp] - 273.15;
-            setWeather(Math.round(temperature));
-            console.log(json[0].main);
+            // const temperature = json[0].main['temp'] - 273.15;
+            // setWeather(Math.round(temperature));
+            console.log(json);
         };
         getWeather();
     });
