@@ -32,7 +32,7 @@ export default function Mainpage() {
             const json = await response.json();
             const temperature = json[0].main[temp] - 273.15;
             setWeather(Math.round(temperature));
-            // console.log(json[0].main);
+            console.log(json[0].main);
         };
         getWeather();
     });
