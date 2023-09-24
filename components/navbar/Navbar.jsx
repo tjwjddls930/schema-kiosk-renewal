@@ -1,38 +1,31 @@
-import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import { useState } from "react";
 import ReactSlider from "react-slider";
+import { useTranslation } from "next-i18next";
 import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
-import Navbar from "../navbar/Navbar";
 
-export default function Pageframe({children}) {
-    // const [volume, setVolume] = useState(Number(0.5));
-    // const [soundguide, setSoundguide] = useState(false);
-    // const [con, setCon] = useState(true);
-    // const {t, i18n} = useTranslation('navbar');
-
+export default function Navbar({url}) {
+    const [volume, setVolume] = useState(Number(0.5));
+    const [soundguide, setSoundguide] = useState(false);
+    const [con, setCon] = useState(true);
+    const {t, i18n} = useTranslation('navbar');
     return(
-        <div className="h-[897.6px] w-[1522.4px]">
-            {children}
-            {/* {soundguide && (
-                <div className="absolute top-0 left-0 h-[91%] w-screen bg-black bg-opacity-60 z-20">
+        <>
+        {soundguide && (
+                <div className="absolute top-0 left-0 h-[91%] w-screen bg-Ablack bg-opacity-60 z-20">
                     <div className="flex mx-auto h-[530px] w-[530px] pt-40">
                         <Soundguide 
-                            videoUrl={"/video/docent/blue-docent-test-02-removed.webm"}
+                            videoUrl={url}
                             volume={Number(volume)}
                             playing={true}
                             end={()=>setSoundguide(!soundguide)}
                         />
                     </div>
                 </div>
-            )} */}
-            {/* navbar */}
-            <Navbar 
-                url={"/video/docent/blue-docent-test-02-removed.webm"}
-            />
-            {/* <nav className="absolute bottom-0 w-full h-20 bg-black px-10">
-             <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5">
+            )}
+           <nav className="absolute bottom-0 w-full h-20 bg-Ablack px-10">
+                <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5">
                 <div className="flex flex-row space-x-2 h-9 w-1/3 mx-auto">
                     <Image 
                         src={`/img/flags/${i18n.language}_circle.png`}
@@ -118,6 +111,7 @@ export default function Pageframe({children}) {
                         onClick={()=>setSoundguide(!soundguide)} 
                         className="rounded-full w-[80px] bg-Cgrey text-white font-bold">
                         {soundguide ? t("STOP") : t("START")}
+                        {/* {t("START")} */}
                     </button>
                 </div>
                 <div className="flex flex-row w-[250px] justify-center text-center">
@@ -126,8 +120,8 @@ export default function Pageframe({children}) {
                         {t("START")}
                     </button>
                 </div>
-             </div>
-            </nav> */}
-        </div>
+                </div>
+            </nav> 
+        </>
     )
-};
+}

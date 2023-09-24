@@ -1,0 +1,15 @@
+import React from "react";
+import { useRouter } from "next/router";
+
+const Author = () => {
+  const router = useRouter();
+  const pid = router.query.slug; // 'slug'([slug]) is the name of the dynamic parameter
+
+  return (
+    <>
+      <h1>author [slug]: {pid}</h1>
+    </>
+  );
+};
+
+export default Author;

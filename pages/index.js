@@ -5,15 +5,14 @@ import { useState, useEffect } from "react";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
+// import LanguagePopup from "@/components/popup/LanguagePopup";
 
 export default function Mainpage() {
     const [modal, setModal] = useState(false);
     const [id, setId] = useState(null);
     const [weather, setWeather] = useState([]);
-    function toggleModal () {
-        setModal(!modal);
-    };
-    const {t, i18n} = useTranslation('common');
+
+    const {t} = useTranslation('common');
     const router = useRouter();
     function handleLanguage(e, language) {
         setId(e.target.id);
@@ -123,11 +122,13 @@ export default function Mainpage() {
                     </div>
                     <div className="flex flex-col space-y-5 text-Awhite">
                         <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/교육프로그램_배경_보정_1.png')] shadow-lg rounded-lg">
-                            <div className="flex flex-col space-y-1">
-                                <span className="text-2xl font-bold">{t("MAIN_EDUCATION")}</span>
-                                <span className="text-xl font-bold pb-2">{'Education Program'}</span>
-                                <span className="text-md font-bold">{t("MAIN_EDUCATION_1")}</span>
-                            </div>
+                            <Link href="/education">
+                                <div className="flex flex-col space-y-1">
+                                    <span className="text-2xl font-bold">{t("MAIN_EDUCATION")}</span>
+                                    <span className="text-xl font-bold pb-2">{'Education Program'}</span>
+                                    <span className="text-md font-bold">{t("MAIN_EDUCATION_1")}</span>
+                                </div>
+                            </Link>
                         </button>
                         <button className="w-[300px] h-[250px] text-center bg-[url('/img/mainpage/시설안내_배경_보정_1.png')] text-white shadow-lg rounded-lg">
                             <Link href="/facility">
@@ -161,7 +162,7 @@ export default function Mainpage() {
                 {/* 언어변경 버튼 */}
                 <button 
                     className="absolute left-12 bottom-40 text-Bgrey space-y-4"
-                    onClick={toggleModal}    
+                    onClick={()=> setModal(!modal)}    
                 >
                     <div className="flex flex-col">
                         <div className="border-4 border-Cpurple rounded-full w-20 h-20 items-center bg-Awhite">
@@ -332,7 +333,7 @@ export default function Mainpage() {
                                 </div>
                                 <div className="flex flex-row mx-auto space-x-6 z-40">
                                     <button className="h-16 w-[250px] z-40 bg-Awhite shadow-lg rounded-full text-black font-bold text-2xl"
-                                        onClick={toggleModal}
+                                        onClick={()=> setModal(!modal)}
                                     >
                                         취소하기
                                     </button>
