@@ -70,11 +70,12 @@ const CoverflowCarousel = () => {
                       <figure className="relative">
                         <Link href={`/education/program/${id}`}>
                           <Image
-                            width={379}
+                            width={450}
                             height={430}
                             src={img}
                             alt={title}
-                            className="swiper-lazy h-[430px] w-full object-cover"
+                            priority={true}
+                            className="swiper-lazy object-cover"
                           />
                         </Link>
                       </figure>
