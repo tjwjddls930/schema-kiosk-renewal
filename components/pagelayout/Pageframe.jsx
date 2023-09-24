@@ -18,7 +18,7 @@ export default function Pageframe({children}) {
                 <div className="absolute top-0 left-0 h-[91%] w-screen bg-black bg-opacity-60 z-20">
                     <div className="flex mx-auto h-[530px] w-[530px] pt-40">
                         <Soundguide 
-                            videoUrl={"/video/docent/removed-test5.webm"}
+                            videoUrl={"/video/docent/blue-docent-test-02-removed.webm"}
                             volume={Number(volume)}
                             playing={true}
                             end={()=>setSoundguide(!soundguide)}

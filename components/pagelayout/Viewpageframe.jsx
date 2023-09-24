@@ -17,7 +17,7 @@ export default function Viewpageframe({children}) {
             {soundguide && (
                 <div className="absolute bottom-20 right-4 h-[350px] w-[350px] z-20">
                     <Soundguide 
-                        videoUrl={"/video/docent/removed-test5.webm"}
+                        videoUrl={"/video/docent/blue-docent-test-02-removed.webm"}
                         volume={Number(volume)}
                         playing={true}
                         end={()=>setSoundguide(!soundguide)}

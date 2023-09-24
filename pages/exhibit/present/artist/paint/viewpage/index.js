@@ -5,17 +5,71 @@ import { useState } from "react";
 
 export default function Viewpage() {
     const [popup, setPopup] = useState(true);
+    const [current, setCurrent] = useState(0);
+
+    let paintdata = [
+        {order: "01", title: "유성", imgname: "/img/exhibitpage/paintings/유성.jpg", overview: "117x91cm", overview1: "oil-on-canvas, 2022"},
+        {order: "02", title: "그늘에서 빛나는", imgname: "/img/exhibitpage/paintings/그늘에서-빛나는.jpeg", overview: "45.5x37cm", overview1: "oil-on-canvas, 2022"},
+        {order: "03", title: "조용한 기다림", imgname: "/img/exhibitpage/paintings/조용한-기다림.jpg", overview: "112x80.3cm", overview1: "oil-on-canvas, 2022"},
+        {order: "04", title: "밤산책", imgname: "/img/exhibitpage/paintings/A-Night-Walk.jpg", overview: "162x130cm", overview1: "oil-on-canvas, 2022"},
+        {order: "05", title: "That very moment of Falling", imgname: "/img/exhibitpage/paintings/That-very-moment-of-falling.jpg", overview: "104x91cm", overview1: "oil-on-canvas, 2021"},
+        {order: "06", title: "내가 없는 골목", imgname: "/img/exhibitpage/paintings/내가-없는-골목.jpg", overview: "117x80.3cm", overview1: "oil-on-canvas, 2022"},
+        {order: "07", title: "둘", imgname: "/img/exhibitpage/paintings/둘.jpg", overview: "31.8x40.9m", overview1: "oil-on-canvas, 2022"},
+        {order: "08", title: "물 (Something Watery)", imgname: "/img/exhibitpage/paintings/물.jpg", overview: "65.1x50cm", overview1: "oil-on-linen, 2021"},
+        {order: "09", title: "이후 (A Step Behind)", imgname: "/img/exhibitpage/paintings/이후.jpg", overview: "65.1x50cm", overview1: "oil-on-linen, 2020"},
+        {order: "10", title: "흐르는 빛", imgname: "/img/exhibitpage/paintings/흐르는-빛.jpg", overview: "65.1x53cm", overview1: "oil-on-canvas, 2022"},
+        {order: "11", title: "흔적", imgname: "/img/exhibitpage/paintings/흔적.jpg", overview: "112x194m", overview1: "oil-on-canvas, 2022"},
+        {order: "12", title: "그림자 앞에서", imgname: "/img/exhibitpage/paintings/그림자-앞에서.jpg", overview: "60.6x45.5cm", overview1: "oil-on-canvas, 2021"},
+    ];
+
+    const length = paintdata.length;
+
+    function nextExhibit() {
+        setCurrent(current === length - 1 ? 0 : current + 1);
+    };
+
+    function prevExhibit() {
+        setCurrent(current === 0 ? length - 1 : current - 1);
+    };
+    
 
     return(
         <Viewlayout>
 
             {/* 3D 콘텐츠 구역 */}
-            <Viewcontent />
+            <Viewcontent 
+                url={paintdata[current].imgname}
+            />
+            {/* 그림 넘기기 버튼 */}
+            <div className="absolute h-[70px] w-[70px] left-40 bottom-80">
+                <button
+                    id="left"
+                    className="h-full w-full"
+                    onClick={()=>prevExhibit()}
+            >   
+                    <img 
+                        src="/img/exhibitpage/icons/왼쪽버튼.png"
+                        alt="left"
+                    />
+                </button>
+            </div>
+            <div className="absolute h-[70px] w-[70px] right-40 bottom-80">
+                <button
+                    id="right"
+                    className="h-full w-full"
+                    onClick={()=>nextExhibit()}
+                >   
+                    <img 
+                        src="/img/exhibitpage/icons/오른쪽버튼.png"
+                        alt="right"
+                    />
+                </button>
+            </div>
             {popup && (
                 <div className="absolute bg-black bg-opacity-40 h-[91%] w-[650px] bottom-20 left-1/2 transform -translate-x-1/2">
                     <div className="w-5/6 flex flex-col space-y-48 px-4 mt-16 mx-auto items-center justify-center text-center">
                         <div className="flex flex-col space-y-2">
-                            <span className="text-Awhite font-bold text-3xl">{'유성'}</span>
+                            <span className="text-Awhite font-bold text-3xl">{paintdata[current].title}</span>
                             <span className="text-Dgrey font-bold text-2xl">{'Meteor'}</span>
                         </div>
                         <div className="flex flex-col space-y-2 mx-auto w-full">
@@ -30,10 +84,10 @@ export default function Viewpage() {
                             <div className="flex justify-between w-full">
                                 <div className="flex flex-col space-y-2">
                                     <span className="font-bold text-Awhite text-xl">{'김대유'}</span>
-                                    <span className="font-bold text-Awhite text-lg">{'117x91cm'}</span>
-                                    <span className="font-bold text-Awhite text-lg">{'oil-on-canvas 2022'}</span>
+                                    <span className="font-bold text-Awhite text-lg">{paintdata[current].overview}</span>
+                                    <span className="font-bold text-Awhite text-lg">{paintdata[current].overview1}</span>
                                 </div>
-                                <span className="font-bold text-Awhite text-5xl">{'01.'}</span>
+                                <span className="font-bold text-Awhite text-5xl">{paintdata[current].order}{'.'}</span>
                             </div>
                             <div className="h-[1px] w-full bg-Awhite mt-3"/>
                         </div>
@@ -61,7 +115,7 @@ export default function Viewpage() {
                         <img
                             className="h-full w-full"
                             src="/img/exhibitpage/icons/작품해설_아이콘.png"
-                            alt="감상모드"
+                            alt="작품해설"
                         />
                     </button>
                     <span className="text-Awhite text-xl font-bold">{'작품해설'}</span>

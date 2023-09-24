@@ -1,9 +1,10 @@
+'use client'
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Painting from "@/components/Painting";
 import { MathUtils } from "three";
 
-export default function Viewcontent() {
+export default function Viewcontent({url}) {
 
     return(
         <div className="h-[91%] w-full absolute bottom-20">
@@ -13,7 +14,8 @@ export default function Viewcontent() {
             >
                 <directionalLight intensity={1} />
                 <Painting 
-                    url={'/img/exhibitpage/paintings/유성.jpg'}
+                    // url={'/img/exhibitpage/paintings/유성.jpg'}
+                    url={url}
                 />
                 <OrbitControls 
                     minDistance={1.5}

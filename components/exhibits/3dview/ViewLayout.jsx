@@ -9,16 +9,16 @@ export default function Viewlayout({children}) {
             <div className="h-screen w-screen">
                 {children}
                 <button className="absolute left-14 bottom-28">
-                        <Link href="/exhibit/present/artist/paint">
-                            <Image 
-                                src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
-                                width="60"
-                                height="60"
-                                alt="back"
-                                priority={true}
-                            />
-                        </Link>
-                    </button>
+                    <Link href="/exhibit/present/artist/paint">
+                        <Image 
+                            src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
+                            width="60"
+                            height="60"
+                            alt="back"
+                            priority={true}
+                        />
+                    </Link>
+                </button>
             </div>
         </Viewpageframe>
     )
