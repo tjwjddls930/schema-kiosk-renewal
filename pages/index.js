@@ -30,9 +30,9 @@ export default function Mainpage() {
         const getWeather = async function() {
             const response = await fetch(`/api/weather`);
             const json = await response.json();
-            const temperature = json[0].main['temp'] - 273.15;
+            const temperature = json[0].main[temp] - 273.15;
             setWeather(Math.round(temperature));
-            // console.log(json[0].main['temp']);
+            // console.log(json[0].main);
         };
         getWeather();
     });
