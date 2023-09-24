@@ -109,20 +109,6 @@ input:checked ~ #toggle {
 
 /* carousel */
 
-@layer base {
-  * {
-    text-transform: capitalize;
-  }
-  .light body {
-    background: #000 !important;
-    color: #000;
-  }
-
-  .text-black {
-    color: rgba(0, 0, 0, 0.6);
-  }
-}
-
 @layer components {
   .show .dropdown-menu {
     display: block !important;

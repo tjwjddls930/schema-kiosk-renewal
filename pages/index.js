@@ -182,7 +182,7 @@ export default function Mainpage() {
                         <div className="flex flex-col h-5/6 w-5/6 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 space-y-4">
                             <span className="text-2xl text-black font-bold mt-4">여러분의 언어를 선택해주세요!<br /></span>
                             <span className="text-xl text-Cgrey font-bold">Please select your language</span>
-                            <div className="flex flex-col space-y-8 w-full h-[700px] bg-indigo-100 rounded-lg py-10 z-30">
+                            <div className="flex flex-col space-y-8 w-full h-[700px] bg-Cpurple bg-opacity-30 rounded-lg py-10 z-30">
                                 <div className="flex flex-row mx-auto space-x-6 z-40">
                                     {/* 한국어 */}
                                     <button
