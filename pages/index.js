@@ -12,7 +12,7 @@ export default function Mainpage() {
     const [id, setId] = useState(null);
     const [weather, setWeather] = useState([]);
 
-    const {t} = useTranslation('common');
+    const {t, i18n} = useTranslation('common');
     const router = useRouter();
     function handleLanguage(e, language) {
         setId(e.target.id);
@@ -178,7 +178,7 @@ export default function Mainpage() {
                     </div>
                 </button>
                 {modal && (
-                    <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-black z-10">
+                    <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
                         <div className="flex flex-col h-5/6 w-5/6 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 space-y-4">
                             <span className="text-2xl text-black font-bold mt-4">여러분의 언어를 선택해주세요!<br /></span>
                             <span className="text-xl text-Cgrey font-bold">Please select your language</span>
