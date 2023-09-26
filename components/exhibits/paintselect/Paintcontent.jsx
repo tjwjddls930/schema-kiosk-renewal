@@ -101,10 +101,10 @@ export default function Paintcontent() {
                                 src={`/img/exhibitpage/paintings/${item.imgname}`}
                                 alt="paintings"
                             />
-                            <div className="absolute h-20 w-full bg-black bg-opacity-50 bottom-0 left-0">
+                            <div className="absolute h-20 w-full bg-Ablack bg-opacity-50 bottom-0 left-0">
                                 <div className="flex justify-between p-4">
                                     <span className="font-bold pt-2">{'작품 감상하기'}</span>
-                                    <Link href="/exhibit/present/artist/paint/viewpage">
+                                    <Link href="/viewpage">
                                         <button className="bg-black rounded-full h-10 w-10 items-cetner text-center">
                                             <img 
                                                 src="/img/exhibitpage/icons/화살표버튼.png"

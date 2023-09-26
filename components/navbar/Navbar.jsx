@@ -24,8 +24,8 @@ export default function Navbar({url}) {
                     </div>
                 </div>
             )}
-           <nav className="absolute bottom-0 w-full h-20 bg-Ablack px-10">
-                <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5">
+           <nav className="fixed hidden lg:flex bottom-0 w-full h-20 lg:h-16 bg-Ablack px-10">
+                <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5 lg:mt-4">
                 <div className="flex flex-row space-x-2 h-9 w-1/3 mx-auto">
                     <Image 
                         src={`/img/flags/${i18n.language}_circle.png`}

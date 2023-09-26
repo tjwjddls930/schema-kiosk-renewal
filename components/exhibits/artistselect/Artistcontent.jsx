@@ -10,7 +10,7 @@ export default function Artistcontent({order, title, name, text}) {
                     <span className="text-lg text-Cgrey font-bold">{title}</span>
                     <span className="text-xl text-black font-bold mb-4">{name}</span>
                     <button className="text-lg h-10 w-[150px] text-Awhite font-bold rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
-                        <Link href="/exhibit/present/artist/paint">
+                        <Link href="/paint">
                             {'작품 보러가기'}
                         </Link>
                     </button>

@@ -798,6 +798,7 @@ input:checked ~ #toggle {
     padding: 0.5rem 0.75rem;
   }
 
+  /* 지워도 무방 */
   [multiple]:focus,
   [type="date"]:focus,
   [type="datetime-local"]:focus,
@@ -933,39 +934,39 @@ input:checked ~ #toggle {
     outline-offset: 2px;
   }
 
-  [type="checkbox"]:checked,
+  /* [type="checkbox"]:checked,
   [type="radio"]:checked {
     background-color: currentColor;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-color: transparent;
-  }
+  } */
 
-  [type="checkbox"]:checked {
+  /* [type="checkbox"]:checked {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%270 0 16 16%27 fill=%27%23fff%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath d=%27M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z%27/%3E%3C/svg%3E");
-  }
+  } */
 
-  [type="radio"]:checked {
+  /* [type="radio"]:checked {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%270 0 16 16%27 fill=%27%23fff%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%273%27/%3E%3C/svg%3E");
-  }
+  } */
 
-  [type="checkbox"]:checked:focus,
+  /* [type="checkbox"]:checked:focus,
   [type="checkbox"]:checked:hover,
   [type="radio"]:checked:focus,
   [type="radio"]:checked:hover {
     background-color: currentColor;
     border-color: transparent;
-  }
+  } */
 
-  [type="checkbox"]:indeterminate {
+  /* [type="checkbox"]:indeterminate {
     background-color: currentColor;
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 viewBox=%270 0 16 16%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27M4 8h8%27/%3E%3C/svg%3E");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-color: transparent;
-  }
+  } */
 
   [type="checkbox"]:indeterminate:focus,
   [type="checkbox"]:indeterminate:hover {

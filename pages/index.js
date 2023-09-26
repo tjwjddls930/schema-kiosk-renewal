@@ -48,7 +48,7 @@ export default function Mainpage() {
 
     return(
         <Pageframe>
-            <div className="h-screen w-screen bg-[url('/img/mainpage/mainpage_bg_fix.png')]">
+            <div className="h-screen w-screen bg-[url('/img/mainpage/mainpage_bg_fix.png')] bg-cover bg-no-repeat">
                 {/* 상단 로고 섹션 */}
                 <div className="w-full flex flex-row justify-between p-10 font-pretendard_bold">
                     <Image 
@@ -62,7 +62,7 @@ export default function Mainpage() {
                        }}
                     />
                     <div className="h-[0.5px] flex flex-col mx-auto text-center items-center space-y-8">
-                        <span className="text-black font-bold text-2xl">{t("MAIN_TOP_1")}</span>
+                        <span className="text-Ablack font-bold text-2xl">{t("MAIN_TOP_1")}</span>
                         <span className="text-Cgrey font-bold text-xl">{t("MAIN_TOP_2")}</span>
                     </div>
                     <div className="flex flex-row space-x-2 text-black">

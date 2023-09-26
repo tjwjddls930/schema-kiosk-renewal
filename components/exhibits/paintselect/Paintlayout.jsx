@@ -22,7 +22,7 @@ export default function Paintlayout({children}) {
                             priority={true}
                         />
                         <span className="text-Cgrey text-xl mt-2">{'전시 안내 '} </span>
-                        <span className="text-Cgrey text-xl mt-2">{' > 지난 전시'}</span>
+                        <span className="text-Cgrey text-xl mt-2">{' > 현재 전시'}</span>
                         <span className="text-Cgrey text-xl mt-2">{' > 작가 선택'}</span>
                         <span className="text-Cgrey text-xl font-bold mt-2">{' > 작품 선택'}</span>
                     </div>
