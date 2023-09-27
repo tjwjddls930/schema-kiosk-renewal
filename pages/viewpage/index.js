@@ -6,6 +6,7 @@ import { useState } from "react";
 export default function Viewpage() {
     const [popup, setPopup] = useState(true);
     const [current, setCurrent] = useState(0);
+    // console.log(window.innerHeight, window.innerWidth)
 
     let paintdata = [
         {order: "01", title: "유성", imgname: "/img/exhibitpage/paintings/유성.jpg", overview: "117x91cm", overview1: "oil-on-canvas, 2022"},
@@ -66,11 +67,11 @@ export default function Viewpage() {
                 </button>
             </div>
             {popup && (
-                <div className="absolute bg-black bg-opacity-40 h-[91%] w-[650px] bottom-20 left-1/2 transform -translate-x-1/2">
-                    <div className="w-5/6 flex flex-col space-y-48 px-4 mt-16 mx-auto items-center justify-center text-center">
+                <div className="absolute bg-Ablack bg-opacity-40 h-[91%] w-[650px] lg:w-[550px] bottom-20 left-1/2 transform -translate-x-1/2">
+                    <div className="w-5/6 flex flex-col space-y-48 lg:space-y-32 px-4 mt-16 mx-auto items-center justify-center text-center">
                         <div className="flex flex-col space-y-2">
-                            <span className="text-Awhite font-bold text-3xl">{paintdata[current].title}</span>
-                            <span className="text-Dgrey font-bold text-2xl">{'Meteor'}</span>
+                            <span className="text-Awhite font-bold text-3xl lg:text-2xl">{paintdata[current].title}</span>
+                            <span className="text-Dgrey font-bold text-2xl lg:text-xl">{'Meteor'}</span>
                         </div>
                         <div className="flex flex-col space-y-2 mx-auto w-full">
                             <img 
@@ -78,14 +79,14 @@ export default function Viewpage() {
                                 src="/img/exhibitpage/icons/화면확대_아이콘.png"
                                 alt="toucn icon"
                             />
-                            <span className="text-Dgrey font-bold text-lg">{'확대해서 그림을 더 자세히 감상해보세요!'}</span>
+                            <span className="text-Dgrey font-bold text-lg lg:text-base">{'확대해서 그림을 더 자세히 감상해보세요!'}</span>
                         </div>
                         <div className="flex flex-col w-full mx-auto">
                             <div className="flex justify-between w-full">
                                 <div className="flex flex-col space-y-2">
-                                    <span className="font-bold text-Awhite text-xl">{'김대유'}</span>
-                                    <span className="font-bold text-Awhite text-lg">{paintdata[current].overview}</span>
-                                    <span className="font-bold text-Awhite text-lg">{paintdata[current].overview1}</span>
+                                    <span className="font-bold text-Awhite text-xl lg:text-lg">{'김대유'}</span>
+                                    <span className="font-bold text-Awhite text-lg lg:text-base">{paintdata[current].overview}</span>
+                                    <span className="font-bold text-Awhite text-lg lg:text-base">{paintdata[current].overview1}</span>
                                 </div>
                                 <span className="font-bold text-Awhite text-5xl">{paintdata[current].order}{'.'}</span>
                             </div>
@@ -97,7 +98,7 @@ export default function Viewpage() {
             <div className="h-[200px] w-[100px] absolute left-10 bottom-96">
                 <div className="flex flex-col mx-auto text-center space-y-2">
                     <button 
-                        className="h-24 w-24"
+                        className="h-24 w-24 lg:h-20 lg:w-20 lg:ml-2"
                         onClick={()=> setPopup(!popup)}
                     > 
                         <img
@@ -111,7 +112,7 @@ export default function Viewpage() {
             </div>
             <div className="h-[130px] w-[100px] absolute left-10 bottom-72">
                <div className="flex flex-col mx-auto text-center space-y-2">
-                <button className="h-24 w-24"> 
+                <button className="h-24 w-24 lg:h-20 lg:w-20 lg:ml-2"> 
                         <img
                             className="h-full w-full"
                             src="/img/exhibitpage/icons/작품해설_아이콘.png"

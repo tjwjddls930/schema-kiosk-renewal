@@ -12,7 +12,7 @@ export default function Viewpageframe({children}) {
     const {t, i18n} = useTranslation('navbar');
 
     return(
-        <div className="h-[897.6px] w-[1522.4px] bg-[url('/img/exhibitpage/icons/작품관람_배경_1.png')] bg-cover">
+        <div className="h-[897.6px] w-[1522.4px] lg:w-screen lg:h-screen bg-[url('/img/exhibitpage/icons/작품관람_배경_1.png')] bg-cover bg-no-repeat">
             {children}
             {soundguide && (
                 <div className="absolute bottom-20 right-4 h-[350px] w-[350px] z-20">

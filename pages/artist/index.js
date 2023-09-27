@@ -8,22 +8,10 @@ import Artistcontent from "@/components/exhibits/artistselect/Artistcontent";
 
 export default function Presentpage() {
     const [artist, setArtist] = useState(artistData[0]);
-    // const [current, setCurrent] = useState(0)
-
-    //  console.log(artistData.length)
-
-    // function nextExhibit() {
-    //     setCurrent(current === artistData.length - 1 ? 0 : current + 1);
-    // };
-
-    // function prevExhibit() {
-    //     setCurrent(current === 0 ? artistData.length - 1 : current - 1);
-    // };
-
 
     return (
        <Artistlayout>
-            <div className="w-11/12 h-[350px] flex mx-auto justify-center">
+            <div className="w-11/12 xl:h-[350px] lg:h-[250px] flex mx-auto justify-center">
                 <div className="flex flex-row space-x-12 font-bold text-md pb-1">
                     {artistData.map((item, index)=> (
                         <div 
@@ -36,7 +24,7 @@ export default function Presentpage() {
                                 onClick={()=> setArtist(item)}
                             >
                                 <img 
-                                    className={item === artist ? "h-[300px] w-[300px] border-4 border-Awhite rounded-lg" : "h-[250px] w-[250px] rounded-lg"}
+                                    className={item === artist ? "xl:h-[300px] xl:w-[300px] lg:h-[230px] lg:w-[230px] border-4 border-Awhite rounded-lg" : "xl:h-[250px] xl:w-[250px] lg:h-[180px] lg:w-[180px] rounded-lg"}
                                     src={`/img/exhibitpage/artists/${item.imgname}`}
                                     alt="artist"
                                 />
@@ -45,16 +33,7 @@ export default function Presentpage() {
                     ))}
                 </div>
             </div>
-            <div className="w-full h-[200px] bg-Bgrey">
-                <button 
-                    // onClick={()=> prevExhibit()}
-                >
-                    <img 
-                        className="absolute bottom-52 left-72 h-10 w-10"
-                        src="/img/exhibitpage/icons/왼쪽버튼.png"
-                        alt="left"
-                    />
-                </button>
+            <div className="w-full xl:h-[200px] lg:h-[150px] bg-Bgrey">
                 <main>
                     <AnimatePresence>
                         <motion.div
@@ -73,15 +52,6 @@ export default function Presentpage() {
                         </motion.div>
                     </AnimatePresence>
                 </main>
-                <button
-                    // onClick={()=> nextExhibit()}
-                >
-                    <img 
-                        className="absolute bottom-52 right-72 h-10 w-10"
-                        src="/img/exhibitpage/icons/오른쪽버튼.png"
-                        alt="right"
-                    />
-                </button>
             </div>
        </Artistlayout>
     )

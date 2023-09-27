@@ -41,39 +41,39 @@ export default function Mainpage() {
                 {/* 상단 로고 섹션 */}
                 <TopNavbar />
                 {/* 중단 버튼 구역*/}
-                <div className="w-4/5 h-3/2 pt-10 px-14 flex flex-row space-x-5 mx-auto">
+                <div className="w-4/5 h-2/3 pt-10 px-14 flex flex-row space-x-5 mx-auto">
                     <div className="absolute transform -rotate-90 h-1 left-44 top-52">
                         <span className="text-Apurple font-bold">Schema</span>
                     </div>
                     <div className="flex flex-col space-y-5 text-Agrey shadow-md rounded-sm">
-                        <button className="w-[300px] h-[250px] lg:w-[250px] lg:h-[200px] text-center bg-[url('/img/mainpage/미술관소개_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
+                        <button className="w-[200px] h-[150px] lg:w-[250px] lg:h-[200px] xl:w-[300px] xl:h-[250px] text-center bg-[url('/img/mainpage/미술관소개_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
                             <Link href="/intro">
-                                <span className="text-xl lg:text-lg font-bold">{t("MAIN_INTRO")}<br /></span>
-                                <span className="text-base lg:text-sm font-bold">{t("MAIN_INTRO_1")} <br /> {t("MAIN_INTRO_2")} <br /> {t("MAIN_INTRO_3")}</span>
+                                <span className="text-lg xl:text-xl font-bold">{t("MAIN_INTRO")}<br /></span>
+                                <span className="text-sm xl:text-base font-bold">{t("MAIN_INTRO_1")} <br /> {t("MAIN_INTRO_2")} <br /> {t("MAIN_INTRO_3")}</span>
                             </Link>
                         </button>
-                        <button className="w-[300px] h-[250px] lg:w-[250px] lg:h-[200px] text-center bg-Bpurple text-white shadow-md rounded-lg">
-                            <span className="text-xl lg:text-lg font-bold">{t("MAIN_CHATBOT")}<br /></span>
-                            <span className="text-base lg:text-sm font-bold">{t("MAIN_CHATBOT_1")}</span>
+                        <button className="w-[200px] h-[150px] lg:w-[250px] lg:h-[200px] xl:w-[300px] xl:h-[250px] text-center bg-Bpurple text-white shadow-md rounded-lg">
+                            <span className="text-lg xl:text-xl font-bold">{t("MAIN_CHATBOT")}<br /></span>
+                            <span className="text-sm xl:text-base font-bold">{t("MAIN_CHATBOT_1")}</span>
                         </button>
                     </div>
                     <div className="flex w-3/4 h-full bg-[url('/img/mainpage/전시안내_배경_보정.png')] items-center shadow-md rounded-lg">
-                        <button className="w-5/6 h-5/6 lg:w-3/4 lg:h-3/4 border-4 border-Bpurple bg-opacity-0 mx-auto">
+                        <button className="w-3/4 h-3/4 xl:w-5/6 xl:h-5/6 border-4 border-Bpurple bg-opacity-0 mx-auto">
                             <Link href="/exhibit">
-                                <span className="text-2xl lg:text-xl font-bold">{t("MAIN_EXHIBIT_GUIDE")} <br /></span>
-                                <span className="text-lg lg:text-base font-bold">{t("MAIN_EXHIBIT_GUIDE_1")}</span>
+                                <span className="text-xl xl:text-2xl font-bold">{t("MAIN_EXHIBIT_GUIDE")} <br /></span>
+                                <span className="text-base xl:text-lg font-bold">{t("MAIN_EXHIBIT_GUIDE_1")}</span>
                             </Link>
                         </button>
                     </div>
                     <div className="flex flex-col space-y-5 text-Awhite shadow-md">
-                        <button className="w-[300px] h-[250px] lg:w-[250px] lg:h-[200px] text-center bg-[url('/img/mainpage/교육프로그램_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
-                            <span className="text-xl lg:text-lg font-bold">{t("MAIN_EDUCATION")}<br /></span>
-                            <span className="text-base lg:text-sm font-bold">{t("MAIN_EDUCATION_1")}</span>
+                        <button className="w-[200px] h-[150px] lg:w-[250px] lg:h-[200px] xl:w-[300px] xl:h-[250px] text-center bg-[url('/img/mainpage/교육프로그램_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
+                            <span className="text-lg xl:text-xl font-bold">{t("MAIN_EDUCATION")}<br /></span>
+                            <span className="text-sm xl:text-base font-bold">{t("MAIN_EDUCATION_1")}</span>
                         </button>
-                        <button className="w-[300px] h-[250px] lg:w-[250px] lg:h-[200px] text-center bg-[url('/img/mainpage/시설안내_배경_보정.png')] bg-no-repeat bg-cover text-white shadow-md rounded-lg">
+                        <button className="w-[200px] h-[150px] lg:w-[250px] lg:h-[200px] xl:w-[300px] xl:h-[250px] text-center bg-[url('/img/mainpage/시설안내_배경_보정.png')] bg-no-repeat bg-cover text-white shadow-md rounded-lg">
                             <Link href="/facility">
-                                <span className="text-xl lg:text-lg font-bold">{t("MAIN_FACILITY_GUIDE")}<br /></span>
-                                <span className="text-md lg:text-sm font-bold">{t("MAIN_FACILITY_GUIDE_1")}</span>
+                                <span className="text-lg xl:text-xl font-bold">{t("MAIN_FACILITY_GUIDE")}<br /></span>
+                                <span className="text-sm xl:text-md font-bold">{t("MAIN_FACILITY_GUIDE_1")}</span>
                             </Link>
                         </button>
                     </div>
@@ -115,7 +115,7 @@ export default function Mainpage() {
                     </div>
                 </button>
                 {modal && (
-                    <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-black z-10">
+                    <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
                         <div className="flex flex-col h-5/6 w-5/6 lg:h-3/4 lg:w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 space-y-4">
                             <span className="text-2xl lg:text-xl text-black font-bold mt-4">여러분의 언어를 선택해주세요!<br /></span>
                             <span className="text-xl lg:text-lg text-Cgrey font-bold">Please select your language</span>

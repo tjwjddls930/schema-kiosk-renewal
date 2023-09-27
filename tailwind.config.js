@@ -7,10 +7,12 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: "575px",
-      md: "768px",
-      lg: "1025px",
-      xl: "1522px"
+      'sm': "575px",
+      'md': "715px",
+      // lg: "1025px",
+      'lg':"1290px",
+      'xl': "1430px",
+      '2xl': "1653px"
       // xl: "1202px",
     },
     container: {

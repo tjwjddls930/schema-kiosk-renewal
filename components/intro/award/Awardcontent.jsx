@@ -22,37 +22,37 @@ export default function Awardcontent({imgname, engname, name, career}) {
     ]
     
     return(
-        <div className="w-11/12 h-3/4 mx-auto px-20 py-12 flex flex-row">
+        <div className="w-11/12 h-3/4 mx-auto px-20 py-12 lg:py-6 flex flex-row justify-between">
             <div className="flex flex-col">
-                <div className="border-4 border-Awhite h-[400px] w-[530px]">
+                <div className="border-4 border-Awhite h-[400px] w-[530px] lg:h-[300px] lg:w-[430px]">
                     <img 
                         src={`/img/intro/award/${imgname}`}
-                        className="h-[392px] w-[530px] mx-auto shadow-lg mb-4"
+                        className="h-[392px] w-[530px] lg:h-[292px] lg:w-[430px] mx-auto shadow-lg mb-4"
                         alt="artist"
                     />
                 </div>
                 <div className="h-[2px] w-14 bg-Cpurple mt-4 mb-2"></div>
-                <span className="text-2xl text-Awhite">{engname}</span>
-                <span className="font-bold text-3xl text-Awhite mb-2">{name}</span>
-                <p className="text-md text-Awhite">{career}</p>
+                <span className="text-2xl lg:text-xl text-Awhite">{engname}</span>
+                <span className="font-bold text-3xl lg:text-2xl text-Awhite mb-2">{name}</span>
+                <p className="text-base lg:text-sm text-Awhite">{career}</p>
             </div>
-            <div className="flex flex-col space-y-12 h-[500px] overflow-auto scroll-smooth">
+            <div className="flex flex-col space-y-12 h-[500px] lg:h-[400px] overflow-auto scroll-smooth">
                 <div className="flex flex-row px-8 space-x-2">
-                    <div className="flex-1 text-Awhite font-lg font-bold w-[100px]">
+                    <div className="flex-1 text-Awhite text-lg lg:text-base font-bold w-[100px]">
                         개인전
                     </div>
                     <div className="flex flex-col space-y-2">
                             {timeline.map((item)=>(
                                 <span
                                     key={item.order}
-                                    className="text-Cpurple font-bold text-md">{item.year}</span>
+                                    className="text-Cpurple font-bold text-md lg:text-sm">{item.year}</span>
                             ))}
                         </div>
                         <div className="flex flex-col space-y-2">
                             {timeline.map((item)=> (
                                 <span
                                     key={item.order}
-                                    className="text-gray-300 font-bold text-md"
+                                    className="text-Awhite font-bold text-md lg:text-sm"
                                 >
                                     {item.award}
                                 </span>
@@ -60,21 +60,21 @@ export default function Awardcontent({imgname, engname, name, career}) {
                         </div>
                 </div>
                 <div className="flex flex-row px-8 space-x-2">
-                    <div className="flex-1 text-Awhite font-lg font-bold w-[100px]">
+                    <div className="flex-1 text-Awhite text-lg lg:text-base font-bold w-[100px]">
                         단체전
                     </div>
                     <div className="flex flex-col space-y-2">
                             {timeline.map((item)=>(
                                 <span
                                     key={item.order}
-                                    className="text-Cpurple font-bold text-md">{item.year}</span>
+                                    className="text-Cpurple font-bold text-md lg:text-sm">{item.year}</span>
                             ))}
                         </div>
                         <div className="flex flex-col space-y-2">
                             {timeline.map((item)=> (
                                 <span
                                     key={item.order}
-                                    className="text-gray-300 font-bold text-md"
+                                    className="text-Awhite font-bold text-md lg:text-sm"
                                 >
                                     {item.award}
                                 </span>

@@ -62,12 +62,12 @@ export default function Paintcontent() {
 
     return(
         <div className="w-full flex flex-row space-x-6">
-            <div className="w-[35%] h-[700px] flex flex-col space-y-2 px-16 py-8">
+            <div className="xl:w-[35%] xl:h-[700px] lg:w-[30%] lg:h-[600px] flex flex-col xl:space-y-2 lg:space-y-1 xl:px-16 lg:px-12 xl:py-8 lg:py-4">
                 <div className="w-20 h-[1px] bg-Cpurple mb-2" />
-                <span className="text-xl font-bold text-Bgrey">{'Kim DaeYou'}</span>
-                <span className="text-2xl font-bold text-black mb-4">{'김대유'}</span>
-                <span className="text-base font-bold text-black mb-4">{'서울대학교 미술대학원 서양학과 졸업'}</span>
-                <span className="text-base text-Cpurple font-bold">{'주요 개인전'}</span>
+                <span className="xl:text-xl lg:text-lg font-bold text-Bgrey">{'Kim DaeYou'}</span>
+                <span className="xl:text-2xl lg:text-xl font-bold text-black mb-4">{'김대유'}</span>
+                <span className="xl:text-base lg:text-sm font-bold text-black mb-4">{'서울대학교 미술대학원 서양학과 졸업'}</span>
+                <span className="xl:text-base lg:text-sm text-Cpurple font-bold">{'주요 개인전'}</span>
                 {individual.map((item)=> (
                     <span key={item.order} className="text-sm text-Cgrey font-bold">{item.exhibit}</span>
                 ))}
@@ -79,20 +79,20 @@ export default function Paintcontent() {
             </div>
             <div
                 ref={carousel} 
-                className="w-2/3 h-2/3 flex flex-row overflow-auto space-x-4">
+                className="xl:w-2/3 h-2/3 lg:w-[3/4] flex flex-row xl:overflow-auto lg:overflow-x-auto space-x-4">
                 {paintdata.map((item, index)=> (
                     <div
                         key={item.order} 
-                        className="h-[575px] w-[300px] flex flex-col">
-                        <div className="w-[300px] flex justify-between p-2">
+                        className="xl:h-[575px] xl:w-[300px] lg:h-[475px] lg:w-[250px] flex flex-col">
+                        <div className="xl:w-[300px] lg:w-[250px] flex justify-between p-2">
                             <div
                                 key={item.imgname} 
-                                className="flex flex-col space-y-2">
-                                <span className="font-bold text-black text-base">{item.title}</span>
-                                <span className="font-bold text-Cgrey text-sm">{item.overview}</span>
-                                <span className="font-bold text-Cgrey text-sm">{item.overview1}</span>
+                                className="flex flex-col xl:space-y-2 lg:space-y-1">
+                                <span className="font-bold text-Ablack xl:text-base lg:text-sm">{item.title}</span>
+                                <span className="font-bold text-Cgrey xl:text-sm lg:text-xs">{item.overview}</span>
+                                <span className="font-bold text-Cgrey xl:text-sm lg:text-xs">{item.overview1}</span>
                             </div>
-                            <span className="font-bold text-black text-5xl">{item.order}</span>
+                            <span className="font-bold text-black xl:text-5xl lg:text-3xl">{item.order}</span>
                         </div>
                         <div className="h-[1px] w-full bg-Cpurple mb-3"/>
                         <div className="relative group">
@@ -118,10 +118,10 @@ export default function Paintcontent() {
                     </div>
                 ))}
             </div>
-            <button className="absolute h-14 w-[200px] text-xl font-bold text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient bottom-48 left-10 shadow-md">
+            <button className="absolute xl:h-14 xl:w-[200px] lg:h-12 lg:w-[150px] text-xl lg:text-lg font-bold text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient xl:bottom-48 xl:left-10 lg:bottom-44 lg:left-8 shadow-md">
                     {'작가노트 보기'}
             </button>
-            <div className="h-[60px] w-[300px] absolute bottom-36 right-72">
+            <div className="h-[60px] w-[300px] absolute xl:bottom-36 right-72 lg:bottom-16">
                 <div className="flex flex-row space-x-2">
                     <div className="h-2 w-2 bg-Cpurple rounded-full" />
                     <div className="h-2 w-2 bg-Cpurple rounded-full" />
@@ -131,9 +131,9 @@ export default function Paintcontent() {
             <button 
                 // onClick={()=> prevExhibit()}
                 onClick={prevExhibit}
-                className="absolute h-20 w-[208px] text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-l-md bottom-48 right-52">
+                className="absolute xl:h-20 w-[208px] lg:h-16 text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-l-md bottom-48 lg:bottom-28 right-52">
                     <img
-                        className="h-10 w-10 mx-auto"
+                        className="xl:h-10 xl:w-10 lg:h-8 lg:w-8 mx-auto"
                         src="/img/exhibitpage/icons/왼쪽버튼.png"
                         alt="left"
                     />
@@ -141,9 +141,9 @@ export default function Paintcontent() {
             <button 
                 // onClick={()=> nextExhibit()}
                 onClick={nextExhibit}
-                className="absolute h-20 w-[208px] text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-r-md bottom-48 right-0">
+                className="absolute xl:h-20 w-[208px] lg:h-16 text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-r-md bottom-48 lg:bottom-28 right-0">
                     <img 
-                        className="h-10 w-10 mx-auto"
+                        className="xl:h-10 xl:w-10 lg:h-8 lg:w-8 mx-auto"
                         src="/img/exhibitpage/icons/오른쪽버튼.png"
                         alt="right"
                     />

@@ -8,14 +8,14 @@ export default function ConnectLayout({children}) {
 
     return(
         <Pageframe>
-            <div className="h-screen w-scree bg-[url('/img/connectpage/connect_bg.png')] bg-cover">
+            <div className="h-screen w-screen bg-[url('/img/connectpage/connect_bg.png')] bg-cover">
             <div className="w-full flex flex-row justify-between p-10 font-pretendard_bold">
-                    <span className="text-2xl font-bold text-Agrey">
+                    <span className="lg:text-xl xl:text-2xl font-bold text-Agrey">
                         {'전시 안내'}
                     </span>
                     <div className="h-[0.5px] flex flex-col mx-auto text-center items-center space-y-8">
-                        <span className="text-Ablack font-bold text-3xl">{'스마트 디지털 전시 관람 서비스'}</span>
-                        <span className="text-Cgrey font-bold text-xl">{t("MAIN_TOP_2")}</span>
+                        <span className="text-Ablack font-bold xl:text-3xl lg:text-xl">{'스마트 디지털 전시 관람 서비스'}</span>
+                        <span className="text-Cgrey font-bold xl:text-xl lg:text-lg">{t("MAIN_TOP_2")}</span>
                     </div>
                     <div className="flex flex-row space-x-2 text-black">
                         <Link href="/">
@@ -36,7 +36,7 @@ export default function ConnectLayout({children}) {
                     <span className="text-Apurple font-bold text-lg">Schema</span>
                 </div>
                 {children}
-                <div className="absolute transform rotate-90 right-36 bottom-60">
+                <div className="absolute transform rotate-90 xl:right-36 lg:right-44 xl:bottom-60 lg:bottom-44">
                         <span className="text-Apurple font-bold text-lg">Art Museum</span>
                 </div>
             </div>

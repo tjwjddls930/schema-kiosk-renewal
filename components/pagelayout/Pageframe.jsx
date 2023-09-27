@@ -13,7 +13,7 @@ export default function Pageframe({children}) {
     // const {t, i18n} = useTranslation('navbar');
 
     return(
-        <div className="h-[897.6px] w-[1522.4px]">
+        <div className="h-screen w-screen">
             {children}
             {/* {soundguide && (
                 <div className="absolute top-0 left-0 h-[91%] w-screen bg-black bg-opacity-60 z-20">
