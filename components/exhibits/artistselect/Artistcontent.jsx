@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Artistcontent({order, title, name, text}) {
     return (
-        <div className="flex flex-row 2xl:mx-auto">
+        <div className="2xl:w-full flex flex-row 2xl:mx-auto">
             <span className="text-8xl w-1/12 font-bold text-black pl-32">{order}</span>
             <div className="flex flex-row h-[180px] 2xl:h-[220px] w-1/2 ml-64 items-center shadow-lg px-8 bg-Awhite mx-auto rounded-lg">
                 <div className="flex flex-col space-y-3 w-1/4">
