@@ -66,7 +66,7 @@ function TopNavbar() {
   const formattedTime = `${parts[1]} ${parts[0]}`; // rearrange the order
 
   return (
-    <div className="hidden sm:flex fixed top-3 2xl:top-6 h-16 2xl:h-20 w-full z-100 justify-between items-center px-4 2xl:px-8">
+    <div className="hidden sm:flex fixed top-3 2xl:top-6 h-16 2xl:h-20 w-full z-100 justify-between items-center px-4 2xl:px-12">
       <Link href="/" className="ml-6 mt-4">
         <Image
           src="/img/mainpage/schema-logo.png"
@@ -74,16 +74,17 @@ function TopNavbar() {
           width={192}
           height={53}
           priority={true}
+          layout="responsive"
           // className="bg-white p-4 bg-opacity-60 rounded-2xl"
         />
       </Link>
       <span className="text-Cgrey font-bold text-2xl 2xl:text-4xl">{'모두를 위한 보편적인 스마트 디지털 전시 관람 시스템'}</span>
       <div className="flex flex-row space-x-2 2xl:space-x-4 text-black mr-4">
           <div className="flex flex-col justify-center items-center">
-              <span className="font-bold text-sm 2xl:text-lg">{formattedDate}</span>
-              <span className="font-bold text-xl 2xl:text-3xl">{formattedTime}</span>
+              <span className="font-bold text-sm 2xl:text-xl">{formattedDate}</span>
+              <span className="font-bold text-xl 2xl:text-4xl">{formattedTime}</span>
           </div>
-          <span className="rounded-lg shadow-md px-4 py-4 text-lg 2xl:text-2xl font-bold">{temperature ? `${temperature}°` : "24°"}</span>
+          <span className="rounded-lg shadow-md px-4 py-4 text-lg 2xl:text-3xl font-bold">{temperature ? `${temperature}°` : "24°"}</span>
       </div>
       {/* <div className="mr-6 mt-4">
         <div className="bg-white bg-opacity-60 flex justify-center items-center px-3 py-3 rounded-2xl">

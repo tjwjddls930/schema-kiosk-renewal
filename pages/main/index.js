@@ -42,43 +42,43 @@ export default function Mainpage() {
                 <TopNavbar />
                 {/* 중단 버튼 구역*/}
                 <div className="w-4/5 h-2/3 pt-10 px-14 flex flex-row space-x-5 mx-auto border border-Cpurple">
-                    <div className="absolute transform -rotate-90 h-1 left-44 top-52 2xl:left-64 2xl:top-60">
+                    <div className="absolute transform -rotate-90 h-1 left-44 top-52 2xl:left-72 2xl:top-68">
                         <span className="text-Apurple font-bold 2xl:text-2xl">Schema</span>
                     </div>
                     <div className="w-1/3 flex flex-col space-y-5 text-Agrey shadow-md rounded-sm border border-Cpurple">
                         <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/미술관소개_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
                             <Link href="/intro">
-                                <span className="text-lg xl:text-xl font-bold">{t("MAIN_INTRO")}<br /></span>
-                                <span className="text-sm xl:text-base font-bold">{t("MAIN_INTRO_1")} <br /> {t("MAIN_INTRO_2")} <br /> {t("MAIN_INTRO_3")}</span>
+                                <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_INTRO")}<br /></span>
+                                <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_INTRO_1")} <br /> {t("MAIN_INTRO_2")} <br /> {t("MAIN_INTRO_3")}</span>
                             </Link>
                         </button>
                         <button className="w-full h-1/2 text-center bg-Bpurple text-white shadow-md rounded-lg">
-                            <span className="text-lg xl:text-xl font-bold">{t("MAIN_CHATBOT")}<br /></span>
-                            <span className="text-sm xl:text-base font-bold">{t("MAIN_CHATBOT_1")}</span>
+                            <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_CHATBOT")}<br /></span>
+                            <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_CHATBOT_1")}</span>
                         </button>
                     </div>
                     <div className="flex w-full h-full bg-[url('/img/mainpage/전시안내_배경_보정.png')] items-center shadow-md rounded-lg bg-cover bg-no-repeat border border-Cpurple">
-                        <button className="w-3/4 h-3/4 xl:w-5/6 xl:h-5/6 border-4 border-Bpurple bg-opacity-0 mx-auto">
+                        <button className="w-3/4 h-3/4 border-4 border-Bpurple bg-opacity-0 mx-auto">
                             <Link href="/exhibit">
-                                <span className="text-xl xl:text-2xl font-bold">{t("MAIN_EXHIBIT_GUIDE")} <br /></span>
-                                <span className="text-base xl:text-lg font-bold">{t("MAIN_EXHIBIT_GUIDE_1")}</span>
+                                <span className="text-xl 2xl:text-4xl font-bold">{t("MAIN_EXHIBIT_GUIDE")} <br /></span>
+                                <span className="text-base 2xl:text-2xl font-bold">{t("MAIN_EXHIBIT_GUIDE_1")}</span>
                             </Link>
                         </button>
                     </div>
                     <div className="w-1/3 flex flex-col space-y-5 text-Awhite shadow-md border border-Cpurple">
                         <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/교육프로그램_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
-                            <span className="text-lg xl:text-xl font-bold">{t("MAIN_EDUCATION")}<br /></span>
-                            <span className="text-sm xl:text-base font-bold">{t("MAIN_EDUCATION_1")}</span>
+                            <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_EDUCATION")}<br /></span>
+                            <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_EDUCATION_1")}</span>
                         </button>
                         <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/시설안내_배경_보정.png')] bg-no-repeat bg-cover text-white shadow-md rounded-lg">
                             <Link href="/facility">
-                                <span className="text-lg xl:text-xl font-bold">{t("MAIN_FACILITY_GUIDE")}<br /></span>
-                                <span className="text-sm xl:text-md font-bold">{t("MAIN_FACILITY_GUIDE_1")}</span>
+                                <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_FACILITY_GUIDE")}<br /></span>
+                                <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_FACILITY_GUIDE_1")}</span>
                             </Link>
                         </button>
                     </div>
-                    <div className="absolute transform rotate-90 right-36 bottom-60">
-                        <span className="text-Apurple font-bold">Art Museum</span>
+                    <div className="absolute transform rotate-90 right-36 bottom-60 2xl:right-48 2xl:bottom-72">
+                        <span className="text-Apurple font-bold 2xl:text-2xl">Art Museum</span>
                     </div>
                 </div>
                 {/* 중단 텍스트 */}
@@ -98,20 +98,21 @@ export default function Mainpage() {
                 </div>
                 {/* 언어변경 버튼 */}
                 <button 
-                    className="absolute left-12 bottom-40 text-Bgrey space-y-4"
+                    className="absolute left-12 bottom-40 2xl:left-20 2xl:bottom-52 text-Bgrey space-y-4"
                     onClick={toggleModal}    
                 >
                     <div className="flex flex-col">
-                        <div className="border-4 border-Cpurple rounded-full w-20 h-20 items-center bg-Awhite">
+                        <div className="border-4 border-Cpurple rounded-full w-20 h-20 2xl:w-28 2xl:h-28 items-center bg-Awhite">
                             <Image 
                                 className="mx-auto pt-2.5 z-1"
                                 src="/img/mainpage/언어변경_아이콘.png"
                                 height="50"
                                 width="50"
                                 alt="language"
+                                layout="responsive"
                             />
                         </div>
-                        <span className="text-xl font-bold pt-2">{t("LANGUAGE_CHANGE")}</span>
+                        <span className="text-xl font-bold pt-2 2xl:text-3xl">{t("LANGUAGE_CHANGE")}</span>
                     </div>
                 </button>
                 {modal && (
