@@ -42,8 +42,8 @@ export default function Mainpage() {
                 <TopNavbar />
                 {/* 중단 버튼 구역*/}
                 <div className="w-4/5 h-2/3 pt-10 px-14 flex flex-row space-x-5 mx-auto">
-                    <div className="absolute transform -rotate-90 h-1 left-40 top-44 2xl:left-80 2xl:top-80">
-                        <span className="text-Apurple font-bold 2xl:text-3xl">Schema</span>
+                    <div className="absolute transform -rotate-90 h-1 left-44 top-44 2xl:left-80 2xl:top-80">
+                        <span className="text-Apurple font-bold 2xl:text-4xl">Schema</span>
                     </div>
                     <div className="w-1/3 flex flex-col space-y-5 text-Agrey shadow-md rounded-sm">
                         <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/미술관소개_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
@@ -89,8 +89,8 @@ export default function Mainpage() {
                             </Link>
                         </button>
                     </div>
-                    <div className="absolute transform rotate-90 right-32 bottom-52 2xl:right-56 2xl:bottom-80">
-                        <span className="text-Apurple font-bold 2xl:text-3xl">Art Museum</span>
+                    <div className="absolute transform rotate-90 right-32 bottom-48 2xl:right-56 2xl:bottom-80">
+                        <span className="text-Apurple font-bold 2xl:text-4xl">Art Museum</span>
                     </div>
                 </div>
                 {/* 중단 텍스트 */}
@@ -128,14 +128,14 @@ export default function Mainpage() {
                 </button>
                 {modal && (
                     <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
-                        <div className="flex flex-col h-5/6 w-5/6 lg:h-3/4 lg:w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 space-y-4">
-                            <span className="text-2xl lg:text-xl text-black font-bold mt-4">여러분의 언어를 선택해주세요!<br /></span>
-                            <span className="text-xl lg:text-lg text-Cgrey font-bold">Please select your language</span>
-                            <div className="flex flex-col space-y-8 lg:space-y-6 w-full h-[700px] 2xl:h-full bg-Cpurple bg-opacity-30 rounded-b-lg py-10 lg:py-6 z-30">
+                        <div className="flex flex-col h-3/4 w-3/4 2xl:h-5/6 2xl:w-5/6 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 space-y-4 2xl:space-y-6">
+                            <span className="text-xl 2xl:text-3xl text-black font-bold mt-4 2xl:mt-6">여러분의 언어를 선택해주세요!<br /></span>
+                            <span className="text-lg 2xl:text-2xl text-Cgrey font-bold">Please select your language</span>
+                            <div className="flex flex-col space-y-6 w-full h-[700px] 2xl:space-y-8 2xl:h-full bg-Cpurple bg-opacity-30 rounded-b-lg py-10 lg:py-6 z-30">
                                 <div className="flex flex-row mx-auto space-x-6 2xl:space-x-8 z-40">
                                     {/* 한국어 */}
                                     <button
-                                        className="h-[200px] w-[300px] lg:h-[150px] lg:w-[250px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                        className="h-[150px] w-[250px] 2xl:h-[250px] 2xl:w-[350px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
                                     >
                                         <div
                                             id="ko" 
@@ -163,7 +163,7 @@ export default function Mainpage() {
                                     </button>
                                     {/* 영어 */}
                                     <button
-                                        className="h-[200px] w-[300px] lg:h-[150px] lg:w-[250px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                        className="h-[150px] w-[250px] 2xl:h-[250px] 2xl:w-[350px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
                                     >
                                         <div 
                                             id="en" 
@@ -194,7 +194,7 @@ export default function Mainpage() {
                                 <div className="flex flex-row mx-auto space-x-6 2xl:space-x-8 z-40"> 
                                 {/* 중국어 */}
                                 <button
-                                    className="h-[200px] w-[300px] lg:h-[150px] lg:w-[250px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                    className="h-[150px] w-[250px] 2xl:h-[200px] 2xl:w-[300px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
                                 >
                                         <div 
                                             id="zh" 
@@ -223,7 +223,7 @@ export default function Mainpage() {
                                     </button>
                                     {/* 태국어 */}
                                     <button 
-                                        className="h-[200px] w-[300px] lg:h-[150px] lg:w-[250px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                        className="h-[150px] w-[250px] 2xl:h-[250px] 2xl:w-[350px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
                                     >
                                         <div 
                                             id="th"
@@ -252,7 +252,7 @@ export default function Mainpage() {
                                     </button>
                                     {/* 베트남어 */}
                                     <button
-                                        className="h-[200px] w-[300px] lg:h-[150px] lg:w-[250px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                        className="h-[150px] w-[250px] 2xl:h-[250px] 2xl:w-[350px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
                                     >
                                         <div
                                             id="vi" 
@@ -281,14 +281,14 @@ export default function Mainpage() {
                                     </button>
                                 </div>
                                 <div className="flex flex-row mx-auto space-x-6 z-40">
-                                    <button className="h-16 w-[250px] lg:h-12 lg:w-[200px] z-40 bg-Awhite shadow-lg rounded-full text-black font-bold text-2xl lg:text-xl"
+                                    <button className="h-12 w-[200px] 2xl:h-16 2xl:w-[250px] z-40 bg-Awhite shadow-lg rounded-full text-black font-bold text-2xl lg:text-xl"
                                         onClick={toggleModal}
                                     >
                                         취소하기
                                     </button>
                                     {/* 언어 변경 버튼 */}
                                     <button 
-                                        className="h-16 w-[250px] lg:h-12 lg:w-[200px] z-40 bg-gradient-to-r from-Agradient to-Bgradient shadow-lg rounded-full text-white font-bold text-2xl lg:text-xl"
+                                        className="h-12 w-[200px] 2xl:h-16 2xl:w-[250px] z-40 bg-gradient-to-r from-Agradient to-Bgradient shadow-lg rounded-full text-white font-bold text-2xl lg:text-xl"
                                         onClick={
                                             ()=> changeLanguage(id)
                                         }

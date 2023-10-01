@@ -92,7 +92,7 @@ export default function Navbar({url}) {
                                 {t("BIG")}
                             </button>
                         </div>
-                        <div className="flex flex-row h-9 2xl:h-11 w-full 2xl:w-full justify-center 2xl:px-20">
+                        <div className="flex flex-row h-9 2xl:h-11 w-[400px] 2xl:w-full justify-center 2xl:px-20">
                             <span className="text-xl 2xl:text-3xl w-1/3 2xl:mt-2">{t("VOLUME")}</span>
                             <div className="w-2/3 bg-Cgrey rounded-full p-2 2xl:mt-2">
                                 <ReactSlider 
