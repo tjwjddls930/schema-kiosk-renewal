@@ -17,14 +17,14 @@ export default function Presentpage() {
                         <div 
                             key={item.order}
                             className="flex flex-col space-y-2 2xl:space-y-4">
-                            {item === artist ? "" : <><div className="h-[0.5px] w-12 2xl:h-[1px] 2xl:w-16 bg-Cpurple" />
-                            <span className="text-Awhite text-md 2xl:text-3xl mb-2">{item.name}</span></>}
+                            {item === artist ? "" : <><div className="h-[0.5px] w-12 2xl:h-[1px] 2xl:w-20 bg-Cpurple" />
+                            <span className="text-Awhite text-md 2xl:text-4xl mb-2">{item.name}</span></>}
                             <div 
                                 // className={item === artist ? "h-[350px] w-[250px] border-2 border-Awhite" : "h-[300px] w-[200px]"}
                                 onClick={()=> setArtist(item)}
                             >
                                 <img 
-                                    className={item === artist ? "h-[200px] w-[200px] 2xl:h-[500px] 2xl:w-[500px] border-4 border-Awhite rounded-lg" : "h-[150px] w-[150px] 2xl:h-[450px] 2xl:w-[450px] rounded-lg"}
+                                    className={item === artist ? "h-[200px] w-[200px] 2xl:h-[550px] 2xl:w-[550px] border-4 border-Awhite rounded-lg" : "h-[150px] w-[150px] 2xl:h-[500px] 2xl:w-[500px] rounded-lg"}
                                     src={`/img/exhibitpage/artists/${item.imgname}`}
                                     alt="artist"
                                 />
