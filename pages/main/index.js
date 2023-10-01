@@ -42,8 +42,8 @@ export default function Mainpage() {
                 <TopNavbar />
                 {/* 중단 버튼 구역*/}
                 <div className="w-4/5 h-2/3 pt-10 px-14 flex flex-row space-x-5 mx-auto border border-Cpurple">
-                    <div className="absolute transform -rotate-90 h-1 left-44 top-52">
-                        <span className="text-Apurple font-bold">Schema</span>
+                    <div className="absolute transform -rotate-90 h-1 left-44 top-52 2xl:left-64 2xl:top-60">
+                        <span className="text-Apurple font-bold 2xl:text-2xl">Schema</span>
                     </div>
                     <div className="w-1/3 flex flex-col space-y-5 text-Agrey shadow-md rounded-sm border border-Cpurple">
                         <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/미술관소개_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
@@ -82,18 +82,18 @@ export default function Mainpage() {
                     </div>
                 </div>
                 {/* 중단 텍스트 */}
-                <div className="flex flex-row space-x-4 text-md font-bold pt-7">
+                <div className="flex flex-row space-x-4 text-md font-bold pt-7 2xl:pt-9">
                     <div className="mx-auto flex flex-row items-center">
-                        <span className="text-Bpurple">{t("TIME_GUIDE")}</span>
-                        <div className="mx-2 h-[12px] w-[0.5px] border border-Cgrey">
+                        <span className="text-Bpurple 2xl:text-2xl">{t("TIME_GUIDE")}</span>
+                        <div className="mx-2 h-[12px] 2xl:h-[18px] w-[0.5px] border border-Cgrey">
                         </div>
-                        <span className="text-Bgrey">{t("TIME_GUIDE_1")}</span>
-                        <div className="mx-2 h-[12px] w-[0.5px] border border-Cgrey">
+                        <span className="text-Bgrey 2xl:text-2xl">{t("TIME_GUIDE_1")}</span>
+                        <div className="mx-2 h-[12px] 2xl:h-[18px] w-[0.5px] border border-Cgrey">
                         </div>
-                        <span className="text-Bgrey">{t("TIME_GUIDE_2")}</span>
-                        <div className="mx-2 h-[12px] w-[0.5px] border border-Cgrey">
+                        <span className="text-Bgrey 2xl:text-2xl">{t("TIME_GUIDE_2")}</span>
+                        <div className="mx-2 h-[12px] 2xl:h-[18px] w-[0.5px] border border-Cgrey">
                         </div>
-                        <span className="text-Bgrey">{t("TIME_GUIDE_3")}</span>
+                        <span className="text-Bgrey 2xl:text-2xl">{t("TIME_GUIDE_3")}</span>
                         </div>
                 </div>
                 {/* 언어변경 버튼 */}
