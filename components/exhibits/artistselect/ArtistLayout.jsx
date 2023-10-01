@@ -7,7 +7,7 @@ export default function Artistlayout({children}) {
     return(
         <Pageframe>
             <div className="h-screen w-screen bg-Agrey">
-                <div className="w-full py-10 px-16 flex flex-row justify-between">
+                <div className="w-full py-6 px-12 2xl:py-12 2xl:px-20 flex flex-row justify-between">
                     <div className="flex flex-row">
                         <Link href="/main">
                             <Image 
@@ -23,12 +23,12 @@ export default function Artistlayout({children}) {
                                 priority={true}
                             />
                         </Link>
-                        <span className="text-Awhite text-lg 2xl:text-xl mt-2">{'전시 안내 '} </span>
-                        <span className="text-Awhite text-lg 2xl:text-xl mt-2">{' > 현재 전시'}</span>
-                        <span className="text-Awhite text-lg 2xl:text-xl font-bold mt-2">{' > 작가 선택'}</span>
+                        <span className="text-Awhite text-base 2xl:text-xl mt-2">{'전시 안내 '} </span>
+                        <span className="text-Awhite text-base 2xl:text-xl mt-2">{' > 현재 전시'}</span>
+                        <span className="text-Awhite text-base 2xl:text-xl font-bold mt-2">{' > 작가 선택'}</span>
                     </div>
                     <div>
-                        <span className="text-Awhite text-md 2xl:text-xl font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
+                        <span className="text-Awhite text-base 2xl:text-xl font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
                     </div>
                 </div>
                 <div className="flex w-full items-center text-center text-Awhite text-xl mb-6 2xl:text-3xl 2xl:mb-10">
@@ -59,7 +59,7 @@ export default function Artistlayout({children}) {
                         />
                     </Link>
                 </button>
-                <span className="absolute bottom-48 2xl:bottom-60 right-28 text-8xl w-1/12 font-bold text-Awhite opacity-50">{'/05'}</span>
+                <span className="absolute bottom-40 2xl:bottom-60 right-28 text-8xl w-1/12 font-bold text-Awhite opacity-50">{'/05'}</span>
             </div>
         </Pageframe>
     )
