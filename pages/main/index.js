@@ -116,7 +116,7 @@ export default function Mainpage() {
                     <div className="flex flex-col">
                         <div className="border-4 border-Cpurple rounded-full w-20 h-20 2xl:w-28 2xl:h-28 items-center bg-Awhite">
                             <Image 
-                                className="mx-auto pt-2.5 z-1 2xl:pt-4"
+                                className="mx-auto pt-2.5 z-1 2xl:pt-6"
                                 src="/img/mainpage/언어변경_아이콘.png"
                                 height="50"
                                 width="50"

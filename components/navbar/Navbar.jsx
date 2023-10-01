@@ -45,7 +45,7 @@ export default function Navbar({url}) {
                         <span className="text-2xl 2xl:text-4xl 2xl:mt-2">{t("CURRENT_LANGUAGE")}</span>
                     </div>
                     <div className="2xl:w-3/4 flex flex-row space-x-4 2xl:space-x-6">
-                        <div className="px-4 2xl:px-8">
+                        {/* <div className="px-4 2xl:px-8">
                             <label className="relative flex w-max cursor-pointer select-none items-center">
                                 <input 
                                     type="checkbox"
@@ -83,14 +83,14 @@ export default function Navbar({url}) {
                                         </div></>}
                                     </div>
                             </label>
-                        </div>
+                        </div> */}
                         <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                             <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2">{t("FONT_SIZE")}</span>
                             <button className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-white font-bold">
                                 {t("BIG")}
                             </button>
                         </div>
-                        <div className="flex flex-row h-9 2xl:h-11 w-full 2xl:full justify-center 2xl:px-20">
+                        <div className="flex flex-row h-9 2xl:h-11 w-full 2xl:w-full justify-center 2xl:px-20">
                             <span className="text-xl 2xl:text-3xl w-1/3 2xl:mt-2">{t("VOLUME")}</span>
                             <div className="w-2/3 bg-Cgrey rounded-full p-2 2xl:mt-2">
                                 <ReactSlider 
