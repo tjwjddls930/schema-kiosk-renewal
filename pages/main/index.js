@@ -42,7 +42,7 @@ export default function Mainpage() {
                 <TopNavbar />
                 {/* 중단 버튼 구역*/}
                 <div className="w-4/5 h-2/3 pt-10 px-14 flex flex-row space-x-5 mx-auto">
-                    <div className="absolute 2xl:h-[10px] 2xl:w-[10px] transform -rotate-90 h-1 left-40 top-48 2xl:left-80 2xl:top-80">
+                    <div className="absolute 2xl:h-[10px] 2xl:w-[10px] transform -rotate-90 h-1 left-40 top-44 2xl:left-80 2xl:top-80">
                         <span className="text-Apurple font-bold 2xl:text-2xl">Schema</span>
                     </div>
                     <div className="w-1/3 flex flex-col space-y-5 text-Agrey shadow-md rounded-sm">
@@ -89,7 +89,7 @@ export default function Mainpage() {
                             </Link>
                         </button>
                     </div>
-                    <div className="absolute 2xl:h-[100px] 2xl:w-[10px] transform rotate-90 right-32 bottom-56 2xl:right-56 2xl:bottom-80">
+                    <div className="absolute 2xl:h-[10px] 2xl:w-[100px] transform rotate-90 right-32 bottom-52 2xl:right-56 2xl:bottom-80">
                         <span className="text-Apurple font-bold 2xl:text-2xl">Art Museum</span>
                     </div>
                 </div>

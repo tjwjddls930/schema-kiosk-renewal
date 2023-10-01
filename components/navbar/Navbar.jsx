@@ -44,7 +44,7 @@ export default function Navbar({url}) {
                         />
                         <span className="text-2xl 2xl:text-4xl 2xl:mt-2">{t("CURRENT_LANGUAGE")}</span>
                     </div>
-                    <div className="w-10/12 2xl:w-2/3 flex flex-row space-x-4 2xl:space-x-6">
+                    <div className="w-11/12 2xl:w-2/3 flex flex-row space-x-3 2xl:space-x-6">
                         {/* <div className="px-4 2xl:px-8">
                             <label className="relative flex w-max cursor-pointer select-none items-center">
                                 <input 
