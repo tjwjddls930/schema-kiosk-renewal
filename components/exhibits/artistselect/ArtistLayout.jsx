@@ -59,7 +59,7 @@ export default function Artistlayout({children}) {
                         />
                     </Link>
                 </button>
-                <span className="absolute bottom-56 2xl:bottom-72 right-28 text-8xl 2xl:text-9xl w-1/12 font-bold text-Awhite opacity-50">{'/05'}</span>
+                <span className="absolute bottom-56 2xl:bottom-96 right-28 text-8xl 2xl:text-[170px] w-1/12 font-bold text-Awhite opacity-50">{'/05'}</span>
             </div>
         </Pageframe>
     )
