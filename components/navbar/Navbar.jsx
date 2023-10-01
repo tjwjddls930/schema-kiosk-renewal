@@ -83,7 +83,7 @@ export default function Navbar({url}) {
                                 </div>
                         </label>
                     </div>
-                    <div className="flex flex-row w-[250px] 2xl:w-[350px] justify-center text-center">
+                    <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                         <span className="text-xl w-[150px] 2xl:text-3xl 2xl:w-[250px] mx-auto">{t("FONT_SIZE")}</span>
                         <button className="rounded-full 2xl:text-3xl w-[100px] 2xl:w-[200px] bg-Cgrey text-white font-bold">
                             {t("BIG")}
@@ -110,7 +110,7 @@ export default function Navbar({url}) {
                             />
                         </div>
                     </div>
-                    <div className="flex flex-row w-[250px] 2xl:w-[350px] justify-center text-center">
+                    <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                         <span className="text-xl 2xl:text-3xl w-[170px] 2xl:w-[270px] mx-auto">{t("SOUND_GUIDE")}</span>
                         <button
                             onClick={()=>setSoundguide(!soundguide)} 
@@ -119,7 +119,7 @@ export default function Navbar({url}) {
                             {/* {t("START")} */}
                         </button>
                     </div>
-                    <div className="flex flex-row w-[250px] 2xl:w-[350px] justify-center text-center">
+                    <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                         <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[270px] mx-auto">{t("SIGN_LANGUAGE")}</span>
                         <button className="rounded-full w-[80px] 2xl:w-[150px] 2xl:text-3xl bg-Cgrey text-white font-bold">
                             {t("START")}
