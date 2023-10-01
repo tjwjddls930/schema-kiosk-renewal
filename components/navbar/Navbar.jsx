@@ -25,7 +25,7 @@ export default function Navbar({url}) {
                 </div>
             )}
            <nav className="fixed hidden lg:flex bottom-0 w-full h-20 lg:h-16 2xl:h-28 bg-Ablack px-10">
-                <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5 lg:mt-4 2xl:my-4 2xl:mt-8">
+                <div className="flex flex-row w-full space-x-4 2xl:space-x-6 justify-center my-2 mt-5 lg:mt-4 2xl:my-4 2xl:mt-6">
                     <div className="flex flex-row space-x-2 h-9 2xl:space-x-4 2xl:h-11 w-1/3 mx-auto">
                         {/* <Image 
                             src={`/img/flags/${i18n.language}_circle.png`}
@@ -85,7 +85,7 @@ export default function Navbar({url}) {
                     </div>
                     <div className="flex flex-row w-[250px] 2xl:w-[350px] justify-center text-center">
                         <span className="text-xl w-[150px] 2xl:text-3xl 2xl:w-[250px] mx-auto">{t("FONT_SIZE")}</span>
-                        <button className="rounded-full text-xl 2xl:text-3xl w-[100px] 2xl:w-[200px] bg-Cgrey text-white font-bold">
+                        <button className="rounded-full 2xl:text-3xl w-[100px] 2xl:w-[200px] bg-Cgrey text-white font-bold">
                             {t("BIG")}
                         </button>
                     </div>
@@ -114,14 +114,14 @@ export default function Navbar({url}) {
                         <span className="text-xl 2xl:text-3xl w-[170px] 2xl:w-[270px] mx-auto">{t("SOUND_GUIDE")}</span>
                         <button
                             onClick={()=>setSoundguide(!soundguide)} 
-                            className="rounded-full w-[80px] 2xl:w-[150px] text-xl 2xl:text-3xl bg-Cgrey text-white font-bold">
+                            className="rounded-full w-[80px] 2xl:w-[150px] 2xl:text-3xl bg-Cgrey text-white font-bold">
                             {soundguide ? t("STOP") : t("START")}
                             {/* {t("START")} */}
                         </button>
                     </div>
                     <div className="flex flex-row w-[250px] 2xl:w-[350px] justify-center text-center">
                         <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[270px] mx-auto">{t("SIGN_LANGUAGE")}</span>
-                        <button className="rounded-full w-[80px] 2xl:w-[150px] text-xl 2xl:text-3xl bg-Cgrey text-white font-bold">
+                        <button className="rounded-full w-[80px] 2xl:w-[150px] 2xl:text-3xl bg-Cgrey text-white font-bold">
                             {t("START")}
                         </button>
                     </div>
