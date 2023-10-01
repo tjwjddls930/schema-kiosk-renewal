@@ -45,7 +45,7 @@ export default function Mainpage() {
                     <div className="absolute transform -rotate-90 h-1 left-44 top-52">
                         <span className="text-Apurple font-bold">Schema</span>
                     </div>
-                    <div className="flex flex-col space-y-5 text-Agrey shadow-md rounded-sm border border-Cpurple">
+                    <div className="w-1/3 flex flex-col space-y-5 text-Agrey shadow-md rounded-sm border border-Cpurple">
                         <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/미술관소개_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
                             <Link href="/intro">
                                 <span className="text-lg xl:text-xl font-bold">{t("MAIN_INTRO")}<br /></span>
@@ -65,7 +65,7 @@ export default function Mainpage() {
                             </Link>
                         </button>
                     </div>
-                    <div className="flex flex-col space-y-5 text-Awhite shadow-md border border-Cpurple">
+                    <div className="w-1/3 flex flex-col space-y-5 text-Awhite shadow-md border border-Cpurple">
                         <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/교육프로그램_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
                             <span className="text-lg xl:text-xl font-bold">{t("MAIN_EDUCATION")}<br /></span>
                             <span className="text-sm xl:text-base font-bold">{t("MAIN_EDUCATION_1")}</span>
