@@ -26,25 +26,27 @@ export default function Navbar({url}) {
             )}
            <nav className="fixed hidden lg:flex bottom-0 w-full h-20 lg:h-16 2xl:h-28 bg-Ablack px-10 2xl:px-12">
                 <div className="flex flex-row w-full space-x-4 2xl:space-x-6 justify-between my-2 mt-5 lg:mt-4 2xl:my-4 2xl:mt-6">
-                    <div className="flex flex-row space-x-2 h-9 2xl:space-x-4 2xl:h-11 w-1/3 mx-auto">
-                        {/* <Image 
-                            src={`/img/flags/${i18n.language}_circle.png`}
-                            height="50"
-                            width="50"
-                            alt="korea"
-                            style={{
-                                width: "auto",
-                                height: "auto"
-                            }}
-                        /> */}
-                        <img 
-                            src={`/img/flags/${i18n.language}_circle.png`}
-                            className="h-10 w-10 2xl:h-16 2xl:w-16"
-                            alt="flag"
-                        />
-                        <span className="text-2xl 2xl:text-4xl 2xl:mt-2">{t("CURRENT_LANGUAGE")}</span>
+                    <div className="w-1/12 2xl:w-1/2">
+                        <div className="flex flex-row space-x-2 h-9 2xl:space-x-4 2xl:h-11 w-1/3 mx-auto justify-start">
+                            {/* <Image 
+                                src={`/img/flags/${i18n.language}_circle.png`}
+                                height="50"
+                                width="50"
+                                alt="korea"
+                                style={{
+                                    width: "auto",
+                                    height: "auto"
+                                }}
+                            /> */}
+                            <img 
+                                src={`/img/flags/${i18n.language}_circle.png`}
+                                className="h-10 w-10 2xl:h-16 2xl:w-16"
+                                alt="flag"
+                            />
+                            <span className="text-2xl 2xl:text-4xl 2xl:mt-2">{t("CURRENT_LANGUAGE")}</span>
+                        </div>
                     </div>
-                    <div className="w-11/12 2xl:w-1/2 flex flex-row space-x-3 2xl:space-x-6 border border-Cpurple">
+                    <div className="w-11/12 2xl:w-1/2 flex flex-row space-x-3 2xl:space-x-6">
                         {/* <div className="px-4 2xl:px-8">
                             <label className="relative flex w-max cursor-pointer select-none items-center">
                                 <input 
