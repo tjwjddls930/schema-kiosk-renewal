@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function ConnectButton() {
 
     return(
-        <div className="w-3/4 xl:h-[600px] h-[500px] flex flex-row mx-auto">
+        <div className="w-3/4 h-[500px] 2xl:h-3/4 flex flex-row mx-auto">
             <div className="flex flex-col h-full w-1/2">
                 <Link href="/artist">
-                    <div className="xl:h-[350px] h-[250px] w-5/6 mx-auto">
-                        <div className="flex flex-row space-x-4 justify-start">
+                    <div className="h-[250px] 2xl:h-[350px] w-5/6 mx-auto">
+                        <div className="flex flex-row space-x-4 justify-start 2xl:justify-center">
                             <span className="text-[150px] 2xl:text-[170px] font-bold text-Ablack drop-shadow-xl">{'01'}</span>
-                            <div className="flex flex-col w-[170px] 2xl:w-[200px] mr-4 pt-10 justify-start">
+                            <div className="flex flex-col w-[170px] 2xl:w-[200px] mr-4 pt-10 justify-start 2xl:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
                                 <span className="text-lg text-Agrey font-bold">{'Last exhibition'}</span>
                                 <span className="text-2xl text-Ablack font-bold mb-5">{'지난 전시'}</span>
@@ -29,9 +29,9 @@ export default function ConnectButton() {
                 </Link>
                 <Link href="/artist">
                     <div className="h-[250px] 2xl:h-[350px] w-5/6 mx-auto">
-                        <div className="flex flex-row space-x-4 overflow-hidden justify-start">
+                        <div className="flex flex-row space-x-4 overflow-hidden justify-start 2xl:justify-center">
                             <span className="text-[150px] 2xl:text-[170px] font-bold text-Ablack drop-shadow-xl">{'02'}</span>
-                            <div className="flex flex-col w-[170px] 2xl:w-[200px] mr-4 pt-10 justify-start">
+                            <div className="flex flex-col w-[170px] 2xl:w-[200px] mr-4 pt-10 justify-start 2xl:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
                                 <span className="text-lg text-Agrey font-bold">{'Present exhibition'}</span>
                                 <span className="text-2xl text-Ablack font-bold mb-5">{'현재 전시'}</span>
@@ -53,9 +53,9 @@ export default function ConnectButton() {
             <div className="flex flex-col h-full w-1/2">
                 <Link href="/artist">
                     <div className="h-[250px] 2xl:h-[350px] w-5/6 mx-auto">
-                        <div className="flex flex-row space-x-4 justify-start">
+                        <div className="flex flex-row space-x-4 justify-start 2xl:justify-center">
                             <span className="text-[150px] 2xl:text-[170px] font-bold text-Ablack drop-shadow-xl">{'03'}</span>
-                            <div className="flex flex-col w-[170px] 2xl:w-[200px] pt-10 mr-4 justify-start">
+                            <div className="flex flex-col w-[170px] 2xl:w-[200px] pt-10 mr-4 justify-start 2xl:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
                                 <span className="text-lg text-Agrey font-bold">{'Scheduled exhibition'}</span>
                                 <span className="text-2xl text-Ablack font-bold mb-5">{'지난 전시'}</span>
@@ -75,9 +75,9 @@ export default function ConnectButton() {
                 </Link>
                 <Link href="/artist">
                     <div className="h-[250px] 2xl:h-[350px] w-5/6 mx-auto">
-                        <div className="flex flex-row space-x-4 justify-start">
+                        <div className="flex flex-row space-x-4 justify-start 2xl:justify-center">
                             <span className="text-[150px] 2xl:text-[170px] font-bold text-Ablack drop-shadow-xl">{'04'}</span>
-                            <div className="flex flex-col w-[170px] 2xl:w-[200px] pt-10 mr-4 justify-start">
+                            <div className="flex flex-col w-[170px] 2xl:w-[200px] pt-10 mr-4 justify-start 2xl:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
                                 <span className="text-lg text-Agrey font-bold">{'Collection tour'}</span>
                                 <span className="text-2xl text-Ablack font-bold mb-5">{'소장품 관람'}</span>
