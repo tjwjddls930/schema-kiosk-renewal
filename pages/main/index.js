@@ -89,7 +89,7 @@ export default function Mainpage() {
                             </Link>
                         </button>
                     </div>
-                    <div className="absolute 2xl:h-[10px] 2xl:w-[100px] transform rotate-90 right-32 bottom-52 2xl:right-56 2xl:bottom-80">
+                    <div className="absolute 2xl:h-[200px] 2xl:w-[100px] transform rotate-90 right-32 bottom-52 2xl:right-56 2xl:bottom-80">
                         <span className="text-Apurple font-bold 2xl:text-2xl">Art Museum</span>
                     </div>
                 </div>
@@ -131,8 +131,8 @@ export default function Mainpage() {
                         <div className="flex flex-col h-5/6 w-5/6 lg:h-3/4 lg:w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 space-y-4">
                             <span className="text-2xl lg:text-xl text-black font-bold mt-4">여러분의 언어를 선택해주세요!<br /></span>
                             <span className="text-xl lg:text-lg text-Cgrey font-bold">Please select your language</span>
-                            <div className="flex flex-col space-y-8 lg:space-y-6 w-full h-[700px] bg-Cpurple bg-opacity-30 rounded-b-lg py-10 lg:py-6 z-30">
-                                <div className="flex flex-row mx-auto space-x-6 z-40">
+                            <div className="flex flex-col space-y-8 lg:space-y-6 w-full h-[700px] 2xl:h-full bg-Cpurple bg-opacity-30 rounded-b-lg py-10 lg:py-6 z-30">
+                                <div className="flex flex-row mx-auto space-x-6 2xl:space-x-8 z-40">
                                     {/* 한국어 */}
                                     <button
                                         className="h-[200px] w-[300px] lg:h-[150px] lg:w-[250px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
@@ -191,7 +191,7 @@ export default function Mainpage() {
                                         </div>
                                     </button>
                                 </div>
-                                <div className="flex flex-row mx-auto space-x-6 z-40"> 
+                                <div className="flex flex-row mx-auto space-x-6 2xl:space-x-8 z-40"> 
                                 {/* 중국어 */}
                                 <button
                                     className="h-[200px] w-[300px] lg:h-[150px] lg:w-[250px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
