@@ -74,7 +74,6 @@ function TopNavbar() {
           width={192}
           height={53}
           priority={true}
-          layout="responsive"
           // className="bg-white p-4 bg-opacity-60 rounded-2xl"
         />
       </Link>
