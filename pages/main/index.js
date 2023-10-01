@@ -42,7 +42,7 @@ export default function Mainpage() {
                 <TopNavbar />
                 {/* 중단 버튼 구역*/}
                 <div className="w-4/5 h-2/3 pt-10 px-14 flex flex-row space-x-5 mx-auto">
-                    <div className="absolute transform -rotate-90 h-1 left-44 top-52 2xl:left-80 2xl:top-80">
+                    <div className="absolute 2xl:h-[10px] 2xl:w-[10px] transform -rotate-90 h-1 left-44 top-52 2xl:left-80 2xl:top-80">
                         <span className="text-Apurple font-bold 2xl:text-2xl">Schema</span>
                     </div>
                     <div className="w-1/3 flex flex-col space-y-5 text-Agrey shadow-md rounded-sm">
@@ -74,7 +74,7 @@ export default function Mainpage() {
                         </button>
                     </div>
                     <div className="w-1/3 flex flex-col space-y-5 text-Awhite shadow-md">
-                        <button className="w-full h-1/2 flex flex-col space-y-2 text-center bg-[url('/img/mainpage/교육프로그램_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
+                        <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/교육프로그램_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
                             <div className="flex flex-col space-y-2">
                                 <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_EDUCATION")}</span>
                                 <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_EDUCATION_1")}</span>
@@ -89,7 +89,7 @@ export default function Mainpage() {
                             </Link>
                         </button>
                     </div>
-                    <div className="absolute transform rotate-90 right-36 bottom-60 2xl:right-56 2xl:bottom-80">
+                    <div className="absolute 2xl:h-[10px] 2xl:w-[10px] transform rotate-90 right-36 bottom-60 2xl:right-56 2xl:bottom-80">
                         <span className="text-Apurple font-bold 2xl:text-2xl">Art Museum</span>
                     </div>
                 </div>
@@ -116,7 +116,7 @@ export default function Mainpage() {
                     <div className="flex flex-col">
                         <div className="border-4 border-Cpurple rounded-full w-20 h-20 2xl:w-28 2xl:h-28 items-center bg-Awhite">
                             <Image 
-                                className="mx-auto pt-2.5 z-1"
+                                className="mx-auto pt-2.5 z-1 2xl:pt-4"
                                 src="/img/mainpage/언어변경_아이콘.png"
                                 height="50"
                                 width="50"

@@ -42,7 +42,7 @@ export default function Navbar({url}) {
                             className="h-10 w-10 2xl:h-16 2xl:w-16"
                             alt="flag"
                         />
-                        <span className="text-2xl 2xl:text-4xl">{t("CURRENT_LANGUAGE")}</span>
+                        <span className="text-2xl 2xl:text-4xl 2xl:mt-2">{t("CURRENT_LANGUAGE")}</span>
                     </div>
                     <div className="px-4 2xl:px-8">
                         <label className="relative flex w-max cursor-pointer select-none items-center">
