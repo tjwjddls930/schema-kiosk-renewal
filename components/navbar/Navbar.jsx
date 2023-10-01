@@ -14,7 +14,7 @@ export default function Navbar({url}) {
         <>
         {soundguide && (
                 <div className="absolute top-0 left-0 h-[91%] w-screen bg-Ablack bg-opacity-60 z-20">
-                    <div className="flex mx-auto h-[530px] w-[530px] pt-40">
+                    <div className="flex mx-auto h-[530px] w-[530px] pt-40 z-30">
                         <Soundguide 
                             videoUrl={url}
                             volume={Number(volume)}
