@@ -39,7 +39,7 @@ export default function Navbar({url}) {
                     /> */}
                     <img 
                         src={`/img/flags/${i18n.language}_circle.png`}
-                        className="h-52 w-52 2xl:h-64 2xl:w-64"
+                        className="h-24 w-24 2xl:h-32 2xl:w-32"
                         alt="flag"
                     />
                     <span className="text-2xl 2xl:text-4xl">{t("CURRENT_LANGUAGE")}</span>
