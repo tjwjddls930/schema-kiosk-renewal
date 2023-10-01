@@ -131,11 +131,11 @@ export default function Mainpage() {
                         <div className="flex flex-col h-3/4 w-3/4 2xl:h-5/6 2xl:w-5/6 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 space-y-4 2xl:space-y-6">
                             <span className="text-xl 2xl:text-3xl text-black font-bold mt-4 2xl:mt-6">여러분의 언어를 선택해주세요!<br /></span>
                             <span className="text-lg 2xl:text-2xl text-Cgrey font-bold">Please select your language</span>
-                            <div className="flex flex-col space-y-6 w-full h-[700px] 2xl:space-y-8 2xl:h-full bg-Cpurple bg-opacity-30 rounded-b-lg py-10 lg:py-6 z-30">
+                            <div className="flex flex-col space-y-6 w-full h-[700px] 2xl:space-y-8 2xl:h-full bg-Cpurple bg-opacity-30 rounded-b-lg py-6 2xl:py-10 z-30">
                                 <div className="flex flex-row mx-auto space-x-6 2xl:space-x-8 z-40">
                                     {/* 한국어 */}
                                     <button
-                                        className="h-[150px] w-[250px] 2xl:h-[250px] 2xl:w-[350px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                        className="h-[150px] w-[250px] 2xl:h-[300px] 2xl:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
                                     >
                                         <div
                                             id="ko" 
@@ -144,7 +144,7 @@ export default function Mainpage() {
                                         >
                                             <Image 
                                                 id="ko"
-                                                className="pt-7 lg:pt-3 mx-auto"
+                                                className="pt-3 2xl:pt-10 mx-auto"
                                                 height="50"
                                                 width="100"
                                                 src="/img/flags/korea.png"
@@ -155,15 +155,15 @@ export default function Mainpage() {
                                                 }}
                                                 onClick={(e)=>handleLanguage(e, "Korean")}
                                             />
-                                            <div className="absolute w-full h-20 lg:h-16 bottom-0 pt-3 lg:pt-1 bg-Dgrey text-black z-40 rounded-b-lg">
-                                                <span className="text-2xl lg:text-xl font-bold z-40">한국어<br /></span>
-                                                <span className="text-xl lg:text-lg font-bold z-40">Korean</span>
+                                            <div className="absolute w-full h-16 2xl:h-20 bottom-0 pt-3 lg:pt-1 bg-Dgrey text-black z-40 rounded-b-lg">
+                                                <span className="text-xl 2xl:text-2xl font-bold z-40">한국어<br /></span>
+                                                <span className="text-lg 2xl:text-xl font-bold z-40">Korean</span>
                                             </div>
                                        </div>
                                     </button>
                                     {/* 영어 */}
                                     <button
-                                        className="h-[150px] w-[250px] 2xl:h-[250px] 2xl:w-[350px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                        className="h-[150px] w-[250px] 2xl:h-[300px] 2xl:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
                                     >
                                         <div 
                                             id="en" 
@@ -173,7 +173,7 @@ export default function Mainpage() {
                                         >
                                             <Image 
                                                 id="en"
-                                                className="pt-7 lg:pt-3 mx-auto"
+                                                className="pt-3 2xl:pt-10 mx-auto"
                                                 height="70"
                                                 width="100"
                                                 src="/img/flags/usa.png"
@@ -184,9 +184,9 @@ export default function Mainpage() {
                                                 }}
                                                 onClick={(e)=>handleLanguage(e, "English")}
                                             />
-                                            <div className="absolute w-full h-20 lg:h-16 bottom-0 pt-3 lg:pt-1 bg-Dgrey text-black z-40 rounded-b-lg">
-                                                <span className="text-2xl lg:text-xl font-bold">English<br /></span>
-                                                <span className="text-xl lg:text-lg font-bold">English</span>
+                                            <div className="absolute w-full h-16 2xl:h-20 bottom-0 pt-3 lg:pt-1 bg-Dgrey text-black z-40 rounded-b-lg">
+                                                <span className="text-xl 2xl:text-2xl font-bold">English<br /></span>
+                                                <span className="text-lg 2xl:text-xl font-bold">English</span>
                                             </div>
                                         </div>
                                     </button>
@@ -194,7 +194,7 @@ export default function Mainpage() {
                                 <div className="flex flex-row mx-auto space-x-6 2xl:space-x-8 z-40"> 
                                 {/* 중국어 */}
                                 <button
-                                    className="h-[150px] w-[250px] 2xl:h-[200px] 2xl:w-[300px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                    className="h-[150px] w-[250px] 2xl:h-[300px] 2xl:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
                                 >
                                         <div 
                                             id="zh" 
@@ -204,7 +204,7 @@ export default function Mainpage() {
                                         >
                                             <Image 
                                                 id="zh"
-                                                className="pt-7 lg:pt-3 mx-auto"
+                                                className="pt-3 2xl:pt-10 mx-auto"
                                                 height="50"
                                                 width="100"
                                                 src="/img/flags/china.png"
@@ -215,15 +215,15 @@ export default function Mainpage() {
                                                 }}
                                                 onClick={(e)=>handleLanguage(e, "Chinese")}
                                             />
-                                            <div className="absolute w-full h-20 lg:h-16 bottom-0 pt-3 lg:pt-1 bg-Dgrey text-black z-40 rounded-b-lg">
-                                                <span className="text-2xl lg:text-xl font-bold z-40">中國語<br /></span>
-                                                <span className="text-xl lg:text-lg font-bold z-40">Chinese</span>
+                                            <div className="absolute w-full h-16 2xl:h-20 bottom-0 pt-3 lg:pt-1 bg-Dgrey text-black z-40 rounded-b-lg">
+                                                <span className="text-xl 2xl:text-2xl font-bold z-40">中國語<br /></span>
+                                                <span className="text-lg 2xl:text-xl font-bold z-40">Chinese</span>
                                             </div>
                                        </div>
                                     </button>
                                     {/* 태국어 */}
                                     <button 
-                                        className="h-[150px] w-[250px] 2xl:h-[250px] 2xl:w-[350px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                        className="h-[150px] w-[250px] 2xl:h-[300px] 2xl:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
                                     >
                                         <div 
                                             id="th"
@@ -233,7 +233,7 @@ export default function Mainpage() {
                                         >
                                             <Image 
                                                 id="th"
-                                                className="pt-7 lg:pt-3 mx-auto"
+                                                className="pt-3 2xl:pt-10 mx-auto"
                                                 height="50"
                                                 width="100"
                                                 src="/img/flags/thailand.png"
@@ -244,15 +244,15 @@ export default function Mainpage() {
                                                 }}
                                                 onClick={(e)=>handleLanguage(e, "Thai")}
                                             />
-                                            <div className="absolute w-full h-20 lg:h-16 bottom-0 pt-3 lg:pt-1 bg-Dgrey text-black z-40 rounded-b-lg">
-                                                <span className="text-2xl lg:text-xl font-bold">แบบไทย<br /></span>
-                                                <span className="text-xl lg:text-lg font-bold">Thai</span>
+                                            <div className="absolute w-full h-16 2xl:h-20 bottom-0 pt-3 lg:pt-1 bg-Dgrey text-black z-40 rounded-b-lg">
+                                                <span className="text-xl 2xl:text-2xl font-bold">แบบไทย<br /></span>
+                                                <span className="text-lg 2xl:text-xl font-bold">Thai</span>
                                             </div>
                                         </div>
                                     </button>
                                     {/* 베트남어 */}
                                     <button
-                                        className="h-[150px] w-[250px] 2xl:h-[250px] 2xl:w-[350px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                        className="h-[150px] w-[250px] 2xl:h-[300px] 2xl:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
                                     >
                                         <div
                                             id="vi" 
@@ -262,7 +262,7 @@ export default function Mainpage() {
                                         >
                                             <Image 
                                                 id="vi"
-                                                className="pt-7 lg:pt-3 mx-auto"
+                                                className="pt-3 2xl:pt-10 mx-auto"
                                                 height="70"
                                                 width="100"
                                                 src="/img/flags/vietnam.png"
@@ -273,9 +273,9 @@ export default function Mainpage() {
                                                 }}
                                                 onClick={(e)=>handleLanguage(e, "Vietnamese")}
                                             />
-                                            <div className="absolute w-full h-20 lg:h-16 bottom-0 pt-3 lg:pt-1 bg-Dgrey text-black z-40 rounded-b-lg">
-                                                <span className="text-2xl lg:text-xl font-bold">Tiếng Việt<br /></span>
-                                                <span className="text-xl lg:text-lg font-bold">Vietnamese</span>
+                                            <div className="absolute w-full h-16 2xl:h-20 bottom-0 pt-3 lg:pt-1 bg-Dgrey text-black z-40 rounded-b-lg">
+                                                <span className="text-xl 2xl:text-2xl font-bold">Tiếng Việt<br /></span>
+                                                <span className="text-lg 2xl:text-xl font-bold">Vietnamese</span>
                                             </div>
                                         </div>
                                     </button>
