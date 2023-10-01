@@ -57,7 +57,7 @@ export default function Mainpage() {
                             <span className="text-sm xl:text-base font-bold">{t("MAIN_CHATBOT_1")}</span>
                         </button>
                     </div>
-                    <div className="flex w-3/4 h-full bg-[url('/img/mainpage/전시안내_배경_보정.png')] items-center shadow-md rounded-lg bg-cover bg-no-repeat">
+                    <div className="flex w-[60%] h-full bg-[url('/img/mainpage/전시안내_배경_보정.png')] items-center shadow-md rounded-lg bg-cover bg-no-repeat">
                         <button className="w-3/4 h-3/4 xl:w-5/6 xl:h-5/6 border-4 border-Bpurple bg-opacity-0 mx-auto">
                             <Link href="/exhibit">
                                 <span className="text-xl xl:text-2xl font-bold">{t("MAIN_EXHIBIT_GUIDE")} <br /></span>
@@ -66,11 +66,11 @@ export default function Mainpage() {
                         </button>
                     </div>
                     <div className="flex flex-col space-y-5 text-Awhite shadow-md">
-                        <button className="w-full h-[48%] text-center bg-[url('/img/mainpage/교육프로그램_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
+                        <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/교육프로그램_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
                             <span className="text-lg xl:text-xl font-bold">{t("MAIN_EDUCATION")}<br /></span>
                             <span className="text-sm xl:text-base font-bold">{t("MAIN_EDUCATION_1")}</span>
                         </button>
-                        <button className="w-full h-[48%] text-center bg-[url('/img/mainpage/시설안내_배경_보정.png')] bg-no-repeat bg-cover text-white shadow-md rounded-lg">
+                        <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/시설안내_배경_보정.png')] bg-no-repeat bg-cover text-white shadow-md rounded-lg">
                             <Link href="/facility">
                                 <span className="text-lg xl:text-xl font-bold">{t("MAIN_FACILITY_GUIDE")}<br /></span>
                                 <span className="text-sm xl:text-md font-bold">{t("MAIN_FACILITY_GUIDE_1")}</span>
