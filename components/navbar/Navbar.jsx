@@ -13,8 +13,8 @@ export default function Navbar({url}) {
     return(
         <>
         {soundguide && (
-                <div className="absolute top-0 left-0 h-[91%] w-screen bg-Ablack bg-opacity-60 z-20">
-                    <div className="relative h-[530px] w-[530px] pt-40 z-30">
+                <div className="absolute top-0 left-0 h-[91%] 2xl:h-[93%] w-screen bg-Ablack bg-opacity-60 z-20">
+                    <div className="flex mx-auto h-[530px] w-[530px] pt-40">
                         <Soundguide 
                             videoUrl={url}
                             volume={Number(volume)}
@@ -25,7 +25,7 @@ export default function Navbar({url}) {
                 </div>
             )}
            <nav className="fixed hidden lg:flex bottom-0 w-full h-20 lg:h-16 2xl:h-28 bg-Ablack px-10">
-                <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5 lg:mt-4">
+                <div className="flex flex-row w-full space-x-4 justify-center my-2 mt-5 lg:mt-4 2xl:my-4 2xl:mt-6">
                 <div className="flex flex-row space-x-2 h-9 w-1/3 mx-auto">
                     <Image 
                         src={`/img/flags/${i18n.language}_circle.png`}
@@ -37,9 +37,9 @@ export default function Navbar({url}) {
                             height: "auto"
                         }}
                     />
-                    <span className="text-2xl">{t("CURRENT_LANGUAGE")}</span>
+                    <span className="text-2xl 2xl:text-4xl">{t("CURRENT_LANGUAGE")}</span>
                 </div>
-                <div className="px-4">
+                <div className="px-4 2xl:px-8">
                     <label className="relative flex w-max cursor-pointer select-none items-center">
                         <input 
                             type="checkbox"
@@ -78,14 +78,14 @@ export default function Navbar({url}) {
                             </div>
                     </label>
                 </div>
-                <div className="flex flex-row h-9 w-[250px] justify-center text-center">
-                    <span className="text-xl w-[150px] mx-auto">{t("FONT_SIZE")}</span>
-                    <button className="rounded-full w-[100px] bg-Cgrey text-white font-bold">
+                <div className="flex flex-row h-9 w-[250px] 2xl:h-11 2xl:w-[350px] justify-center text-center">
+                    <span className="text-xl w-[150px] 2xl:text-3xl 2xl:w-[250px] mx-auto">{t("FONT_SIZE")}</span>
+                    <button className="rounded-full w-[100px] 2xl:w-[200px] bg-Cgrey text-white font-bold">
                         {t("BIG")}
                     </button>
                 </div>
-                <div className="flex flex-row h-9 w-full justify-center">
-                    <span className="text-xl w-1/3">{t("VOLUME")}</span>
+                <div className="flex flex-row h-9 2xl:h-11 w-full justify-center">
+                    <span className="text-xl 2xl:text-3xl w-1/3">{t("VOLUME")}</span>
                     <div className="w-2/3 bg-Cgrey rounded-full p-2">
                         <ReactSlider 
                             step={0.01}
@@ -105,18 +105,18 @@ export default function Navbar({url}) {
                         />
                     </div>
                 </div>
-                <div className="flex flex-row w-[250px] justify-center text-center">
-                    <span className="text-xl w-[170px] mx-auto">{t("SOUND_GUIDE")}</span>
+                <div className="flex flex-row w-[250px] 2xl:w-[350px] justify-center text-center">
+                    <span className="text-xl 2xl:text-3xl w-[170px] 2xl:w-[270px] mx-auto">{t("SOUND_GUIDE")}</span>
                     <button
                         onClick={()=>setSoundguide(!soundguide)} 
-                        className="rounded-full w-[80px] bg-Cgrey text-white font-bold">
+                        className="rounded-full w-[80px] 2xl:w-[150px] bg-Cgrey text-white font-bold">
                         {soundguide ? t("STOP") : t("START")}
                         {/* {t("START")} */}
                     </button>
                 </div>
-                <div className="flex flex-row w-[250px] justify-center text-center">
-                    <span className="text-xl w-[170px] mx-auto">{t("SIGN_LANGUAGE")}</span>
-                    <button className="rounded-full w-[80px] bg-Cgrey text-white font-bold">
+                <div className="flex flex-row w-[250px] 2xl:w-[350px] justify-center text-center">
+                    <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[270px] mx-auto">{t("SIGN_LANGUAGE")}</span>
+                    <button className="rounded-full w-[80px] 2xl:w-[150px] bg-Cgrey text-white font-bold">
                         {t("START")}
                     </button>
                 </div>
