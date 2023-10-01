@@ -18,7 +18,7 @@ export default function Presentpage() {
                             key={item.order}
                             className="flex flex-col space-y-2 2xl:space-y-4">
                             {item === artist ? "" : <><div className="h-[0.5px] w-12 2xl:h-[1px] 2xl:w-16 bg-Cpurple" />
-                            <span className="text-Awhite text-md 2xl:text-xl mb-2">{item.name}</span></>}
+                            <span className="text-Awhite text-md 2xl:text-3xl mb-2">{item.name}</span></>}
                             <div 
                                 // className={item === artist ? "h-[350px] w-[250px] border-2 border-Awhite" : "h-[300px] w-[200px]"}
                                 onClick={()=> setArtist(item)}
