@@ -131,8 +131,8 @@ export default function Mainpage() {
                         <div className="flex flex-col h-3/4 w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 space-y-4 2xl:space-y-6">
                             <span className="text-xl 2xl:text-3xl text-black font-bold mt-4 2xl:mt-6">여러분의 언어를 선택해주세요!</span>
                             <span className="text-lg 2xl:text-2xl text-Cgrey font-bold">Please select your language</span>
-                            <div className="flex flex-col space-y-6 w-full h-[700px] 2xl:space-y-10 2xl:h-full bg-Cpurple bg-opacity-30 rounded-b-lg py-6 2xl:py-10 z-30">
-                                <div className="flex flex-row mx-auto space-x-6 2xl:space-x-10 z-40">
+                            <div className="flex flex-col space-y-6 w-full h-[700px] 2xl:space-y-12 2xl:h-full bg-Cpurple bg-opacity-30 rounded-b-lg py-6 2xl:pt-20 z-30">
+                                <div className="flex flex-row mx-auto space-x-6 2xl:space-x-12 z-40">
                                     {/* 한국어 */}
                                     <button
                                         className="h-[150px] w-[250px] 2xl:h-[300px] 2xl:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
@@ -144,7 +144,7 @@ export default function Mainpage() {
                                         >
                                             <Image 
                                                 id="ko"
-                                                className="pt-3 2xl:pt-12 mx-auto"
+                                                className="pt-3 2xl:pt-14 mx-auto"
                                                 height="50"
                                                 width="100"
                                                 src="/img/flags/korea.png"
@@ -173,7 +173,7 @@ export default function Mainpage() {
                                         >
                                             <Image 
                                                 id="en"
-                                                className="pt-3 2xl:pt-12 mx-auto"
+                                                className="pt-3 2xl:pt-14 mx-auto"
                                                 height="70"
                                                 width="100"
                                                 src="/img/flags/usa.png"
@@ -191,7 +191,7 @@ export default function Mainpage() {
                                         </div>
                                     </button>
                                 </div>
-                                <div className="flex flex-row mx-auto space-x-6 2xl:space-x-10 z-40"> 
+                                <div className="flex flex-row mx-auto space-x-6 2xl:space-x-12 z-40"> 
                                 {/* 중국어 */}
                                 <button
                                     className="h-[150px] w-[250px] 2xl:h-[300px] 2xl:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
@@ -204,7 +204,7 @@ export default function Mainpage() {
                                         >
                                             <Image 
                                                 id="zh"
-                                                className="pt-3 2xl:pt-12 mx-auto"
+                                                className="pt-3 2xl:pt-14 mx-auto"
                                                 height="50"
                                                 width="100"
                                                 src="/img/flags/china.png"
@@ -233,7 +233,7 @@ export default function Mainpage() {
                                         >
                                             <Image 
                                                 id="th"
-                                                className="pt-3 2xl:pt-12 mx-auto"
+                                                className="pt-3 2xl:pt-14 mx-auto"
                                                 height="50"
                                                 width="100"
                                                 src="/img/flags/thailand.png"
@@ -262,7 +262,7 @@ export default function Mainpage() {
                                         >
                                             <Image 
                                                 id="vi"
-                                                className="pt-3 2xl:pt-12 mx-auto"
+                                                className="pt-3 2xl:pt-14 mx-auto"
                                                 height="70"
                                                 width="100"
                                                 src="/img/flags/vietnam.png"
@@ -280,7 +280,7 @@ export default function Mainpage() {
                                         </div>
                                     </button>
                                 </div>
-                                <div className="flex flex-row mx-auto space-x-6 z-40">
+                                <div className="flex flex-row mx-auto space-x-6 2xl:space-x-8 z-40">
                                     <button className="h-12 w-[200px] 2xl:h-16 2xl:w-[250px] z-40 bg-Awhite shadow-lg rounded-full text-black font-bold text-2xl lg:text-xl"
                                         onClick={toggleModal}
                                     >
