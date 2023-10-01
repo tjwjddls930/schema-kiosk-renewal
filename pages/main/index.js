@@ -291,7 +291,7 @@ export default function Mainpage() {
                     </div>
                 )}
             {/* navbar */}
-            <Navbar />
+            <Navbar url={"/video/docent/blue-docent-test-02-removed.webm"} />
         </div>
     )
 };
