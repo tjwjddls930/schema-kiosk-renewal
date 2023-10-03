@@ -40,8 +40,8 @@ export default function Pathguide() {
                             sizes="(max-width: 400px), (max-height: 300px)"
                             fill={true}
                         />
-                        <span className="absolute top-20 left-28 text-lg 2xl:top-52 2xl:left-56 2xl:text-2xl text-Cpurple font-bold z-1">쉐마미술관</span>
-                        <div className="absolute top-8 left-56 z-1 2xl:top-48 2xl:left-80">
+                        <span className="absolute top-20 left-28 text-lg 2xl:top-56 2xl:left-80 2xl:text-2xl text-Cpurple font-bold z-1">쉐마미술관</span>
+                        <div className="absolute top-8 left-52 z-1 2xl:top-52 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2">
                             <Image 
                                 src="/img/facilityguide/pathguide/location_icon.png"
                                 className="z-1"
