@@ -40,8 +40,8 @@ export default function Pathguide() {
                             sizes="(max-width: 400px), (max-height: 300px)"
                             fill={true}
                         />
-                        <span className="absolute top-20 left-28 text-lg 2xl:top-56 2xl:left-80 2xl:text-2xl text-Cpurple font-bold z-1">쉐마미술관</span>
-                        <div className="absolute top-8 left-52 z-1 2xl:top-52 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2">
+                        <span className="absolute top-20 left-28 text-lg 2xl:top-56 2xl:left-96 2xl:text-3xl text-Cpurple font-bold z-1">쉐마미술관</span>
+                        <div className="absolute top-8 left-52 z-1 2xl:top-52 2xl:left-1/3 2xl:transform 2xl:-translate-x-1/3">
                             <Image 
                                 src="/img/facilityguide/pathguide/location_icon.png"
                                 className="z-1"
@@ -66,7 +66,7 @@ export default function Pathguide() {
                             fill={true}
                         />
                         <p className="absolute top-4 left-28 2xl:top-24 2xl:left-56 text-Awhite font-bold text-base 2xl:text-4xl">{'충북 청주시 청원구 내수읍 내수로'}<br/>{'241번지 쉐마미술관 (우)28152'}</p>
-                        <p className="absolute top-20 left-28 2xl:top-48 2xl:left-56 text-Awhite font-bold text-sm 2xl:text-3xl">{'241, Naesu-ro, Naesu-eup, '}<br/>{'Cheongwon-gu Cheongju-si'}<br />{'Chungcheongbuk-do 28152'}<br />{'Republic of Korea'}</p>
+                        <p className="absolute top-20 left-28 2xl:top-52 2xl:left-56 text-Awhite font-bold text-sm 2xl:text-3xl">{'241, Naesu-ro, Naesu-eup, '}<br/>{'Cheongwon-gu Cheongju-si'}<br />{'Chungcheongbuk-do 28152'}<br />{'Republic of Korea'}</p>
                         <p className="absolute top-48 left-28 2xl:top-96 2xl:left-56 text-Awhite font-bold text-sm 2xl:text-3xl">{'043-221-3269'}<br/>{'schemaartmuseum@gmail.com'}</p>
                     </div>
                 </div>
