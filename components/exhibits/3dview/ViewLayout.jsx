@@ -8,7 +8,7 @@ export default function Viewlayout({children}) {
         <Viewpageframe>
             <div className="h-screen w-screen">
                 {children}
-                <button className="absolute left-14 bottom-28 2xl:left-20 2xl:bottom-40">
+                <button className="absolute left-14 bottom-28 2xl:left-24 2xl:bottom-40">
                     <Link href="/paint">
                         {/* <Image 
                             src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
@@ -19,7 +19,7 @@ export default function Viewlayout({children}) {
                         /> */}
                         <img 
                             src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
-                            className="h-20 w-20 mx-auto 2xl:h-24 2xl:w-24"
+                            className="h-16 w-16 mx-auto 2xl:h-24 2xl:w-24"
                             alt="back"
                         />
                     </Link>

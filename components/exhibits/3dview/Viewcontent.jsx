@@ -7,7 +7,7 @@ import { MathUtils } from "three";
 export default function Viewcontent({url}) {
 
     return(
-        <div className="h-[91%] w-full absolute bottom-20 2xl:h-[93%] 2xl:bottom-28">
+        <div className="h-[91%] w-full absolute bottom-20 2xl:h-[94%] 2xl:bottom-32">
             <Canvas
                 gl={{antialias:true}}
                 shadows
