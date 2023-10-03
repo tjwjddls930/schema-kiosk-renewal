@@ -4,12 +4,12 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 export default function Exhibitguide() {
     return(
         <FacilityLayout>
-            <div className="h-20 w-10/12 2xl:w-9/12 2xl:h-52 flex flex-col bg-Awhite mx-auto items-center space-y-1 p-3 2xl:space-y-4 2xl:p-6">
+            <div className="h-20 w-10/12 2xl:w-9/12 2xl:h-48 flex flex-col bg-Awhite mx-auto items-center space-y-1 p-3 2xl:space-y-4 2xl:p-6">
                 <div className="bg-Cpurple h-[2.5px] w-[60px] 2xl:w-[100px] rounded-full"></div>
-                <span className="text-base text-Cgrey font-bold 2xl:text-3xl">Exhibition guide</span>
-                <span className="text-lg text-black font-bold 2xl:text-5xl">전시관람 안내</span>
+                <span className="text-sm text-Cgrey font-bold 2xl:text-3xl">Exhibition guide</span>
+                <span className="text-base text-black font-bold 2xl:text-5xl">전시관람 안내</span>
             </div>
-                <div className="h-1/2 w-10/12 2xl:w-9/12 flex flex-row space-x-6 mx-auto justify-center items-center py-8 px-3 bg-Dgrey bg-opacity-50 2xl:space-x-32 2xl:py-32 2xl:px-12">
+                <div className="h-[55%] w-10/12 2xl:w-9/12 flex flex-row space-x-6 mx-auto justify-center items-center py-6 px-3 bg-Dgrey bg-opacity-50 2xl:space-x-32 2xl:py-32 2xl:px-12">
                     <div className="h-full flex flex-col">
                         <span className="text-black text-lg font-bold mb-2 2xl:text-4xl 2xl:mb-4">관람시간</span>
                         <span className="text-Cpurple text-sm font-bold mb-1 2xl:text-2xl 2xl:mb-2">{'1,2월 동절기 | '}<span className="text-black text-sm 2xl:text-xl font-bold">오전 10시 ~ 오후 5시</span><span className="text-Cgrey text-md 2xl:text-xl font-bold">{'(오후 4시 30분 입장마감)'}</span></span>
@@ -21,7 +21,7 @@ export default function Exhibitguide() {
                         <span className="text-black text-lg font-bold mb-2 2xl:text-4xl 2xl:mb-4">도슨트 안내</span>
                         <span className="text-Bgrey text-sm font-bold mb-1 2xl:text-2xl 2xl:mb-2">도슨트를 원하시는 관람객께서는 사전에 미술관으로 연락주시기 바랍니다.</span>
                         <span className="text-Cgrey text-xs font-bold mb-3 2xl:text-xl 2xl:mb-5">*미술관의 상황에 따라 진행이 어려울 수도 있습니다.</span>
-                        <div className="text-base font-bold text-black h-10 w-[250px] 2xl:text-3xl 2xl:h-12 2xl:w-[350px] bg-Awhite rounded-full text-center pt-1 2xl:pt-2">{'문의 043-221-3269'}</div>
+                        <div className="text-base font-bold text-black h-10 w-[250px] 2xl:text-3xl 2xl:h-20 2xl:w-[400px] bg-Awhite rounded-full text-center pt-1 2xl:pt-2">{'문의 043-221-3269'}</div>
                     </div>
                     <div className="h-full flex flex-col">
                         <span className="text-black text-lg font-bold mb-2 2xl:text-4xl 2xl:mb-4">관람료</span>
