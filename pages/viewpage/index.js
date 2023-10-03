@@ -41,7 +41,7 @@ export default function Viewpage() {
                 url={paintdata[current].imgname}
             />
             {/* 그림 넘기기 버튼 */}
-            <div className="absolute h-[70px] w-[70px] left-40 bottom-80 2xl:h-[300px] 2xl:w-[300px] 2xl:left-68 2xl:top-1/2 2xl:transform 2xl:-translate-y-1/2">
+            <div className="absolute h-[70px] w-[70px] left-40 bottom-80 2xl:h-[300px] 2xl:w-[300px] 2xl:left-80 2xl:top-1/2 2xl:transform 2xl:-translate-y-1/2">
                 <button
                     id="left"
                     className="h-full w-full 2xl:h-[140px] 2xl:w-[140px]"
@@ -53,7 +53,7 @@ export default function Viewpage() {
                     />
                 </button>
             </div>
-            <div className="absolute h-[70px] w-[70px] right-40 bottom-80 2xl:h-[300px] 2xl:w-[300px] 2xl:right-68 2xl:top-1/2 2xl:transform 2xl:-translate-y-1/2">
+            <div className="absolute h-[70px] w-[70px] right-40 bottom-80 2xl:h-[300px] 2xl:w-[300px] 2xl:right-80 2xl:top-1/2 2xl:transform 2xl:-translate-y-1/2">
                 <button
                     id="right"
                     className="h-full w-full 2xl:h-[140px] 2xl:w-[140px]"
