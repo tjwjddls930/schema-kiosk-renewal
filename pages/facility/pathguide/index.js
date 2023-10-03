@@ -40,8 +40,8 @@ export default function Pathguide() {
                             sizes="(max-width: 400px), (max-height: 300px)"
                             fill={true}
                         />
-                        <span className="absolute top-24 left-28 text-lg text-Cpurple font-bold z-1">쉐마미술관</span>
-                        <div className="absolute top-12 left-52 z-1">
+                        <span className="absolute top-20 left-28 text-lg 2xl:top-52 2xl:left-56 2xl:text-2xl text-Cpurple font-bold z-1">쉐마미술관</span>
+                        <div className="absolute top-8 left-56 z-1 2xl:top-48 2xl:left-80">
                             <Image 
                                 src="/img/facilityguide/pathguide/location_icon.png"
                                 className="z-1"
@@ -102,7 +102,7 @@ export default function Pathguide() {
                 </div>
             </div>
             
-            <div className="absolute bottom-40 left-40">
+            <div className="absolute bottom-40 left-40 2xl:bottom-48">
                 <Image 
                     src="/img/facilityguide/pathguide/acc_2.png"
                     height={80}
@@ -115,7 +115,7 @@ export default function Pathguide() {
                 />
             </div>
             <div className="absolute bottom-12 left-32 h-12 w-1/4 2xl:bottom-28 bg-Cpurple"/>
-            <div className="absolute bottom-12 right-0 h-12 w-2/3 2xl:bottom-28 bg-Cpurple opacity-30"/>
+            <div className="absolute bottom-12 right-0 h-12 w-2/3 2xl:w-3/4 2xl:bottom-28 bg-Cpurple opacity-30"/>
         </FacilityLayout>
     )
 };

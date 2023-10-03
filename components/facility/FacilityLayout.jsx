@@ -27,7 +27,7 @@ export default function FacilityLayout({children}) {
                     </div>
                 </div>
                 {children}
-                <button className="absolute left-14 bottom-36">
+                <button className="absolute left-14 bottom-36 2xl:bottom-48">
                     <Link href="/facility">
                         <Image 
                             src="/img/facilityguide/exhibitguide/뒤로가기버튼_어두운버전.png"
