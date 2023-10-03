@@ -62,24 +62,24 @@ export default function Paintcontent() {
 
     return(
         <div className="w-full flex flex-row space-x-6">
-            <div className="xl:w-[35%] xl:h-[700px] lg:w-[30%] lg:h-[600px] flex flex-col xl:space-y-2 lg:space-y-1 xl:px-16 lg:px-12 xl:py-8 lg:py-4">
+            <div className="w-[30%] h-[600px] 2xl:w-[35%] 2xl:h-[700px] flex flex-col space-y-1 px-12 py-4 2xl:space-y-4 2xl:px-16 2xl:py-8">
                 <div className="w-20 h-[1px] bg-Cpurple mb-2" />
-                <span className="text-lg 2xl:text-3xl font-bold text-Bgrey">{'Kim DaeYou'}</span>
-                <span className="text-xl 2xl:text-4xl font-bold text-black mb-4">{'김대유'}</span>
-                <span className="text-sm 2xl:text-xl font-bold text-black mb-4">{'서울대학교 미술대학원 서양학과 졸업'}</span>
-                <span className="text-sm 2xl:text-xl text-Cpurple font-bold">{'주요 개인전'}</span>
+                <span className="text-md 2xl:text-5xl font-bold text-Bgrey">{'Kim DaeYou'}</span>
+                <span className="text-lg 2xl:text-6xl font-bold text-black mb-4">{'김대유'}</span>
+                <span className="text-xs 2xl:text-3xl font-bold text-black mb-4">{'서울대학교 미술대학원 서양학과 졸업'}</span>
+                <span className="text-xs 2xl:text-3xl text-Cpurple font-bold">{'주요 개인전'}</span>
                 {individual.map((item)=> (
-                    <span key={item.order} className="text-sm text-Cgrey font-bold">{item.exhibit}</span>
+                    <span key={item.order} className="text-xs 2xl:text-lg text-Cgrey font-bold">{item.exhibit}</span>
                 ))}
                 <span className="text-base text-Cpurple font-bold mt-4">{'주요 단체전'}</span>
                 {community.map((item)=> (
-                    <span key={item.order} className="text-sm text-Cgrey font-bold">{item.exhibit}</span>
+                    <span key={item.order} className="text-xs 2xl:text-lg text-Cgrey font-bold">{item.exhibit}</span>
                 ))}
                 
             </div>
             <div
                 ref={carousel} 
-                className="h-2/3 w-3/4 2xl:w-2/3 flex flex-row overflow-auto space-x-4">
+                className="h-2/3 w-2/3 2xl:w-3/4 flex flex-row overflow-auto space-x-4">
                 {paintdata.map((item, index)=> (
                     <div
                         key={item.order} 
@@ -97,13 +97,13 @@ export default function Paintcontent() {
                         <div className="h-[1px] w-full bg-Cpurple mb-3"/>
                         <div className="relative group">
                             <img 
-                                className={`h-[300px] w-full shadow-xl ${index === current ? "border-4 border-Awhite" : null}`}
+                                className={`h-[250px] 2xl:h[450px] w-full shadow-xl ${index === current ? "border-4 border-Awhite" : null}`}
                                 src={`/img/exhibitpage/paintings/${item.imgname}`}
                                 alt="paintings"
                             />
                             <div className="absolute h-20 w-full bg-Ablack bg-opacity-50 bottom-0 left-0">
                                 <div className="flex justify-between p-4">
-                                    <span className="font-bold pt-2">{'작품 감상하기'}</span>
+                                    <span className="font-bold pt-2 text-Awhite">{'작품 감상하기'}</span>
                                     <Link href="/viewpage">
                                         <button className="bg-black rounded-full h-10 w-10 items-cetner text-center">
                                             <img 
