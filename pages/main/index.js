@@ -49,10 +49,9 @@ export default function Mainpage() {
                         <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/미술관소개_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
                             <Link href="/intro">
                                 <div className="flex flex-col space-y-2">
-                                    <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_INTRO")}</span>
-                                    <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_INTRO_1")}</span>
-                                    <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_INTRO_2")}</span>
-                                    <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_INTRO_3")}</span>
+                                    <span className="text-lg 2xl:text-4xl font-bold text-Awhite">{t("MAIN_INTRO")}</span>
+                                    <span className="text-sm 2xl:text-2xl font-bold text-Awhite">{t("MAIN_INTRO_1")}</span>
+                                    <span className="text-sm 2xl:text-2xl font-bold text-Awhite">{t("MAIN_INTRO_2")}</span>
                                 </div>
                             </Link>
                         </button>
@@ -67,8 +66,8 @@ export default function Mainpage() {
                         <button className="w-3/4 h-3/4 border-4 border-Bpurple bg-opacity-0 mx-auto">
                             <Link href="/exhibit">
                                 <div className="flex flex-col space-y-2">
-                                    <span className="text-xl 2xl:text-4xl font-bold">{t("MAIN_EXHIBIT_GUIDE")}</span>
-                                    <span className="text-base 2xl:text-2xl font-bold">{t("MAIN_EXHIBIT_GUIDE_1")}</span>
+                                    <span className="text-xl 2xl:text-4xl font-bold text-Awhite">{t("MAIN_EXHIBIT_GUIDE")}</span>
+                                    <span className="text-base 2xl:text-2xl font-bold text-Awhite">{t("MAIN_EXHIBIT_GUIDE_1")}</span>
                                 </div>
                             </Link>
                         </button>
