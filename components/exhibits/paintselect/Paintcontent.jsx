@@ -62,7 +62,7 @@ export default function Paintcontent() {
 
     return(
         <div className="w-full flex flex-row space-x-6">
-            <div className="w-[30%] h-[600px] 2xl:w-[35%] 2xl:h-[700px] flex flex-col space-y-1 px-12 py-3 2xl:space-y-4 2xl:px-16 2xl:py-8">
+            <div className="w-[30%] h-[600px] 2xl:w-[35%] 2xl:h-[700px] flex flex-col space-y-1 px-12 py-3 2xl:space-y-5 2xl:px-16 2xl:py-8">
                 <div className="w-20 h-[1px] bg-Cpurple mb-2" />
                 <span className="text-md 2xl:text-6xl font-bold text-Bgrey">{'Kim DaeYou'}</span>
                 <span className="text-lg 2xl:text-7xl font-bold text-black mb-4">{'김대유'}</span>
@@ -105,7 +105,7 @@ export default function Paintcontent() {
                                 <div className="flex justify-between p-4 2xl:p-6">
                                     <span className="font-bold pt-2 2xl:pt-4 text-Awhite 2xl:text-2xl">{'작품 감상하기'}</span>
                                     <Link href="/viewpage">
-                                        <button className="bg-black rounded-full h-10 w-10 2xl:h-18 2xl:w-18 items-cetner text-center">
+                                        <button className="bg-black rounded-full h-10 w-10 2xl:h-18 2xl:w-18 items-cetner text-center 2xl:pt-2">
                                             <img 
                                                 src="/img/exhibitpage/icons/화살표버튼.png"
                                                 alt="arrow"
@@ -121,7 +121,7 @@ export default function Paintcontent() {
             <button className="absolute h-12 w-[150px] text-lg 2xl:h-24 2xl:w-[300px] 2xl:text-3xl font-bold text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient bottom-44 left-8 2xl:bottom-96 2xl:left-10 shadow-md">
                     {'작가노트 보기'}
             </button>
-            <div className="h-[30px] w-[300px] 2xl:w-[600px] absolute right-72 bottom-28 2xl:bottom-72 2xl:right-96">
+            <div className="h-[30px] w-[300px] 2xl:w-[800px] absolute right-72 bottom-28 2xl:bottom-72 2xl:right-96">
                 <div className="flex flex-row space-x-2 2xl:space-x-4">
                     <div className="h-2 w-2 2xl:h-4 2xl:w-4 bg-Cpurple rounded-full" />
                     <div className="h-2 w-2 2xl:h-4 2xl:w-4 bg-Cpurple rounded-full" />
