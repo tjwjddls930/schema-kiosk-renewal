@@ -83,7 +83,7 @@ export default function Paintcontent() {
                 {paintdata.map((item, index)=> (
                     <div
                         key={item.order} 
-                        className="h-[475px] w-[250px] 2xl:h-[575px] 2xl:w-[300px] flex flex-col">
+                        className="h-[475px] w-[250px] 2xl:h-[600px] 2xl:w-[300px] flex flex-col">
                         <div className="w-[250px] 2xl:w-[300px] flex justify-between p-2">
                             <div
                                 key={item.imgname} 
@@ -97,7 +97,7 @@ export default function Paintcontent() {
                         <div className="h-[1px] w-full bg-Cpurple mb-3"/>
                         <div className="relative group">
                             <img 
-                                className={`h-[250px] 2xl:h[450px] w-full shadow-xl ${index === current ? "border-4 border-Awhite" : null}`}
+                                className={`h-[250px] 2xl:h-[450px] w-full shadow-xl ${index === current ? "border-4 border-Awhite" : null}`}
                                 src={`/img/exhibitpage/paintings/${item.imgname}`}
                                 alt="paintings"
                             />
@@ -118,11 +118,11 @@ export default function Paintcontent() {
                     </div>
                 ))}
             </div>
-            <button className="absolute h-12 w-[150px] text-lg 2xl:h-14 2xl:w-[200px] 2xl:text-xl font-bold text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient xl:bottom-48 xl:left-10 lg:bottom-44 lg:left-8 shadow-md">
+            <button className="absolute h-12 w-[150px] text-lg 2xl:h-24 2xl:w-[300px] 2xl:text-3xl font-bold text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient bottom-44 left-8 2xl:bottom-48 2xl:left-10 shadow-md">
                     {'작가노트 보기'}
             </button>
-            <div className="h-[60px] w-[300px] absolute right-72 bottom-16 2xl:bottom-36 ">
-                <div className="flex flex-row space-x-2">
+            <div className="h-[30px] w-[300px] absolute right-72 bottom-16 2xl:bottom-36 2xl:right-80">
+                <div className="flex flex-row space-x-2 2xl:space-x-4">
                     <div className="h-2 w-2 2xl:h-4 2xl:w-4 bg-Cpurple rounded-full" />
                     <div className="h-2 w-2 2xl:h-4 2xl:w-4 bg-Cpurple rounded-full" />
                     <div className="h-2 w-2 2xl:h-4 2xl:w-4 bg-Cpurple rounded-full" />
@@ -131,7 +131,7 @@ export default function Paintcontent() {
             <button 
                 // onClick={()=> prevExhibit()}
                 onClick={prevExhibit}
-                className="absolute w-[208px] h-16 2xl:h-20 text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-l-md bottom-48 lg:bottom-28 right-52">
+                className="absolute w-[208px] h-16 2xl:h-28 2xl:w-[400px] text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-l-md bottom-28 right-52 2xl:bottom-48 2xl:right-60">
                     <img
                         className="h-8 w-8 2xl:h-10 2xl:w-10 mx-auto"
                         src="/img/exhibitpage/icons/왼쪽버튼.png"
@@ -141,7 +141,7 @@ export default function Paintcontent() {
             <button 
                 // onClick={()=> nextExhibit()}
                 onClick={nextExhibit}
-                className="absolute w-[208px] h-16 text-xl 2xl:h-20 font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-r-md bottom-48 lg:bottom-28 right-0">
+                className="absolute w-[208px] h-16 text-xl 2xl:h-28 2xl:w-[400px] font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-r-md bottom-28 right-0 2xl:bottom-48">
                     <img 
                         className="h-8 w-8 2xl:h-10 2xl:w-10 mx-auto"
                         src="/img/exhibitpage/icons/오른쪽버튼.png"
