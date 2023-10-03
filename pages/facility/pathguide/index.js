@@ -41,7 +41,7 @@ export default function Pathguide() {
                             fill={true}
                         />
                         <span className="absolute top-20 left-28 text-lg 2xl:top-60 2xl:left-96 2xl:text-3xl text-Cpurple font-bold z-1">쉐마미술관</span>
-                        <div className="absolute top-8 left-52 z-1 2xl:top-52 2xl:left-[48%] 2xl:transform 2xl:-translate-x-[48%]">
+                        <div className="absolute top-8 left-52 z-1 2xl:top-56 2xl:left-[48%] 2xl:transform 2xl:-translate-x-[48%]">
                             <Image 
                                 src="/img/facilityguide/pathguide/location_icon.png"
                                 className="z-1"
