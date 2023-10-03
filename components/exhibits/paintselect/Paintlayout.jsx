@@ -33,7 +33,7 @@ export default function Paintlayout({children}) {
                     </div>
                 </div>
                 {children}
-                <div className="absolute h-60 w-60 left-10 2xl:bottom-56 lg:opacity-0">
+                <div className="absolute h-60 w-60 left-10 bottom-48 2xl:bottom-56">
                     <Image 
                         src="/img/exhibitpage/icons/acc_2.png"
                         width="100"
