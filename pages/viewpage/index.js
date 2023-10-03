@@ -36,13 +36,12 @@ export default function Viewpage() {
 
     return(
         <Viewlayout>
-
             {/* 3D 콘텐츠 구역 */}
             <Viewcontent 
                 url={paintdata[current].imgname}
             />
             {/* 그림 넘기기 버튼 */}
-            <div className="absolute h-[70px] w-[70px] left-40 bottom-80 2xl:h-[140px] 2xl:w-[140px] 2xl:left-48 2xl:bottom-96">
+            <div className="absolute h-[70px] w-[70px] left-40 bottom-80 2xl:h-[300px] 2xl:w-[300px] 2xl:left-60 2xl:bottom-96">
                 <button
                     id="left"
                     className="h-full w-full"
@@ -54,7 +53,7 @@ export default function Viewpage() {
                     />
                 </button>
             </div>
-            <div className="absolute h-[70px] w-[70px] right-40 bottom-80 2xl:h-[140px] 2xl:w-[140px] 2xl:right-48 2xl:bottom-96">
+            <div className="absolute h-[70px] w-[70px] right-40 bottom-80 2xl:h-[300px] 2xl:w-[300px] 2xl:right-60 2xl:bottom-96">
                 <button
                     id="right"
                     className="h-full w-full"
@@ -67,7 +66,7 @@ export default function Viewpage() {
                 </button>
             </div>
             {popup && (
-                <div className="absolute bg-Ablack bg-opacity-40 h-[91%] w-[550px] bottom-20 2xl:h-[93%] 2xl:w-full 2xl:bottom-32 left-1/2 transform -translate-x-1/2">
+                <div className="absolute bg-Ablack bg-opacity-40 h-[91%] w-[650px] bottom-16 2xl:h-[94%] 2xl:w-[1400px] 2xl:bottom-28 left-1/2 transform -translate-x-1/2">
                     <div className="w-5/6 flex flex-col space-y-32 2xl:space-y-80 px-4 mt-16 2xl:px-8 2xl:mt-36 mx-auto items-center justify-center text-center">
                         <div className="flex flex-col space-y-2">
                             <span className="text-Awhite font-bold text-2xl 2xl:text-5xl">{paintdata[current].title}</span>
@@ -95,7 +94,7 @@ export default function Viewpage() {
                     </div>
                 </div>
             )}
-            <div className="h-[200px] w-[100px] absolute left-10 bottom-96 2xl:h-[500px] 2xl:w-[200px] 2xl:left-20 2xl:top-80">
+            <div className="h-[200px] w-[100px] absolute left-10 bottom-96 2xl:h-[600px] 2xl:w-[200px] 2xl:left-20 2xl:top-96">
                 <div className="flex flex-col mx-auto text-center space-y-2 2xl:space-y-4">
                     <button 
                         className="h-20 w-20 ml-2 2xl:h-40 2xl:w-40 2xl:ml-4"
@@ -110,7 +109,7 @@ export default function Viewpage() {
                     <span className="text-Awhite text-xl font-bold 2xl:text-3xl">{'감상모드'}</span>
                 </div>
             </div>
-            <div className="h-[130px] w-[100px] absolute left-10 bottom-72 2xl:h-[500px] 2xl:w-[200px] 2xl:left-20 2xl:bottom-96">
+            <div className="h-[130px] w-[100px] absolute left-10 bottom-72 2xl:h-[600px] 2xl:w-[200px] 2xl:left-20 2xl:bottom-96">
                <div className="flex flex-col mx-auto text-center space-y-2 2xl:space-y-4">
                 <button className="h-20 w-20 ml-2 2xl:h-40 2xl:w-40 2xl:ml-4"> 
                         <img
