@@ -83,8 +83,8 @@ export default function Paintcontent() {
                 {paintdata.map((item, index)=> (
                     <div
                         key={item.order} 
-                        className="h-[475px] w-[250px] 2xl:h-[700px] 2xl:w-[450px] flex flex-col">
-                        <div className="w-[250px] 2xl:w-[450px] flex justify-between p-2">
+                        className="h-[475px] w-[250px] 2xl:h-[800px] 2xl:w-[550px] flex flex-col">
+                        <div className="w-[250px] 2xl:w-[550px] flex justify-between p-2">
                             <div
                                 key={item.imgname} 
                                 className="flex flex-col space-y-1 2xl:space-y-2">
@@ -102,8 +102,8 @@ export default function Paintcontent() {
                                 alt="paintings"
                             />
                             <div className="absolute h-20 2xl:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0">
-                                <div className="flex justify-between p-4">
-                                    <span className="font-bold pt-2 text-Awhite 2xl:text-2xl">{'작품 감상하기'}</span>
+                                <div className="flex justify-between p-4 2xl:p-6">
+                                    <span className="font-bold pt-2 2xl:pt-4 text-Awhite 2xl:text-2xl">{'작품 감상하기'}</span>
                                     <Link href="/viewpage">
                                         <button className="bg-black rounded-full h-10 w-10 2xl:h-18 2xl:w-18 items-cetner text-center">
                                             <img 
@@ -118,10 +118,10 @@ export default function Paintcontent() {
                     </div>
                 ))}
             </div>
-            <button className="absolute h-12 w-[150px] text-lg 2xl:h-24 2xl:w-[300px] 2xl:text-3xl font-bold text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient bottom-44 left-8 2xl:bottom-80 2xl:left-10 shadow-md">
+            <button className="absolute h-12 w-[150px] text-lg 2xl:h-24 2xl:w-[300px] 2xl:text-3xl font-bold text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient bottom-44 left-8 2xl:bottom-96 2xl:left-10 shadow-md">
                     {'작가노트 보기'}
             </button>
-            <div className="h-[30px] w-[300px] 2xl:w-[400px] absolute right-72 bottom-28 2xl:bottom-56 2xl:right-96">
+            <div className="h-[30px] w-[300px] 2xl:w-[600px] absolute right-72 bottom-28 2xl:bottom-72 2xl:right-96">
                 <div className="flex flex-row space-x-2 2xl:space-x-4">
                     <div className="h-2 w-2 2xl:h-4 2xl:w-4 bg-Cpurple rounded-full" />
                     <div className="h-2 w-2 2xl:h-4 2xl:w-4 bg-Cpurple rounded-full" />
@@ -131,9 +131,9 @@ export default function Paintcontent() {
             <button 
                 // onClick={()=> prevExhibit()}
                 onClick={prevExhibit}
-                className="absolute w-[208px] h-16 2xl:h-28 2xl:w-[350px] text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-l-md bottom-28 right-52 2xl:bottom-56 2xl:right-80">
+                className="absolute w-[208px] h-16 2xl:h-32 2xl:w-[320px] text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-l-md bottom-28 right-52 2xl:bottom-72 2xl:right-80">
                     <img
-                        className="h-8 w-8 2xl:h-10 2xl:w-10 mx-auto"
+                        className="h-8 w-8 2xl:h-12 2xl:w-12 mx-auto"
                         src="/img/exhibitpage/icons/왼쪽버튼.png"
                         alt="left"
                     />
@@ -141,9 +141,9 @@ export default function Paintcontent() {
             <button 
                 // onClick={()=> nextExhibit()}
                 onClick={nextExhibit}
-                className="absolute w-[208px] h-16 text-xl 2xl:h-28 2xl:w-[350px] font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-r-md bottom-28 right-0 2xl:bottom-56">
+                className="absolute w-[208px] h-16 text-xl 2xl:h-32 2xl:w-[320px] font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-r-md bottom-28 right-0 2xl:bottom-72">
                     <img 
-                        className="h-8 w-8 2xl:h-10 2xl:w-10 mx-auto"
+                        className="h-8 w-8 2xl:h-12 2xl:w-12 mx-auto"
                         src="/img/exhibitpage/icons/오른쪽버튼.png"
                         alt="right"
                     />
