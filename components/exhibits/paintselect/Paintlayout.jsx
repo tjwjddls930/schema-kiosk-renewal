@@ -23,17 +23,17 @@ export default function Paintlayout({children}) {
                                 priority={true}
                             />
                         </Link>
-                        <span className="text-Cgrey xl:text-xl lg:text-lg mt-2">{'전시 안내 '} </span>
-                        <span className="text-Cgrey xl:text-xl lg:text-lg mt-2">{' > 현재 전시'}</span>
-                        <span className="text-Cgrey xl:text-xl lg:text-lg mt-2">{' > 작가 선택'}</span>
-                        <span className="text-Cgrey xl:text-xl lg:text-lg font-bold mt-2">{' > 작품 선택'}</span>
+                        <span className="text-Cgrey text-lg 2xl:text-xl mt-2">{'전시 안내 '} </span>
+                        <span className="text-Cgrey text-lg 2xl:text-xl mt-2">{' > 현재 전시'}</span>
+                        <span className="text-Cgrey text-lg 2xl:text-xl mt-2">{' > 작가 선택'}</span>
+                        <span className="text-Cgrey text-lg 2xl:text-xl font-bold mt-2">{' > 작품 선택'}</span>
                     </div>
                     <div>
-                        <span className="text-Cgrey text-md font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
+                        <span className="text-Cgrey text-base 2xl:text-xl font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
                     </div>
                 </div>
                 {children}
-                <div className="absolute h-60 w-60 left-10 xl:bottom-56 lg:opacity-0">
+                <div className="absolute h-60 w-60 left-10 2xl:bottom-56 lg:opacity-0">
                     <Image 
                         src="/img/exhibitpage/icons/acc_2.png"
                         width="100"
@@ -46,7 +46,7 @@ export default function Paintlayout({children}) {
                         }}
                     />
                 </div>
-                <div className="absolute h-20 w-40 left-36 xl:bottom-10 lg:bottom-4">
+                <div className="absolute h-20 w-40 left-36 bottom-4 2xl:bottom-20">
                     <Image 
                         src="/img/exhibitpage/icons/acc_1.png"
                         width="150"
@@ -59,7 +59,7 @@ export default function Paintlayout({children}) {
                         }}
                     />
                 </div>
-                <button className="absolute left-14 bottom-20">
+                <button className="absolute left-14 bottom-20 2xl:bottom-40">
                     <Link href="/artist">
                         <Image 
                             src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
