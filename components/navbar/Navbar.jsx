@@ -8,7 +8,7 @@ import clsx from "clsx";
 export default function Navbar({url,fontsize}) {
     const [volume, setVolume] = useState(Number(0.5));
     const [soundguide, setSoundguide] = useState(false);
-    const [fontsize, setFontsize] = useState(false);
+    const [size, setSize] = useState(false);
     const [con, setCon] = useState(true);
     const {t, i18n} = useTranslation('navbar');
 
@@ -91,9 +91,9 @@ export default function Navbar({url,fontsize}) {
                         <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                             <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("FONT_SIZE")}</span>
                             <button
-                                  onClick={()=>setFontsize(!fontsize)} 
+                                  onClick={()=>setSize(!size)} 
                                 className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-Awhite font-bold">
-                                {fontsize ? t("BIG") : t("SMALL")}
+                                {size ? t("BIG") : t("SMALL")}
                             </button>
                         </div>
                         <div className="flex flex-row h-9 2xl:h-11 w-full justify-center 2xl:px-20">

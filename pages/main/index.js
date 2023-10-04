@@ -11,7 +11,7 @@ import Navbar from "@/components/navbar/Navbar";
 export default function Mainpage() {
     const [modal, setModal] = useState();
     const [id, setId] = useState(null);
-    const [fontsize, setFontsize] = useState(false);
+    const [size, setSize] = useState(false);
     function toggleModal () {
         setModal(!modal);
     };
@@ -50,9 +50,9 @@ export default function Mainpage() {
                         <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/미술관소개_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
                             <Link href="/intro">
                                 <div className="flex flex-col space-y-2">
-                                    <span className={`font-bold text-Awhite ${fontsize ? "text-6xl" : "text-lg 2xl:text-4xl"}`}>{t("MAIN_INTRO")}</span>
-                                    <span className={`font-bold text-Awhite ${fontsize ? "text-4xl" : "text-sm 2xl:text-2xl"}`}>{t("MAIN_INTRO_1")}</span>
-                                    <span className={`font-bold text-Awhite ${fontsize ? "text-4xl" : "text-sm 2xl:text-2xl"}`}>{t("MAIN_INTRO_2")}</span>
+                                    <span className={`font-bold text-Awhite ${size ? "text-6xl" : "text-lg 2xl:text-4xl"}`}>{t("MAIN_INTRO")}</span>
+                                    <span className={`font-bold text-Awhite ${size ? "text-4xl" : "text-sm 2xl:text-2xl"}`}>{t("MAIN_INTRO_1")}</span>
+                                    <span className={`font-bold text-Awhite ${size ? "text-4xl" : "text-sm 2xl:text-2xl"}`}>{t("MAIN_INTRO_2")}</span>
                                 </div>
                             </Link>
                         </button>
@@ -304,7 +304,7 @@ export default function Mainpage() {
                 )}
             {/* navbar */}
             <Navbar url={"/video/docent/blue-docent-test-02-removed.webm"}
-                fontsize={fontsize}
+                // fontsize={fontsize}
             />
         </div>
     )
