@@ -1,7 +1,8 @@
-'use client'
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import Webpopup from "./Webpopup";
+
 export default function ConnectButton() {
     const [popup, setPopup] = useState(false);
     const [web, setWeb] = useState(false);
@@ -15,7 +16,7 @@ export default function ConnectButton() {
                         <div className="absolute top-0 left-0 h-5/6 w-5/6 bg-Ablack bg-opacity-70 z-20"
                             onClick={()=>setWeb(!web)}
                         >
-                            <iframe src="https://schemaartmuseum.com/2023/09/09/%eb%a7%a4%eb%81%84%eb%9f%ac%ec%9a%b4-%eb%8f%8c%eb%b0%ad-2-2/"/>
+                            <Webpopup />                            
                         </div>
                     )}
                     <div className="flex justify-between mx-auto pt-56">
