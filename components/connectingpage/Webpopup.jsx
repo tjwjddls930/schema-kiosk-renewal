@@ -19,10 +19,10 @@ export default function Webpopup() {
                     position={[0, 1.56, -1.4]}
                     // rotation-x={-0.256}
                 >
-                  <iframe>
-                    <Link href="https://schemaartmuseum.com/2023/09/09/매끄러운-돌밭-2-2/">
-                    </Link>
-                  </iframe>
+                    <iframe 
+                    className="w-[1024px] h-[670px] touch-none border-none border-radius rounded-[20px]"
+                    title="laptop"
+                    src="https://schemaartmuseum.com/2023/09/09/%eb%a7%a4%eb%81%84%eb%9f%ac%ec%9a%b4-%eb%8f%8c%eb%b0%ad-2-2/"/>
                 </Html>
             </Canvas>
         </div>

@@ -13,8 +13,11 @@ export default function ConnectButton() {
                     onClick={()=>setPopup(!popup)}
                 >
                     {web && (
-                        <div className="absolute top-0 left-0 h-5/6 w-5/6 bg-Ablack bg-opacity-70 z-20"
-                            onClick={()=>setWeb(!web)}
+                        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 h-5/6 w-5/6 bg-Ablack bg-opacity-70 z-20"
+                            onClick={()=>{
+                                setWeb(!web)
+                                setPopup(popup)
+                            }}
                         >
                             <Webpopup />                            
                         </div>
