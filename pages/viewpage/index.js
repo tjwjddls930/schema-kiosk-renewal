@@ -2,10 +2,12 @@ import Viewlayout from "@/components/exhibits/3dview/ViewLayout";
 import Viewcontent from "@/components/exhibits/3dview/Viewcontent";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 export default function Viewpage() {
     const [popup, setPopup] = useState(true);
     const [current, setCurrent] = useState(0);
+    const router = useRouter();
     // console.log(window.innerHeight, window.innerWidth)
 
     let paintdata = [
@@ -33,6 +35,9 @@ export default function Viewpage() {
         setCurrent(current === 0 ? length - 1 : current - 1);
     };
     
+    function handleRefresh() {
+        router.reload();
+    }
 
     return(
         <Viewlayout>
@@ -66,7 +71,9 @@ export default function Viewpage() {
                 </button>
             </div>
             {popup && (
-                <div className="absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 2xl:h-[94%] 2xl:w-[1500px] 2xl:bottom-28 left-1/2 transform -translate-x-1/2">
+                <div className="absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 2xl:h-[94%] 2xl:w-[1500px] 2xl:bottom-28 left-1/2 transform -translate-x-1/2"
+                    onClick={()=>setPopup(!popup)}
+                >
                     <div className="w-5/6 flex flex-col space-y-32 2xl:space-y-[500px] px-4 mt-16 2xl:px-8 2xl:mt-48 mx-auto items-center justify-center text-center">
                         <div className="flex flex-col space-y-2">
                             <span className="text-Awhite font-bold text-2xl 2xl:text-5xl">{paintdata[current].title}</span>
@@ -98,7 +105,7 @@ export default function Viewpage() {
                 <div className="flex flex-col mx-auto text-center space-y-2 2xl:space-y-4">
                     <button 
                         className="h-20 w-20 ml-2 2xl:h-40 2xl:w-40 2xl:ml-4"
-                        onClick={()=> setPopup(!popup)}
+                        onClick={handleRefresh}
                     > 
                         <img
                             className="h-full w-full"
@@ -106,7 +113,7 @@ export default function Viewpage() {
                             alt="감상모드"
                         />
                     </button>
-                    <span className="text-Awhite text-xl font-bold 2xl:text-3xl">{'감상모드'}</span>
+                    <span className="text-Awhite text-xl font-bold 2xl:text-3xl">{'초기화'}</span>
                 </div>
             </div>
             <div className="h-[130px] w-[100px] absolute left-10 bottom-72 2xl:h-[800px] 2xl:w-[200px] 2xl:left-20 2xl:bottom-96">

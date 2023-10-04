@@ -17,7 +17,7 @@ export default function IntroConnect({children}) {
                     <span className="text-Cgrey font-bold text-xl">{t("MAIN_TOP_2")}</span>
                 </div>
                 <div className="flex flex-row space-x-2 text-black">
-                    <Link href="/">
+                    <Link href="/main">
                         <Image 
                             src="/img/connectpage/홈버튼_밝은화면용.png"
                             width="50"
