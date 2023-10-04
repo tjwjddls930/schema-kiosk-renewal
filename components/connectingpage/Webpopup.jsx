@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Webpopup() {
     const link = useRef();
     return(
-        <div className="h-full w-full">
+        <div className="absolute top-40 left-1/2 transform -translate-x-1/2 h-5/6 w-5/6 z-20">
             <Canvas
                 gl={{antialias:true}}
                 shadows
@@ -20,7 +20,7 @@ export default function Webpopup() {
                     // rotation-x={-0.256}
                 >
                     <iframe 
-                    className="w-[1024px] h-[670px] touch-none border-none border-radius rounded-[20px]"
+                    className="w-[2048px] h-[1340px] touch-none border-none border-radius rounded-[20px]"
                     title="laptop"
                     src="https://schemaartmuseum.com/2023/09/09/%eb%a7%a4%eb%81%84%eb%9f%ac%ec%9a%b4-%eb%8f%8c%eb%b0%ad-2-2/"/>
                 </Html>
