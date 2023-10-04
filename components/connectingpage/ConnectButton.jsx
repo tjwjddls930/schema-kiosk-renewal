@@ -16,7 +16,7 @@ export default function ConnectButton() {
                         <div className="absolute top-0 left-0 h-5/6 w-5/6 bg-Ablack bg-opacity-70 z-20"
                             onClick={()=>setWeb(!web)}
                         >
-                            {/* <Webpopup />                             */}
+                            <Webpopup />                            
                         </div>
                     )}
                     <div className="flex justify-between mx-auto pt-56">
@@ -30,11 +30,11 @@ export default function ConnectButton() {
                                 {'작품 보기'}
                             </button>
                         </Link>
-                        <Link>
+                        <>
                             <button className="w-[150px] h-16 2xl:w-[250px] 2xl:h-24 rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
                                 {'전시 설명문'}
                             </button>
-                        </Link>
+                        </>
                     </div>
                 </div>
             )}
@@ -61,7 +61,7 @@ export default function ConnectButton() {
                         <div className="bg-Ablack h-[1px] w-[400px] 2xl:h-[1.5px] 2xl:w-[700px] mx-auto" />
                     </div>
                 </Link>
-                <Link>
+                <>
                     <div className="h-[250px] 2xl:h-[600px] w-5/6 mx-auto"
                         onClick={()=>setPopup(!popup)}
                     >
@@ -84,7 +84,7 @@ export default function ConnectButton() {
                         </div>
                         <div className="bg-Ablack h-[1.5px] w-[400px] 2xl:h-[1.5px] 2xl:w-[700px] mx-auto" />
                     </div>
-                </Link>
+                </>
             </div>
             <div className="flex flex-col h-full w-1/2">
                 <Link href="/artist">
