@@ -13,7 +13,7 @@ export default function ViewNavbar({url}) {
     return(
         <>
         {soundguide && (
-            <div className="absolute bottom-20 right-4 h-[350px] w-[350px] z-20">
+            <div className="absolute bottom-20 right-4 h-[350px] w-[350px] z-20 2xl:h-[600px] 2xl:w-[600px] 2xl:bottom-28">
                 <Soundguide 
                     videoUrl={url}
                     volume={Number(volume)}

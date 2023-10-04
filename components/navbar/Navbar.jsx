@@ -5,16 +5,18 @@ import { useTranslation } from "next-i18next";
 import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
 
-export default function Navbar({url}) {
+export default function Navbar({url,fontsize}) {
     const [volume, setVolume] = useState(Number(0.5));
     const [soundguide, setSoundguide] = useState(false);
+    const [fontsize, setFontsize] = useState(false);
     const [con, setCon] = useState(true);
     const {t, i18n} = useTranslation('navbar');
+
     return(
         <>
         {soundguide && (
-                <div className="absolute top-0 left-0 h-[91%] 2xl:h-[93%] w-screen bg-Ablack bg-opacity-60 z-20">
-                    <div className="flex mx-auto h-[530px] w-[530px] pt-40">
+                <div className="absolute top-0 left-0 h-[91%] 2xl:h-[94%] w-screen bg-Ablack bg-opacity-60 z-20">
+                    <div className="flex mx-auto h-[530px] w-[530px] 2xl:h-[750px] 2xl:w-[750px] pt-40 2xl:pt-56">
                         <Soundguide 
                             videoUrl={url}
                             volume={Number(volume)}
@@ -88,8 +90,10 @@ export default function Navbar({url}) {
                         </div> */}
                         <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                             <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("FONT_SIZE")}</span>
-                            <button className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-Awhite font-bold">
-                                {t("BIG")}
+                            <button
+                                  onClick={()=>setFontsize(!fontsize)} 
+                                className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-Awhite font-bold">
+                                {fontsize ? t("BIG") : t("SMALL")}
                             </button>
                         </div>
                         <div className="flex flex-row h-9 2xl:h-11 w-full justify-center 2xl:px-20">
