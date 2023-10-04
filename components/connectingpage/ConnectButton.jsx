@@ -1,9 +1,41 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 export default function ConnectButton() {
-
+    const [popup, setPopup] = useState(false);
+    const [web, setWeb] = useState(false);
     return(
         <div className="w-3/4 h-[500px] 2xl:h-3/4 flex flex-row mx-auto">
+            {popup && (
+                <div className="absolute top-0 left-0 h-[91%] 2xl:h-[94%] w-screen bg-Ablack bg-opacity-60 z-10"
+                    onClick={()=>setPopup(!popup)}
+                >
+                    {web && (
+                        <div className="absolute top-0 left-0 h-5/6 w-5/6 bg-Ablack bg-opacity-70 z-20"
+                            onClick={()=>setWeb(!web)}
+                        >
+                            <iframe src="https://schemaartmuseum.com/2023/09/09/%eb%a7%a4%eb%81%84%eb%9f%ac%ec%9a%b4-%eb%8f%8c%eb%b0%ad-2-2/"/>
+                        </div>
+                    )}
+                    <div className="flex justify-between mx-auto pt-56">
+                        <Link href="/artist">
+                            <button className="w-[150px] h-16 2xl:w-[250px] 2xl:h-24 rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
+                                {'작가 보기'}
+                            </button>
+                        </Link>
+                        <Link href="/viewpage">
+                            <button className="w-[150px] h-16 2xl:w-[250px] 2xl:h-24 rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
+                                {'작품 보기'}
+                            </button>
+                        </Link>
+                        <Link>
+                            <button className="w-[150px] h-16 2xl:w-[250px] 2xl:h-24 rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
+                                {'전시 설명문'}
+                            </button>
+                        </Link>
+                    </div>
+                </div>
+            )}
             <div className="flex flex-col h-full w-1/2">
                 <Link href="/artist">
                     <div className="h-[250px] 2xl:h-[600px] w-5/6 mx-auto">
@@ -27,8 +59,10 @@ export default function ConnectButton() {
                         <div className="bg-Ablack h-[1px] w-[400px] 2xl:h-[1.5px] 2xl:w-[700px] mx-auto" />
                     </div>
                 </Link>
-                <Link href="/artist">
-                    <div className="h-[250px] 2xl:h-[600px] w-5/6 mx-auto">
+                <Link>
+                    <div className="h-[250px] 2xl:h-[600px] w-5/6 mx-auto"
+                        onClick={()=>setPopup(!popup)}
+                    >
                         <div className="flex flex-row space-x-4 overflow-hidden justify-start 2xl:space-x-6 2xl:justify-center">
                             <span className="text-[150px] 2xl:text-[300px] font-bold text-Ablack drop-shadow-xl">{'02'}</span>
                             <div className="flex flex-col w-[170px] 2xl:w-[350px] 2xl:space-y-2 mr-4 pt-10 justify-start 2xl:justify-center">

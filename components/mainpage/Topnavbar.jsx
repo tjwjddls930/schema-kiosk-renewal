@@ -77,7 +77,7 @@ function TopNavbar() {
           // className="bg-white p-4 bg-opacity-60 rounded-2xl"
         />
       </Link>
-      <span className="text-Cgrey font-bold text-2xl 2xl:text-4xl">{'모두를 위한 보편적인 스마트 디지털 전시 관람 시스템'}</span>
+      <span className="text-Cgrey font-bold text-2xl 2xl:text-4xl">{''}</span>
       <div className="flex flex-row space-x-2 2xl:space-x-4 text-black mr-4">
           <div className="flex flex-col justify-center items-center">
               <span className="font-bold text-sm 2xl:text-xl">{formattedDate}</span>

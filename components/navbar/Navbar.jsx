@@ -93,7 +93,7 @@ export default function Navbar({url,fontsize}) {
                             <button
                                   onClick={()=>setSize(!size)} 
                                 className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-Awhite font-bold">
-                                {size ? t("BIG") : t("SMALL")}
+                                {size ? t("SMALL") : t("BIG")}
                             </button>
                         </div>
                         <div className="flex flex-row h-9 2xl:h-11 w-full justify-center 2xl:px-20">
