@@ -16,7 +16,7 @@ export default function ConnectButton() {
                         <div className="absolute top-0 left-0 h-5/6 w-5/6 bg-Ablack bg-opacity-70 z-20"
                             onClick={()=>setWeb(!web)}
                         >
-                            <Webpopup />                            
+                            {/* <Webpopup />                             */}
                         </div>
                     )}
                     <div className="flex justify-between mx-auto pt-56">
