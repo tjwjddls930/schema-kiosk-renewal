@@ -58,7 +58,7 @@ export default function ConnectButton() {
                             <div className="flex flex-col w-[170px] 2xl:w-[350px] 2xl:space-y-2 pt-10 mr-4 justify-start 2xl:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
                                 <span className="text-lg 2xl:text-2xl text-Agrey font-bold">{'Scheduled exhibition'}</span>
-                                <span className="text-2xl 2xl:text-4xl text-Ablack font-bold mb-5">{'지난 전시'}</span>
+                                <span className="text-2xl 2xl:text-4xl text-Ablack font-bold mb-5">{'예정 전시'}</span>
                                 <span className="text-base 2xl:text-xl text-Cgrey font-bold">{'예정된 전시에 대한 정보를를'}</span>                        
                                 <span className="text-base 2xl:text-xl text-Cgrey font-bold">{'얻을 수 있습니다다.'}</span>
                             </div>

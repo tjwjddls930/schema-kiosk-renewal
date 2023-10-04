@@ -31,18 +31,18 @@ export default function ViewNavbar({url}) {
                             className="h-10 w-10 2xl:h-16 2xl:w-16"
                             alt="flag"
                         />
-                        <span className="text-2xl 2xl:text-4xl 2xl:mt-2">{t("CURRENT_LANGUAGE")}</span>
+                        <span className="text-2xl 2xl:text-4xl 2xl:mt-2 text-Awhite">{t("CURRENT_LANGUAGE")}</span>
                     </div>
                 </div>
                 <div className="w-11/12 2xl:w-1/2 flex flex-row space-x-3 2xl:space-x-6">
                     <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
-                        <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2">{t("FONT_SIZE")}</span>
-                        <button className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-white font-bold">
+                        <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("FONT_SIZE")}</span>
+                        <button className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-Awhite font-bold">
                             {t("BIG")}
                         </button>
                     </div>
                     <div className="flex flex-row h-9 2xl:h-11 w-full justify-center 2xl:px-20">
-                        <span className="text-xl 2xl:text-3xl w-1/3 2xl:mt-2">{t("VOLUME")}</span>
+                        <span className="text-xl 2xl:text-3xl w-1/3 2xl:mt-2 text-Awhite">{t("VOLUME")}</span>
                         <div className="w-2/3 bg-Cgrey rounded-full p-2 2xl:mt-2">
                             <ReactSlider 
                                 step={0.01}
@@ -63,16 +63,16 @@ export default function ViewNavbar({url}) {
                         </div>
                     </div>
                     <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
-                        <span className="text-xl 2xl:text-3xl w-[170px] 2xl:w-[230px] mx-auto 2xl:mt-2">{t("SOUND_GUIDE")}</span>
+                        <span className="text-xl 2xl:text-3xl w-[170px] 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("SOUND_GUIDE")}</span>
                         <button
                             onClick={()=>setSoundguide(!soundguide)} 
-                            className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold">
+                            className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-Awhite font-bold">
                             {soundguide ? t("STOP") : t("START")}
                             {/* {t("START")} */}
                         </button>
                     </div>
                     <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
-                        <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2">{t("SIGN_LANGUAGE")}</span>
+                        <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("SIGN_LANGUAGE")}</span>
                         <button className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold">
                             {t("START")}
                         </button>
