@@ -31,7 +31,9 @@ export default function ConnectButton() {
                             </button>
                         </Link>
                         <>
-                            <button className="w-[150px] h-16 2xl:w-[250px] 2xl:h-24 rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
+                            <button className="w-[150px] h-16 2xl:w-[250px] 2xl:h-24 rounded-full bg-gradient-to-r from-Agradient to-Bgradient"
+                                onClick={()=>setWeb(!web)}
+                            >
                                 {'전시 설명문'}
                             </button>
                         </>
