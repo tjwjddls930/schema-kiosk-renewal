@@ -1,4 +1,3 @@
-'use client'
 import Viewlayout from "@/components/exhibits/3dview/ViewLayout";
 import Viewcontent from "@/components/exhibits/3dview/Viewcontent";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
