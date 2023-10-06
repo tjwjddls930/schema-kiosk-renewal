@@ -6,7 +6,7 @@ import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
 import { useRouter } from "next/router";
 
-export default function ViewNavbar({url, lang}) {
+export default function ViewNavbar({url, lang, pid}) {
     const [volume, setVolume] = useState(Number(0.5));
     const [soundguide, setSoundguide] = useState(false);
     const {t, i18n} = useTranslation('navbar');
@@ -19,7 +19,7 @@ export default function ViewNavbar({url, lang}) {
     };
     function changeLanguage(lng) {
         i18n.changeLanguage(lng);
-        router.replace(`/${lang}`, undefined, {locale:lng});
+        router.replace(`/${lang}${pid}`, undefined, {locale:lng});
         setModal(!modal);
     }
     return(

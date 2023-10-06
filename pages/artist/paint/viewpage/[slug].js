@@ -34,7 +34,7 @@ export default function Viewpage() {
     return(
         <>
            {data && (
-            <Viewlayout>
+            <Viewlayout pid={pid}>
             {/* 3D 콘텐츠 구역 */}
             <Viewcontent 
                 url={data.imgname}
@@ -71,7 +71,7 @@ export default function Viewpage() {
                     <div className="w-5/6 flex flex-col space-y-32 2xl:space-y-[500px] px-4 mt-16 2xl:px-8 2xl:mt-48 mx-auto items-center justify-center text-center">
                         <div className="flex flex-col space-y-2">
                             <span className="text-Awhite font-bold text-2xl 2xl:text-5xl">{data.title}</span>
-                            <span className="text-Dgrey font-bold text-xl 2xl:text-4xl">{'Meteor'}</span>
+                            <span className="text-Dgrey font-bold text-xl 2xl:text-4xl">{''}</span>
                         </div>
                         <div className="flex flex-col space-y-2 mx-auto w-full 2xl:space-y-4">
                             <img 
@@ -84,7 +84,7 @@ export default function Viewpage() {
                         <div className="flex flex-col w-full mx-auto">
                             <div className="flex justify-between w-full">
                                 <div className="flex flex-col space-y-2">
-                                    <span className="font-bold text-Awhite text-lg 2xl:text-3xl">{'김대유'}</span>
+                                    <span className="font-bold text-Awhite text-lg 2xl:text-3xl">{data.name}</span>
                                     <span className="font-bold text-Awhite text-base 2xl:text-2xl">{data.overview}</span>
                                     <span className="font-bold text-Awhite text-base 2xl:text-2xl">{data.overview1}</span>
                                 </div>

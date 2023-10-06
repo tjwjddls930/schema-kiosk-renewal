@@ -6,7 +6,7 @@ import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
 import ViewNavbar from "../navbar/3DpageNavbar";
 
-export default function Viewpageframe({children}) {
+export default function Viewpageframe({children, pid}) {
     const [volume, setVolume] = useState(Number(0.5));
     const [soundguide, setSoundguide] = useState(false);
     const [con, setCon] = useState(true);
@@ -29,6 +29,7 @@ export default function Viewpageframe({children}) {
             <ViewNavbar 
                 url={"/video/docent/blue-docent-test-02-removed.webm"}
                 lang={"viewpage"}
+                pid={pid}
             />
         </div>
     )

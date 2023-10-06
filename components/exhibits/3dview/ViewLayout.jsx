@@ -2,10 +2,10 @@ import Viewpageframe from "@/components/pagelayout/Viewpageframe";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Viewlayout({children}) {
+export default function Viewlayout({children, pid}) {
 
     return(
-        <Viewpageframe>
+        <Viewpageframe pid={pid}>
             <div className="h-screen w-screen">
                 {children}
                 <button className="absolute left-14 bottom-28 2xl:left-28 2xl:bottom-44">
