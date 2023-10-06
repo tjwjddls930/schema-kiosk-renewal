@@ -38,7 +38,7 @@ export default function ConnectButton() {
                         </> */}
                     </div>
                 
-                    <div className="absolute top-40 2xl:top-52 left-1/2 transform -translate-x-1/2 h-3/4 w-3/4 z-20"> 
+                    <div className="absolute top-40 2xl:top-64 left-1/2 transform -translate-x-1/2 h-3/4 w-3/4 z-20"> 
                         <iframe 
                         className="w-full h-full touch-none border-none border-radius rounded-[20px]"
                         title="laptop"
