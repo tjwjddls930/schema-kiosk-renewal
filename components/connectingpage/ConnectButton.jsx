@@ -12,12 +12,15 @@ export default function ConnectButton() {
                 <div className="absolute top-0 left-0 h-[91%] 2xl:h-[94%] w-screen bg-Ablack bg-opacity-60 z-10"
                     onClick={()=>setPopup(!popup)}
                 >
-                    <div className="flex justify-between mx-auto pt-56 px-24">
+                    <div className="flex justify-between mx-auto pt-16 px-8 2xl:pt-44 2xl:px-24">
                         <Link href="/artist">
                             <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
                                 {'작가 보기'}
                             </button>
                         </Link>
+                        <span className="w-full flex mx-auto text-Awhite font-xl mt-4 2xl:font-4xl font-bold 2xl:mt-12">
+                        {'전시 설명문'}
+                        </span>
                         <Link href="/viewpage">
                             <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
                                 {'작품 보기'}
@@ -34,10 +37,14 @@ export default function ConnectButton() {
                             </button>
                         </> */}
                     </div>
-                    <span className="w-full flex mx-auto text-Awhite font-xl mt-4 2xl:font-4xl font-bold 2xl:mt-8">
-                        {'전시 설명문'}
-                    </span>
-                    <Webpopup />                            
+                
+                    <div className="absolute top-40 left-1/2 transform -translate-x-1/2 h-3/4 w-3/4 z-20"> 
+                        <iframe 
+                        className="w-full h-full touch-none border-none border-radius rounded-[20px]"
+                        title="laptop"
+                        src="https://schemaartmuseum.com/2023/09/09/%eb%a7%a4%eb%81%84%eb%9f%ac%ec%9a%b4-%eb%8f%8c%eb%b0%ad-2-2/"
+                        />  
+                    </div>                         
                 </div>
             )}
             <div className="flex flex-col h-full w-1/2">
