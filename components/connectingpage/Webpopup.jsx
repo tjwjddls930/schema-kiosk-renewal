@@ -7,7 +7,12 @@ export default function Webpopup() {
     const link = useRef();
     return(
         <div className="absolute top-40 left-1/2 transform -translate-x-1/2 h-5/6 w-5/6 z-20">
-            <Canvas
+               <iframe 
+                    className="w-full h-full touch-none border-none border-radius rounded-[20px]"
+                    title="laptop"
+                    src="https://schemaartmuseum.com/2023/09/09/%eb%a7%a4%eb%81%84%eb%9f%ac%ec%9a%b4-%eb%8f%8c%eb%b0%ad-2-2/"
+                />
+            {/* <Canvas
                 gl={{antialias:true}}
                 shadows
             >
@@ -24,7 +29,7 @@ export default function Webpopup() {
                     title="laptop"
                     src="https://schemaartmuseum.com/2023/09/09/%eb%a7%a4%eb%81%84%eb%9f%ac%ec%9a%b4-%eb%8f%8c%eb%b0%ad-2-2/"/>
                 </Html>
-            </Canvas>
+            </Canvas> */}
         </div>
     )
 };
