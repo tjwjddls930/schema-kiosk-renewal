@@ -137,14 +137,18 @@ export async function getStaticProps(context) {
     }
 };
 
-export async function getStaticPaths() {
+export async function getStaticPaths({locales}) {
     const pid = paintData.order;
     return {
       paths: [
         // String variant:
         `/artist/paint/viewpage/${pid}`,
         // Object variant:
-        { params: { slug: `paint-${pid}` } },
+        { params: { slug: `paint-${pid}`, locales: 'ko'} },
+        { params: { slug: `paint-${pid}`, locales: 'en'} },
+        { params: { slug: `paint-${pid}`, locales: 'th'} }, 
+        { params: { slug: `paint-${pid}`, locales: 'vi'} }, 
+        { params: { slug: `paint-${pid}`, locales: 'zh'} },
       ],
       fallback: true,
     }

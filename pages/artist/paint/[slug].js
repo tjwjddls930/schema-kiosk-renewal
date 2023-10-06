@@ -13,14 +13,18 @@ export default function Painselect() {
     )
 };
 
-export async function getStaticPaths() {
+export async function getStaticPaths({locales}) {
     const pid = artistData.order;
     return {
       paths: [
         // String variant:
         `/artist/paint/${pid}`,
         // Object variant:
-        { params: { slug: `artist-${pid}` } },
+        { params: { slug: `artist-${pid}`, locales: 'ko'} },
+        { params: { slug: `artist-${pid}`, locales: 'en'} },
+        { params: { slug: `artist-${pid}`, locales: 'th'} }, 
+        { params: { slug: `artist-${pid}`, locales: 'vi'} }, 
+        { params: { slug: `artist-${pid}`, locales: 'zh'} },
       ],
       fallback: true,
     }
