@@ -33,7 +33,7 @@ export default function ConnectLayout({children}) {
                         </Link>
                     </div>
                 </div>
-                <div className="absolute transform -rotate-90 h-1 left-44 top-56 z-20">
+                <div className="absolute transform -rotate-90 h-1 left-44 top-56">
                     <span className="text-Apurple font-bold text-lg 2xl:text-2xl">Schema</span>
                 </div>
                 {children}

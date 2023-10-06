@@ -19,7 +19,7 @@ export default function ViewNavbar({url, lang, pid}) {
     };
     function changeLanguage(lng) {
         i18n.changeLanguage(lng);
-        router.replace(`/${lang}/${pid}`, undefined, {locale:lng});
+        router.replace(`/${lang}/artist/paint/${pid}`, undefined, {locale:lng});
         setModal(!modal);
     }
     return(
