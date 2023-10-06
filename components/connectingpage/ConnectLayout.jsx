@@ -2,6 +2,7 @@ import { useTranslation } from "next-i18next"
 import Image from "next/image";
 import Pageframe from "../pagelayout/Pageframe";
 import Link from "next/link";
+import Navbar from "../navbar/Navbar";
 
 export default function ConnectLayout({children}) {
     const {t} = useTranslation('common');
@@ -9,7 +10,7 @@ export default function ConnectLayout({children}) {
     return(
         <Pageframe>
             <div className="h-screen w-screen bg-[url('/img/connectpage/connect_bg.png')] bg-cover">
-            <div className="w-full flex flex-row justify-between p-10 2xl:p-20 font-pretendard_bold">
+                <div className="w-full flex flex-row justify-between p-10 2xl:p-20 font-pretendard_bold">
                     <span className="text-xl 2xl:text-4xl font-bold text-Agrey">
                         {'전시 안내'}
                     </span>
@@ -32,13 +33,17 @@ export default function ConnectLayout({children}) {
                         </Link>
                     </div>
                 </div>
-                <div className="absolute transform -rotate-90 h-1 left-52 top-64 z-20">
+                <div className="absolute transform -rotate-90 h-1 left-44 top-56 z-20">
                     <span className="text-Apurple font-bold text-lg 2xl:text-2xl">Schema</span>
                 </div>
                 {children}
-                <div className="absolute transform rotate-90 right-52 bottom-60 2xl:right-36 2xl:bottom-60">
+                <div className="absolute transform rotate-90 right-52 bottom-52 2xl:right-36 2xl:bottom-60">
                         <span className="text-Apurple font-bold text-lg 2xl:text-2xl">Art Museum</span>
                 </div>
+                <Navbar 
+                    url={"/video/docent/blue-docent-test-02-removed.webm"}
+                    lang={"exhibit"}
+                />
             </div>
         </Pageframe>
     )

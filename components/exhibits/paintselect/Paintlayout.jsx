@@ -1,6 +1,7 @@
 import Pageframe from "@/components/pagelayout/Pageframe";
 import Link from "next/link";
 import Image from "next/image";
+import Navbar from "@/components/navbar/Navbar";
 
 export default function Paintlayout({children}) {
 
@@ -70,6 +71,10 @@ export default function Paintlayout({children}) {
                         />
                     </Link>
                 </button>
+                <Navbar 
+                    url={"/video/docent/blue-docent-test-02-removed.webm"}
+                    lang={"paint"}
+                />
             </div>
         </Pageframe>
     )

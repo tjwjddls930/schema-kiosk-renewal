@@ -12,9 +12,7 @@ export default function Mainpage() {
     const [modal, setModal] = useState();
     const [id, setId] = useState(null);
     const [size, setSize] = useState(false);
-    function toggleModal () {
-        setModal(!modal);
-    };
+
     const {t, i18n} = useTranslation(['common', 'navbar']);
     const router = useRouter();
     function handleLanguage(e, language) {
@@ -81,7 +79,7 @@ export default function Mainpage() {
                             </div>
                         </button>
                         <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/시설안내_배경_보정.png')] bg-no-repeat bg-cover text-white shadow-md rounded-lg">
-                            <Link href="/facility">
+                            <Link href="https://schema-kiosk.vercel.app/floorguide">
                                 <div className="flex flex-col space-y-2">
                                     <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_FACILITY_GUIDE")}</span>
                                     <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_FACILITY_GUIDE_1")}</span>
@@ -111,7 +109,7 @@ export default function Mainpage() {
                 {/* 언어변경 버튼 */}
                 <button 
                     className="absolute left-12 bottom-40 2xl:left-20 2xl:bottom-52 text-Bgrey space-y-4"
-                    onClick={toggleModal}    
+                    onClick={()=>setModal(!modal)}    
                 >
                     <div className="flex flex-col">
                         <div className="border-4 border-Cpurple rounded-full w-20 h-20 2xl:w-28 2xl:h-28 items-center bg-Awhite">
@@ -282,7 +280,7 @@ export default function Mainpage() {
                                 </div>
                                 <div className="flex flex-row mx-auto space-x-6 2xl:space-x-8 z-40">
                                     <button className="h-12 w-[200px] 2xl:h-16 2xl:w-[250px] z-40 bg-Awhite shadow-lg rounded-full text-black font-bold text-2xl lg:text-xl"
-                                        onClick={toggleModal}
+                                        onClick={()=>setModal(!modal)}
                                     >
                                         취소하기
                                     </button>
@@ -303,7 +301,9 @@ export default function Mainpage() {
                     </div>
                 )}
             {/* navbar */}
-            <Navbar url={"/video/docent/blue-docent-test-02-removed.webm"}
+            <Navbar 
+                url={"/video/docent/blue-docent-test-02-removed.webm"}
+                lang={"main"}
                 // fontsize={fontsize}
             />
         </div>

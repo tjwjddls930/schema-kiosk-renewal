@@ -28,6 +28,7 @@ export default function Viewpageframe({children}) {
             {/* navbar */}
             <ViewNavbar 
                 url={"/video/docent/blue-docent-test-02-removed.webm"}
+                lang={"viewpage"}
             />
         </div>
     )
