@@ -67,7 +67,7 @@ export default function ConnectButton() {
                                 />
                             </div>
                         </div>
-                        <div className="bg-Ablack h-[1px] w-[400px] 2xl:h-[1.5px] 2xl:w-[700px] mx-auto" />
+                        <div className="bg-Ablack h-[1px] w-[400px] 2xl:h-[1.5px] 2xl:w-[800px] mx-auto" />
                     </div>
                 </Link>
                 <>
@@ -91,7 +91,7 @@ export default function ConnectButton() {
                                 />
                             </div>
                         </div>
-                        <div className="bg-Ablack h-[1.5px] w-[400px] 2xl:h-[1.5px] 2xl:w-[700px] mx-auto" />
+                        <div className="bg-Ablack h-[1.5px] w-[400px] 2xl:h-[1.5px] 2xl:w-[800px] mx-auto" />
                     </div>
                 </>
             </div>
@@ -115,7 +115,7 @@ export default function ConnectButton() {
                                 />
                             </div>
                         </div>
-                        <div className="bg-Ablack h-[1.5px] w-[400px] 2xl:h-[1.5px] 2xl:w-[700px] mx-auto" />
+                        <div className="bg-Ablack h-[1.5px] w-[400px] 2xl:h-[1.5px] 2xl:w-[800px] mx-auto" />
                     </div>
                 </Link>
                 <Link href="/artist">
@@ -137,7 +137,7 @@ export default function ConnectButton() {
                                 />
                             </div>
                         </div>
-                        <div className="bg-Ablack h-[1.5px] w-[400px] 2xl:h-[1.5px] 2xl:w-[700px] mx-auto" />
+                        <div className="bg-Ablack h-[1.5px] w-[400px] 2xl:h-[1.5px] 2xl:w-[800px] mx-auto" />
                     </div>
                 </Link>
             </div>
