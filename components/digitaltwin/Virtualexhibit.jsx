@@ -4,8 +4,14 @@ import { useTexture } from "@react-three/drei";
 
 export default function Virtualexhibit() {
     const [image0, image1, image2, image3, image4, image5, image6, image7] = useTexture(
-        ['/img/관장님_작품/108.jpg','/img/exhibitpage/paintings/김준/Flying-cat-Loop.jpg', '/img/exhibitpage/paintings/김준/Mr.-purple-Loop.jpg', '/img/exhibitpage/paintings/김준/Somebody-anne.jpg', '/img/exhibitpage/paintings/김준/Somebody-chair-man.jpg',
-        '/img/exhibitpage/paintings/김준/Somebody-curtain-call.jpg', '/img/exhibitpage/paintings/김준/Somebody-pink-tile.jpg', '/img/exhibitpage/paintings/김준/Somebody-red-dot.jpg'
+        ['/img/main_painting/108.jpg',
+        '/img/exhibitpage/paintings/김준/Flying-cat-Loop.jpg', 
+        '/img/exhibitpage/paintings/김준/Mr.-purple-Loop.jpg', 
+        '/img/exhibitpage/paintings/김준/Somebody-anne.jpg', 
+        '/img/exhibitpage/paintings/김준/Somebody-chair-man.jpg',
+        '/img/exhibitpage/paintings/김준/Somebody-curtain-call.jpg', 
+        '/img/exhibitpage/paintings/김준/Somebody-pink-tile.jpg', 
+        '/img/exhibitpage/paintings/김준/Somebody-red-dot.jpg'
     ]);
 
     let pHeight = 2;
