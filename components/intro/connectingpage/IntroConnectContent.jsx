@@ -3,9 +3,9 @@ import Link from "next/link"
 export default function IntroConnectContent() {
     return(
         <div className="h-screen w-screen px-28">
-            <div className="h-full flex justify-between mx-auto pt-20 2xl:pt-52">
-                <Link href="/intro/structure">
-                    <div className="h-[350px] w-[85%] 2xl:h-[600px]">
+            <div className="h-full flex flex-row space-x-4 2xl:space-x-12 mx-auto pt-20 2xl:pt-60">
+                <div className="h-[350px] w-[85%] 2xl:h-[600px]">
+                    <Link href="/intro/structure">
                         <div className="flex flex-row space-x-4 overflow-hidden justify-start">
                             <span className="text-[100px] 2xl:text-[300px] font-bold text-Ablack drop-shadow-xl">{'01'}</span>
                             <div className="flex flex-col w-[200px] 2xl:w-[450px] mr-4 pt-10 justify-start">
@@ -24,10 +24,10 @@ export default function IntroConnectContent() {
                             </div>
                         </div>
                         <div className="bg-Ablack h-[1px] w-[350px] 2xl:h-[1.5px] 2xl:w-[800px] mx-auto" />
-                    </div>
-                </Link>
-                <Link href="/structure">
-                    <div className="h-[350px] w-[85%] 2xl:h-[600px]">
+                    </Link>
+                </div>
+                <div className="h-[350px] w-[85%] 2xl:h-[600px]">
+                    <Link href="/structure">
                         <div className="flex flex-row space-x-4 overflow-hidden justify-start">
                             <span className="text-[100px] 2xl:text-[300px] font-bold text-Ablack drop-shadow-xl">{'02'}</span>
                             <div className="flex flex-col w-[200px] 2xl:w-[450px] mr-4 pt-10 justify-start">
@@ -46,10 +46,10 @@ export default function IntroConnectContent() {
                             </div>
                         </div>
                         <div className="bg-Ablack h-[1px] w-[350px] 2xl:h-[1.5px] 2xl:w-[800px] mx-auto" />
-                    </div>
-                </Link>
-                <Link href="/intro/award">
-                    <div className="h-[350px] w-[85%] 2xl:h-[600px]">
+                    </Link>
+                </div>
+                <div className="h-[350px] w-[85%] 2xl:h-[600px]">
+                    <Link href="/intro/award">
                         <div className="flex flex-row space-x-4 overflow-hidden justify-start">
                             <span className="text-[100px] 2xl:text-[300px] font-bold text-Ablack drop-shadow-xl">{'03'}</span>
                             <div className="flex flex-col w-[200px] 2xl:w-[450px] mr-4 pt-10 justify-start">
@@ -68,8 +68,8 @@ export default function IntroConnectContent() {
                             </div>
                         </div>
                         <div className="bg-Ablack h-[1px] w-[350px] 2xl:h-[1.5px] 2xl:w-[800px] mx-auto" />
-                    </div>
-                </Link>
+                    </Link>
+                </div>
             </div>
         </div>
     )
