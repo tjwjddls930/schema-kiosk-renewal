@@ -8,34 +8,39 @@ import { paintData } from "@/data/paintData";
 
 export default function Viewpage() {
     const [popup, setPopup] = useState(true);
-    const [current, setCurrent] = useState(null);
     const [data, setData] = useState(null)
     const router = useRouter();
     const pid = router.query.slug; 
+    const [current, setCurrent] = useState(pid);
     // console.log(artistData[pid])
     // console.log(window.innerHeight, window.innerWidth)
     // const length = artistData[].length;
     useEffect(()=> {
         setData(paintData[pid]);
-        setCurrent(pid);
     }, [pid]);
-    console.log(current);
-    function nextExhibit() {
+
+
+    // useEffect(()=> {
+    //     setCurrent(pid);
+    // },[])
+    let length = paintData.length;
+
+    async function nextExhibit() {
         if(data) {
-            let length = paintData.length;
-            setCurrent(current === length - 1 ? 0 : current + 1);
+            setCurrent((prev)=> prev === length - 1 ? 0 : prev + 1);
         }
-        router.replace(`/artist/paint/viewpage/${current}`);
+        await router.replace(`/artist/paint/viewpage/${current}`);
     };
 
-    function prevExhibit() {
+    async function prevExhibit() {
         if(data) {
-            let length = paintData.length;
-            setCurrent(current === 0 ? length - 1 : current - 1);
-        }
-        router.replace(`/artist/paint/viewpage/${current}`);
+            setCurrent((prev)=> prev === 0 ? length - 1 : prev - 1);
+        };
+        await router.replace(`/artist/paint/viewpage/${current}`);
     };
     
+    console.log(current);
+
     function handleRefresh() {
         router.reload();
     };
