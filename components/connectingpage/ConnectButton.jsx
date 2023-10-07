@@ -12,17 +12,17 @@ export default function ConnectButton() {
                 <div className="absolute top-0 left-0 h-[91%] 2xl:h-[94%] w-screen bg-Ablack bg-opacity-60 z-10"
                     onClick={()=>setPopup(!popup)}
                 >
-                    <div className="flex justify-between mx-auto items-center pt-16 px-16 2xl:pt-44 2xl:px-24">
+                    <div className="flex justify-between mx-auto items-center pt-16 px-16 2xl:pt-44 2xl:px-40">
                         <Link href="/artist">
-                            <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
+                            <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 2xl:text-4xl rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
                                 {'작가 보기'}
                             </button>
                         </Link>
-                        <span className="w-full flex mx-auto text-Awhite font-xl mt-4 2xl:font-4xl font-bold 2xl:mt-12">
+                        <span className="flex mx-auto text-Awhite font-xl mt-4 2xl:text-4xl font-bold 2xl:mt-12">
                         {'전시 설명문'}
                         </span>
                         <Link href="/viewpage">
-                            <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
+                            <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 2xl:text-4xl rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
                                 {'작품 보기'}
                             </button>
                         </Link>
@@ -38,7 +38,7 @@ export default function ConnectButton() {
                         </> */}
                     </div>
                 
-                    <div className="absolute top-40 2xl:top-64 left-1/2 transform -translate-x-1/2 h-3/4 w-3/4 z-20"> 
+                    <div className="absolute h-3/4 w-[70%] top-40 2xl:top-80 left-1/2 transform -translate-x-1/2 z-20"> 
                         <iframe 
                         className="w-full h-full touch-none border-none border-radius rounded-[20px]"
                         title="laptop"
