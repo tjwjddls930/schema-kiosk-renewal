@@ -66,7 +66,7 @@ export default function Mainpage() {
                         </div>
                     </div>
                     <div className="flex w-full h-full bg-[url('/img/mainpage/전시안내_보정이미지.png')] items-center shadow-md rounded-lg bg-cover bg-no-repeat">
-                        <button className="w-full h-full bg-[url('/img/mainpage/전시안내_도형.png')] bg-contain bg-no-repeat mx-auto">
+                        <button className="w-full h-full bg-[url('/img/mainpage/전시안내_도형.png')] bg-cover bg-no-repeat mx-auto">
                             <Link href="/exhibit">
                                 <div className="flex flex-col space-y-2">
                                     <span className="text-xl 2xl:text-4xl font-bold text-Awhite">{t("MAIN_EXHIBIT_GUIDE")}</span>

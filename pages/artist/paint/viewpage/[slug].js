@@ -19,21 +19,21 @@ export default function Viewpage() {
         setData(paintData[pid]);
         setCurrent(pid);
     }, [pid]);
- 
-    async function nextExhibit() {
+    console.log(current);
+    function nextExhibit() {
         if(data) {
             let length = paintData.length;
             setCurrent(current === length - 1 ? 0 : current + 1);
         }
-        await router.replace(`/artist/paint/viewpage/${current}`);
+        router.replace(`/artist/paint/viewpage/${current}`);
     };
 
-    async function prevExhibit() {
+    function prevExhibit() {
         if(data) {
             let length = paintData.length;
             setCurrent(current === 0 ? length - 1 : current - 1);
         }
-        await router.replace(`/artist/paint/viewpage/${current}`);
+        router.replace(`/artist/paint/viewpage/${current}`);
     };
     
     function handleRefresh() {
