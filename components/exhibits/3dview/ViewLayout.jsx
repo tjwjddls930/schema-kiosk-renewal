@@ -25,7 +25,7 @@ export default function Viewlayout({children, pid}) {
                         alt="back"
                     />
                 </button>
-                <button className="absolute left-36 bottom-28 2xl:left-48 2xl:bottom-44">
+                <button className="absolute left-36 bottom-28 2xl:left-60 2xl:bottom-44">
                     <Link href="/main">
                         {/* <Image 
                             src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
@@ -37,7 +37,7 @@ export default function Viewlayout({children, pid}) {
                         <img 
                             src="/img/connectpage/홈버튼_밝은화면용.png"
                             className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
-                            alt="back"
+                            alt="home"
                         />
                     </Link>
                 </button>

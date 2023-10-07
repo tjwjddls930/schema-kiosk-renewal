@@ -51,12 +51,26 @@ export default function Artistlayout({children}) {
                 </div>
                 <button className="absolute left-14 2xl:left-20 2xl:bottom-36">
                     <Link href="/exhibit">
-                        <Image 
+                        {/* <Image 
                             src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
                             width="60"
                             height="60"
                             alt="back"
                             priority={true}
+                        /> */}
+                        <img 
+                            src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
+                            className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                            alt="back"
+                        />
+                    </Link>
+                </button>
+                <button className="absolute left-14 2xl:left-48 2xl:bottom-36">
+                    <Link href="/main">
+                        <img 
+                            src="/img/connectpage/홈버튼_밝은화면용.png"
+                            className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                            alt="home"
                         />
                     </Link>
                 </button>

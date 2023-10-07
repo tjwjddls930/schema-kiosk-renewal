@@ -2,9 +2,10 @@ import Pageframe from "@/components/pagelayout/Pageframe";
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/navbar/Navbar";
+import { useRouter } from "next/router";
 
 export default function Paintlayout({children}) {
-
+    const router = useRouter();
     return(
         <Pageframe>
             <div className="h-screen w-screen bg-Awhite">
@@ -60,14 +61,37 @@ export default function Paintlayout({children}) {
                         }}
                     />
                 </div>
-                <button className="absolute left-14 bottom-20 2xl:bottom-40">
+                <button className="absolute left-14 bottom-20 2xl:bottom-40"
+                    onClick={()=>router.back()}
+                >
                     <Link href="/artist">
-                        <Image 
+                        {/* <Image 
                             src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
                             width="60"
                             height="60"
                             alt="back"
                             priority={true}
+                        /> */}
+                        <img 
+                            src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
+                            className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                            alt="back"
+                        />
+                    </Link>
+                </button>
+                <button className="absolute left-14 bottom-20 2xl:left-36 2xl:bottom-40">
+                    <Link href="/main">
+                        {/* <Image 
+                            src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
+                            width="60"
+                            height="60"
+                            alt="back"
+                            priority={true}
+                        /> */}
+                        <img 
+                            src="/img/connectpage/홈버튼_밝은화면용.png"
+                            className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                            alt="home"
                         />
                     </Link>
                 </button>
