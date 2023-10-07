@@ -67,17 +67,23 @@ function TopNavbar() {
 
   return (
     <div className="hidden sm:flex fixed top-3 2xl:top-6 h-16 2xl:h-20 w-full z-100 justify-between items-center px-4 2xl:px-12">
-      <Link href="/" className="ml-6 mt-4">
-        <Image
-          src="/img/mainpage/schema-logo.png"
-          alt="logo"
-          width={192}
-          height={53}
-          priority={true}
-          // className="bg-white p-4 bg-opacity-60 rounded-2xl"
-        />
-      </Link>
-      <span className="text-Cgrey font-bold text-2xl 2xl:text-4xl">{''}</span>
+      <Image
+        src="/img/mainpage/schema-logo.png"
+        alt="logo"
+        width={192}
+        height={53}
+        priority={true}
+        // className="bg-white p-4 bg-opacity-60 rounded-2xl"
+      />
+      {/* <span className="text-Cgrey font-bold text-2xl 2xl:text-4xl">{''}</span> */}
+      <Image
+        src="/img/mainpage/SmartSpaceSAM_logo.png"
+        alt="logo2"
+        width={192}
+        height={53}
+        priority={true}
+        // className="bg-white p-4 bg-opacity-60 rounded-2xl"
+      />
       <div className="flex flex-row space-x-2 2xl:space-x-4 text-black mr-4">
           <div className="flex flex-col justify-center items-center">
               <span className="font-bold text-sm 2xl:text-xl">{formattedDate}</span>
