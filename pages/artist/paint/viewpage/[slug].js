@@ -162,11 +162,11 @@ export async function getStaticPaths({locales}) {
         // String variant:
         `/artist/paint/viewpage/${pid}`,
         // Object variant:
-        { params: { slug: `paint-${pid}`, locale: 'ko'} },
-        { params: { slug: `paint-${pid}`, locale: 'en'} },
-        { params: { slug: `paint-${pid}`, locale: 'th'} }, 
-        { params: { slug: `paint-${pid}`, locale: 'vi'} }, 
-        { params: { slug: `paint-${pid}`, locale: 'zh'} },
+        { params: { slug: `paint-${pid}`, locales: 'ko'} },
+        { params: { slug: `paint-${pid}`, locales: 'en'} },
+        { params: { slug: `paint-${pid}`, locales: 'th'} }, 
+        { params: { slug: `paint-${pid}`, locales: 'vi'} }, 
+        { params: { slug: `paint-${pid}`, locales: 'zh'} },
       ],
       fallback: true,
     }
