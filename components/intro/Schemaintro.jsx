@@ -57,7 +57,7 @@ export default function Schemaintro() {
                     <span className="text-Cpurple text-sm 2xl:text-3xl">{'공간'}</span>{'이 될 수 있도록 최선의 역할을 하고자 합니다.'}
                 </p>
             </div>
-            <div className="h-1/2 w-2/3 flex flex-row space-x-8 2xl:px-8">
+            <div className="h-1/2 w-2/3 flex flex-row space-x-8">
                 <p className="text-Cgrey text-sm 2xl:text-3xl font-bold">
                     {'특히 이 지역 젊은 작가들에게 다양하고 새로운 현대미술의 정보를 제공하고 국내,외 현대미술의 창의적인 작품들로 구성된 기획전시를 통하여'}
                     <span className="text-Cpurple text-sm 2xl:text-3xl">{'지역 국제 교류센터'}</span>
@@ -78,7 +78,7 @@ export default function Schemaintro() {
                 </div>
             </div>
 
-            <div className="absolute right-4 bottom-64 2xl:right-8 2xl:bottom-96">
+            <div className="absolute right-4 bottom-64 2xl:h-[100px] 2xl:right-8 2xl:bottom-96">
                 <img
                     className="h-[80px] w-[480px] 2xl:h-[200px] 2xl:w-[850px]"
                     src="/img/intro/introduction/schema_art_museum_typo.png"

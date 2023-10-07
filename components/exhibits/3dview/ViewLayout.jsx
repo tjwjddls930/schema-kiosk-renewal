@@ -35,7 +35,7 @@ export default function Viewlayout({children, pid}) {
                             priority={true}
                         /> */}
                         <img 
-                            src="/img/connectpage/홈버튼_밝은화면용.png"
+                            src="/img/connectpage/홈버튼_화이트.png"
                             className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
                             alt="home"
                         />
