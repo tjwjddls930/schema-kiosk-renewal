@@ -8,7 +8,7 @@ import { paintData } from "@/data/paintData";
 
 export default function Viewpage() {
     const [popup, setPopup] = useState(true);
-    const [current, setCurrent] = useState(0);
+    const [current, setCurrent] = useState(null);
     const [data, setData] = useState(null)
     const router = useRouter();
     const pid = router.query.slug; 
@@ -16,20 +16,29 @@ export default function Viewpage() {
     // console.log(window.innerHeight, window.innerWidth)
     // const length = artistData[].length;
     useEffect(()=> {
-        setData(paintData[pid])
+        setData(paintData[pid]);
+        setCurrent(pid);
     }, [pid]);
  
-    function nextExhibit() {
-        setCurrent(current === length - 1 ? 0 : current + 1);
+    async function nextExhibit() {
+        if(data) {
+            let length = paintData.length;
+            setCurrent(current === length - 1 ? 0 : current + 1);
+        }
+        await router.replace(`/artist/paint/viewpage/${current}`);
     };
 
-    function prevExhibit() {
-        setCurrent(current === 0 ? length - 1 : current - 1);
+    async function prevExhibit() {
+        if(data) {
+            let length = paintData.length;
+            setCurrent(current === 0 ? length - 1 : current - 1);
+        }
+        await router.replace(`/artist/paint/viewpage/${current}`);
     };
     
     function handleRefresh() {
         router.reload();
-    }
+    };
     // console.log(artistData.paint[pid].imgname)
     return(
         <>
