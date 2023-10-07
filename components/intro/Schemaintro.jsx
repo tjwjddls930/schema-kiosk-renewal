@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Schemaintro() {
     return(
-        <div className="h-2/3 w-full flex flex-row space-x-8 2xl:w-5/6">
+        <div className="h-2/3 w-full flex flex-row space-x-8 2xl:py-8">
             {/* 좌측 그림 및 텍스트 */}
             <div className="mx-auto pt-10 space-y-12 text-center items-center">
                 <div className="border-4 border-black shadow-lg mb-4">
@@ -78,7 +78,7 @@ export default function Schemaintro() {
                 </div>
             </div>
 
-            <div className="absolute right-4 bottom-64 2xl:h-[100px] 2xl:right-8 2xl:bottom-96">
+            <div className="absolute right-4 bottom-64 2xl:h-[100px] 2xl:w-[100px] 2xl:right-8 2xl:bottom-96">
                 <img
                     className="h-[80px] w-[480px] 2xl:h-[200px] 2xl:w-[850px]"
                     src="/img/intro/introduction/schema_art_museum_typo.png"
@@ -88,7 +88,7 @@ export default function Schemaintro() {
 
             <div className="absolute right-0 bottom-0 2xl:bottom-0">
                 <img 
-                    className="h-[250px] w-[820px] 2xl:h-[550px] 2xl:w-[2000px]" 
+                    className="h-[250px] w-[820px] 2xl:h-[550px] 2xl:w-[2200px]" 
                     src="/img/intro/introduction/schema_image_보정.png"
                     alt="schema_image_2"
                 />
