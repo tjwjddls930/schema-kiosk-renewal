@@ -8,8 +8,8 @@ export default function Structure() {
     const [intro, setIntro] = useState(introData[0])
     return(
         <Introlayout>
-            <div className="w-11/12 h-16 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center">
-                <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2">
+            <div className="w-11/12 h-14 2xl:h-32 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center">
+                <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2 2xl:space-x-16 2xl:text-4xl">
                     {introData.map((item)=> (
                         <li
                             key={item.title}
@@ -21,7 +21,7 @@ export default function Structure() {
                     ))}
                 </ul>
             </div>
-            <div className="w-full h-3/4 bg-Awhite">
+            <div className="w-full h-full bg-Awhite">
                 <main>
                     <AnimatePresence>
                         <motion.div

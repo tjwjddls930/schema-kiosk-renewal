@@ -18,7 +18,7 @@ export default function IntroConnect({children}) {
                 </div>
                 <div className="flex flex-row space-x-2 text-black">
                     <Link href="/main">
-                        <Image 
+                        {/* <Image 
                             src="/img/connectpage/홈버튼_밝은화면용.png"
                             width="50"
                             height="50"
@@ -27,6 +27,11 @@ export default function IntroConnect({children}) {
                                 width:"auto",
                                 height:"auto"
                             }}
+                        /> */}
+                        <img 
+                            src="/img/connectpage/홈버튼_밝은화면용.png"
+                            className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                            alt="home"
                         />
                     </Link>
                 </div>

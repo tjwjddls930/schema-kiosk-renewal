@@ -28,13 +28,18 @@ export default function Introlayout({children}) {
                     </div>
                 </div>
                 {children}
-                <button className="absolute left-14 bottom-36">
+                <button className="absolute left-14 bottom-12 2xl:left-28 2xl:bottom-44">
                     <Link href="/intro">
-                        <Image 
+                        {/* <Image 
                             src="/img/facilityguide/exhibitguide/뒤로가기버튼_어두운버전.png"
                             width="60"
                             height="60"
                             alt="back"
+                        /> */}
+                        <img 
+                        src="/img/facilityguide/exhibitguide/뒤로가기버튼_어두운버전.png"
+                        className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                        alt="back"
                         />
                     </Link>
                 </button>
