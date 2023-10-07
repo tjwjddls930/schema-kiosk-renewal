@@ -79,7 +79,7 @@ export default function Paintlayout({children}) {
                         />
                     </Link>
                 </button>
-                <button className="absolute left-14 bottom-20 2xl:left-36 2xl:bottom-40">
+                <button className="absolute left-14 bottom-20 2xl:left-52 2xl:bottom-40">
                     <Link href="/main">
                         {/* <Image 
                             src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
@@ -97,7 +97,7 @@ export default function Paintlayout({children}) {
                 </button>
                 <Navbar 
                     url={"/video/docent/blue-docent-test-02-removed.webm"}
-                    lang={"paint"}
+                    lang={"/artist/paint"}
                 />
             </div>
         </Pageframe>

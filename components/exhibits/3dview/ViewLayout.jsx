@@ -25,7 +25,7 @@ export default function Viewlayout({children, pid}) {
                         alt="back"
                     />
                 </button>
-                <button className="absolute left-36 bottom-28 2xl:left-60 2xl:bottom-44">
+                <button className="absolute left-36 bottom-28 2xl:left-72 2xl:bottom-44">
                     <Link href="/main">
                         {/* <Image 
                             src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
