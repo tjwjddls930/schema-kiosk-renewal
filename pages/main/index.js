@@ -86,7 +86,7 @@ export default function Mainpage() {
                         </div>
                         <div className="flex w-full h-1/2 items-center bg-[url('/img/mainpage/시설안내_보정이미지.png')] bg-no-repeat bg-cover shadow-md rounded-lg">
                             <button className="text-center h-full w-full mx-auto bg-[url('/img/mainpage/시설안내_도형.png')] bg-no-repeat bg-cover">
-                                <Link href="https://schema-kiosk.vercel.app/floorguide">
+                                <Link href="/digitaltwin">
                                     <div className="flex flex-col space-y-2">
                                         <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_FACILITY_GUIDE")}</span>
                                         <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_FACILITY_GUIDE_1")}</span>

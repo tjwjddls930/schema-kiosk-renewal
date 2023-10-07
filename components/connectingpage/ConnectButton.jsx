@@ -5,6 +5,7 @@ import Webpopup from "./Webpopup";
 
 export default function ConnectButton() {
     const [popup, setPopup] = useState(false);
+    const [future, setFuture] = useState(false);
     const [web, setWeb] = useState(false);
     return(
         <div className="w-3/4 h-[500px] 2xl:h-3/4 flex flex-row mx-auto">
@@ -26,23 +27,25 @@ export default function ConnectButton() {
                                 {'작품 보기'}
                             </button>
                         </Link>
-                        {/* <>
-                            <button className="w-[150px] h-16 2xl:w-[250px] 2xl:h-24 rounded-full bg-gradient-to-r from-Agradient to-Bgradient"
-                                onClick={()=>{
-                                    setWeb(!web)
-                                    setPopup(popup)
-                                }}
-                            >
-                                {'전시 설명문'}
-                            </button>
-                        </> */}
                     </div>
-                
                     <div className="absolute h-3/4 w-[70%] top-40 2xl:top-80 left-1/2 transform -translate-x-1/2 z-20"> 
                         <iframe 
                         className="w-full h-full touch-none border-none border-radius rounded-[20px]"
-                        title="laptop"
+                        title="explanation"
                         src="https://schemaartmuseum.com/2023/09/09/%eb%a7%a4%eb%81%84%eb%9f%ac%ec%9a%b4-%eb%8f%8c%eb%b0%ad-2-2/"
+                        />  
+                    </div>                         
+                </div>
+            )}
+            {future && (
+                <div className="absolute top-0 left-0 h-[91%] 2xl:h-[94%] w-screen bg-Ablack bg-opacity-60 z-10"
+                    onClick={()=>setFuture(!future)}
+                >
+                    <div className="absolute h-5/6 w-5/6 top-40 2xl:top-56 left-1/2 transform -translate-x-1/2 z-20"> 
+                        <iframe 
+                        className="w-full h-full touch-none border-none border-radius rounded-[20px]"
+                        title="future"
+                        src="https://schemaartmuseum.com/%ec%98%88%ec%a0%95%ec%a0%84%ec%8b%9c/"
                         />  
                     </div>                         
                 </div>
@@ -96,8 +99,10 @@ export default function ConnectButton() {
                 </>
             </div>
             <div className="flex flex-col h-full w-1/2">
-                <Link href="/artist">
-                    <div className="h-[250px] 2xl:h-[600px] w-5/6 mx-auto">
+                <>
+                    <div className="h-[250px] 2xl:h-[600px] w-5/6 mx-auto"
+                        onClick={()=> setFuture(!future)}
+                    >
                         <div className="flex flex-row space-x-4 justify-start 2xl:space-x-6 2xl:justify-center">
                             <span className="text-[150px] 2xl:text-[300px] font-bold text-Ablack drop-shadow-xl">{'03'}</span>
                             <div className="flex flex-col w-[170px] 2xl:w-[350px] 2xl:space-y-2 pt-10 mr-4 justify-start 2xl:justify-center">
@@ -117,7 +122,7 @@ export default function ConnectButton() {
                         </div>
                         <div className="bg-Ablack h-[1.5px] w-[400px] 2xl:h-[1.5px] 2xl:w-[800px] mx-auto" />
                     </div>
-                </Link>
+                </>
                 <Link href="/artist">
                     <div className="h-[250px] 2xl:h-[600px] w-5/6 mx-auto">
                         <div className="flex flex-row space-x-4 justify-start 2xl:space-x-6 2xl:justify-center">
