@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Schemaintro() {
     return(
-        <div className="h-2/3 w-full flex flex-row space-x-8">
+        <div className="h-2/3 w-full flex flex-row space-x-8 2xl:w-5/6">
             {/* 좌측 그림 및 텍스트 */}
             <div className="mx-auto pt-10 space-y-12 text-center items-center">
                 <div className="border-4 border-black shadow-lg mb-4">
@@ -26,9 +26,9 @@ export default function Schemaintro() {
                 </div>
                 <span className="text-xl font-bold text-Cpurple 2xl:text-3xl">Schema</span>
             </div>
-            <div className="h-5/6 w-2/5 flex flex-col space-y-4">
-                <div className="flex flex-col space-y-2">
-                    <div className="h-[2px] w-14 bg-Cpurple"></div>
+            <div className="h-5/6 w-2/5 flex flex-col space-y-4 2xl:space-y-12 2xl:px-8">
+                <div className="flex flex-col space-y-2 2xl:space-y-6">
+                    <div className="h-[2px] w-14 2xl:w-28 bg-Cpurple"></div>
                     <span className="font-bold text-lg 2xl:text-5xl text-Cgrey">Schema Art Museum</span>
                     <span className="font-bold text-xl 2xl:text-7xl text-black">쉐마미술관</span>
                 </div>
@@ -39,13 +39,13 @@ export default function Schemaintro() {
                     <span className="text-Cpurple text-sm 2xl:text-3xl">{'관, 미술관 창제 프로그램 우수 운영기관으로 선정'}</span>{'되었습니다.'}
                 </p>
                 <div className="mx-auto text-center flex flex-row space-x-6">
-                    <div className="pt-7 2xl:pt-12 h-20 w-20 2xl:h-40 2xl:w-40 shadow-2xl rounded-full font-bold text-black text-base 2xl:text-4xl z-10">
+                    <div className="pt-7 2xl:pt-14 h-20 w-20 2xl:h-40 2xl:w-40 shadow-2xl rounded-full font-bold text-black text-base 2xl:text-4xl z-10">
                         격
                     </div>
-                    <div className="pt-7 2xl:pt-12 h-20 w-20 2xl:h-40 2xl:w-40 shadow-2xl rounded-full font-bold text-black text-base 2xl:text-4xl z-10">
+                    <div className="pt-7 2xl:pt-14 h-20 w-20 2xl:h-40 2xl:w-40 shadow-2xl rounded-full font-bold text-black text-base 2xl:text-4xl z-10">
                         짜임
                     </div>
-                    <div className="pt-7 2xl:pt-12 h-20 w-20 2xl:h-40 2xl:w-40 shadow-2xl rounded-full font-bold text-black text-base 2xl:text-4xl z-10">
+                    <div className="pt-7 2xl:pt-14 h-20 w-20 2xl:h-40 2xl:w-40 shadow-2xl rounded-full font-bold text-black text-base 2xl:text-4xl z-10">
                         계획
                     </div>
                 </div>
@@ -57,7 +57,7 @@ export default function Schemaintro() {
                     <span className="text-Cpurple text-sm 2xl:text-3xl">{'공간'}</span>{'이 될 수 있도록 최선의 역할을 하고자 합니다.'}
                 </p>
             </div>
-            <div className="h-1/2 w-2/3 flex flex-row space-x-8">
+            <div className="h-1/2 w-2/3 flex flex-row space-x-8 2xl:px-8">
                 <p className="text-Cgrey text-sm 2xl:text-3xl font-bold">
                     {'특히 이 지역 젊은 작가들에게 다양하고 새로운 현대미술의 정보를 제공하고 국내,외 현대미술의 창의적인 작품들로 구성된 기획전시를 통하여'}
                     <span className="text-Cpurple text-sm 2xl:text-3xl">{'지역 국제 교류센터'}</span>
@@ -86,9 +86,9 @@ export default function Schemaintro() {
                 />
             </div>
 
-            <div className="absolute right-0 bottom-0 2xl:bottom-10">
+            <div className="absolute right-0 bottom-0 2xl:bottom-0">
                 <img 
-                    className="h-[250px] w-[820px] 2xl:h-[450px] 2xl:w-[1200px]" 
+                    className="h-[250px] w-[820px] 2xl:h-[550px] 2xl:w-[2000px]" 
                     src="/img/intro/introduction/schema_image_보정.png"
                     alt="schema_image_2"
                 />
