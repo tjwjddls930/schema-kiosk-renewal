@@ -45,26 +45,28 @@ export default function Mainpage() {
                         <span className="text-Apurple font-bold 2xl:text-4xl">Schema</span>
                     </div>
                     <div className="w-1/3 flex flex-col space-y-5 text-Agrey shadow-md rounded-sm">
-                        <button className="flex w-full h-1/2 text-center items-center bg-[url('/img/mainpage/미술관소개_보정이미지.png')] bg-no-repeat bg-cover rounded-lg bg-opacity-80">
-                            <Link href="/intro">
-                                <div className="h-[90%] w-[90%] bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto" />
-                                <div className="flex flex-col space-y-2 z-10">
-                                    <span className={`font-bold text-Awhite ${size ? "text-6xl" : "text-lg 2xl:text-4xl"}`}>{t("MAIN_INTRO")}</span>
-                                    <span className={`font-bold text-Awhite ${size ? "text-4xl" : "text-sm 2xl:text-2xl"}`}>{t("MAIN_INTRO_1")}</span>
-                                    <span className={`font-bold text-Awhite ${size ? "text-4xl" : "text-sm 2xl:text-2xl"}`}>{t("MAIN_INTRO_2")}</span>
-                                </div>
-                            </Link>
-                        </button>
-                        <button className="flex w-full h-1/2 text-center items-center text-white shadow-md rounded-lg bg-[url('/img/mainpage/챗봇안내_보정이미지.png')] bg-cover bg-no-repeat">
-                                <div className="h-[90%] w-[90%] mx-auto bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat"/>
-                                <div className="flex flex-col space-y-2 z-10">
-                                    <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_CHATBOT")}</span>
-                                    <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_CHATBOT_1")}</span>
-                                </div>
-                        </button>
+                        <div className="flex w-full h-1/2 items-center bg-[url('/img/mainpage/미술관소개_보정이미지.png')] bg-no-repeat bg-cover rounded-lg bg-opacity-80">
+                            <button className="text-center h-full w-full bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto">
+                                <Link href="/intro">
+                                    <div className="flex flex-col space-y-2">
+                                        <span className={`font-bold text-Awhite ${size ? "text-6xl" : "text-lg 2xl:text-4xl"}`}>{t("MAIN_INTRO")}</span>
+                                        <span className={`font-bold text-Awhite ${size ? "text-4xl" : "text-sm 2xl:text-2xl"}`}>{t("MAIN_INTRO_1")}</span>
+                                        <span className={`font-bold text-Awhite ${size ? "text-4xl" : "text-sm 2xl:text-2xl"}`}>{t("MAIN_INTRO_2")}</span>
+                                    </div>
+                                </Link>
+                            </button>
+                        </div>
+                        <div className="flex w-full h-1/2 items-center shadow-md rounded-lg bg-[url('/img/mainpage/챗봇안내_보정이미지.png')] bg-cover bg-no-repeat">
+                            <button className="text-center text-white h-full w-full mx-auto bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat">
+                                    <div className="flex flex-col space-y-2">
+                                        <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_CHATBOT")}</span>
+                                        <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_CHATBOT_1")}</span>
+                                    </div>
+                            </button>
+                        </div>
                     </div>
                     <div className="flex w-full h-full bg-[url('/img/mainpage/전시안내_보정이미지.png')] items-center shadow-md rounded-lg bg-cover bg-no-repeat">
-                        <button className="w-[90%] h-[90%] bg-[url('/img/mainpage/전시안내_도형.png')] bg-cover bg-no-repeat mx-auto">
+                        <button className="w-full h-full bg-[url('/img/mainpage/전시안내_도형.png')] bg-cover bg-no-repeat mx-auto">
                             <Link href="/exhibit">
                                 <div className="flex flex-col space-y-2">
                                     <span className="text-xl 2xl:text-4xl font-bold text-Awhite">{t("MAIN_EXHIBIT_GUIDE")}</span>
@@ -73,23 +75,25 @@ export default function Mainpage() {
                             </Link>
                         </button>
                     </div>
-                    <div className="w-1/3 flex flex-col space-y-5 text-Awhite shadow-md">
-                        <button className="w-full h-1/2 text-center items-center bg-[url('/img/mainpage/교육프로그램_보정이미지.png')] bg-no-repeat bg-cover rounded-lg">
-                            <div className="h-[93%] w-[93%] mx-auto bg-[url('/img/mainpage/교육프로그램_도형.png')] bg-no-repeat bg-cover"/>
-                            <div className="flex flex-col space-y-2 z-10">
-                                    <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_EDUCATION")}</span>
-                                    <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_EDUCATION_1")}</span>
-                            </div>
-                        </button>
-                        <button className="w-full h-1/2 text-center items-center bg-[url('/img/mainpage/시설안내_보정이미지.png')] bg-no-repeat bg-cover text-white shadow-md rounded-lg">
-                            <Link href="https://schema-kiosk.vercel.app/floorguide">
-                                <div className="h-[93%] w-[93%] mx-auto bg-[url('/img/mainpage/시설안내_도형.png')] bg-no-repeat bg-cover"/>
-                                <div className="flex flex-col space-y-2 z-10">
+                    <div className="w-1/3 flex flex-col space-y-5 text-Awhite">
+                        <div className="flex w-full h-1/2 items-center bg-[url('/img/mainpage/교육프로그램_보정이미지.png')] bg-no-repeat bg-cover shadow-md rounded-lg">
+                            <button className="text-center h-full w-full mx-auto bg-[url('/img/mainpage/교육프로그램_도형.png')] bg-no-repeat bg-cover">
+                                <div className="flex flex-col space-y-2">
+                                        <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_EDUCATION")}</span>
+                                        <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_EDUCATION_1")}</span>
+                                </div>
+                            </button>
+                        </div>
+                        <div className="flex w-full h-1/2 items-center bg-[url('/img/mainpage/시설안내_보정이미지.png')] bg-no-repeat bg-cover shadow-md rounded-lg">
+                            <button className="text-center h-full w-full mx-auto bg-[url('/img/mainpage/시설안내_도형.png')] bg-no-repeat bg-cover">
+                                <Link href="https://schema-kiosk.vercel.app/floorguide">
+                                    <div className="flex flex-col space-y-2">
                                         <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_FACILITY_GUIDE")}</span>
                                         <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_FACILITY_GUIDE_1")}</span>
-                                </div>
-                            </Link>
-                        </button>
+                                    </div>
+                                </Link>
+                            </button>
+                        </div>
                     </div>
                     <div className="absolute transform rotate-90 right-32 bottom-48 2xl:right-56 2xl:bottom-80">
                         <span className="text-Apurple font-bold 2xl:text-4xl">Art Museum</span>
