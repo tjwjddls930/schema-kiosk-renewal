@@ -27,16 +27,16 @@ export default function Navbar({url, lang}) {
     return(
         <>
             {soundguide && (
-                <div className="absolute top-0 left-0 h-[91%] 2xl:h-[94%] w-screen bg-Ablack bg-opacity-60 z-20">
-                    <div className="flex mx-auto h-[530px] w-[530px] 2xl:h-[750px] 2xl:w-[750px] pt-40 2xl:pt-56">
-                        <Soundguide 
-                            videoUrl={url}
-                            volume={Number(volume)}
-                            playing={true}
-                            end={()=>setSoundguide(!soundguide)}
-                        />
-                    </div>
-                </div>
+                // <div className="absolute top-0 left-0 h-[91%] 2xl:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20">
+                // </div>
+                <div className="absolute bottom-20 right-0 h-[530px] w-[530px] 2xl:h-[750px] 2xl:w-[750px]">
+                    <Soundguide 
+                        videoUrl={url}
+                        volume={Number(volume)}
+                        playing={true}
+                        end={()=>setSoundguide(!soundguide)}
+                    />
+            </div>
             )}
             {modal && (
             <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
