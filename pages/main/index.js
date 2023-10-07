@@ -116,7 +116,7 @@ export default function Mainpage() {
                 </div>
                 {/* 언어변경 버튼 */}
                 <button 
-                    className="absolute left-12 bottom-40 2xl:left-20 2xl:bottom-52 text-Bgrey space-y-4"
+                    className="absolute left-12 bottom-40 2xl:left-24 2xl:bottom-52 text-Bgrey space-y-4"
                     onClick={()=>setModal(!modal)}    
                 >
                     <div className="flex flex-col">
