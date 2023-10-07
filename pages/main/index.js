@@ -30,7 +30,7 @@ export default function Mainpage() {
     return(
         // <div className="h-[897.6px] w-[1522.4px]">
         <div className="h-screen w-screen relative font-sans flex flex-col justify-center items-center">
-            <div className="absolute inset-0 bg-cover bg-no-repeat bg-[url('/img/mainpage/mainpage_bg_fix.png')]"
+            <div className="absolute inset-0 bg-cover bg-no-repeat bg-[url('/img/mainpage/키오스크_가로형_메인배경.png')]"
                 style={{
                     // opacity:0.5,
                     zIndex: -1
@@ -45,9 +45,9 @@ export default function Mainpage() {
                         <span className="text-Apurple font-bold 2xl:text-4xl">Schema</span>
                     </div>
                     <div className="w-1/3 flex flex-col space-y-5 text-Agrey shadow-md rounded-sm">
-                        <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/미술관소개_배경_보정.png')] bg-no-repeat bg-cover rounded-lg">
+                        <button className="w-full h-1/2 text-center bg-[url('/img/mainpage/미술관소개_보정이미지.png')] bg-no-repeat bg-cover rounded-lg">
                             <Link href="/intro">
-                                <div className="flex flex-col space-y-2">
+                                <div className="flex flex-col space-y-2 bg-[url('/img/mainpage/미술관소개_도형.png bg-no-repeat bg-cover">
                                     <span className={`font-bold text-Awhite ${size ? "text-6xl" : "text-lg 2xl:text-4xl"}`}>{t("MAIN_INTRO")}</span>
                                     <span className={`font-bold text-Awhite ${size ? "text-4xl" : "text-sm 2xl:text-2xl"}`}>{t("MAIN_INTRO_1")}</span>
                                     <span className={`font-bold text-Awhite ${size ? "text-4xl" : "text-sm 2xl:text-2xl"}`}>{t("MAIN_INTRO_2")}</span>
@@ -115,7 +115,7 @@ export default function Mainpage() {
                         <div className="border-4 border-Cpurple rounded-full w-20 h-20 2xl:w-28 2xl:h-28 items-center bg-Awhite">
                             <Image 
                                 className="mx-auto pt-2.5 z-1 2xl:pt-6"
-                                src="/img/mainpage/언어변경_아이콘.png"
+                                src="/img/mainpage/언어변경_아이콘_1.png"
                                 height="50"
                                 width="50"
                                 alt="language"

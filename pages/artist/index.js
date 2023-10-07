@@ -33,7 +33,7 @@ export default function Presentpage() {
                                 >
                                 <img 
                                     className={item === artist ? "h-[200px] w-[200px] 2xl:h-[550px] 2xl:w-[550px] border-4 border-Awhite rounded-lg" : "h-[150px] w-[150px] 2xl:h-[500px] 2xl:w-[500px] rounded-lg"}
-                                    src={`/img/exhibitpage/artists/${imgname}`}
+                                    src={`/img/exhibitpage/artists/${item.imgname}`}
                                     alt="artist"
                                 />
                                 </div>
