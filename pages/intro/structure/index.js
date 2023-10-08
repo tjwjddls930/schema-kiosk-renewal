@@ -21,7 +21,7 @@ export default function Structure() {
                     ))}
                 </ul>
             </div>
-            <div className="w-full h-full bg-Awhite">
+            <div className="w-full h-2/3 2xl:h-full bg-Awhite">
                 <main>
                     <AnimatePresence>
                         <motion.div
@@ -31,7 +31,7 @@ export default function Structure() {
                             exit={{y: -10, opacity: 0}}
                             transition={{duration: 0.2}}
                         >
-                            {intro ? <div className="p-12 mx-auto items-center">
+                            {intro ? <div className="p-6 2xl:p-12 mx-auto items-center">
                                 {intro.component}
                             </div> : ""}
                         </motion.div>

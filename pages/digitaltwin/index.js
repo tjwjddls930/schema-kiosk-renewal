@@ -12,9 +12,7 @@ export default function Schemafloor() {
     return(
         <div className="h-screen w-screen">
             <Link href="/main">
-                <button className="absolute top-3 left-3 h-12 w-12 2xl:top-16 2xl:left-16 2xl:h-24 2xl:w-24 rounded-full bg-Cpurple z-[1000]"
-                    onClick={()=>handleHome()}
-                >
+                <button className="absolute top-3 left-3 h-12 w-12 2xl:top-16 2xl:left-16 2xl:h-24 2xl:w-24 rounded-full bg-Cpurple z-[1000]">
                     <svg 
                         xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" 
                         width="100" height="100" viewBox="0 0 50 50"

@@ -1,6 +1,7 @@
 import Pageframe from "../pagelayout/Pageframe";
 import Image from "next/image";
 import Link from "next/link";
+import Navbar from "../navbar/Navbar";
 
 export default function Introlayout({children}) {
 
@@ -28,7 +29,7 @@ export default function Introlayout({children}) {
                     </div>
                 </div>
                 {children}
-                <button className="absolute left-14 bottom-12 2xl:left-28 2xl:bottom-44">
+                <button className="absolute left-6 bottom-20 2xl:left-16 2xl:bottom-44">
                     <Link href="/intro">
                         {/* <Image 
                             src="/img/facilityguide/exhibitguide/뒤로가기버튼_어두운버전.png"
@@ -43,7 +44,19 @@ export default function Introlayout({children}) {
                         />
                     </Link>
                 </button>
+                <button className="absolute left-24 bottom-20 2xl:left-60 2xl:bottom-44">
+                    <Link href="/main">
+                        <img 
+                            src="/img/connectpage/홈버튼_밝은화면용.png"
+                            className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                            alt="home"
+                        />
+                    </Link>
+                </button>
             </div>
+            <Navbar 
+                url={"/video/docent/blue-docent-test-02-removed.webm"}
+                lang={"/intro/structure"} />
         </Pageframe>
     )
 }
