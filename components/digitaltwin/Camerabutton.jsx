@@ -3,8 +3,8 @@ import { useState } from "react";
 import { animated, useTrail } from "@react-spring/web";
 
 export default function Camerabutton() {
-    const items1 = ["작품1", "작품2", "작품3", "작품4", "작품5", "작품6", "작품7", "작품8"];
-    const items2 = ["작품1", "작품2"];
+    const items1 = ["작품1", "작품2", "작품3", "작품4", "작품5", "작품6", "작품7", "작품8", "작품9", "작품10"];
+    const items2 = ["작품1", "작품2", "작품3", "작품4"];
     const [active, setActive] = useState(false);
     const [button1, setButton1] = useState(false);
     const [button2, setButton2] = useState(false);
@@ -25,90 +25,80 @@ export default function Camerabutton() {
         from: { opacity: 0, x: 20, height: 0},
     });
 
-    let cHeight = -3;
     let pHeight = 2;
+
     const set = {
         1: {
-            characterPos: [0, cHeight, 4],
-            characterRot: [0, 0, 0],
-            cameraPos: [0, 2, 11],
+            cameraPos: [-2, 3, 13],
             target: [0, 0, 0],
         },
         //전시실1
         2: {
-            characterPos: [3.5, cHeight, 1],
-            characterRot: [0, 180, 0],
             cameraPos: [20, 2, -5],
             target: [12, 0, -2],
         },
         //전시실2
         3: {
-            characterPos: [-15, cHeight, 1],
-            characterRot: [0, 180, 0],
-            cameraPos: [-20, 6, -6],
+            cameraPos: [-20, 2, -6],
             target: [-17, 0, -2]
         },
         //전시실1 작품
         4: {
-            characterPos: [3, cHeight, -6], 
-            characterRot: [0, 90, 0],
             cameraPos: [7, pHeight, -2],
             target: [2.4, pHeight, -2]
         },
         5: {
-            characterPos: [3, cHeight, -6], 
-            characterRot: [0, 90, 0],
-            cameraPos: [7, pHeight, -10],
-            target: [2.4, pHeight, -10]
+            cameraPos: [7, pHeight, -7],
+            target: [2.4, pHeight, -7]
         },
         6: {
-            characterPos: [10, cHeight, -14],
-            characterRot: [0, 0, 0],
-            cameraPos: [8, pHeight, -11],
-            target: [8, pHeight, -15.86]
+            cameraPos: [7, pHeight, -12],
+            target: [2.4, pHeight, -12]
         },
         7: {
-            characterPos: [14, cHeight, -14], 
-            characterRot: [0, 0, 0], 
-            cameraPos: [16, pHeight, -11],
-            target: [16, pHeight, -15.86]
+            cameraPos: [12, pHeight, -11],
+            target: [12, pHeight, -15.86]
         },
         8: {
-            characterPos: [22, cHeight, -6], 
-            characterRot: [0, -90, 0], 
-            cameraPos: [19, pHeight, -8],
-            target: [23.95, pHeight, -8]
+            cameraPos: [19, pHeight, -4],
+            target: [23.95, pHeight, -4]
         },
-        9: {
-            characterPos: [22, cHeight, -2],
-            characterRot: [0, -90, 0],  
-            cameraPos: [19, pHeight, 0],
-            target: [23.95, pHeight, 0]
+        9: {  
+            cameraPos: [21, pHeight, 4],
+            target: [21, pHeight, 8.3]
         },
         10: {
-            characterPos: [22, cHeight, 7],
-            characterRot: [0, 180, 0],  
-            cameraPos: [20, pHeight, 4],
-            target: [20, pHeight, 8.3]
+            cameraPos: [17, pHeight, 4],
+            target: [17, pHeight, 8.3]
         },
-        11: {
-            characterPos: [11, cHeight, 7], 
-            characterRot: [0, 180, 0],   
-            cameraPos: [13, pHeight, 4],
-            target: [13, pHeight, 8.3]
+        11: { 
+            cameraPos: [12, pHeight, 4],
+            target: [12, pHeight, 8.3]
         },
-        //전시실2 작품
         12: {
-            characterPos: [-14, cHeight, -3],
-            characterRot: [0, -90, 0],
-            cameraPos: [-20, 1, -6],
-            target: [-16, -0.6, -6]
+            cameraPos: [12.5, pHeight, 7],
+            target: [8.5, pHeight, 7]
         },
         13: {
-            characterPos: [-23, cHeight, 1], 
-            characterRot: [0, 90, 0],
-            cameraPos: [-16, 1, -1],
-            target: [-20, -1.5, -1]
+            cameraPos: [12.5, pHeight, 4],
+            target: [8.5, pHeight, 4]
+        },
+        //전시실2 작품
+        14: {
+            cameraPos: [-18, pHeight, 0],
+            target: [-13.5, pHeight, 0]
+        },
+        15: {
+            cameraPos: [-18, pHeight, -5],
+            target: [-13.5, pHeight, -5]
+        },
+        16: {
+            cameraPos: [-16, pHeight, -5],
+            target: [-16, pHeight, -9]
+        },
+        17: {
+            cameraPos: [-20, pHeight, -5],
+            target: [-20, pHeight, -9]
         },
     };
 
@@ -124,11 +114,10 @@ export default function Camerabutton() {
 
     function lookPaint(num) {
         state.cameraPos.set(...set[num].cameraPos);
-        state.characterPos.set(...set[num].characterPos);
-        state.characterRot.set(...set[num].characterRot);
         state.target.set(...set[num].target);
         state.shouldUpdate = true;
         state.clicked = true;
+        console.log(num);
     };    
 
     // console.log(button);
@@ -138,7 +127,7 @@ export default function Camerabutton() {
         {button1 &&
             <button 
                 id ="1"
-                className="relative left-3 top-10 w-12 h-12 2xl:left-16 2xl:top-28 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
+                className="relative left-3 top-16 w-12 h-12 2xl:left-16 2xl:top-48 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
                 onClick={()=> {
                     lookPaint(1)
                     setActive(!active)
@@ -163,7 +152,7 @@ export default function Camerabutton() {
         {button2 &&
             <button 
                 id ="1"
-                className="relative left-3 top-10 w-12 h-12 2xl:left-16 2xl:top-28 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
+                className="relative left-3 top-16 w-12 h-12 2xl:left-16 2xl:top-48 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
                 onClick={()=> {
                     lookPaint(1)
                     setActive(!active)
@@ -251,7 +240,7 @@ export default function Camerabutton() {
             {trail2.map(({x, height, ...rest}, index) => (
                 <animated.div 
                     key={items2[index]} 
-                    onClick={()=> lookPaint(index+12)}
+                    onClick={()=> lookPaint(index+14)}
                     className="w-[100px] 2xl:w-[300px] h-full text-center pt-5 mx-auto bg-Cpurple border-2 rounded-full text-white 2xl:text-3xl 2xl:font-bold will-change-transform overflow-hidden" 
                     style={{
                         ...rest,
