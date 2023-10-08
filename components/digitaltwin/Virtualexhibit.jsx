@@ -4,7 +4,7 @@ import { useTexture } from "@react-three/drei";
 
 export default function Virtualexhibit() {
     const [image0, image1, image2, image3, image4, image5, image6, image7] = useTexture(
-        ['/img/main_painting/jae_3.jpg',
+        ['/img/exhibitpage/current_exhibit.png',
         '/img/exhibitpage/paintings/김준/Flying-cat-Loop.jpg', 
         '/img/exhibitpage/paintings/김준/Mr.-purple-Loop.jpg', 
         '/img/exhibitpage/paintings/김준/Somebody-anne.jpg', 
