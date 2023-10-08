@@ -38,7 +38,7 @@ export default function Camerabutton() {
         2: {
             characterPos: [3.5, cHeight, 1],
             characterRot: [0, 180, 0],
-            cameraPos: [20, 6, -5],
+            cameraPos: [20, 2, -5],
             target: [12, 0, -2],
         },
         //전시실2

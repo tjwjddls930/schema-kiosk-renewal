@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import { useTexture } from "@react-three/drei";
 
 export default function Virtualexhibit() {
-    const [image0, image1, image2, image3, image4, image5, image6, image7] = useTexture(
+    const [image0, image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13] = useTexture(
         ['/img/exhibitpage/current_exhibit.png',
         '/img/exhibitpage/paintings/김준/Flying-cat-Loop.jpg', 
         '/img/exhibitpage/paintings/김준/Mr.-purple-Loop.jpg', 
@@ -11,7 +11,13 @@ export default function Virtualexhibit() {
         '/img/exhibitpage/paintings/김준/Somebody-chair-man.jpg',
         '/img/exhibitpage/paintings/김준/Somebody-curtain-call.jpg', 
         '/img/exhibitpage/paintings/김준/Somebody-pink-tile.jpg', 
-        '/img/exhibitpage/paintings/김준/Somebody-red-dot.jpg'
+        '/img/exhibitpage/paintings/김준/Somebody-red-dot.jpg',
+        '/img/exhibitpage/paintings/이윤성/The-Three-Graces.jpg',
+        '/img/exhibitpage/paintings/이윤성/Head-of-Medusa.jpg',
+        '/img/exhibitpage/paintings/이윤성/Head-of-Medusa-Pink.jpg',
+        '/img/exhibitpage/paintings/이윤성/Head-of-Medusa-Pink1.jpg',
+        '/img/exhibitpage/paintings/이윤성/Torso-12.jpg',
+        '/img/exhibitpage/paintings/이윤성/Torso-12-1.jpg',
     ]);
 
     let pHeight = 2;
@@ -46,13 +52,13 @@ export default function Virtualexhibit() {
                 <planeGeometry args={[4, 3]} />
                 <meshStandardMaterial map={image6} side={THREE.DoubleSide} />
             </mesh>
-            {/* <mesh position={[13, pHeight, 8.3]} rotation={[0, 0, 0]}>
-                <planeGeometry args={[4, 3]} />
-                <meshStandardMaterial map={image7} side={THREE.DoubleSide} />
-            </mesh> */}
             <mesh position={[20, pHeight, 8.3]} rotation={[0, 0, 0]}>
                 <planeGeometry args={[4, 3]} />
                 <meshStandardMaterial map={image7} side={THREE.DoubleSide} />
+            </mesh>
+            <mesh position={[13, pHeight, 8.3]} rotation={[0, 0, 0]}>
+                <planeGeometry args={[8, 6]} />
+                <meshStandardMaterial map={image8} side={THREE.DoubleSide} />
             </mesh>
         </>
     )
