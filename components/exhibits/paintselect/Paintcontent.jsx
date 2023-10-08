@@ -112,7 +112,7 @@ export default function Paintcontent() {
                      </div>
                  ))}
              </div>
-             <button className="absolute h-12 w-[150px] text-lg 2xl:h-24 2xl:w-[300px] 2xl:text-3xl font-bold text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient bottom-44 left-8 2xl:bottom-96 2xl:left-10 shadow-md">
+             <button className="absolute h-12 w-[150px] text-lg 2xl:h-24 2xl:w-[300px] 2xl:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Agradient to-Bgradient bottom-44 left-8 2xl:bottom-96 2xl:left-10 shadow-md">
                      {'작가노트 보기'}
              </button>
              <div className="h-[30px] w-[300px] 2xl:w-[800px] absolute right-72 bottom-28 2xl:bottom-72 2xl:right-96">
