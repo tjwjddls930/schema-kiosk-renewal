@@ -1,7 +1,6 @@
 import state from "@/libs/state";
 import { useState } from "react";
 import { animated, useTrail } from "@react-spring/web";
-import { MathUtils } from "three";
 
 export default function Camerabutton() {
     const items1 = ["작품1", "작품2", "작품3", "작품4", "작품5", "작품6", "작품7", "작품8"];
@@ -139,7 +138,7 @@ export default function Camerabutton() {
         {button1 &&
             <button 
                 id ="1"
-                className="relative left-3 top-3 w-12 h-12 2xl:left-16 2xl:top-16 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
+                className="relative left-3 top-10 w-12 h-12 2xl:left-16 2xl:top-28 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
                 onClick={()=> {
                     lookPaint(1)
                     setActive(!active)
@@ -164,7 +163,7 @@ export default function Camerabutton() {
         {button2 &&
             <button 
                 id ="1"
-                className="relative left-3 top-3 w-12 h-12 2xl:left-16 2xl:top-16 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
+                className="relative left-3 top-10 w-12 h-12 2xl:left-16 2xl:top-28 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
                 onClick={()=> {
                     lookPaint(1)
                     setActive(!active)

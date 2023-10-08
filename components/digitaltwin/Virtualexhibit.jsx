@@ -46,14 +46,14 @@ export default function Virtualexhibit() {
                 <planeGeometry args={[4, 3]} />
                 <meshStandardMaterial map={image6} side={THREE.DoubleSide} />
             </mesh>
-            <mesh position={[13, pHeight, 8.3]} rotation={[0, 0, 0]}>
+            {/* <mesh position={[13, pHeight, 8.3]} rotation={[0, 0, 0]}>
+                <planeGeometry args={[4, 3]} />
+                <meshStandardMaterial map={image7} side={THREE.DoubleSide} />
+            </mesh> */}
+            <mesh position={[20, pHeight, 8.3]} rotation={[0, 0, 0]}>
                 <planeGeometry args={[4, 3]} />
                 <meshStandardMaterial map={image7} side={THREE.DoubleSide} />
             </mesh>
-            {/* <mesh position={[20, pHeight, 8.3]} rotation={[0, 0, 0]}>
-                <planeGeometry args={[4, 3]} />
-                <meshStandardMaterial map={image8} side={THREE.DoubleSide} />
-            </mesh> */}
         </>
     )
 }
