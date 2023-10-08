@@ -65,7 +65,7 @@ export default function Artistlayout({children}) {
                         />
                     </Link>
                 </button>
-                <button className="absolute left-14 2xl:left-72 2xl:bottom-36">
+                <button className="absolute left-32 2xl:left-72 2xl:bottom-36">
                     <Link href="/main">
                         <img 
                             src="/img/connectpage/홈버튼_화이트.png"

@@ -1,6 +1,6 @@
-// import { awardData } from "@/data/awardData"
+import { awardData } from "@/data/awardData"
 
-export default function Awardcontent({imgname, engname, name, career}) {
+export default function Awardcontent({imgname, engname, name, career, timeline_i, timeline_g}) {
     let timeline = [
         {order: 1, year: 2018, award: "Triple Artists Exhibition (쉐마미술관, 청주)"},
         {order: 2, year: 2016, award: "Eun Soo Lim Drawing (사라예보, 갤러리벨)"},
@@ -20,61 +20,61 @@ export default function Awardcontent({imgname, engname, name, career}) {
         {order: 16, year: 1995, award: "꽃을 밴 여인 (학천갤러이, 청주)"},
         {order: 17, year: 1992, award: "부드러운 수음자 (무심갤러리, 청주), (삼정미술관, 서울)"},
     ]
-    
+    // console.log(awardData.timeline_individual)
     return(
-        <div className="w-11/12 h-3/4 mx-auto px-20 py-12 lg:py-6 flex flex-row justify-between">
-            <div className="flex flex-col">
-                <div className="border-4 border-Awhite h-[400px] w-[530px] lg:h-[300px] lg:w-[430px]">
+        <div className="w-11/12 h-3/4 mx-auto px-20 py-12 2xl:px-40 2xl:py-16 lg:py-6 flex flex-row justify-between">
+            <div className="flex flex-col 2xl:space-y-4 2xl:w-1/2 2xl:h-1/2">
+                <div className="border-4 border-Awhite h-[250px] w-[380px] 2xl:h-[1100px] 2xl:w-[1300px]">
                     <img 
                         src={`/img/intro/award/${imgname}`}
-                        className="h-[392px] w-[530px] lg:h-[292px] lg:w-[430px] mx-auto shadow-lg mb-4"
+                        className="h-full w-full mx-auto shadow-lg mb-4"
                         alt="artist"
                     />
                 </div>
-                <div className="h-[2px] w-14 bg-Cpurple mt-4 mb-2"></div>
-                <span className="text-2xl lg:text-xl text-Awhite">{engname}</span>
-                <span className="font-bold text-3xl lg:text-2xl text-Awhite mb-2">{name}</span>
-                <p className="text-base lg:text-sm text-Awhite">{career}</p>
+                <div className="h-[2px] w-14 2xl:w-28 bg-Cpurple mt-4 mb-2"></div>
+                <span className="text-xl 2xl:text-4xl text-Awhite">{engname}</span>
+                <span className="font-bold text-2xl 2xl:text-5xl text-Awhite mb-2">{name}</span>
+                <p className="text-base 2xl:text-4xl text-Awhite">{career}</p>
             </div>
-            <div className="flex flex-col space-y-12 h-[500px] lg:h-[400px] overflow-auto scroll-smooth">
-                <div className="flex flex-row px-8 space-x-2">
-                    <div className="flex-1 text-Awhite text-lg lg:text-base font-bold w-[100px]">
+            <div className="flex flex-col space-y-12 h-[500px] 2xl:w-1/2 2xl:h-1/2 overflow-auto scroll-smooth">
+                <div className="flex flex-row px-8 space-x-2 2xl:space-x-4 2xl:w-full 2xl:overflow-auto 2xl:h-[700px]">
+                    <div className="text-Awhite text-lg 2xl:text-5xl font-bold w-[100px] 2xl:w-[250px]">
                         개인전
                     </div>
-                    <div className="flex flex-col space-y-2">
-                            {timeline.map((item)=>(
+                    <div className="flex flex-col space-y-2 2xl:space-y-4">
+                            {timeline_i.map((item)=>(
                                 <span
                                     key={item.order}
-                                    className="text-Cpurple font-bold text-md lg:text-sm">{item.year}</span>
+                                    className="text-Cpurple font-bold text-sm 2xl:text-3xl">{item.year}</span>
                             ))}
                         </div>
-                        <div className="flex flex-col space-y-2">
-                            {timeline.map((item)=> (
+                        <div className="flex flex-col space-y-2 2xl:space-y-4">
+                            {timeline_i.map((item)=> (
                                 <span
                                     key={item.order}
-                                    className="text-Awhite font-bold text-md lg:text-sm"
+                                    className="text-Awhite font-bold text-sm 2xl:text-3xl"
                                 >
                                     {item.award}
                                 </span>
                             ))}
                         </div>
                 </div>
-                <div className="flex flex-row px-8 space-x-2">
-                    <div className="flex-1 text-Awhite text-lg lg:text-base font-bold w-[100px]">
+                <div className="flex flex-row px-8 space-x-2 2xl:space-x-4 2xl:w-full 2xl:overflow-auto 2xl:h-[700px]">
+                    <div className="text-Awhite text-lg 2xl:text-5xl font-bold w-[100px] 2xl:w-[250px]">
                         단체전
                     </div>
-                    <div className="flex flex-col space-y-2">
-                            {timeline.map((item)=>(
+                    <div className="flex flex-col space-y-2 2xl:space-y-4">
+                            {timeline_g.map((item)=>(
                                 <span
                                     key={item.order}
-                                    className="text-Cpurple font-bold text-md lg:text-sm">{item.year}</span>
+                                    className="flex-1 text-Cpurple font-bold text-sm 2xl:text-3xl">{item.year}</span>
                             ))}
                         </div>
-                        <div className="flex flex-col space-y-2">
-                            {timeline.map((item)=> (
+                        <div className="flex flex-col space-y-2 2xl:space-y-4">
+                            {timeline_g.map((item)=> (
                                 <span
                                     key={item.order}
-                                    className="text-Awhite font-bold text-md lg:text-sm"
+                                    className="flex-1 text-Awhite font-bold text-sm 2xl:text-3xl"
                                 >
                                     {item.award}
                                 </span>
