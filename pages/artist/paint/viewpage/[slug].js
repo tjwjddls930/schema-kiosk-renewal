@@ -12,44 +12,43 @@ export default function Viewpage() {
     const router = useRouter();
     const pid = router.query.slug; 
     const [current, setCurrent] = useState(pid);
+    const [button, setButton] = useState(null);
+ 
     // console.log(artistData[pid])
     // console.log(window.innerHeight, window.innerWidth)
     // const length = artistData[].length;
+    
     useEffect(()=> {
         // if(current) {
         //     setCurrent(current);
         // } else {
         //     setData(paintData[pid]);
         // }
-        setData(paintData[pid])
-    }, [pid, current]);
 
+        // if(button === "right") {
+        //     setCurrent((prev)=> prev === length - 1 ? 0 : prev + 1);
+        // }
+        if(button) {
+            router.replace(`/artist/paint/viewpage/${current}`)
+        } else {
+            setData(paintData[pid])
+        }
+    }, [current]);
 
-    // useEffect(()=> {
-    //     setCurrent(pid);
-    // },[])
     let length = paintData.length;
 
-    async function nextExhibit() {
-        if(data) {
-            setCurrent((prev)=> prev === length - 1 ? 0 : prev + 1);
-        }
-        await router.replace(`/artist/paint/viewpage/${current}`);
+   function nextExhibit(e) {
+        setButton(e.target.id)
+        setCurrent(Number(pid) + 1 === length ? 0 : Number(pid) + 1);
     };
 
-    async function prevExhibit() {
-        if(data) {
-            setCurrent((prev)=> prev === 0 ? length - 1 : prev - 1);
-        };
-        await router.replace(`/artist/paint/viewpage/${current}`);
+    function prevExhibit(e) {
+        setButton(e.target.id)
+        setCurrent(pid - 1 < 0 ? length - 1 : pid - 1);
     };
-    
-    console.log(current);
-
     function handleRefresh() {
         router.reload();
     };
-    // console.log(artistData.paint[pid].imgname)
     return(
         <>
            {data && (
@@ -63,9 +62,10 @@ export default function Viewpage() {
                 <button
                     id="left"
                     className="h-full w-full 2xl:h-[140px] 2xl:w-[140px]"
-                    onClick={()=>prevExhibit()}
+                    onClick={(e)=>prevExhibit(e)}
                 >   
                     <img 
+                        id="left"
                         src="/img/exhibitpage/icons/왼쪽버튼.png"
                         alt="left"
                     />
@@ -75,9 +75,10 @@ export default function Viewpage() {
                 <button
                     id="right"
                     className="h-full w-full 2xl:h-[140px] 2xl:w-[140px]"
-                    onClick={()=>nextExhibit()}
+                    onClick={(e)=>nextExhibit(e)}
                 >   
                     <img 
+                        id="right"
                         src="/img/exhibitpage/icons/오른쪽버튼.png"
                         alt="right"
                     />

@@ -50,11 +50,11 @@ export const artistData = [
             {order: 18, exhibit: "《21C Water Color》, 양평군립미술관, 양평"},
         ],
         paint: [
-            {order: 1, title: "The-Wind-Ⅰ", imgname: "/금민정/The-Wind-Ⅰ.jpeg", overview: "27x18x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:50 loop, 2023"},
-            {order: 2, title: "The-Wind-Ⅱ", imgname: "/금민정/The-Wind-Ⅱ.jpg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
-            {order: 3, title: "The-Wind-Ⅲ", imgname: "/금민정/The-Wind-Ⅲ.jpeg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
-            {order: 4, title: "바람을 짓다", imgname: "/금민정/바람을-짓다.jpg", overview: "225x130x100cm", overview1: "Sculpture with 2-channel video on LED screens, 00:02:30 loop, 2020"},
-            {order: 5, title: "생각하는 정원", imgname: "/금민정/생각하는-정원.jpg", overview: "200x240x200cm", overview1: "Sculpture with 3-channel video on LED screens, 2020"},
+            {order: 0, title: "The-Wind-Ⅰ", imgname: "/금민정/The-Wind-Ⅰ.jpeg", overview: "27x18x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:50 loop, 2023"},
+            {order: 1, title: "The-Wind-Ⅱ", imgname: "/금민정/The-Wind-Ⅱ.jpg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
+            {order: 2, title: "The-Wind-Ⅲ", imgname: "/금민정/The-Wind-Ⅲ.jpeg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
+            {order: 3, title: "바람을 짓다", imgname: "/금민정/바람을-짓다.jpg", overview: "225x130x100cm", overview1: "Sculpture with 2-channel video on LED screens, 00:02:30 loop, 2020"},
+            {order: 4, title: "생각하는 정원", imgname: "/금민정/생각하는-정원.jpg", overview: "200x240x200cm", overview1: "Sculpture with 3-channel video on LED screens, 2020"},
         ]
     },
     {
@@ -122,13 +122,13 @@ export const artistData = [
             {order: 13, exhibit: "《현대미술, 런웨이를 걷다》, 성남아트센터 큐브미술관, 성남"},
         ],
         paint: [
-            {order: 6, title: "Flying-cat-Loop-Animation", imgname: "/김준/Flying-cat-Loop.jpg", overview: "", overview1: "2022-5"},
-            {order: 7, title: "Mr.-purple-Loop-Animation", imgname: "/김준/Mr.-purple-Loop.jpg", overview: "", overview1: "2022-3"},
-            {order: 8, title: "Somebody-anne", imgname: "/김준/Somebody-anne.jpg", overview: "100x100cm", overview1: "Digitalprint-2023-3"},
-            {order: 9, title: "Somebody-chair-man", imgname: "/김준/Somebody-chair-man.jpg", overview: "70x70cm", overview1: "Digitalprint-2023-3"},
-            {order: 10, title: "Somebody-curtain-call", imgname: "/김준/Somebody-curtain-call.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
-            {order: 11, title: "Somebody-pink-tile", imgname: "/김준/Somebody-pink-tile.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
-            {order: 12, title: "Somebody-red-dot", imgname: "/김준/Somebody-red-dot.jpg", overview: "78x110cm", overview1: "Digitalprint-2023-3"},
+            {order: 5, title: "Flying-cat-Loop-Animation", imgname: "/김준/Flying-cat-Loop.jpg", overview: "", overview1: "2022-5"},
+            {order: 6, title: "Mr.-purple-Loop-Animation", imgname: "/김준/Mr.-purple-Loop.jpg", overview: "", overview1: "2022-3"},
+            {order: 7, title: "Somebody-anne", imgname: "/김준/Somebody-anne.jpg", overview: "100x100cm", overview1: "Digitalprint-2023-3"},
+            {order: 8, title: "Somebody-chair-man", imgname: "/김준/Somebody-chair-man.jpg", overview: "70x70cm", overview1: "Digitalprint-2023-3"},
+            {order: 9, title: "Somebody-curtain-call", imgname: "/김준/Somebody-curtain-call.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
+            {order: 10, title: "Somebody-pink-tile", imgname: "/김준/Somebody-pink-tile.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
+            {order: 11, title: "Somebody-red-dot", imgname: "/김준/Somebody-red-dot.jpg", overview: "78x110cm", overview1: "Digitalprint-2023-3"},
 
         ]
     },
@@ -163,11 +163,11 @@ export const artistData = [
             {order: 14, exhibit: "《소년이여, 신화가 되어라》, 스페이스 K, 대구"},
         ],
         paint: [
-            {order: 13, title: "Portrait", imgname: "/옥승철/Portrait3.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-2-3"},
-            {order: 14, title: "Portrait", imgname: "/옥승철/Portrait4.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-4"},
-            {order: 15, title: "Install cut", imgname: "/옥승철/install cut 1.jpg", overview: "", overview1: ""},
-            {order: 16, title: "Install cut", imgname: "/옥승철/install cut 2.jpg", overview: "", overview1: ""},
-            {order: 17, title: "Install cut", imgname: "/옥승철/install cut 3.jpg", overview: "", overview1: ""},
+            {order: 12, title: "Portrait", imgname: "/옥승철/Portrait3.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-2-3"},
+            {order: 13, title: "Portrait", imgname: "/옥승철/Portrait4.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-4"},
+            {order: 14, title: "Install cut", imgname: "/옥승철/install cut 1.jpg", overview: "", overview1: ""},
+            {order: 15, title: "Install cut", imgname: "/옥승철/install cut 2.jpg", overview: "", overview1: ""},
+            {order: 16, title: "Install cut", imgname: "/옥승철/install cut 3.jpg", overview: "", overview1: ""},
         ]
     },    
     {
@@ -212,13 +212,13 @@ export const artistData = [
             {order: 20, exhibit: "《미묘한 만남》, 갤러리 루, 서울"},
         ],
         paint: [
-            {order: 18, title: "Head-of-Medusa-Pink", imgname: "/이윤성/Head-of-Medusa-Pink.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-2-3"},
-            {order: 19, title: "Head-of-Medusa", imgname: "/이윤성/Head-of-Medusa.jpg", overview: "162x162cm", overview1: "Oil-on-Canvas-2021-1"},
-            {order: 20, title: "Head-of-Medusa-Pink", imgname: "/이윤성/Head-of-Medusa-Pink1.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-1"},
-            {order: 21, title: "Head-of-Medusa-Silver-3D-Rendering", imgname: "/이윤성/Head-of-Medusa-Silver-3D.png", overview: "", overview1: "video-loop-2023-1"},
-            {order: 22, title: "The-Three-Graces", imgname: "/이윤성/The-Three-Graces.jpg", overview: "300x480cm", overview1: "Oil-on-Canvas-2023-1"},
-            {order: 23, title: "Torso-12", imgname: "/이윤성/Torso-12.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-1-1"},
-            {order: 24, title: "Torso-12", imgname: "/이윤성/Torso-12-1.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-2-1"},
+            {order: 17, title: "Head-of-Medusa-Pink", imgname: "/이윤성/Head-of-Medusa-Pink.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-2-3"},
+            {order: 18, title: "Head-of-Medusa", imgname: "/이윤성/Head-of-Medusa.jpg", overview: "162x162cm", overview1: "Oil-on-Canvas-2021-1"},
+            {order: 19, title: "Head-of-Medusa-Pink", imgname: "/이윤성/Head-of-Medusa-Pink1.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-1"},
+            {order: 20, title: "Head-of-Medusa-Silver-3D-Rendering", imgname: "/이윤성/Head-of-Medusa-Silver-3D.png", overview: "", overview1: "video-loop-2023-1"},
+            {order: 21, title: "The-Three-Graces", imgname: "/이윤성/The-Three-Graces.jpg", overview: "300x480cm", overview1: "Oil-on-Canvas-2023-1"},
+            {order: 22, title: "Torso-12", imgname: "/이윤성/Torso-12.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-1-1"},
+            {order: 23, title: "Torso-12", imgname: "/이윤성/Torso-12-1.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-2-1"},
         ]
     },        
 ];
