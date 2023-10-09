@@ -21,7 +21,7 @@ export default function Structure() {
                     ))}
                 </ul>
             </div>
-            <div className="w-full h-2/3 2xl:h-full bg-Awhite">
+            <div className="w-full h-2/3 2xl:h-[90%] bg-Awhite">
                 <main>
                     <AnimatePresence>
                         <motion.div
@@ -46,7 +46,7 @@ export async function getStaticProps(context) {
     const {locale} = context;
     return{
         props: {
-            ...(await serverSideTranslations(locale, ['common', 'navbar']))
+            ...(await serverSideTranslations(locale, ['common', 'navbar', 'intro']))
         }
     }
 };
