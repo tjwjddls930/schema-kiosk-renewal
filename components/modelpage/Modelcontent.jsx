@@ -39,7 +39,7 @@ export default function Modelcontent({url, position, scale}) {
                 <OrbitControls 
                     minDistance={1.5}
                     maxDistance={5}
-                    maxPolarAngle={MathUtils.degToRad(100)}
+                    maxPolarAngle={MathUtils.degToRad(95)}
                     minPolarAngle={MathUtils.degToRad(70)}
                     makeDefault
                 />
