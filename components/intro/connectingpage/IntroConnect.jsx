@@ -2,6 +2,7 @@ import Pageframe from "@/components/pagelayout/Pageframe";
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
+import Navbar from "@/components/navbar/Navbar";
 
 export default function IntroConnect({children}) {
     const {t} = useTranslation('common');
@@ -44,6 +45,11 @@ export default function IntroConnect({children}) {
                     <span className="text-Apurple font-bold text-lg">Art Museum</span>
             </div>
         </div>
+        <Navbar 
+            url={"/video/docent/blue-docent-test-02-removed.webm"}
+            sign={"/video/sign/schema_sign_1.mp4"}
+            lang={"/intro/structure"} 
+        />
     </Pageframe>
     )
 }

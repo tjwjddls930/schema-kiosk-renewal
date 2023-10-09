@@ -6,9 +6,10 @@ import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
 import { useRouter } from "next/router";
 
-export default function Navbar({url, lang}) {
+export default function Navbar({url, lang, sign}) {
     const [volume, setVolume] = useState(Number(0.5));
     const [soundguide, setSoundguide] = useState(false);
+    const [signLang, setsignLang] = useState(false);
     const [size, setSize] = useState(false);
     const [modal, setModal] = useState();
     const [id, setId] = useState(null);
@@ -37,6 +38,16 @@ export default function Navbar({url, lang}) {
                         end={()=>setSoundguide(!soundguide)}
                     />
             </div>
+            )}
+            {signLang && (
+                <div className="absolute bottom-0 right-0 h-[330px] w-[430px] 2xl:h-[640px] 2xl:w-[800px]">
+                    <Soundguide
+                        videoUrl={sign}
+                        volume={Number(volume)}
+                        playing={true}
+                        end={()=>setsignLang(!signLang)}
+                    />
+                </div>
             )}
             {modal && (
             <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
@@ -244,8 +255,8 @@ export default function Navbar({url, lang}) {
                         <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                             <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("FONT_SIZE")}</span>
                             <button
-                                  onClick={()=>setSize(!size)} 
-                                className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-Awhite font-bold">
+                                onClick={()=>setSize(!size)} 
+                                className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-Awhite font-bold mb-2">
                                 {size ? t("SMALL") : t("BIG")}
                             </button>
                         </div>
@@ -274,15 +285,17 @@ export default function Navbar({url, lang}) {
                             <span className="text-xl 2xl:text-3xl w-[170px] 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("SOUND_GUIDE")}</span>
                             <button
                                 onClick={()=>setSoundguide(!soundguide)} 
-                                className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold">
+                                className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold mb-2">
                                 {soundguide ? t("STOP") : t("START")}
-                                {/* {t("START")} */}
                             </button>
                         </div>
                         <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                             <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("SIGN_LANGUAGE")}</span>
-                            <button className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold">
-                                {t("START")}
+                            <button 
+                                className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold mb-2"
+                                onClick={()=>setsignLang(!signLang)}
+                            >
+                                {signLang ? t("STOP") : t("START")}
                             </button>
                         </div>
                     </div>

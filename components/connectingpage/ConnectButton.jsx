@@ -2,11 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { paintData } from "@/data/paintData";
+import { modelData } from "@/data/modelData";
 
 export default function ConnectButton() {
     const [popup, setPopup] = useState(false);
     const [future, setFuture] = useState(false);
-    const [web, setWeb] = useState(false);
     return(
         <div className="w-3/4 h-[500px] 2xl:h-3/4 flex flex-row mx-auto">
             {popup && (
@@ -123,7 +123,7 @@ export default function ConnectButton() {
                         <div className="bg-Ablack h-[1.5px] w-[400px] 2xl:h-[1.5px] 2xl:w-[800px] mx-auto" />
                     </div>
                 </>
-                <Link href="/artist">
+                <Link href={`/modelpage/${modelData[0].order}`}>
                     <div className="h-[250px] 2xl:h-[600px] w-5/6 mx-auto">
                         <div className="flex flex-row space-x-4 justify-start 2xl:space-x-6 2xl:justify-center">
                             <span className="text-[150px] 2xl:text-[300px] font-bold text-Ablack drop-shadow-xl">{'04'}</span>

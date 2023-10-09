@@ -3,7 +3,7 @@ import { awardData } from "@/data/awardData"
 export default function Awardcontent({imgname, engname, name, career, timeline_i, timeline_g}) {
     return(
         <div className="w-11/12 h-3/4 mx-auto px-20 py-12 2xl:px-40 2xl:py-16 lg:py-6 flex flex-row justify-between">
-            <div className="flex flex-col 2xl:space-y-4 2xl:w-1/2 2xl:h-1/2">
+            <div className="flex flex-col 2xl:space-y-4 2xl:w-[40%] 2xl:h-1/2">
                 <div className="border-4 border-Awhite h-[250px] w-[380px] 2xl:h-[1100px] 2xl:w-[1300px]">
                     <img 
                         src={`/img/intro/award/${imgname}`}
@@ -16,19 +16,19 @@ export default function Awardcontent({imgname, engname, name, career, timeline_i
                 <span className="font-bold text-2xl 2xl:text-5xl text-Awhite mb-2">{name}</span>
                 <p className="text-base 2xl:text-4xl text-Awhite">{career}</p>
             </div>
-            <div className="flex flex-col space-y-12 h-[500px] 2xl:w-1/2 2xl:h-1/2 overflow-auto scroll-smooth">
+            <div className="flex flex-col space-y-12 h-[500px] 2xl:w-[58%] 2xl:h-1/2 overflow-auto scroll-smooth">
                 <div className="flex flex-row px-8 space-x-2 2xl:space-x-4 2xl:w-full 2xl:overflow-auto 2xl:h-[700px]">
                     <div className="text-Awhite text-lg 2xl:text-5xl font-bold w-[100px] 2xl:w-[250px]">
                         개인전
                     </div>
-                    <div className="flex flex-col space-y-2 2xl:space-y-4">
+                    <div className="flex flex-col space-y-2 2xl:space-y-5">
                             {timeline_i.map((item)=>(
                                 <span
                                     key={item.order}
                                     className="text-Cpurple font-bold text-sm 2xl:text-3xl">{item.year}</span>
                             ))}
                         </div>
-                        <div className="flex flex-col space-y-2 2xl:space-y-4">
+                        <div className="flex flex-col space-y-2 2xl:space-y-5">
                             {timeline_i.map((item)=> (
                                 <span
                                     key={item.order}
@@ -43,14 +43,14 @@ export default function Awardcontent({imgname, engname, name, career, timeline_i
                     <div className="text-Awhite text-lg 2xl:text-5xl font-bold w-[100px] 2xl:w-[250px]">
                         단체전
                     </div>
-                    <div className="flex flex-col space-y-2 2xl:space-y-4">
+                    <div className="flex flex-col space-y-2 2xl:space-y-5">
                             {timeline_g.map((item)=>(
                                 <span
                                     key={item.order}
                                     className="flex-1 text-Cpurple font-bold text-sm 2xl:text-3xl">{item.year}</span>
                             ))}
                         </div>
-                        <div className="flex flex-col space-y-2 2xl:space-y-4">
+                        <div className="flex flex-col space-y-2 2xl:space-y-5">
                             {timeline_g.map((item)=> (
                                 <span
                                     key={item.order}

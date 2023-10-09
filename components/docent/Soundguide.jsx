@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player";
 
-export default function Soundguide({videoUrl, volume, playing, end, ...props}) {
+export default function Signlanguage({videoUrl, volume, playing, end, ...props}) {
     return (
     <ReactPlayer 
         url={videoUrl}

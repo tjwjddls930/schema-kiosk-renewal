@@ -77,6 +77,7 @@ export default function Artistlayout({children}) {
                 <span className="absolute bottom-56 2xl:bottom-96 right-28 text-8xl 2xl:text-[170px] w-1/12 font-bold text-Awhite opacity-50">{'/05'}</span>
                 <Navbar 
                     url={"/video/docent/blue-docent-test-02-removed.webm"}
+                    sign={"/video/sign/schema_sign_1.mp4"}
                     lang={"artist"}
                 />
             </div>
