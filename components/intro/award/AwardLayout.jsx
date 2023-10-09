@@ -91,7 +91,7 @@ export default function Awardlayout({children}) {
                 </button>
             </div>
             <Navbar 
-                url={"/video/docent/blue-docent-test-02-removed.webm"}
+                url={"/video/docent/schema-docent-01A.webm"}
                 sign={"/video/sign/schema_sign_1.mp4"}
                 lang={"/intro/award"}
             />
