@@ -74,7 +74,7 @@ export default function Modelpage() {
                 </button>
             </div>
             {popup && (
-                <div className="absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 2xl:h-[94%] 2xl:w-[1500px] 2xl:bottom-28 left-1/2 transform -translate-x-1/2"
+                <div className="absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 2xl:h-[94%] 2xl:w-[1700px] 2xl:bottom-28 left-1/2 transform -translate-x-1/2"
                     onClick={()=>setPopup(!popup)}
                 >
                     <div className="w-5/6 flex flex-col space-y-32 2xl:space-y-[500px] px-4 mt-16 2xl:px-8 2xl:mt-48 mx-auto items-center justify-center text-center">

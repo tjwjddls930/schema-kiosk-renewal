@@ -39,6 +39,8 @@ export default function Modelcontent({url, position, scale}) {
                 <OrbitControls 
                     minDistance={1.5}
                     maxDistance={5}
+                    maxPolarAngle={MathUtils.degToRad(50)}
+                    minPolarAngle={MathUtils.degToRad(50)}
                     makeDefault
                 />
                 <ambientLight intensity={3} />
