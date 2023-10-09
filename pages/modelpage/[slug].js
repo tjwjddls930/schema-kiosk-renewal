@@ -45,6 +45,7 @@ export default function Modelpage() {
             <Modelcontent 
                 url={data.url}
                 scale={data.scale}
+                position={data.position}
             />
             {/* 그림 넘기기 버튼 */}
             <div className="absolute h-[70px] w-[70px] left-40 bottom-80 2xl:h-[300px] 2xl:w-[300px] 2xl:left-80 2xl:top-1/2 2xl:transform 2xl:-translate-y-1/2">
@@ -74,7 +75,7 @@ export default function Modelpage() {
                 </button>
             </div>
             {popup && (
-                <div className="absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 2xl:h-[94%] 2xl:w-[1700px] 2xl:bottom-28 left-1/2 transform -translate-x-1/2"
+                <div className="absolute bg-Cgrey bg-opacity-30 h-[91%] w-[600px] bottom-16 2xl:h-[94%] 2xl:w-[1700px] 2xl:bottom-32 left-1/2 transform -translate-x-1/2"
                     onClick={()=>setPopup(!popup)}
                 >
                     <div className="w-5/6 flex flex-col space-y-32 2xl:space-y-[500px] px-4 mt-16 2xl:px-8 2xl:mt-48 mx-auto items-center justify-center text-center">
