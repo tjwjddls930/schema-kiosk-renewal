@@ -4,7 +4,7 @@ import { MathUtils } from "three";
 import {useEffect, useState} from "react";
 import Modelanimation from "../Modelanimation";
 
-export default function Modelcontent({url, scale}) {
+export default function Modelcontent({url, position, scale}) {
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
@@ -23,7 +23,7 @@ export default function Modelcontent({url, scale}) {
                 <directionalLight intensity={1} />
                 <Modelanimation 
                     modelName={url}
-                    position={[0, 0, 0]}
+                    position={position}
                     rotation={[0, 0, 0]}
                     scale={scale}
                 />

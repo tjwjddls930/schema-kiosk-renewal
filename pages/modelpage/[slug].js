@@ -7,7 +7,7 @@ import Modelcontent from "@/components/modelpage/Modelcontent";
 
 export default function Modelpage() {
     const [popup, setPopup] = useState(true);
-    const [current, setCurrent] = useState(0);
+    const [current, setCurrent] = useState(mid);
     const [button, setButton] = useState(null);
     const [data, setData] = useState(null)
     const router = useRouter();

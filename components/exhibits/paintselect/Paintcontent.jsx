@@ -96,17 +96,17 @@ export default function Paintcontent() {
                                  alt="paintings"
                              />
                              <div className="absolute h-20 2xl:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0">
-                                 <div className="flex justify-between p-4 2xl:p-6">
-                                     <span className="font-bold pt-2 2xl:pt-4 text-Awhite 2xl:text-2xl">{'작품 감상하기'}</span>
-                                     <Link href={`/artist/paint/viewpage/${item.order}`}>
-                                         <button className="bg-black rounded-full h-10 w-10 2xl:h-18 2xl:w-18 items-cetner text-center 2xl:pt-2">
-                                             <img 
-                                                 src="/img/exhibitpage/icons/화살표버튼.png"
-                                                 alt="arrow"
-                                             />
-                                         </button>
-                                     </Link>    
-                                 </div>
+                                <Link href={`/artist/paint/viewpage/${item.order}`}>
+                                    <div className="flex justify-between p-4 2xl:p-6">
+                                        <span className="font-bold pt-2 2xl:pt-4 text-Awhite 2xl:text-2xl">{'작품 감상하기'}</span>
+                                        <button className="bg-black rounded-full h-10 w-10 2xl:h-18 2xl:w-18 items-cetner text-center 2xl:pt-2">
+                                            <img 
+                                                src="/img/exhibitpage/icons/화살표버튼.png"
+                                                alt="arrow"
+                                            />
+                                        </button> 
+                                    </div>
+                                </Link>
                              </div>
                          </div>
                      </div>
