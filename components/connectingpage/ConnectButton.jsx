@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import Webpopup from "./Webpopup";
+import { paintData } from "@/data/paintData";
 
 export default function ConnectButton() {
     const [popup, setPopup] = useState(false);
@@ -22,7 +22,7 @@ export default function ConnectButton() {
                         <span className="flex mx-auto text-Awhite font-xl mt-4 2xl:text-4xl font-bold 2xl:mt-12">
                         {'전시 설명문'}
                         </span>
-                        <Link href="/viewpage">
+                        <Link href={`/viewpage/${paintData[0].order}`}>
                             <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 2xl:text-4xl rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
                                 {'작품 보기'}
                             </button>

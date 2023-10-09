@@ -3,7 +3,6 @@ import Viewcontent from "@/components/exhibits/3dview/Viewcontent";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-// import { artistData } from "@/data/artistData";
 import { paintData } from "@/data/paintData";
 
 export default function Viewpage() {
@@ -13,10 +12,6 @@ export default function Viewpage() {
     const pid = router.query.slug; 
     const [current, setCurrent] = useState(pid);
     const [button, setButton] = useState(null);
- 
-    // console.log(artistData[pid])
-    // console.log(window.innerHeight, window.innerWidth)
-    // const length = artistData[].length;
     
     useEffect(()=> {
         // if(current) {
