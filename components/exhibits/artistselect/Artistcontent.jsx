@@ -28,7 +28,7 @@ export default function Artistcontent({order, title, name, text}) {
                         </button>
                     </div>
                     <div className="p-2 w-3/4 h-full overflow-auto">
-                        <p className="text-black text-base 2xl:text-4xl overflow-auto p-4 2xl:py-8">
+                        <p className="text-black text-base 2xl:text-4xl overflow-auto p-4 2xl:py-8 2xl:leading-normal">
                             {text}
                         </p>
                     </div>

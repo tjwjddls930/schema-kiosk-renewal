@@ -3,10 +3,12 @@ import Image from "next/image";
 import { useState } from "react";
 import { paintData } from "@/data/paintData";
 import { modelData } from "@/data/modelData";
+import { useTranslation } from "next-i18next";
 
 export default function ConnectButton() {
     const [popup, setPopup] = useState(false);
     const [future, setFuture] = useState(false);
+    const {t} = useTranslation('connect');
     return(
         <div className="w-3/4 h-[500px] 2xl:h-3/4 flex flex-row mx-auto">
             {popup && (
@@ -15,16 +17,16 @@ export default function ConnectButton() {
                 >
                     <div className="flex justify-between mx-auto items-center pt-16 px-16 2xl:pt-44 2xl:px-40">
                         <Link href="/artist">
-                            <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 2xl:text-4xl rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
-                                {'작가 보기'}
+                            <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 2xl:text-4xl text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
+                                {t("AUTHOR")}
                             </button>
                         </Link>
                         <span className="flex mx-auto text-Awhite font-xl mt-4 2xl:text-4xl font-bold 2xl:mt-12">
-                        {'전시 설명문'}
+                            {t("EXHIBIT_EX")}
                         </span>
                         <Link href={`/viewpage/${paintData[0].order}`}>
-                            <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 2xl:text-4xl rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
-                                {'작품 보기'}
+                            <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 2xl:text-4xl text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
+                                {t("PAINT")}
                             </button>
                         </Link>
                     </div>
@@ -58,9 +60,9 @@ export default function ConnectButton() {
                             <div className="flex flex-col w-[170px] 2xl:w-[350px] 2xl:space-y-2 mr-4 pt-10 justify-start 2xl:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
                                 <span className="text-lg 2xl:text-2xl text-Agrey font-bold">{'Last exhibition'}</span>
-                                <span className="text-2xl 2xl:text-4xl text-Ablack font-bold mb-5">{'지난 전시'}</span>
-                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{'2009년부터 2023년까지의'}</span>                        
-                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{'전시를 감상하실 수 있습니다.'}</span>
+                                <span className="text-2xl 2xl:text-4xl text-Ablack font-bold mb-5">{t("PAST")}</span>
+                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{t("PAST_EX1")}</span>                        
+                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{t("PAST_EX2")}</span>
                             </div>
                             <div className="flex flex-col-reverse pb-8">
                                 <img 
@@ -82,9 +84,9 @@ export default function ConnectButton() {
                             <div className="flex flex-col w-[170px] 2xl:w-[350px] 2xl:space-y-2 mr-4 pt-10 justify-start 2xl:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
                                 <span className="text-lg 2xl:text-2xl text-Agrey font-bold">{'Present exhibition'}</span>
-                                <span className="text-2xl 2xl:text-4xl text-Ablack font-bold mb-5">{'현재 전시'}</span>
-                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{'현재 진행중인 전시를'}</span>                        
-                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{'감상하실 수 있습니다.'}</span>
+                                <span className="text-2xl 2xl:text-4xl text-Ablack font-bold mb-5">{t("CURRENT")}</span>
+                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{t("CURRENT_EX1")}</span>                        
+                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{t("CURRENT_EX2")}</span>
                             </div>
                             <div className="flex flex-col-reverse pb-8">
                                 <img 
@@ -108,9 +110,9 @@ export default function ConnectButton() {
                             <div className="flex flex-col w-[170px] 2xl:w-[350px] 2xl:space-y-2 pt-10 mr-4 justify-start 2xl:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
                                 <span className="text-lg 2xl:text-2xl text-Agrey font-bold">{'Scheduled exhibition'}</span>
-                                <span className="text-2xl 2xl:text-4xl text-Ablack font-bold mb-5">{'예정 전시'}</span>
-                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{'예정된 전시에 대한 정보를를'}</span>                        
-                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{'얻을 수 있습니다다.'}</span>
+                                <span className="text-2xl 2xl:text-4xl text-Ablack font-bold mb-5">{t("SCHEDULE")}</span>
+                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{t("SCHEDULE_EX1")}</span>                        
+                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{t("SCHEDULE_EX2")}</span>
                             </div>
                             <div className="flex flex-col-reverse pb-8">
                                 <img 
@@ -130,9 +132,9 @@ export default function ConnectButton() {
                             <div className="flex flex-col w-[170px] 2xl:w-[350px] 2xl:space-y-2 pt-10 mr-4 justify-start 2xl:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
                                 <span className="text-lg 2xl:text-2xl text-Agrey font-bold">{'Collection tour'}</span>
-                                <span className="text-2xl 2xl:text-4xl text-Ablack font-bold mb-5">{'소장품 관람'}</span>
-                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{'미술관이 소장하고 있는 전시물을'}</span>                        
-                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{'관람하실 수 있습니다.'}</span>
+                                <span className="text-2xl 2xl:text-4xl text-Ablack font-bold mb-5">{t("COLLECTION")}</span>
+                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{t("COLLECTION_EX1")}</span>                        
+                                <span className="text-base 2xl:text-xl text-Cgrey font-bold">{t("COLLECTION_EX2")}</span>
                             </div>
                             <div className="flex flex-col-reverse pb-8">
                                 <img 
