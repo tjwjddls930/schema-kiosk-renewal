@@ -6,12 +6,12 @@ import { modelData } from "@/data/modelData";
 import Modelcontent from "@/components/modelpage/Modelcontent";
 
 export default function Modelpage() {
+    const router = useRouter();
+    const mid = router.query.slug;
     const [popup, setPopup] = useState(true);
     const [current, setCurrent] = useState(mid);
     const [button, setButton] = useState(null);
     const [data, setData] = useState(null)
-    const router = useRouter();
-    const mid = router.query.slug;
 
     useEffect(()=> {
         if(button) {
@@ -35,7 +35,7 @@ export default function Modelpage() {
     
     function handleRefresh() {
         router.reload();
-    }
+    };
 
     return(
         <>

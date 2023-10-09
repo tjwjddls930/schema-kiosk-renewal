@@ -6,12 +6,12 @@ import { useRouter } from "next/router";
 import { paintData } from "@/data/paintData";
 
 export default function Viewpage() {
+    const router = useRouter();
+    const pid = router.query.slug;
     const [popup, setPopup] = useState(true);
     const [current, setCurrent] = useState(pid);
     const [button, setButton] = useState(null);
     const [data, setData] = useState(null)
-    const router = useRouter();
-    const pid = router.query.slug;
 
     useEffect(()=> {
         if(button) {
