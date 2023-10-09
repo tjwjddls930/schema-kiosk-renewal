@@ -28,7 +28,6 @@ export default function Viewpageframe({children, pid}) {
             {/* navbar */}
             <ViewNavbar 
                 url={"/video/docent/blue-docent-test-02-removed.webm"}
-                sign={"/video/sign/schema_sign_1.mp4"}
                 lang={"viewpage"}
                 pid={pid}
             />

@@ -92,7 +92,6 @@ export default function Awardlayout({children}) {
             </div>
             <Navbar 
                 url={"/video/docent/schema-docent-01A.webm"}
-                sign={"/video/sign/schema_sign_1.mp4"}
                 lang={"/intro/award"}
             />
         </Pageframe>

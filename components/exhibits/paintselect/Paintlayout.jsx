@@ -97,7 +97,6 @@ export default function Paintlayout({children}) {
                 </button>
                 <Navbar 
                     url={"/video/docent/blue-docent-test-02-removed.webm"}
-                    sign={"/video/sign/schema_sign_1.mp4"}
                     lang={"/artist/paint"}
                 />
             </div>

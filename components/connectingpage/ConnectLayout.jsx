@@ -47,7 +47,6 @@ export default function ConnectLayout({children}) {
                 </div>
                 <Navbar 
                     url={"/video/docent/blue-docent-test-02-removed.webm"}
-                    sign={"/video/sign/schema_sign_1.mp4"}
                     lang={"exhibit"}
                 />
             </div>

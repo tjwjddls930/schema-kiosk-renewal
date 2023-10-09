@@ -30,7 +30,7 @@ export default function Navbar({url, lang, sign}) {
             {soundguide && (
                 // <div className="absolute top-0 left-0 h-[91%] 2xl:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20">
                 // </div>
-                <div className="absolute bottom-20 right-0 h-[530px] w-[530px] 2xl:h-[750px] 2xl:w-[750px]">
+                <div className="absolute bottom-20 right-0 h-[530px] w-[530px] 2xl:h-[750px] 2xl:w-[750px] z-[1000]">
                     <Soundguide 
                         videoUrl={url}
                         volume={Number(volume)}

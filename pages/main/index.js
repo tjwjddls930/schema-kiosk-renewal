@@ -347,7 +347,7 @@ export default function Mainpage() {
             <Navbar 
                 url={"/video/docent/blue-docent-test-02-removed.webm"}
                 lang={"main"}
-                sign={"/video/sign/schema_sign_1.mp4"}
+                sign={"/video/sign/schema_sign_2.mp4"}
                 // fontsize={fontsize}
             />
         </div>

@@ -15,7 +15,7 @@ export default function Viewpage() {
 
     useEffect(()=> {
         if(button) {
-            router.replace(`/viewpage/${current}`)
+            router.replace(`/pastexhibit/${current}`)
         } else {
             setData(pastpaintData[pid])
         }
