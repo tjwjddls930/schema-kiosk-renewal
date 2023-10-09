@@ -231,7 +231,7 @@ export default function ViewNavbar({url, lang, pid}) {
                 <div className="w-11/12 2xl:w-1/2 flex flex-row space-x-3 2xl:space-x-6">
                     <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                         <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("FONT_SIZE")}</span>
-                        <button className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-Awhite font-bold">
+                        <button className="rounded-full 2xl:text-3xl w-[80px] 2xl:w-[120px] bg-Cgrey text-Awhite font-bold mb-2">
                             {t("BIG")}
                         </button>
                     </div>
@@ -260,14 +260,14 @@ export default function ViewNavbar({url, lang, pid}) {
                         <span className="text-xl 2xl:text-3xl w-[170px] 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("SOUND_GUIDE")}</span>
                         <button
                             onClick={()=>setSoundguide(!soundguide)} 
-                            className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-Awhite font-bold">
+                            className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-Awhite font-bold mb-2">
                             {soundguide ? t("STOP") : t("START")}
                             {/* {t("START")} */}
                         </button>
                     </div>
                     <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                         <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("SIGN_LANGUAGE")}</span>
-                        <button className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold">
+                        <button className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold mb-2">
                             {t("START")}
                         </button>
                     </div>

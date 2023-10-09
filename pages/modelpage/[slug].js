@@ -1,4 +1,4 @@
-import Viewlayout from "@/components/exhibits/3dview/ViewLayout";
+import Modellayout from "@/components/modelpage/Modellayout";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
@@ -40,7 +40,7 @@ export default function Modelpage() {
     return(
         <>
         {data && (
-            <Viewlayout>
+            <Modellayout>
             {/* 3D 콘텐츠 구역 */}
             <Modelcontent 
                 url={data.url}
@@ -131,7 +131,7 @@ export default function Modelpage() {
                     <span className="text-Awhite text-xl font-bold 2xl:text-3xl">{'작품해설'}</span>
                </div>
             </div>
-        </Viewlayout>
+        </Modellayout>
         )}
         </>
     )

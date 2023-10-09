@@ -20,7 +20,7 @@ export default function Modelcontent({url, position, scale}) {
                 gl={{antialias:true}}
                 shadows
             >
-                <directionalLight intensity={2} />
+                {/* <directionalLight intensity={2} /> */}
                 <Modelanimation 
                     modelName={url}
                     position={position}
@@ -39,11 +39,12 @@ export default function Modelcontent({url, position, scale}) {
                 <OrbitControls 
                     minDistance={1.5}
                     maxDistance={5}
-                    maxPolarAngle={MathUtils.degToRad(70)}
+                    maxPolarAngle={MathUtils.degToRad(120)}
                     minPolarAngle={MathUtils.degToRad(70)}
                     makeDefault
                 />
                 <ambientLight intensity={4} />
+                <color attach="background" args={"#000000"} />
             </Canvas>
         </div>
         )}
