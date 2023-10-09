@@ -44,7 +44,7 @@ export default function Modelcontent({url, position, scale}) {
                     makeDefault
                 />
                 <ambientLight intensity={4} />
-                <color attach="background" args={"#000000"} />
+                <color attach="background" args={["#000000"]} />
             </Canvas>
         </div>
         )}
