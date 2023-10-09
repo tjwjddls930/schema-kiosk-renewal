@@ -4,7 +4,7 @@ import { MathUtils } from "three";
 import {useEffect, useState} from "react";
 import Modelanimation from "../Modelanimation";
 
-export default function Modelcontent({url}) {
+export default function Modelcontent({url, scale}) {
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
@@ -25,7 +25,7 @@ export default function Modelcontent({url}) {
                     modelName={url}
                     position={[0, 0, 0]}
                     rotation={[0, 0, 0]}
-                    scale={[1, 1, 1]}
+                    scale={scale}
                 />
                 {/* <OrbitControls 
                     minDistance={1.5}

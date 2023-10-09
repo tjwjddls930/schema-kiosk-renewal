@@ -44,6 +44,7 @@ export default function Modelpage() {
             {/* 3D 콘텐츠 구역 */}
             <Modelcontent 
                 url={data.url}
+                scale={data.scale}
             />
             {/* 그림 넘기기 버튼 */}
             <div className="absolute h-[70px] w-[70px] left-40 bottom-80 2xl:h-[300px] 2xl:w-[300px] 2xl:left-80 2xl:top-1/2 2xl:transform 2xl:-translate-y-1/2">
