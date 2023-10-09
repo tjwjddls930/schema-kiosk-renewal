@@ -58,19 +58,19 @@ export default function ConnectButton() {
                 <div className="absolute top-0 left-0 h-[91%] 2xl:h-[95%] w-screen bg-Ablack bg-opacity-60 z-10"
                     onClick={()=>setPast(!past)}
                 >
-                   <div className="flex flex-col w-full mx-auto space-y-6 2xl:space-y-10">
-                    <Link href={`/pastexhibit/${pastpaintData[0].order}`}>
-                        <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 2xl:text-4xl text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
-                            {t("PAINT")}
-                        </button>
-                    </Link>
-                    <div className="absolute h-3/4 w-3/4 top-40 2xl:top-56 left-1/2 transform -translate-x-1/2 z-20"> 
+                    <div className="absolute top-10 2xl:top-36 left-1/2 transform -translate-x-1/2 z-20">
+                        <Link href={`/pastexhibit/${pastpaintData[0].order}`}>
+                            <button className="w-[150px] h-16 2xl:w-[350px] 2xl:h-32 2xl:text-4xl text-Awhite rounded-full bg-gradient-to-r from-Agradient to-Bgradient">
+                                {t("PAINT")}
+                            </button>
+                        </Link>
+                    </div>
+                    <div className="absolute h-3/4 w-3/4 top-40 2xl:top-96 left-1/2 transform -translate-x-1/2 z-20"> 
                             <iframe 
                             className="w-full h-full touch-none border-none border-radius rounded-[20px]"
                             title="past"
                             src="https://schemaartmuseum.com/2023/07/26/2023-%ed%9b%84%ea%b8%b0-%ec%95%a0%ec%8a%a4%ed%8e%99%ed%8a%b8-%ec%95%84%eb%a6%84%eb%8b%b5%ea%b2%8c-%ec%82%ac%ec%9c%a0%ed%95%98%eb%8a%94-%ec%98%88%ec%88%a0/"
                             />  
-                        </div>  
                     </div>                       
                 </div>
             )}

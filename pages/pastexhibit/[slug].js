@@ -146,11 +146,11 @@ export async function getStaticProps(context) {
 };
 
 export async function getStaticPaths({locales}) {
-    const pid = paintData.order;
+    const pid = pastpaintData.order;
     return {
       paths: [
         // String variant:
-        `/viewpage/${pid}`,
+        `/pastexhibit/${pid}`,
         // Object variant:
         { params: { slug: `paint-${pid}`} },
       ],
