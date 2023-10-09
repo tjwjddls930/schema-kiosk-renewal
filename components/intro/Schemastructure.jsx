@@ -64,7 +64,7 @@ export default function Schemastructure() {
                                 key={img.name}
                                 src={`${img.src}`}
                                 alt=""
-                                className="h-[120px] w-[320px] shadow-lg 2xl:h-full 2xl:w-full"
+                                className="h-[120px] w-[320px] shadow-lg 2xl:h-[400px] 2xl:w-[500px] 2xl:mx-auto"
                             />
                             <div
                                 className="w-[320px] flex flex-row mx-auto 2xl:w-3/4 2xl:justify-start">
