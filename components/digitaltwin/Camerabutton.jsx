@@ -30,7 +30,7 @@ export default function Camerabutton() {
 
     const set = {
         1: {
-            cameraPos: [-2, 3, 13],
+            cameraPos: [-2, 3, 11],
             target: [0, 0, 0],
         },
         //전시실1
@@ -62,7 +62,7 @@ export default function Camerabutton() {
         },
         8: {
             cameraPos: [19, pHeight, -4],
-            target: [23.95, pHeight, -4]
+            target: [30, pHeight, -4]
         },
         9: {  
             cameraPos: [21, pHeight, 4],
@@ -124,9 +124,9 @@ export default function Camerabutton() {
     // console.log(button);
 
     return<>
-        <div className="absolute justify-center items-center z-[1000]">
+        <div className="absolute h-[100px] bottom-10 2xl:bottom-14 z-[1000]">
             <Link href="/main">
-                <button className="absolute top-3 left-3 h-12 w-12 2xl:top-16 2xl:left-16 2xl:h-24 2xl:w-24 rounded-full bg-Cpurple z-[1000]"
+                <button className="relative top-3 left-3 2xl:bottom-0 2xl:left-16 h-12 w-12 2xl:h-24 2xl:w-24 rounded-full bg-Cpurple"
                     onClick={()=> lookPaint(1)}
                 >
                     <svg 
@@ -140,18 +140,18 @@ export default function Camerabutton() {
             </Link>
         {button1 &&
             <button 
-                id ="1"
-                className="relative left-3 top-16 w-12 h-12 2xl:left-16 2xl:top-48 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
-                onClick={()=> {
-                    lookPaint(1)
-                    setActive(!active)
-                    setButton1(!button1)
-                    if(exhibit1 === true) {
-                        setExhibit1(!exhibit1)
-                    } else {
-                        setExhibit1(exhibit1)
-                    }
-                }}
+            id ="1"
+            className="relative left-16 top-3 2xl:left-28 2xl:bottom-0 w-12 h-12 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
+            onClick={()=> {
+                lookPaint(1)
+                setActive(!active)
+                setButton1(!button1)
+                if(exhibit1 === true) {
+                    setExhibit1(!exhibit1)
+                } else {
+                    setExhibit1(exhibit1)
+                }
+            }}
             >    
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -166,7 +166,7 @@ export default function Camerabutton() {
         {button2 &&
             <button 
                 id ="1"
-                className="relative left-3 top-16 w-12 h-12 2xl:left-16 2xl:top-48 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
+                className="relative left-16 top-3 2xl:left-28 2xl:bottom-0 w-12 h-12 2xl:w-24 2xl:h-24 rounded-full bg-Cpurple text-white focus:outline-none" 
                 onClick={()=> {
                     lookPaint(1)
                     setActive(!active)
@@ -189,7 +189,7 @@ export default function Camerabutton() {
             </button>
         }
         </div>
-        <div className="absolute bottom-40 w-full h-[200px] z-[1000] text-white">
+        <div className="absolute bottom-60 w-full h-[100px] z-[1000] text-white">
             <div className="flex flex-row">
                 {button1 && <button 
                     onClick={()=> setExhibit1(!exhibit1)}
@@ -203,7 +203,7 @@ export default function Camerabutton() {
                 </button>}
             </div>
         </div>
-        <div className="absolute bottom-20 w-full h-[200px] z-[1000] text-white">
+        <div className="absolute bottom-40 w-full h-[100px] z-[1000] text-white">
             <div className="flex justify-between px-40">
                 <button 
                     id="3"
@@ -228,7 +228,7 @@ export default function Camerabutton() {
             </div>
         </div>
         <div className={
-            `absolute bottom-2 w-full h-[80px] 2xl:h-[200px] space-x-2 overflow-hidden cursor-pointer ${exhibit1 ? 'z-[1000]': null}`
+            `absolute bottom-28 w-full h-[80px] 2xl:h-[100px] space-x-2 overflow-hidden cursor-pointer ${exhibit1 ? 'z-[1000]': null}`
         }>
             <div className="flex flex-row">
             {trail1.map(({x, height, ...rest}, index) => (
@@ -248,7 +248,7 @@ export default function Camerabutton() {
             </div>
         </div>
         <div className={
-            `absolute bottom-2 w-full h-[80px] 2xl:h-[200px] space-x-2 overflow-hidden cursor-pointer ${exhibit2 ? 'z-[1000]' : null}`
+            `absolute bottom-28 w-full h-[80px] 2xl:h-[100px] space-x-2 overflow-hidden cursor-pointer ${exhibit2 ? 'z-[1000]' : null}`
         }>
             <div className="flex flex-row">
             {trail2.map(({x, height, ...rest}, index) => (

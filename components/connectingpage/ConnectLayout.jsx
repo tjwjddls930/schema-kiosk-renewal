@@ -19,8 +19,8 @@ export default function ConnectLayout({children}) {
                         <span className="text-Cgrey font-bold text-lg 2xl:text-2xl">{t("MAIN_TOP_2")}</span>
                     </div>
                     <div className="flex flex-row space-x-2 text-black">
-                        <Link href="/main">
-                            {/* <Image 
+                        {/* <Link href="/main">
+                            <Image 
                                 src="/img/connectpage/홈버튼_밝은화면용.png"
                                 width="50"
                                 height="50"
@@ -29,13 +29,13 @@ export default function ConnectLayout({children}) {
                                     width:"auto",
                                     height:"auto"
                                 }}
-                            /> */}
+                            />
                             <img 
                                 src="/img/connectpage/홈버튼_밝은화면용.png"
                                 className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
                                 alt="home"
                             />
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
                 <div className="absolute transform -rotate-90 h-1 left-44 top-56">
@@ -45,6 +45,15 @@ export default function ConnectLayout({children}) {
                 <div className="absolute transform rotate-90 right-52 bottom-52 2xl:right-36 2xl:bottom-60">
                         <span className="text-Apurple font-bold text-lg 2xl:text-2xl">Art Museum</span>
                 </div>
+                <button className="absolute left-14 bottom-20 2xl:bottom-40">
+                    <Link href="/main">
+                        <img 
+                            src="/img/connectpage/홈버튼_밝은화면용.png"
+                            className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                            alt="home"
+                        />
+                    </Link>
+                </button>
                 <Navbar 
                     url={"/video/docent/blue-docent-test-02-removed.webm"}
                     lang={"exhibit"}

@@ -17,7 +17,7 @@ export default function Schemafloor() {
             <Suspense fallback={<Loading />}>
                 <Camerabutton />
                 <Canvas 
-                    camera={{position: [-2, 3, 13]}}
+                    camera={{position: [-2, 3, 11]}}
                     gl={{antialias: true, localClippingEnabled: true,}}
                     shadows
                 >
@@ -29,8 +29,8 @@ export default function Schemafloor() {
                     <Virtualexhibit />
                     <Model
                         modelName={'/models/schema_inside_new_3.glb'}
-                        position={[0, -0.5, 0]}
-                        scale={[2, 2, 2]}
+                        position={[0, 0, 0]}
+                        scale={[2, 2.5, 2]}
                         rotation={[0, MathUtils.degToRad(180), 0]}
                     />
                     <ambientLight intensity={1.5} />

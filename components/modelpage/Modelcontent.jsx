@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { MathUtils } from "three";
-import {useEffect, useState} from "react";
+import {useEffect, useState, Suspense} from "react";
 import Modelanimation from "../Modelanimation";
 
 export default function Modelcontent({url, position, scale}) {
@@ -21,16 +21,18 @@ export default function Modelcontent({url, position, scale}) {
                 shadows
             >
                 <directionalLight intensity={2} position={[0, 0, 2]} />
-                <Modelanimation 
-                    modelName={url}
-                    position={position}
-                    rotation={[0, 0, 0]}
-                    scale={scale}
-                />
+                <Suspense>
+                    <Modelanimation 
+                        modelName={url}
+                        position={position}
+                        rotation={[0, 0, 0]}
+                        scale={scale}
+                    />
+                </Suspense>
                 <OrbitControls 
                     minDistance={1.5}
                     maxDistance={5}
-                    maxPolarAngle={MathUtils.degToRad(95)}
+                    maxPolarAngle={MathUtils.degToRad(90)}
                     minPolarAngle={MathUtils.degToRad(70)}
                     makeDefault
                 />

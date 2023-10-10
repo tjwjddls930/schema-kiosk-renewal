@@ -2,10 +2,10 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Painting from "@/components/Painting";
 import { MathUtils } from "three";
-import {useEffect, useState} from "react";
+import {useEffect, useState, Suspense} from "react";
 
 
-export default function Viewcontent({url}) {
+export default function Viewcontent({url, width, height}) {
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
@@ -22,10 +22,14 @@ export default function Viewcontent({url}) {
                 shadows
             >
                 <directionalLight intensity={1} />
-                <Painting 
-                    // url={'/img/exhibitpage/paintings/유성.jpg'}
-                    url={`/img/exhibitpage/paintings/${url}`}
-                />
+                <Suspense>
+                    <Painting 
+                        // url={'/img/exhibitpage/paintings/유성.jpg'}
+                        url={`/img/exhibitpage/paintings/${url}`}
+                        width={width}
+                        height={height}
+                    />
+                </Suspense>
                 <OrbitControls 
                     minDistance={1.5}
                     maxDistance={5}

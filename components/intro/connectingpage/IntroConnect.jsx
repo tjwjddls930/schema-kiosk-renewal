@@ -18,8 +18,8 @@ export default function IntroConnect({children}) {
                     <span className="text-Cgrey font-bold text-xl">{t("MAIN_TOP_2")}</span>
                 </div>
                 <div className="flex flex-row space-x-2 text-black">
-                    <Link href="/main">
-                        {/* <Image 
+                    {/* <Link href="/main">
+                        <Image 
                             src="/img/connectpage/홈버튼_밝은화면용.png"
                             width="50"
                             height="50"
@@ -28,13 +28,13 @@ export default function IntroConnect({children}) {
                                 width:"auto",
                                 height:"auto"
                             }}
-                        /> */}
+                        />
                         <img 
                             src="/img/connectpage/홈버튼_밝은화면용.png"
                             className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
                             alt="home"
                         />
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
             <div className="absolute transform -rotate-90 h-1 left-6 top-52 z-20">
@@ -44,6 +44,22 @@ export default function IntroConnect({children}) {
             <div className="absolute transform rotate-90 right-6 bottom-60">
                     <span className="text-Apurple font-bold text-lg">Art Museum</span>
             </div>
+            <button className="absolute left-14 bottom-20 2xl:bottom-40">
+                <Link href="/main">
+                    {/* <Image 
+                        src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
+                        width="60"
+                        height="60"
+                        alt="back"
+                        priority={true}
+                    /> */}
+                    <img 
+                        src="/img/connectpage/홈버튼_밝은화면용.png"
+                        className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                        alt="home"
+                    />
+                </Link>
+            </button>
         </div>
         <Navbar 
             url={"/video/docent/schema-docent-03.webm"}
