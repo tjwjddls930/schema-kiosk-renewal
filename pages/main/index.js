@@ -57,7 +57,9 @@ export default function Mainpage() {
                             </button>
                         </div>
                         <div className="flex w-full h-1/2 items-center shadow-md rounded-lg bg-[url('/img/mainpage/챗봇안내_보정이미지.png')] bg-cover bg-no-repeat">
-                            <button className="text-center text-white h-full w-full mx-auto bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat">
+                            <button className="text-center text-white h-full w-full mx-auto bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat"
+                                onClick={()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
+                            >
                                     <div className="flex flex-col space-y-2">
                                         <span className="text-lg 2xl:text-4xl font-bold">{t("MAIN_CHATBOT")}</span>
                                         <span className="text-sm 2xl:text-2xl font-bold">{t("MAIN_CHATBOT_1")}</span>
@@ -345,7 +347,7 @@ export default function Mainpage() {
                 )}
             {/* navbar */}
             <Navbar 
-                url={"/video/docent/blue-docent-test-02-removed.webm"}
+                url={"/video/docent/schema-docent-02.webm"}
                 lang={"main"}
                 sign={"/video/sign/schema_sign_2.mp4"}
                 // fontsize={fontsize}

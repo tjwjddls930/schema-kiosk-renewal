@@ -285,15 +285,18 @@ export default function Navbar({url, lang, sign}) {
                             <span className="text-xl 2xl:text-3xl w-[170px] 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("SOUND_GUIDE")}</span>
                             <button
                                 onClick={()=>setSoundguide(!soundguide)} 
-                                className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold mb-2">
+                                className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold mb-2 disabled:opacity-50"
+                                disabled={signLang}
+                            >
                                 {soundguide ? t("STOP") : t("START")}
                             </button>
                         </div>
                         <div className="flex flex-row space-x-2 w-[250px] 2xl:w-[350px] justify-center text-center">
                             <span className="text-xl w-[170px] 2xl:text-3xl 2xl:w-[230px] mx-auto 2xl:mt-2 text-Awhite">{t("SIGN_LANGUAGE")}</span>
                             <button 
-                                className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold mb-2"
+                                className="rounded-full w-[80px] 2xl:w-[120px] 2xl:text-3xl bg-Cgrey text-white font-bold mb-2 disabled:opacity-50"
                                 onClick={()=>setsignLang(!signLang)}
+                                disabled={soundguide}
                             >
                                 {signLang ? t("STOP") : t("START")}
                             </button>
