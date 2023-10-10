@@ -347,7 +347,7 @@ export default function Mainpage() {
                 )}
             {/* navbar */}
             <Navbar 
-                url={"/video/docent/schema-docent-02.webm"}
+                url={"/video/docent/schema-docent-04.webm"}
                 lang={"main"}
                 sign={"/video/sign/schema_sign_2.mp4"}
                 // fontsize={fontsize}

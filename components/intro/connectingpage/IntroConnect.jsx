@@ -46,7 +46,7 @@ export default function IntroConnect({children}) {
             </div>
         </div>
         <Navbar 
-            url={"/video/docent/blue-docent-test-02-removed.webm"}
+            url={"/video/docent/schema-docent-03.webm"}
             lang={"/intro/structure"} 
         />
     </Pageframe>
