@@ -40,7 +40,7 @@ export default function Virtualexhibit() {
         [1.46, 1.82],
         [3.24, 3.24],
         [1.46, 1.82],
-        [6, 9.6],
+        [9.6, 6],
         [2,2],
         [4, 4.80],
         [2.2, 2.2],
@@ -48,8 +48,8 @@ export default function Virtualexhibit() {
         [1.56, 2.20],
         [3.24, 2.6],
         [3.24, 2.6],
-        [1, 0.8],
-        [1, 0.8]
+        [0.8, 1],
+        [0.8, 1]
     ]
 
     let pHeight = 2;
