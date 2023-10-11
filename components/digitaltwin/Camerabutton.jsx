@@ -124,7 +124,7 @@ export default function Camerabutton() {
     // console.log(button);
 
     return<>
-        <div className="absolute h-[100px] bottom-10 2xl:bottom-2 z-[1000]">
+        <div className="absolute h-[100px] bottom-2 z-[1000]">
             <Link href="/main">
                 <button className="relative top-3 left-3 2xl:bottom-0 2xl:left-16 h-12 w-12 2xl:h-24 2xl:w-24 rounded-full bg-Cpurple"
                     onClick={()=> lookPaint(1)}
