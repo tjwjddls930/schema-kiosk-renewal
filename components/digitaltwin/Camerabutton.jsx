@@ -228,7 +228,7 @@ export default function Camerabutton() {
             </div>
         </div>
         <div className={
-            `absolute bottom-56 w-full h-[80px] 2xl:h-[100px] space-x-2 overflow-hidden cursor-pointer ${exhibit1 ? 'z-[1000]': null}`
+            `absolute bottom-56 w-full h-[50px] 2xl:h-[100px] space-x-2 overflow-hidden cursor-pointer ${exhibit1 ? 'z-[1000]': null}`
         }>
             <div className="flex flex-row">
             {trail1.map(({x, height, ...rest}, index) => (
@@ -248,7 +248,7 @@ export default function Camerabutton() {
             </div>
         </div>
         <div className={
-            `absolute bottom-56 w-full h-[80px] 2xl:h-[100px] space-x-2 overflow-hidden cursor-pointer ${exhibit2 ? 'z-[1000]' : null}`
+            `absolute bottom-56 w-full h-[50px] 2xl:h-[100px] space-x-2 overflow-hidden cursor-pointer ${exhibit2 ? 'z-[1000]' : null}`
         }>
             <div className="flex flex-row">
             {trail2.map(({x, height, ...rest}, index) => (
