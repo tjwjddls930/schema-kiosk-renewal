@@ -235,7 +235,7 @@ export default function Camerabutton() {
                 <animated.div 
                     key={items1[index]} 
                     onClick={()=> lookPaint(index+4)}
-                    className="w-[100px] 2xl:w-[300px] h-full text-center pt-5 mx-auto bg-Cpurple border-2 rounded-full text-white 2xl:text-3xl 2xl:font-bold will-change-transform overflow-hidden" 
+                    className="w-[100px] 2xl:w-[200px] h-full text-center pt-5 mx-auto bg-Cpurple border-2 rounded-full text-white 2xl:text-3xl 2xl:font-bold will-change-transform overflow-hidden" 
                     style={{
                         ...rest,
                         transform: x.to(x => `translate3d(0, ${x}px, 0)`)
@@ -255,7 +255,7 @@ export default function Camerabutton() {
                 <animated.div 
                     key={items2[index]} 
                     onClick={()=> lookPaint(index+14)}
-                    className="w-[100px] 2xl:w-[300px] h-full text-center pt-5 mx-auto bg-Cpurple border-2 rounded-full text-white 2xl:text-3xl 2xl:font-bold will-change-transform overflow-hidden" 
+                    className="w-[100px] 2xl:w-[200px] h-full text-center pt-5 mx-auto bg-Cpurple border-2 rounded-full text-white 2xl:text-3xl 2xl:font-bold will-change-transform overflow-hidden" 
                     style={{
                         ...rest,
                         transform: x.to(x => `translate3d(0, ${x}px, 0)`)
