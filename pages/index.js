@@ -12,7 +12,7 @@ export default function Home() {
             >
             </div>
             <Suspense fallback={null}>
-                <Screensaver videoUrl={"https://youtu.be/gdXnsIWAbHA"} />
+                <Screensaver videoUrl={"https://youtu.be/Z9K0zY5gB4o"} />
             </Suspense>
         </div>
     )
