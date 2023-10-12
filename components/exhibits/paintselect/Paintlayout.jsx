@@ -25,17 +25,17 @@ export default function Paintlayout({children}) {
                                 priority={true}
                             />
                         </Link>
-                        <span className="text-Cgrey text-lg 2xl:text-xl mt-2">{'전시 안내 '} </span>
-                        <span className="text-Cgrey text-lg 2xl:text-xl mt-2">{' > 현재 전시'}</span>
-                        <span className="text-Cgrey text-lg 2xl:text-xl mt-2">{' > 작가 선택'}</span>
-                        <span className="text-Cgrey text-lg 2xl:text-xl font-bold mt-2">{' > 작품 선택'}</span>
+                        <span className="text-Cgrey text-lg screen-w:text-xl mt-2">{'전시 안내 '} </span>
+                        <span className="text-Cgrey text-lg screen-w:text-xl mt-2">{' > 현재 전시'}</span>
+                        <span className="text-Cgrey text-lg screen-w:text-xl mt-2">{' > 작가 선택'}</span>
+                        <span className="text-Cgrey text-lg screen-w:text-xl font-bold mt-2">{' > 작품 선택'}</span>
                     </div>
                     <div>
-                        <span className="text-Cgrey text-base 2xl:text-xl font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
+                        <span className="text-Cgrey text-base screen-w:text-xl font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
                     </div>
                 </div>
                 {children}
-                <div className="absolute h-60 w-60 left-10 bottom-48 opacity-0 2xl:h-80 2xl:w-80 2xl:left-16 2xl:bottom-80 2xl:opacity-100">
+                <div className="absolute h-60 w-60 left-10 bottom-48 opacity-0 screen-w:h-80 screen-w:w-80 screen-w:left-16 screen-w:bottom-80 screen-w:opacity-100">
                     <Image 
                         src="/img/exhibitpage/icons/acc_2.png"
                         width="100"
@@ -48,7 +48,7 @@ export default function Paintlayout({children}) {
                         }}
                     />
                 </div>
-                <div className="absolute h-20 w-40 left-36 bottom-4 opacity-0 2xl:opacity-100 2xl:bottom-20">
+                <div className="absolute h-20 w-40 left-36 bottom-4 opacity-0 screen-w:opacity-100 screen-w:bottom-20">
                     <Image 
                         src="/img/exhibitpage/icons/acc_1.png"
                         width="150"
@@ -61,7 +61,7 @@ export default function Paintlayout({children}) {
                         }}
                     />
                 </div>
-                <button className="absolute left-14 bottom-20 2xl:bottom-40"
+                <button className="absolute left-14 bottom-20 screen-w:bottom-40"
                     onClick={()=>router.back()}
                 >
                     <Link href="/artist">
@@ -74,12 +74,12 @@ export default function Paintlayout({children}) {
                         /> */}
                         <img 
                             src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
-                            className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                            className="h-12 w-12 mx-auto screen-w:h-36 screen-w:w-36"
                             alt="back"
                         />
                     </Link>
                 </button>
-                <button className="absolute left-32 bottom-20 2xl:left-60 2xl:bottom-40">
+                <button className="absolute left-32 bottom-20 screen-w:left-60 screen-w:bottom-40">
                     <Link href="/main">
                         {/* <Image 
                             src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
@@ -90,7 +90,7 @@ export default function Paintlayout({children}) {
                         /> */}
                         <img 
                             src="/img/connectpage/홈버튼_밝은화면용.png"
-                            className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                            className="h-12 w-12 mx-auto screen-w:h-36 screen-w:w-36"
                             alt="home"
                         />
                     </Link>

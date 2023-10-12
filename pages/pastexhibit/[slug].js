@@ -48,10 +48,10 @@ export default function Viewpage() {
                 height={data.height}
             />
             {/* 그림 넘기기 버튼 */}
-            <div className="absolute h-[70px] w-[70px] left-40 bottom-80 2xl:h-[300px] 2xl:w-[300px] 2xl:left-96 2xl:top-1/2 2xl:transform 2xl:-translate-y-1/2">
+            <div className="absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:left-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
                 <button
                     id="left"
-                    className="h-full w-full 2xl:h-[140px] 2xl:w-[140px] text-xl 2xl:text-[150px] font-bold text-Awhite text-center"
+                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] text-xl screen-w:text-[150px] font-bold text-Awhite text-center"
                     onClick={(e)=>prevExhibit(e)}
                 >   
                     {/* <img 
@@ -62,10 +62,10 @@ export default function Viewpage() {
                     {'<'}
                 </button>
             </div>
-            <div className="absolute h-[70px] w-[70px] right-40 bottom-80 2xl:h-[300px] 2xl:w-[300px] 2xl:right-96 2xl:top-1/2 2xl:transform 2xl:-translate-y-1/2">
+            <div className="absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:right-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
                 <button
                     id="right"
-                    className="h-full w-full 2xl:h-[140px] 2xl:w-[140px] text-xl 2xl:text-[150px] font-bold text-Awhite text-center"
+                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] text-xl screen-w:text-[150px] font-bold text-Awhite text-center"
                     onClick={(e)=>nextExhibit(e)}
                 >   
                     {/* <img 
@@ -77,40 +77,40 @@ export default function Viewpage() {
                 </button>
             </div>
             {popup && (
-                <div className="absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 2xl:h-[94%] 2xl:w-[1700px] 2xl:bottom-28 left-1/2 transform -translate-x-1/2"
+                <div className="absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 screen-w:h-[94%] screen-w:w-[1700px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2"
                     onClick={()=>setPopup(!popup)}
                 >
-                    <div className="w-5/6 flex flex-col space-y-32 2xl:space-y-[650px] px-4 mt-16 2xl:px-8 2xl:mt-48 mx-auto items-center justify-center text-center">
+                    <div className="w-5/6 flex flex-col space-y-32 screen-w:space-y-[650px] px-4 mt-16 screen-w:px-8 screen-w:mt-48 mx-auto items-center justify-center text-center">
                         <div className="flex flex-col space-y-2">
-                            <span className="text-Awhite font-bold text-2xl 2xl:text-5xl">{data.title}</span>
-                            <span className="text-Dgrey font-bold text-xl 2xl:text-4xl">{''}</span>
+                            <span className="text-Awhite font-bold text-screen-w screen-w:text-5xl">{data.title}</span>
+                            <span className="text-Dgrey font-bold text-xl screen-w:text-4xl">{''}</span>
                         </div>
-                        <div className="flex flex-col space-y-2 mx-auto w-full 2xl:space-y-4">
+                        <div className="flex flex-col space-y-2 mx-auto w-full screen-w:space-y-4">
                             <img 
-                                className="h-20 w-20 animate-bounce mx-auto 2xl:h-40 2xl:w-40"
+                                className="h-20 w-20 animate-bounce mx-auto screen-w:h-40 screen-w:w-40"
                                 src="/img/exhibitpage/icons/화면확대_아이콘.png"
                                 alt="toucn icon"
                             />
-                            <span className="text-Dgrey font-bold text-base 2xl:text-2xl">{'확대해서 그림을 더 자세히 감상해보세요!'}</span>
+                            <span className="text-Dgrey font-bold text-base screen-w:text-screen-w">{'확대해서 그림을 더 자세히 감상해보세요!'}</span>
                         </div>
                         <div className="flex flex-col w-full mx-auto">
                             <div className="flex justify-between w-full">
                                 <div className="flex flex-col space-y-2">
-                                    <span className="font-bold text-Awhite text-lg 2xl:text-3xl">{data.name}</span>
-                                    <span className="font-bold text-Awhite text-base 2xl:text-2xl">{data.overview}</span>
-                                    <span className="font-bold text-Awhite text-base 2xl:text-2xl">{data.overview1}</span>
+                                    <span className="font-bold text-Awhite text-lg screen-w:text-3xl">{data.name}</span>
+                                    <span className="font-bold text-Awhite text-base screen-w:text-screen-w">{data.overview}</span>
+                                    <span className="font-bold text-Awhite text-base screen-w:text-screen-w">{data.overview1}</span>
                                 </div>
-                                <span className="font-bold text-Awhite text-5xl 2xl:text-7xl">{data.order}{'.'}</span>
+                                <span className="font-bold text-Awhite text-5xl screen-w:text-7xl">{data.order}{'.'}</span>
                             </div>
-                            <div className="h-[1px] w-full bg-Awhite mt-3 2xl:mt-4"/>
+                            <div className="h-[1px] w-full bg-Awhite mt-3 screen-w:mt-4"/>
                         </div>
                     </div>
                 </div>
             )}
-            <div className="h-[200px] w-[100px] absolute left-10 bottom-96 2xl:h-[750px] 2xl:w-[200px] 2xl:left-24 2xl:bottom-56">
-                <div className="flex flex-col mx-auto text-center space-y-2 2xl:space-y-4">
+            <div className="h-[200px] w-[100px] absolute left-10 bottom-96 screen-w:h-[750px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-56">
+                <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
                     <button 
-                        className="h-20 w-20 ml-2 2xl:h-40 2xl:w-40 2xl:ml-4"
+                        className="h-20 w-20 ml-2 screen-w:h-40 screen-w:w-40 screen-w:ml-4"
                         onClick={handleRefresh}
                     > 
                         <img
@@ -119,19 +119,19 @@ export default function Viewpage() {
                             alt="감상모드"
                         />
                     </button>
-                    <span className="text-Awhite text-xl font-bold 2xl:text-3xl">{'초기화'}</span>
+                    <span className="text-Awhite text-xl font-bold screen-w:text-3xl">{'초기화'}</span>
                 </div>
             </div>
-            <div className="h-[130px] w-[100px] absolute left-10 bottom-72 2xl:h-[600px] 2xl:w-[200px] 2xl:left-24 2xl:bottom-24">
-               <div className="flex flex-col mx-auto text-center space-y-2 2xl:space-y-4">
-                <button className="h-20 w-20 ml-2 2xl:h-40 2xl:w-40 2xl:ml-4"> 
+            <div className="h-[130px] w-[100px] absolute left-10 bottom-72 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-24">
+               <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
+                <button className="h-20 w-20 ml-2 screen-w:h-40 screen-w:w-40 screen-w:ml-4"> 
                         <img
                             className="h-full w-full"
                             src="/img/exhibitpage/icons/작품해설_아이콘.png"
                             alt="작품해설"
                         />
                     </button>
-                    <span className="text-Awhite text-xl font-bold 2xl:text-3xl">{'작품해설'}</span>
+                    <span className="text-Awhite text-xl font-bold screen-w:text-3xl">{'작품해설'}</span>
                </div>
             </div>
         </Viewlayout>

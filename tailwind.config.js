@@ -12,7 +12,9 @@ module.exports = {
       // lg: "1025px",
       'lg':"1290px",
       // 'lg': "1430px",
-      '2xl': "1653px"
+      '2xl': "1653px",
+      'screen-w': "3000px",
+      'screen-h': "2000px"
       // xl: "1202px",
     },
     container: {
@@ -53,7 +55,7 @@ module.exports = {
       md: "0px 2px 4px -2px rgba(13, 16, 45, 0.1), 0px 4px 6px -1px rgba(13, 16, 45, 0.1)",
       lg: "0px 4px 6px -4px rgba(13, 16, 45, 0.1), 0px 10px 15px -3px rgba(13, 16, 45, 0.1)",
       xl: "0px 8px 10px -6px rgba(13, 16, 45, 0.1), 0px 20px 25px -5px rgba(13, 16, 45, 0.1)",
-      "2xl":
+      "screen-w":
         "0px 25px 50px -12px rgba(13, 16, 45, 0.1), 0px 12px 24px 0px rgba(13, 16, 45, 0.1)",
       "accent-volume":
         "5px 5px 10px rgba(108, 106, 213, 0.25), inset 2px 2px 6px #A78DF0, inset -5px -5px 10px #6336E4",
@@ -67,7 +69,7 @@ module.exports = {
     //   base: ["1rem", { lineHeight: "normal" }],
     //   lg: ["1.25rem", { lineHeight: "normal" }],
     //   xl: ["1.5rem", { lineHeight: "normal" }],
-    //   "2xl": ["1.75rem", { lineHeight: "normal" }],
+    //   "screen-w": ["1.75rem", { lineHeight: "normal" }],
     //   "3xl": ["2rem", { lineHeight: "normal" }],
     //   "4xl": ["2.25rem", { lineHeight: "normal" }],
     //   "5xl": ["2.5rem", { lineHeight: "normal" }],

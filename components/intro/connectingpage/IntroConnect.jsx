@@ -10,7 +10,7 @@ export default function IntroConnect({children}) {
         <Pageframe>
         <div className="h-screen w-scree bg-[url('/img/intro/connectpage/미술관소개_배경이미지.png')] bg-cover bg-no-repeat">
         <div className="w-full flex flex-row justify-between p-14 font-pretendard_bold">
-                <span className="text-2xl font-bold text-Agrey">
+                <span className="text-screen-w font-bold text-Agrey">
                     {'미술관 소개'}
                 </span>
                 <div className="h-[0.5px] flex flex-col mx-auto text-center items-center space-y-8">
@@ -31,20 +31,20 @@ export default function IntroConnect({children}) {
                         />
                         <img 
                             src="/img/connectpage/홈버튼_밝은화면용.png"
-                            className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                            className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
                             alt="home"
                         />
                     </Link> */}
                 </div>
             </div>
-            <div className="absolute transform -rotate-90 h-1 left-6 top-52 z-20">
+            {/* <div className="absolute transform -rotate-90 h-1 left-6 top-52 z-20">
                 <span className="text-Apurple font-bold text-lg">Schema</span>
-            </div>
+            </div> */}
             {children}
-            <div className="absolute transform rotate-90 right-6 bottom-60">
+            {/* <div className="absolute transform rotate-90 right-6 bottom-60">
                     <span className="text-Apurple font-bold text-lg">Art Museum</span>
-            </div>
-            <button className="absolute left-14 bottom-20 2xl:bottom-40">
+            </div> */}
+            <button className="absolute left-14 bottom-20 screen-w:bottom-40">
                 <Link href="/main">
                     {/* <Image 
                         src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
@@ -55,7 +55,7 @@ export default function IntroConnect({children}) {
                     /> */}
                     <img 
                         src="/img/connectpage/홈버튼_밝은화면용.png"
-                        className="h-16 w-16 mx-auto 2xl:h-36 2xl:w-36"
+                        className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
                         alt="home"
                     />
                 </Link>

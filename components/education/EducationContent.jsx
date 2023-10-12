@@ -22,7 +22,7 @@ export default function EducationContent() {
                 <div className="flex flex-col space-y-2">
                     <div className="bg-Cpurple h-[1px] w-[70px]" />
                     <span className="text-xl font-bold text-Bgrey">{'2023 생애주기별 문화예술교육 지원사업 꿈다락문화예술학교'}</span>
-                    <span className="text-2xl font-bold text-Ablack">{'쉐마미술관아틀리에 VER.1'}</span>
+                    <span className="text-screen-w font-bold text-Ablack">{'쉐마미술관아틀리에 VER.1'}</span>
                 </div>
                 <div className="bg-Dgrey bg-opacity-30 flex flex-row px-6 py-8 space-x-4 mx-auto h-[350px] w-full">
                     <div className="flex flex-col space-y-6">

@@ -6,16 +6,15 @@ import Modelanimation from "../Modelanimation";
 
 export default function Modelcontent({url, position, scale}) {
     const [isClient, setIsClient] = useState(false);
-
     useEffect(() => {
       // Update the isClient state to true as this code will be executed only on client side
       setIsClient(true);
     }, []);
     return(
-        // <div className="h-[91%] w-[1000px] absolute bottom-16 2xl:h-[94%] 2xl:w-[1500px] 2xl:bottom-28 left-1/2 transform -translate-x-1/2">
-        <>
+        // <div className="h-[91%] w-[1000px] absolute bottom-16 screen-w:h-[94%] screen-w:w-[1500px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
+        <>  
         {isClient && (
-        <div className="h-[91%] w-full absolute bottom-16 2xl:h-[94%] 2xl:bottom-28 left-1/2 transform -translate-x-1/2">
+        <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[94%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
             <Canvas
                 gl={{antialias:true}}
                 shadows
@@ -42,5 +41,5 @@ export default function Modelcontent({url, position, scale}) {
         </div>
         )}
         </>
-    )
+        )
 };

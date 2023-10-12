@@ -66,14 +66,14 @@ function TopNavbar() {
   const formattedTime = `${parts[1]} ${parts[0]}`; // rearrange the order
 
   return (
-    <div className="hidden sm:flex fixed top-3 2xl:top-6 h-16 2xl:h-20 w-full z-100 justify-between items-center px-4 2xl:px-12">
+    <div className="hidden sm:flex fixed top-3 screen-w:top-6 h-16 screen-w:h-20 w-full z-100 justify-between items-center px-4 screen-w:px-12">
        {/* <Image
         src="/img/mainpage/SmartSpaceSAM_logo.png"
         alt="logo2"
         width={192}
         height={53}
         priority={true}
-        // className="bg-white p-4 bg-opacity-60 rounded-2xl"
+        // className="bg-white p-4 bg-opacity-60 rounded-screen-w"
       />
       <Image
         src="/img/mainpage/schema-logo.png"
@@ -81,33 +81,33 @@ function TopNavbar() {
         width={192}
         height={53}
         priority={true}
-        // className="bg-white p-4 bg-opacity-60 rounded-2xl"
+        // className="bg-white p-4 bg-opacity-60 rounded-screen-w"
       /> */}
       <img 
         src="/img/mainpage/SmartSpaceSAM_logo.png"
         alt="logo1"
-        className="h-12 w-[150px] 2xl:h-24 2xl:w-[350px]"
+        className="h-12 w-[150px] screen-w:h-24 screen-w:w-[350px]"
       />
         <img 
         src="/img/mainpage/schema-logo.png"
         alt="logo2"
-        className="h-12 w-[150px] 2xl:h-24 2xl:w-[350px]"
+        className="h-12 w-[150px] screen-w:h-24 screen-w:w-[350px]"
       />
-      <div className="flex flex-row space-x-2 2xl:space-x-4 text-black mr-4">
+      <div className="flex flex-row space-x-2 screen-w:space-x-4 text-black mr-4">
           <div className="flex flex-col justify-center items-center">
-              <span className="font-bold text-sm 2xl:text-xl">{formattedDate}</span>
-              <span className="font-bold text-xl 2xl:text-4xl">{formattedTime}</span>
+              <span className="font-bold text-sm screen-w:text-xl">{formattedDate}</span>
+              <span className="font-bold text-xl screen-w:text-4xl">{formattedTime}</span>
           </div>
-          <span className="rounded-lg shadow-md px-4 py-4 text-lg 2xl:text-3xl font-bold">{temperature ? `${temperature}°` : "24°"}</span>
+          <span className="rounded-lg shadow-md px-4 py-4 text-lg screen-w:text-3xl font-bold">{temperature ? `${temperature}°` : "24°"}</span>
       </div>
       {/* <div className="mr-6 mt-4">
-        <div className="bg-white bg-opacity-60 flex justify-center items-center px-3 py-3 rounded-2xl">
+        <div className="bg-white bg-opacity-60 flex justify-center items-center px-3 py-3 rounded-screen-w">
           <div className="flex flex-col justify-center items-center">
             <span className="text-sm mb-1">{formattedDate}</span>
             <span className="text-lg font-semibold">{formattedTime}</span>
           </div>
-          <div className="bg-white ml-3 p-2 rounded-2xl bg-opacity-60">
-            <span className="text-2xl font-thin">
+          <div className="bg-white ml-3 p-2 rounded-screen-w bg-opacity-60">
+            <span className="text-screen-w font-thin">
               {temperature ? `${temperature}°` : "24°"}
               when temperature data is loading, use "24°" as a default temperature value
             </span>

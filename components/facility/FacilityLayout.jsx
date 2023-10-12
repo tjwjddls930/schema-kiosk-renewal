@@ -6,7 +6,7 @@ export default function FacilityLayout({children}) {
     return( 
         <Pageframe>
              <div className="h-screen w-screen bg-[url('/img/facilityguide/exhibitguide/exhibitguide_bg.png')] bg-no-repeat bg-cover">
-                <div className="w-full py-6 px-14 2xl:py-12 2xl:px-16 flex flex-row justify-between">
+                <div className="w-full py-6 px-14 screen-w:py-12 screen-w:px-16 flex flex-row justify-between">
                     <div className="flex flex-row">
                         <Image 
                             className="mr-6"
@@ -19,15 +19,15 @@ export default function FacilityLayout({children}) {
                                 height: "auto"
                             }}
                         />
-                        <span className="text-Cgrey text-lg 2xl:text-xl font-bold mt-2">시설 안내 </span>
-                        <span className="text-Agrey text-lg 2xl:text-xl font-bold mt-2">{'> 관람 안내'}</span>
+                        <span className="text-Cgrey text-lg screen-w:text-xl font-bold mt-2">시설 안내 </span>
+                        <span className="text-Agrey text-lg screen-w:text-xl font-bold mt-2">{'> 관람 안내'}</span>
                     </div>
                     <div>
-                        <span className="text-Cgrey text-lg 2xl:text-xl font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
+                        <span className="text-Cgrey text-lg screen-w:text-xl font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
                     </div>
                 </div>
                 {children}
-                <button className="absolute left-14 bottom-36 2xl:bottom-48">
+                <button className="absolute left-14 bottom-36 screen-w:bottom-48">
                     <Link href="/facility">
                         <Image 
                             src="/img/facilityguide/exhibitguide/뒤로가기버튼_어두운버전.png"

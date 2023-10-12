@@ -46,88 +46,88 @@ export default function Paintcontent() {
     return(
        <>
         {data && (
-            <div className="w-full flex flex-row space-x-6">
-             <div className="w-[30%] h-[600px] 2xl:w-[35%] 2xl:h-[700px] flex flex-col space-y-1 px-12 py-3 2xl:space-y-5 2xl:px-16 2xl:py-8">
-                 <div className="w-20 h-[1px] bg-Cpurple mb-2" />
-                 <span className="text-md 2xl:text-6xl font-bold text-Bgrey">{data.engname}</span>
-                 <span className="text-lg 2xl:text-7xl font-bold text-black mb-4">{data.name}</span>
-                 <span className="text-xs 2xl:text-4xl font-bold text-black mb-4">{data.career}</span>
-                 <span className="text-base 2xl:text-4xl text-Cpurple font-bold">{'주요 개인전'}</span>
-                 {/* {individual.map((item)=> (
-                     <span key={item.order} className="text-xs 2xl:text-2xl text-Cgrey font-bold">{item.exhibit}</span>
-                 ))} */}
-                 <div className="overflow-auto w-full h-[20%] 2xl:h-1/2 flex flex-col space-y-1">
-                     {data.individual_exhibition.map((item)=> (
-                         <span key={item.order} className="text-xs 2xl:text-2xl text-Cgrey font-bold">{item.exhibit}</span>
-                     ))}
-                 </div>
-                 <span className="text-base 2xl:text-4xl text-Cpurple font-bold mt-4">{'주요 단체전'}</span>
-                 {/* {community.map((item)=> (
-                     <span key={item.order} className="text-xs 2xl:text-2xl text-Cgrey font-bold">{item.exhibit}</span>
-                 ))} */}
-                 <div className="overflow-auto w-full h-[20%] 2xl:h-1/2 flex flex-col space-y-1">
-                     {data.group_exhibition.map((item)=> (
-                         <span key={item.order} className="text-xs 2xl:text-2xl text-Cgrey font-bold">{item.exhibit}</span>
-                     ))}
-                 </div>
-             </div>
-             <div
+            <div className="w-full flex flex-col space-y-1 screen-w:space-y-6">
+                <div
                  ref={carousel} 
-                 className="h-2/3 w-2/3 2xl:w-3/4 flex flex-row overflow-auto space-x-4">
+                 className="h-2/3 w-full px-12 py-3 screen-w:pt-8 screen-w:px-16 flex flex-row overflow-auto space-x-4">
                  {data.paint.map((item, index)=> (
                      <div
-                         key={item.order} 
-                         className="h-[475px] w-[250px] 2xl:h-[800px] 2xl:w-[550px] flex flex-col">
-                         <div className="w-[250px] 2xl:w-[550px] flex justify-between p-2">
-                             <div
-                                 key={item.imgname} 
-                                 className="flex flex-col space-y-1 2xl:space-y-2">
-                                 <span className="font-bold text-Ablack text-sm 2xl:text-2xl">{item.title}</span>
-                                 <span className="font-bold text-Cgrey text-xs 2xl:text-lg">{item.overview}</span>
-                                 <span className="font-bold text-Cgrey text-xs 2xl:text-lg">{item.overview1}</span>
-                             </div>
-                             <span className="font-bold text-black text-3xl 2xl:text-6xl">{item.order}</span>
-                         </div>
-                         <div className="h-[1px] w-full bg-Cpurple mb-3"/>
-                         <div className="relative group">
-                             <img 
-                                 className={`h-[250px] 2xl:h-[550px] w-full shadow-xl ${index === current ? "border-4 border-Awhite" : null}`}
-                                 src={`/img/exhibitpage/paintings/${item.imgname}`}
-                                 alt="paintings"
-                             />
-                             <div className="absolute h-20 2xl:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0">
-                                <Link href={`/artist/paint/viewpage/${item.order}`}>
-                                    <div className="flex justify-between p-4 2xl:p-6">
-                                        <span className="font-bold pt-2 2xl:pt-4 text-Awhite 2xl:text-2xl">{'작품 감상하기'}</span>
-                                        <button className="bg-black rounded-full h-10 w-10 2xl:h-18 2xl:w-18 items-cetner text-center 2xl:pt-2">
-                                            <img 
-                                                src="/img/exhibitpage/icons/화살표버튼.png"
-                                                alt="arrow"
-                                            />
-                                        </button> 
-                                    </div>
-                                </Link>
-                             </div>
-                         </div>
-                     </div>
-                 ))}
-             </div>
-             <button className="absolute h-12 w-[150px] text-lg 2xl:h-24 2xl:w-[300px] 2xl:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Agradient to-Bgradient bottom-44 left-8 2xl:bottom-96 2xl:left-10 shadow-md">
+                            key={item.order} 
+                            className="h-1/2 w-1/3 screen-w:h-[800px] screen-w:w-[550px] flex flex-col">
+                            <div className="w-full flex justify-between p-2">
+                                <div
+                                    key={item.imgname} 
+                                    className="flex flex-col space-y-1 screen-w:space-y-2">
+                                    <span className="font-bold text-Ablack text-sm screen-w:text-screen-w">{item.title}</span>
+                                    <span className="font-bold text-Cgrey text-xs screen-w:text-lg">{item.overview}</span>
+                                    <span className="font-bold text-Cgrey text-xs screen-w:text-lg">{item.overview1}</span>
+                                </div>
+                                <span className="font-bold text-black text-3xl screen-w:text-6xl">{item.order}</span>
+                            </div>
+                            <div className="h-[1px] w-full bg-Cpurple mb-3"/>
+                            <div className="relative group">
+                                <img 
+                                    className={`h-[150px] screen-w:h-[550px] w-full shadow-xl ${index === current ? "border-4 border-Awhite" : null}`}
+                                    src={`/img/exhibitpage/paintings/${item.imgname}`}
+                                    alt="paintings"
+                                />
+                                <div className="absolute h-20 screen-w:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0">
+                                    <Link href={`/artist/paint/viewpage/${item.order}`}>
+                                        <div className="flex justify-between p-4 screen-w:p-6">
+                                            <span className="font-bold pt-2 screen-w:pt-4 text-Awhite screen-w:text-screen-w">{'작품 감상하기'}</span>
+                                            <button className="bg-black rounded-full h-10 w-10 screen-w:h-18 screen-w:w-18 items-cetner text-center screen-w:pt-2">
+                                                <img 
+                                                    src="/img/exhibitpage/icons/화살표버튼.png"
+                                                    alt="arrow"
+                                                />
+                                            </button> 
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+             <div className="w-[30%] h-[600px] screen-w:w-[35%] screen-w:h-[700px] flex flex-col space-y-1 px-12 py-3 screen-w:space-y-5 screen-w:px-16">
+                 <div className="w-20 h-[1px] bg-Cpurple mb-1 screen-w:mb-2" />
+                 <span className="text-sm screen-w:text-6xl font-bold text-Bgrey">{data.engname}</span>
+                 <span className="text-base screen-w:text-7xl font-bold text-black mb-2 screen-w:mb-4">{data.name}</span>
+                 <span className="text-xs screen-w:text-4xl font-bold text-black mb-2 screen-w:mb-4">{data.career}</span>
+                 <span className="text-sm screen-w:text-4xl text-Cpurple font-bold">{'주요 개인전'}</span>
+                 {/* {individual.map((item)=> (
+                     <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
+                 ))} */}
+                 <div className="overflow-auto w-full h-[10%] screen-w:h-1/2 flex flex-col space-y-1">
+                     {data.individual_exhibition.map((item)=> (
+                         <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
+                     ))}
+                 </div>
+                 <span className="text-sm screen-w:text-4xl text-Cpurple font-bold mt-4">{'주요 단체전'}</span>
+                 {/* {community.map((item)=> (
+                     <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
+                 ))} */}
+                 <div className="overflow-auto w-full h-[10%] screen-w:h-1/2 flex flex-col space-y-1">
+                     {data.group_exhibition.map((item)=> (
+                         <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
+                     ))}
+                 </div>
+                 <button className="h-8 w-[100px] text-sm screen-w:h-24 screen-w:w-[300px] screen-w:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Agradient to-Bgradient shadow-md">
                      {'작가노트 보기'}
-             </button>
-             <div className="h-[30px] w-[300px] 2xl:w-[800px] absolute right-72 bottom-28 2xl:bottom-72 2xl:right-96">
-                 <div className="flex flex-row space-x-2 2xl:space-x-4">
-                     <div className="h-2 w-2 2xl:h-4 2xl:w-4 bg-Cpurple rounded-full" />
-                     <div className="h-2 w-2 2xl:h-4 2xl:w-4 bg-Cpurple rounded-full" />
-                     <div className="h-2 w-2 2xl:h-4 2xl:w-4 bg-Cpurple rounded-full" />
+                </button>
+             </div>
+             <div className="h-[30px] w-[300px] screen-w:w-[800px] absolute right-72 bottom-28 screen-w:bottom-72 screen-w:right-96">
+                 <div className="flex flex-row space-x-2 screen-w:space-x-4">
+                     <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Cpurple rounded-full" />
+                     <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Cpurple rounded-full" />
+                     <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Cpurple rounded-full" />
                  </div>
              </div>
              <button 
                  // onClick={()=> prevExhibit()}
                  onClick={prevExhibit}
-                 className="absolute w-[208px] h-16 2xl:h-32 2xl:w-[320px] text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-l-md bottom-28 right-52 2xl:bottom-72 2xl:right-80">
+                 className="absolute w-[208px] h-16 screen-w:h-32 screen-w:w-[320px] text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-l-md bottom-28 right-52 screen-w:bottom-72 screen-w:right-80">
                      <img
-                         className="h-8 w-8 2xl:h-12 2xl:w-12 mx-auto"
+                         className="h-8 w-8 screen-w:h-12 screen-w:w-12 mx-auto"
                          src="/img/exhibitpage/icons/왼쪽버튼.png"
                          alt="left"
                      />
@@ -135,9 +135,9 @@ export default function Paintcontent() {
              <button 
                  // onClick={()=> nextExhibit()}
                  onClick={nextExhibit}
-                 className="absolute w-[208px] h-16 text-xl 2xl:h-32 2xl:w-[320px] font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-r-md bottom-28 right-0 2xl:bottom-72">
+                 className="absolute w-[208px] h-16 text-xl screen-w:h-32 screen-w:w-[320px] font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-r-md bottom-28 right-0 screen-w:bottom-72">
                      <img 
-                         className="h-8 w-8 2xl:h-12 2xl:w-12 mx-auto"
+                         className="h-8 w-8 screen-w:h-12 screen-w:w-12 mx-auto"
                          src="/img/exhibitpage/icons/오른쪽버튼.png"
                          alt="right"
                      />

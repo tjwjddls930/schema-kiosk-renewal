@@ -15,7 +15,7 @@ export default function Viewpageframe({children, pid}) {
     return(
         <div className="w-screen h-screen bg-[url('/img/exhibitpage/icons/작품관람_배경_1.png')] bg-cover bg-no-repeat">
             {children}
-            {soundguide && (
+            {/* {soundguide && (
                 <div className="absolute bottom-20 right-4 h-[350px] w-[350px] z-20">
                     <Soundguide 
                         videoUrl={"/video/docent/blue-docent-test-02-removed.webm"}
@@ -24,13 +24,9 @@ export default function Viewpageframe({children, pid}) {
                         end={()=>setSoundguide(!soundguide)}
                     />
                 </div>
-            )}
+            )} */}
             {/* navbar */}
-            <ViewNavbar 
-                url={"/video/docent/blue-docent-test-02-removed.webm"}
-                lang={"viewpage"}
-                pid={pid}
-            />
+            
         </div>
     )
 };

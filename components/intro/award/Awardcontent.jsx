@@ -2,59 +2,59 @@ import { awardData } from "@/data/awardData"
 
 export default function Awardcontent({imgname, engname, name, career, timeline_i, timeline_g}) {
     return(
-        <div className="w-11/12 h-3/4 mx-auto px-20 py-12 2xl:px-40 2xl:py-16 lg:py-6 flex flex-row justify-between">
-            <div className="flex flex-col 2xl:space-y-4 2xl:w-[40%] 2xl:h-1/2">
-                <div className="border-4 border-Awhite h-[250px] w-[380px] 2xl:h-[1100px] 2xl:w-[1300px]">
+        <div className="w-11/12 h-3/4 mx-auto px-20 py-12 screen-w:px-40 screen-w:py-16 lg:py-6 flex flex-row justify-between">
+            <div className="flex flex-col screen-w:space-y-4 screen-w:w-[40%] screen-w:h-1/2">
+                <div className="border-4 border-Awhite h-[250px] w-[380px] screen-w:h-[1100px] screen-w:w-[1300px]">
                     <img 
                         src={`/img/intro/award/${imgname}`}
                         className="h-full w-full mx-auto shadow-lg mb-4"
                         alt="artist"
                     />
                 </div>
-                <div className="h-[2px] w-14 2xl:w-28 bg-Cpurple mt-4 mb-2"></div>
-                <span className="text-xl 2xl:text-4xl text-Awhite">{engname}</span>
-                <span className="font-bold text-2xl 2xl:text-5xl text-Awhite mb-2">{name}</span>
-                <p className="text-base 2xl:text-4xl text-Awhite">{career}</p>
+                <div className="h-[2px] w-14 screen-w:w-28 bg-Cpurple mt-4 mb-2"></div>
+                <span className="text-xl screen-w:text-4xl text-Awhite">{engname}</span>
+                <span className="font-bold text-screen-w screen-w:text-5xl text-Awhite mb-2">{name}</span>
+                <p className="text-base screen-w:text-4xl text-Awhite">{career}</p>
             </div>
-            <div className="flex flex-col space-y-12 h-[500px] 2xl:w-[58%] 2xl:h-1/2 overflow-auto scroll-smooth">
-                <div className="flex flex-row px-8 space-x-2 2xl:space-x-4 2xl:w-full 2xl:overflow-auto 2xl:h-[700px]">
-                    <div className="text-Awhite text-lg 2xl:text-5xl font-bold w-[100px] 2xl:w-[250px]">
+            <div className="flex flex-col space-y-12 h-[500px] screen-w:w-[58%] screen-w:h-1/2 overflow-auto scroll-smooth">
+                <div className="flex flex-row px-8 space-x-2 screen-w:space-x-4 screen-w:w-full screen-w:overflow-auto screen-w:h-[700px]">
+                    <div className="text-Awhite text-lg screen-w:text-5xl font-bold w-[100px] screen-w:w-[250px]">
                         개인전
                     </div>
-                    <div className="flex flex-col space-y-2 2xl:space-y-5">
+                    <div className="flex flex-col space-y-2 screen-w:space-y-5">
                             {timeline_i.map((item)=>(
                                 <span
                                     key={item.order}
-                                    className="text-Cpurple font-bold text-sm 2xl:text-3xl">{item.year}</span>
+                                    className="text-Cpurple font-bold text-sm screen-w:text-3xl">{item.year}</span>
                             ))}
                         </div>
-                        <div className="flex flex-col space-y-2 2xl:space-y-5">
+                        <div className="flex flex-col space-y-2 screen-w:space-y-5">
                             {timeline_i.map((item)=> (
                                 <span
                                     key={item.order}
-                                    className="text-Awhite font-bold text-sm 2xl:text-3xl"
+                                    className="text-Awhite font-bold text-sm screen-w:text-3xl"
                                 >
                                     {item.award}
                                 </span>
                             ))}
                         </div>
                 </div>
-                <div className="flex flex-row px-8 space-x-2 2xl:space-x-4 2xl:w-full 2xl:overflow-auto 2xl:h-[700px]">
-                    <div className="text-Awhite text-lg 2xl:text-5xl font-bold w-[100px] 2xl:w-[250px]">
+                <div className="flex flex-row px-8 space-x-2 screen-w:space-x-4 screen-w:w-full screen-w:overflow-auto screen-w:h-[700px]">
+                    <div className="text-Awhite text-lg screen-w:text-5xl font-bold w-[100px] screen-w:w-[250px]">
                         단체전
                     </div>
-                    <div className="flex flex-col space-y-2 2xl:space-y-5">
+                    <div className="flex flex-col space-y-2 screen-w:space-y-5">
                             {timeline_g.map((item)=>(
                                 <span
                                     key={item.order}
-                                    className="flex-1 text-Cpurple font-bold text-sm 2xl:text-3xl">{item.year}</span>
+                                    className="flex-1 text-Cpurple font-bold text-sm screen-w:text-3xl">{item.year}</span>
                             ))}
                         </div>
-                        <div className="flex flex-col space-y-2 2xl:space-y-5">
+                        <div className="flex flex-col space-y-2 screen-w:space-y-5">
                             {timeline_g.map((item)=> (
                                 <span
                                     key={item.order}
-                                    className="flex-1 text-Awhite font-bold text-sm 2xl:text-3xl"
+                                    className="flex-1 text-Awhite font-bold text-sm screen-w:text-3xl"
                                 >
                                     {item.award}
                                 </span>

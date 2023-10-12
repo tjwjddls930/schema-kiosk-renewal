@@ -9,8 +9,8 @@ export default function Award() {
     const [award, setAward] = useState();
     return(
         <Awardlayout>
-            <div className="w-11/12 h-12 2xl:h-32 flex text-Cgrey border-b-4 2xl:pt-10 border-Cgrey mx-auto justify-center">
-                <ul className="flex flex-row space-x-12 2xl:space-x-16 font-bold text-xl 2xl:text-4xl pb-1">
+            <div className="w-11/12 h-12 screen-w:h-32 flex text-Cgrey border-b-4 screen-w:pt-10 border-Cgrey mx-auto justify-center">
+                <ul className="flex flex-row space-x-12 screen-w:space-x-16 font-bold text-xl screen-w:text-4xl pb-1">
                     {awardData.map((item)=> (
                         <li
                             key={item.title}
@@ -22,7 +22,7 @@ export default function Award() {
                     ))}
                 </ul>
             </div>
-            <div className="w-full h-[55%] 2xl:h-[85%] bg-Bgrey">
+            <div className="w-full h-[55%] screen-w:h-[85%] bg-Bgrey">
                 <main>
                     <AnimatePresence>
                         <motion.div

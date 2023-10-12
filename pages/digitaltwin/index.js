@@ -6,14 +6,14 @@ import Camerabutton from '@/components/digitaltwin/Camerabutton';
 import Cameracontrol from '@/components/digitaltwin/Cameracontrol';
 import Virtualexhibit from '@/components/digitaltwin/Virtualexhibit';
 import Model from '@/components/digitaltwin/Model';
-import Link from 'next/link';
+import Inactivityredirect from '@/components/digitaltwin/Inactivityredirect';
 
 export default function Schemafloor() {
     return(
         <div className="h-screen w-screen">
             {/* <Link href="/main">  
             </Link> */}
-            
+            <Inactivityredirect timeoutInMinutes={0.5} />
             <Suspense fallback={<Loading />}>
                 <Camerabutton />
                 <Canvas 

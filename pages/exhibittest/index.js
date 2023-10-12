@@ -20,7 +20,7 @@ export default function Exhibitpage() {
                     </div>
                 </div>
                 <div className="w-11/12 h-12 flex text-Dgrey shadow-md mx-auto justify-center overflow-hidden">
-                    <ul className="flex flex-row space-x-12 font-bold text-2xl mb-2">
+                    <ul className="flex flex-row space-x-12 font-bold text-screen-w mb-2">
                         {allExhibits.map((item)=> (
                             <li
                                 key={item.year}
