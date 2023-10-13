@@ -13,7 +13,7 @@ export default function Schemafloor() {
         <div className="h-screen w-screen">
             {/* <Link href="/main">  
             </Link> */}
-            <Inactivityredirect timeoutInMinutes={0.5} />
+            <Inactivityredirect timeoutInMinutes={2} />
             <Suspense fallback={<Loading />}>
                 <Camerabutton />
                 <Canvas 
