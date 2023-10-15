@@ -19,7 +19,7 @@ const CoverflowCarousel = () => {
     <>
       {/* <!-- Coverflow Slider --> */}
       {isClient && (
-        <div className="relative px-6 py-16 sm:px-0">
+        <div className="relative px-6 screen-w:px-8 screen-w:py-12 sm:px-0">
           {/* <!-- Swiper Slider --> */}
           <Swiper
             breakpoints={{
@@ -38,8 +38,14 @@ const CoverflowCarousel = () => {
               992: {
                 // width: 768,
                 slidesPerView: 5,
-                spaceBetween: 20, // which adds 30px of space between each slide.
+                spaceBetween: 30, // which adds 30px of space between each slide.
               },
+              // 1920: {
+              //   // width: 940,
+              //   // height: 940,
+              //   slidesPerView:7,
+              //   spaceBetween: 20,
+              // }
             }}
             effect={"coverflow"}
             grabCursor={true}
@@ -69,18 +75,23 @@ const CoverflowCarousel = () => {
                     <div className="block overflow-hidden rounded-2.5xl bg-white shadow-md transition-shadow hover:shadow-lg dark:bg-jacarta-700">
                       <figure className="relative">
                         <Link href={`/education/program/${id}`}>
-                          <Image
+                          {/* <Image
                             width={450}
                             height={430}
                             src={img}
                             alt={title}
                             priority={true}
                             className="swiper-lazy object-cover"
+                          /> */}
+                          <img 
+                            className="w-[450px] h-[250px] screen-w:w-[1100px] screen-w:h-[700px]"
+                            src={img}
+                            alt={title}
                           />
                         </Link>
                       </figure>
-                      <div className="p-6">
-                        <div className="flex">
+                      <div className="p-4 screen-w:p-6">
+                        <div className="flex w-[450px] screen-w:w-[1100px]">
                           {/* <Link href={`/author/${id}`} className="shrink-0">
                             <Image
                               width={40}
@@ -92,7 +103,7 @@ const CoverflowCarousel = () => {
                           </Link> */}
                           <div>
                             <Link href={`/education/program/${id}`} className="block">
-                              <span className="font-display text-base leading-none text-jacarta-700 hover:text-accent dark:text-white">
+                              <span className="font-display text-xs screen-h:text-lg leading-none text-jacarta-700 hover:text-accent dark:text-white">
                                 {title}
                               </span>
                             </Link>
@@ -112,25 +123,25 @@ const CoverflowCarousel = () => {
             })}
           </Swiper>
 
-          <div className="swiper-button-prev-4 group absolute top-1/2 left-4 z-10 -mt-6 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume">
+          <div className="swiper-button-prev-4 group absolute top-1/2 left-4 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              width="24"
-              height="24"
-              className="fill-jacarta-700 group-hover:fill-accent"
+              // width="24"
+              // height="24"
+              className="h-24 w-24 screen-w:h-36 screen-w:w-36 fill-jacarta-700 group-hover:fill-accent"
             >
               <path fill="none" d="M0 0h24v24H0z" />
               <path d="M10.828 12l4.95 4.95-1.414 1.414L8 12l6.364-6.364 1.414 1.414z" />
             </svg>
           </div>
-          <div className="swiper-button-next-4 group absolute top-1/2 right-4 z-10 -mt-6 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume">
+          <div className="swiper-button-next-4 group absolute top-1/2 right-4 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              width="24"
-              height="24"
-              className="fill-jacarta-700 group-hover:fill-accent"
+              // width="24"
+              // height="24"
+              className="h-24 w-24 screen-w:h-36 screen-w:w-36 fill-jacarta-700 group-hover:fill-accent"
             >
               <path fill="none" d="M0 0h24v24H0z" />
               <path d="M13.172 12l-4.95-4.95 1.414-1.414L16 12l-6.364 6.364-1.414-1.414z" />

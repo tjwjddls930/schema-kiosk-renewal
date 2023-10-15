@@ -1,6 +1,6 @@
 import { useTranslation } from "next-i18next"
 import Image from "next/image";
-import Pageframe from "../pagelayout/Pageframe";
+import Pageframe from "../pagelayout/TallLayout";
 import Link from "next/link";
 import Navbar from "../navbar/Navbar";
 
@@ -8,57 +8,36 @@ export default function ConnectLayout({children}) {
     const {t} = useTranslation('common');
 
     return(
-        <Pageframe>
-            <div className="h-screen w-screen bg-[url('/img/connectpage/connect_bg.png')] bg-cover">
-                <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
-                    <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
-                        {'전시 안내'}
-                    </span>
-                    <div className="h-[0.5px] flex flex-col mx-auto text-center items-center space-y-8">
-                        <span className="text-Ablack font-bold text-xl screen-w:text-5xl">{'스마트 디지털 전시 관람 서비스'}</span>
-                        <span className="text-Cgrey font-bold text-lg screen-w:text-screen-w">{t("MAIN_TOP_2")}</span>
-                    </div>
-                    <div className="flex flex-row space-x-2 text-black">
-                        {/* <Link href="/main">
-                            <Image 
-                                src="/img/connectpage/홈버튼_밝은화면용.png"
-                                width="50"
-                                height="50"
-                                alt="home"
-                                style={{
-                                    width:"auto",
-                                    height:"auto"
-                                }}
-                            />
-                            <img 
-                                src="/img/connectpage/홈버튼_밝은화면용.png"
-                                className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
-                                alt="home"
-                            />
-                        </Link> */}
-                    </div>
-                </div>
-                {/* <div className="absolute transform -rotate-90 h-1 left-44 top-56">
-                    <span className="text-Apurple font-bold text-lg screen-w:text-screen-w">Schema</span>
-                </div> */}
-                {children}
-                {/* <div className="absolute transform rotate-90 right-52 bottom-52 screen-w:right-36 screen-w:bottom-60">
-                        <span className="text-Apurple font-bold text-lg screen-w:text-screen-w">Art Museum</span>
-                </div> */}
-                <button className="absolute left-14 bottom-20 screen-w:bottom-40">
-                    <Link href="/main">
-                        <img 
-                            src="/img/connectpage/홈버튼_밝은화면용.png"
-                            className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
-                            alt="home"
-                        />
-                    </Link>
-                </button>
-                <Navbar 
-                    url={"/video/docent/blue-docent-test-02-removed.webm"}
-                    lang={"exhibit"}
-                />
+        // <Pageframe>
+            
+        // </Pageframe>
+        <div className="h-screen w-screen bg-[url('/img/connectpage/connect_bg.png')] bg-cover">
+            <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+                <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                    {'전시 안내'}
+                </span>
+                <span className="text-Agrey text-base screen-w:text-xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
             </div>
-        </Pageframe>
+            {/* <div className="absolute transform -rotate-90 h-1 left-44 top-56">
+                <span className="text-Apurple font-bold text-lg screen-w:text-screen-w">Schema</span>
+            </div> */}
+            {children}
+            {/* <div className="absolute transform rotate-90 right-52 bottom-52 screen-w:right-36 screen-w:bottom-60">
+                    <span className="text-Apurple font-bold text-lg screen-w:text-screen-w">Art Museum</span>
+            </div> */}
+            <button className="absolute left-14 bottom-20 screen-w:bottom-40">
+                <Link href="/main">
+                    <img 
+                        src="/img/connectpage/홈버튼_밝은화면용.png"
+                        className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
+                        alt="home"
+                    />
+                </Link>
+            </button>
+            <Navbar 
+                url={"/video/docent/blue-docent-test-02-removed.webm"}
+                lang={"exhibit"}
+            />
+        </div>
     )
 }

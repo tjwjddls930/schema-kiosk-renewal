@@ -29,7 +29,7 @@ export default function Schemaintro() {
                 <span className="text-xl font-bold text-Cpurple screen-w:text-5xl">Schema</span>
             </div>
             <div className="h-5/6 w-2/5 flex flex-col space-y-4 screen-w:space-y-12 screen-w:px-8">
-                <div className="flex flex-col space-y-2 screen-w:space-y-6">
+                <div className="flex flex-col space-y-1 screen-w:space-y-6">
                     <div className="h-[2px] w-14 screen-w:w-36 bg-Cpurple"></div>
                     <span className="font-bold text-lg screen-w:text-6xl text-Cgrey">Schema Art Museum</span>
                     <span className="font-bold text-xl screen-w:text-8xl text-black">{t("NAME")}</span>
@@ -40,7 +40,7 @@ export default function Schemaintro() {
                      <span className="text-Cpurple text-sm screen-w:text-5xl">{'박물'}</span>
                     <span className="text-Cpurple text-sm screen-w:text-5xl">{'관, 미술관 창제 프로그램 우수 운영기관으로 선정'}</span>{'되었습니다.'}
                 </p> */}
-                <p className="text-Cgrey text-sm screen-w:text-4xl font-bold screen-w:leading-snug">
+                <p className="text-Cgrey text-xs screen-w:text-4xl font-bold screen-w:leading-snug">
                     {t("P1")}
                 </p>
                 <div className="mx-auto text-center flex flex-row space-x-6">
@@ -61,7 +61,7 @@ export default function Schemaintro() {
                     <span className="text-Cpurple text-sm screen-w:text-5xl">{'의 격이 시대정신에 걸 맞는 창작 예술의 연구와 실천을 위한'}</span>
                     <span className="text-Cpurple text-sm screen-w:text-5xl">{'공간'}</span>{'이 될 수 있도록 최선의 역할을 하고자 합니다.'}
                 </p> */}
-                <p className="text-Cgrey text-sm screen-w:text-4xl font-bold screen-w:leading-snug">
+                <p className="text-Cgrey text-xs screen-w:text-4xl font-bold screen-w:leading-snug">
                     {t("P2")} 
                 </p>
             </div>
@@ -76,10 +76,10 @@ export default function Schemaintro() {
                  {/* <p className="text-Cgrey text-sm screen-w:text-5xl font-bold screen-w:pt-48 screen-w:leading-snug">
                     {'향후 예술가뿐만 아니라 문화시민을 위한 사회교육, 어린이 예술체험교육의 다양한 프로그램 개발과 독창적인 전시기획으로 내실을 다지고, 지역사회와 함께하는 사업을 추진하는 공공 미술관으로서의 역할을 하고자 합니다.'}
                 </p> */}
-                <p className="text-Cgrey text-sm screen-w:text-4xl font-bold screen-w:pt-48 screen-w:leading-snug">
+                <p className="text-Cgrey text-xs screen-w:text-4xl font-bold screen-w:pt-48 screen-w:leading-snug">
                     {t("P3")}
                 </p>
-                <p className="text-Cgrey text-sm screen-w:text-4xl font-bold screen-w:pt-48 screen-w:leading-snug">
+                <p className="text-Cgrey text-xs screen-w:text-4xl font-bold screen-w:pt-48 screen-w:leading-snug">
                     {t("P4")}
                 </p>
             </div>
@@ -102,7 +102,7 @@ export default function Schemaintro() {
 
             <div className="absolute right-0 bottom-0 screen-w:bottom-0">
                 <img 
-                    className="h-[250px] w-[820px] screen-w:h-[550px] screen-w:w-[2200px]" 
+                    className="h-[250px] w-[670px] screen-w:h-[550px] screen-w:w-[2200px]" 
                     src="/img/intro/introduction/schema_image_보정.png"
                     alt="schema_image_2"
                 />

@@ -4,7 +4,9 @@ import { useState, useEffect, Suspense } from "react";
 import { useRouter } from "next/router";
 import { modelData } from "@/data/modelData";
 import Modelcontent from "@/components/modelpage/Modelcontent";
+import Navbar from "@/components/navbar/Navbar";
 import ViewNavbar from "@/components/navbar/3DpageNavbar";
+import Inactivityredirect from "@/components/digitaltwin/Inactivityredirect";
 
 export default function Modelpage() {
     const router = useRouter();
@@ -48,7 +50,7 @@ export default function Modelpage() {
             <div className="absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:h-[300px] screen-w:w-[3 00px] screen-w:left-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
                 <button
                     id="left"
-                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] text-center text-xl screen-w:text-[150px] font-bold text-Awhite"
+                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] text-center text-3xl screen-w:text-[150px] font-bold text-Awhite"
                     onClick={(e)=>prevExhibit(e)}
                 >   
                     {'<'}
@@ -57,7 +59,7 @@ export default function Modelpage() {
             <div className="absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:right-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
                 <button
                     id="right"
-                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] text-center text-xl screen-w:text-[150px] font-bold text-Awhite"
+                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] text-center text-3xl screen-w:text-[150px] font-bold text-Awhite"
                     onClick={(e)=>nextExhibit(e)}
                 >   
                     {'>'}
@@ -94,11 +96,17 @@ export default function Modelpage() {
                     </div>
                 </div>
             )}
-            <ViewNavbar 
+            {/* <ViewNavbar 
                 url={"/video/docent/blue-docent-test-02-removed.webm"}
                 lang={"viewpage"}
                 pid={mid}
-            />
+            /> */}
+            <Navbar 
+                url={"/video/docent/schema-docent-04.webm"}
+                lang={"main"}
+                sign={"/video/sign/schema_sign_2.mp4"}
+                // fontsize={fontsize}
+            />  
         </Modellayout>
         )}
         </>

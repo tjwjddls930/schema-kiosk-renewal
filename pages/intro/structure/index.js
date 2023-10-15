@@ -9,7 +9,7 @@ export default function Structure() {
     return(
         <Introlayout>
             <div className="w-11/12 h-14 screen-w:h-32 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center">
-                <ul className="flex flex-row space-x-12 font-bold text-screen-w pb-2 screen-w:space-x-16 screen-w:text-4xl">
+                <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2 screen-w:space-x-16 screen-w:text-4xl">
                     {introData.map((item)=> (
                         <li
                             key={item.title}
@@ -21,7 +21,7 @@ export default function Structure() {
                     ))}
                 </ul>
             </div>
-            <div className="w-full h-2/3 screen-w:h-[90%] bg-Awhite">
+            <div className="w-full h-3/4 screen-w:h-[90%] bg-Awhite">
                 <main>
                     <AnimatePresence>
                         <motion.div

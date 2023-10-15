@@ -4,11 +4,12 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Loading from '@/components/loading/Loading';
 import { Suspense } from 'react';
+import WideLayout from '@/components/pagelayout/WideLayout';
 
 function App({ Component, pageProps }) {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
-
+  
   useEffect(()=> {
     const handleRouteChange = (url) => {
       setLoading(true);
@@ -25,14 +26,17 @@ function App({ Component, pageProps }) {
       router.events.off('routeChangeStart', handleRouteChange);
       router.events.off('routeChangeComplete', handleRouteChangeComplete);
     }
-  }, [router.events])
+  }, [router.events]);
   
   return(
     <>{loading ? 
       <Loading/> : 
-      <Suspense fallback={null}>
+    <Suspense fallback={null}>
+      {/* <WideLayout>
+      </WideLayout> */}
         <Component {...pageProps} />  
-      </Suspense>}</>
+    </Suspense> 
+  }</>
   )
 };
 

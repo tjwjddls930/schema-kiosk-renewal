@@ -25,12 +25,12 @@ export default function Mainpagebutton() {
     return(
         <>
              {/* 중단 버튼 구역*/}
-             <div className="w-4/5 h-2/3 screen-h:w-2/3 screen-h:h-4/5 pt-10 px-14 flex flex-row screen-h:flex-col screen-h:space-y-5 space-x-5 mx-auto">
+             <div className="w-4/5 h-2/3 pt-10 px-14 flex flex-row space-x-5 mx-auto">
                 {/* <div className="absolute transform -rotate-90 h-1 left-44 top-44 screen-w:left-80 screen-w:top-80">
                     <span className="text-Apurple font-bold screen-w:text-4xl">Schema</span>
                 </div> */}
-                <div className="w-1/3 flex flex-col screen-h:w-full screen-h:h-1/3 screen-h:flex-row screen-h:space-x-5 space-y-5 items-center text-Agrey shadow-md rounded-sm">
-                    <div className="flex w-full h-1/2 screen-h:w-1/2 screen-h:h-[600px] items-center bg-[url('/img/mainpage/미술관소개_보정이미지.png')] bg-cover bg-no-repeat rounded-lg shadow-md bg-opacity-80">
+                <div className="w-1/3 flex flex-col space-y-5 items-center text-Agrey shadow-md rounded-sm">
+                    <div className="flex w-full h-1/2 items-center bg-[url('/img/mainpage/미술관소개_보정이미지.png')] bg-cover bg-no-repeat rounded-lg shadow-md bg-opacity-80">
                         <button className="text-center h-full w-full bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto"
                             onClick={()=>router.push("/intro")}
                         >
@@ -43,7 +43,7 @@ export default function Mainpagebutton() {
                             {/* </Link> */}
                         </button>
                     </div>
-                    <div className="flex w-full h-1/2 screen-h:w-1/2 screen-h:h-[600px] items-center bg-[url('/img/mainpage/챗봇안내_보정이미지.png')] bg-cover bg-no-repeat shadow-md rounded-lg">
+                    <div className="flex w-full h-1/2 items-center bg-[url('/img/mainpage/챗봇안내_보정이미지.png')] bg-cover bg-no-repeat shadow-md rounded-lg">
                         <button className="text-center text-white h-full w-full mx-auto bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat"
                             onClick={()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
                         >
@@ -64,8 +64,8 @@ export default function Mainpagebutton() {
                         </div>
                     </button>
                 </div>
-                <div className="w-1/3 flex flex-col space-y-5 screen-h:w-full screen-h:h-1/3 screen-h:flex-row screen-h:space-x-5 text-Awhite">
-                    <div className="flex w-full h-1/2 screen-h:h-full screen-h:w-1/2 items-center bg-[url('/img/mainpage/교육프로그램_보정이미지.png')] bg-no-repeat bg-cover shadow-md rounded-lg">
+                <div className="w-1/3 flex flex-col space-y-5 text-Awhite">
+                    <div className="flex w-full h-1/2 items-center bg-[url('/img/mainpage/교육프로그램_보정이미지.png')] bg-no-repeat bg-cover shadow-md rounded-lg">
                         <button className="text-center h-full w-full mx-auto bg-[url('/img/mainpage/교육프로그램_도형.png')] bg-no-repeat bg-cover">
                             <div className="flex flex-col space-y-2">
                                     <span className="text-lg screen-w:text-4xl font-bold">{t("MAIN_EDUCATION")}</span>
@@ -73,7 +73,7 @@ export default function Mainpagebutton() {
                             </div>
                         </button>
                     </div>
-                    <div className="flex w-full h-1/2 screen-h:h-full screen-h:w-1/2 items-center bg-[url('/img/mainpage/시설안내_보정이미지.png')] bg-no-repeat bg-cover shadow-md rounded-lg">
+                    <div className="flex w-full h-1/2 items-center bg-[url('/img/mainpage/시설안내_보정이미지.png')] bg-no-repeat bg-cover shadow-md rounded-lg">
                         <button className="text-center h-full w-full mx-auto bg-[url('/img/mainpage/시설안내_도형.png')] bg-no-repeat bg-cover">
                             <Link href="/digitaltwin">
                                 <div className="flex flex-col space-y-2">

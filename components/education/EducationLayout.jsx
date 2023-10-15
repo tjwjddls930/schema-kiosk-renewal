@@ -1,4 +1,4 @@
-import Pageframe from "../pagelayout/Pageframe";
+import Pageframe from "../pagelayout/TallLayout";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";

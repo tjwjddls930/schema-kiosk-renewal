@@ -1,4 +1,4 @@
-import Pageframe from "@/components/pagelayout/Pageframe";
+import Pageframe from "@/components/pagelayout/TallLayout";
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/navbar/Navbar";
@@ -6,9 +6,9 @@ import Navbar from "@/components/navbar/Navbar";
 export default function Awardlayout({children}) {
 
     return(
-        <Pageframe>
+          <>
             <div className="h-screen w-screen bg-Agrey">
-                <div className="w-full py-10 px-16 flex flex-row justify-between">
+                <div className="w-full py-6 px-12 screen-w:py-12 screen-w:px-20 flex flex-row justify-between">
                     <div className="flex flex-row">
                         <Link href="/main">
                             <Image 
@@ -24,11 +24,11 @@ export default function Awardlayout({children}) {
                                 priority={true}
                             />
                         </Link>
-                        <span className="text-Awhite text-xl font-bold mt-2">미술관 소개 </span>
-                        <span className="text-Awhite text-xl font-bold mt-2">{'> 쉐마국제미술상'}</span>
+                        <span className="text-Awhite text-base screen-w:text-xl font-bold mt-2">미술관 소개 </span>
+                        <span className="text-Awhite text-base screen-w:text-xl font-bold mt-2">{'> 쉐마국제미술상'}</span>
                     </div>
                     <div>
-                        <span className="text-Awhite textlg font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
+                        <span className="text-Awhite text-base screen-w:text-xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
                     </div>
                 </div>
                 <div className="absolute left-16 bottom-24 h-[300px] screen-w:left-20 screen-w:bottom-80 screen-w:h-[1000px]">
@@ -66,7 +66,7 @@ export default function Awardlayout({children}) {
                             alt="back"
                             priority={true}
                         /> */}
-                          <img 
+                            <img 
                             src="/img/intro/award/뒤로가기버튼_밝은버전.png"
                             className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
                             alt="home"
@@ -94,6 +94,6 @@ export default function Awardlayout({children}) {
                 url={"/video/docent/schema-docent-01A.webm"}
                 lang={"/intro/award"}
             />
-        </Pageframe>
+          </>
     )
 };

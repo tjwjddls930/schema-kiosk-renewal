@@ -1,4 +1,4 @@
-import Pageframe from "../pagelayout/Pageframe";
+import Pageframe from "../pagelayout/TallLayout";
 import Link from "next/link";
 import Image from "next/image";
 

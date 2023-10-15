@@ -37,7 +37,7 @@ export default function Schemastructure() {
             <div className="w-1/2 flex flex-col space-y-2 screen-w:space-y-8 items-center text-center">
                 <div className="shadow-lg screen-w:w-3/4">
                     <img 
-                        className="h-[300px] w-[450px] screen-w:w-full screen-w:h-full mx-auto"
+                        className="h-[250px] w-[450px] screen-w:w-full screen-w:h-full mx-auto"
                         src="/img/intro/structure/쉐마_야외공간.jpg"
                         alt="outdoor"
                     />

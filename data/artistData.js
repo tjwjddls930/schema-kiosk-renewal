@@ -2,6 +2,7 @@
 export const artistData = [
     {
         order: "0", 
+        number: "01",
         title: "매끄러운 돌밭2", 
         name: "금민정", 
         engname: "Guem Min Jeong",
@@ -59,13 +60,14 @@ export const artistData = [
     },
     {
         order: "1",
-         title: "매끄러운 돌밭2", 
-         name: "김준", 
-         engname: "Kim Joon",
-         imgname:"김준.jpg", 
-         text: "몸을 빌어 감각할 수 있는 기쁨에 대한 댓가는 만만치 않다. 그래서 몸은 관능적이고 매혹적이며… 때로는 공포스럽고 협오스럽다. 몸을 극복하려는 노력과 몸을 초월하려는 의지를 오가며 몸에 집착한다. 내 작업은 몸에 대한 애증과 그로테스크한 현실에서 시작된다. 몸에서 비롯되는 문제가 해결되면 다른 주제를 다루고 싶었다. …경솔했다. 다시 몸과의 전쟁이다. 디지털 작업의 세계로 발을 디뎠을 때, 오프라인 작업실을 컴퓨터 모니터 안으로 옮기는 것에 성공했다. 거기엔 월세도 없었고 평수의 제한도 없었다. 약간의 전기세면 충분했다. 어쩌면 내 몸도 가능해질지 모를 일이다.",
-         education: "홍익대학교 미술대학 회화전공 및 동대학원 석사 졸업 현 국립공주대학교 만화애니메이션학부 교수",
-         individual_exhibition: [
+        number: "02",
+        title: "매끄러운 돌밭2", 
+        name: "김준", 
+        engname: "Kim Joon",
+        imgname:"김준.jpg", 
+        text: "몸을 빌어 감각할 수 있는 기쁨에 대한 댓가는 만만치 않다. 그래서 몸은 관능적이고 매혹적이며… 때로는 공포스럽고 협오스럽다. 몸을 극복하려는 노력과 몸을 초월하려는 의지를 오가며 몸에 집착한다. 내 작업은 몸에 대한 애증과 그로테스크한 현실에서 시작된다. 몸에서 비롯되는 문제가 해결되면 다른 주제를 다루고 싶었다. …경솔했다. 다시 몸과의 전쟁이다. 디지털 작업의 세계로 발을 디뎠을 때, 오프라인 작업실을 컴퓨터 모니터 안으로 옮기는 것에 성공했다. 거기엔 월세도 없었고 평수의 제한도 없었다. 약간의 전기세면 충분했다. 어쩌면 내 몸도 가능해질지 모를 일이다.",
+        education: "홍익대학교 미술대학 회화전공 및 동대학원 석사 졸업 현 국립공주대학교 만화애니메이션학부 교수",
+        individual_exhibition: [
             {order: 1, exhibit: "2020 《VASE》, 갤러리 휴, 파주"},
             {order: 2, exhibit: "2017 《Gone With The Wind》, 자하미술관, 서울"},
             {order: 3, exhibit: "2016 《KIM JOON》, 뮤제 마그넬리, 발로리스, 프랑스"},
@@ -134,6 +136,7 @@ export const artistData = [
     },
     {
         order: "2", 
+        number: "03",
         title: "매끄러운 돌밭2", 
         name: "옥승철", 
         engname: "OK Seungcheol",
@@ -172,6 +175,7 @@ export const artistData = [
     },    
     {
         order: "3", 
+        number: "04",
         title: "매끄러운 돌밭2", 
         name: "이윤성", 
         engname: "Lee Yun Sung",

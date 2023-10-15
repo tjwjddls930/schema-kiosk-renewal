@@ -1,22 +1,22 @@
 export const coverflow_carousel_data = [
     {
       id: "01",
-      img: "/images/program_posters/program_poster_01.jpg",
-      title: "PROGRAM #01",
+      img: "/img/exhibitpage/박용수 개인전 '울림소리'.png",
+      title: "박용수 개인전 '울림소리'",
       authorImage: "/images/program_authors/program_author_01.jpg",
       authorName: "AUTHOR #01",
     },
     {
       id: "02",
-      img: "/images/program_posters/program_poster_01.jpg",
-      title: "PROGRAM #02",
+      img: "/img/exhibitpage/쉐마미술관 기획전 - 일상이라는 몸.png",
+      title: "쉐마미술관 기획전 - 일상이라는 몸",
       authorImage: "/images/program_authors/program_author_01.jpg",
       authorName: "AUTHOR #02",
     },
     {
       id: "03",
-      img: "/images/program_posters/program_poster_01.jpg",
-      title: "PROGRAM #03",
+      img: "/img/exhibitpage/후기에스펙트_전시.png",
+      title: "후기 에스펙트",
       authorImage: "/images/program_authors/program_author_01.jpg",
       authorName: "AUTHOR #03",
     },

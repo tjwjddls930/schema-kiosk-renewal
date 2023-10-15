@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useState } from "react";
+import Inactivityredirect from "../digitaltwin/Inactivityredirect";
 
 export default function Modellayout({children}) {
     const router = useRouter();
@@ -42,7 +43,7 @@ export default function Modellayout({children}) {
             </div>
             {/* 뒤로 가기 */}
             <button className="absolute left-14 bottom-28 screen-w:left-28 screen-w:bottom-44"
-                onClick={()=> router.back()}
+                onClick={async ()=> router.back()}
             >
                 {/* <Image 
                     src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
@@ -57,8 +58,9 @@ export default function Modellayout({children}) {
                     alt="back"
                 />
             </button>
-            <button className="absolute left-36 bottom-28 screen-w:left-72 screen-w:bottom-44">
-                <Link href="/main">
+            <button className="absolute left-36 bottom-28 screen-w:left-72 screen-w:bottom-44"
+                onClick={async ()=> router.push("/")}
+            >
                     {/* <Image 
                         src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
                         width="60"
@@ -71,7 +73,6 @@ export default function Modellayout({children}) {
                         className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
                         alt="home"
                     />
-                </Link>
             </button>
         </div>
     )

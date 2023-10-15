@@ -1,4 +1,4 @@
-import Pageframe from "@/components/pagelayout/Pageframe";
+import Pageframe from "@/components/pagelayout/TallLayout";
 import Link from "next/link";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 

@@ -4,6 +4,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { paintData } from "@/data/paintData";
+import Navbar from "@/components/navbar/Navbar";
 
 export default function Viewpage() {
     const [popup, setPopup] = useState(true);
@@ -93,6 +94,12 @@ export default function Viewpage() {
                     </div>
                 </div>
             )}
+            <Navbar 
+                url={"/video/docent/schema-docent-04.webm"}
+                lang={"main"}
+                sign={"/video/sign/schema_sign_2.mp4"}
+                // fontsize={fontsize}
+            />  
         </Viewlayout>
         )}
         </>

@@ -17,9 +17,11 @@ export default function Mainpage() {
                 lang={"main"}
                 sign={"/video/sign/schema_sign_2.mp4"}
                 // fontsize={fontsize}
-            />
+            />  
         </Mainpagelayout>
-                
+        // <>
+         
+        // </>       
     )
 };
 

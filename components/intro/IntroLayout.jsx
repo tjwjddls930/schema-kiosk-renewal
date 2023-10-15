@@ -1,4 +1,4 @@
-import Pageframe from "../pagelayout/Pageframe";
+import Pageframe from "../pagelayout/TallLayout";
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../navbar/Navbar";
@@ -6,9 +6,9 @@ import Navbar from "../navbar/Navbar";
 export default function Introlayout({children}) {
 
     return(
-        <Pageframe>
+        <>
             <div className="h-screen w-screen bg-Agrey">
-                <div className="w-full py-10 px-16 flex flex-row justify-between">
+                <div className="w-full py-6 px-12 screen-w:py-12 screen-w:px-20 flex flex-row justify-between">
                     <div className="flex flex-row">
                         <Image 
                             className="mr-6"
@@ -21,11 +21,11 @@ export default function Introlayout({children}) {
                                 height: "auto"
                             }}
                         />
-                        <span className="text-Awhite text-xl font-bold mt-2">미술관 소개 </span>
-                        <span className="text-Awhite text-xl font-bold mt-2">{'> 미술관 소개 및 구조'}</span>
+                        <span className="text-Awhite text-base screen-w:text-xl font-bold mt-2">미술관 소개 </span>
+                        <span className="text-Awhite text-base screen-w:text-xl font-bold mt-2">{'> 미술관 소개 및 구조'}</span>
                     </div>
                     <div>
-                        <span className="text-Awhite text-md font-bold">모두를 위한 보편적인 스마트 디지털 전시 관람 시스템</span>
+                        <span className="text-Awhite text-base screen-w:text-xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
                     </div>
                 </div>
                 {children}
@@ -57,6 +57,6 @@ export default function Introlayout({children}) {
             <Navbar 
                 url={"/video/docent/blue-docent-test-02-removed.webm"}
                 lang={"/intro/structure"} />
-        </Pageframe>
+        </>
     )
 }

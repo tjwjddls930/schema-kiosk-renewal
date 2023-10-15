@@ -6,7 +6,7 @@ import { awardData } from "@/data/awardData";
 import Awardcontent from "@/components/intro/award/Awardcontent";
 
 export default function Award() {
-    const [award, setAward] = useState();
+    const [award, setAward] = useState(awardData[0]);
     return(
         <Awardlayout>
             <div className="w-11/12 h-12 screen-w:h-32 flex text-Cgrey border-b-4 screen-w:pt-10 border-Cgrey mx-auto justify-center">
@@ -22,7 +22,7 @@ export default function Award() {
                     ))}
                 </ul>
             </div>
-            <div className="w-full h-[55%] screen-w:h-[85%] bg-Bgrey">
+            <div className="w-full h-3/4 screen-w:h-[85%] bg-Bgrey">
                 <main>
                     <AnimatePresence>
                         <motion.div

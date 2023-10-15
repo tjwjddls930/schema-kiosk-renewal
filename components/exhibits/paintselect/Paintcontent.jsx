@@ -74,7 +74,7 @@ export default function Paintcontent() {
                                 <div className="absolute h-20 screen-w:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0">
                                     <Link href={`/artist/paint/viewpage/${item.order}`}>
                                         <div className="flex justify-between p-4 screen-w:p-6">
-                                            <span className="font-bold pt-2 screen-w:pt-4 text-Awhite screen-w:text-screen-w">{'작품 감상하기'}</span>
+                                            <span className="font-bold text-base pt-2 screen-w:pt-4 text-Awhite screen-w:text-2xl">{'작품 감상하기'}</span>
                                             <button className="bg-black rounded-full h-10 w-10 screen-w:h-18 screen-w:w-18 items-cetner text-center screen-w:pt-2">
                                                 <img 
                                                     src="/img/exhibitpage/icons/화살표버튼.png"
@@ -111,7 +111,7 @@ export default function Paintcontent() {
                          <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
                      ))}
                  </div>
-                 <button className="h-8 w-[100px] text-sm screen-w:h-24 screen-w:w-[300px] screen-w:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Agradient to-Bgradient shadow-md">
+                 <button className="h-8 w-[100px] text-sm screen-w:h-40 screen-w:w-[300px] screen-w:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Agradient to-Bgradient shadow-md">
                      {'작가노트 보기'}
                 </button>
              </div>

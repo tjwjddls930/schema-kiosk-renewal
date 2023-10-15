@@ -5,12 +5,14 @@ import { paintData } from "@/data/paintData";
 import { modelData } from "@/data/modelData";
 import { pastpaintData } from "@/data/pastpaintData";
 import { useTranslation } from "next-i18next";
+import { useRouter } from "next/router";
 
 export default function ConnectButton() {
     const [popup, setPopup] = useState(false);
     const [future, setFuture] = useState(false);
     const [past, setPast] = useState(false);
     const {t} = useTranslation('connect');
+    const router = useRouter();
     return(
         <div className="w-3/4 h-[500px] screen-w:h-3/4 flex flex-row mx-auto">
             {popup && (
@@ -75,30 +77,28 @@ export default function ConnectButton() {
                 </div>
             )}
             <div className="flex flex-col h-full w-1/2">
-                <>
-                    <div className="h-[250px] screen-w:h-[600px] w-5/6 mx-auto"
-                        onClick={()=>setPast(!past)}
-                    >
-                        <div className="flex flex-row space-x-4 justify-start screen-w:space-x-6 screen-w:justify-center">
-                            <span className="text-[150px] screen-w:text-[300px] font-bold text-Ablack drop-shadow-xl">{'01'}</span>
-                            <div className="flex flex-col w-[170px] screen-w:w-[350px] screen-w:space-y-2 mr-4 pt-10 justify-start screen-w:justify-center">
-                                <div className="bg-Cpurple h-[1px] w-[70px]" />
-                                <span className="text-lg screen-w:text-screen-w text-Agrey font-bold">{'Last exhibition'}</span>
-                                <span className="text-screen-w screen-w:text-4xl text-Ablack font-bold mb-5">{t("PAST")}</span>
-                                <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("PAST_EX1")}</span>                        
-                                <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("PAST_EX2")}</span>
-                            </div>
-                            <div className="flex flex-col-reverse pb-8">
-                                <img 
-                                    className="h-12 w-12 screen-w:h-24 screen-w:w-24"
-                                    src="/img/connectpage/arrow_icon.png"
-                                    alt="arrow"
-                                />
-                            </div>
+                <div className="h-[250px] screen-w:h-[600px] w-5/6 mx-auto"
+                    onClick={async ()=> router.push('/exhibittest')}
+                >
+                    <div className="flex flex-row space-x-4 justify-start screen-w:space-x-6 screen-w:justify-center">
+                        <span className="text-[150px] screen-w:text-[300px] font-bold text-Ablack drop-shadow-xl">{'01'}</span>
+                        <div className="flex flex-col w-[170px] screen-w:w-[350px] screen-w:space-y-2 mr-4 pt-10 justify-start screen-w:justify-center">
+                            <div className="bg-Cpurple h-[1px] w-[70px]" />
+                            <span className="text-base screen-w:text-2xl text-Agrey font-bold">{'Last exhibition'}</span>
+                            <span className="text-screen-w screen-w:text-4xl text-Ablack font-bold mb-5">{t("PAST")}</span>
+                            <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("PAST_EX1")}</span>                        
+                            <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("PAST_EX2")}</span>
                         </div>
-                        <div className="bg-Ablack h-[1px] w-[400px] screen-w:h-[1.5px] screen-w:w-[800px] mx-auto" />
+                        <div className="flex flex-col-reverse pb-8">
+                            <img 
+                                className="h-12 w-12 screen-w:h-24 screen-w:w-24"
+                                src="/img/connectpage/arrow_icon.png"
+                                alt="arrow"
+                            />
+                        </div>
                     </div>
-                </>
+                    <div className="bg-Ablack h-[1px] w-[400px] screen-w:h-[1.5px] screen-w:w-[800px] mx-auto" />
+                </div>
                 <>
                     <div className="h-[250px] screen-w:h-[600px] w-5/6 mx-auto"
                         onClick={()=>setPopup(!popup)}
@@ -107,7 +107,7 @@ export default function ConnectButton() {
                             <span className="text-[150px] screen-w:text-[300px] font-bold text-Ablack drop-shadow-xl">{'02'}</span>
                             <div className="flex flex-col w-[170px] screen-w:w-[350px] screen-w:space-y-2 mr-4 pt-10 justify-start screen-w:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
-                                <span className="text-lg screen-w:text-screen-w text-Agrey font-bold">{'Present exhibition'}</span>
+                                <span className="text-base screen-w:text-2xl text-Agrey font-bold">{'Present exhibition'}</span>
                                 <span className="text-screen-w screen-w:text-4xl text-Ablack font-bold mb-5">{t("CURRENT")}</span>
                                 <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("CURRENT_EX1")}</span>                        
                                 <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("CURRENT_EX2")}</span>
@@ -133,7 +133,7 @@ export default function ConnectButton() {
                             <span className="text-[150px] screen-w:text-[300px] font-bold text-Ablack drop-shadow-xl">{'03'}</span>
                             <div className="flex flex-col w-[170px] screen-w:w-[350px] screen-w:space-y-2 pt-10 mr-4 justify-start screen-w:justify-center">
                                 <div className="bg-Cpurple h-[1px] w-[70px]" />
-                                <span className="text-lg screen-w:text-screen-w text-Agrey font-bold">{'Scheduled exhibition'}</span>
+                                <span className="text-base screen-w:text-2xl text-Agrey font-bold">{'Scheduled exhibition'}</span>
                                 <span className="text-screen-w screen-w:text-4xl text-Ablack font-bold mb-5">{t("SCHEDULE")}</span>
                                 <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("SCHEDULE_EX1")}</span>                        
                                 <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("SCHEDULE_EX2")}</span>
@@ -149,28 +149,28 @@ export default function ConnectButton() {
                         <div className="bg-Ablack h-[1.5px] w-[400px] screen-w:h-[1.5px] screen-w:w-[800px] mx-auto" />
                     </div>
                 </>
-                <Link href={`/modelpage/${modelData[0].order}`}>
-                    <div className="h-[250px] screen-w:h-[600px] w-5/6 mx-auto">
-                        <div className="flex flex-row space-x-4 justify-start screen-w:space-x-6 screen-w:justify-center">
-                            <span className="text-[150px] screen-w:text-[300px] font-bold text-Ablack drop-shadow-xl">{'04'}</span>
-                            <div className="flex flex-col w-[170px] screen-w:w-[350px] screen-w:space-y-2 pt-10 mr-4 justify-start screen-w:justify-center">
-                                <div className="bg-Cpurple h-[1px] w-[70px]" />
-                                <span className="text-lg screen-w:text-screen-w text-Agrey font-bold">{'Collection tour'}</span>
-                                <span className="text-screen-w screen-w:text-4xl text-Ablack font-bold mb-5">{t("COLLECTION")}</span>
-                                <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("COLLECTION_EX1")}</span>                        
-                                <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("COLLECTION_EX2")}</span>
-                            </div>
-                            <div className="flex flex-col-reverse pb-8">
-                                <img 
-                                    className="h-12 w-12 screen-w:h-24 screen-w:w-24"
-                                    src="/img/connectpage/arrow_icon.png"
-                                    alt="arrow"
-                                />
-                            </div>
+                <div className="h-[250px] screen-w:h-[600px] w-5/6 mx-auto"
+                    onClick={async ()=> router.push(`/modelpage/${modelData[0].order}`)}
+                >
+                    <div className="flex flex-row space-x-4 justify-start screen-w:space-x-6 screen-w:justify-center">
+                        <span className="text-[150px] screen-w:text-[300px] font-bold text-Ablack drop-shadow-xl">{'04'}</span>
+                        <div className="flex flex-col w-[170px] screen-w:w-[350px] screen-w:space-y-2 pt-10 mr-4 justify-start screen-w:justify-center">
+                            <div className="bg-Cpurple h-[1px] w-[70px]" />
+                            <span className="text-base screen-w:text-2xl text-Agrey font-bold">{'Collection tour'}</span>
+                            <span className="text-screen-w screen-w:text-4xl text-Ablack font-bold mb-5">{t("COLLECTION")}</span>
+                            <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("COLLECTION_EX1")}</span>                        
+                            <span className="text-base screen-w:text-xl text-Cgrey font-bold">{t("COLLECTION_EX2")}</span>
                         </div>
-                        <div className="bg-Ablack h-[1.5px] w-[400px] screen-w:h-[1.5px] screen-w:w-[800px] mx-auto" />
+                        <div className="flex flex-col-reverse pb-8">
+                            <img 
+                                className="h-12 w-12 screen-w:h-24 screen-w:w-24"
+                                src="/img/connectpage/arrow_icon.png"
+                                alt="arrow"
+                            />
+                        </div>
                     </div>
-                </Link>
+                    <div className="bg-Ablack h-[1.5px] w-[400px] screen-w:h-[1.5px] screen-w:w-[800px] mx-auto" />
+                </div>
             </div>
         </div>
     )
