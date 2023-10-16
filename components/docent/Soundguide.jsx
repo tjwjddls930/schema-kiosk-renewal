@@ -1,14 +1,18 @@
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
+import dynamic from "next/dynamic";
 
-export default function Signlanguage({videoUrl, volume, playing, end, ...props}) {
+const DynamicReactPlayer = dynamic(() => import('react-player'), {ssr: false});
+
+export default function Signlanguage({videoUrl, volume, end, loop, ...props}) {
     return (
-    <ReactPlayer 
+    <DynamicReactPlayer
         url={videoUrl}
         width="100%"
         height="100%"
         volume={volume}
         controls={false}
-        playing={playing}
+        playing={true}
+        loop={true}
         onEnded={end}
         {...props}
     />

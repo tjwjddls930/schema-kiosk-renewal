@@ -14,7 +14,19 @@ export default function Navbar({url, lang, sign}) {
     const [size, setSize] = useState(false);
     const [modal, setModal] = useState();
     const [id, setId] = useState(null);
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
     const {t, i18n} = useTranslation('navbar');
+    const videoSource = [
+        "/video/docent/docent_idle.mp4",
+        "/video/docent/schema-docent-04.webm"
+    ];
+
+    function switchVideo() {
+        // Increment the currentVideoIndex to switch to the next video.
+        setCurrentVideoIndex((prevIndex) =>
+        prevIndex === videoSource.length - 1 ? 0 : prevIndex + 1
+        );
+    }
 
     const router = useRouter();
     function handleLanguage(e, language) {
@@ -28,10 +40,10 @@ export default function Navbar({url, lang, sign}) {
     }
     return(
         <>
-            {soundguide && (
+            {/* {soundguide && (
                 // <div className="absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20">
                 // </div>
-                <div className="absolute bottom-12 screen-w:bottom-28 right-0 h-[530px] w-[530px] screen-w:h-[600px] screen-w:w-[600px] z-[999]">
+                <div className="absolute bottom-16 screen-w:bottom-28 right-0 h-[450px] w-[450px] screen-w:h-[600px] screen-w:w-[600px] z-[999]">
                     <Soundguide 
                         videoUrl={url}
                         volume={Number(volume)}
@@ -39,13 +51,19 @@ export default function Navbar({url, lang, sign}) {
                         end={()=>setSoundguide(!soundguide)}
                     />
             </div>
-            )}
+            )} */}
+            <div className="absolute bottom-16 screen-w:bottom-28 right-0 h-[350px] w-[350px] screen-w:right-8 screen-w:h-[1300px] screen-w:w-[1300px]">
+                <Soundguide 
+                    videoUrl={videoSource[currentVideoIndex]}
+                    volume={Number(volume)}
+                    loop={true}
+                />
+            </div>
             {signLang && (
                 <div className="absolute bottom-0 right-0 h-[330px] w-[430px] screen-w:h-[600px] screen-w:w-[600px]">
                     <Soundguide
                         videoUrl={sign}
                         volume={Number(volume)}
-                        playing={true}
                         end={()=>setsignLang(!signLang)}
                     />
                 </div>
@@ -297,7 +315,8 @@ export default function Navbar({url, lang, sign}) {
                         <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center">
                             <span className="text-xl screen-w:text-3xl w-[150px] screen-w:w-[230px] mx-auto screen-w:mt-2 text-Awhite">{t("SOUND_GUIDE")}</span>
                             <button
-                                onClick={()=>setSoundguide(!soundguide)} 
+                                // onClick={()=>setSoundguide(!soundguide)} 
+                                onClick={switchVideo} 
                                 className="rounded-full w-[50px] screen-w:w-[120px] screen-w:text-3xl bg-Cgrey text-white font-bold mb-2 disabled:opacity-50"
                                 disabled={signLang}
                             >
@@ -309,7 +328,7 @@ export default function Navbar({url, lang, sign}) {
                             <button 
                                 className="rounded-full w-[50px] screen-w:w-[120px] screen-w:text-3xl bg-Cgrey text-white font-bold mb-2 disabled:opacity-50"
                                 onClick={()=>setsignLang(!signLang)}
-                                disabled={soundguide}
+                                disabled={currentVideoIndex === 1}
                             >
                                 {signLang ? t("STOP") : t("START")}
                             </button>
