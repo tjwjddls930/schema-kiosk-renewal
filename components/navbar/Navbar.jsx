@@ -52,13 +52,17 @@ export default function Navbar({url, lang, sign}) {
                     />
             </div>
             )} */}
-            <div className="absolute bottom-16 screen-w:bottom-28 right-0 h-[350px] w-[350px] screen-w:right-8 screen-w:h-[1300px] screen-w:w-[1300px]">
-                <Soundguide 
-                    videoUrl={videoSource[currentVideoIndex]}
-                    volume={Number(volume)}
-                    loop={true}
-                />
-            </div>
+            {
+                router.pathname === "/main" && (
+                <div className="absolute bottom-16 screen-w:bottom-28 right-0 h-[350px] w-[350px] screen-w:right-8 screen-w:h-[1300px] screen-w:w-[1300px]">
+                    <Soundguide 
+                        videoUrl={videoSource[currentVideoIndex]}
+                        volume={Number(volume)}
+                        loop={true}
+                    />
+                </div>
+                )
+            }
             {signLang && (
                 <div className="absolute bottom-0 right-0 h-[330px] w-[430px] screen-w:h-[600px] screen-w:w-[600px]">
                     <Soundguide
