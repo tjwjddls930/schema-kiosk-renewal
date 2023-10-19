@@ -19,7 +19,7 @@ const Career = ({}) => {
                                 key={item.order} 
                                 className="font-bold text-sm screen-w:text-4xl text-Ablue">{item.year}</span>
                             <span
-                                key={index} 
+                                key={item.index} 
                                 className="font-bold text-sm screen-w:text-4xl text-Agrey">{item.text}</span>
                         </div>
                     ))}
