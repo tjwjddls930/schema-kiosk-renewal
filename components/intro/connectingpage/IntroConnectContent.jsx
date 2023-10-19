@@ -1,11 +1,11 @@
 import { useTranslation } from "next-i18next";
 import Link from "next/link";
 
-export default function IntroConnectContent() {
+const IntroConnectContent = () => {
     const {t} = useTranslation('connect');
     return(
-        <div className="h-screen w-screen px-28">
-            <div className="h-full flex flex-row space-x-4 screen-w:space-x-12 mx-auto pt-20 screen-w:pt-72">
+        <div className="h-3/4 screen-w:h-[90%] w-full px-28">
+            <div className="h-5/6 flex flex-row space-x-4 screen-w:space-x-12 mx-auto pt-20 screen-w:pt-72">
                 <div className="h-[500px] w-full flex flex-col space-y-6 screen-w:space-y-12 screen-w:w-[85%] screen-w:h-[700px] screen-w:mx-auto screen-w:flex screen-w:items-center screen-w:justify-center">
                     <Link href="/intro/structure">
                         <div className="flex flex-row space-x-4 overflow-hidden justify-start">
@@ -29,7 +29,7 @@ export default function IntroConnectContent() {
                     </Link>
                 </div>
                 <div className="h-[500px] w-full flex flex-col space-y-6 screen-w:space-y-12 screen-w:w-[85%] screen-w:h-[700px] screen-w:mx-auto screen-w:items-center screen-w:justify-center">
-                    <Link href="/intro/structure">
+                    <Link href="/intro/career">
                         <div className="flex flex-row space-x-4 overflow-hidden justify-start screen-w:mx-auto">
                             <span className="text-[100px] screen-w:text-[300px] font-bold text-Ablack drop-shadow-xl">{'02'}</span>
                             <div className="flex flex-col w-[200px] screen-w:w-[450px] mr-4 pt-10 justify-start">
@@ -76,3 +76,5 @@ export default function IntroConnectContent() {
         </div>
     )
 };
+
+export default IntroConnectContent;

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 
-export default function InactivityRedirect2({ timeoutInMinutes }) {
+const InactivityRedirect2 = ({ timeoutInMinutes }) => {
   const [inactive, setInactive] = useState(false);
   const router = useRouter();
 
@@ -35,4 +35,6 @@ export default function InactivityRedirect2({ timeoutInMinutes }) {
   }, [timeoutInMinutes, router]);
 
   return null;
-}
+};
+
+export default InactivityRedirect2;

@@ -6,7 +6,7 @@ import Modelanimation from "../Modelanimation";
 // import Inactivityredirect from "../digitaltwin/Inactivityredirect";
 import InactivityRedirect2 from "../digitaltwin/Inactivityredirect2";
 
-export default function Modelcontent({url, position, scale}) {
+const Modelcontent = ({url, position, scale}) => {
   
     return(
         // <div className="h-[91%] w-[1000px] absolute bottom-16 screen-w:h-[94%] screen-w:w-[1500px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
@@ -38,6 +38,8 @@ export default function Modelcontent({url, position, scale}) {
                 </Canvas>
             </Suspense>
         </div>
-        </>
-        )
+    </>
+    )
 };
+
+export default Modelcontent;

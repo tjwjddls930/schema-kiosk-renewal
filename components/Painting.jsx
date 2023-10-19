@@ -1,6 +1,6 @@
 import { useTexture } from "@react-three/drei";
 
-export default function Painting({url, width, height}) {
+const Painting = ({url, width, height}) => {
     const texture = useTexture(url);
 
     return(
@@ -16,4 +16,6 @@ export default function Painting({url, width, height}) {
             <meshStandardMaterial map={texture} attach="material" />
         </mesh>
     )
-}
+};
+
+export default Painting;

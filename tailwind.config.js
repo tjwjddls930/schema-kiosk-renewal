@@ -105,6 +105,8 @@ module.exports = {
         Dgrey: '#D9D9D9',
         Awhite: '#FFFFFF',
         Ablack: '#000000',
+        Ablue: '#18287f',
+        Bblue: '#5c92de',
       },
       fontFamily: {
         pretendard_bold: "url('/font/Pretendard-Bold.otf')",

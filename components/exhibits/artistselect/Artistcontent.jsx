@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-export default function Artistcontent({number, order, title, name, text}) {
+const Artistcontent = ({number, order, title, name, text}) => {
     const [isClient, setIsClient] = useState(false);
     useEffect(() => {
         // Update the isClient state to true as this code will be executed only on client side
@@ -36,4 +36,6 @@ export default function Artistcontent({number, order, title, name, text}) {
         )}
         </>
     )
-}
+};
+
+export default Artistcontent;

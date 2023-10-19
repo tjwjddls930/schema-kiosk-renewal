@@ -4,8 +4,7 @@ import Painting from "@/components/Painting";
 import { MathUtils } from "three";
 import {useEffect, useState, Suspense} from "react";
 
-
-export default function Viewcontent({url, width, height}) {
+const Viewcontent = ({url, width, height}) => {
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
@@ -46,3 +45,5 @@ export default function Viewcontent({url, width, height}) {
         </>
     )
 };
+
+export default Viewcontent;

@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import Inactivityredirect from "../digitaltwin/Inactivityredirect";
 
-export default function Modellayout({children}) {
+const Modellayout = ({children}) => {
     const router = useRouter();
     function handleRefresh() {
         router.reload();
@@ -77,4 +77,6 @@ export default function Modellayout({children}) {
         </div>
     )
 };
+
+export default Modellayout;
 

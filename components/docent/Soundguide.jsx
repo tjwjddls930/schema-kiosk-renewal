@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 
 const DynamicReactPlayer = dynamic(() => import('react-player'), {ssr: false});
 
-export default function Signlanguage({videoUrl, volume, end, loop, ...props}) {
+const Soundguide = ({videoUrl, volume, end, loop, ...props}) => {
     return (
     <DynamicReactPlayer
         url={videoUrl}
@@ -18,3 +18,5 @@ export default function Signlanguage({videoUrl, volume, end, loop, ...props}) {
     />
     )
 };
+
+export default Soundguide;

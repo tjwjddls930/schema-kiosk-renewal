@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
 
-function TopNavbar() {
+const TopNavbar = () => {
   const [currentDate, setCurrentDate] = useState(null);
   const [temperature, setTemperature] = useState(null);
   const {t} = useTranslation('common');
@@ -66,7 +66,7 @@ function TopNavbar() {
   const formattedTime = `${parts[1]} ${parts[0]}`; // rearrange the order
 
   return (
-    <div className="hidden sm:flex fixed top-3 screen-w:top-6 h-16 screen-w:h-20 w-full z-100 justify-between items-center px-4 screen-w:px-12">
+    <div className="hidden sm:flex fixed top-3 screen-w:top-6 h-16 screen-w:h-20 w-full z-100 justify-between items-center px-4 screen-w:px-12 screen-w:py-20">
        {/* <Image
         src="/img/mainpage/SmartSpaceSAM_logo.png"
         alt="logo2"
@@ -86,19 +86,19 @@ function TopNavbar() {
       <img 
         src="/img/mainpage/SmartSpaceSAM_logo.png"
         alt="logo1"
-        className="h-12 w-[150px] screen-w:h-24 screen-w:w-[350px]"
+        className="h-12 w-[150px] screen-w:h-32 screen-w:w-[400px]"
       />
         <img 
         src="/img/mainpage/schema-logo.png"
         alt="logo2"
-        className="h-12 w-[150px] screen-w:h-24 screen-w:w-[350px]"
+        className="h-12 w-[150px] screen-w:h-32 screen-w:w-[400px]"
       />
       <div className="flex flex-row space-x-2 screen-w:space-x-4 text-black mr-4">
           <div className="flex flex-col justify-center items-center">
-              <span className="font-bold text-sm screen-w:text-xl">{formattedDate}</span>
-              <span className="font-bold text-xl screen-w:text-4xl">{formattedTime}</span>
+              <span className="font-bold text-sm screen-w:text-3xl">{formattedDate}</span>
+              <span className="font-bold text-xl screen-w:text-6xl">{formattedTime}</span>
           </div>
-          <span className="rounded-lg shadow-md px-4 py-4 text-lg screen-w:text-3xl font-bold">{temperature ? `${temperature}°` : "24°"}</span>
+          <span className="rounded-lg shadow-md px-4 py-4 text-lg screen-w:px-6 screen-w:py-6 screen-w:text-5xl font-bold">{temperature ? `${temperature}°` : "24°"}</span>
       </div>
       {/* <div className="mr-6 mt-4">
         <div className="bg-white bg-opacity-60 flex justify-center items-center px-3 py-3 rounded-screen-w">
@@ -116,6 +116,6 @@ function TopNavbar() {
       </div> */}
     </div>
   );
-}
+};
 
 export default TopNavbar;

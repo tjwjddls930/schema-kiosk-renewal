@@ -5,8 +5,8 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Artistcontent from "./Artistcontent";
 
-export default function Artistlayout({children}) {
-    const [artist, setArtist] = useState(artistData[0]);
+const Artistlayout = ({children}) => {
+    const [artist, setArtist] = useState(artistData[0].ex);
 
     return(
         <div className="h-screen w-screen bg-[url('/img/exhibitpage/artist_select_background.png')] bg-no-repeat bg-cover">
@@ -126,3 +126,5 @@ export default function Artistlayout({children}) {
         </div>
     )
 };
+
+export default Artistlayout;

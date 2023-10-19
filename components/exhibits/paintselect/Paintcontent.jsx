@@ -3,7 +3,7 @@ import Link from "next/link";
 import { artistData } from "@/data/artistData";
 import { useRouter } from "next/router";
 
-export default function Paintcontent() {
+const Paintcontent = () => {
     const maxScrollWidth = useRef(0);
     const carousel = useRef(null);
     const [current, setCurrent] = useState(0);
@@ -147,4 +147,6 @@ export default function Paintcontent() {
         }
        </>
     )
-}
+};
+
+export default Paintcontent;

@@ -6,14 +6,26 @@ import "swiper/css/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { coverflow_carousel_data } from "@/data/sample_data";
+import { allExhibits } from "@/data/pastExhibit";
 
-const CoverflowCarousel = () => {
+const CoverflowCarousel = ({index}) => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
     // Update the isClient state to true as this code will be executed only on client side
     setIsClient(true);
   }, []);
+  let length = allExhibits.length;
+
+  function nextExhibit(e) {
+       setButton(e.target.id)
+       setCurrent(Number(pid) + 1 === length ? 0 : Number(pid) + 1);
+   };
+
+   function prevExhibit(e) {
+       setButton(e.target.id)
+       setCurrent(pid - 1 < 0 ? length - 1 : pid - 1);
+   };
 
   return (
     <>

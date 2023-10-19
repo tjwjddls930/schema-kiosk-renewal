@@ -3,13 +3,23 @@ import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
 
-export default function Newbutton() {
+const Newbutton = () => {
+    const router = useRouter();
+    const {t, i18n} = useTranslation(['common', 'navbar']);
     const [modal, setModal] = useState();
     const [id, setId] = useState(null);
-    const [size, setSize] = useState(false);
+    const [isAnimating, setIsAnimating] = useState(false);
+    const startAnimation = () => {
+        setIsAnimating(true);
+        // Simulate a delay for the animation to complete before navigating to another page
+        setTimeout(() => {
+          // Redirect to another page or perform other actions
+          // For example, you can use Next.js router for navigation
+          // Replace with your desired page URL
+            router.pathname = '/intro'
+        }, 1000); // Adjust the delay as needed
+    }
 
-    const {t, i18n} = useTranslation(['common', 'navbar']);
-    const router = useRouter();
     function handleLanguage(e, language) {
         // i18n.changeLanguage(lng);
         setId(e.target.id);
@@ -24,45 +34,60 @@ export default function Newbutton() {
     return(
         <>
              {/* 중단 버튼 구역*/}
-             <div className="w-4/5 h-2/3 pt-14 px-14 flex flex-row flex-initial space-x-5 mx-auto items-end">
-                <div className="w-[150px] screen-w:w-[450px] h-3/4 flex text-Agrey shadow-md rounded-sm bg-[url('/img/mainpage/미술관소개_보정이미지.png')] bg-cover bg-no-repeat bg-opacity-80">
-                    <button className="text-center h-full w-full bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto"
-                            onClick={async()=>router.push("/intro")}
+             <section className="w-[65%] h-2/3 pt-14 px-14 flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">
+                <div className="w-[65%] screen-w:w-full h-3/4 relative shadow-md rounded-sm bg-[url('/img/mainpage/시설안내_배경_원본.jpg')] bg-cover bg-no-repeat bg-opacity-80 mx-auto"
+                    onClick={async ()=>{
+                        startAnimation
+                        await router.push("/intro")}}
+                >
+                    <div className="absolute inset-0 w-full h-full bg-Ablue opacity-10" />
+                    <button className="h-full w-full text-center text-Awhite bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto z-10 hover:translate-y-2"
                         >
-                            <div className="flex flex-col space-y-2">
-                                <span className={`font-bold text-Awhite ${size ? "text-6xl" : "text-lg screen-w:text-4xl"}`}>{t("MAIN_INTRO")}</span>
-                                <span className={`font-bold text-Awhite ${size ? "text-4xl" : "text-sm screen-w:text-2xl"}`}>{t("MAIN_INTRO_1")}</span>
-                                <span className={`font-bold text-Awhite ${size ? "text-4xl" : "text-sm screen-w:text-2xl"}`}>{t("MAIN_INTRO_2")}</span>
+                        {isAnimating ? (
+                            <div className="flex flex-row space-x-2 screen-w:space-x-4 w-full text-center justify-center">
+                                <svg fill="currentColor" className="h-20 w-20 screen-w:h-32 screen-w:w-32 mr-2 animate-spin" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M526 1394q0 53-37.5 90.5t-90.5 37.5q-52 0-90-38t-38-90q0-53 37.5-90.5t90.5-37.5 90.5 37.5 37.5 90.5zm498 206q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm-704-704q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm1202 498q0 52-38 90t-90 38q-53 0-90.5-37.5t-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm-964-996q0 66-47 113t-113 47-113-47-47-113 47-113 113-47 113 47 47 113zm1170 498q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm-640-704q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm530 206q0 93-66 158.5t-158 65.5q-93 0-158.5-65.5t-65.5-158.5q0-92 65.5-158t158.5-66q92 0 158 66t66 158z">
+                                    </path>
+                                </svg>
+                                <span className="font-bold text-lg screen-w:text-6xl screen-w:pt-6">{'loading'}</span>
                             </div>
+                            ) 
+                            : (<div className="flex flex-col space-y-2 screen-w:space-y-4">
+                                <span className="font-bold text-lg screen-w:text-6xl">{t("MAIN_INTRO")}</span>
+                                <span className="font-bold text-sm screen-w:text-4xl">{t("MAIN_INTRO_1")}</span>
+                                <span className="font-bold text-sm screen-w:text-4xl">{t("MAIN_INTRO_2")}</span>
+                            </div>)}
                         </button>
                 </div>
-                <div className="w-[150px] screen-w:w-[450px] h-3/4 flex flex-col-reverse items-center shadow-md rounded-sm bg-[url('/img/mainpage/챗봇안내_보정이미지.png')] bg-cover bg-no-repeat">
-                    <button className="text-center text-white h-full w-full mx-auto bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat"
-                        onClick={async()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
+                <div className="w-[65%] screen-w:w-full h-3/4 flex shadow-md rounded-sm bg-[url('/img/mainpage/챗봇안내_보정이미지.png')] bg-cover bg-no-repeat mx-auto">
+                    <button className="h-full w-full text-center text-white bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat mx-auto"
+                        onClick={()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
                     >
-                        <div className="flex flex-col space-y-2">
-                            <span className="text-lg screen-w:text-4xl font-bold">{t("MAIN_CHATBOT")}</span>
-                            <span className="text-sm screen-w:text-2xl font-bold">{t("MAIN_CHATBOT_1")}</span>
+                        <div className="flex flex-col space-y-2 screen-w:space-y-4">
+                            <span className="text-lg screen-w:text-6xl font-bold">{t("MAIN_CHATBOT")}</span>
+                            <span className="text-sm screen-w:text-4xl font-bold">{t("MAIN_CHATBOT_1")}</span>
                         </div>
                     </button>
                 </div>
-                <div className="w-[150px] screen-w:w-[450px] h-3/4 flex flex-col-reverse items-center shadow-md rounded-sm bg-[url('/img/mainpage/전시안내_보정이미지.png')] bg-cover bg-no-repeat">
-                    <button className="w-full h-full flex bg-[url('/img/mainpage/전시안내_도형.png')] bg-cover bg-no-repeat mx-auto text-center items-center justify-center"
-                        onClick={async()=>router.push("/exhibit")}
-                    >
-                        <div className="flex flex-col space-y-2 h-[90%] text-center items-center justify-center mx-auto">
-                            <span className="text-lg screen-w:text-4xl font-bold text-Awhite">{t("MAIN_EXHIBIT_GUIDE")}</span>
-                            <span className="text-sm screen-w:text-2xl font-bold text-Awhite">{t("MAIN_EXHIBIT_GUIDE_1")}</span>
+                <div className="w-[65%] screen-w:w-full h-3/4 relative shadow-md rounded-sm bg-[url('/img/mainpage/전시안내_배경_원본.jpg')] bg-cover bg-no-repeat mx-auto"
+                    onClick={()=>router.push("/exhibit")}
+                >
+                    <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" />
+                    <button className="w-full h-full text-center text-Awhite bg-[url('/img/mainpage/전시안내_도형.png')] bg-cover bg-no-repeat mx-auto z-10">
+                        <div className="flex flex-col space-y-2 screen-w:space-y-4 z-30">
+                            <span className="text-lg screen-w:text-6xl font-bold">{t("MAIN_EXHIBIT_GUIDE")}</span>
+                            <span className="text-sm screen-w:text-4xl font-bold">{t("MAIN_EXHIBIT_GUIDE_1")}</span>
                         </div>
                     </button>
                 </div>
-                <div className="w-[150px] screen-w:w-[450px] h-3/4 flex flex-col-reverse text-Awhite items-center shadow-md rounded-sm bg-[url('/img/mainpage/교육프로그램_보정이미지.png')] bg-no-repeat bg-cover">
-                    <button className="text-center h-full w-full mx-auto bg-[url('/img/mainpage/교육프로그램_도형.png')] bg-no-repeat bg-cover"
-                        onClick={async()=>router.push("/education")}
-                    >
-                        <div className="flex flex-col space-y-2">
-                                <span className="text-lg screen-w:text-4xl font-bold">{t("MAIN_EDUCATION")}</span>
-                                <span className="text-sm screen-w:text-2xl font-bold">{t("MAIN_EDUCATION_1")}</span>
+                <div className="w-[65%] screen-w:w-full h-3/4 relative shadow-md rounded-sm bg-[url('/img/mainpage/교육프로그램_배경_원본.jpg')] bg-no-repeat bg-cover mx-auto"
+                    onClick={()=>router.push("/education")}
+                >
+                    <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-30" />
+                    <button className="text-center text-Awhite h-full w-full mx-auto bg-[url('/img/mainpage/교육프로그램_도형.png')] bg-no-repeat bg-cover">
+                        <div className="flex flex-col space-y-2 screen-w:space-y-4">
+                                <span className="text-lg screen-w:text-6xl font-bold">{t("MAIN_EDUCATION")}</span>
+                                <span className="text-sm screen-w:text-4xl font-bold">{t("MAIN_EDUCATION_1")}</span>
                         </div>
                     </button>
                     {/* <div className="flex w-full h-1/2 items-center bg-[url('/img/mainpage/시설안내_보정이미지.png')] bg-no-repeat bg-cover shadow-md rounded-lg">
@@ -76,23 +101,23 @@ export default function Newbutton() {
                         </button>
                     </div> */}
                 </div>
-            </div>
+            </section>
             {/* 언어변경 버튼 */}
             <button 
                     className="absolute left-12 bottom-40 screen-w:left-24 screen-w:bottom-52 text-Bgrey space-y-4"
                     onClick={()=>setModal(!modal)}    
                 >
-                    <div className="flex flex-col">
-                        <div className="border-4 border-Cpurple rounded-full w-20 h-20 screen-w:w-28 screen-w:h-28 items-center bg-Awhite mx-auto">
+                    <div className="flex flex-col screen-w:space-y-4">
+                        <div className="border-4 border-Ablue rounded-full w-20 h-20 screen-w:w-40 screen-w:h-40 items-center bg-Awhite mx-auto">
                             <Image 
                                 className="mx-auto pt-2.5 z-1 screen-w:pt-6"
                                 src="/img/mainpage/언어변경_아이콘_1.png"
-                                height="50"
-                                width="50"
+                                height="100"
+                                width="100"
                                 alt="language"
                             />
                         </div>
-                        <span className="text-xl font-bold pt-2 screen-w:text-3xl">{t("LANGUAGE_CHANGE")}</span>
+                        <span className="text-xl font-bold pt-2 screen-w:text-4xl">{t("LANGUAGE_CHANGE")}</span>
                     </div>
                 </button>
                 {modal && (
@@ -309,3 +334,5 @@ export default function Newbutton() {
         </>
     )
 }
+
+export default Newbutton;

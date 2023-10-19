@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 
 const DynamicReactPlayer = dynamic(() => import('react-player'), {ssr: false});
 
-export default function Screensaver({videoUrl, url, ...props}) {
+const Screensaver = ({videoUrl, url, ...props}) => {
     return(
         <DynamicReactPlayer
         url={videoUrl}
@@ -24,6 +24,8 @@ export default function Screensaver({videoUrl, url, ...props}) {
     />
     )
 };
+
+export default Screensaver;
 
 // export default function Screensaver({videoUrl, ...props}) {
 //     return (

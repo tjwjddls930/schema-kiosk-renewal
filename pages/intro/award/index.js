@@ -22,14 +22,14 @@ export default function Award() {
                     ))}
                 </ul>
             </div>
-            <div className="w-full h-3/4 screen-w:h-[85%] bg-Bgrey">
+            <div className="w-full h-3/4 screen-w:h-[85%] bg-Bgrey bg-opacity-50">
                 <main>
                     <AnimatePresence>
                         <motion.div
                             key={award ? award.title : ""}
-                            intitial={{y: 10, opacity: 0}}
+                            intitial={{y: 100, opacity: 0}}
                             animate={{y: 0, opacity: 1}}
-                            exit={{y: -10, opacity: 0}}
+                            exit={{y: -100, opacity: 0}}
                             transition={{duration: 0.2}}
                         >
                             {award ? <Awardcontent 

@@ -1,7 +1,7 @@
 import { useFrame } from "@react-three/fiber";
 import state from "@/libs/state";
 
-export default function Cameracontrol() {
+const Cameracontrol = () => {
     useFrame(({camera, scene}, delta)=> {
         if(state.shouldUpdate) {
             camera.position.lerp(state.cameraPos, 0.08);
@@ -16,3 +16,5 @@ export default function Cameracontrol() {
 
     return null;
 };
+
+export default Cameracontrol;

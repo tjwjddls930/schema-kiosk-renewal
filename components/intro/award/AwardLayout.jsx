@@ -3,11 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/navbar/Navbar";
 
-export default function Awardlayout({children}) {
+const Awardlayout = ({children}) => {
 
     return(
           <>
-            <div className="h-screen w-screen bg-Agrey">
+            <div className="h-screen w-screen bg-Agrey bg-opacity-50">
                 <div className="w-full py-6 px-12 screen-w:py-12 screen-w:px-20 flex flex-row justify-between">
                     <div className="flex flex-row">
                         <Link href="/main">
@@ -97,3 +97,5 @@ export default function Awardlayout({children}) {
           </>
     )
 };
+
+export default Awardlayout;

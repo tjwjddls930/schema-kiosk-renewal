@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
-export default function Inactivityredirect({timeoutInMinutes}) {
+const Inactivityredirect = ({timeoutInMinutes}) => {
     const router = useRouter();
     const [inactive, setInactive] = useState(false);
     const [redirectBlocked, setRedirectBlocked] = useState(false);
@@ -61,4 +61,6 @@ export default function Inactivityredirect({timeoutInMinutes}) {
     // };
     
     return null;
-}
+};
+
+export default Inactivityredirect;

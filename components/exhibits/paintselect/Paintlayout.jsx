@@ -2,12 +2,9 @@ import Image from "next/image";
 import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
 
-export default function Paintlayout({children}) {
+const Paintlayout = ({children}) => {
     const router = useRouter();
     return(
-        // <Pageframe>
-           
-        // </Pageframe>
         <div className="h-screen w-screen bg-Awhite">
             <div className="w-full py-6 px-12 screen-w:py-12 screen-w:px-20 flex flex-row justify-between">
                 <div className="flex flex-row"
@@ -74,3 +71,5 @@ export default function Paintlayout({children}) {
         </div>
     )
 };
+
+export default Paintlayout;

@@ -1,34 +1,21 @@
 import { useTranslation } from "next-i18next"
 import Image from "next/image"
 
-export default function Schemaintro() {
+const Schemaintro = () => {
     const {t} = useTranslation('intro');
     return(
         <div className="h-2/3 w-full flex flex-row space-x-8 screen-w:py-8 screen-w:px-6">
             {/* 좌측 그림 및 텍스트 */}
-            <div className="mx-auto pt-10 space-y-12 text-center items-center">
-                <div className="border-4 border-black shadow-lg mb-4">
-                    {/* <Image 
-                        src="/img/intro/introduction/schema_small.jpg"
-                        width={120}
-                        height={200}
-                        style={{
-                            width: "auto",
-                            height: "auto"
-                        }}
-                        alt="소전시실"
-                        priority={true}
-                        // fill={true}
-                    /> */}
-                    <img 
-                        src="/img/intro/introduction/schema_small.jpg"
-                        className="h-[250px] w-[150px] mx-auto screen-w:h-[600px] screen-w:w-[300px]"
-                        alt="inside"
-                    />
-                </div>
-                <span className="text-xl font-bold text-Cpurple screen-w:text-5xl">Schema</span>
+            <div className="h-full w-[200px] screen-h:w-[400px] absolute left-0 top-0 opacity-90">
+                <img 
+                    src="/img/intro/introduction/가로형_미술관소개_이미지_2.png"
+                    className="h-full w-full"
+                    alt="background"
+                />
             </div>
-            <div className="h-5/6 w-2/5 flex flex-col space-y-4 screen-w:space-y-12 screen-w:px-8">
+            <div className="w-[150px] screen-w:w-[300px] mx-auto">
+            </div>
+            <div className="h-5/6 w-[35%] flex flex-col space-y-4 screen-w:space-y-12 screen-w:px-8">
                 <div className="flex flex-col space-y-1 screen-w:space-y-6">
                     <div className="h-[2px] w-14 screen-w:w-36 bg-Cpurple"></div>
                     <span className="font-bold text-lg screen-w:text-6xl text-Cgrey">Schema Art Museum</span>
@@ -40,7 +27,7 @@ export default function Schemaintro() {
                      <span className="text-Cpurple text-sm screen-w:text-5xl">{'박물'}</span>
                     <span className="text-Cpurple text-sm screen-w:text-5xl">{'관, 미술관 창제 프로그램 우수 운영기관으로 선정'}</span>{'되었습니다.'}
                 </p> */}
-                <p className="text-Cgrey text-xs screen-w:text-4xl font-bold screen-w:leading-snug">
+                <p className="text-Cgrey text-sm screen-w:text-4xl font-bold screen-w:leading-snug">
                     {t("P1")}
                 </p>
                 <div className="mx-auto text-center flex flex-row space-x-6">
@@ -61,11 +48,11 @@ export default function Schemaintro() {
                     <span className="text-Cpurple text-sm screen-w:text-5xl">{'의 격이 시대정신에 걸 맞는 창작 예술의 연구와 실천을 위한'}</span>
                     <span className="text-Cpurple text-sm screen-w:text-5xl">{'공간'}</span>{'이 될 수 있도록 최선의 역할을 하고자 합니다.'}
                 </p> */}
-                <p className="text-Cgrey text-xs screen-w:text-4xl font-bold screen-w:leading-snug">
+                <p className="text-Cgrey text-sm screen-w:text-4xl font-bold screen-w:leading-snug">
                     {t("P2")} 
                 </p>
             </div>
-            <div className="h-1/2 w-2/3 flex flex-row space-x-8 screen-w:px-8">
+            <div className="h-1/2 w-[30%] flex flex-row space-x-8 screen-w:px-8">
                 {/* <p className="text-Cgrey text-sm screen-w:text-5xl font-bold screen-w:pt-48 screen-w:leading-snug">
                     {'특히 이 지역 젊은 작가들에게 다양하고 새로운 현대미술의 정보를 제공하고 국내,외 현대미술의 창의적인 작품들로 구성된 기획전시를 통하여'}
                     <span className="text-Cpurple text-sm screen-w:text-5xl">{'지역 국제 교류센터'}</span>
@@ -76,10 +63,12 @@ export default function Schemaintro() {
                  {/* <p className="text-Cgrey text-sm screen-w:text-5xl font-bold screen-w:pt-48 screen-w:leading-snug">
                     {'향후 예술가뿐만 아니라 문화시민을 위한 사회교육, 어린이 예술체험교육의 다양한 프로그램 개발과 독창적인 전시기획으로 내실을 다지고, 지역사회와 함께하는 사업을 추진하는 공공 미술관으로서의 역할을 하고자 합니다.'}
                 </p> */}
-                <p className="text-Cgrey text-xs screen-w:text-4xl font-bold screen-w:pt-48 screen-w:leading-snug">
+                <p className="text-Cgrey text-sm screen-w:text-4xl font-bold screen-w:pt-60 screen-w:leading-snug">
                     {t("P3")}
                 </p>
-                <p className="text-Cgrey text-xs screen-w:text-4xl font-bold screen-w:pt-48 screen-w:leading-snug">
+            </div>
+            <div className="h-1/2 w-[30%] flex screen-w:px-8">
+                <p className="text-Cgrey text-sm screen-w:text-4xl font-bold screen-w:pt-60 screen-w:leading-snug">
                     {t("P4")}
                 </p>
             </div>
@@ -110,3 +99,5 @@ export default function Schemaintro() {
         </div>
     )
 };
+
+export default Schemaintro;

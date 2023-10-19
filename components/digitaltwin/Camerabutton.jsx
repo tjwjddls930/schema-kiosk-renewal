@@ -3,7 +3,7 @@ import { useState } from "react";
 import { animated, useTrail } from "@react-spring/web";
 import Link from "next/link";
 
-export default function Camerabutton() {
+const Camerabutton = () => {
     const items1 = ["작품1", "작품2", "작품3", "작품4", "작품5", "작품6", "작품7", "작품8", "작품9", "작품10"];
     const items2 = ["작품1", "작품2", "작품3", "작품4"];
     const [active, setActive] = useState(false);
@@ -269,3 +269,5 @@ export default function Camerabutton() {
         </div>
     </>
 };
+
+export default Camerabutton;

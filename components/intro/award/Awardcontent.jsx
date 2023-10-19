@@ -1,6 +1,6 @@
 import { awardData } from "@/data/awardData"
 
-export default function Awardcontent({imgname, engname, name, career, timeline_i, timeline_g}) {
+const Awardcontent = ({imgname, engname, name, career, timeline_i, timeline_g}) => {
     return(
         <div className="w-11/12 h-3/4 mx-auto px-20 py-12 screen-w:px-40 screen-w:py-16 lg:py-6 flex flex-row justify-between">
             <div className="flex flex-col screen-w:space-y-4 screen-w:w-[40%] screen-w:h-1/2">
@@ -22,20 +22,20 @@ export default function Awardcontent({imgname, engname, name, career, timeline_i
                         개인전
                     </div>
                     <div className="flex flex-col space-y-2 screen-w:space-y-5">
-                            {timeline_i.map((item)=>(
+                            {timeline_i.map((item, index)=>(
+                            <div className="flex flex-row space-x-2 screen-w:space-x-5">
                                 <span
-                                    key={item.order}
-                                    className="text-Cpurple font-bold text-sm screen-w:text-3xl">{item.year}</span>
-                            ))}
-                        </div>
-                        <div className="flex flex-col space-y-2 screen-w:space-y-5">
-                            {timeline_i.map((item)=> (
+                                    key={index}
+                                    className="text-Cpurple font-bold text-sm screen-w:text-3xl">
+                                        {item.year}
+                                </span>
                                 <span
                                     key={item.order}
                                     className="text-Awhite font-bold text-sm screen-w:text-3xl"
                                 >
                                     {item.award}
                                 </span>
+                            </div>
                             ))}
                         </div>
                 </div>
@@ -44,24 +44,26 @@ export default function Awardcontent({imgname, engname, name, career, timeline_i
                         단체전
                     </div>
                     <div className="flex flex-col space-y-2 screen-w:space-y-5">
-                            {timeline_g.map((item)=>(
+                            {timeline_g.map((item, index)=>(
+                            <div className="flex flex-row space-x-2 screen-w:space-x-5">
+                                <span
+                                    key={index}
+                                    className="text-Cpurple font-bold text-sm screen-w:text-3xl">
+                                        {item.year}
+                                </span>
                                 <span
                                     key={item.order}
-                                    className="flex-1 text-Cpurple font-bold text-sm screen-w:text-3xl">{item.year}</span>
-                            ))}
-                        </div>
-                        <div className="flex flex-col space-y-2 screen-w:space-y-5">
-                            {timeline_g.map((item)=> (
-                                <span
-                                    key={item.order}
-                                    className="flex-1 text-Awhite font-bold text-sm screen-w:text-3xl"
+                                    className="text-Awhite font-bold text-sm screen-w:text-3xl"
                                 >
                                     {item.award}
                                 </span>
+                            </div>
                             ))}
                         </div>
                 </div>
             </div>
         </div>
     )
-}
+};
+
+export default Awardcontent;

@@ -5,6 +5,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import CoverflowCarousel from "@/components/CoverflowCarousel";
 import EducationContent from "@/components/education/EducationContent";
 import { coverflow_carousel_data } from "@/data/sample_data";
+import Navbar from "@/components/navbar/Navbar";
 
 const Program = () => {
   const router = useRouter();
@@ -16,6 +17,7 @@ const Program = () => {
     // </>
     <EducationLayout>
       <EducationContent />
+      <Navbar />
     </EducationLayout>
   );
 };

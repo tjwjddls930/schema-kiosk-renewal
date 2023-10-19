@@ -1,6 +1,6 @@
 import { useTranslation } from "next-i18next"
 
-export default function Schemastructure() {
+const Schemastructure = () => {
     const {t} = useTranslation('intro');
     let leftImages = [
         {
@@ -83,3 +83,5 @@ export default function Schemastructure() {
         </div>
     )
 };
+
+export default Schemastructure;

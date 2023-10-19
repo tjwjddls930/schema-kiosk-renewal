@@ -8,12 +8,12 @@ export default function Structure() {
     const [intro, setIntro] = useState(introData[0])
     return(
         <Introlayout>
-            <div className="w-11/12 h-14 screen-w:h-32 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center">
+            <div className="w-11/12 h-14 screen-w:h-32 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center border-opacity-30 z-10">
                 <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2 screen-w:space-x-16 screen-w:text-4xl">
                     {introData.map((item)=> (
                         <li
                             key={item.title}
-                            className={item === intro ? "text-white border-b-4 border-Cpurple": ""}
+                            className={item === intro ? "text-Ablack border-b-4 border-Cpurple": ""}
                             onClick={()=> setIntro(item)}
                         >   
                             {`${item.title}`}
@@ -26,10 +26,10 @@ export default function Structure() {
                     <AnimatePresence>
                         <motion.div
                             key={intro ? intro.title : ""}
-                            intitial={{y: 10, opacity: 0}}
+                            intitial={{y: 100, opacity: 0}}
                             animate={{y: 0, opacity: 1}}
-                            exit={{y: -10, opacity: 0}}
-                            transition={{duration: 0.2}}
+                            exit={{y: -100, opacity: 0}}
+                            transition={{duration: 0.3}}
                         >
                             {intro ? <div className="p-6 screen-w:p-12 mx-auto items-center">
                                 {intro.component}

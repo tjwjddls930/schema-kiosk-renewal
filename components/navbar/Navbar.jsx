@@ -6,7 +6,7 @@ import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
 import { useRouter } from "next/router";
 
-export default function Navbar({url, lang, sign}) {
+const Navbar = ({url, lang, sign}) => {
     const [volume, setVolume] = useState(Number(0.5));
     const [volumepop, setVolumepop] = useState(false);
     const [soundguide, setSoundguide] = useState(false);
@@ -40,19 +40,21 @@ export default function Navbar({url, lang, sign}) {
     }
     return(
         <>
-            {/* {soundguide && (
-                // <div className="absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20">
+            {soundguide && (
+                <div className="absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20">
+                    <div className="absolute transform -translate-x-1/2 left-1/2 bottom-0 h-3/4 w-3/4">
+                        <Soundguide 
+                            videoUrl={url}
+                            volume={Number(volume)}
+                            playing={true}
+                            end={()=>setSoundguide(!soundguide)}
+                        />
+                    </div>
+                </div>
+                // <div className="absolute bottom-16 screen-w:bottom-28 right-0 h-[450px] w-[450px] screen-w:h-[1000px] screen-w:w-[850px] z-[999]">
                 // </div>
-                <div className="absolute bottom-16 screen-w:bottom-28 right-0 h-[450px] w-[450px] screen-w:h-[600px] screen-w:w-[600px] z-[999]">
-                    <Soundguide 
-                        videoUrl={url}
-                        volume={Number(volume)}
-                        playing={true}
-                        end={()=>setSoundguide(!soundguide)}
-                    />
-            </div>
-            )} */}
-            {
+            )}
+            {/* {
                 router.pathname === "/main" && (
                 <div className="absolute bottom-16 screen-w:bottom-28 right-0 h-[350px] w-[350px] screen-w:right-8 screen-w:h-[1300px] screen-w:w-[1300px]">
                     <Soundguide 
@@ -62,9 +64,9 @@ export default function Navbar({url, lang, sign}) {
                     />
                 </div>
                 )
-            }
+            } */}
             {signLang && (
-                <div className="absolute bottom-0 right-0 h-[330px] w-[430px] screen-w:h-[600px] screen-w:w-[600px]">
+                <div className="absolute bottom-0 right-0 h-[330px] w-[430px] screen-w:h-[700px] screen-w:w-[700px]">
                     <Soundguide
                         videoUrl={sign}
                         volume={Number(volume)}
@@ -268,7 +270,7 @@ export default function Navbar({url, lang, sign}) {
                 </div>
             </div>
             )}
-           <nav className="fixed lg:flex bottom-0 w-full h-16 screen-w:h-28 bg-Ablack px-10 screen-w:px-12">
+           <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-28 bg-Ablack px-10 screen-w:px-12">
                 <div className="flex flex-row w-full space-x-4 screen-w:space-x-6 justify-end my-2 mt-5 lg:mt-4 screen-w:my-4 screen-w:mt-6">
                     {/* <div className="w-1/12 screen-w:w-1/2">
                         
@@ -320,7 +322,7 @@ export default function Navbar({url, lang, sign}) {
                             <span className="text-xl screen-w:text-3xl w-[150px] screen-w:w-[230px] mx-auto screen-w:mt-2 text-Awhite">{t("SOUND_GUIDE")}</span>
                             <button
                                 // onClick={()=>setSoundguide(!soundguide)} 
-                                onClick={switchVideo} 
+                                onClick={()=>setSoundguide(!soundguide)} 
                                 className="rounded-full w-[50px] screen-w:w-[120px] screen-w:text-3xl bg-Cgrey text-white font-bold mb-2 disabled:opacity-50"
                                 disabled={signLang}
                             >
@@ -332,7 +334,7 @@ export default function Navbar({url, lang, sign}) {
                             <button 
                                 className="rounded-full w-[50px] screen-w:w-[120px] screen-w:text-3xl bg-Cgrey text-white font-bold mb-2 disabled:opacity-50"
                                 onClick={()=>setsignLang(!signLang)}
-                                disabled={currentVideoIndex === 1}
+                                disabled={soundguide}
                             >
                                 {signLang ? t("STOP") : t("START")}
                             </button>
@@ -341,4 +343,6 @@ export default function Navbar({url, lang, sign}) {
             </nav> 
         </>
     )
-}
+};
+
+export default Navbar;

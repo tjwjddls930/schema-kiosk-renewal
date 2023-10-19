@@ -1,7 +1,8 @@
 import Screensaver from "./Screensaver";
 import { modelData } from "@/data/modelData";
 import { useRouter } from "next/router";
-export default function Screensaverpage() {
+
+const Screensaverpage = () => {
     const router = useRouter();
     return(
         <div className="h-screen w-screen">
@@ -14,5 +15,6 @@ export default function Screensaverpage() {
         <Screensaver videoUrl={"https://www.youtube.com/watch?v=Z9K0zY5gB4o"} />
     </div>
     )
+};
 
-}
+export default Screensaverpage;
