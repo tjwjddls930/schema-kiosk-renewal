@@ -14,7 +14,9 @@ const Career = ({}) => {
             <div className="w-1/2 h-3/4 flex flex-col space-y-4 screen-w:space-y-24">
                 <div className="w-full h-[500px] screen-w:h-[1000px] flex flex-col space-y-2 screen-w:space-y-6 overflow-auto">
                     {careerData[0].activity.map((item, index)=>(
-                        <div className="flex flex-row space-x-2 screen-w::space-x-8">
+                        <div
+                            key={index} 
+                            className="flex flex-row space-x-2 screen-w::space-x-8">
                             <span
                                 key={item.order} 
                                 className="font-bold text-sm screen-w:text-4xl text-Ablue">{item.year}</span>

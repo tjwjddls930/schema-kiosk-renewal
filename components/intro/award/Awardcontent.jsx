@@ -23,9 +23,11 @@ const Awardcontent = ({imgname, engname, name, career, timeline_i, timeline_g}) 
                     </div>
                     <div className="flex flex-col space-y-2 screen-w:space-y-5">
                             {timeline_i.map((item, index)=>(
-                            <div className="flex flex-row space-x-2 screen-w:space-x-5">
+                            <div
+                                key={index}
+                                className="flex flex-row space-x-2 screen-w:space-x-5">
                                 <span
-                                    key={index}
+                                    key={item.id}
                                     className="text-Cpurple font-bold text-sm screen-w:text-3xl">
                                         {item.year}
                                 </span>
@@ -45,9 +47,11 @@ const Awardcontent = ({imgname, engname, name, career, timeline_i, timeline_g}) 
                     </div>
                     <div className="flex flex-col space-y-2 screen-w:space-y-5">
                             {timeline_g.map((item, index)=>(
-                            <div className="flex flex-row space-x-2 screen-w:space-x-5">
+                            <div
+                                key={index}
+                                className="flex flex-row space-x-2 screen-w:space-x-5">
                                 <span
-                                    key={index}
+                                    key={item.id}
                                     className="text-Cpurple font-bold text-sm screen-w:text-3xl">
                                         {item.year}
                                 </span>
