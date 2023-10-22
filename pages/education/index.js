@@ -4,7 +4,7 @@ import Image from "next/image";
 import { educationData } from "@/data/educationData";
 import { useRouter } from "next/router";
 import { AnimatePresence, motion } from "framer-motion";
-import Educationpagelayout from "@/components/education/Educationlayout";
+import Educationpagelayout from "@/components/education/Educationpagelayout";
 
 export default function Educationpage() {
     const [education, setEducation] = useState(educationData[0]);
