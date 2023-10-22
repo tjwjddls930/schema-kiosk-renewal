@@ -28,11 +28,10 @@ const Viewlayout = ({children, pid}) => {
             <div className="h-[130px] w-[100px] absolute left-10 bottom-72 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-24">
                 <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
                     <button className="h-20 w-20 ml-2 screen-w:h-40 screen-w:w-40 screen-w:ml-4"> 
-                            <img
-                                className="h-full w-full"
-                                src="/img/exhibitpage/icons/작품해설_아이콘.png"
-                                alt="작품해설"
-                            />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                            className="w-full h-full">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                        </svg>
                         </button>
                         <span className="text-Awhite text-xl font-bold screen-w:text-3xl">{'작품해설'}</span>
                 </div>
@@ -62,11 +61,10 @@ const Viewlayout = ({children, pid}) => {
                         alt="back"
                         priority={true}
                     /> */}
-                    <img 
-                        src="/img/connectpage/홈버튼_화이트.png"
-                        className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
-                        alt="home"
-                    />
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-16 h-16 screen-w:w-36 screen-w:h-36">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                    </svg>
                 </Link>
             </button>
         </div>

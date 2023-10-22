@@ -32,7 +32,7 @@ export default function Career() {
                     <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
                 </div>
             </div>
-            <div className="w-11/12 h-14 screen-w:h-32 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center border-opacity-30 z-10">
+            <div className="w-11/12 h-14 screen-w:h-24 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center border-opacity-30 z-10">
                 <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2 screen-w:space-x-16 screen-w:text-4xl">
                     {careerData.map((item)=> (
                         <li
@@ -74,11 +74,10 @@ export default function Career() {
                 <button className="absolute left-24 bottom-20 screen-w:left-60 screen-w:bottom-44"
                     onClick={()=>router.push("/main")}
                 >
-                     <img 
-                        src="/img/connectpage/홈버튼_밝은화면용.png"
-                        className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
-                        alt="home"
-                    />
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Ablack">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                    </svg>
                 </button>
             </div>
             <Navbar 

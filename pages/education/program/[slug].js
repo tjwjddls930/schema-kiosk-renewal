@@ -1,9 +1,9 @@
 import React from "react";
 import { useRouter } from "next/router";
-import EducationLayout from "@/components/education/EducationLayout";
+import EducationLayout from "@/components/education/program/EducationLayout";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import CoverflowCarousel from "@/components/CoverflowCarousel";
-import EducationContent from "@/components/education/EducationContent";
+import EducationContent from "@/components/education/program/EducationContent";
 import { coverflow_carousel_data } from "@/data/sample_data";
 import Navbar from "@/components/navbar/Navbar";
 

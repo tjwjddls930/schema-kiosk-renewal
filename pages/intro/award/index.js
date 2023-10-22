@@ -14,7 +14,7 @@ export default function Award() {
                     {awardData.map((item)=> (
                         <li
                             key={item.title}
-                            className={item === award ? "text-white border-b-4 border-Cpurple": ""}
+                            className={item === award ? "text-white border-b-4 border-Bblue": ""}
                             onClick={()=> setAward(item)}
                         >   
                             {`${item.title}`}

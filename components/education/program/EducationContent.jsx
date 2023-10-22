@@ -29,7 +29,7 @@ const EducationContent = () => {
                         <div
                             key={item.order}
                             className="flex flex-col space-y-2 screen-w:space-y-8">
-                            <span className="text-Ablue font-bold text-sm screen-w:text-4xl">{item.artist}{'작가'}<span className="text-Dgrey screen-w:text-3xl">{' | '}</span><span className="text-sm text-Ablack font-bold screen-w:text-4xl">{item.location}</span></span>
+                            <span className="text-Bblue font-bold text-sm screen-w:text-4xl">{item.artist}{'작가'}<span className="text-Dgrey screen-w:text-3xl">{' | '}</span><span className="text-sm text-Ablack font-bold screen-w:text-4xl">{item.location}</span></span>
                             <span className="text-sm screen-w:text-4xl text-Bgrey font-bold mb-4">{item.time}</span>
                         </div>
                         ))}

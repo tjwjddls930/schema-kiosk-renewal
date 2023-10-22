@@ -1,4 +1,5 @@
-import { useTranslation } from "next-i18next"
+import { useTranslation } from "next-i18next";
+import Link from "next/link";
 
 const Schemastructure = () => {
     const {t} = useTranslation('intro');
@@ -31,11 +32,11 @@ const Schemastructure = () => {
             // text: "쉐마미술관의 교육실은 약 13평의 공간으로 8x5.4m로 설계되어 있습니다."
             text: t("EDUCATION_EX")
         },
-    ]
+    ];
     return(
-        <div className="h-2/3 w-full flex flex-row space-x-2 screen-w:space-x-8">
+        <div className="h-2/3 w-full flex flex-row space-x-2 screen-w:space-x-8 screen-w:pt-20 screen-w:px-8">
             <div className="w-1/2 flex flex-col space-y-2 screen-w:space-y-8 items-center text-center">
-                <div className="shadow-lg screen-w:w-3/4">
+                <div className="flex shadow-lg screen-w:w-3/4 screen-w:h-3/4">
                     <img 
                         className="h-[250px] w-[450px] screen-w:w-full screen-w:h-full mx-auto"
                         src="/img/intro/structure/쉐마_야외공간.jpg"
@@ -54,7 +55,7 @@ const Schemastructure = () => {
                     </p>
                 </div>
             </div>
-            <div className="grid gap-6 grid-cols-2 screen-w:w-1/2 mx-auto">
+            <div className="grid gap-6 grid-cols-2 screen-w:w-1/2 mx-auto items-center">
                 {
                     leftImages.map((img, index) => (
                         <div 
@@ -64,7 +65,7 @@ const Schemastructure = () => {
                                 key={img.name}
                                 src={`${img.src}`}
                                 alt=""
-                                className="h-[120px] w-[320px] shadow-lg screen-w:h-[400px] screen-w:w-[500px] screen-w:mx-auto"
+                                className="h-[120px] w-[320px] shadow-lg screen-w:h-5/6 screen-w:w-5/6 screen-w:mx-auto"
                             />
                             <div
                                 className="w-[320px] flex flex-row mx-auto screen-w:w-3/4 screen-w:justify-start">
@@ -80,7 +81,31 @@ const Schemastructure = () => {
                     ))
                 }
             </div>
+                <button className="absolute left-6 bottom-20 screen-w:left-16 screen-w:bottom-44">
+                <Link href="/intro">
+                    {/* <Image 
+                        src="/img/facilityguide/exhibitguide/뒤로가기버튼_어두운버전.png"
+                        width="60"
+                        height="60"
+                        alt="back"
+                    /> */}
+                    <img 
+                    src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
+                    className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
+                    alt="back"
+                    />
+                </Link>
+            </button>
+            <button className="absolute left-24 bottom-20 screen-w:left-60 screen-w:bottom-44">
+                <Link href="/main">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Ablack">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                    </svg>
+                </Link>
+            </button>
         </div>
+    
     )
 };
 

@@ -8,24 +8,13 @@ import Image from "next/image";
 import { coverflow_carousel_data } from "@/data/sample_data";
 import { allExhibits } from "@/data/pastExhibit";
 
-const CoverflowCarousel = ({index}) => {
+const CoverflowCarousel = ({index, index1}) => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
     // Update the isClient state to true as this code will be executed only on client side
     setIsClient(true);
   }, []);
-  let length = allExhibits.length;
-
-  function nextExhibit(e) {
-       setButton(e.target.id)
-       setCurrent(Number(pid) + 1 === length ? 0 : Number(pid) + 1);
-   };
-
-   function prevExhibit(e) {
-       setButton(e.target.id)
-       setCurrent(pid - 1 < 0 ? length - 1 : pid - 1);
-   };
 
   return (
     <>
@@ -79,14 +68,16 @@ const CoverflowCarousel = ({index}) => {
             }}
             className="swiper coverflow-slider !py-5"
           >
-            {coverflow_carousel_data.map((item, idx) => {
-              const { id, img, authorImage, authorName, title } = item;
+            {/* {coverflow_carousel_data.map((item, idx) => { */}
+            {allExhibits[index].exhibits.map((item, idx)=> {
+              // const { id, img, authorImage, authorName, title } = item;
+              const {order, title, img, author, location1} = item;
               return (
                 <SwiperSlide key={idx}>
                   <article>
                     <div className="block overflow-hidden rounded-2.5xl bg-white shadow-md transition-shadow hover:shadow-lg dark:bg-jacarta-700">
                       <figure className="relative">
-                        <Link href={`/education/program/${id}`}>
+                        <Link href={`/education/program/${order}`}>
                           {/* <Image
                             width={450}
                             height={430}
@@ -114,16 +105,16 @@ const CoverflowCarousel = ({index}) => {
                             />
                           </Link> */}
                           <div>
-                            <Link href={`/education/program/${id}`} className="block">
+                            <Link href={`/education/program/${order}`} className="block">
                               <span className="font-display text-xs screen-h:text-lg leading-none text-jacarta-700 hover:text-accent dark:text-white">
                                 {title}
                               </span>
                             </Link>
                             <Link
-                              href={`/education/author/${id}`}
+                              href={`/education/author/${order}`}
                               className="text-2xs text-accent"
                             >
-                              {authorName}
+                              {location1}
                             </Link>
                           </div>
                         </div>
@@ -134,32 +125,6 @@ const CoverflowCarousel = ({index}) => {
               );
             })}
           </Swiper>
-
-          <div className="swiper-button-prev-4 group absolute top-1/2 left-4 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              // width="24"
-              // height="24"
-              className="h-24 w-24 screen-w:h-36 screen-w:w-36 fill-jacarta-700 group-hover:fill-accent"
-            >
-              <path fill="none" d="M0 0h24v24H0z" />
-              <path d="M10.828 12l4.95 4.95-1.414 1.414L8 12l6.364-6.364 1.414 1.414z" />
-            </svg>
-          </div>
-          <div className="swiper-button-next-4 group absolute top-1/2 right-4 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              // width="24"
-              // height="24"
-              className="h-24 w-24 screen-w:h-36 screen-w:w-36 fill-jacarta-700 group-hover:fill-accent"
-            >
-              <path fill="none" d="M0 0h24v24H0z" />
-              <path d="M13.172 12l-4.95-4.95 1.414-1.414L16 12l-6.364 6.364-1.414-1.414z" />
-            </svg>
-          </div>
-
           {/* <!-- end coverflow slider --> */}
         </div>
       )}

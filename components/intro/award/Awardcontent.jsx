@@ -11,7 +11,7 @@ const Awardcontent = ({imgname, engname, name, career, timeline_i, timeline_g}) 
                         alt="artist"
                     />
                 </div>
-                <div className="h-[2px] w-14 screen-w:w-28 bg-Cpurple mt-4 mb-2"></div>
+                <div className="h-[2px] w-14 screen-w:w-28 bg-Ablue mt-4 mb-2"></div>
                 <span className="text-xl screen-w:text-4xl text-Awhite">{engname}</span>
                 <span className="font-bold text-screen-w screen-w:text-5xl text-Awhite mb-2">{name}</span>
                 <p className="text-base screen-w:text-4xl text-Awhite">{career}</p>
@@ -28,7 +28,7 @@ const Awardcontent = ({imgname, engname, name, career, timeline_i, timeline_g}) 
                                 className="flex flex-row space-x-2 screen-w:space-x-5">
                                 <span
                                     key={item.id}
-                                    className="text-Cpurple font-bold text-sm screen-w:text-3xl">
+                                    className="text-Bblue font-bold text-sm screen-w:text-3xl">
                                         {item.year}
                                 </span>
                                 <span
@@ -52,7 +52,7 @@ const Awardcontent = ({imgname, engname, name, career, timeline_i, timeline_g}) 
                                 className="flex flex-row space-x-2 screen-w:space-x-5">
                                 <span
                                     key={item.id}
-                                    className="text-Cpurple font-bold text-sm screen-w:text-3xl">
+                                    className="text-Bblue font-bold text-sm screen-w:text-3xl">
                                         {item.year}
                                 </span>
                                 <span

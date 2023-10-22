@@ -1,13 +1,12 @@
 import { careerData } from "@/data/careerData";
 
 const Profile = ({}) => {
-    console.log(careerData[0].education)
     return(
         <div className="w-11/12 h-3/4 screen-w:h-[70%] mx-auto flex flex-row space-x-[50px] screen-w:space-x-[100px] justify-between">
             <div className="absolute bottom-4 transform -translate-x-1/2 left-[37%] screen-w:bottom-24">
                 <img 
                     src="/img/intro/career/김재관_관장님.png"
-                    className="h-[550px] w-[450px] screen-w:h-[1700px] screen-w:w-[1500px] opacity-80"
+                    className="h-[550px] w-[450px] screen-w:h-[1700px] screen-w:w-[1400px] opacity-80"
                     alt="director"
                 />
             </div>

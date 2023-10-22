@@ -96,175 +96,104 @@ const Navbar = ({url, lang, sign}) => {
             )}
             {modal && (
             <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
-                <div className="flex flex-col h-3/4 w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 space-y-4 screen-w:space-y-6">
+                <div className="flex flex-col h-3/4 w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-60 space-y-4 screen-w:space-y-6">
                     <span className="text-xl screen-w:text-3xl text-black font-bold mt-4 screen-w:mt-6">여러분의 언어를 선택해주세요!</span>
                     <span className="text-lg screen-w:text-screen-w text-Cgrey font-bold">Please select your language</span>
-                    <div className="flex flex-col space-y-6 w-full h-[700px] screen-w:space-y-12 screen-w:h-full bg-Cpurple bg-opacity-30 rounded-b-lg py-6 screen-w:pt-20 z-30">
-                        <div className="flex flex-row mx-auto space-x-6 screen-w:space-x-12 z-40">
+                    <div className="flex flex-col space-y-6 w-full h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-6 screen-w:pt-56 items-center z-30">
+                        <div className="flex flex-row mx-auto space-x-6 screen-w:space-x-24 z-40">
                             {/* 한국어 */}
                             <button
-                                className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite"
                             >
                                 <div
                                     id="ko" 
-                                    className="relative h-full w-full"
+                                    className="flex h-full w-full items-center"
                                     onClick={(e)=>handleLanguage(e, "Korean")}
                                 >
-                                    <Image 
-                                        id="ko"
-                                        className="pt-3 screen-w:pt-14 mx-auto"
-                                        height="50"
-                                        width="100"
-                                        src="/img/flags/korea.png"
-                                        alt="korea"
-                                        style={{
-                                            height:"auto",
-                                            width:"auto"
-                                        }}
-                                        onClick={(e)=>handleLanguage(e, "Korean")}
-                                    />
-                                    <div className="absolute w-full h-16 screen-w:h-24 bottom-0 pt-1 screen-w:pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
-                                        <span className="text-xl screen-w:text-screen-w font-bold z-40">한국어<br /></span>
-                                        <span className="text-lg screen-w:text-xl font-bold z-40">Korean</span>
+                                    <div className="h-1/2 w-full flex flex-col text-center space-y-4 screen-w:space-y-8">
+                                        <span className="text-xl screen-w:text-6xl font-bold z-40">한국어</span>
+                                        <span className="text-lg screen-w:text-4xl font-bold z-40">Korean</span>
                                     </div>
-                               </div>
+                                </div>
                             </button>
                             {/* 영어 */}
                             <button
-                                className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite"
                             >
                                 <div 
                                     id="en" 
-                                    className="relative h-full w-full"
-                                    // onClick={(e)=>handleClick(e)} 
+                                    className="flex h-full w-full items-center"
                                     onClick={(e)=>handleLanguage(e, "English")}   
                                 >
-                                    <Image 
-                                        id="en"
-                                        className="pt-3 screen-w:pt-14 mx-auto"
-                                        height="70"
-                                        width="100"
-                                        src="/img/flags/usa.png"
-                                        alt="usa"
-                                        style={{
-                                            height:"auto",
-                                            width:"auto"
-                                        }}
-                                        onClick={(e)=>handleLanguage(e, "English")}
-                                    />
-                                    <div className="absolute w-full h-16 screen-w:h-24 bottom-0 pt-1 screen-w:pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
-                                        <span className="text-xl screen-w:text-screen-w font-bold">English<br /></span>
-                                        <span className="text-lg screen-w:text-xl font-bold">English</span>
+                                    <div className="h-1/2 w-full flex flex-col text-center space-y-4 screen-w:space-y-8">
+                                        <span className="text-xl screen-w:text-6xl font-bold">English</span>
+                                        <span className="text-lg screen-w:text-4xl font-bold">English</span>
                                     </div>
                                 </div>
                             </button>
                         </div>
-                        <div className="flex flex-row mx-auto space-x-6 screen-w:space-x-12 z-40"> 
+                        <div className="flex flex-row mx-auto space-x-6 screen-w:space-x-24 z-40"> 
                         {/* 중국어 */}
                         <button
-                            className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                            className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite"
                         >
                                 <div 
                                     id="zh" 
-                                    className="relative h-full w-full"
-                                    // onClick={(e)=>handleClick(e)}
+                                    className="flex h-full w-full items-center"
                                     onClick={(e)=>handleLanguage(e, "Chinese")}
                                 >
-                                    <Image 
-                                        id="zh"
-                                        className="pt-3 screen-w:pt-14 mx-auto"
-                                        height="50"
-                                        width="100"
-                                        src="/img/flags/china.png"
-                                        alt="china"
-                                        style={{
-                                            height:"auto",
-                                            width:"auto"
-                                        }}
-                                        onClick={(e)=>handleLanguage(e, "Chinese")}
-                                    />
-                                    <div className="absolute w-full h-16 screen-w:h-24 bottom-0 pt-1 screen-w:pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
-                                        <span className="text-xl screen-w:text-screen-w font-bold z-40">中國語<br /></span>
-                                        <span className="text-lg screen-w:text-xl font-bold z-40">Chinese</span>
+                                    <div className="h-1/2 w-full flex flex-col text-center space-y-4 screen-w:space-y-8">
+                                        <span className="text-xl screen-w:text-6xl font-bold z-40">中國語</span>
+                                        <span className="text-lg screen-w:text-4xl font-bold z-40">Chinese</span>
                                     </div>
-                               </div>
+                                </div>
                             </button>
                             {/* 태국어 */}
                             <button 
-                                className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite"
                             >
                                 <div 
                                     id="th"
-                                    className="relative h-full w-full"
-                                    // onClick={(e)=>handleClick(e)}
+                                    className="flex h-full w-full items-center"
                                     onClick={(e)=>handleLanguage(e, "Thai")}
                                 >
-                                    <Image 
-                                        id="th"
-                                        className="pt-3 screen-w:pt-14 mx-auto"
-                                        height="50"
-                                        width="100"
-                                        src="/img/flags/thailand.png"
-                                        alt="thai"
-                                        style={{
-                                            height:"auto",
-                                            width:"auto"
-                                        }}
-                                        onClick={(e)=>handleLanguage(e, "Thai")}
-                                    />
-                                    <div className="absolute w-full h-16 screen-w:h-24 bottom-0 pt-1 screen-w:pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
-                                        <span className="text-xl screen-w:text-screen-w font-bold">แบบไทย<br /></span>
-                                        <span className="text-lg screen-w:text-xl font-bold">Thai</span>
+                                    <div className="h-1/2 w-full flex flex-col text-center space-y-4 screen-w:space-y-8">
+                                        <span className="text-xl screen-w:text-6xl font-bold">แบบไทย</span>
+                                        <span className="text-lg screen-w:text-4xl font-bold">Thai</span>
                                     </div>
                                 </div>
                             </button>
                             {/* 베트남어 */}
                             <button
-                                className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Cpurple"
+                                className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite"
                             >
                                 <div
                                     id="vi" 
-                                    className="relative h-full w-full"
-                                    // onClick={(e)=>handleClick(e)}
+                                    className="flex h-full w-full items-center"
                                     onClick={(e)=>handleLanguage(e, "Vietnamese")}
                                 >
-                                    <Image 
-                                        id="vi"
-                                        className="pt-3 screen-w:pt-14 mx-auto"
-                                        height="70"
-                                        width="100"
-                                        src="/img/flags/vietnam.png"
-                                        alt="vietnam"
-                                        style={{
-                                            height:"auto",
-                                            width:"auto"
-                                        }}
-                                        onClick={(e)=>handleLanguage(e, "Vietnamese")}
-                                    />
-                                    <div className="absolute w-full h-16 screen-w:h-24 bottom-0 pt-1 screen-w:pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
-                                        <span className="text-xl screen-w:text-screen-w font-bold">Tiếng Việt<br /></span>
-                                        <span className="text-lg screen-w:text-xl font-bold">Vietnamese</span>
+                                    <div className="h-1/2 w-full flex flex-col text-center space-y-4 screen-w:space-y-8">
+                                        <span className="text-xl screen-w:text-6xl font-bold">Tiếng Việt</span>
+                                        <span className="text-lg screen-w:text-4xl font-bold">Vietnamese</span>
                                     </div>
                                 </div>
                             </button>
                         </div>
                         <div className="flex flex-row mx-auto space-x-6 screen-w:space-x-8 z-40">
-                            <button className="h-12 w-[200px] screen-w:h-16 screen-w:w-[250px] z-40 bg-Awhite shadow-lg rounded-full text-black font-bold text-screen-w lg:text-xl"
+                            <button className="h-12 w-[200px] screen-w:h-32 screen-w:w-[450px] z-40 bg-Awhite shadow-lg rounded-full text-black font-bold text-xl screen-w:text-4xl"
                                 onClick={()=>setModal(!modal)}
                             >
                                 취소하기
                             </button>
                             {/* 언어 변경 버튼 */}
                             <button 
-                                className="h-12 w-[200px] screen-w:h-16 screen-w:w-[250px] z-40 bg-gradient-to-r from-Agradient to-Bgradient shadow-lg rounded-full text-white font-bold text-screen-w lg:text-xl"
+                                className="h-12 w-[200px] screen-w:h-32 screen-w:w-[450px] z-40 bg-gradient-to-r from-Bblue to-Ablue shadow-lg rounded-full text-white font-bold text-xl screen-w:text-4xl"
                                 onClick={
                                     ()=> changeLanguage(id)
                                 }
                             >
                                 언어 변경하기
                             </button>
-                        </div>
-                        <div>
                         </div>
                     </div>
                 </div>

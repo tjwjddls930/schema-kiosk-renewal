@@ -47,22 +47,30 @@ export default function Modelpage() {
                 position={data.position}
             />
             {/* 그림 넘기기 버튼 */}
-            <div className="absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:h-[300px] screen-w:w-[3 00px] screen-w:left-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
+            <div className="absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:left-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
                 <button
                     id="left"
-                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] text-center text-3xl screen-w:text-[150px] font-bold text-Awhite"
+                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px]"
                     onClick={(e)=>prevExhibit(e)}
                 >   
-                    {'<'}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-6 h-6 screen-w:w-40 screen-w:h-40"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
                 </button>
             </div>
             <div className="absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:right-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
                 <button
                     id="right"
-                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] text-center text-3xl screen-w:text-[150px] font-bold text-Awhite"
+                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px]"
                     onClick={(e)=>nextExhibit(e)}
                 >   
-                    {'>'}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-6 h-6 screen-w:w-40 screen-w:h-40"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
                 </button>
             </div>
             {popup && (

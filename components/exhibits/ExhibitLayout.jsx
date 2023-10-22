@@ -1,21 +1,13 @@
 import CoverflowCarousel from "../CoverflowCarousel";
-import { useState, useEffect } from "react";
 
-const Exhibitlayout = ({order, type, title, time, artist, location, host, support, time1, artist1, location1, host1, support1, explanation, author}) => {
-    const [isClient, setIsClient] = useState(false);
-
-    useEffect(() => {
-      // Update the isClient state to true as this code will be executed only on client side
-      setIsClient(true);
-    }, []);
+const Exhibitlayout = ({order, type, title, time, artist, location, host, support, time1, artist1, location1, host1, support1, explanation, author, index, index1, children}) => {
     return(
         <>
-        {isClient ?? (
-            <div className="w-11/12 h-5/6 screen-w:h-[90%] mx-auto p-3 screen-w:px-10 screen-w:py-16">
+        <div className="w-11/12 h-5/6 screen-w:h-[90%] mx-auto p-3 screen-w:px-10 screen-w:py-16">
             {/* 전시 설명 컨테이너 */}
             <div className="flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center">
                 <div className="justify-start flex flex-row space-x-4 w-1/3">
-                    <span className="text-9xl screen-w:text-[250px] font-bold text-black">{order}</span>
+                    <span className="text-9xl screen-w:text-[250px] font-bold text-Ablack">{order}</span>
                     <div className="flex flex-col space-y-2 screen-w:space-y-8 mt-6">
                         <div className="bg-Ablue h-[2px] w-[60px] screen-w:w-[100px] rounded-full"></div>
                         <span className="text-xl screen-w:text-5xl font-bold text-Cgrey">{type}</span>
@@ -39,7 +31,7 @@ const Exhibitlayout = ({order, type, title, time, artist, location, host, suppor
                     </div>
                 </div>
                 <div className="flex space-y-2 w-1/3 justify-end overflow-auto scroll-smooth">
-                        <p className="h-[450px] screen-w:h-[450px] text-black text-xs screen-w:text-4xl font-bold leading-normal">
+                        <p className="h-[180px] screen-w:h-[450px] text-black text-xs screen-w:text-4xl font-bold leading-normal">
                             {explanation} <br />
                             <br />
                             {author}
@@ -47,9 +39,12 @@ const Exhibitlayout = ({order, type, title, time, artist, location, host, suppor
                         {/* <span className="text-Cgrey text-xs screen-w:text-4xl font-bold pt-2">{author}</span> */}
                 </div>
             </div>
-            <CoverflowCarousel />
+            <CoverflowCarousel 
+                index={index}
+                // index1={index1}
+            />
+            {children}
         </div>
-       )}
     </>
     )
 };

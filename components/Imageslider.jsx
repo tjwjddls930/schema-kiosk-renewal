@@ -53,8 +53,9 @@ function Slider() {
     ])
     const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9,  image10, image11, image12, image13, image14, image15, image16, image17, image18, image19];
     const geometry = [[1.608, 4.16], [4, 3.212], [4.672, 3.212], [3.118, 1.458], [4, 3.212], [4.68, 4.68], [4, 2.88], [2.04, 3.06], [2.46, 3.7], [4.48, 5.82], 
-  [2.552, 4.88], [4.68, 4.68], [2.856, 2.088], [2.424, 2.908], [3.212, 4], [2.424, 2.908], [3.212, 4], [5.332, 3.88], [3.212, 2.424]
-  ]
+    [2.552, 4.88], [4.68, 4.68], [2.856, 2.088], [2.424, 2.908], [3.212, 4], [2.424, 2.908], [3.212, 4], [5.332, 3.88], [3.212, 2.424]]
+    const position=[[0, 2, 0], [0, 2, 0], [0, 2, 0], [0, 1.5, 4], [0, 2, 0], [0, 2, 0], [0, 2, 0], [0, 2, 1.5], [0, 2, 1], [0, 3, -3], 
+    [0, 2, 0], [0, 2, 0], [0, 2, 1.5], [0, 2, 2], [0, 2, 0], [0, 2, 1], [0, 2, 0], [0, 2, 0], [0, 2, 1]]
     const delay = 2000;
     const [change, setChange] = useState(false);
     const [index, setIndex] = useState(0);
@@ -79,7 +80,7 @@ function Slider() {
     });
 
     return (
-        <mesh>
+        <mesh position={position[index]}>
             <planeGeometry args={geometry[index]}/>
             <imageFadeMaterial ref={ref} tex={images[index]} tex2={images[index]} disp={displace} toneMapped={false} />
         </mesh>
@@ -90,9 +91,9 @@ export default function Imageslider() {
    return (
     <div className="flex h-3/4 w-3/4 mx-auto">
         <Canvas
-            camera={{position: [0, 0, 5], fov: 50}}
+            camera={{position: [0, 0, 10], fov: 50}}
             style={{
-              height: "60vh",
+              height: "100vh",
               width: "100vw"
             }}
         >

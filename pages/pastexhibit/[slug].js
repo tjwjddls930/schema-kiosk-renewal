@@ -33,10 +33,6 @@ export default function Viewpage() {
         setButton(e.target.id)
         setCurrent(pid - 1 < 0 ? length - 1 : pid - 1);
     };
-    
-    function handleRefresh() {
-        router.reload();
-    }
 
     return(
         <>
@@ -52,29 +48,27 @@ export default function Viewpage() {
             <div className="absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:left-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
                 <button
                     id="left"
-                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] text-3xl screen-w:text-[150px] font-bold text-Awhite text-center"
+                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px]"
                     onClick={(e)=>prevExhibit(e)}
                 >   
-                    {/* <img 
-                        id="left"
-                        src="/img/exhibitpage/icons/왼쪽버튼.png"
-                        alt="left"
-                    /> */}
-                    {'<'}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-6 h-6 screen-w:w-40 screen-w:h-40"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
                 </button>
             </div>
             <div className="absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:right-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
                 <button
                     id="right"
-                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] text-3xl screen-w:text-[150px] font-bold text-Awhite text-center"
+                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px]"
                     onClick={(e)=>nextExhibit(e)}
                 >   
-                    {/* <img 
-                        id="right"
-                        src="/img/exhibitpage/icons/오른쪽버튼.png"
-                        alt="right"
-                    /> */}
-                    {'>'}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-6 h-6 screen-w:w-40 screen-w:h-40"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
                 </button>
             </div>
             {popup && (
@@ -108,33 +102,6 @@ export default function Viewpage() {
                     </div>
                 </div>
             )}
-            <div className="h-[200px] w-[100px] absolute left-10 bottom-96 screen-w:h-[750px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-56">
-                <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
-                    <button 
-                        className="h-20 w-20 ml-2 screen-w:h-40 screen-w:w-40 screen-w:ml-4"
-                        onClick={handleRefresh}
-                    > 
-                        <img
-                            className="h-full w-full"
-                            src="/img/exhibitpage/icons/감상모드_아이콘.png"
-                            alt="감상모드"
-                        />
-                    </button>
-                    <span className="text-Awhite text-xl font-bold screen-w:text-3xl">{'초기화'}</span>
-                </div>
-            </div>
-            <div className="h-[130px] w-[100px] absolute left-10 bottom-72 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-24">
-               <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
-                <button className="h-20 w-20 ml-2 screen-w:h-40 screen-w:w-40 screen-w:ml-4"> 
-                        <img
-                            className="h-full w-full"
-                            src="/img/exhibitpage/icons/작품해설_아이콘.png"
-                            alt="작품해설"
-                        />
-                    </button>
-                    <span className="text-Awhite text-xl font-bold screen-w:text-3xl">{'작품해설'}</span>
-               </div>
-            </div>
             <Navbar 
                 url={"/video/docent/schema-docent-04.webm"}
                 lang={"main"}

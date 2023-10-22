@@ -16,7 +16,7 @@ const Career = ({}) => {
                     {careerData[0].activity.map((item, index)=>(
                         <div
                             key={index} 
-                            className="flex flex-row space-x-2 screen-w::space-x-8">
+                            className="flex flex-row space-x-2 screen-w:space-x-10">
                             <span
                                 key={item.order} 
                                 className="font-bold text-sm screen-w:text-4xl text-Ablue">{item.year}</span>
