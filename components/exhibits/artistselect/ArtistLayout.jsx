@@ -26,12 +26,12 @@ const Artistlayout = ({children}) => {
                             priority={true}
                         />
                     </Link>
-                    <span className="text-Agrey text-base screen-w:text-xl mt-2">{'전시 안내 '} </span>
-                    <span className="text-Agrey text-base screen-w:text-xl mt-2">{' > 현재 전시'}</span>
-                    <span className="text-Agrey text-base screen-w:text-xl font-bold mt-2">{' > 작가 선택'}</span>
+                    <span className="text-Agrey text-base screen-w:text-4xl mt-2">{'전시 안내 '} </span>
+                    <span className="text-Agrey text-base screen-w:text-4xl mt-2">{' > 현재 전시'}</span>
+                    <span className="text-Agrey text-base screen-w:text-4xl font-bold mt-2">{' > 작가 선택'}</span>
                 </div>
                 <div>
-                    <span className="text-Agrey text-base screen-w:text-xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+                    <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
                 </div>
             </div>
             <div className="flex flex-row w-full h-5/6 mx-auto space-x-4 screen-w:space-x-8">
@@ -99,27 +99,18 @@ const Artistlayout = ({children}) => {
             </div>  
             <button className="absolute left-14 bottom-20 screen-w:left-20 screen-w:bottom-36">
                 <Link href="/exhibit">
-                    {/* <Image 
-                        src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
-                        width="60"
-                        height="60"
-                        alt="back"
-                        priority={true}
-                    /> */}
-                    <img 
-                        src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
-                        className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
-                        alt="back"
-                    />
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-12 h-12 screen-w:w-36 screen-w:h-36 text-Ablack">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                    </svg>
                 </Link>
             </button>
             <button className="absolute left-32 bottom-20 screen-w:left-72 screen-w:bottom-36">
                 <Link href="/main">
-                    <img 
-                        src="/img/connectpage/홈버튼_밝은화면용.png"
-                        className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
-                        alt="home"
-                    />
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Ablack">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                    </svg>
                 </Link>
             </button>
             {children}

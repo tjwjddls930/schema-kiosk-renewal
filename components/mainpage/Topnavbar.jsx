@@ -66,32 +66,16 @@ const TopNavbar = () => {
   const formattedTime = `${parts[1]} ${parts[0]}`; // rearrange the order
 
   return (
-    <div className="hidden sm:flex fixed top-3 screen-w:top-6 h-16 screen-w:h-20 w-full z-100 justify-between items-center px-4 screen-w:px-12 screen-w:py-20">
-       {/* <Image
-        src="/img/mainpage/SmartSpaceSAM_logo.png"
-        alt="logo2"
-        width={192}
-        height={53}
-        priority={true}
-        // className="bg-white p-4 bg-opacity-60 rounded-screen-w"
-      />
-      <Image
-        src="/img/mainpage/schema-logo.png"
-        alt="logo"
-        width={192}
-        height={53}
-        priority={true}
-        // className="bg-white p-4 bg-opacity-60 rounded-screen-w"
-      /> */}
+    <div className="hidden sm:flex fixed top-3 screen-w:top-6 h-16 screen-w:h-20 w-full z-100 justify-between items-center px-4 screen-w:px-12 screen-w:py-24">
       <img 
-        src="/img/mainpage/SmartSpaceSAM_logo.png"
+        src="/img/mainpage/schema-logo-NEW.svg"
         alt="logo1"
-        className="h-12 w-[150px] screen-w:h-32 screen-w:w-[400px]"
+        className="h-12 w-[150px] screen-w:h-40 screen-w:w-[500px]"
       />
         <img 
         src="/img/mainpage/schema-logo.png"
         alt="logo2"
-        className="h-12 w-[150px] screen-w:h-32 screen-w:w-[400px]"
+        className="h-12 w-[150px] screen-w:h-40 screen-w:w-[500px]"
       />
       <div className="flex flex-row space-x-2 screen-w:space-x-4 text-black mr-4">
           <div className="flex flex-col justify-center items-center">

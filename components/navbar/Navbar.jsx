@@ -75,17 +75,17 @@ const Navbar = ({url, lang, sign}) => {
                 </div>
             )}
             {volumepop  && (
-                <div className="absolute h-8 w-[250px] screen-w:h-12 screen-w:w-[350px] bottom-24 right-96 screen-w:transform screen-w:-translate-x-[80%] rounded-full bg-Cgrey bg-opacity-50 items-center">
+                <div className="absolute h-8 w-[250px] screen-w:h-16 screen-w:w-[500px] bottom-24 right-96 screen-w:transform screen-w:-translate-x-1/2 screen-w:right-64 screen-w:bottom-36 rounded-full bg-Ablack bg-opacity-60 items-center z-30">
                     <ReactSlider 
                         step={0.01}
                         min={0}
                         max={1}
-                        className="w-[180px] screen-w:w-[250px] h-3 bg-Awhite rounded-full cursor-grab mt-2 screen-w:mt-4 mx-auto"
-                        thumbClassName="absolute w-5 h-5 cursor-grab bg-Cpurple rounded-full border-2 border-Awhite -top-1"
+                        className="w-[180px] screen-w:w-[400px] h-3 screen-w:h-6 bg-Awhite rounded-full cursor-grab mt-2 screen-w:mt-5 mx-auto"
+                        thumbClassName="absolute w-5 h-5 screen-w:w-8 screen-w:h-8 cursor-grab bg-Cpurple rounded-full border-2 border-Awhite -top-1"
                         trackClassName="top-0 bottom-0 bg-Awhite bg-Cpurple"
                         renderTrack={(props, state)=> (
                         <div {...props} 
-                            className={clsx('h-3 rounded-full cursor-pointer', {
+                            className={clsx('h-3 screen-w:h-6 rounded-full cursor-pointer', {
                                 'bg-Awhite' : state.index === 1,
                                 'bg-Cpurple': state.index === 0
                             })}></div>)}
@@ -199,75 +199,58 @@ const Navbar = ({url, lang, sign}) => {
                 </div>
             </div>
             )}
-           <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-28 bg-Ablack px-10 screen-w:px-12">
-                <div className="flex flex-row w-full space-x-4 screen-w:space-x-6 justify-end my-2 mt-5 lg:mt-4 screen-w:my-4 screen-w:mt-6">
-                    {/* <div className="w-1/12 screen-w:w-1/2">
-                        
-                    </div> */}
-                    <div className="flex flex-row space-x-2 h-9 screen-w:space-x-4 screen-w:h-11 w-[250px] justify-end">
-                            {/* <Image 
-                                src={`/img/flags/${i18n.language}_circle.png`}
-                                height="50"
-                                width="50"
-                                alt="korea"
-                                style={{
-                                    width: "auto",
-                                    height: "auto"
-                                }}
-                            /> */}
-                            <img 
-                                src={`/img/flags/${i18n.language}_circle.png`}
-                                className="h-10 w-10 pb-2 screen-w:h-16 screen-w:w-16"
-                                alt="flag"
-                                onClick={()=>setModal(!modal)}
-                            />
-                            <span 
-                                className="text-xl screen-w:text-4xl screen-w:mt-1 text-Awhite"
-                                onClick={()=>setModal(!modal)}
-                            >{t("CURRENT_LANGUAGE")}</span>
-                        </div>
-                    {/* <div className="w-11/12 screen-w:w-1/2 flex flex-row space-x-3 screen-w:space-x-6">
-                       
-                    </div> */}
-                     <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center">
-                            <span className="text-xl w-[150px] screen-w:text-3xl screen-w:w-[230px] mx-auto screen-w:mt-2 text-Awhite">{t("FONT_SIZE")}</span>
-                            <button
-                                onClick={()=>setSize(!size)} 
-                                className="rounded-full screen-w:text-3xl w-[50px] screen-w:w-[120px] bg-Cgrey text-Awhite font-bold mb-2">
-                                {size ? t("SMALL") : t("BIG")}
-                            </button>
-                        </div>
-                        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center">
-                            <span className="text-xl screen-w:text-3xl w-[150px] screen-w:w-[230px] mx-auto screen-w:mt-2 text-Awhite">{t("VOLUME")}</span>
-                            <button
-                                onClick={()=>setVolumepop(!volumepop)} 
-                                className="rounded-full w-[50px] screen-w:w-[120px] screen-w:text-3xl bg-Cgrey text-white font-bold mb-2"
-                            >
-                                {/* {soundguide ? t("STOP") : t("START")} */}
-                                {'조절'}
-                            </button>
-                        </div>
-                        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center">
-                            <span className="text-xl screen-w:text-3xl w-[150px] screen-w:w-[230px] mx-auto screen-w:mt-2 text-Awhite">{t("SOUND_GUIDE")}</span>
-                            <button
-                                // onClick={()=>setSoundguide(!soundguide)} 
-                                onClick={()=>setSoundguide(!soundguide)} 
-                                className="rounded-full w-[50px] screen-w:w-[120px] screen-w:text-3xl bg-Cgrey text-white font-bold mb-2 disabled:opacity-50"
-                                disabled={signLang}
-                            >
-                                {soundguide ? t("STOP") : t("START")}
-                            </button>
-                        </div>
-                        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center">
-                            <span className="text-xl w-[150px] screen-w:text-3xl screen-w:w-[230px] mx-auto screen-w:mt-2 text-Awhite">{t("SIGN_LANGUAGE")}</span>
-                            <button 
-                                className="rounded-full w-[50px] screen-w:w-[120px] screen-w:text-3xl bg-Cgrey text-white font-bold mb-2 disabled:opacity-50"
-                                onClick={()=>setsignLang(!signLang)}
-                                disabled={soundguide}
-                            >
-                                {signLang ? t("STOP") : t("START")}
-                            </button>
-                        </div>
+           <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-28 bg-Ablack px-10 screen-w:px-12 items-center">
+                <div className="flex flex-row w-full h-full space-x-4 screen-w:space-x-6 justify-end">
+                    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center items-center text-center">
+                        <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">
+                            {'언어변경'}
+                        </span>
+                        <button
+                            onClick={()=>setModal(!modal)}
+                            className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold"
+                        >
+                            {t("CURRENT_LANGUAGE")}
+                        </button>
+                    </div>
+            
+                     <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
+                        <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{t("FONT_SIZE")}</span>
+                        <button
+                            onClick={()=>setSize(!size)} 
+                            className="rounded-full screen-w:text-3xl w-1/2 h-2/3 bg-Cgrey text-Awhite font-bold">
+                            {size ? t("SMALL") : t("BIG")}
+                        </button>
+                    </div>
+                    <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
+                        <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{t("VOLUME")}</span>
+                        <button
+                            onClick={()=>setVolumepop(!volumepop)} 
+                            className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold"
+                        >
+                            {/* {soundguide ? t("STOP") : t("START")} */}
+                            {'조절'}
+                        </button>
+                    </div>
+                    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
+                        <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{t("SOUND_GUIDE")}</span>
+                        <button
+                            onClick={()=>setSoundguide(!soundguide)} 
+                            className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                            disabled={signLang}
+                        >
+                            {soundguide ? t("STOP") : t("START")}
+                        </button>
+                    </div>
+                    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
+                        <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{t("SIGN_LANGUAGE")}</span>
+                        <button 
+                            className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                            onClick={()=>setsignLang(!signLang)}
+                            disabled={soundguide}
+                        >
+                            {signLang ? t("STOP") : t("START")}
+                        </button>
+                    </div>
                 </div>
             </nav> 
         </>

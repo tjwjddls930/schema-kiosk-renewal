@@ -49,18 +49,10 @@ const Modellayout = ({children}) => {
             <button className="absolute left-14 bottom-28 screen-w:left-28 screen-w:bottom-44"
                 onClick={async ()=> router.back()}
             >
-                {/* <Image 
-                    src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
-                    width="60"
-                    height="60"
-                    alt="back"
-                    priority={true}
-                /> */}
-                <img 
-                    src="/img/exhibitpage/icons/뒤로가기_아이콘.png"
-                    className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
-                    alt="back"
-                />
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                    className="w-12 h-12 screen-w:w-36 screen-w:h-36">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                </svg>
             </button>
             <button className="absolute left-36 bottom-28 screen-w:left-72 screen-w:bottom-44"
                 onClick={async ()=> router.push("/")}

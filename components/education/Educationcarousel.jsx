@@ -6,22 +6,18 @@ import "swiper/css/navigation";
 import Link from "next/link";
 import { educationData } from "@/data/educationData";
 
-const Educationcarousel = ({index}) => {
+const Educationcarousel = ({index, index1}) => {
   const [isClient, setIsClient] = useState(false);
   const [list, setList] = useState(null);
 
   useEffect(() => {
     // Update the isClient state to true as this code will be executed only on client side
     setIsClient(true);
-    let length = educationData[index].education;
-    if(length < 3) {
-      setList(1);
-    } else {
-      setList(5)
+    const order = educationData[index].order; 
+    if(educationData[index]) {
+      setList(order);
     }
-  }, [educationData[index].education]);
-  // let length = educationData[index].education;
-  
+  }, [educationData[index]]);
 
   return (
     <>
@@ -45,7 +41,7 @@ const Educationcarousel = ({index}) => {
               // when window width is >= 768px
               992: {
                 // width: 768,
-                slidesPerView: list,
+                slidesPerView: 5,
                 spaceBetween: 30, // which adds 30px of space between each slide.
               },
               // 1920: {
@@ -77,23 +73,15 @@ const Educationcarousel = ({index}) => {
           >
             {/* {coverflow_carousel_data.map((item, idx) => { */}
             {educationData[index].education.map((item, idx) => {
-              const { id, img, location, title } = item;
+              const { id, year, img, location, title } = item;
               return (
                 <SwiperSlide key={idx}>
                   <article>
                     <div className="block overflow-hidden rounded-2.5xl bg-white shadow-md transition-shadow hover:shadow-lg dark:bg-jacarta-700">
                       <figure className="relative">
-                        <Link href={`/education/program/${id}`}>
-                          {/* <Image
-                            width={450}
-                            height={430}
-                            src={img}
-                            alt={title}
-                            priority={true}
-                            className="swiper-lazy object-cover"
-                          /> */}
+                        <Link href={`/education/program/${list}?index=${index1}`}>
                           <img 
-                            className="w-[450px] h-[250px] screen-w:w-[1100px] screen-w:h-[700px]"
+                            className="w-[450px] h-[250px] screen-w:w-[1200px] screen-w:h-[600px]"
                             src={img}
                             alt={title}
                           />
@@ -101,27 +89,13 @@ const Educationcarousel = ({index}) => {
                       </figure>
                       <div className="p-4 screen-w:p-6">
                         <div className="flex w-[450px] screen-w:w-[1100px]">
-                          {/* <Link href={`/author/${id}`} className="shrink-0">
-                            <Image
-                              width={40}
-                              height={40}
-                              src={authorImage}
-                              alt="avatar"
-                              className="mr-4 h-10 w-10 rounded-full"
-                            />
-                          </Link> */}
                           <div>
-                            <Link href={`/education/program/${id}`} className="block">
-                              <span className="font-display text-xs screen-h:text-lg leading-none text-jacarta-700 hover:text-accent dark:text-white">
-                                {title}
-                              </span>
-                            </Link>
-                            <Link
-                              href={`/education/author/${id}`}
-                              className="text-2xs text-accent"
-                            >
+                            <span className="font-display text-xs screen-h:text-2xl leading-none text-jacarta-700 hover:text-accent dark:text-white">
+                              {title}
+                            </span>
+                            <span className="font-display text-xs screen-h:text-2xl leading-none text-jacarta-700 hover:text-accent dark:text-white">
                               {location}
-                            </Link>
+                            </span>
                           </div>
                         </div>
                       </div>

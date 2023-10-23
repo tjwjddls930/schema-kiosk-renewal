@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "@/components/navbar/Navbar";
 import Image from "next/image";
 import { educationData } from "@/data/educationData";
@@ -17,9 +17,13 @@ export default function Educationpage() {
          setIndex(index + 1 === length ? 0 : index + 1);
      };
   
-     function prevExhibit() {
-         setIndex(index - 1 < 0 ? length - 1 : index - 1);
-     };
+    function prevExhibit() {
+        setIndex(index - 1 < 0 ? length - 1 : index - 1);
+    };
+
+    useEffect(()=> {
+        router.replace(`?index=${index}`)
+    }, [index])
 
     return (
         <div className="h-screen w-screen bg-Awhite">
@@ -62,8 +66,8 @@ export default function Educationpage() {
                             host={education.education[index].host} 
                             support={education.education[index].support} 
                             explanation={education.education[index].explanation}
-                            index={education.order-1}
-                            // index1={index}
+                            index={education.order}
+                            index1={index}
                         >
                             <div className="swiper-button-prev-4 group absolute top-1/2 left-8 screen-w:left-16 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume"
                                 onClick={()=> prevExhibit()}
@@ -114,11 +118,10 @@ export default function Educationpage() {
           <button className="absolute left-12 bottom-20 screen-w:bottom-40"
                 onClick={async()=>router.back()}
             >
-                <img 
-                    src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
-                    className="h-12 w-12 mx-auto screen-w:h-36 screen-w:w-36"
-                    alt="back"
-                />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                    className="w-12 h-12 screen-w:w-36 screen-w:h-36 text-Ablack">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                </svg>
             </button>
             <button className="absolute left-24 bottom-20 screen-w:left-60 screen-w:bottom-40"
                 onClick={async()=>router.push("/main")}

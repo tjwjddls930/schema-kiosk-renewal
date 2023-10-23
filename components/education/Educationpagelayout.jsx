@@ -1,6 +1,6 @@
 import Educationcarousel from "./Educationcarousel";
 
-const Educationpagelayout = ({id, type, title, time, participate, location, host, support, explanation, index, children}) => {
+const Educationpagelayout = ({id, type, title, time, participate, location, host, support, explanation, index, index1, children}) => {
     return(
         <>
         <div className="w-11/12 h-5/6 screen-w:h-[90%] mx-auto p-3 screen-w:px-10 screen-w:py-16">
@@ -23,23 +23,22 @@ const Educationpagelayout = ({id, type, title, time, participate, location, host
                         <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'후원'}</span>
                     </div>
                     <div className="flex flex-col space-y-2 screen-w:space-y-4 w-2/3">
-                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{time}</span>
-                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{participate}</span>
-                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{location}</span>
-                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{host}</span>
-                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{support}</span>
+                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{time}</span>
+                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{participate}</span>
+                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{location}</span>
+                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{host}</span>
+                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{support}</span>
                     </div>
                 </div>
                 <div className="flex space-y-2 w-1/3 justify-end overflow-auto scroll-smooth">
-                        <p className="h-[180px] screen-w:h-[450px] text-black text-xs screen-w:text-4xl font-bold leading-normal">
-                            {explanation}
-                        </p>
-                        {/* <span className="text-Cgrey text-xs screen-w:text-4xl font-bold pt-2">{author}</span> */}
+                    <p className="h-[180px] screen-w:h-[450px] text-black text-xs screen-w:text-4xl font-bold leading-normal">
+                        {explanation}
+                    </p>
                 </div>
             </div>
             <Educationcarousel
                 index={index}
-                // index1={index1}
+                index1={index1}
             />
             {children}
         </div>

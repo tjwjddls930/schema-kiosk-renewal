@@ -64,11 +64,10 @@ const EducationLayout = ({children}) => {
             <button className="absolute left-6 bottom-20 screen-w:left-16 screen-w:bottom-44"
                 onClick={()=>router.back()}
             >
-                <img 
-                    src="/img/exhibitpage/icons/뒤로가기버튼_어두운버전.png"
-                    className="h-16 w-16 mx-auto screen-w:h-36 screen-w:w-36"
-                    alt="back"
-                />    
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                    className="w-12 h-12 screen-w:w-36 screen-w:h-36 text-Ablack">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                </svg>
             </button>
             <button className="absolute left-24 bottom-20 screen-w:left-60 screen-w:bottom-44"
                 onClick={()=>router.push("/main")}

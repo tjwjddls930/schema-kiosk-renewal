@@ -2,21 +2,39 @@ import React from "react";
 import { useRouter } from "next/router";
 import EducationLayout from "@/components/education/program/EducationLayout";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import CoverflowCarousel from "@/components/CoverflowCarousel";
 import EducationContent from "@/components/education/program/EducationContent";
-import { coverflow_carousel_data } from "@/data/sample_data";
+import { educationData } from "@/data/educationData";
 import Navbar from "@/components/navbar/Navbar";
+import { useState, useEffect } from "react";
 
 const Program = () => {
   const router = useRouter();
+  const [data, setData] = useState(null);
   const pid = router.query.slug; // 'slug'([slug]) is the name of the dynamic parameter
-
+  const {index} = router.query;
+  useEffect(()=> {
+    const year = educationData[pid].education[index];
+    if(pid && index) {
+      setData(year)
+    }
+  }, [pid, index])
+  // console.log(data);
   return (
-    // <>
-    //   <h1 className="font-se">program [slug]: {pid}</h1>
-    // </>
     <EducationLayout>
-      <EducationContent />
+      {data && (
+        <EducationContent 
+          img={data.img}
+          type={data.type}
+          title={data.title}
+          explanation={data.explanation}
+          participate={data.participate}
+          time1={data.time1}
+          participate1={data.participate1}
+          location={data.location}
+          host={data.host}
+          support={data.support}
+        />
+      )}
       <Navbar />
     </EducationLayout>
   );
@@ -24,7 +42,7 @@ const Program = () => {
 
 export async function getStaticPaths() {
   // const pid = CoverflowCarousel.id;
-  const pid = coverflow_carousel_data.id;
+  const pid = educationData.id;
   return {
     paths: [
       // String variant:
