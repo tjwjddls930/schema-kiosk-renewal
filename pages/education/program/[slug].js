@@ -13,11 +13,11 @@ const Program = () => {
   const pid = router.query.slug; // 'slug'([slug]) is the name of the dynamic parameter
   const {index} = router.query;
   useEffect(()=> {
-    const year = educationData[pid].education[index];
+    const selectedData = educationData[pid].education[index];
     if(pid && index) {
-      setData(year)
+      setData(selectedData)
     }
-  }, [pid, index])
+  }, [pid, index]);
   // console.log(data);
   return (
     <EducationLayout>

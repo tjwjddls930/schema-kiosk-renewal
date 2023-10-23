@@ -23,7 +23,7 @@ export default function Schemafloor() {
                 >
                     <directionalLight 
                         intensity={1}
-                        position={[0, 5, 0]}
+                        position={[20, 3, -5]}
                         castShadow
                     />
                     <Virtualexhibit />

@@ -9,13 +9,16 @@ import { educationData } from "@/data/educationData";
 const Educationcarousel = ({index, index1}) => {
   const [isClient, setIsClient] = useState(false);
   const [list, setList] = useState(null);
+  // const [time, setTime] = useState(null);
 
   useEffect(() => {
     // Update the isClient state to true as this code will be executed only on client side
     setIsClient(true);
     const order = educationData[index].order; 
+    // const year = educationData[index].year;
     if(educationData[index]) {
       setList(order);
+      // setTime(year);
     }
   }, [educationData[index]]);
 
@@ -73,7 +76,7 @@ const Educationcarousel = ({index, index1}) => {
           >
             {/* {coverflow_carousel_data.map((item, idx) => { */}
             {educationData[index].education.map((item, idx) => {
-              const { id, year, img, location, title } = item;
+              const { id, img, location, title } = item;
               return (
                 <SwiperSlide key={idx}>
                   <article>

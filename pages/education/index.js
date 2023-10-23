@@ -22,8 +22,8 @@ export default function Educationpage() {
     };
 
     useEffect(()=> {
-        router.replace(`?index=${index}`)
-    }, [index])
+        router.replace(`?year=${education.year}&?index=${index}`)
+    }, [index, education])
 
     return (
         <div className="h-screen w-screen bg-Awhite">
