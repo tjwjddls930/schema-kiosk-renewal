@@ -55,7 +55,7 @@ export default function Career() {
                             exit={{opacity: 0}}
                             transition={{duration: 0.3}}
                         >
-                            {career ? <div className="p-6 screen-w:px-6 screen-w:pt-40 mx-auto items-center">
+                            {career ? <div className="p-6 screen-w:px-6 screen-w:pt-20 mx-auto items-center">
                                 {career.component}
                             </div> : ""}
                         </motion.div>

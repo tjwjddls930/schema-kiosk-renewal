@@ -11,7 +11,7 @@ const Modelcontent = ({url, position, scale}) => {
     return(
         // <div className="h-[91%] w-[1000px] absolute bottom-16 screen-w:h-[94%] screen-w:w-[1500px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
         <>  
-        <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[94%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
+        <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[94%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2 bg-Awhite">
             {/* <Inactivityredirect timeoutInMinutes={0.2} /> */}
             {/* <InactivityRedirect2 timeoutInMinutes={0.2} /> */}
             <Suspense fallback={null}>
@@ -34,7 +34,7 @@ const Modelcontent = ({url, position, scale}) => {
                         makeDefault
                     />
                     <ambientLight intensity={3} />
-                    <color attach="background" args={["#000000"]} />
+                    <color attach="background" args={["#FFFFFF"]} />
                 </Canvas>
             </Suspense>
         </div>

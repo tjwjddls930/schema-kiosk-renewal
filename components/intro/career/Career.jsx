@@ -6,7 +6,7 @@ import Imageslider from "@/components/Imageslider";
 const Career = ({}) => {
     return(
         <div className="w-11/12 h-3/4 screen-w:h-[70%] mx-auto flex flex-row space-x-[50px] screen-w:space-x-[100px] justify-between">
-            <div className="w-1/2 h-2/3 flex flex-col space-y-4 screen-w:space-y-[150px]">
+            <div className="w-1/2 h-2/3 flex">
                <Suspense fallback={null}>
                 <Imageslider />
                </Suspense>

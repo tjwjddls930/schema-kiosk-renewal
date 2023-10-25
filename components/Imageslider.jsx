@@ -93,8 +93,8 @@ export default function Imageslider() {
         <Canvas
             camera={{position: [0, 0, 10], fov: 50}}
             style={{
-              height: "100vh",
-              width: "100vw"
+              height: "80vh",
+              width: "80vw"
             }}
         >
             <Slider />

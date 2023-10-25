@@ -39,6 +39,7 @@ const Viewcontent = ({url, width, height}) => {
                     makeDefault 
                 />
                 <ambientLight intensity={3} />
+                <color attach="background" args={["#FFFFFF"]} />
             </Canvas>
         </div>
         )}
