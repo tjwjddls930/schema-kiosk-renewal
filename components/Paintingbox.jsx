@@ -6,7 +6,7 @@ const Paintingbox = ({url, position, rotation, width, height}) => {
     const texture = useTexture(url);
 
     return(
-        <mesh position={position} rotation={rotation}>
+        <mesh position={position} rotation={rotation} castShadow>
             <boxGeometry attach="geometry" args={[width, height, 0.1]} />
             {/* <boxGeometry attach="geometry" args={[3, 3, 3]} /> */}
             <meshLambertMaterial color={0xffffff} attach="material-0" />

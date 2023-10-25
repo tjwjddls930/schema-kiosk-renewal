@@ -30,17 +30,17 @@ const Camerabutton = () => {
 
     const set = {
         1: {
-            cameraPos: [-2, 3, 11],
+            cameraPos: [-2, 5, 15],
             target: [0, 0, 0],
         },
         //전시실1
         2: {
-            cameraPos: [20, 2, -5],
+            cameraPos: [20, 5, -5],
             target: [12, 0, -2],
         },
         //전시실2
         3: {
-            cameraPos: [-20, 2, -6],
+            cameraPos: [-23, 5, -6],
             target: [-17, 0, -2]
         },
         //전시실1 작품
@@ -118,7 +118,6 @@ const Camerabutton = () => {
         state.target.set(...set[num].target);
         state.shouldUpdate = true;
         state.clicked = true;
-        console.log(num);
     };    
 
     // console.log(button);

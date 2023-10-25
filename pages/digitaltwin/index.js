@@ -13,11 +13,11 @@ export default function Schemafloor() {
         <div className="h-screen w-screen">
             {/* <Link href="/main">  
             </Link> */}
-            <Inactivityredirect timeoutInMinutes={0.5} />
+            {/* <Inactivityredirect timeoutInMinutes={0.5} /> */}
             <Suspense fallback={<Loading />}>
                 <Camerabutton />
                 <Canvas 
-                    camera={{position: [-2, 3, 11]}}
+                    camera={{position: [-2, 5, 15]}}
                     gl={{antialias: true, localClippingEnabled: true,}}
                     shadows
                 >
@@ -25,12 +25,21 @@ export default function Schemafloor() {
                         intensity={1}
                         position={[20, 3, -5]}
                         castShadow
+                        shadow-mapSize-height={2048}
+                        shadow-mapSize-width={2048}
+                        shadow-camera-near={0.1}
+                        shadow-camera-far={400}
+                        shadow-camera-left={-400}
+                        shadow-camera-right={400}
+                        shadow-camera-top={400}
+                        shadow-camera-bottom={-400}
+                        shadow-normalBias={0.1}
                     />
                     <Virtualexhibit />
                     <Model
-                        modelName={'/models/schema_inside_new_3.glb'}
+                        modelName={'/models/schema_inside.glb'}
                         position={[0, 0, 0]}
-                        scale={[2, 2.5, 2]}
+                        scale={[3, 3, 3]}
                         rotation={[0, MathUtils.degToRad(180), 0]}
                     />
                     <ambientLight intensity={1.5} />

@@ -9,20 +9,46 @@ export const educationData = [
                 id: "23-1",
                 year: 2023,
                 type: "2023년 교육프로그램",
+                title: "2023 충북 문화예술교육사 현장역량강화 사업 「히든스페이스 탐험가」",
+                time: "2023년 7월 6일, 7월 7일, 7월 13일, 7월 20일, 7월 21일, 8월 30일, 9월 1일, 9월 7일, 9월 15일, 9월 22일, 9월 16일, 9월 23일, 10월 7일, 10월 14일, 10월 21일",
+                time1: "10:00 ~ 12:00, 13:00 ~ 15:00",
+                location: "쉐마미술관 교육실 및 야외",
+                participate: "만 5세 이상 및 초등학교 저학년 아동",
+                participate1: "15명(3기수 운영 /총 45명)",
+                explanation: "‘히든 스페이스’ 프로그램은 문화예술교육사와 함께 미술관 소장품을 활용한 현대미술의 ‘기하학적 추상화’ 키워드를 주제로 한 프로그램 입니다. 쉐마미술관의 소장품 중 기하학적 추상화 작가의 작품들을 활용하여, 한국 현대미술의 기하학 추상화의 대표적인 작가인 ‘이승조 작가’와 ‘김재관 작가’의 작품을 통해 현대미술의 기하학 추상화의 세계를 소개하며, 현대미술을 더 깊이 있게 경험하며 작가의 새로운 시각적 표현을 이해해보는 예술적 창작, 표현을 경험해보는 시간을 만들고자 합니다.",
+                host: "",
+                support: "",
+                img: "/img/educationpage/2023/23-6.png",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "/img/educationpage/2023/thumbnail-1.png"}
+                ],
+                // thumbnail: [
+                //    {order: 1, },
+                // ],
+            },
+            {
+                id: "23-2",
+                year: 2023,
+                type: "2023년 교육프로그램",
                 title: "2023 생애주기별 문화예술교육 지원사업 「꿈다락문화예술학교」 ‘쉐마미술관아틀리에 VER.1’",
                 time: "2023년 7월 9일 ~ 8월 6일, 2023년 8월 20일 ~ 9월 17일, 2023년 9월 24일 ~ 10월 29일",
                 time1: "매주 일요일 오전 10시~오후 1시",
                 location: "쉐마미술관 교육실 및 야외",
                 participate: "초등학교 1-3학년 (저학년)",
                 participate1: "10명(3기수 운영 /총 30명)",
-                explanation: "최근 사회적 이슈인 노령화시대에 실버세대와 함께하는 소통의 미술체험 어린이 및 청소년을 대상으로 이해하기 쉬운 미술체험을 제공한 후, 근래에 많이 실종된 경로사상 함양 및 세대 간 정서적 교감을 하기위해 ‘함께하는 미술 체험’ 어린이 및 청소년의 정서적 안정과 자아 정체성 확립에 도움을 주며 나아가 예술 문화 지식을 심어주는데 그치는 것이 아니라 시민 1인 1예술 활동을 통한 선진 시민 의식 함양과 창조적 삶을 사는 지혜와 품격 있는 예술의 향기를 제공하여 계층, 지역, 세대 간의 소통에 기여하는 프로그램.",
+                explanation: "‘쉐마미술관 아틀리에’ 프로그램은 세 명의 현대미술작가를 통해 세상을 함께 바라보고 감상, 공감의 시간을 통해 새로운 시각적 표현으로 예술적 창작 활동의 시간을 통해 자신만의 고유함과 특별함을 발견하게 되는 자기 찾기 프로그램입니다. 세 명의 현대미술 작가가 참여하는 이번 프로그램은 1. 이자연 조각 작가와 함께하는 ‘조각 실험실’, 2. 김동우 회화 작가와 함께하는 ‘이미지 실험실’, 3. 최민솔 평면 설치 작가와 함께하는 ‘형태 실험실’, 로 조각, 회화 등 다양한 현대미술 영역을 더 깊이 있게 경험해보며 참여 어린이의 감각을 솔직하게 표현해보는 예술 창작시간을 만들어가고자 합니다.",
                 host: "문화체육관광부, 한국문화예술교육진흥원",
                 support: "",
                 img: "/img/educationpage/2023/23-5.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "/img/educationpage/2023/thumbnail-2.png"}
+                ],
+                // thumbnail: [
+                //     {order: 1, src: "/img/educationpage/2023/thumbnail-2.png"}
+                // ],
             },
             {
-                id: "23-2",
+                id: "23-3",
                 year: 2023,
                 type: "2023년 교육프로그램",
                 title: "2023 생애주기별 문화예술교육 지원사업 「꿈다락문화예술학교」 ‘쉐마미술관아틀리에 VER.2’",
@@ -35,10 +61,13 @@ export const educationData = [
                 host: "문화체육관광부, 한국문화예술교육진흥원",
                 support: "",
                 img: "/img/educationpage/2023/23-4.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
-                id: "23-3",
+                id: "23-4",
                 year: 2023,
                 type: "2023년 교육프로그램",
                 title: "2023 꿈다락문화예술학교 ‘풍경유람’",
@@ -51,10 +80,13 @@ export const educationData = [
                 host: "쉐마미술관",
                 support: "충청북도, 충북문화재단",
                 img: "/img/educationpage/2023/23-3.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
-                id: "23-4",
+                id: "23-5",
                 year: 2023,
                 type: "2023년 교육프로그램",
                 title: "2023 「KB Dream Wave 2030」과 함께하는 ‘박물관 노닐기’ <온유어마인드>",
@@ -67,10 +99,13 @@ export const educationData = [
                 host: "한국박물관협회",
                 support: "KB국민은행, 교육부, 문화체육관광부",
                 img: "/img/educationpage/2023/23-2.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
-                id: "23-5",
+                id: "23-6",
                 year: 2023,
                 type: "2023년 교육프로그램",
                 title: "2023 KB손해보험과 함께하는 '열린 박물관'<생명나무프로젝트>",
@@ -83,7 +118,10 @@ export const educationData = [
                 host: "한국박물관협회, KB손해보험",
                 support: "KB손해보험",
                 img: "/img/educationpage/2023/23-1.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
         ]
     },
@@ -105,7 +143,16 @@ export const educationData = [
                 host: "쉐마미술관",
                 support: "충청북도, 충북문화재단 충북문화예술교육지원센터",
                 img: "/img/educationpage/2022/22-4.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "/img/educationpage/2022/thumbnail-1.png"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "/img/educationpage/2022/thumbnail-3.png"}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "/img/educationpage/2022/thumbnail-6.jpg"}
+                ],
+                // thumbnail: [
+                //     {order: 1, src: "/img/educationpage/2022/thumbnail-1.png"}, 
+                //     {order: 2, src: "/img/educationpage/2022/thumbnail-3.png"}, 
+                //     {order: 3, src: "/img/educationpage/2022/thumbnail-6.jpg"}
+                // ]
             },
             {
                 id: "22-2",
@@ -121,7 +168,10 @@ export const educationData = [
                 host: "한국박물관협회, KB손해보험",
                 support: "KB손해보험",
                 img: "/img/educationpage/2022/22-1.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "22-3",
@@ -137,7 +187,14 @@ export const educationData = [
                 host: "문화체육관광부",
                 support: "",
                 img: "/img/educationpage/2022/22-2.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "/img/educationpage/2022/thumbnail-2.png"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "/img/educationpage/2022/thumbnail-4.png"}
+                ],
+                // thumbnail: [
+                //     {order: 1, src: "/img/educationpage/2022/thumbnail-2.png"}, 
+                //     {order: 2, src: "/img/educationpage/2022/thumbnail-4.png"}
+                // ]
             },
             {
                 id: "22-4",
@@ -153,7 +210,12 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2022/22-3.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "/img/educationpage/2022/thumbnail-5.png"}
+                ],
+                // thumbnail: [
+                //     {order: 1, src: "/img/educationpage/2022/thumbnail-5.png"}
+                // ],
             },
         ]
     },
@@ -175,7 +237,13 @@ export const educationData = [
                 host: "문화체육관광부, 충청북도",
                 support: "문화체육관광부, 한국문화예술교육진흥원",
                 img: "/img/educationpage/2021/홈페이지-메인사이즈.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=S1VLpEB_Bx4", thumbnail: "/img/educationpage/2021/thumbnail-4.png"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=KqnfaJ3saaU", thumbnail: "/img/educationpage/2021/thumbnail-5.png"}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=7Iu9juqKQVA", thumbnail: "/img/educationpage/2021/thumbnail-6.png"}, 
+                    {order: 4, url: "https://www.youtube.com/watch?v=jnpBTvT8aKs", thumbnail: "/img/educationpage/2021/thumbnail-8.png"}
+                ],
+                // thumbnail: ["/img/educationpage/2021/thumbnail-4.png", "/img/educationpage/2021/thumbnail-5.png", "/img/educationpage/2021/thumbnail-6.png", "/img/educationpage/2021/thumbnail-8.png"],
             },
             {
                 id: "21-2",
@@ -191,7 +259,11 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2021/미니버스-홈피-1.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=qXjmRDkQVXc", thumbnail: "/img/educationpage/2021/thumbnail-3.png"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=ZSNb0_T5D_U", thumbnail: "/img/educationpage/2021/thumbnail-7.png"}
+                ],
+                // thumbnail: ["/img/educationpage/2021/thumbnail-3.png", "/img/educationpage/2021/thumbnail-7.png"]
             },
             {
                 id: "21-3",
@@ -207,7 +279,11 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2021/꽃보다당신5-1.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=mxBb5jyxbvs", thumbnail: "/img/educationpage/2021/thumbnail-1.jpg"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=g95XGEb9T-w", thumbnail: "/img/educationpage/2021/thumbnail-2.png"}
+                ],
+                // thumbnail: ["/img/educationpage/2021/thumbnail-1.jpg", "/img/educationpage/2021/thumbnail-2.png"]
             },
             {
                 id: "21-4",
@@ -223,7 +299,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2021/홈페이지-1.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "21-5",
@@ -239,7 +318,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2021/홈페이지-32.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
         ]
     },
@@ -261,7 +343,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2020/20-1.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "20-2",
@@ -277,7 +362,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2020/20-2.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "20-3",
@@ -293,7 +381,11 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2020/홈페이지-1.png",
-                youtube: "https://www.youtube.com/watch?v=G20J4kGWu7s",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=G20J4kGWu7s", thumbnail: "/img/educationpage/2020/thumbnail-1.png"},
+                    {order: 2, url: "https://www.youtube.com/watch?v=pT6tuKB14U4", thumbnail: "/img/educationpage/2020/thumbnail-4.png"}
+                ], 
+                // thumbnail: ["/img/educationpage/2020/thumbnail-1.png", "/img/educationpage/2020/thumbnail-4.png"]
             },
             {
                 id: "20-4",
@@ -309,7 +401,11 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2020/20-3.png",
-                youtube: "https://www.youtube.com/watch?v=NfUEFH7C1w4",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=NfUEFH7C1w4", thumbnail: "/img/educationpage/2020/thumbnail-3.png"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=WfY01k6jMEI", thumbnail: "/img/educationpage/2020/thumbnail-5.png"}
+                ],
+                // thumbnail: ["/img/educationpage/2020/thumbnail-3.png", "/img/educationpage/2020/thumbnail-5.png"]
             },
             {
                 id: "20-5",
@@ -325,7 +421,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2020/홈페이지.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
         ]
     },
@@ -347,7 +446,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2019/19-1.png",
-                youtube: "https://www.youtube.com/watch?v=s3McvuRhtWU",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=s3McvuRhtWU", thumbnail: "/img/educationpage/2019/thumbnail-1.jpg"}
+                ],
+                // thumbnail: ["/img/educationpage/2019/thumbnail-1.jpg"]
             },
             {
                 id: "19-2",
@@ -363,7 +465,11 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2019/19-2.png",
-                youtube: "https://www.youtube.com/watch?v=hlIhjiBdTjU",
+                youtube: [
+                    {order: 1, url: "https://www.youtube.com/watch?v=hlIhjiBdTjU", thumbnail: "/img/educationpage/2019/thumbnail-3.png"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=oDX8PXOsdFE", thumbnail: "/img/educationpage/2019/thumbnail-2.png"}
+                ],
+                // thumbnail: ["/img/educationpage/2019/thumbnail-3.png", "/img/educationpage/2019/thumbnail-2.png"],
             },
             {
                 id: "19-3",
@@ -379,7 +485,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2019/홈페이지.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
         ]
     },
@@ -401,7 +510,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2018/18-5.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "18-2",
@@ -417,7 +529,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2018/18-4.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "18-3",
@@ -433,7 +548,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2018/홈페이지-1.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "18-4",
@@ -449,7 +567,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2018/홈페이지.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "18-5",
@@ -465,7 +586,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2018/토토홈페이지.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
         ]
     },
@@ -487,7 +611,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2017/2017-문화가-있는-날.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "17-2",
@@ -503,7 +630,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2017/홈페이지.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
         ]
     },
@@ -525,7 +655,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2016/홈페이지-3.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "16-2",
@@ -541,7 +674,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2016/홈페이지-2.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "16-3",
@@ -557,7 +693,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2016/홈페이지-1.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
         ]
     },
@@ -579,7 +718,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2015/홈페이지-24.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "15-2",
@@ -595,7 +737,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2015/홈페이지-7.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "15-3",
@@ -611,7 +756,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2015/홈페이지-6.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "15-4",
@@ -627,7 +775,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2015/홈페이지-5.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "15-5",
@@ -643,7 +794,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2015/홈페이지-4.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
         ]
     },
@@ -665,7 +819,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2014/홈페이지-23.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "14-2",
@@ -681,7 +838,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2014/홈페이지-12.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "14-3",
@@ -697,7 +857,10 @@ export const educationData = [
                 host: "충청북도, 청주시",
                 support: "문화체육관광부, 한국문화예술교육진흥원",
                 img: "/img/educationpage/2014/홈페이지-8.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
         ]
     },
@@ -719,7 +882,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2013/홈페이지-20.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "13-2",
@@ -735,7 +901,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2013/홈페이지-14.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             },
             {
                 id: "13-3",
@@ -751,7 +920,10 @@ export const educationData = [
                 host: "문화체육관광부, 충청북도, 충북문화재단",
                 support: "",
                 img: "/img/educationpage/2013/홈페이지-13.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             }
         ]
     },
@@ -773,7 +945,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2012/홈페이지-17.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             }
         ]
     },
@@ -795,7 +970,10 @@ export const educationData = [
                 host: "",
                 support: "",
                 img: "/img/educationpage/2011/홈페이지-18.png",
-                youtube: "",
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+                // thumbnail: null,
             }
         ]
     },

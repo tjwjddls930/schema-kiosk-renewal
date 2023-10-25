@@ -24,6 +24,7 @@ const Program = () => {
       {data && (
         <EducationContent 
           img={data.img}
+          clip={data.youtube}
           type={data.type}
           title={data.title}
           explanation={data.explanation}
