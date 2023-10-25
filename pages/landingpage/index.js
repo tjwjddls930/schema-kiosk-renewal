@@ -31,7 +31,7 @@ export default function Landingpage() {
                         />
                     </Portal>
                     <Portal
-                        id="02" name={`exhibit`} author="Schema Art Museum"
+                        id="exhibittest" name={`exhibit`} author="Schema Art Museum"
                         bg="#5c92de"
                     >
                         <Gltf 
