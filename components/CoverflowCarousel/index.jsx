@@ -4,23 +4,89 @@ import { Navigation, Pagination, EffectCoverflow } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import Link from "next/link";
-import Image from "next/image";
-import { coverflow_carousel_data } from "@/data/sample_data";
 import { allExhibits } from "@/data/pastExhibit";
+import { paintData } from "@/data/paintData";
+import { useRouter } from "next/router";
 
-const CoverflowCarousel = ({index, index1}) => {
+const CoverflowCarousel = ({index}) => {
   const [isClient, setIsClient] = useState(false);
+  const [popup, setPopup] = useState(false);
+  const [highlightedImageIndex, setHighlightedImageIndex] = useState(0); // Initialize with the first slide
+  const router = useRouter();
 
   useEffect(() => {
     // Update the isClient state to true as this code will be executed only on client side
     setIsClient(true);
   }, []);
 
+  const handleSlideChange = (swiper) => {
+    setHighlightedImageIndex(swiper.activeIndex);
+  };
+
   return (
     <>
       {/* <!-- Coverflow Slider --> */}
       {isClient && (
-        <div className="relative px-6 screen-w:px-8 screen-w:py-12 sm:px-0">
+            <div className="w-11/12 h-5/6 screen-w:h-[90%] mx-auto p-3 screen-w:px-10 screen-w:py-16">
+            {popup && (
+              <div className="absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20">
+                <div className="w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center justify-center">
+                  <button 
+                    className="h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue"
+                    onClick={()=> router.push(`/artist`)}
+                  >
+                      {'작가 보기'}
+                  </button>
+                  <button
+                      className="h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue"
+                      onClick={()=> router.push(`/viewpage/${paintData[0].order}`)}
+                      >
+                      {'작품 보기'}
+                  </button>
+                </div>
+                <button
+                    onClick={()=>setPopup(!popup)}
+                    className="absolute h-10 w-[200px] screen-w:h-28 screen-w:w-[500px] text-center text-base screen-w:text-4xl text-Awhite font-bold items-center bottom-28 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue">
+                    {'닫기'}
+                </button>
+              </div>
+            )}
+            {/* 전시 설명 컨테이너 */}
+            <div className="flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center">
+                <div className="justify-start flex flex-row space-x-4 w-1/3">
+                    <span className="text-9xl screen-w:text-[250px] font-bold text-Ablack">{allExhibits[index].exhibits[highlightedImageIndex].order}</span>
+                    <div className="flex flex-col space-y-2 screen-w:space-y-8 mt-6">
+                        <div className="bg-Ablue h-[2px] w-[60px] screen-w:w-[100px] rounded-full"></div>
+                        <span className="text-xl screen-w:text-5xl font-bold text-Cgrey">{allExhibits[index].exhibits[highlightedImageIndex].type}</span>
+                        <span className="text-2xl screen-w:text-6xl font-bold text-Ablack">{allExhibits[index].exhibits[highlightedImageIndex].title}</span>
+                    </div>
+                </div>
+                <div className="flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3">
+                    <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
+                        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'기간'}</span>
+                        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'아티스트'}</span>
+                        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'장소'}</span>
+                        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'주최/주관'}</span>
+                        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'후원'}</span>
+                    </div>
+                    <div className="flex flex-col space-y-2 screen-w:space-y-4 w-2/3">
+                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].time1}</span>
+                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{allExhibits[index].exhibits[highlightedImageIndex].artist1}</span>
+                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].location1}</span>
+                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].host1}</span>
+                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].support1}</span>
+                    </div>
+                </div>
+                <div className="flex space-y-4 w-1/3 flex-col justify-end overflow-auto scroll-smooth">
+                        <p className="h-[180px] screen-w:h-[450px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed screen-w:truncate">
+                            {allExhibits[index].exhibits[highlightedImageIndex].explanation}
+                            <br />
+                            {allExhibits[index].exhibits[highlightedImageIndex].author}
+                        </p>
+                        {/* <span className="text-Cgrey text-xs screen-w:text-4xl font-bold pt-2">{author}</span> */}
+                </div>
+            </div>
+            <div className="relative px-6 screen-w:px-8 screen-w:py-12 sm:px-0 touch-none">
           {/* <!-- Swiper Slider --> */}
           <Swiper
             breakpoints={{
@@ -41,18 +107,12 @@ const CoverflowCarousel = ({index, index1}) => {
                 slidesPerView: 5,
                 spaceBetween: 30, // which adds 30px of space between each slide.
               },
-              // 1920: {
-              //   // width: 940,
-              //   // height: 940,
-              //   slidesPerView:7,
-              //   spaceBetween: 20,
-              // }
             }}
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
             slidesPerView={5}
-            loop={true}
+            loop={false}
             coverflowEffect={{
               rotate: 30,
               stretch: 0,
@@ -67,31 +127,29 @@ const CoverflowCarousel = ({index, index1}) => {
               prevEl: ".swiper-button-prev-4",
             }}
             className="swiper coverflow-slider !py-5"
+            onSlideChange={(swiper) => handleSlideChange(swiper)}
           >
-            {/* {coverflow_carousel_data.map((item, idx) => { */}
             {allExhibits[index].exhibits.map((item, idx)=> {
-              // const { id, img, authorImage, authorName, title } = item;
               const {order, title, img, author, location1} = item;
               return (
                 <SwiperSlide key={idx}>
                   <article>
                     <div className="block overflow-hidden rounded-2.5xl bg-white shadow-md transition-shadow hover:shadow-lg dark:bg-jacarta-700">
                       <figure className="relative">
-                        <Link href={`/education/program/${order}`}>
-                          {/* <Image
-                            width={450}
-                            height={430}
-                            src={img}
-                            alt={title}
-                            priority={true}
-                            className="swiper-lazy object-cover"
-                          /> */}
-                          <img 
-                            className="w-[450px] h-[250px] screen-w:w-[1100px] screen-w:h-[700px]"
-                            src={img}
-                            alt={title}
-                          />
-                        </Link>
+                        {/* <Image
+                          width={450}
+                          height={430}
+                          src={img}
+                          alt={title}
+                          priority={true}
+                          className="swiper-lazy object-cover"
+                        /> */}
+                        <img 
+                          className="w-[450px] h-[250px] screen-w:w-[1100px] screen-w:h-[700px]"
+                          src={img}
+                          alt={title}
+                          onClick={()=>setPopup(!popup)}
+                        />
                       </figure>
                       <div className="p-4 screen-w:p-6">
                         <div className="flex w-[450px] screen-w:w-[1100px]">
@@ -106,7 +164,7 @@ const CoverflowCarousel = ({index, index1}) => {
                           </Link> */}
                           <div>
                             <Link href={`/education/program/${order}`} className="block">
-                              <span className="font-display text-xs screen-h:text-lg leading-none text-jacarta-700 hover:text-accent dark:text-white">
+                              <span className="font-display text-xs screen-w:text-lg leading-none text-jacarta-700 hover:text-accent dark:text-white">
                                 {title}
                               </span>
                             </Link>
@@ -126,6 +184,27 @@ const CoverflowCarousel = ({index, index1}) => {
             })}
           </Swiper>
           {/* <!-- end coverflow slider --> */}
+          <div className="swiper-button-prev-4 group absolute top-1/2 left-4 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-indigo-700 text-xl shadow-white-volume">
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="h-24 w-24 screen-w:h-36 screen-w:w-36 fill-jacarta-700 group-hover:fill-accent"
+              >
+                  <path fill="none" d="M0 0h24v24H0z" />
+                  <path d="M10.828 12l4.95 4.95-1.414 1.414L8 12l6.364-6.364 1.414 1.414z" />
+              </svg>
+          </div>
+          <div className="swiper-button-next-4 group absolute top-1/2 right-4 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-indigo-700 text-xl shadow-white-volume">
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              className="h-24 w-24 screen-w:h-36 screen-w:w-36 fill-jacarta-700 group-hover:fill-accent"
+              >
+                  <path fill="none" d="M0 0h24v24H0z" />
+                  <path d="M13.172 12l-4.95-4.95 1.414-1.414L16 12l-6.364 6.364-1.414-1.414z" />
+              </svg>
+          </div>
+        </div>
         </div>
       )}
     </>

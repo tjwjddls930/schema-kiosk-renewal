@@ -30,19 +30,19 @@ const Exhibitlayout = ({order, type, title, time, artist, location, host, suppor
                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{support1}</span>
                     </div>
                 </div>
-                <div className="flex space-y-2 w-1/3 justify-end overflow-auto scroll-smooth">
-                        <p className="h-[180px] screen-w:h-[450px] text-black text-xs screen-w:text-4xl font-bold leading-normal">
-                            {explanation} <br />
+                <div className="flex space-y-4 w-1/3 flex-col justify-end overflow-auto scroll-smooth">
+                        <p className="h-[180px] screen-w:h-[450px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed screen-w:truncate">
+                            {explanation}
                             <br />
                             {author}
                         </p>
                         {/* <span className="text-Cgrey text-xs screen-w:text-4xl font-bold pt-2">{author}</span> */}
                 </div>
             </div>
-            <CoverflowCarousel 
+            {/* <CoverflowCarousel 
                 index={index}
                 // index1={index1}
-            />
+            /> */}
             {children}
         </div>
     </>

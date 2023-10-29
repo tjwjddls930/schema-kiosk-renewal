@@ -1,18 +1,57 @@
 import Link from "next/link";
-import { useTranslation } from "next-i18next";
 import Navbar from "@/components/navbar/Navbar";
+import { LanguageContext } from "@/contexts/LanguageContext";
+import { useContext } from "react";
+
+const topText = {
+    KOR: () => (
+        <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                {'미술관 소개'}
+            </span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+        </div>
+    ),
+    ENG: () => (
+        <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                {'Museum Introduction'}
+            </span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'A Museum for Everyone - Smart Space SAM'}</span>
+        </div>
+    ),
+    CH: () => (
+        <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                {'博物馆简介'}
+            </span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'适合所有人的博物馆 - Smart Space SAM'}</span>
+        </div>
+    ),   
+    TH: () => (
+        <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                {'ความรู้เบื้องต้นเกี่ยวกับพิพิธภัณฑ์'}
+            </span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'พิพิธภัณฑ์สำหรับทุกคน - Smart Space SAM'}</span>
+        </div>
+    ),
+    VI: () => (
+        <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                {'Giới thiệu về bảo tàng'}
+            </span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Bảo tàng dành cho mọi người - Smart Space SAM'}</span>
+        </div>
+    ),
+}
 
 const IntroConnect = ({children}) => {
-    const {t} = useTranslation('common');
+    const {language} = useContext(LanguageContext);
     return(
         <>
             <div className="h-screen w-screen bg-[url('/img/intro/connectpage/미술관소개_배경이미지.png')] bg-cover bg-no-repeat">
-                <div className="w-full flex flex-row justify-between p-8 screen-w:p-14 font-pretendard_bold">
-                    <span className="text-base screen-w:text-4xl font-bold text-Agrey">
-                        {'미술관 소개'}
-                    </span>
-                    <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
-                </div>
+                {topText[language]()}
                 {children}
                 <button className="absolute left-14 bottom-20 screen-w:bottom-40">
                     <Link href="/main">
@@ -24,8 +63,7 @@ const IntroConnect = ({children}) => {
                 </button>
             </div>
             <Navbar 
-            url={"/video/docent/schema-docent-03.webm"}
-            lang={"/intro/structure"} 
+                url={"/video/docent/schema-docent-03.webm"}
             />
         </>
     )

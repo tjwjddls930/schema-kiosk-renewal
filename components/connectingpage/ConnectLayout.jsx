@@ -1,27 +1,57 @@
-import { useTranslation } from "next-i18next"
-import Image from "next/image";
-import Pageframe from "../pagelayout/TallLayout";
 import Link from "next/link";
 import Navbar from "../navbar/Navbar";
+import { LanguageContext } from "@/contexts/LanguageContext";
+import { useContext } from "react";
+
+const topText = {
+    KOR: () => (
+        <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                {'전시 안내'}
+            </span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+        </div>
+    ),
+    ENG: () => (
+        <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                {'Exhibition Guide'}
+            </span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'A Museum for Everyone - Smart Space SAM'}</span>
+        </div>
+    ),
+    CH: () => (
+        <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                {'展会信息'}
+            </span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'适合所有人的博物馆 - Smart Space SAM'}</span>
+        </div>
+    ),   
+    TH: () => (
+        <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                {'ข้อมูลนิทรรศการ'}
+            </span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'พิพิธภัณฑ์สำหรับทุกคน - Smart Space SAM'}</span>
+        </div>
+    ),
+    VI: () => (
+        <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
+            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+                {'Thông tin triển lãm'}
+            </span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Bảo tàng dành cho mọi người - Smart Space SAM'}</span>
+        </div>
+    ),
+};
 
 const ConnectLayout = ({children}) => {
-    const {t} = useTranslation('common');
-
+    const {language} = useContext(LanguageContext);
     return(
         <div className="h-screen w-screen bg-[url('/img/connectpage/connect_bg.png')] bg-cover">
-            <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
-                <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
-                    {'전시 안내'}
-                </span>
-                <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
-            </div>
-            {/* <div className="absolute transform -rotate-90 h-1 left-44 top-56">
-                <span className="text-Apurple font-bold text-lg screen-w:text-screen-w">Schema</span>
-            </div> */}
+            {topText[language]()}
             {children}
-            {/* <div className="absolute transform rotate-90 right-52 bottom-52 screen-w:right-36 screen-w:bottom-60">
-                    <span className="text-Apurple font-bold text-lg screen-w:text-screen-w">Art Museum</span>
-            </div> */}
             <button className="absolute left-14 bottom-20 screen-w:bottom-40">
                 <Link href="/main">
                     {/* <img 
@@ -37,10 +67,9 @@ const ConnectLayout = ({children}) => {
             </button>
             <Navbar 
                 url={"/video/docent/blue-docent-test-02-removed.webm"}
-                lang={"exhibit"}
             />
         </div>
-    )
+    );
 };
 
 export default ConnectLayout;

@@ -5,25 +5,26 @@ import { educationData } from "@/data/educationData";
 import { useRouter } from "next/router";
 import { AnimatePresence, motion } from "framer-motion";
 import Educationpagelayout from "@/components/education/Educationpagelayout";
+import Educationcarousel from "@/components/education/Educationcarousel";
 
 export default function Educationpage() {
     const [education, setEducation] = useState(educationData[0]);
-    const [index, setIndex] = useState(0);
+    // const [index, setIndex] = useState(0);
     const router = useRouter();
 
-    let length = education.education.length;
+    // let length = education.education.length;
 
-    function nextExhibit() {
-         setIndex(index + 1 === length ? 0 : index + 1);
-     };
+    // function nextExhibit() {
+    //      setIndex(index + 1 === length ? 0 : index + 1);
+    //  };
   
-    function prevExhibit() {
-        setIndex(index - 1 < 0 ? length - 1 : index - 1);
-    };
+    // function prevExhibit() {
+    //     setIndex(index - 1 < 0 ? length - 1 : index - 1);
+    // };
 
-    useEffect(()=> {
-        router.replace(`?year=${education.year}&?index=${index}`)
-    }, [index, education])
+    // useEffect(()=> {
+    //     router.replace(`?year=${education.year}&?index=${index}`)
+    // }, [index, education])
 
     return (
         <div className="h-screen w-screen bg-Awhite">
@@ -56,45 +57,9 @@ export default function Educationpage() {
                         transition={{duration: 0.5, ease: "easeInOut"}}
                     >
                     {education ? 
-                        <Educationpagelayout
-                            id={education.education[index].id}
-                            type={education.education[index].type}
-                            title={education.education[index].title}
-                            time={education.education[index].time} 
-                            participate={education.education[index].participate} 
-                            location={education.education[index].location} 
-                            host={education.education[index].host} 
-                            support={education.education[index].support} 
-                            explanation={education.education[index].explanation}
+                        <Educationcarousel 
                             index={education.order}
-                            index1={index}
-                        >
-                            <div className="swiper-button-prev-4 group absolute top-1/2 left-8 screen-w:left-16 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume"
-                                onClick={()=> prevExhibit()}
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    className="h-24 w-24 screen-w:h-36 screen-w:w-36 fill-jacarta-700 group-hover:fill-accent"
-                                >
-                                    <path fill="none" d="M0 0h24v24H0z" />
-                                    <path d="M10.828 12l4.95 4.95-1.414 1.414L8 12l6.364-6.364 1.414 1.414z" />
-                                </svg>
-                            </div>
-                            <div className="swiper-button-next-4 group absolute top-1/2 right-8 screen-w:right-16 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume"
-                                onClick={()=> nextExhibit()}
-                            >
-                                <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                className="h-24 w-24 screen-w:h-36 screen-w:w-36 fill-jacarta-700 group-hover:fill-accent"
-                                >
-                                    <path fill="none" d="M0 0h24v24H0z" />
-                                    <path d="M13.172 12l-4.95-4.95 1.414-1.414L16 12l-6.364 6.364-1.414-1.414z" />
-                                </svg>
-                            </div>
-                        </Educationpagelayout> 
-                        // <div>Component</div>
+                        />
                         : ""}
                     </motion.div>
                 </AnimatePresence>
@@ -107,7 +72,6 @@ export default function Educationpage() {
                             className={item === education ? "text-Ablack border-b-4 border-Ablue" : ""}
                             onClick={()=> {
                                 setEducation(item)
-                                setIndex(0)
                             }}
                         >
                             {`${item.year}`}

@@ -1,6 +1,6 @@
 import Viewlayout from "@/components/exhibits/3dview/ViewLayout";
 import Viewcontent from "@/components/exhibits/3dview/Viewcontent";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+// import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { paintData } from "@/data/paintData";
@@ -10,34 +10,30 @@ export default function Viewpage() {
     const [popup, setPopup] = useState(true);
     const [data, setData] = useState(null)
     const router = useRouter();
-    const pid = router.query.slug; 
-    const [current, setCurrent] = useState(pid);
-    const [button, setButton] = useState(null);
-    
+    const {slug} = router.query;
+
     useEffect(()=> {
-        if(button) {
-            router.replace(`/artist/paint/viewpage/${current}`)
-        } else {
-            setData(paintData[pid])
+        const mid = slug?.replace("", "");
+        if(slug !== undefined && paintData[mid]) {
+            setData(paintData[mid]);
         }
-    }, [current]);
+    }, [slug])
 
-    let length = paintData.length;
-
-   function nextExhibit(e) {
-        setButton(e.target.id)
-        setCurrent(Number(pid) + 1 === length ? 0 : Number(pid) + 1);
-    };
-
-    function prevExhibit(e) {
-        setButton(e.target.id)
-        setCurrent(pid - 1 < 0 ? length - 1 : pid - 1);
+    const changeExhibit = (offset) => {
+        const currentIndex = Number(slug?.replace("", ""));
+        let newIndex = currentIndex + offset;
+        if (newIndex < 0) {
+        newIndex = paintData.length - 1;
+        } else if (newIndex >= paintData.length) {
+        newIndex = 0;
+        }
+        router.replace(`/artist/paint/viewpage/${newIndex}`);
     };
   
     return(
         <>
            {data && (
-            <Viewlayout pid={pid}>
+            <Viewlayout>
             {/* 3D 콘텐츠 구역 */}
             <Viewcontent 
                 url={data.imgname}
@@ -47,12 +43,15 @@ export default function Viewpage() {
             {/* 그림 넘기기 버튼 */}
             <div className="absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:left-80 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
                 <button
-                    id="left"
-                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px]"
-                    onClick={(e)=>prevExhibit(e)}
+                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] z-10"
                 >   
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
-                        className="w-6 h-6 screen-w:w-40 screen-w:h-40"
+                    <svg 
+                        id="left"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-6 h-6 screen-w:w-40 screen-w:h-40 text-Ablack"
+                        // onClick={(e)=>nextExhibit(e)}
+                        onClick={()=>changeExhibit(-1)}
+
                     >
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                     </svg>
@@ -60,12 +59,16 @@ export default function Viewpage() {
             </div>
             <div className="absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:right-80 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2">
                 <button
-                    id="right"
-                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px]"
-                    onClick={(e)=>nextExhibit(e)}
+                    // id="right"
+                    className="h-full w-full screen-w:h-[140px] screen-w:w-[140px] z-10"
+                    // onClick={(e)=>nextExhibit(e)}
                 >   
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
-                        className="w-6 h-6 screen-w:w-40 screen-w:h-40"
+                    <svg 
+                        id="right"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-6 h-6 screen-w:w-40 screen-w:h-40 text-Ablack"
+                        // onClick={(e)=>prevExhibit(e)}
+                        onClick={()=>changeExhibit(1)}
                     >
                         <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                     </svg>
@@ -104,39 +107,10 @@ export default function Viewpage() {
             )}
             <Navbar 
                 url={"/video/docent/schema-docent-04.webm"}
-                lang={"main"}
                 sign={"/video/sign/schema_sign_2.mp4"}
-                // fontsize={fontsize}
             />  
         </Viewlayout>
         )}
         </>
     )
 };
-
-export async function getStaticProps(context) {
-    const {locale} = context;
-    return{
-        props: {
-            ...(await serverSideTranslations(locale, ['common', 'navbar']))
-        }
-    }
-};
-
-export async function getStaticPaths({locales}) {
-    const pid = paintData.order;
-    return {
-      paths: [
-        // String variant:
-        `/artist/paint/viewpage/${pid}`,
-        // Object variant:
-        { params: { slug: `paint-${pid}`} },
-        // { params: { slug: `paint-${pid}`, locale: 'ko'} },
-        // { params: { slug: `paint-${pid}`, locale: 'en'} },
-        // { params: { slug: `paint-${pid}`, locale: 'th'} }, 
-        // { params: { slug: `paint-${pid}`, locale: 'vi'} }, 
-        // { params: { slug: `paint-${pid}`, locale: 'zh'} },
-      ],
-      fallback: true,
-    }
-  }

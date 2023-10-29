@@ -1,14 +1,65 @@
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { careerData } from "@/data/introData";
+// import { careerData } from "@/data/introData";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Navbar from "@/components/navbar/Navbar";
+import { useContext } from "react";
+import { LanguageContext } from "@/contexts/LanguageContext";
+import { careerData_KOR, careerData_ENG, careerData_CH, careerData_TH, careerData_VI } from "@/data/careerData";
+import { profileData_KOR, profileData_ENG, profileData_CH, profileData_TH, profileData_VI } from "@/data/introData";
+// import { profileData } from "@/data/introData";
+
+
+const topText1 = {
+    KOR: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'미술관 소개 > 김재관 프로필 및 경력'}</span>
+    ),
+    ENG: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'Museum Introduction > Jaegwan Kim Profile and Career'}</span>
+    ),
+    CH: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'博物馆简介 > Jaegwan Kim 简介和职业生涯'}</span>
+    ),   
+    TH: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'ความรู้เบื้องต้นเกี่ยวกับพิพิธภัณฑ์ > ประวัติและอาชีพของ Jaegwan Kim'}</span>
+    ),
+    VI: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'Giới thiệu về bảo tàng > Hồ sơ và sự nghiệp của Jaegwan Kim'}</span>
+    ),
+};
+
+const topText2 = {
+    KOR: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+    ),
+    ENG: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'A Museum for Everyone - Smart Space SAM'}</span>
+    ),
+    CH: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'适合所有人的博物馆 - Smart Space SAM'}</span>
+    ),   
+    TH: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'พิพิธภัณฑ์สำหรับทุกคน - Smart Space SAM'}</span>
+    ),
+    VI: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Bảo tàng dành cho mọi người - Smart Space SAM'}</span>
+    ),
+};
+
+const inputprofileData = {
+    KOR: profileData_KOR,
+    ENG: profileData_ENG,
+    CH: profileData_CH,
+    TH: profileData_TH,
+    VI: profileData_VI
+};
 
 export default function Career() {
-    const [career, setCareer] = useState(careerData[0]);
     const router = useRouter();
+    const {language} = useContext(LanguageContext);
+    const [career, setCareer] = useState(inputprofileData[language][0]);
+
     return(
         <>
         <div className="h-screen w-screen bg-Awhite">
@@ -25,16 +76,15 @@ export default function Career() {
                             height: "auto"
                         }}
                     />
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">미술관 소개 </span>
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'> 김재관 프로필 및 경력'}</span>
+                    {topText1[language]()}
                 </div>
                 <div>
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+                    {topText2[language]()}
                 </div>
             </div>
             <div className="w-11/12 h-14 screen-w:h-24 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center border-opacity-30 z-10">
                 <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2 screen-w:space-x-16 screen-w:text-4xl">
-                    {careerData.map((item)=> (
+                    {inputprofileData[language].map((item)=> (
                         <li
                             key={item.title}
                             className={item === career ? "text-Ablack border-b-4 border-Ablue": ""}
@@ -84,13 +134,4 @@ export default function Career() {
                 lang={"/intro/structure"} />
         </>
     )
-};
-
-export async function getStaticProps(context) {
-    const {locale} = context;
-    return{
-        props: {
-            ...(await serverSideTranslations(locale, ['common', 'navbar', 'intro']))
-        }
-    }
 };

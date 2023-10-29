@@ -1,25 +1,13 @@
 import { useState } from "react";
 import { allExhibits } from "@/data/pastExhibit";
 import { AnimatePresence, motion } from "framer-motion";
-import Exhibitlayout from "@/components/exhibits/ExhibitLayout";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
+import CoverflowCarousel from "@/components/CoverflowCarousel";
 
 export default function Exhibitpage() {
     const [exhibit, setExhibit] = useState(allExhibits[0]);
-    const [index, setIndex] = useState(0);
     const router = useRouter();
-
-    let length = exhibit.exhibits.length;
-
-    function nextExhibit() {
-         setIndex(index + 1 === length ? 0 : index + 1);
-     };
-  
-     function prevExhibit() {
-         setIndex(index - 1 < 0 ? length - 1 : index - 1);
-     };
 
     return(
         <div className="h-screen w-screen bg-[url('/img/exhibitpage/가로형_전시안내_배경.png')] bg-no-repeat bg-cover font-pretendard_bold">
@@ -42,51 +30,9 @@ export default function Exhibitpage() {
                         transition={{duration: 0.5, ease: "easeInOut"}}
                     >
                     {exhibit ? 
-                        <Exhibitlayout 
-                            order={exhibit.exhibits[index].order}
-                            type={exhibit.exhibits[index].type}
-                            title={exhibit.exhibits[index].title}
-                            time={exhibit.exhibits[index].time} 
-                            artist={exhibit.exhibits[index].artist} 
-                            location={exhibit.exhibits[index].location} 
-                            host={exhibit.exhibits[index].host} 
-                            support={exhibit.exhibits[index].support} 
-                            time1={exhibit.exhibits[index].time1} 
-                            artist1={exhibit.exhibits[index].artist1} 
-                            location1={exhibit.exhibits[index].location1} 
-                            host1={exhibit.exhibits[index].host1} 
-                            support1={exhibit.exhibits[index].support1}
-                            explanation={exhibit.exhibits[index].explanation}
-                            author={exhibit.exhibits[index].author}
-                            index={exhibit.index}
-                            // index1={index}
-                        >
-                            <div className="swiper-button-prev-4 group absolute top-1/2 left-8 screen-w:left-16 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume"
-                                onClick={()=> prevExhibit()}
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    className="h-24 w-24 screen-w:h-36 screen-w:w-36 fill-jacarta-700 group-hover:fill-accent"
-                                >
-                                    <path fill="none" d="M0 0h24v24H0z" />
-                                    <path d="M10.828 12l4.95 4.95-1.414 1.414L8 12l6.364-6.364 1.414 1.414z" />
-                                </svg>
-                            </div>
-                            <div className="swiper-button-next-4 group absolute top-1/2 right-8 screen-w:right-16 z-10 -mt-6 flex h-12 w-12 screen-w:h-36 screen-w:w-36 cursor-pointer items-center justify-center rounded-full bg-white p-3 text-jacarta-700 text-xl shadow-white-volume"
-                                onClick={()=> nextExhibit()}
-                            >
-                                <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                className="h-24 w-24 screen-w:h-36 screen-w:w-36 fill-jacarta-700 group-hover:fill-accent"
-                                >
-                                    <path fill="none" d="M0 0h24v24H0z" />
-                                    <path d="M13.172 12l-4.95-4.95 1.414-1.414L16 12l-6.364 6.364-1.414-1.414z" />
-                                </svg>
-                            </div>
-                        </Exhibitlayout> 
-                        // <div>Component</div>
+                            <CoverflowCarousel 
+                                index={exhibit.index}
+                            />
                         : ""}
                     </motion.div>
                 </AnimatePresence>
@@ -99,7 +45,6 @@ export default function Exhibitpage() {
                             className={item === exhibit ? "text-Ablack border-b-4 border-Ablue" : ""}
                             onClick={()=> {
                                 setExhibit(item)
-                                setIndex(0)
                             }}
                         >
                             {`${item.year}`}
@@ -130,13 +75,4 @@ export default function Exhibitpage() {
             />
         </div>
     )
-};
-
-export async function getStaticProps(context) {
-    const {locale} = context;
-    return{
-        props: {
-            ...(await serverSideTranslations(locale, ['common', 'navbar']))
-        }
-    }
 };

@@ -14,18 +14,27 @@ const Modelcontent = ({url, position, scale}) => {
         <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[94%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2 bg-Awhite">
             {/* <Inactivityredirect timeoutInMinutes={0.2} /> */}
             {/* <InactivityRedirect2 timeoutInMinutes={0.2} /> */}
-            <Suspense fallback={null}>
                 <Canvas
                     gl={{antialias:true}}
+                    camera={{
+                        fov: 75,
+                        aspect: window.innerWidth / window.innerHeight,
+                        near: 0.01,
+                        far: 10000,
+                        position: [0, 0, 10],
+                        rotation: [0, 0, 0]
+                    }}
                     shadows
                 >
                     <directionalLight intensity={2} position={[0, 0, 2]} />
-                    <Modelanimation 
-                        modelName={url}
-                        position={position}
-                        rotation={[0, 0, 0]}
-                        scale={scale}
-                    />
+                    <Suspense fallback={null}>
+                        <Modelanimation 
+                            modelName={url}
+                            position={position}
+                            rotation={[0, 0, 0]}
+                            scale={scale}
+                        />
+                    </Suspense>
                     <OrbitControls 
                         minDistance={1.5}
                         maxDistance={5}
@@ -36,7 +45,6 @@ const Modelcontent = ({url, position, scale}) => {
                     <ambientLight intensity={3} />
                     <color attach="background" args={["#FFFFFF"]} />
                 </Canvas>
-            </Suspense>
         </div>
     </>
     )

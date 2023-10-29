@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { useTranslation } from "next-i18next";
 
 const TopNavbar = () => {
   const [currentDate, setCurrentDate] = useState(null);
   const [temperature, setTemperature] = useState(null);
-  const {t} = useTranslation('common');
 
   // useEffect for handling the <time>
   useEffect(() => {
@@ -70,12 +66,12 @@ const TopNavbar = () => {
       <img 
         src="/img/mainpage/schema-logo-NEW.svg"
         alt="logo1"
-        className="h-12 w-[150px] screen-w:h-40 screen-w:w-[500px]"
+        className="h-12 w-[150px] screen-w:h-32 screen-w:w-[450px]"
       />
         <img 
         src="/img/mainpage/schema-logo.png"
         alt="logo2"
-        className="h-12 w-[150px] screen-w:h-40 screen-w:w-[500px]"
+        className="h-12 w-[150px] screen-w:h-32 screen-w:w-[450px]"
       />
       <div className="flex flex-row space-x-2 screen-w:space-x-4 text-black mr-4">
           <div className="flex flex-col justify-center items-center">
@@ -84,20 +80,6 @@ const TopNavbar = () => {
           </div>
           <span className="rounded-lg shadow-md px-4 py-4 text-lg screen-w:px-6 screen-w:py-6 screen-w:text-5xl font-bold">{temperature ? `${temperature}°` : "24°"}</span>
       </div>
-      {/* <div className="mr-6 mt-4">
-        <div className="bg-white bg-opacity-60 flex justify-center items-center px-3 py-3 rounded-screen-w">
-          <div className="flex flex-col justify-center items-center">
-            <span className="text-sm mb-1">{formattedDate}</span>
-            <span className="text-lg font-semibold">{formattedTime}</span>
-          </div>
-          <div className="bg-white ml-3 p-2 rounded-screen-w bg-opacity-60">
-            <span className="text-screen-w font-thin">
-              {temperature ? `${temperature}°` : "24°"}
-              when temperature data is loading, use "24°" as a default temperature value
-            </span>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

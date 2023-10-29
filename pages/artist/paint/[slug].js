@@ -20,11 +20,7 @@ export async function getStaticPaths({locales}) {
         // String variant:
         `/artist/paint/${pid}`,
         // Object variant:
-        { params: { slug: `artist-${pid}`, locales: 'ko'} },
-        { params: { slug: `artist-${pid}`, locales: 'en'} },
-        { params: { slug: `artist-${pid}`, locales: 'th'} }, 
-        { params: { slug: `artist-${pid}`, locales: 'vi'} }, 
-        { params: { slug: `artist-${pid}`, locales: 'zh'} },
+        { params: { slug: `artist-${pid}`,} },
       ],
       fallback: true,
     }

@@ -9,7 +9,6 @@ const EducationContent = ({img, clip, type, title, explanation, participate, tim
         // Update the isClient state to true as this code will be executed only on client side
         setIsClient(true);
       }, []);
-    console.log(video);
     return(
        <>
         {isClient && (
