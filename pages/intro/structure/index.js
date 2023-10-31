@@ -1,11 +1,58 @@
-import { useState } from "react";
-import { introData } from "@/data/introData";
+import { useState, useContext } from "react";
+// import { introData } from "@/data/introData";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Navbar from "@/components/navbar/Navbar";
+import { LanguageContext } from "@/contexts/LanguageContext";
+import { introData_KOR, introData_ENG, introData_CH, introData_TH, introData_VI } from "@/data/introData";
+
+const topText1 = {
+    KOR: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'미술관 소개 > 미술관 소개 및 구조'}</span>
+        ),
+    ENG: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'Museum Introduction > Museum Introduction and Structure'}</span>
+    ),
+    CH: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'博物馆简介 > 博物馆简介及结构'}</span>
+    ),   
+    TH: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'ความรู้เบื้องต้นเกี่ยวกับพิพิธภัณฑ์ > การแนะนำและโครงสร้างของพิพิธภัณฑ์'}</span>
+    ),
+    VI: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'Giới thiệu về bảo tàng > Giới thiệu và cấu trúc bảo tàng'}</span>
+    ),
+};
+
+const topText2 = {
+    KOR: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+    ),
+    ENG: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'A Museum for Everyone - Smart Space SAM'}</span>
+    ),
+    CH: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'适合所有人的博物馆 - Smart Space SAM'}</span>
+    ),   
+    TH: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'พิพิธภัณฑ์สำหรับทุกคน - Smart Space SAM'}</span>
+    ),
+    VI: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Bảo tàng dành cho mọi người - Smart Space SAM'}</span>
+    ),
+};
+
+const inputintroData = {
+    KOR: introData_KOR,
+    ENG: introData_ENG,
+    CH: introData_CH,
+    TH: introData_TH,
+    VI: introData_VI
+};
 
 export default function Structure() {
-    const [intro, setIntro] = useState(introData[0])
+    const {language} = useContext(LanguageContext);
+    const [intro, setIntro] = useState(inputintroData[language][0]);
     return(
         <>
             <div className="h-screen w-screen bg-Awhite">
@@ -22,20 +69,18 @@ export default function Structure() {
                                 height: "auto"
                             }}
                         />
-                        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">미술관 소개 </span>
-                        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'> 미술관 소개 및 구조'}</span>
+                        {topText1[language]()}
                     </div>
                     <div>
-                        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+                        {topText2[language]()}
                     </div>
                 </div>
-                {/* {children} */}
                 <div className="w-11/12 h-14 screen-w:h-24 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center border-opacity-30 z-10">
                     <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2 screen-w:space-x-16 screen-w:text-4xl">
-                        {introData.map((item)=> (
+                        {inputintroData[language].map((item)=> (
                             <li
                                 key={item.title}
-                                className={item === intro ? "text-Ablack border-b-4 border-Cpurple": ""}
+                                className={item === intro ? "text-Ablack border-b-4 border-Bblue": ""}
                                 onClick={()=> setIntro(item)}
                             >   
                                 {`${item.title}`}

@@ -1,7 +1,5 @@
-import { useState } from "react";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-// import { awardData } from "@/data/awardData";
 import Awardcontent from "@/components/intro/award/Awardcontent";
 import Link from "next/link";
 import Image from "next/image";
@@ -58,6 +56,29 @@ const inputData = {
 export default function Award() {
     const {language} = useContext(LanguageContext);
     const [award, setAward] = useState(inputData[language][0]);
+    const [isTouching, setIsTouching] = useState(false);
+    useEffect(() => {
+        const touchArea = document.getElementById('touch-area');
+
+        // Add a touchstart event listener to the entire document
+        touchArea.addEventListener('touchstart', handleTouchStart);
+        // Add a touchend event listener to the entire document
+        touchArea.addEventListener('touchend', handleTouchEnd);
+    
+        // Clean up the event listeners when the component unmounts
+        return () => {
+            touchArea.removeEventListener('touchstart', handleTouchStart);
+            touchArea.removeEventListener('touchend', handleTouchEnd);
+        };
+    }, []);
+  
+    const handleTouchStart = () => {
+      setIsTouching(true);
+    };
+  
+    const handleTouchEnd = () => {
+      setIsTouching(false);
+    };
 
     return(
         <>
@@ -105,7 +126,9 @@ export default function Award() {
                         ))}
                     </ul>
                 </div>
-                <div className="w-full h-3/4 screen-w:h-[85%] bg-Bgrey bg-opacity-50">
+                <div 
+                    id="touch-area"
+                    className="w-full h-3/4 screen-w:h-[85%] bg-Bgrey bg-opacity-50">
                     <main>
                         <AnimatePresence>
                             <motion.div
@@ -127,6 +150,7 @@ export default function Award() {
                         </AnimatePresence>
                     </main>
                 </div>
+                {/* 하단 홈, 뒤로가기 버튼 */}
                 <button className="absolute left-14 bottom-20 screen-w:bottom-40">
                     <Link href="/intro">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
@@ -143,19 +167,18 @@ export default function Award() {
                         </svg>
                     </Link>
                 </button>
+                {/* 드래그 아이콘 */}
+                <div className="h-[150px] w-[30px] screen-w:h-[300px] screen-w:w-[100px] absolute right-14 bottom-56 screen-w:right-20 screen-w:transform screen-w:-translate-y-1/2 screen-w:bottom-1/2 animate-bounce">
+                    <img 
+                        src="/img/intro/award/scroll_icon.png"
+                        className={`h-20 w-20 screen-w:h-[300px] screen-w:w-[100px] transition-opacity ${isTouching ? "opacity-0" : "opacity-100"}`}
+                        alt="scroll"
+                    />
+                </div>
             </div>
             <Navbar 
                 url={"/video/docent/schema-docent-01A.webm"}
             />
         </>
     )
-};
-
-export async function getStaticProps(context) {
-    const {locale} = context;
-    return{
-        props: {
-            ...(await serverSideTranslations(locale, ['common', 'navbar']))
-        }
-    }
 };

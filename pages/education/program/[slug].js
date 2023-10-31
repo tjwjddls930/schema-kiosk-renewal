@@ -1,19 +1,33 @@
 import React from "react";
 import { useRouter } from "next/router";
 import EducationLayout from "@/components/education/program/EducationLayout";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import EducationContent from "@/components/education/program/EducationContent";
-import { educationData } from "@/data/educationData";
+import { educationData } from "@/data/educationData_KOR";
 import Navbar from "@/components/navbar/Navbar";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+import { LanguageContext } from "@/contexts/LanguageContext";
+import { educationData_KOR } from "@/data/educationData_KOR";
+import { educationData_ENG } from "@/data/educationData_ENG";
+import { educationData_CH } from "@/data/educationData_CH";
+import { educationData_TH } from "@/data/educationData_TH";
+import { educationData_VI } from "@/data/educationData_VI";
+
+const inputData = {
+  KOR: educationData_KOR,
+  ENG: educationData_ENG,
+  CH: educationData_CH,
+  TH: educationData_TH,
+  VI: educationData_VI
+};
 
 const Program = () => {
   const router = useRouter();
+  const {language} = useContext(LanguageContext)
   const [data, setData] = useState(null);
   const pid = router.query.slug; // 'slug'([slug]) is the name of the dynamic parameter
   const {index} = router.query;
   useEffect(()=> {
-    const selectedData = educationData[pid].education[index];
+    const selectedData = inputData[language][pid].education[index];
     if(pid && index) {
       setData(selectedData)
     }
@@ -41,27 +55,18 @@ const Program = () => {
   );
 };
 
-export async function getStaticPaths() {
-  // const pid = CoverflowCarousel.id;
-  const pid = educationData.id;
-  return {
-    paths: [
-      // String variant:
-      `/education/program/${pid}`,
-      // Object variant:
-      { params: { slug: `program-${pid}` } },
-    ],
-    fallback: true,
-  }
-}
-
-export async function getStaticProps(context) {
-  const {locale} = context;
-  return{
-      props: {
-          ...(await serverSideTranslations(locale, ['common', 'navbar']))
-      }
-  }
-};
+// export async function getStaticPaths() {
+//   // const pid = CoverflowCarousel.id;
+//   const pid = educationData.id;
+//   return {
+//     paths: [
+//       // String variant:
+//       `/education/program/${pid}`,
+//       // Object variant:
+//       { params: { slug: `program-${pid}` } },
+//     ],
+//     fallback: true,
+//   }
+// }
 
 export default Program;

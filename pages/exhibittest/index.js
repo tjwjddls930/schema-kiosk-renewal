@@ -3,7 +3,15 @@ import { allExhibits } from "@/data/pastExhibit";
 import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
-import CoverflowCarousel from "@/components/CoverflowCarousel";
+import dynamic from "next/dynamic";
+
+const DynamicCoverflowCarousel = dynamic(
+    () => import("@/components/CoverflowCarousel"),
+    {
+      ssr: false,
+      loading: () => <p>Loading...</p>,
+    }
+  );
 
 export default function Exhibitpage() {
     const [exhibit, setExhibit] = useState(allExhibits[0]);
@@ -30,7 +38,7 @@ export default function Exhibitpage() {
                         transition={{duration: 0.5, ease: "easeInOut"}}
                     >
                     {exhibit ? 
-                            <CoverflowCarousel 
+                            <DynamicCoverflowCarousel 
                                 index={exhibit.index}
                             />
                         : ""}

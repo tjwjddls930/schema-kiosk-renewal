@@ -1,30 +1,36 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useContext } from "react";
 import Navbar from "@/components/navbar/Navbar";
 import Image from "next/image";
-import { educationData } from "@/data/educationData";
+import { educationData } from "@/data/educationData_KOR";
 import { useRouter } from "next/router";
 import { AnimatePresence, motion } from "framer-motion";
-import Educationpagelayout from "@/components/education/Educationpagelayout";
-import Educationcarousel from "@/components/education/Educationcarousel";
+import { educationData_KOR } from "@/data/educationData_KOR";
+import { educationData_ENG } from "@/data/educationData_ENG";
+import { educationData_CH } from "@/data/educationData_CH";
+import { educationData_TH } from "@/data/educationData_TH";
+import { educationData_VI } from "@/data/educationData_VI";
+import dynamic from "next/dynamic";
+import { LanguageContext } from "@/contexts/LanguageContext";
+const DynamicCoverflowCarousel = dynamic(
+    () => import("@/components/education/Educationcarousel"),
+    {
+      ssr: false,
+      loading: () => <p>Loading...</p>,
+    }
+  );
+
+const inputData = {
+    KOR: educationData_KOR,
+    ENG: educationData_ENG,
+    CH: educationData_CH,
+    TH: educationData_TH,
+    VI: educationData_VI
+}
 
 export default function Educationpage() {
-    const [education, setEducation] = useState(educationData[0]);
-    // const [index, setIndex] = useState(0);
+    const {language} = useContext(LanguageContext)
+    const [education, setEducation] = useState(inputData[language][0]);
     const router = useRouter();
-
-    // let length = education.education.length;
-
-    // function nextExhibit() {
-    //      setIndex(index + 1 === length ? 0 : index + 1);
-    //  };
-  
-    // function prevExhibit() {
-    //     setIndex(index - 1 < 0 ? length - 1 : index - 1);
-    // };
-
-    // useEffect(()=> {
-    //     router.replace(`?year=${education.year}&?index=${index}`)
-    // }, [index, education])
 
     return (
         <div className="h-screen w-screen bg-Awhite">
@@ -57,7 +63,7 @@ export default function Educationpage() {
                         transition={{duration: 0.5, ease: "easeInOut"}}
                     >
                     {education ? 
-                        <Educationcarousel 
+                        <DynamicCoverflowCarousel 
                             index={education.order}
                         />
                         : ""}
@@ -66,7 +72,7 @@ export default function Educationpage() {
             </main>  
             <div className="w-3/4 h-10 screen-w:h-24 flex text-Dgrey shadow-md mx-auto justify-center overflow-auto scroll-smooth">
                 <ul className="flex flex-row space-x-12 font-bold text-base mb-2 screen-w:text-5xl screen-w:space-x-16 screen-w:mt-4">
-                    {educationData.map((item)=> (
+                    {inputData[language].map((item)=> (
                         <li
                             key={item.year}
                             className={item === education ? "text-Ablack border-b-4 border-Ablue" : ""}

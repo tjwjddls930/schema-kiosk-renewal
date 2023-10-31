@@ -2,9 +2,29 @@ import Schemaintro from "@/components/intro/Schemaintro";
 import Schemastructure from "@/components/intro/Schemastructure";
 import Profile from "@/components/intro/career/Profile";
 import Career from "@/components/intro/career/Career";
-export const introData = [
+export const introData_KOR = [
     {title: "미술관 소개", component: <Schemaintro />},
     {title: "미술관 구조", component: <Schemastructure />},    
+];
+
+export const introData_ENG = [
+    {title: "Introduction to the Museum", component: <Schemaintro />},
+    {title: "Structure of the Museum", component: <Schemastructure />},    
+];
+
+export const introData_CH = [
+    {title: "博物馆简介", component: <Schemaintro />},
+    {title: "美术馆结构", component: <Schemastructure />},    
+];
+
+export const introData_TH = [
+    {title: "ความรู้เบื้องต้นเกี่ยวกับพิพิธภัณฑ์", component: <Schemaintro />},
+    {title: "โครงสร้างพิพิธภัณฑ์ศิลปะ", component: <Schemastructure />},    
+];
+
+export const introData_VI = [
+    {title: "Giới thiệu về bảo tàng", component: <Schemaintro />},
+    {title: "cấu trúc bảo tàng nghệ thuật", component: <Schemastructure />},    
 ];
 
 export const profileData_KOR = [

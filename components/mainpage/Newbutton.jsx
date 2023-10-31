@@ -173,7 +173,7 @@ const Newbutton = () => {
         <>
              {/* 중단 버튼 구역*/}
              <section className="w-3/4 h-2/3 pt-14 px-14 flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">
-                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/미술관_소개.png')] bg-cover"
+                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/intro_bg.jpg')] bg-cover bg-no-repeat"
                     onClick={()=>{router.push("/intro")}}
                 >
                     {/* <div className="absolute inset-0 w-full h-full bg-Ablue opacity-10" /> */}
@@ -182,7 +182,7 @@ const Newbutton = () => {
                         {introButton[language](fontsize)}
                     </button>
                 </div>
-                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/전시_안내.png')] bg-cover bg-repeat"
+                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/exhibit_bg.jpg')] bg-cover bg-no-repeat"
                     onClick={()=>router.push("/exhibit")}
                 >
                     {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
@@ -190,7 +190,7 @@ const Newbutton = () => {
                         {exhibitButton[language](fontsize)}
                     </button>
                 </div>
-                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/ai_챗봇.png')] bg-cover bg-repeat"
+                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/chatbot_bg.jpg')] bg-cover bg-no-repeat"
                     onClick={()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
                 > 
                     {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
@@ -198,7 +198,7 @@ const Newbutton = () => {
                         {chatbotButton[language](fontsize)}
                     </button>
                     </div>
-                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/교육_프로그램.png')] bg-cover bg-repeat"
+                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/education_bg.jpg')] bg-cover bg-repeat"
                     onClick={()=>router.push("/education")}
                 >
                     {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}

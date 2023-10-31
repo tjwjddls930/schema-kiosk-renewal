@@ -4,11 +4,26 @@ import { Navigation, Pagination, EffectCoverflow } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import Link from "next/link";
-import { educationData } from "@/data/educationData";
+import { educationData_KOR } from "@/data/educationData_KOR";
+import { educationData_ENG } from "@/data/educationData_ENG";
+import { educationData_CH } from "@/data/educationData_CH";
+import { educationData_TH } from "@/data/educationData_TH";
+import { educationData_VI } from "@/data/educationData_VI";
 import { useRouter } from "next/router";
+import { useContext } from "react";
+import { LanguageContext } from "@/contexts/LanguageContext";
+
+const inputData = {
+  KOR: educationData_KOR,
+  ENG: educationData_ENG,
+  CH: educationData_CH,
+  TH: educationData_TH,
+  VI: educationData_VI
+};
 
 const Educationcarousel = ({index}) => {
   const [isClient, setIsClient] = useState(false);
+  const {language} = useContext(LanguageContext);
   const router = useRouter();
   const [list, setList] = useState(null);
   const [highlightedImageIndex, setHighlightedImageIndex] = useState(0); // Initialize with the first slide
@@ -18,13 +33,13 @@ const Educationcarousel = ({index}) => {
   useEffect(() => {
     // Update the isClient state to true as this code will be executed only on client side
     setIsClient(true);
-    const order = educationData[index].order; 
-    router.replace(`?year=${educationData[index].education[highlightedImageIndex].year}&?index=${highlightedImageIndex}`)
-    if(educationData[index]) {
+    const order = inputData[language][index].order; 
+    router.replace(`?year=${inputData[language][index].education[highlightedImageIndex].year}&?index=${highlightedImageIndex}`)
+    if(inputData[language][index]) {
       setList(order);
       // setTime(year);
     }
-  }, [educationData[index], highlightedImageIndex]);
+  }, [inputData[language][index], highlightedImageIndex]);
 
   return (
     <>
@@ -34,11 +49,11 @@ const Educationcarousel = ({index}) => {
              {/* 전시 설명 컨테이너 */}
              <div className="flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center">
                  <div className="justify-start flex flex-row space-x-4 w-1/3">
-                     <span className="text-9xl screen-w:text-[150px] font-bold text-Ablack">{educationData[index].education[highlightedImageIndex].id}</span>
+                     <span className="text-9xl screen-w:text-[150px] font-bold text-Ablack">{inputData[language][index].education[highlightedImageIndex].id}</span>
                      <div className="flex flex-col space-y-2 screen-w:space-y-8 mt-6">
                          <div className="bg-Ablue h-[2px] w-[60px] screen-w:w-[100px] rounded-full"></div>
-                         <span className="text-xl screen-w:text-5xl font-bold text-Cgrey">{educationData[index].education[highlightedImageIndex].type}</span>
-                         <span className="text-2xl screen-w:text-6xl font-bold text-Ablack">{educationData[index].education[highlightedImageIndex].title}</span>
+                         <span className="text-xl screen-w:text-5xl font-bold text-Cgrey">{inputData[language][index].education[highlightedImageIndex].type}</span>
+                         <span className="text-2xl screen-w:text-6xl font-bold text-Ablack">{inputData[language][index].education[highlightedImageIndex].title}</span>
                      </div>
                  </div>
                  <div className="flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3">
@@ -50,16 +65,16 @@ const Educationcarousel = ({index}) => {
                          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'후원'}</span>
                      </div>
                      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-2/3">
-                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{educationData[index].education[highlightedImageIndex].time}</span>
-                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{educationData[index].education[highlightedImageIndex].participate}</span>
-                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{educationData[index].education[highlightedImageIndex].location}</span>
-                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{educationData[index].education[highlightedImageIndex].host}</span>
-                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{educationData[index].education[highlightedImageIndex].support}</span>
+                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].time}</span>
+                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].participate}</span>
+                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].location}</span>
+                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].host}</span>
+                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].support}</span>
                      </div>
                  </div>
                  <div className="flex space-y-2 w-1/3 justify-end overflow-auto scroll-smooth">
                      <p className="h-[180px] screen-w:h-[450px] text-black text-xs screen-w:text-4xl font-bold leading-normal">
-                         {educationData[index].education[highlightedImageIndex].explanation}
+                         {inputData[language][index].education[highlightedImageIndex].explanation}
                      </p>
                  </div>
              </div>
@@ -107,7 +122,7 @@ const Educationcarousel = ({index}) => {
               onSlideChange={(swiper) => handleSlideChange(swiper)}
             >
               {/* {coverflow_carousel_data.map((item, idx) => { */}
-              {educationData[index].education.map((item, idx) => {
+              {inputData[language][index].education.map((item, idx) => {
                 const { id, img, location, title } = item;
                 return (
                   <SwiperSlide key={idx}>
