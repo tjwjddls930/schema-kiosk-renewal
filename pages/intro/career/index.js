@@ -13,19 +13,19 @@ import { profileData_KOR, profileData_ENG, profileData_CH, profileData_TH, profi
 
 const topText1 = {
     KOR: () => (
-        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'미술관 소개 > 김재관 프로필 및 경력'}</span>
+        <span className="text-Bgrey text-base screen-w:text-4xl font-bold mt-2">{'미술관 소개 > 김재관 프로필 및 경력'}</span>
     ),
     ENG: () => (
-        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'Museum Introduction > Jaegwan Kim Profile and Career'}</span>
+        <span className="text-Bgrey text-base screen-w:text-4xl font-bold mt-2">{'Museum Introduction > Jaegwan Kim Profile and Career'}</span>
     ),
     CH: () => (
-        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'博物馆简介 > Jaegwan Kim 简介和职业生涯'}</span>
+        <span className="text-Bgrey text-base screen-w:text-4xl font-bold mt-2">{'博物馆简介 > Jaegwan Kim 简介和职业生涯'}</span>
     ),   
     TH: () => (
-        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'ความรู้เบื้องต้นเกี่ยวกับพิพิธภัณฑ์ > ประวัติและอาชีพของ Jaegwan Kim'}</span>
+        <span className="text-Bgrey text-base screen-w:text-4xl font-bold mt-2">{'ความรู้เบื้องต้นเกี่ยวกับพิพิธภัณฑ์ > ประวัติและอาชีพของ Jaegwan Kim'}</span>
     ),
     VI: () => (
-        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'Giới thiệu về bảo tàng > Hồ sơ và sự nghiệp của Jaegwan Kim'}</span>
+        <span className="text-Bgrey text-base screen-w:text-4xl font-bold mt-2">{'Giới thiệu về bảo tàng > Hồ sơ và sự nghiệp của Jaegwan Kim'}</span>
     ),
 };
 
@@ -62,7 +62,7 @@ export default function Career() {
 
     return(
         <>
-        <div className="h-screen w-screen bg-Awhite">
+        <div className="h-screen w-screen bg-gradient-to-r from-Cgrey to-Awhite bg-opacity-30">
             <div className="w-full p-10 screen-w:p-20 flex flex-row justify-between">
                 <div className="flex flex-row z-10">
                     <Image 
@@ -82,7 +82,7 @@ export default function Career() {
                     {topText2[language]()}
                 </div>
             </div>
-            <div className="w-11/12 h-14 screen-w:h-24 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center border-opacity-30 z-10">
+            <div className="w-11/12 h-14 screen-w:h-24 flex text-Agrey border-b-4 border-Ablack mx-auto justify-center border-opacity-30 z-10">
                 <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2 screen-w:space-x-16 screen-w:text-4xl">
                     {inputprofileData[language].map((item)=> (
                         <li
@@ -95,7 +95,7 @@ export default function Career() {
                     ))}
                 </ul>
             </div>
-            <div className="w-full h-3/4 screen-w:h-[80%] bg-cover bg-no-repeat bg-[url('/img/exhibitpage/artist_select_background_2.png')]">
+            <div className="w-full h-3/4 screen-w:h-[80%] ">
                 <main>
                     <AnimatePresence>
                         <motion.div
@@ -105,7 +105,7 @@ export default function Career() {
                             exit={{opacity: 0}}
                             transition={{duration: 0.3}}
                         >
-                            {career ? <div className="p-6 screen-w:px-6 screen-w:pt-20 mx-auto items-center">
+                            {career ? <div className="p-6 screen-w:px-6 screen-w:pt-20 mx-auto items-center z-10">
                                 {career.component}
                             </div> : ""}
                         </motion.div>

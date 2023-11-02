@@ -136,7 +136,7 @@ const Profile = ({}) => {
             <div className="w-1/2 h-3/4 flex flex-col space-y-4 screen-w:space-y-[150px]">
                 <div className="flex flex-col space-y-2 screen-w:space-y-8">
                     <div className="h-[0.5px] screen-w:h-[1px] bg-Ablue w-20 screen-w:w-32"/>
-                    <span className="font-bold text-lg screen-w:text-6xl text-Cgrey">{'Kim Jae-Kwan'}</span>
+                    <span className="font-bold text-lg screen-w:text-6xl text-Agrey">{'Kim Jae-Kwan'}</span>
                     <span className="font-bold text-lg screen-w:text-7xl text-Ablack">{'김재관'}</span>
                 </div>
 

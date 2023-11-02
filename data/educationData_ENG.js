@@ -130,11 +130,11 @@ export const educationData_ENG = [
                 explanation: "Explore and discover the characteristics and artistic elements of objects in daily life with sculptor Solmo Baek, and look at them differently from an artist's perspective. Understand the characteristics of sculpture and light, and feel that shadows are a part of three-dimensional sculptures. 'Shadow play' Learning about the components of sculpture through, observing and talking about my emotional blueprint, and completing a sculpture based on the emotional blueprint. As for the post-activity, after the third program is over, our friends return to the participating institutions and work in the children's space. Reminiscing about the 3rd 'Sculpture Pocket' program, we completed and installed a sculpture using materials from 'Artist's Pocket', which distributed the 'Sai' sculpture that we admired at the end of class, and completed it as a new sculpture in the children's space. Creative activities to try",
                 host: "Schema Art Museum",
                 support: "Chungcheongbuk-do, Chungbuk Cultural Foundation Chungbuk Culture and Arts Education Support Center",
-                img: "/img/educationpage/2022/22-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/b5831065-8c7f-447a-db17-7c0ce4296200/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "/img/educationpage/2022/thumbnail-1.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "/img/educationpage/2022/thumbnail-3.png"}, 
-                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "/img/educationpage/2022/thumbnail-6.jpg"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8b198d3e-a287-47ee-d15a-7abc20e39400/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6841e399-547e-49a7-fddb-fda3b162d500/public"}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/c1cbc7a2-9a72-4156-4ff7-33ae5d8da800/public"}
                 ],
             },
             {
@@ -150,7 +150,7 @@ export const educationData_ENG = [
                 explanation: "We provide opportunities for students, including vulnerable groups whose opportunities to enjoy culture are decreasing due to the ongoing COVID-19 situation, to take care of their bodies and minds through museums and art galleries and to grow into mature cultural citizens.",
                 host: "Korean Museum Association, KB Insurance",
                 support: "KB Insurance",
-                img: "/img/educationpage/2022/22-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/1231f8bf-e6af-44b4-8b92-461cdea3dd00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -168,10 +168,10 @@ export const educationData_ENG = [
                 explanation: "‘2022 You Over Flowers 6’ will have a total of 5 cultural days, and the target audience for the 1st and 2nd programs will be elementary school students and will be held with artists Lim Yun-mook and Jeon Byeong-gu. The first program with author Lim Yun-Muk will be held online. The 3rd program will be conducted with author Ra-Yeon Kim for families, and the 4th program with author Min-Sol Choi for middle school students will be held online. Lastly, it consists of various programs up to the 5th episode with writer Seo Wan-ho.",
                 host: "Ministry of Culture, Sports and Tourism",
                 support: "",
-                img: "/img/educationpage/2022/22-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/732887a6-63a1-47b2-d414-7c9f369ca400/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "/img/educationpage/2022/thumbnail-2.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "/img/educationpage/2022/thumbnail-4.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/14fa3b95-c928-43ae-9843-bd82d6cbdc00/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/beea6d75-bbbe-4ef6-cb11-3b82edbb4000/public"}
                 ],
             },
             {
@@ -187,9 +187,9 @@ export const educationData_ENG = [
                 explanation: "‘Catching a floating cloud’ is a metaphorical expression taken from the title of the work ‘Unyu (運遊): Floating around like a floating cloud’ by artist Shin Yong-jae. Talk about the feeling you get when you look at the sky and paint on a canvas. ‘Catching a Floating Cloud’, created together with artist Shin Yong-jae, aims to create a time to experience the metaphors and symbols of modern art and to approach, imagine, and express them with new perspectives, art materials, and fresh thoughts, breaking away from traditional ideas. This is a program that directly elicits emotions through ‘recovering’ the participating families’ daily emotions and ‘recalling happy memories’, and allows them to express their emotions in a metaphorical and witty way in modern art.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2022/22-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/941229ba-7505-435e-acf7-0c0436299300/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "/img/educationpage/2022/thumbnail-5.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/ff324b67-d4e8-4ea1-8bf3-42885dd42400/public"}
                 ],
             },
         ]
@@ -211,12 +211,12 @@ export const educationData_ENG = [
                 explanation: "Explore and discover the characteristics and artistic elements of objects in daily life with sculptor Solmo Baek, and look at them differently from an artist's perspective. Understand the characteristics of sculpture and light, and feel that shadows are a part of three-dimensional sculptures. 'Shadow play' Learn about the components of sculpture through visual and tactile appreciation of outdoor sculptures and ask yourself ‘Sculpture? Sculpture!’, dismantle and reconstruct the components of the sculpture to express your own three-dimensional sculpture.",
                 host: "Ministry of Culture, Sports and Tourism, Chung-cheong bukdo",
                 support: "Ministry of Culture, Sports and Tourism, Korea Culture and Arts Education Promotion Agency",
-                img: "/img/educationpage/2021/홈페이지-메인사이즈.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/644c419e-6c20-4800-24f4-12da5bbd4400/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=S1VLpEB_Bx4", thumbnail: "/img/educationpage/2021/thumbnail-4.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=KqnfaJ3saaU", thumbnail: "/img/educationpage/2021/thumbnail-5.png"}, 
-                    {order: 3, url: "https://www.youtube.com/watch?v=7Iu9juqKQVA", thumbnail: "/img/educationpage/2021/thumbnail-6.png"}, 
-                    {order: 4, url: "https://www.youtube.com/watch?v=jnpBTvT8aKs", thumbnail: "/img/educationpage/2021/thumbnail-8.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=S1VLpEB_Bx4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/99a466d9-ac8f-485f-60c6-b230d0f6fc00/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=KqnfaJ3saaU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/35f513c5-8e0a-4f49-8d5a-bafbc32ccb00/public"}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=7Iu9juqKQVA", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a01e843f-0ae6-4b69-0e51-ff51aec95000/public"}, 
+                    {order: 4, url: "https://www.youtube.com/watch?v=jnpBTvT8aKs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7759d779-28b4-407b-3348-8214cfbeb200/public"}
                 ],
             },
             {
@@ -232,10 +232,10 @@ export const educationData_ENG = [
                 explanation: "The 'Mi-niverse' program, which runs an omnibus of modern art through life records with artist 'Shin Yong-jae', creates empathy and space for families and lowers the threshold for modern art so that families can enjoy modern art in their lives rather than having difficulties with it. It is time to melt modern art. Through a variety of artistic experiences in painting with artist Shin Yong-jae, it is a time to find and feel art anywhere, accept new artistic experiences as joy, and share the artist's perspective with participating families. An approach that blends into family and life rather than a simple modern art approach. This is a program that attempts an omnibus of modern art.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2021/미니버스-홈피-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/66b56acd-97f7-4634-1f0c-c7e8b2a9c300/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=qXjmRDkQVXc", thumbnail: "/img/educationpage/2021/thumbnail-3.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=ZSNb0_T5D_U", thumbnail: "/img/educationpage/2021/thumbnail-7.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=qXjmRDkQVXc", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8243576f-5cea-4046-c8c5-1f31196fd400/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=ZSNb0_T5D_U", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/541dab42-2d69-4137-a8c5-6012375fa800/public"}
                 ],
             },
             {
@@ -251,10 +251,10 @@ export const educationData_ENG = [
                 explanation: "'2021 You Over Flowers 5' will have a total of 5 cultural days, and the target of the 1st, 3rd, 4th, and 5th programs will be children (local children's centers), Shin Yong-jae, and Niall Craven. , will be conducted with writers Lee Go-woon and Lee Seon-gu, and the 2nd program will be conducted with writer Choi Jae-young for adults (housewives), the 3rd program will be conducted with writer Niall Craven, and the 4th program will be conducted with writer Lee Go-woon. It will be held as an online class on YouTube at the Schema Museum of Art.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2021/꽃보다당신5-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8c33e0ca-2b1c-493e-6505-8e4418f74f00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=mxBb5jyxbvs", thumbnail: "/img/educationpage/2021/thumbnail-1.jpg"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=g95XGEb9T-w", thumbnail: "/img/educationpage/2021/thumbnail-2.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=mxBb5jyxbvs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e382d8d5-8712-4d3e-5845-7206b12eed00/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=g95XGEb9T-w", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9a266245-c36b-4fd5-556e-fc3a0f96fe00/public"}
                 ],
             },
             {
@@ -270,7 +270,7 @@ export const educationData_ENG = [
                 explanation: "",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2021/홈페이지-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9c06d656-d695-4bdc-bf53-fa4e25a1b200/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -288,7 +288,7 @@ export const educationData_ENG = [
                 explanation: "A printmaking experience where you can observe and meditate on nature and capture nature and seasons through collagraph using the beautiful natural materials around us. Time to experience colagraph, an engraving technique that is one of many printmaking methods. A time to feel and be interested in nature and seasons using natural materials.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2021/홈페이지-32.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/51851154-3acf-495a-6353-645697684e00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -312,7 +312,7 @@ export const educationData_ENG = [
                 explanation: "2020 Exhibition Schedule August 13-August 30 Kim Kyeong-ae's solo exhibition 'Variations of Life', September 3-October 4 Inhalation and Exhalation 'On the Road', September 3-October 4 Heo Mun-jeong's solo exhibition My garden 'My garden', October 8-November 1 Walk around Seowon-gyeong - Culture and Arts City Cheongju - Jeonju Contemporary Art Exhibition",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2020/20-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e44c4797-0e29-42a8-d76d-c0a0ad9d7300/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -330,7 +330,7 @@ export const educationData_ENG = [
                 explanation: "Finding diversity within yourself_Finding yourself, becoming familiar with modern art and the natural environment_Various modern art, learning simplification in a complex world_The world in squares, a letter to yourself through the meaning of plants_My plants, still lifes by artists Interpreting and expressing your own still life through _My still life",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2020/20-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/0d1c4849-f213-4ddd-3b26-eb537b9fe000/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -348,10 +348,10 @@ export const educationData_ENG = [
                 explanation: "The 2020 Art Star Program for Early Childhood Culture and Arts Education involves appreciating the natural environment and seasonal sky in daily life using various tools with artist Shin Yong-jae, who observes the non-material 'sky', turns it into an event, and captures it on a two-dimensional surface, and explores the changing sky. A program where you can find and experience various artistic experiences of early childhood anytime, anywhere by observing, expressing, and communicating.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2020/홈페이지-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/d68eb492-93a7-4bb5-3b1d-a49d3197da00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=G20J4kGWu7s", thumbnail: "/img/educationpage/2020/thumbnail-1.png"},
-                    {order: 2, url: "https://www.youtube.com/watch?v=pT6tuKB14U4", thumbnail: "/img/educationpage/2020/thumbnail-4.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=G20J4kGWu7s", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a8bd0edf-999e-404d-fc23-f3e819989d00/public"},
+                    {order: 2, url: "https://www.youtube.com/watch?v=pT6tuKB14U4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6b8cf315-212f-4409-26b4-7a8161b97b00/public"}
                 ], 
             },
             {
@@ -367,10 +367,10 @@ export const educationData_ENG = [
                 explanation: "Matter as a material occupies a very important part in art, which has a visual nature. Many artists use these materials to make abstract ideas in their heads into reality. Therefore, materials as materials have been variously experimented, improved, and evolved in modern art along with the history of art. Even now, modern art is being created with endless materials. Schema Museum of Art's ‘2020 Crossing’ program is a process of capturing abstract thoughts in the mind with local abstract sculpture artist ‘Baek Solmoe’, and participating families will share the artist’s perspective using various materials necessary for the process. A program that attempts to traverse thoughts by opening all senses beyond visual expression of formless, non-material thoughts rather than simply a way of dealing with materials.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2020/20-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4642f7c8-3854-4526-3ab2-e4bc46fbf600/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=NfUEFH7C1w4", thumbnail: "/img/educationpage/2020/thumbnail-3.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=WfY01k6jMEI", thumbnail: "/img/educationpage/2020/thumbnail-5.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=NfUEFH7C1w4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/5459f38f-496a-4751-bbb7-768c80fba400/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=WfY01k6jMEI", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2d0e042f-37e5-4281-f9fa-f9463996e200/public"}
                 ],
             },
             {
@@ -386,7 +386,7 @@ export const educationData_ENG = [
                 explanation: "On the day of culture, 'You Over Flowers 4' is a unique exhibition of artists, with artists Joo-hyung Kang, Yun-ho Kim, Su-min Na, Seung-hoon Lee, and Garam Hong among the artists participating in the Schema Museum of Art's 2020 special exhibition expressing various contemporary art and showing their world. A program to understand perspectives and have artistic experiences",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2020/홈페이지.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/04611a47-a677-48e2-c683-84c9abee4e00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -410,9 +410,9 @@ export const educationData_ENG = [
                 explanation: "1 Family 1 Exhibition Create time for family communication and understanding by turning daily family stories into works of art. Participate in the entire process of creating an exhibition through material exploration, understanding of materials, production of works, appreciation of works, recording, and promotion. Participate in self-curating. Collaborative creative work process. Creating a 'process'-centered 'communication' method and system by sharing the experience of failure and the process. An opportunity to expand social skills by meeting with various peers other than everyday friends outside of the family. An art trip with artist Hak-sam Hwang and a representative local sculpture artist. A time to feel the difference in 'immersion' together. Visit the artist's studio and share the artist's personal experiences. Opportunity to expand your experience by sharing your artistic experience. Appreciate the outdoor sculptures of the Shema Art Museum and look at them differently. Express various types of art. A free space to experience and create for yourself A space for free expression where you can experience and understand shapes and observations, colors and textures, and understanding and expansion of space, express and create, and create time for free material play, where participants can freely share stories from the museum. Time to find and solve it yourself.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2019/19-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/d4642c0c-5757-4999-2608-a2e17466d300/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=s3McvuRhtWU", thumbnail: "/img/educationpage/2019/thumbnail-1.jpg"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=s3McvuRhtWU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e9418526-07cd-406e-c237-a6a1d8d01500/public"}
                 ],
             },
             {
@@ -428,10 +428,10 @@ export const educationData_ENG = [
                 explanation: "Lim Seung-gyun, a contemporary art sculptor who combines the natural environment such as nature and the ecosystem with art, participates in the art experience (search for beauty, artistic expression) and nature exploration process (a program to maintain and expand curiosity) with 5-year-old children. ) This is a program that provides an opportunity to understand the artist's various expression methods based on the Nuri course in the area and to become closer to art by freely running around the space of the museum with curiosity about art and various expressions and experiences of art.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2019/19-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2377976e-d2d5-4a99-0c08-310424c52b00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=hlIhjiBdTjU", thumbnail: "/img/educationpage/2019/thumbnail-3.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=oDX8PXOsdFE", thumbnail: "/img/educationpage/2019/thumbnail-2.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=hlIhjiBdTjU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f7bbf229-e88f-4519-f1ab-9946a2ebd600/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=oDX8PXOsdFE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/797b4ddd-2eec-4478-4ee4-aca4ccf59700/public"}
                 ],
             },
             {
@@ -447,7 +447,7 @@ export const educationData_ENG = [
                 explanation: "The participating artists in '2019 You Over Flowers 3' are artists Seung-gyun Lim, Min-gyu Hwang, Yun-seop Kim, Shin Yong-jae, and Kang Hee-jung, who express various contemporary art and show their world among the artists participating in the Schema Museum of Art's 2019 special exhibition. Understand and experience art",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2019/홈페이지.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2de1b977-548c-408f-d37c-de5e3e645000/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -471,7 +471,7 @@ export const educationData_ENG = [
                 explanation: "The With U program is a program that combines visual arts and experiences to help children from the ‘Naesu’ region and multicultural children learn about differences through food, clothing, and shelter. In order to create the final result, With U ZONE, an exchange program that understands and values ​​each other's differences through an obibus education program and communicates and narrows differences through the cultures of various countries around the world.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2018/18-5.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8d1d4051-954d-4937-c8c5-3ef7478c7b00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -489,7 +489,7 @@ export const educationData_ENG = [
                 explanation: "In the '2018 You Over Flowers 2' program for 'Finding Me', we work with five young painters (Sunhee Lee, Bae Jihee Lim, Seongwoo Han, Yunseop Kim, and Seoin Lee) among various contemporary artists to understand the artists' unique expressions and develop artistic skills. experience",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2018/18-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/eb461b31-8f0c-45b1-6144-e2fbbbc69200/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -507,7 +507,7 @@ export const educationData_ENG = [
                 explanation: "Our Neighborhood 1% Law, a project that changed the law that required the installation of public sculptures in large buildings into a small-scale local cooperation project. Instead, an artist's large-scale work was used to encourage village residents to take care of street trees and the surrounding environment. A project where everyone can create and experience public art together",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2018/홈페이지-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7fd1dfb7-b605-4227-76dd-03e5f8837400/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -525,7 +525,7 @@ export const educationData_ENG = [
                 explanation: "The Dream Cube + Link program is participated by Jeungpyeong youth (1st to 3rd grade middle school students) and aims to use the existing Dream Cube 1 and 2 spaces as an extension of public art to the Jeungpyeong Cultural Center and citizens. Youth discover their own identity through understanding and accessing ‘public art’ and experiencing various activities, develop career paths through their interests and creative exploration, and increase their sense of belonging and participation in ‘our neighborhood’ to which they belong. We want to make it a meaningful time.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2018/홈페이지.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/571c2080-f437-4798-ad5f-97523dff1300/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -543,7 +543,7 @@ export const educationData_ENG = [
                 explanation: "The Toto Table Program is a family participation program that realizes the basics of good food and provides experiential education for the five senses using nature as a medium in these days when the problems of climate change, energy depletion, agriculture and food crisis, and food polarization are becoming more severe than ever. This is a program to make your own meals using crops from the garden. It is held in the education room of the Shema Museum of Art and in the outdoor garden. It is a variety of visual art activities that add the pleasure of eating to the pleasure of watching as you grow in the garden, and help you make your own family meal. Complex play program that does",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2018/토토홈페이지.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a9d6708e-8758-4897-9f74-eb8cbdaf1f00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -567,7 +567,7 @@ export const educationData_ENG = [
                 explanation: "is is something~. is a new word meaning ‘what would be bad??’, that is, ‘if it’s ART, anything is good’. The 2017 Culture Day at the Schema Museum of Art is a title chosen to lower the threshold of art museums with the slogan, “What’s bad about ART??” and will feature vivid ART stories centered around exhibitions at the Shema Museum, exhibition stories, and the production process of the artist’s work. , we plan to conduct a look into the artist with commentary by a curator for about 10 sessions from March to December. In particular, within the scope of Culture Day, we plan to conduct customized curation according to the characteristics of the demand target, appropriately mixing directions that are of interest to consumers and educationally beneficial directions, and actively utilize the meaning of ‘Culture Day.’ In particular, through the understanding of the artist through the planning and preparation of the exhibition, a program is created to provide tailored services and progress for each participant in ‘Culture Day’.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2017/2017-문화가-있는-날.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9fcdd99d-1e24-4704-f637-1f4bac268f00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -585,7 +585,7 @@ export const educationData_ENG = [
                 explanation: "In the process of learning the meaning of sweat and the joy of harvest, Toto Farm 2 realizes the joy of work along with a warm love for nature, and strengthens proactive and active thinking skills by experiencing cooperation and a sense of community. Outside of school, students leave the stuffy indoor classroom and go into the free and refreshing embrace of nature, strengthening their observation skills, thinking skills, and inquisitiveness by observing how they grow and change over time with the soil and animals. Cube 2 of Dreams is a cultural space created by youth themselves, and seeks to approach what type of space it will expand and utilize and create an experience space for continuous communication for youth in the region. Through this program, we aim to provide an environment to create a healthy and enjoyable Saturday for participating youth in their first to third grades of middle school. Through program activities, they experience a sense of accomplishment and cooperation, which becomes the driving force behind active and positive thinking and a desirable growth process. want to become Furthermore, we aim to provide opportunities and experiences for youth to explore various career paths and grow into creative artists.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2017/홈페이지.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/1015dcd7-aa41-4b61-47bb-c998e8ce9500/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -609,7 +609,7 @@ export const educationData_ENG = [
                 explanation: "Toto Garden is a program that explains the location and environmental factors of the Schema Museum of Art through education, and is a 'nature experience-type convergence program' that the whole family can enjoy together under the slogan 'Garden Education + Regeneration'. do. Based on the gardening program created jointly with the family, the class provides a place for communication between families, observes what happens during the gardening process, and fosters thoughts and dreams through agricultural journals and experiences using the language of the five senses. A program that nurtures. Cube of Dreams is set in Jeungpyeong-gun, a relatively culturally underprivileged area, and is held at Jeungpyeong Cultural Center, a representative cultural institution in Jeungpyeong-gun, under the theme of ‘cultural space created by youth.’ If existing art museums were inaccessible and difficult to approach, ‘Dream Cube’ is intended to be used as a cultural space of harmony and communication that can be created, operated and enjoyed by the youth of Jeungpyeong-gun together with citizens by combining it with everyday art.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2016/홈페이지-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/33673495-0e16-4a70-3b2b-7772d3259e00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -627,7 +627,7 @@ export const educationData_ENG = [
                 explanation: "This is a ‘public art project’ designed to establish and expand the function of ‘Culture Sarangbang’ as a representative cultural space in the village. We aim to create a complex cultural space where all village residents can teach, learn, and play, and create jobs that take advantage of the village's characteristics to maintain healthy connections among local residents.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2016/홈페이지-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6b0d6aff-50be-4d85-0aad-91b7b7cb7200/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -645,7 +645,7 @@ export const educationData_ENG = [
                 explanation: "문화생활의 범위가 협소하고 차상위계층의 노인분들과 아동들이 많은 곳으로 ‘초정노인요양원’과 ‘내수지역아동센터’를 각 1회씩 나누어‘방문형 프로그램’형식의 「찾아가는 미술관-꽃보다 당신」프로그램을 진행하고자 한다.「찾아가는 미술관-꽃보다 당신」프로그램은 수요자가 차량문제, 건강상의 문제, 보호자 동반 불가 등의 문제로 제약을 받을 수 있는‘이동성’에 대한 고충을 해소하고자 해당 기관에 직접 방문하여 진행되는 ‘소장품, 작가 연계 프로그램으로, 본 미술관의 소장 작품 중 2점을 선정한 뒤 소장 작가를 초빙하여 작가와의 만남을 통한 작품해설과 작품을 활용한 창작프로그램을 제공 1회차 신철우 작가와 함께하는 ‘꽃보다 당신 part1’, 2회차 신철우 작가와 함께하는 ‘꽃보다 당신 part2’",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2016/홈페이지-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f4a77190-a113-4f71-33eb-5fd80842db00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -669,7 +669,7 @@ export const educationData_ENG = [
                 explanation: "An 'artist (work) linked type' that examines the points, lines, and planes shown in architecture, drawing, video, gesture (performance), geometry, abstraction, and flat painting, and attempts a sensuous conversation between the creator, the creative work, and program participants based on these. 'Experience Program'",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2015/홈페이지-24.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/ad63b325-f7b2-4c29-0788-668eef473a00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -687,7 +687,7 @@ export const educationData_ENG = [
                 explanation: "This is a program customized for art museums using the ‘flipped classroom’ education method, which started in the American education field in 2010 and has recently spread around the world. Just as the 'flipped classroom' education method adds fun and depth to study through various activities instead of boring lecture-style classes that were originally done in classrooms, the upside-down museum reverses the existing exhibition-related education format and replaces the stereotype of 'studying' works of art. It consists of the VTS (Visual Thinking Strategy) interactive program, where families, children, and teenagers have 'free' conversations with 'no right answer' in front of works of art, and various experiential activities (visiting artist studios/creative art experience education, etc.) . With VTS (visual thinking strategy) teaching methods in front of works of art - a fun art experience at local art galleries and artist studios! 25 registered private organizations nationwide participating in the project using the VTS (Visual Thinking Strategy) teaching method, which involves asking and answering open questions and answers about a topic or situation without providing information about the work in front of a work of art. This is an educational program that allows students to appreciate works of art at museums and artist studios affiliated with the museum in the region.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2015/홈페이지-7.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4874cc53-e8a9-46f7-2aa2-881eeada2300/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -705,7 +705,7 @@ export const educationData_ENG = [
                 explanation: "It is a ‘play-type art experience program’ that approaches ‘play’ through art in various ways. Participants can experience various art genres and experience physical, emotional, and technical elements through them. In addition, as a program that combines 'convergence and complex elements', it provides participants with an interesting program with various genres, various works, and various materials, allowing them to explore other arts. All programs provide direct rather than indirect experience. With the motto, we subdivided the experience activities into stages and attempted to approach the series of processes from appreciation of the work to production using various materials and various methods, and planned to allow for in-depth exploration within the most basic framework of 'art'. . This method of conducting the program will be able to stimulate the interest and proactiveness of the participants, and even after the end of the program in the future, the participants will be able to suggest a direction for free art appreciation, and ultimately, through this, the participants will continue to pursue their dreams. Program to help you move forward",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2015/홈페이지-6.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7999ed4d-f4f0-4039-3dd3-48b9ff263600/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -723,7 +723,7 @@ export const educationData_ENG = [
                 explanation: "The Schema Museum of Art aims to expand the public's opportunities to enjoy culture by supporting various cultural and educational programs of private art museums in connection with Culture Day, and to provide a variety of attractions and experiences to visitors to private art museums on Culture Day. Shining Night - Rock, Rock, Rock' Art Appreciation School and 'Culture Day Special Program' will be held.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2015/홈페이지-5.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/30df04bc-1386-42ea-aa0b-f1a38cd1a200/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -741,7 +741,7 @@ export const educationData_ENG = [
                 explanation: "By deriving cultural and artistic tasks for each region and planning and operating cultural arts education policies based on regional environmental characteristics, we operate field-oriented programs that take into account regional characteristics and needs, help local residents understand the region, and build pride. We contribute to regional development by inspiring people. ‘Good Road’ is a ‘public art project’ centered on the ‘Naesu’ area and set on the ‘road’ between ‘Naesu Elementary School’ and Masan 1-gu Senior Citizen’s Center (Culture Sarangbang).",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2015/홈페이지-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3b7b1a4c-74ee-42e4-606c-589400561c00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -765,7 +765,7 @@ export const educationData_ENG = [
                 explanation: "Time to express what’s in my heart by making a house using paper boxes. A program where you take the time to explore and look at various elements of your self, such as the color you like, the house you want to live in in the future, your future hopes, and the objects you like, and then reflect these to create a model of the house in your mind.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2014/홈페이지-23.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7bcaffd2-995b-4d00-c86c-3f76cba16300/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -783,7 +783,7 @@ export const educationData_ENG = [
                 explanation: "This is a program customized for art museums using the ‘flipped classroom’ education method, which started in the American education field in 2010 and has recently spread around the world. Just as the 'flipped classroom' education method adds fun and depth to study through various activities instead of boring lecture-style classes that were originally done in classrooms, the upside-down museum reverses the existing exhibition-related education format and replaces the stereotype of 'studying' works of art. It consists of the VTS (Visual Thinking Strategy) interactive program, where families, children, and teenagers have 'free' conversations with 'no right answer' in front of works of art, and various experiential activities (visiting artist studios/creative art experience education, etc.) . With VTS (visual thinking strategy) teaching methods in front of works of art - a fun art experience at local art galleries and artist studios! 25 registered private organizations nationwide participating in the project using the VTS (Visual Thinking Strategy) teaching method, which involves asking and answering open questions and answers about a topic or situation without providing information about the work in front of a work of art. This is an educational program that allows students to appreciate works of art at museums and artist studios affiliated with the museum in the region.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2014/홈페이지-12.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/cdbc34f3-68d6-4fc0-746a-bb54c07f4e00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -801,7 +801,7 @@ export const educationData_ENG = [
                 explanation: "An art experience of communication with the silver generation in the age of aging, which is a recent social issue. After providing an easy-to-understand art experience for children and teenagers, we created 'Art Together' to foster emotional communication between generations and foster the pathos ideology that has been missing a lot in recent years. 'Experience' helps children and adolescents establish emotional stability and self-identity, and furthermore, not only instills knowledge of art and culture, but also fosters advanced civic consciousness through one-per-citizen art activities and the wisdom of living a creative life and the scent of dignified art. A program that contributes to communication between classes, regions, and generations.",
                 host: "Chungcheongbuk-do, Cheongju-si",
                 support: "Ministry of Culture, Sports and Tourism, Korea Culture and Arts Education Promotion Agency",
-                img: "/img/educationpage/2014/홈페이지-8.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/14485c63-41bd-410b-ac79-17f6fd887700/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -825,7 +825,7 @@ export const educationData_ENG = [
                 explanation: "Time to express what’s in my heart by making a house using paper boxes. A program where you take the time to explore and look at various elements of your self, such as the color you like, the house you want to live in in the future, your future hopes, and the objects you like, and then reflect these to create a model of the house in your mind.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2013/홈페이지-20.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/307060b2-e7c5-4619-5695-8d96f1090c00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -843,7 +843,7 @@ export const educationData_ENG = [
                 explanation: "We operate ‘Shema Children’s Art School’ for infants, toddlers, elementary school students, daycare centers, and elementary schools. Schema Art Museum Children's Art School is a project-type experiential education program that provides children with a variety of programs such as unique ideas, educational programs tailored to children's eye level, and exhibition-linked programs linked to ongoing exhibitions, and provides easy and fun education on modern art to help children become creative. Guidance to grow",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2013/홈페이지-14.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8143b9fb-0d3d-49ac-8c38-b76a00055800/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -861,7 +861,7 @@ export const educationData_ENG = [
                 explanation: "We are carrying out an art experience activity project to “build relationships” among the elderly, children, and youth living in Cheongju City and its surrounding areas (Cheongwon-gun, Chungcheongbuk-do), and share stories of the past and present (conversations, discussions, etc.) in our region. We plan field trips, create mutual sympathy through art work and special exhibitions, and hold art experience events as a venue for local communication. Furthermore, we cultivate advanced civic consciousness in the region and the wisdom and dignity of living a creative life through one-per-citizen art activities. By providing the scent of art, it contributes to communication between classes, regions, and generations, and lays the foundation for contributing to the development of local communities through easy-to-access art and culture activities.",
                 host: "Ministry of Culture, Sports and Tourism, Chungcheongbuk-do, Chungbuk Cultural Foundation",
                 support: "",
-                img: "/img/educationpage/2013/홈페이지-13.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/b4d50d12-e286-47b3-ed80-2c30645c7100/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -885,7 +885,7 @@ export const educationData_ENG = [
                 explanation: "A ‘nature experience art program’ that enhances the sensitivity and expressiveness of participants through human encounters with all kinds of plants, flowers, trees, wind, sunlight, etc. that exist in beautiful nature, and at the same time allows them to see and feel for themselves.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2012/홈페이지-17.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/26ba1518-6f90-4122-96c7-8c63315e4e00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -909,7 +909,7 @@ export const educationData_ENG = [
                 explanation: "A program that creates your own unique image of the world felt through viewing and experiencing nature, and then looks at the images in the picture and recreates the image of nature into another imaginary image.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2011/홈페이지-18.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4c43feab-8244-4ce8-686a-cb4ae724c200/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],

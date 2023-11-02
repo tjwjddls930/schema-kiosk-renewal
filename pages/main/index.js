@@ -83,7 +83,7 @@ export default function Mainpage() {
     const {fontsize} = useContext(FontsizeContext);
     return(
         <div className="h-screen w-screen flex flex-col justify-center items-center">
-            <div className="absolute inset-0 bg-cover bg-no-repeat bg-[url('/img/mainpage/키오스크_가로형_메인배경_1.png')]"
+            <div className="absolute inset-0 bg-cover bg-no-repeat bg-[url('/img/mainpage/kiosk_main_bg.png')]"
             style={{
                 // opacity:0.5,
                 zIndex: -1

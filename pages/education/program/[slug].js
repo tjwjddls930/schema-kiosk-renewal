@@ -2,7 +2,6 @@ import React from "react";
 import { useRouter } from "next/router";
 import EducationLayout from "@/components/education/program/EducationLayout";
 import EducationContent from "@/components/education/program/EducationContent";
-import { educationData } from "@/data/educationData_KOR";
 import Navbar from "@/components/navbar/Navbar";
 import { useState, useEffect, useContext } from "react";
 import { LanguageContext } from "@/contexts/LanguageContext";
@@ -22,7 +21,7 @@ const inputData = {
 
 const Program = () => {
   const router = useRouter();
-  const {language} = useContext(LanguageContext)
+  const {language} = useContext(LanguageContext);
   const [data, setData] = useState(null);
   const pid = router.query.slug; // 'slug'([slug]) is the name of the dynamic parameter
   const {index} = router.query;

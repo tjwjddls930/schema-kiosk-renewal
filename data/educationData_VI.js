@@ -211,12 +211,12 @@ export const educationData_VI = [
                 explanation: "Khám phá và khám phá những đặc điểm và yếu tố nghệ thuật của các đồ vật trong cuộc sống hàng ngày với nhà điêu khắc Solmoe Baek, nhìn chúng khác với góc nhìn của một nghệ sĩ, hiểu đặc điểm của điêu khắc và ánh sáng, đồng thời cảm nhận rằng bóng tối là một phần của tác phẩm điêu khắc ba chiều . `Tìm hiểu về các thành phần của tác phẩm điêu khắc thông qua 'chơi bóng', đánh giá các tác phẩm điêu khắc ngoài trời một cách trực quan và xúc giác, chịu đựng 'tác phẩm điêu khắc? tác phẩm điêu khắc!', đồng thời tháo rời và tái tạo lại các thành phần của tác phẩm điêu khắc để thể hiện tác phẩm điêu khắc ba chiều của riêng bạn. hãy nhìn",
                 host: "Bộ Văn hóa, Thể thao và Du lịch, Chungcheongbuk-do",
                 support: "Bộ Văn hóa, Thể thao và Du lịch, Cơ quan Xúc tiến Giáo dục Văn hóa và Nghệ thuật Hàn Quốc",
-                img: "/img/educationpage/2021/홈페이지-메인사이즈.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/644c419e-6c20-4800-24f4-12da5bbd4400/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=S1VLpEB_Bx4", thumbnail: "/img/educationpage/2021/thumbnail-4.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=KqnfaJ3saaU", thumbnail: "/img/educationpage/2021/thumbnail-5.png"}, 
-                    {order: 3, url: "https://www.youtube.com/watch?v=7Iu9juqKQVA", thumbnail: "/img/educationpage/2021/thumbnail-6.png"}, 
-                    {order: 4, url: "https://www.youtube.com/watch?v=jnpBTvT8aKs", thumbnail: "/img/educationpage/2021/thumbnail-8.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=S1VLpEB_Bx4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/99a466d9-ac8f-485f-60c6-b230d0f6fc00/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=KqnfaJ3saaU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/35f513c5-8e0a-4f49-8d5a-bafbc32ccb00/public"}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=7Iu9juqKQVA", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a01e843f-0ae6-4b69-0e51-ff51aec95000/public"}, 
+                    {order: 4, url: "https://www.youtube.com/watch?v=jnpBTvT8aKs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7759d779-28b4-407b-3348-8214cfbeb200/public"}
                 ],
             },
             {
@@ -232,10 +232,10 @@ export const educationData_VI = [
                 explanation: "Chương trình 'Mi-niverse', bao gồm nhiều tác phẩm nghệ thuật hiện đại thông qua các ghi chép cuộc sống với nghệ sĩ 'Shin Yong-jae', tạo ra sự đồng cảm và không gian cho các gia đình, đồng thời hạ thấp ngưỡng cửa cho nghệ thuật hiện đại để các gia đình có thể thưởng thức nghệ thuật hiện đại trong cuộc sống của họ thay vì gặp khó khăn với nó Đã đến lúc làm tan chảy nghệ thuật hiện đại. Thông qua nhiều trải nghiệm nghệ thuật trong hội họa với nghệ sĩ Shin Yong-jae, đây là lúc để tìm và cảm nhận nghệ thuật ở bất cứ đâu, chấp nhận những trải nghiệm nghệ thuật mới như niềm vui và chia sẻ quan điểm của nghệ sĩ với các gia đình tham gia. chứ không phải là một cách tiếp cận nghệ thuật hiện đại đơn giản. Đây là một chương trình cố gắng tổng hợp nhiều loại hình nghệ thuật hiện đại.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2021/미니버스-홈피-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/66b56acd-97f7-4634-1f0c-c7e8b2a9c300/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=qXjmRDkQVXc", thumbnail: "/img/educationpage/2021/thumbnail-3.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=ZSNb0_T5D_U", thumbnail: "/img/educationpage/2021/thumbnail-7.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=qXjmRDkQVXc", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8243576f-5cea-4046-c8c5-1f31196fd400/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=ZSNb0_T5D_U", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/541dab42-2d69-4137-a8c5-6012375fa800/public"}
                 ],
             },
             {
@@ -251,10 +251,10 @@ export const educationData_VI = [
                 explanation: "'2021 You Over Flowers 5' sẽ có tổng cộng 5 ngày văn hóa và mục tiêu của các chương trình thứ 1, 3, 4 và 5 sẽ là trẻ em (trung tâm trẻ em địa phương), Shin Yong-jae và Niall Craven. , sẽ được thực hiện với các nhà văn Lee Go-woon và Lee Seon-gu, và chương trình thứ 2 sẽ được thực hiện với nhà văn Choi Jae-young dành cho người lớn (các bà nội trợ), chương trình thứ 3 sẽ được thực hiện với nhà văn Niall Craven, và chương trình thứ 4 sẽ là được thực hiện với nhà văn Lee Go-woon và sẽ được tổ chức dưới dạng lớp học trực tuyến trên YouTube tại Bảo tàng Nghệ thuật Schema.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2021/꽃보다당신5-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8c33e0ca-2b1c-493e-6505-8e4418f74f00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=mxBb5jyxbvs", thumbnail: "/img/educationpage/2021/thumbnail-1.jpg"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=g95XGEb9T-w", thumbnail: "/img/educationpage/2021/thumbnail-2.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=mxBb5jyxbvs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e382d8d5-8712-4d3e-5845-7206b12eed00/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=g95XGEb9T-w", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9a266245-c36b-4fd5-556e-fc3a0f96fe00/public"}
                 ],
             },
             {
@@ -270,7 +270,7 @@ export const educationData_VI = [
                 explanation: "",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2021/홈페이지-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9c06d656-d695-4bdc-bf53-fa4e25a1b200/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -288,7 +288,7 @@ export const educationData_VI = [
                 explanation: "Trải nghiệm in ấn nơi bạn có thể quan sát và suy ngẫm về thiên nhiên cũng như nắm bắt thiên nhiên và các mùa thông qua ảnh ghép bằng cách sử dụng các vật liệu tự nhiên tuyệt đẹp xung quanh chúng ta. Đã đến lúc trải nghiệm colagraph, một kỹ thuật khắc là một trong nhiều phương pháp in ấn. Thời gian để cảm nhận và quan tâm đến thiên nhiên và các mùa bằng cách sử dụng vật liệu tự nhiên.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2021/홈페이지-32.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/51851154-3acf-495a-6353-645697684e00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -312,7 +312,7 @@ export const educationData_VI = [
                 explanation: "Lịch triển lãm năm 2020 13 tháng 8 - 30 tháng 8 Triển lãm cá nhân 'Biến thể của cuộc sống' của Kim Kyeong-ae, 3 tháng 9 - 4 tháng 10 Hít vào và thở ra 'Trên đường', 3 tháng 9 - 4 tháng 10 Triển lãm cá nhân của Heo Mun-jeong Khu vườn của tôi 'Khu vườn của tôi ', Ngày 8 tháng 10 - ngày 1 tháng 11 Dạo quanh Seowon-gyeong - Thành phố văn hóa nghệ thuật Cheongju - Triển lãm nghệ thuật đương đại Jeonju",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2020/20-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e44c4797-0e29-42a8-d76d-c0a0ad9d7300/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -330,7 +330,7 @@ export const educationData_VI = [
                 explanation: "Tìm kiếm sự đa dạng trong chính mình_Tìm lại chính mình, làm quen với nghệ thuật hiện đại và môi trường tự nhiên_Nghệ thuật đương đại đa dạng, học cách đơn giản hóa trong một thế giới phức tạp_Thế giới trong những hình vuông, một bức thư gửi chính mình qua ý nghĩa của thực vật_Cây cỏ của tôi, tĩnh vật của các nghệ sĩ Diễn giải và thể hiện tĩnh vật của chính bạn qua _Tĩnh vật của tôi",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2020/20-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/0d1c4849-f213-4ddd-3b26-eb537b9fe000/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -348,10 +348,10 @@ export const educationData_VI = [
                 explanation: "Chương trình Ngôi sao Nghệ thuật dành cho Giáo dục Văn hóa và Nghệ thuật Mầm non năm 2020 liên quan đến việc đánh giá cao môi trường tự nhiên và bầu trời theo mùa trong cuộc sống hàng ngày bằng nhiều công cụ khác nhau cùng với nghệ sĩ Shin Yong-jae, người quan sát 'bầu trời' phi vật chất, biến nó thành một sự kiện và ghi lại nó trên bề mặt hai chiều và khám phá bầu trời đang thay đổi. Một chương trình nơi bạn có thể tìm thấy và cảm nhận những trải nghiệm nghệ thuật khác nhau của tuổi thơ mọi lúc, mọi nơi bằng cách quan sát, thể hiện và giao tiếp.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2020/홈페이지-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/d68eb492-93a7-4bb5-3b1d-a49d3197da00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=G20J4kGWu7s", thumbnail: "/img/educationpage/2020/thumbnail-1.png"},
-                    {order: 2, url: "https://www.youtube.com/watch?v=pT6tuKB14U4", thumbnail: "/img/educationpage/2020/thumbnail-4.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=G20J4kGWu7s", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a8bd0edf-999e-404d-fc23-f3e819989d00/public"},
+                    {order: 2, url: "https://www.youtube.com/watch?v=pT6tuKB14U4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6b8cf315-212f-4409-26b4-7a8161b97b00/public"}
                 ], 
             },
             {
@@ -367,10 +367,10 @@ export const educationData_VI = [
                 explanation: "Vật chất với tư cách là chất liệu chiếm một bộ phận rất quan trọng trong nghệ thuật, nó có tính chất thị giác. Nhiều nghệ sĩ sử dụng những chất liệu này để biến những ý tưởng trừu tượng trong đầu thành hiện thực. Vì vậy, vật liệu với tư cách là vật liệu đã được thử nghiệm, cải tiến và phát triển đa dạng trong nghệ thuật hiện đại cùng với lịch sử nghệ thuật. Ngay cả bây giờ, nghệ thuật hiện đại vẫn đang được tạo ra với vô số chất liệu. Chương trình '2020 Crossing' của Bảo tàng Nghệ thuật Schema là một quá trình ghi lại những suy nghĩ trừu tượng trong tâm trí với nghệ sĩ điêu khắc trừu tượng địa phương 'Baek Solmoe' và các gia đình tham gia chia sẻ quan điểm của nghệ sĩ bằng cách sử dụng nhiều vật liệu cần thiết cho quá trình này. Một chương trình cố gắng truyền tải suy nghĩ bằng cách mở ra mọi giác quan ngoài khả năng thể hiện trực quan của những suy nghĩ phi vật chất, vô hình thay vì chỉ đơn giản là cách xử lý vật liệu.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2020/20-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4642f7c8-3854-4526-3ab2-e4bc46fbf600/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=NfUEFH7C1w4", thumbnail: "/img/educationpage/2020/thumbnail-3.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=WfY01k6jMEI", thumbnail: "/img/educationpage/2020/thumbnail-5.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=NfUEFH7C1w4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/5459f38f-496a-4751-bbb7-768c80fba400/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=WfY01k6jMEI", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2d0e042f-37e5-4281-f9fa-f9463996e200/public"}
                 ],
             },
             {
@@ -386,7 +386,7 @@ export const educationData_VI = [
                 explanation: "Nhân ngày văn hóa, 'You Over Flowers 4' là triển lãm độc đáo của các nghệ sĩ với sự góp mặt của các nghệ sĩ như Kang Joo-hyung, Kim Yun-ho, Na Su-min, Lee Seung-hoon, Hong Garam trong số các nghệ sĩ tham gia triển lãm đặc biệt năm 2020 của Bảo tàng Nghệ thuật Schema, nơi thể hiện nhiều loại nghệ thuật đương đại và thể hiện thế giới của họ. Một chương trình để hiểu các quan điểm và trải nghiệm nghệ thuật",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2020/홈페이지.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/04611a47-a677-48e2-c683-84c9abee4e00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -410,9 +410,9 @@ export const educationData_VI = [
                 explanation: "Triển lãm 1 Gia Đình 1 Tạo thời gian giao tiếp và thấu hiểu gia đình bằng cách biến những câu chuyện đời thường của gia đình thành những tác phẩm nghệ thuật. Tham gia vào toàn bộ quá trình sáng tạo triển lãm thông qua việc khám phá chất liệu, hiểu biết về chất liệu, sản xuất tác phẩm, đánh giá tác phẩm, ghi âm và quảng bá . Tham gia tự quản lý. Quy trình làm việc hợp tác sáng tạo. Tạo ra một phương pháp và hệ thống 'giao tiếp' lấy 'quy trình' làm trung tâm bằng cách chia sẻ kinh nghiệm về thất bại và quy trình. Cơ hội để mở rộng các kỹ năng xã hội bằng cách gặp gỡ nhiều đồng nghiệp khác nhau ngoài bạn bè hàng ngày bên ngoài gia đình. Một chuyến đi nghệ thuật với nghệ sĩ Hak-sam Hwang và một nghệ sĩ điêu khắc tiêu biểu của địa phương. Một thời gian để cùng nhau cảm nhận sự khác biệt trong việc 'đắm chìm'. Ghé thăm xưởng vẽ của nghệ sĩ và chia sẻ kinh nghiệm cá nhân của nghệ sĩ. Cơ hội mở rộng trải nghiệm của bạn bằng cách chia sẻ trải nghiệm nghệ thuật của bạn. Đánh giá cao các tác phẩm điêu khắc ngoài trời của Bảo tàng Nghệ thuật Shema và nhìn chúng một cách khác nhau. Thể hiện nhiều loại hình nghệ thuật khác nhau. Một không gian miễn phí để trải nghiệm và sáng tạo cho chính bạn Một không gian để tự do thể hiện, nơi bạn có thể trải nghiệm và hiểu các hình dạng và quan sát, màu sắc và kết cấu, hiểu biết và mở rộng không gian, thể hiện và sáng tạo cũng như tạo thời gian để chơi tài liệu miễn phí, nơi người tham gia có thể thoải mái chia sẻ các câu chuyện từ bảo tàng. Đã đến lúc tự mình tìm và giải quyết vấn đề đó.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2019/19-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/d4642c0c-5757-4999-2608-a2e17466d300/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=s3McvuRhtWU", thumbnail: "/img/educationpage/2019/thumbnail-1.jpg"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=s3McvuRhtWU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e9418526-07cd-406e-c237-a6a1d8d01500/public"}
                 ],
             },
             {
@@ -428,10 +428,10 @@ export const educationData_VI = [
                 explanation: "Lim Seung-gyun, một nhà điêu khắc nghệ thuật đương đại, người kết hợp môi trường tự nhiên như thiên nhiên và hệ sinh thái với nghệ thuật, tham gia trải nghiệm nghệ thuật (tìm kiếm vẻ đẹp, biểu hiện nghệ thuật) và quá trình khám phá thiên nhiên (một chương trình duy trì và mở rộng trí tò mò) với Trẻ em 5 tuổi. ) Đây là chương trình mang đến cơ hội tìm hiểu các phương pháp biểu đạt khác nhau của nghệ sĩ dựa trên khóa học Nuri trong khu vực và trở nên gần gũi hơn với nghệ thuật bằng cách tự do chạy quanh không gian của bảo tàng với sự tò mò về nghệ thuật và những cách thể hiện và trải nghiệm nghệ thuật khác nhau.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2019/19-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2377976e-d2d5-4a99-0c08-310424c52b00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=hlIhjiBdTjU", thumbnail: "/img/educationpage/2019/thumbnail-3.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=oDX8PXOsdFE", thumbnail: "/img/educationpage/2019/thumbnail-2.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=hlIhjiBdTjU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f7bbf229-e88f-4519-f1ab-9946a2ebd600/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=oDX8PXOsdFE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/797b4ddd-2eec-4478-4ee4-aca4ccf59700/public"}
                 ],
             },
             {
@@ -447,7 +447,7 @@ export const educationData_VI = [
                 explanation: "Các nghệ sĩ tham gia '2019 You Over Flowers 3' là các nghệ sĩ Seung-gyun Lim, Min-gyu Hwang, Yun-seop Kim, Shin Yong-jae và Kang Hee-jung, những người thể hiện nhiều loại nghệ thuật đương đại và thể hiện thế giới của họ giữa các nghệ sĩ đương đại. các nghệ sĩ tham gia triển lãm đặc biệt năm 2019 của Bảo tàng Nghệ thuật Schema. Hiểu và trải nghiệm nghệ thuật",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2019/홈페이지.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2de1b977-548c-408f-d37c-de5e3e645000/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -471,7 +471,7 @@ export const educationData_VI = [
                 explanation: "Chương trình With U là chương trình kết hợp nghệ thuật thị giác và trải nghiệm để giúp trẻ em từ vùng 'Naesu' và trẻ em đa văn hóa tìm hiểu về sự khác biệt thông qua thực phẩm, quần áo và nơi ở. Để tạo ra kết quả cuối cùng, With U ZONE, một chương trình trao đổi nhằm hiểu và coi trọng sự khác biệt của nhau thông qua chương trình giáo dục obibus, đồng thời giao tiếp và thu hẹp sự khác biệt thông qua nền văn hóa của nhiều quốc gia khác nhau trên thế giới.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2018/18-5.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8d1d4051-954d-4937-c8c5-3ef7478c7b00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -489,7 +489,7 @@ export const educationData_VI = [
                 explanation: "Trong chương trình '2018 You Over Flowers 2' của 'Finding Me', chúng tôi làm việc với năm họa sĩ trẻ (Sunhee Lee, Bae Jihee Lim, Seongwoo Han, Yunseop Kim và Seoin Lee) cùng nhiều nghệ sĩ đương đại khác nhau để hiểu được nét độc đáo của các nghệ sĩ. biểu cảm và phát triển kỹ năng nghệ thuật.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2018/18-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/eb461b31-8f0c-45b1-6144-e2fbbbc69200/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -507,7 +507,7 @@ export const educationData_VI = [
                 explanation: "Luật Vùng lân cận 1% của chúng tôi, một dự án đã thay đổi luật yêu cầu lắp đặt các tác phẩm điêu khắc công cộng trong các tòa nhà lớn thành một dự án hợp tác địa phương quy mô nhỏ. Thay vào đó, tác phẩm quy mô lớn của một nghệ sĩ được sử dụng để khuyến khích người dân trong làng quan tâm đến đường phố cây cối và môi trường xung quanh. Một dự án nơi mọi người có thể cùng nhau sáng tạo và trải nghiệm nghệ thuật công cộng",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2018/홈페이지-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7fd1dfb7-b605-4227-76dd-03e5f8837400/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -525,7 +525,7 @@ export const educationData_VI = [
                 explanation: "Chương trình Dream Cube + Link có sự tham gia của thanh niên Jeungpyeong (học sinh lớp 1 đến lớp 3) và nhằm mục đích sử dụng không gian Dream Cube 1 và 2 hiện có như một phần mở rộng nghệ thuật công cộng cho Trung tâm Văn hóa Jeungpyeong và người dân. Giới trẻ khám phá bản sắc riêng của mình thông qua sự hiểu biết và tiếp cận 'nghệ thuật công cộng' cũng như trải nghiệm nhiều hoạt động khác nhau, phát triển con đường sự nghiệp thông qua sở thích và khám phá sáng tạo, đồng thời nâng cao cảm giác thân thuộc và tham gia vào 'khu phố của chúng ta' mà họ thuộc về. đó là khoảng thời gian đầy ý nghĩa",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2018/홈페이지.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/571c2080-f437-4798-ad5f-97523dff1300/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -543,7 +543,7 @@ export const educationData_VI = [
                 explanation: "Chương trình Toto Table là một chương trình có sự tham gia của gia đình nhằm hiện thực hóa những điều cơ bản về thực phẩm tốt và cung cấp giáo dục trải nghiệm cho năm giác quan bằng cách sử dụng thiên nhiên làm phương tiện trong những ngày này khi các vấn đề về biến đổi khí hậu, cạn kiệt năng lượng, khủng hoảng nông nghiệp và lương thực cũng như phân cực lương thực đang trở nên gay gắt hơn bao giờ hết. Đây là chương trình tự tay chế biến bữa ăn bằng cách sử dụng cây trồng trong vườn. Nó được tổ chức tại phòng giáo dục và khu vườn ngoài trời của Bảo tàng Nghệ thuật Schema. Đây là một loạt các hoạt động nghệ thuật thị giác làm tăng thêm niềm vui của ăn uống theo sở thích ngắm nhìn bạn lớn lên trong vườn và giúp bạn tự nấu bữa ăn cho gia đình mình.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2018/토토홈페이지.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a9d6708e-8758-4897-9f74-eb8cbdaf1f00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -567,7 +567,7 @@ export const educationData_VI = [
                 explanation: "is is something~.là một từ mới có nghĩa là 'điều gì sẽ xấu??', tức là 'nếu là ART thì cái gì cũng tốt'. Ngày Văn hóa 2017 tại Bảo tàng Nghệ thuật Shema là tiêu đề được chọn để hạ thấp ngưỡng cửa của các bảo tàng nghệ thuật với khẩu hiệu “Nghệ thuật có gì tệ??” và sẽ giới thiệu những câu chuyện NGHỆ THUẬT sống động tập trung vào các cuộc triển lãm tại Bảo tàng Shema, các câu chuyện triển lãm, và quá trình sản xuất tác phẩm của nghệ sĩ, chúng tôi dự định tiến hành tìm hiểu nghệ sĩ với sự bình luận của người phụ trách trong khoảng 10 buổi từ tháng 3 đến tháng 12. Đặc biệt, trong phạm vi Ngày Văn hóa, chúng tôi có kế hoạch tiến hành tuyển chọn tùy chỉnh theo đặc điểm của mục tiêu nhu cầu, kết hợp một cách thích hợp các hướng quan tâm mà người tiêu dùng mong muốn và các hướng có lợi về mặt giáo dục, đồng thời tích cực sử dụng ý nghĩa của 'Ngày Văn hóa'. Đặc biệt, thông qua sự thấu hiểu của người nghệ sĩ thông qua việc lên kế hoạch và chuẩn bị cho triển lãm, chương trình được tạo ra với các dịch vụ và tiến độ tùy chỉnh cho từng người tham gia ‘Ngày văn hóa’.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2017/2017-문화가-있는-날.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9fcdd99d-1e24-4704-f637-1f4bac268f00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -585,7 +585,7 @@ export const educationData_VI = [
                 explanation: "Trong quá trình tìm hiểu ý nghĩa của mồ hôi và niềm vui thu hoạch, Toto Farm 2 nhận ra niềm vui lao động cùng với tình yêu thiên nhiên ấm áp, đồng thời củng cố kỹ năng tư duy chủ động, tích cực thông qua trải nghiệm hợp tác và ý thức cộng đồng. Ngoài giờ học, học sinh rời khỏi lớp học ngột ngạt trong nhà và hòa mình vào thiên nhiên tự do và sảng khoái, củng cố kỹ năng quan sát, kỹ năng tư duy và ham học hỏi bằng cách quan sát cách chúng lớn lên và thay đổi theo thời gian với đất đai và động vật. Cube 2 of Dreams là một không gian văn hóa do chính giới trẻ tạo ra và tìm cách tiếp cận loại không gian mà nó sẽ mở rộng và tận dụng, đồng thời tạo ra một không gian trải nghiệm để giao tiếp liên tục cho giới trẻ trong khu vực. Thông qua chương trình này, chúng tôi mong muốn cung cấp một môi trường để tạo ra một ngày Thứ Bảy lành mạnh và thú vị cho thanh thiếu niên tham gia học từ lớp 1 đến lớp 3 ở trường trung học cơ sở. và suy nghĩ tích cực cũng như một quá trình phát triển mong muốn. muốn trở thành Hơn nữa, chúng tôi mong muốn mang đến cơ hội và trải nghiệm cho giới trẻ khám phá những con đường sự nghiệp khác nhau và phát triển thành những nghệ sĩ sáng tạo.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2017/홈페이지.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/1015dcd7-aa41-4b61-47bb-c998e8ce9500/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -609,7 +609,7 @@ export const educationData_VI = [
                 explanation: "Toto Garden là chương trình giải thích các yếu tố vị trí và môi trường của Bảo tàng Nghệ thuật Schema thông qua giáo dục, đồng thời là 'chương trình hội tụ kiểu trải nghiệm thiên nhiên' mà cả gia đình có thể cùng nhau tận hưởng với khẩu hiệu 'Giáo dục vườn + Tái sinh'. . Dựa trên chương trình làm vườn do gia đình cùng thực hiện, lớp học cung cấp một nơi để giao tiếp giữa các gia đình, quan sát những gì xảy ra trong quá trình làm vườn, đồng thời nuôi dưỡng những suy nghĩ và ước mơ thông qua các tạp chí nông nghiệp và trải nghiệm sử dụng ngôn ngữ của năm giác quan. nuôi dưỡng. Cube of Dreams lấy bối cảnh ở Jeungpyeong-gun, một khu vực tương đối khó khăn về văn hóa và được tổ chức tại Trung tâm văn hóa Jeungpyeong, một tổ chức văn hóa tiêu biểu ở Jeungpyeong-gun, với chủ đề 'không gian văn hóa do tuổi trẻ tạo ra'. Nếu các bảo tàng nghệ thuật hiện tại không thể tiếp cận và khó tiếp cận thì 'Dream Cube' sẽ được sử dụng như một không gian văn hóa hòa hợp và giao tiếp mà giới trẻ Jeungpyeong-gun cùng với người dân có thể tạo ra, vận hành và tận hưởng bằng cách kết hợp nó với nghệ thuật hàng ngày.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2016/홈페이지-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/33673495-0e16-4a70-3b2b-7772d3259e00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -627,7 +627,7 @@ export const educationData_VI = [
                 explanation: "Đây là một ‘dự án nghệ thuật công cộng’ được thiết kế nhằm thiết lập và mở rộng chức năng của ‘Văn hóa Sarangbang’ như một không gian văn hóa tiêu biểu trong làng. Chúng tôi mong muốn tạo ra một không gian văn hóa phức hợp, nơi tất cả cư dân trong làng có thể dạy, học và vui chơi, đồng thời tạo việc làm tận dụng các đặc điểm của làng để duy trì mối liên hệ lành mạnh giữa người dân địa phương.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2016/홈페이지-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6b0d6aff-50be-4d85-0aad-91b7b7cb7200/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -645,7 +645,7 @@ export const educationData_VI = [
                 explanation: "Do phạm vi đời sống văn hóa còn hạn chế và có nhiều người già và trẻ em thuộc tầng lớp thấp hơn nên 'Tham quan Bảo tàng Nghệ thuật - You Over Flowers' được tổ chức dưới hình thức 'chương trình tham quan' bằng cách chia 'Viện dưỡng lão Chojeong' và 'Trung tâm trẻ em khu vực Naesu' mỗi nơi một lần. Chúng tôi xin tiếp tục chương trình. Chương trình “Tham quan Bảo tàng Nghệ thuật - You Over Flowers” ​​​​liên hệ trực tiếp với các tổ chức liên quan để giải quyết những khó khăn mà người tiêu dùng gặp phải về 'di chuyển' có thể bị hạn chế do các vấn đề như vấn đề về xe cộ, vấn đề sức khỏe và không thể có người giám hộ đi cùng. Đây là 'chương trình liên kết sưu tập-nghệ sĩ' được thực hiện trên cơ sở tham quan. Sau khi chọn hai tác phẩm từ bộ sưu tập của bảo tàng, bộ sưu tập của Các nghệ sĩ được mời bình luận về các tác phẩm thông qua cuộc gặp gỡ với nghệ sĩ và chương trình sáng tạo sử dụng các tác phẩm. Buổi đầu tiên được tổ chức với nghệ sĩ Shin Cheol-woo. 'You Over Flowers phần 1' với tác giả Shin Cheol-woo, phần 2 'You Over Flowers phần 2' với tác giả Shin Cheol-woo",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2016/홈페이지-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f4a77190-a113-4f71-33eb-5fd80842db00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -669,7 +669,7 @@ export const educationData_VI = [
                 explanation: "'Loại liên kết nghệ sĩ (tác phẩm)' kiểm tra các điểm, đường và mặt phẳng được thể hiện trong kiến ​​trúc, bản vẽ, video, cử chỉ (trình diễn), hình học, sự trừu tượng và tranh phẳng, đồng thời cố gắng tạo ra một cuộc trò chuyện gợi cảm giữa người sáng tạo và người sáng tạo công việc và những người tham gia chương trình dựa trên những điều này.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2015/홈페이지-24.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/ad63b325-f7b2-4c29-0788-668eef473a00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -687,7 +687,7 @@ export const educationData_VI = [
                 explanation: "Đây là chương trình được thiết kế riêng cho các bảo tàng nghệ thuật sử dụng phương pháp giáo dục 'lớp học đảo ngược', bắt đầu được áp dụng trong lĩnh vực giáo dục Mỹ vào năm 2010 và gần đây đã lan rộng khắp thế giới. Cũng giống như phương pháp giáo dục 'lớp học đảo ngược' mang lại niềm vui và chiều sâu cho việc học tập thông qua nhiều hoạt động khác nhau thay vì các lớp học theo phong cách giảng dạy nhàm chán ban đầu được sử dụng trong lớp học, bảo tàng lộn ngược đảo ngược hình thức giáo dục liên quan đến triển lãm hiện có và thay thế khuôn mẫu về 'nghiên cứu' các tác phẩm nghệ thuật, bao gồm chương trình tương tác VTS (Chiến lược tư duy trực quan), nơi gia đình, trẻ em và thanh thiếu niên có những cuộc trò chuyện 'tự do' mà không có 'câu trả lời đúng' trước các tác phẩm nghệ thuật và nhiều hoạt động trải nghiệm khác nhau (tham quan xưởng nghệ sĩ/giáo dục trải nghiệm nghệ thuật sáng tạo, v.v.). Với phương pháp giảng dạy VTS (chiến lược tư duy trực quan) trước các tác phẩm nghệ thuật - một trải nghiệm nghệ thuật thú vị tại các phòng trưng bày nghệ thuật và studio nghệ sĩ địa phương! 25 tổ chức tư nhân đã đăng ký trên toàn quốc tham gia dự án sử dụng phương pháp giảng dạy VTS (Chiến lược tư duy trực quan) hỏi và trả lời các câu hỏi và câu trả lời mở về các chủ đề hoặc tình huống mà không cung cấp thông tin về tác phẩm trước tác phẩm nghệ thuật. cho phép sinh viên đánh giá cao các tác phẩm nghệ thuật tại các bảo tàng và xưởng vẽ của nghệ sĩ liên kết với bảo tàng trong khu vực.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2015/홈페이지-7.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4874cc53-e8a9-46f7-2aa2-881eeada2300/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -705,7 +705,7 @@ export const educationData_VI = [
                 explanation: "Đây là một 'chương trình trải nghiệm nghệ thuật kiểu chơi' tiếp cận 'vui chơi' thông qua nghệ thuật theo nhiều cách khác nhau. Người tham gia có thể trải nghiệm nhiều thể loại nghệ thuật khác nhau và trải nghiệm các yếu tố thể chất, cảm xúc và kỹ thuật thông qua chúng. Ngoài ra, là một chương trình kết hợp 'các yếu tố hội tụ và phức tạp', nó mang đến cho người tham gia một chương trình thú vị với nhiều thể loại, tác phẩm khác nhau và chất liệu khác nhau, cho phép họ khám phá các loại hình nghệ thuật khác. Tất cả các chương trình đều cung cấp trải nghiệm trực tiếp chứ không phải gián tiếp. Theo phương châm, chúng tôi chia các hoạt động trải nghiệm thành các giai đoạn và cố gắng tiếp cận chuỗi quy trình từ đánh giá tác phẩm đến sản xuất bằng nhiều vật liệu và phương pháp khác nhau, đồng thời lên kế hoạch cho phép khám phá sâu trong khuôn khổ cơ bản nhất của 'nghệ thuật' . . Phương pháp tiến hành chương trình này sẽ có thể kích thích sự quan tâm và tính chủ động của những người tham gia, và thậm chí sau khi kết thúc chương trình trong tương lai, những người tham gia sẽ có thể đề xuất hướng thưởng thức nghệ thuật tự do, và cuối cùng, thông qua điều này , những người tham gia sẽ tiếp tục theo đuổi ước mơ của mình. Chương trình giúp bạn tiến về phía trước",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2015/홈페이지-6.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7999ed4d-f4f0-4039-3dd3-48b9ff263600/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -723,7 +723,7 @@ export const educationData_VI = [
                 explanation: "Bảo tàng Nghệ thuật Schema nhằm mục đích mở rộng cơ hội thưởng thức văn hóa của công chúng bằng cách hỗ trợ các chương trình văn hóa và giáo dục khác nhau của các bảo tàng nghệ thuật tư nhân liên quan đến Ngày Văn hóa, đồng thời cung cấp nhiều điểm tham quan và trải nghiệm cho du khách đến các bảo tàng nghệ thuật tư nhân vào Ngày Văn hóa. Đêm Tỏa Sáng - Trường Đánh giá Nghệ thuật Rock, Rock, Rock và 'Chương trình Đặc biệt Ngày Văn hóa' sẽ được tổ chức.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2015/홈페이지-5.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/30df04bc-1386-42ea-aa0b-f1a38cd1a200/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -741,7 +741,7 @@ export const educationData_VI = [
                 explanation: "Bằng cách đặt ra các nhiệm vụ văn hóa và nghệ thuật cho từng khu vực, đồng thời lập kế hoạch và thực hiện các chính sách giáo dục văn hóa nghệ thuật dựa trên đặc điểm môi trường của khu vực, chúng tôi vận hành các chương trình theo định hướng thực địa có tính đến các đặc điểm và nhu cầu của khu vực, giúp người dân địa phương hiểu về khu vực và xây dựng niềm tự hào. góp phần phát triển khu vực bằng cách truyền cảm hứng cho mọi người. ‘Good Road’ là một ‘dự án nghệ thuật công cộng’ tập trung vào khu vực ‘Naesu’ và nằm trên ‘con đường’ giữa ‘Trường tiểu học Naesu’ và Trung tâm Người cao tuổi Masan 1-gu (Văn hóa Sarangbang).",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2015/홈페이지-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3b7b1a4c-74ee-42e4-606c-589400561c00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -765,7 +765,7 @@ export const educationData_VI = [
                 explanation: "Đã đến lúc thể hiện những gì trong lòng tôi bằng cách làm một ngôi nhà bằng hộp giấy. Một chương trình trong đó bạn dành thời gian để khám phá và xem xét các yếu tố khác nhau của bản thân mình, chẳng hạn như màu sắc bạn thích, ngôi nhà bạn muốn sống trong tương lai, những hy vọng trong tương lai và những đồ vật bạn thích, sau đó phản ánh những điều này để tạo ra một mô hình ngôi nhà trong tâm trí bạn.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2014/홈페이지-23.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7bcaffd2-995b-4d00-c86c-3f76cba16300/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -783,7 +783,7 @@ export const educationData_VI = [
                 explanation: "Đây là chương trình được thiết kế riêng cho các bảo tàng nghệ thuật sử dụng phương pháp giáo dục 'lớp học đảo ngược', bắt đầu được áp dụng trong lĩnh vực giáo dục Mỹ vào năm 2010 và gần đây đã lan rộng khắp thế giới. Cũng giống như phương pháp giáo dục 'lớp học đảo ngược' mang lại niềm vui và chiều sâu cho việc học tập thông qua nhiều hoạt động khác nhau thay vì các lớp học theo phong cách giảng dạy nhàm chán ban đầu được sử dụng trong lớp học, bảo tàng lộn ngược đảo ngược hình thức giáo dục liên quan đến triển lãm hiện có và thay thế khuôn mẫu về 'nghiên cứu' các tác phẩm nghệ thuật, bao gồm chương trình tương tác VTS (Chiến lược tư duy trực quan), nơi gia đình, trẻ em và thanh thiếu niên có những cuộc trò chuyện 'tự do' mà không có 'câu trả lời đúng' trước các tác phẩm nghệ thuật và nhiều hoạt động trải nghiệm khác nhau (tham quan xưởng nghệ sĩ/giáo dục trải nghiệm nghệ thuật sáng tạo, v.v.). Với phương pháp giảng dạy VTS (chiến lược tư duy trực quan) trước các tác phẩm nghệ thuật - một trải nghiệm nghệ thuật thú vị tại các phòng trưng bày nghệ thuật và studio nghệ sĩ địa phương! 25 tổ chức tư nhân đã đăng ký trên toàn quốc tham gia dự án sử dụng phương pháp giảng dạy VTS (Chiến lược tư duy trực quan) hỏi và trả lời các câu hỏi và câu trả lời mở về các chủ đề hoặc tình huống mà không cung cấp thông tin về tác phẩm trước tác phẩm nghệ thuật. cho phép sinh viên đánh giá cao các tác phẩm nghệ thuật tại các bảo tàng và xưởng vẽ của nghệ sĩ liên kết với bảo tàng trong khu vực.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2014/홈페이지-12.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/cdbc34f3-68d6-4fc0-746a-bb54c07f4e00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -801,7 +801,7 @@ export const educationData_VI = [
                 explanation: "Trải nghiệm nghệ thuật giao tiếp với thế hệ bạc tuổi già đang là một vấn đề xã hội gần đây. Sau khi mang đến trải nghiệm nghệ thuật dễ hiểu cho trẻ em và thanh thiếu niên, chúng tôi mong muốn trau dồi hệ tư tưởng con đường còn thiếu rất nhiều trong những năm gần đây và tạo ra sự giao tiếp cảm xúc giữa các thế hệ.'Cùng nhau trải nghiệm nghệ thuật' giúp trẻ em và thanh thiếu niên hình thành sự ổn định về mặt cảm xúc và bản sắc riêng, hơn nữa, không chỉ thấm nhuần kiến ​​thức về nghệ thuật và văn hóa mà còn nuôi dưỡng ý thức công dân tiên tiến thông qua một- các hoạt động nghệ thuật cá nhân và nuôi dưỡng trí tuệ cũng như phẩm giá trong cuộc sống sáng tạo. Một chương trình góp phần giao tiếp giữa các tầng lớp, khu vực và thế hệ bằng cách mang đến hương thơm nghệ thuật.",
                 host: "Chungcheongbuk-do, Cheongju-si",
                 support: "Bộ Văn hóa, Thể thao và Du lịch, Cơ quan Xúc tiến Giáo dục Văn hóa và Nghệ thuật Hàn Quốc",
-                img: "/img/educationpage/2014/홈페이지-8.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/14485c63-41bd-410b-ac79-17f6fd887700/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -825,7 +825,7 @@ export const educationData_VI = [
                 explanation: "Đã đến lúc thể hiện những gì trong lòng tôi bằng cách làm một ngôi nhà bằng hộp giấy. Một chương trình trong đó bạn dành thời gian để khám phá và xem xét các yếu tố khác nhau của bản thân mình, chẳng hạn như màu sắc bạn thích, ngôi nhà bạn muốn sống trong tương lai, những hy vọng trong tương lai và những đồ vật bạn thích, sau đó phản ánh những điều này để tạo ra một mô hình ngôi nhà trong tâm trí bạn.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2013/홈페이지-20.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/307060b2-e7c5-4619-5695-8d96f1090c00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -843,7 +843,7 @@ export const educationData_VI = [
                 explanation: "Chúng tôi điều hành 'Trường Nghệ thuật Trẻ em Shema' dành cho trẻ sơ sinh, trẻ mới biết đi, học sinh tiểu học, trung tâm giữ trẻ và trường tiểu học. Trường Nghệ thuật Trẻ em của Bảo tàng Nghệ thuật Schema là một chương trình giáo dục trải nghiệm kiểu dự án cung cấp cho trẻ em nhiều chương trình khác nhau như ý tưởng độc đáo, chương trình giáo dục phù hợp với tầm mắt của trẻ và các chương trình liên quan đến triển lãm được liên kết với các cuộc triển lãm đang diễn ra, đồng thời mang đến những trải nghiệm dễ dàng và thú vị. giáo dục nghệ thuật hiện đại giúp trẻ sáng tạo.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2013/홈페이지-14.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8143b9fb-0d3d-49ac-8c38-b76a00055800/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -861,7 +861,7 @@ export const educationData_VI = [
                 explanation: "Chúng tôi đang thực hiện một dự án hoạt động trải nghiệm nghệ thuật nhằm `xây dựng mối quan hệ` giữa người già, trẻ em và thanh thiếu niên sống ở Thành phố Cheongju và các vùng lân cận (Cheongwon-gun, Tỉnh Bắc Chungcheong), đồng thời chia sẻ những câu chuyện xưa và nay ( trò chuyện, thảo luận, v.v.) Chúng tôi lên kế hoạch cho một chuyến đi thực tế chung đến khu vực của chúng tôi, tạo sự đồng cảm lẫn nhau thông qua tác phẩm nghệ thuật và triển lãm đặc biệt, đồng thời tổ chức các sự kiện trải nghiệm nghệ thuật như một địa điểm để giao lưu tại địa phương. khu vực và sống cuộc sống sáng tạo thông qua các hoạt động nghệ thuật của một cá nhân. hoạt động văn hóa nghệ thuật.",
                 host: "Bộ Văn hóa, Thể thao và Du lịch, Chungcheongbuk-do, Quỹ Văn hóa Chungbuk",
                 support: "",
-                img: "/img/educationpage/2013/홈페이지-13.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/b4d50d12-e286-47b3-ed80-2c30645c7100/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -885,7 +885,7 @@ export const educationData_VI = [
                 explanation: "Một 'chương trình nghệ thuật trải nghiệm thiên nhiên' giúp nâng cao sự nhạy cảm và biểu cảm của người tham gia thông qua sự tiếp xúc của con người với các loại cây, hoa, cây, gió, ánh sáng mặt trời, v.v. tồn tại trong thiên nhiên tươi đẹp, đồng thời cho phép họ nhìn thấy và cảm nhận cho chính mình.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2012/홈페이지-17.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/26ba1518-6f90-4122-96c7-8c63315e4e00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -909,7 +909,7 @@ export const educationData_VI = [
                 explanation: "Một chương trình tạo ra hình ảnh độc đáo của riêng bạn về thế giới được cảm nhận thông qua việc xem và trải nghiệm thiên nhiên, sau đó nhìn vào các hình ảnh trong tranh và tái tạo hình ảnh thiên nhiên thành một hình ảnh tưởng tượng khác.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2011/홈페이지-18.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4c43feab-8244-4ce8-686a-cb4ae724c200/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],

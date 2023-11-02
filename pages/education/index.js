@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import Navbar from "@/components/navbar/Navbar";
 import Image from "next/image";
-import { educationData } from "@/data/educationData_KOR";
 import { useRouter } from "next/router";
 import { AnimatePresence, motion } from "framer-motion";
 import { educationData_KOR } from "@/data/educationData_KOR";
@@ -25,7 +24,7 @@ const inputData = {
     CH: educationData_CH,
     TH: educationData_TH,
     VI: educationData_VI
-}
+};
 
 export default function Educationpage() {
     const {language} = useContext(LanguageContext)
