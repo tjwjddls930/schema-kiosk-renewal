@@ -18,6 +18,14 @@ const DynamicCoverflowCarousel = dynamic(
     }
   );
 
+const topText = {
+    KOR: "교육프로그램",
+    ENG: "Education Program",
+    CH: "教育计划",
+    TH: "โปรแกรมการศึกษา",
+    VI: "Chương trình giáo dục"
+};
+
 const inputData = {
     KOR: educationData_KOR,
     ENG: educationData_ENG,
@@ -46,10 +54,10 @@ export default function Educationpage() {
                             height: "auto"
                         }}
                     />
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'교육프로그램'}</span>
+                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{topText[language]}</span>
                 </div>
                 <div>
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
                 </div>
               </div>
           

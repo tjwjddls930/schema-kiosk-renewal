@@ -16,9 +16,9 @@ export const educationData_KOR = [
                 explanation: "‘히든 스페이스’ 프로그램은 문화예술교육사와 함께 미술관 소장품을 활용한 현대미술의 ‘기하학적 추상화’ 키워드를 주제로 한 프로그램 입니다. 쉐마미술관의 소장품 중 기하학적 추상화 작가의 작품들을 활용하여, 한국 현대미술의 기하학 추상화의 대표적인 작가인 ‘이승조 작가’와 ‘김재관 작가’의 작품을 통해 현대미술의 기하학 추상화의 세계를 소개하며, 현대미술을 더 깊이 있게 경험하며 작가의 새로운 시각적 표현을 이해해보는 예술적 창작, 표현을 경험해보는 시간을 만들고자 합니다.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2023/23-6.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/023e857f-e829-422c-255a-537ed5e33800/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "/img/educationpage/2023/thumbnail-1.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f1a081a6-cbb2-42eb-b0b1-1d0ae544fb00/public"}
                 ],
             },
             {
@@ -34,9 +34,9 @@ export const educationData_KOR = [
                 explanation: "‘쉐마미술관 아틀리에’ 프로그램은 세 명의 현대미술작가를 통해 세상을 함께 바라보고 감상, 공감의 시간을 통해 새로운 시각적 표현으로 예술적 창작 활동의 시간을 통해 자신만의 고유함과 특별함을 발견하게 되는 자기 찾기 프로그램입니다. 세 명의 현대미술 작가가 참여하는 이번 프로그램은 1. 이자연 조각 작가와 함께하는 ‘조각 실험실’, 2. 김동우 회화 작가와 함께하는 ‘이미지 실험실’, 3. 최민솔 평면 설치 작가와 함께하는 ‘형태 실험실’, 로 조각, 회화 등 다양한 현대미술 영역을 더 깊이 있게 경험해보며 참여 어린이의 감각을 솔직하게 표현해보는 예술 창작시간을 만들어가고자 합니다.",
                 host: "문화체육관광부, 한국문화예술교육진흥원",
                 support: "",
-                img: "/img/educationpage/2023/23-5.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4ae46749-73b4-4afb-24ae-f66621057a00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "/img/educationpage/2023/thumbnail-2.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/11c82070-8468-4040-645c-6ab3c84dd200/public"}
                 ],
             },
             {
@@ -52,7 +52,7 @@ export const educationData_KOR = [
                 explanation: "‘쉐마미술관 아틀리에’ 프로그램은 세 명의 현대미술작가를 통해 세상을 함께 바라보고 감상, 공감의 시간을 통해 새로운 시각적 표현으로 예술적 창작 활동의 시간을 통해 자신만의 고유함과 특별함을 발견하게 되는 자기 찾기 프로그램입니다. 세 명의 현대미술 작가가 참여하는 이번 프로그램은 1. 이자연 조각 작가와 함께하는 ‘조각 실험실’, 2. 김동우 회화 작가와 함께하는 ‘이미지 실험실’, 3. 최민솔 평면 설치 작가와 함께하는 ‘형태 실험실’, 로 조각, 회화 등 다양한 현대미술 영역을 더 깊이 있게 경험해보며 참여 어린이의 감각을 솔직하게 표현해보는 예술 창작시간을 만들어가고자 합니다.",
                 host: "문화체육관광부, 한국문화예술교육진흥원",
                 support: "",
-                img: "/img/educationpage/2023/23-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f6887d75-4e72-4ec1-feed-30b062f69b00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -70,7 +70,7 @@ export const educationData_KOR = [
                 explanation: "‘풍경유람’은 우리 지역의 현대미술 작가인 김라연 작가와 함께 작가의 접근법인 산책을 하며 발견한 소소한 이야기를 기록하고 어떤 상황 속 장소의 분위기를 오브제와 색채를 이용하여 위트있는 현대미술의 ‘풍경 감정’을 표현해보는 프로그램입니다. 참여하는 가족들과 함께 감정을 전달하기 위한 예술의 재료와 신선한 생각으로 ‘일상 풍경’을 산책하며 ‘새로운 시각’으로 접근하여 다양한 재료로 예술적 상상하기를 통해 표현해보는 예술가적 시간을 만들어가고자 합니다.",
                 host: "쉐마미술관",
                 support: "충청북도, 충북문화재단",
-                img: "/img/educationpage/2023/23-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3a28cae3-354a-49f7-7b0a-f5f55eec0500/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -88,7 +88,7 @@ export const educationData_KOR = [
                 explanation: "어린이 및 청소년들에게 인류문화유산과 역사적인 산물을 체감할 수 있는 박물관·미술관 관련 교육을 통해 관람 및 체험기회를 부여하여 궁극적으로 문화 향유에 보다 관심을 갖는 문화 시민으로 성장할 수 있도록 하는 데에 목적이 있습니다.",
                 host: "한국박물관협회",
                 support: "KB국민은행, 교육부, 문화체육관광부",
-                img: "/img/educationpage/2023/23-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f5172ec0-48a2-4592-6b7b-006182923100/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -106,7 +106,7 @@ export const educationData_KOR = [
                 explanation: "상대적으로 문화 향유의 기회가 적은 취약계층 학생들을 중심으로 인류문화유산과 역사적인 산물을 체감할 수 있도록 박물관 · 미술관 전시 관람과 체험 프로그램 참여의 기회를 부여하는데 목적이 있습니다.",
                 host: "한국박물관협회, KB손해보험",
                 support: "KB손해보험",
-                img: "/img/educationpage/2023/23-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7d39f38f-a11f-4234-b48a-ded33b57f700/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -130,11 +130,11 @@ export const educationData_KOR = [
                 explanation: "조각작가인 백솔뫼 작가와 생활 속 물체의 특성과 예술적 요소를 탐색하고 발견하며 함께 작가적 시각으로 다르게 바라보기, 조각과 빛의 특성을 이해하고 입체로 구성된 조각에서 그림자는 일부분임을 느끼며 ‘그림자놀이’를 통한 조각의 구성요소 알아가기, 나의 감정 설계도를 관찰하고 이야기해 보며 감정 설계도를 바탕으로 조각 작품으로 완성하기, 사후 활동은 우리 친구들이 3회차 프로그램이 종료된 후 참여기관으로 돌아가 유아들의 공간에서 ‘조각주머니’ 3회차 프로그램을 회상하며, 수업 마지막에 감상한 ‘사이’ 조각작품을 나누어준 ‘예술가의 주머니’의 재료를 활용해 조각작품을 완성하고 설치해 보며 유아들의 공간에 새로운 조각작품으로 완성해보는 창작 활동",
                 host: "쉐마미술관",
                 support: "충청북도, 충북문화재단 충북문화예술교육지원센터",
-                img: "/img/educationpage/2022/22-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/b5831065-8c7f-447a-db17-7c0ce4296200/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "/img/educationpage/2022/thumbnail-1.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "/img/educationpage/2022/thumbnail-3.png"}, 
-                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "/img/educationpage/2022/thumbnail-6.jpg"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8b198d3e-a287-47ee-d15a-7abc20e39400/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6841e399-547e-49a7-fddb-fda3b162d500/public"}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/c1cbc7a2-9a72-4156-4ff7-33ae5d8da800/public"}
                 ],
             },
             {
@@ -150,7 +150,7 @@ export const educationData_KOR = [
                 explanation: "지속되는 코로나 상황으로 문화향유의 기회가 점점 줄어드는 취약계층을 포함한 학생들이 박물관·미술관을 통해 몸과 마음을 보살피고 성숙한 문화시민으로 성장할 수 있도록 기회 제공.",
                 host: "한국박물관협회, KB손해보험",
                 support: "KB손해보험",
-                img: "/img/educationpage/2022/22-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/1231f8bf-e6af-44b4-8b92-461cdea3dd00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -168,10 +168,10 @@ export const educationData_KOR = [
                 explanation: "‘2022 꽃보다 당신 6’ 총 5번의 문화가 있는 날이 진행되며 1회차, 2회차 두 번의 프로그램의 대상은 초등학생으로 임윤묵, 전병구 작가와 함께 진행됩니다. 임윤묵 작가와 함께하는 1회차 프로그램은 온라인으로 진행됩니다. 3회차 프로그램은 가족 대상으로 김라연 작가와 함께 진행될 예정이며, 중학생 대상으로 최민솔 작가와 함께하는 4회차는 온라인으로 진행됩니다. 마지막으로 서완호 작가와 함께하는 5회차까지 다양한 프로그램으로 구성되었습니다.",
                 host: "문화체육관광부",
                 support: "",
-                img: "/img/educationpage/2022/22-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/732887a6-63a1-47b2-d414-7c9f369ca400/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "/img/educationpage/2022/thumbnail-2.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "/img/educationpage/2022/thumbnail-4.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/14fa3b95-c928-43ae-9843-bd82d6cbdc00/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/beea6d75-bbbe-4ef6-cb11-3b82edbb4000/public"}
                 ],
             },
             {
@@ -187,9 +187,9 @@ export const educationData_KOR = [
                 explanation: "‘뜬구름 잡기’는 신용재 작가의 ‘운유(運遊) : 뜬구름처럼 널리 돌아다니며 놂’ 작품 명제에서 가져온 은유적 표현입니다. 하늘을 보며 캔버스에 물감을 칠할 때의 느낌을 이야기합니다. 신용재 작가와 함께 만들어가는 ‘뜬구름 잡기’는 현대미술의 은유와 상징을 경험해보며 전통적인 생각에서 벗어나 새로운 시각, 예술의 재료, 신선한 생각으로 접근하고 상상하여 표현해보는 시간을 만들고자 합니다. 과정 안에서 참여 가족들의 일상 감정 ‘회복’과 ‘행복 기억 소환’을 통해 직접적 감정을 이끌어내며 현대미술 속 은유적이고 위트 있는 방식으로 감정을 표현해볼 수 있는 프로그램입니다.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2022/22-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/941229ba-7505-435e-acf7-0c0436299300/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "/img/educationpage/2022/thumbnail-5.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/ff324b67-d4e8-4ea1-8bf3-42885dd42400/public"}
                 ],
             },
         ]

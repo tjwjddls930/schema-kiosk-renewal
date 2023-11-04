@@ -1,14 +1,94 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import Soundguide from "@/components/docent/Soundguide";
+import { LanguageContext } from "@/contexts/LanguageContext";
+import { educationData_KOR } from "@/data/educationData_KOR";
+import { educationData_ENG } from "@/data/educationData_ENG";
+import { educationData_CH } from "@/data/educationData_CH";
+import { educationData_TH } from "@/data/educationData_TH";
+import { educationData_VI } from "@/data/educationData_VI";
+import { useRouter } from "next/router";
 
-const EducationContent = ({img, clip, type, title, explanation, participate, time1, participate1, location, host, support}) => {
+const clipText = {
+    KOR: "교육 영상",
+    ENG: "Education Video",
+    CH: "教育视频",
+    TH: "วิดีโอการศึกษา",
+    VI: "video giáo dục"
+};
+
+const dataText = {
+    KOR: () => (
+        <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
+            <span className="h-12">{'교육대상'}</span>
+            <span className="h-12">{'교육시간'}</span>
+            <span className="h-12">{'참여인원'}</span>
+            <span className="h-12">{'교육장소'}</span>
+            <span className="h-12">{'주최'}</span>
+            <span className="h-12">{'후원'}</span>
+        </div>
+    ),
+    ENG: () => (
+        <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
+            <span className="h-12">{'Education Target'}</span>
+            <span className="h-12">{'Time'}</span>
+            <span className="h-12">{'Number of Participants'}</span>
+            <span className="h-12">{'Location'}</span>
+            <span className="h-12">{'Host'}</span>
+            <span className="h-12">{'Support'}</span>
+        </div>
+    ),
+    CH: () => (
+        <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
+            <span className="h-12">{'教育目标'}</span>
+            <span className="h-12">{'训练时间'}</span>
+            <span className="h-12">{'参加人数'}</span>
+            <span className="h-12">{'教育场所'}</span>
+            <span className="h-12">{'主持人'}</span>
+            <span className="h-12">{'支持'}</span>
+        </div>
+    ),
+    TH: () => (
+        <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
+            <span className="h-12">{'เป้าหมายทางการศึกษา'}</span>
+            <span className="h-12">{'เวลาฝึกอบรม'}</span>
+            <span className="h-12">{'จำนวนผู้เข้าร่วม'}</span>
+            <span className="h-12">{'สถานที่ศึกษา'}</span>
+            <span className="h-12">{'เจ้าภาพ'}</span>
+            <span className="h-12">{'สนับสนุน'}</span>
+        </div>
+    ),
+    VI: () => (
+        <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
+            <span className="h-12">{'mục tiêu đào tạo'}</span>
+            <span className="h-12">{'thời gian huấn luyện'}</span>
+            <span className="h-12">{'Số lượng người tham gia'}</span>
+            <span className="h-12">{'Nơi giáo dục'}</span>
+            <span className="h-12">{'chủ nhà'}</span>
+            <span className="h-12">{'ủng hộ'}</span>
+        </div>
+    ),
+}
+
+const inputData = {
+  KOR: educationData_KOR,
+  ENG: educationData_ENG,
+  CH: educationData_CH,
+  TH: educationData_TH,
+  VI: educationData_VI
+};
+const EducationContent = () => {
+    const router = useRouter();
     const [isClient, setIsClient] = useState(false);
+    const pid = router.query.slug; // 'slug'([slug]) is the name of the dynamic parameter
+    const {index} = router.query;
+    const {language} = useContext(LanguageContext);
     const [popup, setPopup] = useState(false);
     const [video, setVideo] = useState(null);
     useEffect(() => {
         // Update the isClient state to true as this code will be executed only on client side
         setIsClient(true);
       }, []);
+
     return(
        <>
         {isClient && (
@@ -35,14 +115,15 @@ const EducationContent = ({img, clip, type, title, explanation, participate, tim
                     <div className="flex h-[48%] w-full z-10 items-center mx-auto">
                         <img 
                             // src="/img/educationpage/education_1.png"
-                            src={img}
+                            src={inputData[language][pid].education[index].img}
                             className="w-full h-full mx-auto shadow-xl"
                             alt="education"
                         />
                     </div>
-                    <span className="font-bold text-Ablack text-base screen-w:text-7xl">{'교육 영상'}</span>
+                    {/* <span className="font-bold text-Ablack text-base screen-w:text-7xl">{'교육 영상'}</span> */}
+                    <span className="font-bold text-Ablack text-base screen-w:text-7xl">{clipText[language]}</span>
                     <div className="flex flex-row space-x-2 screen-w:space-x-6 h-[28%] w-full z-10 items-center mx-auto overflow-auto scroll-smooth">
-                    {clip.map((item, index)=> (
+                    {inputData[language][pid].education[index].youtube.map((item, index)=> (
                         <img 
                             key={index}
                             src={item.thumbnail}
@@ -60,32 +141,33 @@ const EducationContent = ({img, clip, type, title, explanation, participate, tim
                 <div className="h-full w-[60%] flex flex-col space-y-6 screen-w:space-y-12">
                     <div className="w-3/4 flex flex-col space-y-2 screen-w:space-y-8">
                         <div className="bg-Ablue h-[1px] w-[70px] screen-w:w-[200px]" />
-                        <span className="text-sm screen-w:text-6xl font-bold text-Bgrey">{type}</span>
-                        <span className="text-base screen-w:text-7xl font-bold text-Ablack screen-w:leading-normal">{title}</span>
+                        <span className="text-sm screen-w:text-6xl font-bold text-Bgrey">{inputData[language][pid].education[index].type}</span>
+                        <span className="text-base screen-w:text-7xl font-bold text-Ablack screen-w:leading-normal">{inputData[language][pid].education[index].title}</span>
                     </div>
                     <div className="bg-Dgrey bg-opacity-30 flex flex-row justify-center px-6 py-8 space-x-4 screen-w:py-24 screen-w:space-x-8 mx-auto h-[70%] w-full">
                         <div className="w-1/2 h-full mx-auto overflow-auto scroll-smooth">
                             <p className="text-Bgrey text-sm screen-w:text-4xl px-4 screen-w:px-12 leading-normal screen-w:leading-loose font-bold">
-                                {explanation}
+                                {inputData[language][pid].education[index].explanation}
                             </p>
                         </div>
                         <div className="bg-Cgrey w-[1px] h-[90%]" />
                         <div className="w-1/2 flex flex-row space-x-4 px-4">
-                            <div className="w-1/4 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
+                            {/* <div className="w-1/4 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
                                 <span className="h-12">{'교육대상'}</span>
                                 <span className="h-12">{'교육시간'}</span>
                                 <span className="h-12">{'참여인원'}</span>
                                 <span className="h-12">{'교육장소'}</span>
                                 <span className="h-12">{'주최'}</span>
                                 <span className="h-12">{'후원'}</span>
-                            </div>
-                            <div className="w-3/4 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Cgrey font-bold">
-                                <span className="h-12 whitespace-nowrap overflow-auto">{participate}</span>
-                                <span className="h-12 whitespace-nowrap overflow-auto">{time1}</span>
-                                <span className="h-12 whitespace-nowrap overflow-auto">{participate1}</span>
-                                <span className="h-12 whitespace-nowrap overflow-auto">{location}</span>
-                                <span className="h-12 whitespace-nowrap overflow-auto">{host}</span>
-                                <span className="whitespace-nowrap overflow-auto">{support}</span>
+                            </div> */}
+                            {dataText[language]()}
+                            <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Cgrey font-bold">
+                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].participate}</span>
+                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].time1}</span>
+                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].participate1}</span>
+                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].location}</span>
+                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].host}</span>
+                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].support}</span>
                             </div>
                         </div>
                     </div>

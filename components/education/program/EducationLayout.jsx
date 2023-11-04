@@ -1,13 +1,20 @@
 import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import Soundguide from "../../docent/Soundguide";
 import { useRouter } from "next/router";
+import { useContext } from "react";
+import { LanguageContext } from "@/contexts/LanguageContext";
+
+const topText = {
+    KOR: "교육프로그램 > 교육프로그램 상세",
+    ENG: "Education Program > Education Program Detail",
+    CH: "教育计划 > 教育计划详情",
+    TH: "โปรแกรมการศึกษา > รายละเอียดโปรแกรมการศึกษา",
+    VI: "Chương trình giáo dục > Chi tiết chương trình giáo dục"
+};
 
 const EducationLayout = ({children}) => {
     const router = useRouter();
-    // const [popup, setPopup] = useState(false);
-    // let videoUrl = ""
+    const {language} = useContext(LanguageContext);
+ 
     return(
         <div className="h-screen w-screen bg-Awhite">
             <div className="w-full p-10 screen-w:p-20 flex flex-row justify-between">
@@ -23,11 +30,11 @@ const EducationLayout = ({children}) => {
                             height: "auto"
                         }}
                     />
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'교육프로그램'}</span>
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'> 교육프로그램 상세'}</span>
+                    {/* <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'교육프로그램'}</span> */}
+                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{topText[language]}</span>
                 </div>
                 <div>
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
                 </div>
             </div>
             <div className="absolute top-56 left-28">

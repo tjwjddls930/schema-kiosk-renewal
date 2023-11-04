@@ -13,6 +13,54 @@ import { useRouter } from "next/router";
 import { useContext } from "react";
 import { LanguageContext } from "@/contexts/LanguageContext";
 
+const dataText = {
+  KOR: () => (
+      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'기간'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'참여대상'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'장소'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'주최'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'후원'}</span>
+      </div> 
+  ),
+  ENG: () => (
+      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Time Period'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Participation'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Location'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Host'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Support'}</span>
+      </div> 
+  ),
+  CH: () => (
+      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'时期'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'参与目标'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'地点'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'主持人'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'支持'}</span>
+      </div> 
+  ),
+  TH: () => (
+      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ระยะเวลา'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'เป้าหมายการมีส่วนร่วม'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ที่ตั้ง'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'เจ้าภาพ'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'สนับสนุน'}</span>
+      </div> 
+  ),
+  VI: () => (
+      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Giai đoạn'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Mục tiêu tham gia'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'vị trí'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'chủ nhà'}</span>
+          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ủng hộ'}</span>
+      </div> 
+  ),
+};
+
 const inputData = {
   KOR: educationData_KOR,
   ENG: educationData_ENG,
@@ -57,13 +105,7 @@ const Educationcarousel = ({index}) => {
                      </div>
                  </div>
                  <div className="flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3">
-                     <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
-                         <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'기간'}</span>
-                         <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'참여대상'}</span>
-                         <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'장소'}</span>
-                         <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'주최'}</span>
-                         <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'후원'}</span>
-                     </div>
+                     {dataText[language]()}
                      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-2/3">
                          <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].time}</span>
                          <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].participate}</span>

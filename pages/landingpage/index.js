@@ -1,9 +1,10 @@
 import { Canvas } from "@react-three/fiber"
-import Portal from "@/components/landingpage/Portal";
-import { Gltf } from "@react-three/drei";
-import Landingcamera from "@/components/landingpage/Landingcamera";
+import Imageandmodel from "@/components/landingpage/ImageandModel";
+import { Suspense } from "react";
+import Navbar from "@/components/navbar/Navbar";
 
 export default function Landingpage() {
+
     return(
         <div className="h-screen w-screen bg-Ablue">
             <div className="w-1/3 h-1/12 flex mx-auto justify-center py-12">
@@ -13,45 +14,34 @@ export default function Landingpage() {
                     className="h-full w-full"
                 />
             </div>
-            <div className="w-full h-5/6">
-                <Canvas
-                    camera={{ fov:75, position: [0, 0, 5]}}
-                >
-                    <ambientLight intensity={1} />
-                    <color attach="background" args={['#18287f']} />
-                    <Portal 
-                        id="main" name={`main`} author="Schema Art Museum" 
-                        bg="#5c92de" position={[-1.15, 0, 0]} 
-                        // rotation={[0, 0.5, 0]}
+            <div className="w-full h-[79%]">
+                <Suspense fallback={null}>
+                    <Canvas
+                        camera={{ fov:75, position: [0, 0, 10]}}
+                        gl={{antialias: true}}
+                        style={{
+                            height: "80vh",
+                            width: "100vw"
+                        }}
+                        shadows
                     >
-                        <Gltf 
-                            src="/models/schema_model_7.glb"
-                            scale={8}
-                            position={[0, -0.7, -2]}
-                        />
-                    </Portal>
-                    <Portal
-                        id="exhibittest" name={`exhibit`} author="Schema Art Museum"
-                        bg="#5c92de"
-                    >
-                        <Gltf 
-                            src="/models/schema_model_2.glb"
-                            position={[0, -2, -3]} 
-                        />
-                    </Portal>
-                    <Portal id="03" name="Chatbot" author="Schema Art Museum" 
-                    bg="#5c92de" position={[1.15, 0, 0]} 
-                    // rotation={[0, -1, 0]}
-                    >
-                        <Gltf 
-                            src="/models/thinker.glb" 
-                            scale={2} 
-                            position={[-1, -0.8, -4]} 
-                        />
-                    </Portal>
-                    <Landingcamera />
-                </Canvas>
+                        <ambientLight intensity={2} />
+                        <color attach="background" args={['#18287f']} />
+                        {/* wall */}
+                        <mesh position={[0, 0, -1]} rotation={[0, 0, 0]} receiveShadow>
+                            <boxGeometry attach="geometry" args={[100, 100, 2]} />
+                            <meshPhongMaterial color={"#18287F"} attach="material" />
+                        </mesh>
+                        <Suspense fallback={null}>
+                            <Imageandmodel />
+                        </Suspense>
+                    </Canvas>
+                </Suspense>
             </div>
+            <Navbar 
+                url={"/video/docent/schema-docent-04.webm"}
+                sign={"/video/sign/schema_sign_2.mp4"}
+            />
         </div>
     )
 }

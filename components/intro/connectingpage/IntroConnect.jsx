@@ -2,14 +2,13 @@ import Link from "next/link";
 import Navbar from "@/components/navbar/Navbar";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { useContext } from "react";
-
 const topText = {
     KOR: () => (
         <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
             <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
                 {'미술관 소개'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
     ENG: () => (
@@ -17,7 +16,7 @@ const topText = {
             <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
                 {'Museum Introduction'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'A Museum for Everyone - Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
     CH: () => (
@@ -25,7 +24,7 @@ const topText = {
             <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
                 {'博物馆简介'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'适合所有人的博物馆 - Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),   
     TH: () => (
@@ -33,7 +32,7 @@ const topText = {
             <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
                 {'ความรู้เบื้องต้นเกี่ยวกับพิพิธภัณฑ์'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'พิพิธภัณฑ์สำหรับทุกคน - Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
     VI: () => (
@@ -41,7 +40,7 @@ const topText = {
             <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
                 {'Giới thiệu về bảo tàng'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Bảo tàng dành cho mọi người - Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
 }

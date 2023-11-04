@@ -28,19 +28,19 @@ const topText1 = {
 
 const topText2 = {
     KOR: () => (
-        <span className="text-Awhite text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+        <span className="text-Awhite text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
     ),
     ENG: () => (
-        <span className="text-Awhite text-base screen-w:text-4xl font-bold">{'A Museum for Everyone - Smart Space SAM'}</span>
+        <span className="text-Awhite text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
     ),
     CH: () => (
-        <span className="text-Awhite text-base screen-w:text-4xl font-bold">{'适合所有人的博物馆 - Smart Space SAM'}</span>
+        <span className="text-Awhite text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
     ),   
     TH: () => (
-        <span className="text-Awhite text-base screen-w:text-4xl font-bold">{'พิพิธภัณฑ์สำหรับทุกคน - Smart Space SAM'}</span>
+        <span className="text-Awhite text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
     ),
     VI: () => (
-        <span className="text-Awhite text-base screen-w:text-4xl font-bold">{'Bảo tàng dành cho mọi người - Smart Space SAM'}</span>
+        <span className="text-Awhite text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
     ),
 };
 

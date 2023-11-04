@@ -1,10 +1,25 @@
-import Link from "next/link";
-import Image from "next/image";
 import { useRouter } from "next/router";
-import { useState } from "react";
-import Inactivityredirect from "../digitaltwin/Inactivityredirect";
+import { useContext } from "react";
+import { LanguageContext } from "@/contexts/LanguageContext";
+
+const iconText1 = {
+    KOR: "초기화",
+    ENG: "Reset",
+    CH: "重置",
+    TH: "รีเซ็ต",
+    VI: "cài lại",
+};
+
+const iconText2 = {
+    KOR: "작품해설",
+    ENG: "Commentary on the Work",
+    CH: "对作品的评论",
+    TH: "ความเห็นเกี่ยวกับการทำงาน",
+    VI: "Bình luận về tác phẩm",
+};
 
 const Modellayout = ({children}) => {
+    const {language} = useContext(LanguageContext);
     const router = useRouter();
     function handleRefresh() {
         router.reload();
@@ -19,34 +34,24 @@ const Modellayout = ({children}) => {
                         className="h-20 w-20 ml-2 screen-w:h-40 screen-w:w-40 screen-w:ml-4"
                         onClick={handleRefresh}
                     > 
-                        {/* <img
-                            className="h-full w-full"
-                            src="/img/exhibitpage/icons/감상모드_아이콘.png"
-                            alt="감상모드"
-                        /> */}
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                             className="h-full w-full text-Ablack">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
                         </svg>
                     </button>
-                    <span className="text-Ablack text-xl font-bold screen-w:text-3xl">{'초기화'}</span>
+                    <span className="text-Ablack text-xl font-bold screen-w:text-3xl">{iconText1[language]}</span>
                 </div>
             </div>
             {/* 작품해설 */}
             <div className="h-[130px] w-[100px] absolute left-10 bottom-72 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-24">
                 <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
                     <button className="h-20 w-20 ml-2 screen-w:h-40 screen-w:w-40 screen-w:ml-4"> 
-                            {/* <img
-                                className="h-full w-full"
-                                src="/img/exhibitpage/icons/작품해설_아이콘.png"
-                                alt="작품해설"
-                            /> */}
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
-                            className="w-full h-full text-Ablack">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
-                            </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-full h-full text-Ablack">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                        </svg>
                         </button>
-                        <span className="text-Ablack text-xl font-bold screen-w:text-3xl">{'작품해설'}</span>
+                        <span className="text-Ablack text-xl font-bold screen-w:text-3xl">{iconText2[language]}</span>
                 </div>
             </div>
             {/* 뒤로 가기 */}

@@ -15,7 +15,7 @@ const Inactivityredirect = ({timeoutInMinutes}) => {
         inactivityTimer = setTimeout(() => {
           if (!redirectBlocked) {
             setInactive(true);
-            router.push('/'); // Redirect to the root page
+            router.push('/landingpage'); // Redirect to the root page
           }
         }, timeoutInMinutes * 60 * 1000);
       };

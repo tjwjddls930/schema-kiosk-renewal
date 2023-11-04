@@ -94,18 +94,12 @@ const Paintcontent = () => {
                  <span className="text-base screen-w:text-7xl font-bold text-black mb-2 screen-w:mb-4">{data.name}</span>
                  <span className="text-xs screen-w:text-4xl font-bold text-black mb-2 screen-w:mb-4">{data.career}</span>
                  <span className="text-sm screen-w:text-4xl text-Cpurple font-bold">{'주요 개인전'}</span>
-                 {/* {individual.map((item)=> (
-                     <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
-                 ))} */}
                  <div className="overflow-auto w-full h-[10%] screen-w:h-1/2 flex flex-col space-y-1">
                      {data.individual_exhibition.map((item)=> (
                          <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
                      ))}
                  </div>
                  <span className="text-sm screen-w:text-4xl text-Cpurple font-bold mt-4">{'주요 단체전'}</span>
-                 {/* {community.map((item)=> (
-                     <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
-                 ))} */}
                  <div className="overflow-auto w-full h-[10%] screen-w:h-1/2 flex flex-col space-y-1">
                      {data.group_exhibition.map((item)=> (
                          <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
@@ -123,22 +117,20 @@ const Paintcontent = () => {
                  </div>
              </div>
              <button 
-                 // onClick={()=> prevExhibit()}
                  onClick={prevExhibit}
                  className="absolute w-[208px] h-16 screen-w:h-32 screen-w:w-[320px] text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-l-md bottom-28 right-52 screen-w:bottom-72 screen-w:right-80">
                      <img
                          className="h-8 w-8 screen-w:h-12 screen-w:w-12 mx-auto"
-                         src="/img/exhibitpage/icons/왼쪽버튼.png"
+                         src="/img/exhibitpage/icons/left.png"
                          alt="left"
                      />
              </button>
              <button 
-                 // onClick={()=> nextExhibit()}
                  onClick={nextExhibit}
                  className="absolute w-[208px] h-16 text-xl screen-w:h-32 screen-w:w-[320px] font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-r-md bottom-28 right-0 screen-w:bottom-72">
                      <img 
                          className="h-8 w-8 screen-w:h-12 screen-w:w-12 mx-auto"
-                         src="/img/exhibitpage/icons/오른쪽버튼.png"
+                         src="/img/exhibitpage/icons/right.png"
                          alt="right"
                      />
              </button>

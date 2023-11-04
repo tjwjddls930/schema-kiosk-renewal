@@ -16,9 +16,9 @@ export const educationData_ENG = [
                 explanation: "The ‘Hidden Space’ program is a program themed around the keywords of ‘geometric abstraction’ in contemporary art using art museum collections along with cultural arts education history. Using works by geometric abstraction artists from the Schema Museum of Art's collection, the world of geometric abstraction in modern art is introduced through the works of 'Artist Seung-jo Lee' and 'Artist Jae-kwan Kim', representative artists of geometric abstraction in Korean contemporary art. We would like to create a time to experience artistic creation and expression by experiencing in more depth and understanding the artist's new visual expression.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2023/23-6.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/023e857f-e829-422c-255a-537ed5e33800/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "/img/educationpage/2023/thumbnail-1.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f1a081a6-cbb2-42eb-b0b1-1d0ae544fb00/public"}
                 ],
             },
             {
@@ -34,9 +34,9 @@ export const educationData_ENG = [
                 explanation: "The 'Schema Museum Atelier' program is a self-discovery program where you discover your own uniqueness and specialness through artistic creation through new visual expressions through a time of observing, appreciating, and empathizing with the world through three contemporary artists. It's a program. This program, in which three contemporary artists participate, includes 1. 'Sculpture Lab' with sculpture artist Lee Ja-yeon, 2. 'Image Lab' with painting artist Kim Dong-woo, 3. 'Form Lab' with flat installation artist Choi Min-sol, and raw sculpture. We want to create an art creation time where participating children can honestly express their senses while experiencing various areas of modern art, such as painting, in more depth.",
                 host: "Ministry of Culture, Sports and Tourism, Korea Culture and Arts Education Promotion Agency",
                 support: "",
-                img: "/img/educationpage/2023/23-5.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4ae46749-73b4-4afb-24ae-f66621057a00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "/img/educationpage/2023/thumbnail-2.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/11c82070-8468-4040-645c-6ab3c84dd200/public"}
                 ],
             },
             {
@@ -52,7 +52,7 @@ export const educationData_ENG = [
                 explanation: "The 'Schema Museum Atelier' program is a self-discovery program where you discover your own uniqueness and specialness through artistic creation through new visual expressions through a time of observing, appreciating, and empathizing with the world through three contemporary artists. It's a program. This program, in which three contemporary artists participate, includes 1. 'Sculpture Lab' with sculpture artist Lee Ja-yeon, 2. 'Image Lab' with painting artist Kim Dong-woo, 3. 'Form Lab' with flat installation artist Choi Min-sol, and raw sculpture. We want to create an art creation time where participating children can honestly express their senses while experiencing various areas of modern art, such as painting, in more depth.",
                 host: "Ministry of Culture, Sports and Tourism, Korea Culture and Arts Education Promotion Agency",
                 support: "",
-                img: "/img/educationpage/2023/23-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f6887d75-4e72-4ec1-feed-30b062f69b00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -70,7 +70,7 @@ export const educationData_ENG = [
                 explanation: "'Landscape Tour' is a witty contemporary art 'tour' that records small stories discovered while taking a walk, which is the artist's approach, with our local contemporary artist Ra-yeon Kim, and uses objects and colors to capture the atmosphere of a place in a certain situation. This is a program that tries to express ‘landscape emotions’. Together with participating families, we aim to create an artistic time where we take a walk through ‘everyday scenes’ using art materials and fresh thoughts to convey emotions, approach them from a ‘new perspective’, and express them through artistic imagination using various materials.",
                 host: "Schema Art Museum",
                 support: "Chungcheongbuk-do, Chungbuk Cultural Foundation",
-                img: "/img/educationpage/2023/23-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3a28cae3-354a-49f7-7b0a-f5f55eec0500/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -88,7 +88,7 @@ export const educationData_ENG = [
                 explanation: "The purpose is to provide children and teenagers with opportunities to view and experience human cultural heritage and historical products through education related to museums and art galleries, so that they can ultimately grow into cultural citizens who are more interested in cultural enjoyment. there is.",
                 host: "Korean Museum Association",
                 support: "KB Kookmin Bank, The Ministry of Education, Ministry of Culture, Sports and Tourism",
-                img: "/img/educationpage/2023/23-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f5172ec0-48a2-4592-6b7b-006182923100/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -106,7 +106,7 @@ export const educationData_ENG = [
                 explanation: "The purpose is to provide opportunities to view museum and art gallery exhibitions and participate in experience programs so that students from underprivileged classes who have relatively few opportunities to enjoy culture can experience human cultural heritage and historical products.",
                 host: "Korea Museum Association, KB Insurance",
                 support: "KB Insurance",
-                img: "/img/educationpage/2023/23-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7d39f38f-a11f-4234-b48a-ded33b57f700/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],

@@ -49,14 +49,14 @@ function Slider() {
     `${url}104x40.2.png`, `${url}control-deviation-80.3x100.png`, `${url}control-deviation-80.3x116.8.png`, `${url}control-deviation95-72.9x155.9.png`, `${url}control-deviation95-80.3x100.png`,
     `${url}cube-secret-117x117.png`, `${url}deviation-grid-72x100.png`, `${url}deviation-grid-79x51.png`, `${url}distorted-cube-92.5x61.5.png`, `${url}myth-of-cube-07-145.5x112.png`,
     `${url}myth-of-cube-502-122.0x63.8.png`, `${url}nature-secret-117x117.png`, `${url}relation-01-52.2x71.4.png`, `${url}relation-03-72.7x60.6.png`, `${url}relation-33-100.0x80.3.png`, `${url}relation-72.7x60.6.png`,
-    `${url}relation-81-100.0x80.3.png`, `${url}relation-605-97.0x133.3.png`, `${url}두개의상황-60.6x80.3.png`, `${url}displace.jpg`
+    `${url}relation-81-100.0x80.3.png`, `${url}relation-605-97.0x133.3.png`, `${url}두개의상황-60.6x80.3.png`, `${url}displace-1.jpg`
     ])
     const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9,  image10, image11, image12, image13, image14, image15, image16, image17, image18, image19];
     const geometry = [[1.608, 4.16], [4, 3.212], [4.672, 3.212], [3.118, 1.458], [4, 3.212], [4.68, 4.68], [4, 2.88], [2.04, 3.06], [2.46, 3.7], [4.48, 5.82], 
     [2.552, 4.88], [4.68, 4.68], [2.856, 2.088], [2.424, 2.908], [3.212, 4], [2.424, 2.908], [3.212, 4], [5.332, 3.88], [3.212, 2.424]]
     const position=[[0, 2, 0], [0, 2, 0], [0, 2, 0], [0, 1.5, 4], [0, 2, 0], [0, 2, 0], [0, 2, 0], [0, 2, 1.5], [0, 2, 1], [0, 3, -3], 
     [0, 2, 0], [0, 2, 0], [0, 2, 1.5], [0, 2, 2], [0, 2, 0], [0, 2, 1], [0, 2, 0], [0, 2, 0], [0, 2, 1]]
-    const delay = 2000;
+    const delay = 4000;
     const [change, setChange] = useState(false);
     const [index, setIndex] = useState(0);
     

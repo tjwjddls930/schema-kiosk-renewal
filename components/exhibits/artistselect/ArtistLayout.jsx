@@ -31,7 +31,7 @@ const Artistlayout = ({children}) => {
                     <span className="text-Agrey text-base screen-w:text-4xl font-bold mt-2">{' > 작가 선택'}</span>
                 </div>
                 <div>
-                    <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+                    <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
                 </div>
             </div>
             <div className="flex flex-row w-full h-5/6 mx-auto space-x-4 screen-w:space-x-8">

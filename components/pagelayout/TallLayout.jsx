@@ -4,11 +4,12 @@
 
 const TallLayout = ({ children }) => {
   return (
-    <div className="font-thin font-sans min-h-screen min-w-full bg-gray-100 flex items-center justify-center">
-      <div className="w-[calc(9/16*100vh)] h-screen bg-white border shadow-lg flex flex-col justify-between">
+    <div className="font-thin font-sans min-h-screen min-w-full flex items-center justify-center">
+      <div className="w-[calc(9/16*100vh)] h-screen">
         {/* <TopNavbar /> */}
-        <main className="flex-grow">{children}</main>
+        {/* <main className="flex-grow">{children}</main> */}
         {/* <BottomNavbar /> */}
+        {children}
       </div>
     </div>
   );

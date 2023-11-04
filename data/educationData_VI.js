@@ -16,9 +16,9 @@ export const educationData_VI = [
                 explanation: "Chương trình ‘Không gian ẩn giấu’ là chương trình xoay quanh từ khóa ‘trừu tượng hình học’ trong nghệ thuật đương đại sử dụng các bộ sưu tập bảo tàng nghệ thuật cùng với lịch sử giáo dục văn hóa nghệ thuật. Sử dụng các tác phẩm của các nghệ sĩ trừu tượng hình học từ bộ sưu tập của Bảo tàng Nghệ thuật Schema, thế giới trừu tượng hình học trong nghệ thuật hiện đại được giới thiệu qua tác phẩm của 'Nghệ sĩ Seung-jo Lee' và 'Nghệ sĩ Jae-kwan Kim', những nghệ sĩ tiêu biểu của trừu tượng hình học ở Nghệ thuật đương đại Hàn Quốc. Chúng tôi mong muốn tạo ra một khoảng thời gian để trải nghiệm sự sáng tạo và thể hiện nghệ thuật bằng cách trải nghiệm sâu hơn và hiểu rõ cách thể hiện hình ảnh mới của nghệ sĩ.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2023/23-6.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/023e857f-e829-422c-255a-537ed5e33800/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "/img/educationpage/2023/thumbnail-1.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f1a081a6-cbb2-42eb-b0b1-1d0ae544fb00/public"}
                 ],
             },
             {
@@ -34,9 +34,9 @@ export const educationData_VI = [
                 explanation: "Chương trình 'Schemar Museum Atelier' cho phép bạn khám phá sự độc đáo và đặc biệt của riêng mình thông qua sáng tạo nghệ thuật thông qua các cách thể hiện hình ảnh mới qua thời gian xem, đánh giá cao và đồng cảm với thế giới thông qua ba nghệ sĩ đương đại. Đó là sự tự khám phá Chương trình này có sự tham gia của ba nghệ sĩ đương đại là 1. 'Phòng thí nghiệm điêu khắc' với nghệ sĩ điêu khắc Lee Ja-yeon, 2. 'Phòng thí nghiệm hình ảnh' với họa sĩ hội họa Kim Dong-woo và 3. 'Choi Min-sol' với nghệ sĩ sắp đặt phẳng Choi Min-sol. “Chúng tôi muốn tạo ra một thời gian sáng tạo nghệ thuật trong đó trẻ em tham gia có thể thể hiện một cách trung thực các giác quan của mình bằng cách trải nghiệm các lĩnh vực nghệ thuật đương đại khác nhau như điêu khắc và hội họa một cách sâu sắc hơn thông qua 'Shape Lab'.",
                 host: "Bộ Văn hóa, Thể thao và Du lịch, Cơ quan Xúc tiến Giáo dục Văn hóa và Nghệ thuật Hàn Quốc",
                 support: "",
-                img: "/img/educationpage/2023/23-5.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4ae46749-73b4-4afb-24ae-f66621057a00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "/img/educationpage/2023/thumbnail-2.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/11c82070-8468-4040-645c-6ab3c84dd200/public"}
                 ],
             },
             {
@@ -52,7 +52,7 @@ export const educationData_VI = [
                 explanation: "Chương trình 'Schemar Museum Atelier' cho phép bạn khám phá sự độc đáo và đặc biệt của riêng mình thông qua sáng tạo nghệ thuật thông qua các cách thể hiện hình ảnh mới qua thời gian xem, đánh giá cao và đồng cảm với thế giới thông qua ba nghệ sĩ đương đại. Đó là sự tự khám phá Chương trình này có sự tham gia của ba nghệ sĩ đương đại là 1. 'Phòng thí nghiệm điêu khắc' với nghệ sĩ điêu khắc Lee Ja-yeon, 2. 'Phòng thí nghiệm hình ảnh' với họa sĩ hội họa Kim Dong-woo và 3. 'Choi Min-sol' với nghệ sĩ sắp đặt phẳng Choi Min-sol. “Chúng tôi muốn tạo ra một thời gian sáng tạo nghệ thuật trong đó trẻ em tham gia có thể thể hiện một cách trung thực các giác quan của mình bằng cách trải nghiệm các lĩnh vực nghệ thuật đương đại khác nhau như điêu khắc và hội họa một cách sâu sắc hơn thông qua 'Shape Lab'.",
                 host: "Bộ Văn hóa, Thể thao và Du lịch, Cơ quan Xúc tiến Giáo dục Văn hóa và Nghệ thuật Hàn Quốc",
                 support: "",
-                img: "/img/educationpage/2023/23-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f6887d75-4e72-4ec1-feed-30b062f69b00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -70,7 +70,7 @@ export const educationData_VI = [
                 explanation: "'Landscape Tour' ghi lại những câu chuyện nhỏ được phát hiện khi đi dạo, đó là cách tiếp cận của nghệ sĩ, với Kim Ra-yeon, một nghệ sĩ đương đại trong khu vực của chúng tôi, đồng thời sử dụng các đồ vật và màu sắc để thể hiện bầu không khí của một địa điểm ở một địa điểm nhất định tình huống theo cách hiện đại hóm hỉnh. Đây là chương trình thể hiện 'cảm xúc phong cảnh' thông qua nghệ thuật. Cùng các gia đình tham gia dạo qua 'phong cảnh đời thường' với chất liệu nghệ thuật và ý tưởng mới mẻ để truyền tải cảm xúc, tiếp cận chúng bằng 'góc nhìn mới' ', và tưởng tượng một cách nghệ thuật bằng nhiều chất liệu khác nhau. “Chúng tôi muốn tạo ra một khoảng thời gian nghệ thuật để thể hiện bản thân thông qua.",
                 host: "Bảo tàng lược đồ",
                 support: "Chungcheongbuk-do, Quỹ văn hóa Chungbuk",
-                img: "/img/educationpage/2023/23-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3a28cae3-354a-49f7-7b0a-f5f55eec0500/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -88,7 +88,7 @@ export const educationData_VI = [
                 explanation: "Để mang đến cho trẻ em và thanh thiếu niên cơ hội xem và trải nghiệm các bảo tàng và phòng trưng bày nghệ thuật thông qua giáo dục cho phép các em trải nghiệm di sản văn hóa và các sản phẩm lịch sử của nhân loại, để cuối cùng các em có thể phát triển thành những công dân văn hóa quan tâm hơn đến việc thưởng thức văn hóa. Có một điều mục đích.",
                 host: "Hiệp hội Bảo tàng Hàn Quốc",
                 support: "Ngân hàng KB Kookmin, Bộ Giáo dục, Bộ Văn hóa, Thể thao và Du lịch",
-                img: "/img/educationpage/2023/23-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f5172ec0-48a2-4592-6b7b-006182923100/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -106,7 +106,7 @@ export const educationData_VI = [
                 explanation: "Mục đích là tạo cơ hội xem triển lãm bảo tàng, phòng trưng bày nghệ thuật và tham gia các chương trình trải nghiệm để học sinh thuộc các tầng lớp có hoàn cảnh khó khăn, những người có tương đối ít cơ hội thưởng thức văn hóa có thể trải nghiệm di sản văn hóa nhân loại và các sản phẩm lịch sử.",
                 host: "Hiệp hội Bảo tàng Hàn Quốc, Bảo hiểm KB",
                 support: "Bảo hiểm KB",
-                img: "/img/educationpage/2023/23-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7d39f38f-a11f-4234-b48a-ded33b57f700/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -130,11 +130,11 @@ export const educationData_VI = [
                 explanation: "Khám phá và khám phá những đặc điểm và yếu tố nghệ thuật của các đồ vật trong cuộc sống hàng ngày với nhà điêu khắc Solmoe Baek, nhìn chúng khác với góc nhìn của một nghệ sĩ, hiểu đặc điểm của điêu khắc và ánh sáng, đồng thời cảm nhận rằng bóng tối là một phần của tác phẩm điêu khắc ba chiều Tìm hiểu về các thành phần của tác phẩm điêu khắc thông qua 'vở kịch bóng tối', quan sát và nói về bản thiết kế cảm xúc của tôi và hoàn thành một tác phẩm điêu khắc dựa trên bản thiết kế cảm xúc. Về phần hoạt động sau, sau khi chương trình thứ ba kết thúc, các bạn của chúng tôi quay trở lại Hồi tưởng về chương trình 'Sculpture Pocket' lần thứ 3 trong không gian dành cho trẻ em, chúng tôi đã hoàn thành và lắp đặt một tác phẩm điêu khắc bằng vật liệu từ 'Artist's Pocket', nơi phân phối tác phẩm điêu khắc 'Sai' được đánh giá cao ở phần cuối của lớp và tạo ra một tác phẩm điêu khắc mới trong không gian dành cho trẻ em.“Hoạt động sáng tạo hoàn thiện tác phẩm thành một tác phẩm nghệ thuật",
                 host: "Bảo tàng lược đồ",
                 support: "Chungcheongbuk-do, Quỹ văn hóa Chungbuk Trung tâm hỗ trợ giáo dục nghệ thuật và văn hóa Chungbuk",
-                img: "/img/educationpage/2022/22-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/b5831065-8c7f-447a-db17-7c0ce4296200/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "/img/educationpage/2022/thumbnail-1.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "/img/educationpage/2022/thumbnail-3.png"}, 
-                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "/img/educationpage/2022/thumbnail-6.jpg"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8b198d3e-a287-47ee-d15a-7abc20e39400/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6841e399-547e-49a7-fddb-fda3b162d500/public"}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/c1cbc7a2-9a72-4156-4ff7-33ae5d8da800/public"}
                 ],
             },
             {
@@ -150,7 +150,7 @@ export const educationData_VI = [
                 explanation: "Mang lại cơ hội cho sinh viên, bao gồm cả các nhóm dễ bị tổn thương, những người có cơ hội thưởng thức văn hóa đang giảm dần do tình trạng vi-rút Corona đang diễn ra, chăm sóc cơ thể và tinh thần của họ thông qua các bảo tàng và phòng trưng bày nghệ thuật và phát triển thành những công dân văn hóa trưởng thành.",
                 host: "Hiệp hội Bảo tàng Hàn Quốc, Bảo hiểm KB",
                 support: "Bảo hiểm KB",
-                img: "/img/educationpage/2022/22-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/1231f8bf-e6af-44b4-8b92-461cdea3dd00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -168,10 +168,10 @@ export const educationData_VI = [
                 explanation: "'2022 You Over Flowers 6' sẽ có tổng cộng 5 ngày văn hóa và đối tượng mục tiêu của chương trình thứ 1 và thứ 2 sẽ là học sinh tiểu học và sẽ được tổ chức cùng với các nhà văn Lim Yun-muk và Jeon Byeong-gu. Chương trình đầu tiên với nhà văn Lim Yun-muk sẽ được tổ chức trực tuyến, chương trình thứ 3 sẽ được thực hiện trực tuyến cho các gia đình với tác giả Kim Ra-yeon, và chương trình thứ 4 sẽ được thực hiện trực tuyến cho học sinh cấp hai với tác giả Choi Min-sol. . Cuối cùng, chương trình sẽ bao gồm nhiều chương trình đa dạng cho đến buổi thứ 5 với sự tham gia của tác giả Seo Wan-ho. ",
                 host: "Bộ Văn hóa, Thể thao và Du lịch",
                 support: "",
-                img: "/img/educationpage/2022/22-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/732887a6-63a1-47b2-d414-7c9f369ca400/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "/img/educationpage/2022/thumbnail-2.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "/img/educationpage/2022/thumbnail-4.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/14fa3b95-c928-43ae-9843-bd82d6cbdc00/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/beea6d75-bbbe-4ef6-cb11-3b82edbb4000/public"}
                 ],
             },
             {
@@ -187,9 +187,9 @@ export const educationData_VI = [
                 explanation: "‘Bắt mây trôi’ là cách diễn đạt ẩn dụ được lấy từ tựa tác phẩm ‘Unyu (運遊): Lượn lờ như mây trôi’ của họa sĩ Shin Yong-jae. Nói về cảm giác của bạn khi nhìn lên bầu trời và vẽ trên canvas. 'Bắt mây trôi', được sáng tạo cùng với nghệ sĩ Shin Yong-jae, nhằm mục đích tạo ra thời gian để trải nghiệm những ẩn dụ và biểu tượng của nghệ thuật hiện đại, đồng thời tiếp cận, tưởng tượng và thể hiện chúng bằng những quan điểm, chất liệu nghệ thuật và suy nghĩ mới mẻ, thoát khỏi những tư tưởng truyền thống. Đây là chương trình trực tiếp khơi gợi cảm xúc thông qua việc “phục hồi” cảm xúc thường ngày của các gia đình tham gia và “gợi lại những kỷ niệm vui vẻ”, đồng thời cho phép họ thể hiện cảm xúc của mình một cách ẩn dụ và dí dỏm trong nghệ thuật hiện đại.",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2022/22-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/941229ba-7505-435e-acf7-0c0436299300/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "/img/educationpage/2022/thumbnail-5.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/ff324b67-d4e8-4ea1-8bf3-42885dd42400/public"}
                 ],
             },
         ]

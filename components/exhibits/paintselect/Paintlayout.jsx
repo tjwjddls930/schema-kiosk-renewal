@@ -28,7 +28,7 @@ const Paintlayout = ({children}) => {
                     <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{' > 작품 선택'}</span>
                 </div>
                 <div>
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
                 </div>
             </div>
             {children}

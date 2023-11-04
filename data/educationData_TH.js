@@ -16,9 +16,9 @@ export const educationData_TH = [
                 explanation: "โปรแกรม 'Hidden Space' เป็นโปรแกรมที่มีธีมตามคำหลักของ 'geometric abstraction' ในงานศิลปะร่วมสมัยโดยใช้คอลเลกชันพิพิธภัณฑ์ศิลปะพร้อมกับประวัติศาสตร์การศึกษาศิลปะวัฒนธรรม การใช้ผลงานของศิลปินนามธรรมทางเรขาคณิตจากคอลเลกชันของพิพิธภัณฑ์ศิลปะ Schema ทำให้โลกแห่งนามธรรมทางเรขาคณิตในศิลปะสมัยใหม่ได้รับการแนะนำผ่านผลงานของ 'ศิลปิน Seung-jo Lee' และ 'ศิลปิน Jae-kwan Kim' ซึ่งเป็นศิลปินตัวแทนของนามธรรมทางเรขาคณิตใน ศิลปะร่วมสมัยของเกาหลี เราอยากสร้างเวลาในการสัมผัสประสบการณ์การสร้างสรรค์และการแสดงออกทางศิลปะโดยการสัมผัสอย่างลึกซึ้งและเข้าใจการแสดงออกทางภาพใหม่ของศิลปิน",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2023/23-6.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/023e857f-e829-422c-255a-537ed5e33800/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "/img/educationpage/2023/thumbnail-1.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f1a081a6-cbb2-42eb-b0b1-1d0ae544fb00/public"}
                 ],
             },
             {
@@ -34,9 +34,9 @@ export const educationData_TH = [
                 explanation: "โปรแกรม 'Schema Museum Atelier' เป็นโปรแกรมการค้นพบตัวเองที่คุณค้นพบเอกลักษณ์และความพิเศษของตัวเองผ่านการสร้างสรรค์งานศิลปะผ่านการแสดงออกทางภาพใหม่ ๆ ผ่านการสังเกต ชื่นชม และเห็นอกเห็นใจกับโลกผ่านศิลปินร่วมสมัย 3 คน มันเป็นโปรแกรม โปรแกรมนี้ซึ่งมีศิลปินร่วมสมัยสามคนเข้าร่วม ได้แก่ 1. 'Sculpture Lab' กับศิลปินประติมากรรม Lee Ja-Yeon, 2. 'Image Lab' กับศิลปินจิตรกรรม Kim Dong-woo, 3. 'Form Lab' กับศิลปินจัดวางแบบเรียบๆ Choi มินโซล และประติมากรรมดิบ เราต้องการสร้างช่วงเวลาแห่งการสร้างสรรค์งานศิลปะที่เด็กๆ ที่เข้าร่วมสามารถแสดงความรู้สึกของตนออกมาได้อย่างตรงไปตรงมาในขณะที่สัมผัสประสบการณ์ศิลปะสมัยใหม่ในด้านต่างๆ เช่น การวาดภาพ ในเชิงลึกมากขึ้น",
                 host: "กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว สำนักงานส่งเสริมการศึกษาศิลปะและวัฒนธรรมเกาหลี",
                 support: "",
-                img: "/img/educationpage/2023/23-5.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4ae46749-73b4-4afb-24ae-f66621057a00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "/img/educationpage/2023/thumbnail-2.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/11c82070-8468-4040-645c-6ab3c84dd200/public"}
                 ],
             },
             {
@@ -52,7 +52,7 @@ export const educationData_TH = [
                 explanation: "โปรแกรม 'Schema Museum Atelier' เป็นโปรแกรมการค้นพบตัวเองที่คุณค้นพบเอกลักษณ์และความพิเศษของตัวเองผ่านการสร้างสรรค์งานศิลปะผ่านการแสดงออกทางภาพใหม่ ๆ ผ่านการสังเกต ชื่นชม และเห็นอกเห็นใจกับโลกผ่านศิลปินร่วมสมัย 3 คน มันเป็นโปรแกรม โปรแกรมนี้ซึ่งมีศิลปินร่วมสมัยสามคนเข้าร่วม ได้แก่ 1. 'Sculpture Lab' กับศิลปินประติมากรรม Lee Ja-Yeon, 2. 'Image Lab' กับศิลปินจิตรกรรม Kim Dong-woo, 3. 'Form Lab' กับศิลปินจัดวางแบบเรียบๆ Choi มินโซล และประติมากรรมดิบ เราต้องการสร้างช่วงเวลาแห่งการสร้างสรรค์งานศิลปะที่เด็กๆ ที่เข้าร่วมสามารถแสดงความรู้สึกของตนออกมาได้อย่างตรงไปตรงมาในขณะที่สัมผัสประสบการณ์ศิลปะสมัยใหม่ในด้านต่างๆ เช่น การวาดภาพ ในเชิงลึกมากขึ้น",
                 host: "กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว สำนักงานส่งเสริมการศึกษาศิลปะและวัฒนธรรมเกาหลี",
                 support: "",
-                img: "/img/educationpage/2023/23-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f6887d75-4e72-4ec1-feed-30b062f69b00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -70,7 +70,7 @@ export const educationData_TH = [
                 explanation: "'Landscape Tour' เป็น 'ทัวร์' ศิลปะร่วมสมัยที่มีไหวพริบซึ่งบันทึกเรื่องราวเล็กๆ ที่ค้นพบขณะเดินเล่น ซึ่งเป็นแนวทางของศิลปิน ร่วมกับ Kim Ra-Yeon ศิลปินร่วมสมัยในท้องถิ่นของเรา และใช้วัตถุและสีเพื่อจับภาพบรรยากาศของสถานที่ ในสถานการณ์นั้นๆ เป็นรายการที่พยายามแสดง 'อารมณ์ทิวทัศน์' เรามุ่งมั่นที่จะสร้างช่วงเวลาแห่งศิลปะโดยร่วมมือกับครอบครัวที่เข้าร่วม โดยเราได้เดินผ่าน 'ฉากในชีวิตประจำวัน' โดยใช้วัสดุศิลปะและความคิดใหม่ๆ เพื่อถ่ายทอดอารมณ์ เข้าถึงพวกเขาจาก 'มุมมองใหม่' และแสดงออกผ่านจินตนาการทางศิลปะโดยใช้วัสดุต่างๆ .",
                 host: "พิพิธภัณฑ์สคีมา",
                 support: "ชุงชองบุกโด มูลนิธิวัฒนธรรมชุงบุก",
-                img: "/img/educationpage/2023/23-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3a28cae3-354a-49f7-7b0a-f5f55eec0500/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -88,7 +88,7 @@ export const educationData_TH = [
                 explanation: "เพื่อให้เด็กและวัยรุ่นมีโอกาสชมและสัมผัสกับพิพิธภัณฑ์และหอศิลป์ผ่านการศึกษาที่ช่วยให้พวกเขาได้สัมผัสกับมรดกทางวัฒนธรรมของมนุษย์และผลิตภัณฑ์ทางประวัติศาสตร์ เพื่อที่พวกเขาจะได้เติบโตเป็นพลเมืองทางวัฒนธรรมที่สนใจในความเพลิดเพลินทางวัฒนธรรมมากขึ้นในที่สุด มี วัตถุประสงค์.",
                 host: "สมาคมพิพิธภัณฑ์เกาหลี",
                 support: "ธนาคาร KB Kookmin กระทรวงศึกษาธิการ กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว",
-                img: "/img/educationpage/2023/23-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f5172ec0-48a2-4592-6b7b-006182923100/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -106,7 +106,7 @@ export const educationData_TH = [
                 explanation: "จุดประสงค์คือเพื่อให้โอกาสในการชมนิทรรศการพิพิธภัณฑ์และหอศิลป์ และมีส่วนร่วมในโปรแกรมประสบการณ์ เพื่อให้นักเรียนจากชั้นเรียนด้อยโอกาสที่มีโอกาสเพลิดเพลินกับวัฒนธรรมค่อนข้างน้อยสามารถสัมผัสมรดกทางวัฒนธรรมของมนุษย์และผลิตภัณฑ์ทางประวัติศาสตร์",
                 host: "สมาคมพิพิธภัณฑ์เกาหลี, KB Insurance",
                 support: "เคบีประกันภัย",
-                img: "/img/educationpage/2023/23-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7d39f38f-a11f-4234-b48a-ded33b57f700/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -130,11 +130,11 @@ export const educationData_TH = [
                 explanation: "การสำรวจและค้นพบลักษณะและองค์ประกอบทางศิลปะของวัตถุในชีวิตประจำวันกับประติมากร Solmoe Baek มองสิ่งเหล่านั้นแตกต่างจากมุมมองของศิลปิน เข้าใจลักษณะของประติมากรรมและแสง และความรู้สึกว่าเงาเป็นส่วนหนึ่งของประติมากรรมสามมิติ ” เรียนรู้ส่วนประกอบของประติมากรรมผ่าน 'การเล่นเงา' การสังเกตและพูดคุยเกี่ยวกับพิมพ์เขียวทางอารมณ์ของฉัน และการทำประติมากรรมตามพิมพ์เขียวทางอารมณ์ ส่วนหลังกิจกรรม หลังจากโปรแกรมที่ 3 จบ เพื่อนของเราก็กลับมา สถาบันที่เข้าร่วมโครงการและสอนเด็กๆ รำลึกถึงโครงการ 'Sculpture Pocket' ครั้งที่ 3 ในพื้นที่สำหรับเด็ก เราจึงสร้างและติดตั้งประติมากรรมโดยใช้วัสดุจาก 'Artist's Pocket' ซึ่งแจกประติมากรรม 'Sai' ที่เราชื่นชมในตอนท้าย และสร้างประติมากรรมชิ้นใหม่ในพื้นที่ของเด็กๆ “กิจกรรมสร้างสรรค์ที่เติมเต็มผลงานให้เป็นงานศิลปะ",
                 host: "พิพิธภัณฑ์สคีมา",
                 support: "ชุงชองบุกโด, มูลนิธิวัฒนธรรมชุงบุค ศูนย์สนับสนุนการศึกษาวัฒนธรรมและศิลปะชุงบุก",
-                img: "/img/educationpage/2022/22-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/b5831065-8c7f-447a-db17-7c0ce4296200/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "/img/educationpage/2022/thumbnail-1.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "/img/educationpage/2022/thumbnail-3.png"}, 
-                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "/img/educationpage/2022/thumbnail-6.jpg"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8b198d3e-a287-47ee-d15a-7abc20e39400/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6841e399-547e-49a7-fddb-fda3b162d500/public"}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/c1cbc7a2-9a72-4156-4ff7-33ae5d8da800/public"}
                 ],
             },
             {
@@ -150,7 +150,7 @@ export const educationData_TH = [
                 explanation: "การให้โอกาสแก่นักเรียน รวมถึงกลุ่มเปราะบางซึ่งโอกาสในการเพลิดเพลินกับวัฒนธรรมลดลงเนื่องจากสถานการณ์โคโรนาไวรัสที่กำลังดำเนินอยู่ การดูแลร่างกายและจิตใจของพวกเขาผ่านพิพิธภัณฑ์และหอศิลป์ และเพื่อเติบโตเป็นพลเมืองที่มีวัฒนธรรมที่เป็นผู้ใหญ่",
                 host: "สมาคมพิพิธภัณฑ์เกาหลี, KB Insurance",
                 support: "เคบีประกันภัย",
-                img: "/img/educationpage/2022/22-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/1231f8bf-e6af-44b4-8b92-461cdea3dd00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -168,10 +168,10 @@ export const educationData_TH = [
                 explanation: "'2022 You Over Flowers 6' จะมีทั้งหมด 5 วันทางวัฒนธรรม และกลุ่มเป้าหมายสำหรับโปรแกรมที่ 1 และ 2 จะเป็นนักเรียนชั้นประถมศึกษา และจะดำเนินการร่วมกับนักเขียน Lim Yun-muk และ Jeon Byeong-gu โปรแกรมที่ 1 กับนักเขียน Lim Yun-muk จะจัดขึ้นทางออนไลน์ โปรแกรมที่ 3 จะดำเนินการสำหรับครอบครัวที่มีนักเขียน Kim Ra-Yeon และโปรแกรมที่ 4 จะดำเนินการทางออนไลน์สำหรับนักเรียนมัธยมต้นกับนักเขียน Choi Min-sol สุดท้ายนี้ รายการจะประกอบด้วยรายการที่หลากหลายจนถึงช่วงที่ 5 กับผู้เขียน ซอ วานโฮ",
                 host: "กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว",
                 support: "",
-                img: "/img/educationpage/2022/22-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/732887a6-63a1-47b2-d414-7c9f369ca400/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "/img/educationpage/2022/thumbnail-2.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "/img/educationpage/2022/thumbnail-4.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/14fa3b95-c928-43ae-9843-bd82d6cbdc00/public"}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/beea6d75-bbbe-4ef6-cb11-3b82edbb4000/public"}
                 ],
             },
             {
@@ -187,9 +187,9 @@ export const educationData_TH = [
                 explanation: "'การจับเมฆที่ลอยอยู่' เป็นสำนวนเชิงเปรียบเทียบที่นำมาจากชื่อผลงาน 'Unyu (運遊): ลอยไปรอบ ๆ เหมือนเมฆลอย' โดยศิลปิน Shin Yong-jae พูดคุยเกี่ยวกับความรู้สึกที่คุณได้รับเมื่อมองท้องฟ้าและวาดภาพบนผืนผ้าใบ 'Catching a Floating Cloud' ซึ่งสร้างสรรค์ขึ้นร่วมกับศิลปิน Shin Yong-jae มีจุดมุ่งหมายเพื่อสร้างเวลาในการสัมผัสกับอุปมาอุปไมยและสัญลักษณ์ของศิลปะสมัยใหม่ และเข้าถึง จินตนาการ และแสดงออกด้วยมุมมองใหม่ วัสดุทางศิลปะ และความคิดที่สดใหม่ หลุดพ้นจากแนวคิดเดิมๆ นี่คือโปรแกรมที่กระตุ้นอารมณ์โดยตรงผ่านการ 'ฟื้นฟู' อารมณ์ในแต่ละวันของครอบครัวที่เข้าร่วมและ 'การระลึกถึงความทรงจำที่มีความสุข' และช่วยให้พวกเขาแสดงอารมณ์ของตนเองในรูปแบบเชิงเปรียบเทียบและมีไหวพริบในงานศิลปะสมัยใหม่",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2022/22-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/941229ba-7505-435e-acf7-0c0436299300/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "/img/educationpage/2022/thumbnail-5.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/ff324b67-d4e8-4ea1-8bf3-42885dd42400/public"}
                 ],
             },
         ]

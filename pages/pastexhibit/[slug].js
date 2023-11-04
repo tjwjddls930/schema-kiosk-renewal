@@ -1,6 +1,5 @@
 import Viewlayout from "@/components/exhibits/3dview/ViewLayout";
 import Viewcontent from "@/components/exhibits/3dview/Viewcontent";
-// import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { pastpaintData } from "@/data/pastpaintData";
@@ -48,7 +47,6 @@ export default function Viewpage() {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
                         id="left"
                         className="w-6 h-6 screen-w:w-40 screen-w:h-40 text-Ablack"
-                        // onClick={(e)=>prevExhibit(e)}
                         onClick={()=>changeExhibit(-1)}
                     >
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
@@ -62,7 +60,6 @@ export default function Viewpage() {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
                         id="right"
                         className="w-6 h-6 screen-w:w-40 screen-w:h-40 text-Ablack"
-                        // onClick={(e)=>nextExhibit(e)}
                         onClick={()=>changeExhibit(1)}
                     >
                         <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
@@ -102,34 +99,10 @@ export default function Viewpage() {
             )}
             <Navbar 
                 url={"/video/docent/schema-docent-04.webm"}
-                lang={"main"}
                 sign={"/video/sign/schema_sign_2.mp4"}
-                // fontsize={fontsize}
             />  
         </Viewlayout>
         )}
         </>
     )
 };
-
-// export async function getStaticProps(context) {
-//     const {locale} = context;
-//     return{
-//         props: {
-//             // ...(await serverSideTranslations(locale, ['common', 'navbar']))
-//         }
-//     }
-// };
-
-// export async function getStaticPaths({locales}) {
-//     const pid = pastpaintData.order;
-//     return {
-//       paths: [
-//         // String variant:
-//         `/pastexhibit/${pid}`,
-//         // Object variant:
-//         { params: { slug: `paint-${pid}`} },
-//       ],
-//       fallback: true,
-//     }
-//   }

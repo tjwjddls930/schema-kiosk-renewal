@@ -2,6 +2,8 @@ import { useRouter } from "next/router";
 import { useContext } from "react";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { FontsizeContext } from "@/contexts/FontsizeContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import clsx from "clsx";
 
 const structureButton = {
     KOR: (size) => (
@@ -151,9 +153,10 @@ const IntroConnectContent = () => {
     const router = useRouter();
     const {language} = useContext(LanguageContext);
     const {fontsize} = useContext(FontsizeContext);
+    const {isPortrait} = useContext(ScreenOrientContext);
     return(
         // <div className="h-3/4 screen-w:h-[90%] w-full px-28"></div>
-        <div className="h-5/6 w-[90%] flex flex-row space-x-4 screen-w:space-x-12 mx-auto items-center">
+        <div className={clsx(isPortrait ? "h-[85%] w-[90%] flex flex-col space-y-4 screen-w:space-y-12 mx-auto items-center" : "h-5/6 w-[90%] flex flex-row space-x-4 screen-w:space-x-12 mx-auto items-center")}>
             <div className="flex h-2/3 w-3/4 items-center justify-center shadow-xl"
                 onClick={()=>router.push("/intro/structure")}
             >

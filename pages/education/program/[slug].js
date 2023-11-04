@@ -35,19 +35,20 @@ const Program = () => {
   return (
     <EducationLayout>
       {data && (
-        <EducationContent 
-          img={data.img}
-          clip={data.youtube}
-          type={data.type}
-          title={data.title}
-          explanation={data.explanation}
-          participate={data.participate}
-          time1={data.time1}
-          participate1={data.participate1}
-          location={data.location}
-          host={data.host}
-          support={data.support}
-        />
+        // <EducationContent 
+        //   img={data.img}
+        //   clip={data.youtube}
+        //   type={data.type}
+        //   title={data.title}
+        //   explanation={data.explanation}
+        //   participate={data.participate}
+        //   time1={data.time1}
+        //   participate1={data.participate1}
+        //   location={data.location}
+        //   host={data.host}
+        //   support={data.support}
+        // />
+        <EducationContent />
       )}
       <Navbar />
     </EducationLayout>

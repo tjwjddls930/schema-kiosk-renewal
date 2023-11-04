@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Navbar from "@/components/navbar/Navbar";
 import { LanguageContext } from "@/contexts/LanguageContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import { introData_KOR, introData_ENG, introData_CH, introData_TH, introData_VI } from "@/data/introData";
 
 const topText1 = {
@@ -26,19 +27,19 @@ const topText1 = {
 
 const topText2 = {
     KOR: () => (
-        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
     ),
     ENG: () => (
-        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'A Museum for Everyone - Smart Space SAM'}</span>
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
     ),
     CH: () => (
-        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'适合所有人的博物馆 - Smart Space SAM'}</span>
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
     ),   
     TH: () => (
-        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'พิพิธภัณฑ์สำหรับทุกคน - Smart Space SAM'}</span>
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
     ),
     VI: () => (
-        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Bảo tàng dành cho mọi người - Smart Space SAM'}</span>
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
     ),
 };
 
@@ -52,9 +53,64 @@ const inputintroData = {
 
 export default function Structure() {
     const {language} = useContext(LanguageContext);
+    const { isPortrait } = useContext(ScreenOrientContext);
     const [intro, setIntro] = useState(inputintroData[language][0]);
     return(
         <>
+            {isPortrait ? 
+            <div className="h-screen w-screen bg-Awhite">
+                <div className="w-full py-6 px-12 screen-w:py-12 screen-w:px-20 flex flex-row justify-between">
+                    <div className="flex flex-row z-10">
+                        <Image 
+                            className="mr-6"
+                            src="/img/mainpage/schema-logo.png"
+                            height="80"
+                            width="160"
+                            alt="logo"
+                            style={{
+                                width: "auto",
+                                height: "auto"
+                            }}
+                        />
+                        {topText1[language]()}
+                    </div>
+                    <div>
+                        {topText2[language]()}
+                    </div>
+                </div>
+                <div className="w-full h-3/4 screen-w:h-[85%] bg-Awhite">
+                    <main>
+                        <AnimatePresence>
+                            <motion.div
+                                key={intro ? intro.title : ""}
+                                intitial={{y: 100, opacity: 0}}
+                                animate={{y: 0, opacity: 1}}
+                                exit={{y: -100, opacity: 0}}
+                                transition={{duration: 0.3}}
+                            >
+                                {intro ? 
+                                // <div className="screen-w:h-full p-6 screen-w:pt-40 screen-w:pl-[370px] mx-auto items-center"></div> 
+                                intro.component
+                                : ""}
+                            </motion.div>
+                        </AnimatePresence>
+                    </main>
+                </div>
+                <div className="w-11/12 h-14 screen-w:h-24 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center border-opacity-30 z-10">
+                    <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2 screen-w:space-x-16 screen-w:text-4xl">
+                        {inputintroData[language].map((item)=> (
+                            <li
+                                key={item.title}
+                                className={item === intro ? "text-Ablack border-b-4 border-Bblue": ""}
+                                onClick={()=> setIntro(item)}
+                            >   
+                                {`${item.title}`}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
+            :
             <div className="h-screen w-screen bg-Awhite">
                 <div className="w-full py-6 px-12 screen-w:py-12 screen-w:px-20 flex flex-row justify-between">
                     <div className="flex flex-row z-10">
@@ -106,6 +162,7 @@ export default function Structure() {
                     </main>
                 </div>
             </div>
+            }
             <Navbar 
                 url={"/video/docent/blue-docent-test-02-removed.webm"}
             />

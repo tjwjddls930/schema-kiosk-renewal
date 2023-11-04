@@ -13,8 +13,8 @@ module.exports = {
       'lg':"1290px",
       // 'lg': "1430px",
       '2xl': "1653px",
-      'screen-w': "3000px",
-      'screen-h': "2000px"
+      'screen-w': "2000px",
+      // 'screen-h': "2000px"
       // xl: "1202px",
     },
     container: {

@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { FontsizeContext } from "@/contexts/FontsizeContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import clsx from "clsx";
 
 const languageChange = {
     KOR: (size) => (
@@ -164,6 +166,7 @@ const Newbutton = () => {
     const [modal, setModal] = useState();
     const {language, setLanguage} = useContext(LanguageContext);
     const {fontsize} = useContext(FontsizeContext);
+    const {isPortrait} = useContext(ScreenOrientContext)
 
     const changeLanguage = (lang) => {
         setLanguage(lang)
@@ -172,40 +175,86 @@ const Newbutton = () => {
     return(
         <>
              {/* 중단 버튼 구역*/}
-             <section className="w-3/4 h-2/3 pt-14 px-14 flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">
-                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/intro_bg.jpg')] bg-cover bg-no-repeat"
-                    onClick={()=>{router.push("/intro")}}
-                >
-                    {/* <div className="absolute inset-0 w-full h-full bg-Ablue opacity-10" /> */}
-                    <button className="h-full w-full text-center text-Awhite bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto z-10 hover:translate-y-2"
-                        >
-                        {introButton[language](fontsize)}
-                    </button>
-                </div>
-                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/exhibit_bg.jpg')] bg-cover bg-no-repeat"
-                    onClick={()=>router.push("/exhibit")}
-                >
-                    {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
-                    <button className="w-full h-full text-center text-Awhite bg-[url('/img/mainpage/전시안내_도형.png')] bg-cover bg-no-repeat mx-auto z-10">
-                        {exhibitButton[language](fontsize)}
-                    </button>
-                </div>
-                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/chatbot_bg.jpg')] bg-cover bg-no-repeat"
-                    onClick={()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
-                > 
-                    {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
-                    <button className="w-full h-full text-center text-Awhite bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat mx-auto z-10">
-                        {chatbotButton[language](fontsize)}
-                    </button>
+             <section className={clsx(isPortrait ? 
+                    "w-3/4 h-2/3 pt-14 px-14 flex flex-col space-y-5 screen-w:space-y-10 mx-auto" 
+                    : "w-3/4 h-2/3 pt-14 px-14 flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end")}>
+                {isPortrait ?
+                    <>
+                        <div className="h-2/3 w-full flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">
+                            <div className="w-[70%] screen-w:w-full h-full relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/intro_bg.jpg')] bg-cover bg-no-repeat"
+                                onClick={()=>{router.push("/intro")}}
+                            >
+                                {/* <div className="absolute inset-0 w-full h-full bg-Ablue opacity-10" /> */}
+                                <button className="h-full w-full text-center text-Awhite bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto z-10 hover:translate-y-2"
+                                    >
+                                    {introButton[language](fontsize)}
+                                </button>
+                            </div>
+                            <div className="w-[70%] screen-w:w-full h-full relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/exhibit_bg.jpg')] bg-cover bg-no-repeat"
+                                onClick={()=>router.push("/exhibit")}
+                            >
+                                {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
+                                <button className="w-full h-full text-center text-Awhite bg-[url('/img/mainpage/전시안내_도형.png')] bg-cover bg-no-repeat mx-auto z-10">
+                                    {exhibitButton[language](fontsize)}
+                                </button>
+                            </div>
+                        </div>
+                        <div className="h-2/3 w-full flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">
+                            <div className="w-[70%] screen-w:w-full h-full relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/chatbot_bg.jpg')] bg-cover bg-no-repeat"
+                                onClick={()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
+                            > 
+                                {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
+                                <button className="w-full h-full text-center text-Awhite bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat mx-auto z-10">
+                                    {chatbotButton[language](fontsize)}
+                                </button>
+                                </div>
+                            <div className="w-[70%] screen-w:w-full h-full relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/education_bg.jpg')] bg-cover bg-repeat"
+                                onClick={()=>router.push("/education")}
+                            >
+                                {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
+                                <button className="text-center text-Awhite h-full w-full mx-auto bg-[url('/img/mainpage/교육프로그램_도형.png')] bg-no-repeat bg-cover z-10">
+                                    {educationButton[language](fontsize)}
+                                </button>
+                            </div>
+                        </div>
+                    </>
+                    :
+                    <>
+                    <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/intro_bg.jpg')] bg-cover bg-no-repeat"
+                        onClick={()=>{router.push("/intro")}}
+                    >
+                        {/* <div className="absolute inset-0 w-full h-full bg-Ablue opacity-10" /> */}
+                        <button className="h-full w-full text-center text-Awhite bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto z-10 hover:translate-y-2"
+                            >
+                            {introButton[language](fontsize)}
+                        </button>
                     </div>
-                <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/education_bg.jpg')] bg-cover bg-repeat"
-                    onClick={()=>router.push("/education")}
-                >
-                    {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
-                    <button className="text-center text-Awhite h-full w-full mx-auto bg-[url('/img/mainpage/교육프로그램_도형.png')] bg-no-repeat bg-cover z-10">
-                        {educationButton[language](fontsize)}
-                    </button>
-                </div>
+                    <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/exhibit_bg.jpg')] bg-cover bg-no-repeat"
+                        onClick={()=>router.push("/exhibit")}
+                    >
+                        {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
+                        <button className="w-full h-full text-center text-Awhite bg-[url('/img/mainpage/전시안내_도형.png')] bg-cover bg-no-repeat mx-auto z-10">
+                            {exhibitButton[language](fontsize)}
+                        </button>
+                    </div>
+                    <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/chatbot_bg.jpg')] bg-cover bg-no-repeat"
+                        onClick={()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
+                    > 
+                        {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
+                        <button className="w-full h-full text-center text-Awhite bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat mx-auto z-10">
+                            {chatbotButton[language](fontsize)}
+                        </button>
+                        </div>
+                    <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/education_bg.jpg')] bg-cover bg-repeat"
+                        onClick={()=>router.push("/education")}
+                    >
+                        {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
+                        <button className="text-center text-Awhite h-full w-full mx-auto bg-[url('/img/mainpage/교육프로그램_도형.png')] bg-no-repeat bg-cover z-10">
+                            {educationButton[language](fontsize)}
+                        </button>
+                    </div>
+                    </>
+                }
             </section>
             {/* 언어변경 버튼 */}
             <button 
@@ -222,16 +271,16 @@ const Newbutton = () => {
                                 alt="language"
                             />
                         </div>
-                        {/* <span className="text-xl font-bold pt-2 screen-w:text-4xl">{languageChange[language]}</span> */}
                         {languageChange[language](fontsize)}
                     </div>
                 </button>
                 {modal && (
                     <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
-                        <div className="flex flex-col h-3/4 w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-60 space-y-4 screen-w:space-y-6">
+                        <div className={clsx(isPortrait ? "flex flex-col h-[60%] w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-[700px] space-y-4 screen-w:space-y-6" 
+                        : "flex flex-col h-3/4 w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-60 space-y-4 screen-w:space-y-6")}>
                             <span className="text-xl screen-w:text-6xl text-black font-bold mt-4 screen-w:mt-6">여러분의 언어를 선택해주세요!</span>
                             <span className="text-lg screen-w:text-5xl text-Cgrey font-bold">Please select your language</span>
-                            <div className="flex flex-col space-y-6 w-full h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-6 screen-w:pt-56 items-center z-30">
+                            <div className={clsx(isPortrait ? "flex flex-col space-y-6 w-full h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-6 screen-w:pt-[500px] items-end z-30" : "flex flex-col space-y-6 w-full h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-6 screen-w:pt-56 items-center z-30")}>
                                 <div className="flex flex-row mx-auto space-x-6 screen-w:space-x-24 z-40">
                                     {/* 한국어 */}
                                     <button

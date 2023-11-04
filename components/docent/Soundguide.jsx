@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 
 const DynamicReactPlayer = dynamic(() => import('react-player'), {ssr: false});
 
-const Soundguide = ({videoUrl, volume, end, loop, ...props}) => {
+const Soundguide = ({videoUrl, volume, playing, end, loop, ...props}) => {
     return (
     <DynamicReactPlayer
         url={videoUrl}
@@ -11,7 +11,7 @@ const Soundguide = ({videoUrl, volume, end, loop, ...props}) => {
         height="100%"
         volume={volume}
         controls={false}
-        playing={true}
+        playing={playing}
         loop={true}
         onEnded={end}
         {...props}

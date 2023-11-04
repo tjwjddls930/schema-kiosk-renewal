@@ -16,9 +16,9 @@ export const educationData_CH = [
                 explanation: "“隐藏空间”项目是一个以当代艺术中“几何抽象”为主题的项目，利用美术馆藏品和文化艺术教育历史。利用Schema艺术博物馆收藏的几何抽象艺术家的作品，通过几何抽象代表艺术家“艺术家Seung-jo Lee”和“艺术家Jae-kwan Kim”的作品介绍现代艺术中的几何抽象世界。韩国当代艺术。我们希望通过更深入地体验艺术创作和表达并理解艺术家新的视觉表达来创造一个体验艺术创作和表达的时间。",
                 host: "",
                 support: "",
-                img: "/img/educationpage/2023/23-6.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/023e857f-e829-422c-255a-537ed5e33800/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "/img/educationpage/2023/thumbnail-1.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f1a081a6-cbb2-42eb-b0b1-1d0ae544fb00/public"}
                 ],
             },
             {
@@ -34,9 +34,9 @@ export const educationData_CH = [
                 explanation: "“图式博物馆工作室”项目是一个自我发现项目，通过三位当代艺术家观察、欣赏和同情世界的时间，通过新的视觉表达方式进行艺术创作，发现自己的独特性和特殊性。这是一个项目。该项目由三位当代艺术家参与，包括：1. 雕塑艺术家李子妍的“雕塑实验室”，2. 绘画艺术家金东宇的“图像实验室”，3. 平面装置艺术家崔的“形式实验室” Min-sol和原始雕塑。我们希望创造一个艺术创作时间，让参与的孩子们可以诚实地表达他们的感官，同时更深入地体验绘画等现代艺术的各个领域。",
                 host: "文化体育观光部、韩国艺术文化教育振兴院",
                 support: "",
-                img: "/img/educationpage/2023/23-5.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4ae46749-73b4-4afb-24ae-f66621057a00/public",
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "/img/educationpage/2023/thumbnail-2.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/11c82070-8468-4040-645c-6ab3c84dd200/public"}
                 ],
             },
             {
@@ -52,7 +52,7 @@ export const educationData_CH = [
                 explanation: "“图式博物馆工作室”项目是一个自我发现项目，通过三位当代艺术家观察、欣赏和同情世界的时间，通过新的视觉表达方式进行艺术创作，发现自己的独特性和特殊性。这是一个项目。该项目由三位当代艺术家参与，包括：1. 雕塑艺术家李子妍的“雕塑实验室”，2. 绘画艺术家金东宇的“图像实验室”，3. 平面装置艺术家崔的“形式实验室” Min-sol和原始雕塑。我们希望创造一个艺术创作时间，让参与的孩子们可以诚实地表达他们的感官，同时更深入地体验绘画等现代艺术的各个领域。",
                 host: "文化体育观光部、韩国艺术文化教育振兴院",
                 support: "",
-                img: "/img/educationpage/2023/23-4.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f6887d75-4e72-4ec1-feed-30b062f69b00/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -70,7 +70,7 @@ export const educationData_CH = [
                 explanation: "“景观之旅”是一次诙谐的当代艺术“之旅”，与当地当代艺术家金罗妍一起记录散步时发现的小故事，这是艺术家的方法，并使用物体和色彩来捕捉一个地方的氛围在某种情境下，这是一档试图表达“风景情感”的节目。我们旨在与参与的家庭一起，创造一个艺术时光，用艺术材料和新鲜的思想来漫步“日常场景”来传达情感，从“新的视角”接近它们，并利用各种材料通过艺术想象来表达它们。",
                 host: "模式博物馆",
                 support: "忠清北道忠北文化财团",
-                img: "/img/educationpage/2023/23-3.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3a28cae3-354a-49f7-7b0a-f5f55eec0500/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -88,7 +88,7 @@ export const educationData_CH = [
                 explanation: "目的是通过博物馆、美术馆相关教育，为儿童、青少年提供观赏、体验人类文化遗产和历史产物的机会，使他们最终成长为更有兴趣享受文化的文化公民。",
                 host: "韩国博物馆协会",
                 support: "KB国民银行、教育部、文化体育观光部",
-                img: "/img/educationpage/2023/23-2.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f5172ec0-48a2-4592-6b7b-006182923100/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -106,7 +106,7 @@ export const educationData_CH = [
                 explanation: "目的是提供参观博物馆、美术馆展览和参与体验活动的机会，让接触文化机会相对较少的贫困阶层学生能够体验人类文化遗产和历史产物。",
                 host: "韩国博物馆协会、KB 保险",
                 support: "KB保险",
-                img: "/img/educationpage/2023/23-1.png",
+                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7d39f38f-a11f-4234-b48a-ded33b57f700/public",
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],

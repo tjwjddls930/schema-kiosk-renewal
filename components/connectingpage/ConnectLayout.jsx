@@ -9,7 +9,7 @@ const topText = {
             <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
                 {'전시 안내'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
     ENG: () => (
@@ -17,7 +17,7 @@ const topText = {
             <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
                 {'Exhibition Guide'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'A Museum for Everyone - Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
     CH: () => (
@@ -25,7 +25,7 @@ const topText = {
             <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
                 {'展会信息'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'适合所有人的博物馆 - Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),   
     TH: () => (
@@ -33,7 +33,7 @@ const topText = {
             <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
                 {'ข้อมูลนิทรรศการ'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'พิพิธภัณฑ์สำหรับทุกคน - Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
     VI: () => (
@@ -41,7 +41,7 @@ const topText = {
             <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
                 {'Thông tin triển lãm'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Bảo tàng dành cho mọi người - Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
 };

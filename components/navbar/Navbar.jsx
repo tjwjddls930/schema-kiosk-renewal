@@ -4,6 +4,7 @@ import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
 import {LanguageContext} from "@/contexts/LanguageContext";
 import { FontsizeContext } from "@/contexts/FontsizeContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 
 const languageText = {
     KOR: (func)=> (
@@ -315,10 +316,11 @@ const Navbar = ({url, sign}) => {
     const [volumepop, setVolumepop] = useState(false);
     const [soundguide, setSoundguide] = useState(false);
     const [signLang, setsignLang] = useState(false);
-    const [size, setSize] = useState(false);
     const [modal, setModal] = useState(false);
+    const [playing, setPlaying] = useState(true);
     const {language, setLanguage} = useContext(LanguageContext);
     const {fontsize, setFontsize} = useContext(FontsizeContext);
+    const {isPortrait} = useContext(ScreenOrientContext);
 
     const changeLanguage = (lang) => {
         setLanguage(lang)
@@ -327,12 +329,15 @@ const Navbar = ({url, sign}) => {
     return(
         <>
             {soundguide && (
-                <div className="absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20">
-                    <div className="absolute transform -translate-x-1/2 left-1/2 bottom-0 h-3/4 w-3/4">
+                <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[94%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20")}
+                >
+                    <div className={clsx(isPortrait ? "absolute transform -translate-x-1/2 left-1/2 bottom-4 h-1/2 w-2/3 z-40" : "absolute transform -translate-x-1/2 left-1/2 bottom-0 h-3/4 w-3/4 z-40")}
+                        onClick={()=>setPlaying(!playing)}
+                    >
                         <Soundguide 
                             videoUrl={url}
                             volume={Number(volume)}
-                            playing={true}
+                            playing={playing ? true : false}
                             end={()=>setSoundguide(!soundguide)}
                         />
                     </div>
@@ -369,10 +374,12 @@ const Navbar = ({url, sign}) => {
             )}
             {modal && (
             <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
-                <div className="flex flex-col h-3/4 w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-60 space-y-4 screen-w:space-y-6">
+                <div className={clsx(isPortrait ? "flex flex-col h-[60%] w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-[700px] space-y-4 screen-w:space-y-6" 
+                : "flex flex-col h-3/4 w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-60 space-y-4 screen-w:space-y-6")}>
                     <span className="text-xl screen-w:text-6xl text-black font-bold mt-4 screen-w:mt-6">여러분의 언어를 선택해주세요!</span>
                     <span className="text-lg screen-w:text-5xl text-Cgrey font-bold">Please select your language</span>
-                    <div className="flex flex-col space-y-6 w-full h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-6 screen-w:pt-56 items-center z-30">
+                    <div className={clsx(isPortrait ? "flex flex-col space-y-6 w-full h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-6 screen-w:pt-[500px] items-end z-30" 
+                    : "flex flex-col space-y-6 w-full h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-6 screen-w:pt-56 items-center z-30")}>
                         <div className="flex flex-row mx-auto space-x-6 screen-w:space-x-24 z-40">
                             {/* 한국어 */}
                             <button
