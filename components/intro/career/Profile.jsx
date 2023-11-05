@@ -1,6 +1,8 @@
 import { careerData_KOR, careerData_ENG, careerData_CH, careerData_TH, careerData_VI } from "@/data/careerData";
 import { LanguageContext } from "@/contexts/LanguageContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import { useContext } from "react";
+import clsx from "clsx";
 
 const inputData = {
     KOR: careerData_KOR,
@@ -54,69 +56,69 @@ const pageCareer = {
 };
 
 const educationText = {
-    KOR: () => (
-        <span className="w-[20%] font-bold text-base screen-w:text-5xl text-Ablack">{"학력사항"}</span>
+    KOR: (orient) => (
+        <span className={clsx(orient ? "w-[25%] font-bold text-base screen-w:text-5xl text-Ablack" : "w-[20%] font-bold text-base screen-w:text-5xl text-Ablack")}>{"학력사항"}</span>
     ),
-    ENG: () => (
-        <span className="w-[20%] font-bold text-base screen-w:text-5xl text-Ablack">{"Education"}</span>
+    ENG: (orient) => (
+        <span className={clsx(orient ? "w-[25%] font-bold text-base screen-w:text-4xl text-Ablack" : "w-[20%] font-bold text-base screen-w:text-5xl text-Ablack")}>{"Education"}</span>
     ),
-    CH: () => (
-        <span className="w-[20%] font-bold text-base screen-w:text-5xl text-Ablack">{"教育史"}</span>
+    CH: (orient) => (
+        <span className={clsx(orient ? "w-[25%] font-bold text-base screen-w:text-4xl text-Ablack" : "w-[20%] font-bold text-base screen-w:text-5xl text-Ablack")}>{"教育史"}</span>
     ),
-    TH: () => (
-        <span className="w-[20%] font-bold text-base screen-w:text-4xl text-Ablack">{"ประวัติการศึกษา"}</span>
+    TH: (orient) => (
+        <span className={clsx(orient ? "w-[25%] font-bold text-base screen-w:text-4xl text-Ablack" : "w-[20%] font-bold text-base screen-w:text-4xl text-Ablack")}>{"ประวัติการศึกษา"}</span>
     ),
-    VI: () => (
-        <span className="w-[20%] font-bold text-base screen-w:text-4xl text-Ablack">{"Lịch sử giáo dục"}</span>
+    VI: (orient) => (
+        <span className={clsx(orient ? "w-[25%] font-bold text-base screen-w:text-4xl text-Ablack" : "w-[20%] font-bold text-base screen-w:text-4xl text-Ablack")}>{"Lịch sử giáo dục"}</span>
     )
 };
 
 const awardText = {
-    KOR: () => (
-        <span className="w-[20%] font-bold text-base screen-w:text-5xl text-Ablack">{"수상경력"}</span>
+    KOR: (orient) => (
+        <span className={clsx(orient ? "w-[25%] font-bold text-base screen-w:text-5xl text-Ablack" : "w-[20%] font-bold text-base screen-w:text-5xl text-Ablack")}>{"수상경력"}</span>
     ),
-    ENG: () => (
-        <span className="w-[20%] font-bold text-base screen-w:text-5xl text-Ablack">{"Awards"}</span>
+    ENG: (orient) => (
+        <span className={clsx(orient ? "w-[25%] font-bold text-base screen-w:text-4xl text-Ablack" : "w-[20%] font-bold text-base screen-w:text-5xl text-Ablack")}>{"Awards"}</span>
     ),
-    CH: () => (
-        <span className="w-[20%] font-bold text-base screen-w:text-5xl text-Ablack">{"奖项"}</span>
+    CH: (orient) => (
+        <span className={clsx(orient ? "w-[25%] font-bold text-base screen-w:text-[40px] text-Ablack" : "w-[20%] font-bold text-base screen-w:text-5xl text-Ablack")}>{"奖项"}</span>
     ),
-    TH: () => (
-        <span className="w-[20%] font-bold text-base screen-w:text-4xl text-Ablack">{"รางวัล"}</span>
+    TH: (orient) => (
+        <span className={clsx(orient ? "w-[25%] font-bold text-base screen-w:text-4xl text-Ablack" : "w-[20%] font-bold text-base screen-w:text-4xl text-Ablack")}>{"รางวัล"}</span>
     ),
-    VI: () => (
-        <span className="w-[20%] font-bold text-base screen-w:text-4xl text-Ablack">{"giải thưởng"}</span>
+    VI: (orient) => (
+        <span className={clsx(orient ? "w-[25%] font-bold text-base screen-w:text-4xl text-Ablack" : "w-[20%] font-bold text-base screen-w:text-4xl text-Ablack")}>{"giải thưởng"}</span>
     )
 };
 
 const collectionText = {
-    KOR: () => (
+    KOR: (orient) => (
         <div className="w-full flex flex-row space-x-8">
-            <span className="w-[20%] font-bold text-Ablack text-base screen-w:text-5xl">{'작품 소장'}</span>
-            <span className="w-[80%] font-bold text-Agrey text-base screen-w:text-4xl">{'국립현대미술관, 서울시립미술관, 부산시립미술관 등 다수'}</span>
+            <span className={clsx(orient ? "w-[25%] font-bold text-Ablack text-base screen-w:text-5xl" : "w-[20%] font-bold text-Ablack text-base screen-w:text-5xl")}>{'작품 소장'}</span>
+            <span className={clsx(orient ? "w-[75%] font-bold text-Agrey text-base screen-w:text-4xl" : "w-[80%] font-bold text-Agrey text-base screen-w:text-4xl")}>{'국립현대미술관, 서울시립미술관, 부산시립미술관 등 다수'}</span>
         </div>
     ),
-    ENG: () => (
+    ENG: (orient) => (
         <div className="w-full flex flex-row space-x-8">
-            <span className="w-[20%] font-bold text-Ablack text-base screen-w:text-5xl">{'Collection of Works'}</span>
-            <span className="w-[80%] font-bold text-Agrey text-base screen-w:text-4xl">{'National Museum of Modern and Contemporary Art, Seoul Museum of Art, Busan Museum of Art, etc.'}</span>
+            <span className={clsx(orient ? "w-[25%] font-bold text-Ablack text-base screen-w:text-4xl" : "w-[20%] font-bold text-Ablack text-base screen-w:text-4xl")}>{'Collection of Works'}</span>
+            <span className={clsx(orient ? "w-[75%] font-bold text-Agrey text-base screen-w:text-4xl" : "w-[80%] font-bold text-Agrey text-base screen-w:text-4xl")}>{'National Museum of Modern and Contemporary Art, Seoul Museum of Art, Busan Museum of Art, etc.'}</span>
         </div>
     ),
-    CH: () => (
+    CH: (orient) => (
         <div className="w-full flex flex-row space-x-8">
-            <span className="w-[20%] font-bold text-Ablack text-base screen-w:text-5xl">{'作品集'}</span>
-            <span className="w-[80%] font-bold text-Agrey text-base screen-w:text-4xl">{'国立现代美术馆、首尔市立美术馆、釜山市立美术馆等'}</span>
+            <span className={clsx(orient ? "w-[25%] font-bold text-Ablack text-base screen-w:text-4xl" : "w-[20%] font-bold text-Ablack text-base screen-w:text-5xl")}>{'作品集'}</span>
+            <span className={clsx(orient ? "w-[75%] font-bold text-Agrey text-base screen-w:text-4xl" : "w-[80%] font-bold text-Agrey text-base screen-w:text-4xl")}>{'国立现代美术馆、首尔市立美术馆、釜山市立美术馆等'}</span>
         </div>
     ),
-    TH: () => (
+    TH: (orient) => (
         <div className="w-full flex flex-row space-x-8">
-            <span className="w-[20%] font-bold text-Ablack text-base screen-w:text-4xl">{'รวบรวมผลงาน'}</span>
-            <span className="w-[80%] font-bold text-Agrey text-base screen-w:text-4xl">{'พิพิธภัณฑ์ศิลปะสมัยใหม่และร่วมสมัยแห่งชาติ, พิพิธภัณฑ์ศิลปะโซล, พิพิธภัณฑ์ศิลปะปูซาน ฯลฯ'}</span>
+            <span className={clsx(orient ? "w-[25%] font-bold text-Ablack text-base screen-w:text-4xl" : "w-[20%] font-bold text-Ablack text-base screen-w:text-4xl")}>{'รวบรวมผลงาน'}</span>
+            <span className={clsx(orient ? "w-[75%] font-bold text-Agrey text-base screen-w:text-4xl" : "w-[80%] font-bold text-Agrey text-base screen-w:text-4xl")}>{'พิพิธภัณฑ์ศิลปะสมัยใหม่และร่วมสมัยแห่งชาติ, พิพิธภัณฑ์ศิลปะโซล, พิพิธภัณฑ์ศิลปะปูซาน ฯลฯ'}</span>
         </div>
     ),
-    VI: () => (
+    VI: (orient) => (
         <div className="w-full flex flex-row space-x-8">
-            <span className="w-[20%] font-bold text-Ablack text-base screen-w:text-4xl">{'tuyển tập tác phẩm'}</span>
+            <span className={orient ? "w-[20%] font-bold text-Ablack text-base screen-w:text-4xl" : "w-[20%] font-bold text-Ablack text-base screen-w:text-4xl"}>{'tuyển tập tác phẩm'}</span>
             <span className="w-[80%] font-bold text-Agrey text-base screen-w:text-4xl">{'Bảo tàng Nghệ thuật Hiện đại và Đương đại Quốc gia, Bảo tàng Nghệ thuật Seoul, Bảo tàng Nghệ thuật Busan, v.v.'}</span>
         </div>
     )
@@ -124,69 +126,91 @@ const collectionText = {
 
 const Profile = ({}) => {
     const {language} = useContext(LanguageContext);
+    const {isPortrait} = useContext(ScreenOrientContext);
     return(
-        <div className="w-11/12 h-3/4 screen-w:h-[70%] mx-auto flex flex-row space-x-[50px] screen-w:space-x-[100px] justify-between">
-            <div className="absolute bottom-4 transform -translate-x-1/2 left-[37%] screen-w:bottom-24">
-                <img 
-                    src="/img/intro/career/김재관_관장님.png"
-                    className="h-[550px] w-[450px] screen-w:h-[1700px] screen-w:w-[1400px] opacity-100 z-[999]"
-                    alt="director"
-                />
-            </div>
-            <div className="w-1/2 h-3/4 flex flex-col space-y-4 screen-w:space-y-[150px]">
-                <div className="flex flex-col space-y-2 screen-w:space-y-8">
-                    <div className="h-[0.5px] screen-w:h-[1px] bg-Ablue w-20 screen-w:w-32"/>
-                    <span className="font-bold text-lg screen-w:text-6xl text-Agrey">{'Kim Jae-Kwan'}</span>
-                    <span className="font-bold text-lg screen-w:text-7xl text-Ablack">{'김재관'}</span>
-                </div>
-
-                {pageCareer[language]()}
-            </div>
-            <div className="w-1/2 h-3/4 flex flex-col space-y-4 screen-w:space-y-16">
-                <div className="w-full h-[30%] flex flex-row space-x-6 screen-w:space-x-12">
-                    {educationText[language]()}
-                    <div className="w-[80%] flex flex-col space-y-2 screen-w:space-y-4">
-                        {inputData[language][0].education.map((item, index)=>(
-                            <div
-                                key={index} 
-                                className="w-full flex flex-row space-x-2 screen-w:space-x-10">
-                                <span
-                                    key={item.order} 
-                                    className="w-[15%] font-bold text-sm screen-w:text-4xl text-Ablue"
-                                >
-                                        {item.year}
-                                </span>
-                                <span
-                                    key={item.year}
-                                    className="w-[85%] font-bold text-sm screen-w:text-4xl text-Agrey"
-                                >
-                                    {item.text}
-                                </span>
-                            </div>
-                        ))}
+        <div className={clsx(isPortrait ? "h-5/6 w-full p-6 screen-w:px-6 screen-w:pt-6 mx-auto items-center z-10" : "p-6 screen-w:px-6 screen-w:pt-20 mx-auto items-center z-10")}>
+            <div className={clsx(isPortrait ? "w-11/12 h-3/4 screen-w:h-[70%] mx-auto flex flex-col space-y-[50px] screen-w:space-y-[100px]" : "w-11/12 h-3/4 screen-w:h-[70%] mx-auto flex flex-row space-x-[50px] screen-w:space-x-[100px] justify-between")}>
+                {isPortrait ? 
+                <div className="w-full h-1/2 items-center flex justify-between">
+                    <div className="w-1/2 h-3/4 flex flex-col space-y-24 mx-auto items-start">
+                        <div className="flex flex-col space-y-2 screen-w:space-y-8">
+                            <div className="h-[0.5px] screen-w:h-[1px] bg-Ablue w-20 screen-w:w-32"/>
+                            <span className="font-bold text-lg screen-w:text-6xl text-Agrey">{'Kim Jae-Kwan'}</span>
+                            <span className="font-bold text-lg screen-w:text-7xl text-Ablack">{'김재관'}</span>
+                        </div>
+                        {pageCareer[language]()}
                     </div>
-                </div>
-                <div className="w-full h-[30%] flex flex-row space-x-6 screen-w:space-x-12">
-                    {awardText[language]()}
-                    <div className="w-[80%] flex flex-col space-y-2 screen-w:space-y-4">
-                        {inputData[language][0].award.map((item, index)=>(
-                            <div 
-                                key={index}
-                                className="w-full flex flex-row space-x-2 screen-w:space-x-10">
-                                <span
-                                    key={item.order} 
-                                    className="w-[15%] font-bold text-sm screen-w:text-4xl text-Ablue">{item.year}</span>
-                                <span
-                                    key={item.year}
-                                    className="w-[85%] font-bold text-sm screen-w:text-4xl text-Agrey"
-                                >
-                                    {item.text}
-                                </span>
-                            </div>
-                        ))}
+                    <div className="w-1/2 h-3/4 flex items-center">
+                        <img 
+                            src="/img/intro/career/김재관_관장님.png"
+                            className="h-[550px] w-[450px] screen-w:h-[1700px] screen-w:w-[1400px] opacity-100 z-10"
+                            alt="director"
+                        />
+                        </div>
+                </div> : 
+                <>
+                    <div className="absolute bottom-4 transform -translate-x-1/2 left-[37%] screen-w:bottom-24">
+                        <img 
+                            src="/img/intro/career/김재관_관장님.png"
+                            className="h-[550px] w-[450px] screen-w:h-[1700px] screen-w:w-[1400px] opacity-100 z-[999]"
+                            alt="director"
+                        />
                     </div>
+                    <div className="w-1/2 h-3/4 flex flex-col space-y-4 screen-w:space-y-[150px]">
+                        <div className="flex flex-col space-y-2 screen-w:space-y-8">
+                            <div className="h-[0.5px] screen-w:h-[1px] bg-Ablue w-20 screen-w:w-32"/>
+                            <span className="font-bold text-lg screen-w:text-6xl text-Agrey">{'Kim Jae-Kwan'}</span>
+                            <span className="font-bold text-lg screen-w:text-7xl text-Ablack">{'김재관'}</span>
+                        </div>
+                        {pageCareer[language]()}
+                    </div>
+                </>}
+                <div className={clsx(isPortrait ? "w-[97%] h-1/2 flex flex-row space-x-4 screen-w:space-x-8 mx-auto overflow-auto" : "w-1/2 h-3/4 flex flex-col space-y-4 screen-w:space-y-16")}>
+                    <div className={clsx(isPortrait ? "w-full h-full flex flex-row space-x-6 screen-w:space-x-8 overflow-auto" : "w-full h-[30%] flex flex-row space-x-6 screen-w:space-x-12")}>
+                        {educationText[language](isPortrait)}
+                        <div className={clsx(isPortrait ? "w-3/4 h-[1200px] flex flex-col space-y-2 screen-w:space-y-4 overflow-auto" : "w-[80%] flex flex-col space-y-2 screen-w:space-y-4")}>
+                            {inputData[language][0].education.map((item, index)=>(
+                                <div
+                                    key={index} 
+                                    className={clsx(isPortrait ? "w-full h-full flex flex-row space-x-2 screen-w:space-x-10" : "w-full flex flex-row space-x-2 screen-w:space-x-10")}>
+                                    <span
+                                        key={item.order} 
+                                        className={clsx(isPortrait ? "w-[15%] h-full font-bold text-sm screen-w:text-4xl text-Ablue" : "w-[15%] font-bold text-sm screen-w:text-4xl text-Ablue")}
+                                    >
+                                            {item.year}
+                                    </span>
+                                    <span
+                                        key={item.year}
+                                        className={clsx(isPortrait ? "w-[85%] h-full font-bold text-sm screen-w:text-4xl text-Agrey" : "w-[85%] font-bold text-sm screen-w:text-4xl text-Agrey")}
+                                    >
+                                        {item.text}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    <div className={clsx(isPortrait ? "w-full h-full flex flex-row space-x-6 screen-w:space-x-8 overflow-auto" : "w-full h-[30%] flex flex-row space-x-6 screen-w:space-x-12")}>
+                        {awardText[language](isPortrait)}
+                        <div className={clsx(isPortrait ? "w-3/4 h-[1200px] flex flex-col space-y-2 screen-w:space-y-4 overflow-auto" : "w-[80%] flex flex-col space-y-2 screen-w:space-y-4")}>
+                            {inputData[language][0].award.map((item, index)=>(
+                                <div 
+                                    key={index}
+                                    className={clsx(isPortrait ? "w-full h-full flex flex-row space-x-2 screen-w:space-x-10" : "w-full flex flex-row space-x-2 screen-w:space-x-10")}>
+                                    <span
+                                        key={item.order} 
+                                        className={clsx(isPortrait ? "w-[15%] h-full font-bold text-sm screen-w:text-4xl text-Ablue" : "w-[15%] font-bold text-sm screen-w:text-4xl text-Ablue")}>{item.year}</span>
+                                    <span
+                                        key={item.year}
+                                        className={clsx(isPortrait ? "w-[85%] h-full font-bold text-sm screen-w:text-4xl text-Agrey" : "w-[85%] font-bold text-sm screen-w:text-4xl text-Agrey")}
+                                    >
+                                        {item.text}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    {collectionText[language](isPortrait)}
                 </div>
-                {collectionText[language]()}
             </div>
         </div>
     )

@@ -1,10 +1,10 @@
 import Viewlayout from "@/components/exhibits/3dview/ViewLayout";
 import Viewcontent from "@/components/exhibits/3dview/Viewcontent";
-// import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { useRouter } from "next/router";
 import { paintData } from "@/data/paintData";
 import Navbar from "@/components/navbar/Navbar";
+import { LanguageContext } from "@/contexts/LanguageContext";
 
 export default function Viewpage() {
     const [popup, setPopup] = useState(true);
