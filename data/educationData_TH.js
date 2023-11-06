@@ -16,9 +16,9 @@ export const educationData_TH = [
                 explanation: "โปรแกรม 'Hidden Space' เป็นโปรแกรมที่มีธีมตามคำหลักของ 'geometric abstraction' ในงานศิลปะร่วมสมัยโดยใช้คอลเลกชันพิพิธภัณฑ์ศิลปะพร้อมกับประวัติศาสตร์การศึกษาศิลปะวัฒนธรรม การใช้ผลงานของศิลปินนามธรรมทางเรขาคณิตจากคอลเลกชันของพิพิธภัณฑ์ศิลปะ Schema ทำให้โลกแห่งนามธรรมทางเรขาคณิตในศิลปะสมัยใหม่ได้รับการแนะนำผ่านผลงานของ 'ศิลปิน Seung-jo Lee' และ 'ศิลปิน Jae-kwan Kim' ซึ่งเป็นศิลปินตัวแทนของนามธรรมทางเรขาคณิตใน ศิลปะร่วมสมัยของเกาหลี เราอยากสร้างเวลาในการสัมผัสประสบการณ์การสร้างสรรค์และการแสดงออกทางศิลปะโดยการสัมผัสอย่างลึกซึ้งและเข้าใจการแสดงออกทางภาพใหม่ของศิลปิน",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/023e857f-e829-422c-255a-537ed5e33800/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-1.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f1a081a6-cbb2-42eb-b0b1-1d0ae544fb00/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-thumbnail-1.png`}
                 ],
             },
             {
@@ -34,9 +34,9 @@ export const educationData_TH = [
                 explanation: "โปรแกรม 'Schema Museum Atelier' เป็นโปรแกรมการค้นพบตัวเองที่คุณค้นพบเอกลักษณ์และความพิเศษของตัวเองผ่านการสร้างสรรค์งานศิลปะผ่านการแสดงออกทางภาพใหม่ ๆ ผ่านการสังเกต ชื่นชม และเห็นอกเห็นใจกับโลกผ่านศิลปินร่วมสมัย 3 คน มันเป็นโปรแกรม โปรแกรมนี้ซึ่งมีศิลปินร่วมสมัยสามคนเข้าร่วม ได้แก่ 1. 'Sculpture Lab' กับศิลปินประติมากรรม Lee Ja-Yeon, 2. 'Image Lab' กับศิลปินจิตรกรรม Kim Dong-woo, 3. 'Form Lab' กับศิลปินจัดวางแบบเรียบๆ Choi มินโซล และประติมากรรมดิบ เราต้องการสร้างช่วงเวลาแห่งการสร้างสรรค์งานศิลปะที่เด็กๆ ที่เข้าร่วมสามารถแสดงความรู้สึกของตนออกมาได้อย่างตรงไปตรงมาในขณะที่สัมผัสประสบการณ์ศิลปะสมัยใหม่ในด้านต่างๆ เช่น การวาดภาพ ในเชิงลึกมากขึ้น",
                 host: "กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว สำนักงานส่งเสริมการศึกษาศิลปะและวัฒนธรรมเกาหลี",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4ae46749-73b4-4afb-24ae-f66621057a00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-2.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/11c82070-8468-4040-645c-6ab3c84dd200/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-thumbnail-2.png`}
                 ],
             },
             {
@@ -52,7 +52,7 @@ export const educationData_TH = [
                 explanation: "โปรแกรม 'Schema Museum Atelier' เป็นโปรแกรมการค้นพบตัวเองที่คุณค้นพบเอกลักษณ์และความพิเศษของตัวเองผ่านการสร้างสรรค์งานศิลปะผ่านการแสดงออกทางภาพใหม่ ๆ ผ่านการสังเกต ชื่นชม และเห็นอกเห็นใจกับโลกผ่านศิลปินร่วมสมัย 3 คน มันเป็นโปรแกรม โปรแกรมนี้ซึ่งมีศิลปินร่วมสมัยสามคนเข้าร่วม ได้แก่ 1. 'Sculpture Lab' กับศิลปินประติมากรรม Lee Ja-Yeon, 2. 'Image Lab' กับศิลปินจิตรกรรม Kim Dong-woo, 3. 'Form Lab' กับศิลปินจัดวางแบบเรียบๆ Choi มินโซล และประติมากรรมดิบ เราต้องการสร้างช่วงเวลาแห่งการสร้างสรรค์งานศิลปะที่เด็กๆ ที่เข้าร่วมสามารถแสดงความรู้สึกของตนออกมาได้อย่างตรงไปตรงมาในขณะที่สัมผัสประสบการณ์ศิลปะสมัยใหม่ในด้านต่างๆ เช่น การวาดภาพ ในเชิงลึกมากขึ้น",
                 host: "กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว สำนักงานส่งเสริมการศึกษาศิลปะและวัฒนธรรมเกาหลี",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f6887d75-4e72-4ec1-feed-30b062f69b00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -70,7 +70,7 @@ export const educationData_TH = [
                 explanation: "'Landscape Tour' เป็น 'ทัวร์' ศิลปะร่วมสมัยที่มีไหวพริบซึ่งบันทึกเรื่องราวเล็กๆ ที่ค้นพบขณะเดินเล่น ซึ่งเป็นแนวทางของศิลปิน ร่วมกับ Kim Ra-Yeon ศิลปินร่วมสมัยในท้องถิ่นของเรา และใช้วัตถุและสีเพื่อจับภาพบรรยากาศของสถานที่ ในสถานการณ์นั้นๆ เป็นรายการที่พยายามแสดง 'อารมณ์ทิวทัศน์' เรามุ่งมั่นที่จะสร้างช่วงเวลาแห่งศิลปะโดยร่วมมือกับครอบครัวที่เข้าร่วม โดยเราได้เดินผ่าน 'ฉากในชีวิตประจำวัน' โดยใช้วัสดุศิลปะและความคิดใหม่ๆ เพื่อถ่ายทอดอารมณ์ เข้าถึงพวกเขาจาก 'มุมมองใหม่' และแสดงออกผ่านจินตนาการทางศิลปะโดยใช้วัสดุต่างๆ .",
                 host: "พิพิธภัณฑ์สคีมา",
                 support: "ชุงชองบุกโด มูลนิธิวัฒนธรรมชุงบุก",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3a28cae3-354a-49f7-7b0a-f5f55eec0500/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-4.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -88,7 +88,7 @@ export const educationData_TH = [
                 explanation: "เพื่อให้เด็กและวัยรุ่นมีโอกาสชมและสัมผัสกับพิพิธภัณฑ์และหอศิลป์ผ่านการศึกษาที่ช่วยให้พวกเขาได้สัมผัสกับมรดกทางวัฒนธรรมของมนุษย์และผลิตภัณฑ์ทางประวัติศาสตร์ เพื่อที่พวกเขาจะได้เติบโตเป็นพลเมืองทางวัฒนธรรมที่สนใจในความเพลิดเพลินทางวัฒนธรรมมากขึ้นในที่สุด มี วัตถุประสงค์.",
                 host: "สมาคมพิพิธภัณฑ์เกาหลี",
                 support: "ธนาคาร KB Kookmin กระทรวงศึกษาธิการ กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f5172ec0-48a2-4592-6b7b-006182923100/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-5.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -106,7 +106,7 @@ export const educationData_TH = [
                 explanation: "จุดประสงค์คือเพื่อให้โอกาสในการชมนิทรรศการพิพิธภัณฑ์และหอศิลป์ และมีส่วนร่วมในโปรแกรมประสบการณ์ เพื่อให้นักเรียนจากชั้นเรียนด้อยโอกาสที่มีโอกาสเพลิดเพลินกับวัฒนธรรมค่อนข้างน้อยสามารถสัมผัสมรดกทางวัฒนธรรมของมนุษย์และผลิตภัณฑ์ทางประวัติศาสตร์",
                 host: "สมาคมพิพิธภัณฑ์เกาหลี, KB Insurance",
                 support: "เคบีประกันภัย",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7d39f38f-a11f-4234-b48a-ded33b57f700/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-6.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -130,11 +130,11 @@ export const educationData_TH = [
                 explanation: "การสำรวจและค้นพบลักษณะและองค์ประกอบทางศิลปะของวัตถุในชีวิตประจำวันกับประติมากร Solmoe Baek มองสิ่งเหล่านั้นแตกต่างจากมุมมองของศิลปิน เข้าใจลักษณะของประติมากรรมและแสง และความรู้สึกว่าเงาเป็นส่วนหนึ่งของประติมากรรมสามมิติ ” เรียนรู้ส่วนประกอบของประติมากรรมผ่าน 'การเล่นเงา' การสังเกตและพูดคุยเกี่ยวกับพิมพ์เขียวทางอารมณ์ของฉัน และการทำประติมากรรมตามพิมพ์เขียวทางอารมณ์ ส่วนหลังกิจกรรม หลังจากโปรแกรมที่ 3 จบ เพื่อนของเราก็กลับมา สถาบันที่เข้าร่วมโครงการและสอนเด็กๆ รำลึกถึงโครงการ 'Sculpture Pocket' ครั้งที่ 3 ในพื้นที่สำหรับเด็ก เราจึงสร้างและติดตั้งประติมากรรมโดยใช้วัสดุจาก 'Artist's Pocket' ซึ่งแจกประติมากรรม 'Sai' ที่เราชื่นชมในตอนท้าย และสร้างประติมากรรมชิ้นใหม่ในพื้นที่ของเด็กๆ “กิจกรรมสร้างสรรค์ที่เติมเต็มผลงานให้เป็นงานศิลปะ",
                 host: "พิพิธภัณฑ์สคีมา",
                 support: "ชุงชองบุกโด, มูลนิธิวัฒนธรรมชุงบุค ศูนย์สนับสนุนการศึกษาวัฒนธรรมและศิลปะชุงบุก",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/b5831065-8c7f-447a-db17-7c0ce4296200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-1.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8b198d3e-a287-47ee-d15a-7abc20e39400/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6841e399-547e-49a7-fddb-fda3b162d500/public"}, 
-                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/c1cbc7a2-9a72-4156-4ff7-33ae5d8da800/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-1.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-3.png`}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-6.jpg`}
                 ],
             },
             {
@@ -150,7 +150,7 @@ export const educationData_TH = [
                 explanation: "การให้โอกาสแก่นักเรียน รวมถึงกลุ่มเปราะบางซึ่งโอกาสในการเพลิดเพลินกับวัฒนธรรมลดลงเนื่องจากสถานการณ์โคโรนาไวรัสที่กำลังดำเนินอยู่ การดูแลร่างกายและจิตใจของพวกเขาผ่านพิพิธภัณฑ์และหอศิลป์ และเพื่อเติบโตเป็นพลเมืองที่มีวัฒนธรรมที่เป็นผู้ใหญ่",
                 host: "สมาคมพิพิธภัณฑ์เกาหลี, KB Insurance",
                 support: "เคบีประกันภัย",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/1231f8bf-e6af-44b4-8b92-461cdea3dd00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -168,10 +168,10 @@ export const educationData_TH = [
                 explanation: "'2022 You Over Flowers 6' จะมีทั้งหมด 5 วันทางวัฒนธรรม และกลุ่มเป้าหมายสำหรับโปรแกรมที่ 1 และ 2 จะเป็นนักเรียนชั้นประถมศึกษา และจะดำเนินการร่วมกับนักเขียน Lim Yun-muk และ Jeon Byeong-gu โปรแกรมที่ 1 กับนักเขียน Lim Yun-muk จะจัดขึ้นทางออนไลน์ โปรแกรมที่ 3 จะดำเนินการสำหรับครอบครัวที่มีนักเขียน Kim Ra-Yeon และโปรแกรมที่ 4 จะดำเนินการทางออนไลน์สำหรับนักเรียนมัธยมต้นกับนักเขียน Choi Min-sol สุดท้ายนี้ รายการจะประกอบด้วยรายการที่หลากหลายจนถึงช่วงที่ 5 กับผู้เขียน ซอ วานโฮ",
                 host: "กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/732887a6-63a1-47b2-d414-7c9f369ca400/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-3.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/14fa3b95-c928-43ae-9843-bd82d6cbdc00/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/beea6d75-bbbe-4ef6-cb11-3b82edbb4000/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-2.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-4.png`}
                 ],
             },
             {
@@ -187,9 +187,9 @@ export const educationData_TH = [
                 explanation: "'การจับเมฆที่ลอยอยู่' เป็นสำนวนเชิงเปรียบเทียบที่นำมาจากชื่อผลงาน 'Unyu (運遊): ลอยไปรอบ ๆ เหมือนเมฆลอย' โดยศิลปิน Shin Yong-jae พูดคุยเกี่ยวกับความรู้สึกที่คุณได้รับเมื่อมองท้องฟ้าและวาดภาพบนผืนผ้าใบ 'Catching a Floating Cloud' ซึ่งสร้างสรรค์ขึ้นร่วมกับศิลปิน Shin Yong-jae มีจุดมุ่งหมายเพื่อสร้างเวลาในการสัมผัสกับอุปมาอุปไมยและสัญลักษณ์ของศิลปะสมัยใหม่ และเข้าถึง จินตนาการ และแสดงออกด้วยมุมมองใหม่ วัสดุทางศิลปะ และความคิดที่สดใหม่ หลุดพ้นจากแนวคิดเดิมๆ นี่คือโปรแกรมที่กระตุ้นอารมณ์โดยตรงผ่านการ 'ฟื้นฟู' อารมณ์ในแต่ละวันของครอบครัวที่เข้าร่วมและ 'การระลึกถึงความทรงจำที่มีความสุข' และช่วยให้พวกเขาแสดงอารมณ์ของตนเองในรูปแบบเชิงเปรียบเทียบและมีไหวพริบในงานศิลปะสมัยใหม่",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/941229ba-7505-435e-acf7-0c0436299300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-4.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/ff324b67-d4e8-4ea1-8bf3-42885dd42400/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-5.png`}
                 ],
             },
         ]
@@ -211,12 +211,12 @@ export const educationData_TH = [
                 explanation: "การสำรวจและค้นพบลักษณะและองค์ประกอบทางศิลปะของวัตถุในชีวิตประจำวันกับประติมากร Solmoe Baek มองสิ่งเหล่านั้นแตกต่างจากมุมมองของศิลปิน เข้าใจลักษณะของประติมากรรมและแสง และความรู้สึกว่าเงาเป็นส่วนหนึ่งของประติมากรรมสามมิติ `เรียนรู้เกี่ยวกับส่วนประกอบของประติมากรรมผ่าน `การเล่นเงา` ชื่นชมประติมากรรมกลางแจ้งด้วยสายตาและสัมผัส ทนทานต่อ 'ประติมากรรม? ประติมากรรม!' และแยกชิ้นส่วนและสร้างส่วนประกอบของประติมากรรมขึ้นใหม่เพื่อแสดงประติมากรรมสามมิติของคุณเอง ดู",
                 host: "กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว ชุงชองบุกโด",
                 support: "กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว สำนักงานส่งเสริมการศึกษาศิลปะและวัฒนธรรมเกาหลี",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/644c419e-6c20-4800-24f4-12da5bbd4400/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-1.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=S1VLpEB_Bx4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/99a466d9-ac8f-485f-60c6-b230d0f6fc00/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=KqnfaJ3saaU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/35f513c5-8e0a-4f49-8d5a-bafbc32ccb00/public"}, 
-                    {order: 3, url: "https://www.youtube.com/watch?v=7Iu9juqKQVA", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a01e843f-0ae6-4b69-0e51-ff51aec95000/public"}, 
-                    {order: 4, url: "https://www.youtube.com/watch?v=jnpBTvT8aKs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7759d779-28b4-407b-3348-8214cfbeb200/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=S1VLpEB_Bx4", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-4.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=KqnfaJ3saaU", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-5.png`}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=7Iu9juqKQVA", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-6.png`}, 
+                    {order: 4, url: "https://www.youtube.com/watch?v=jnpBTvT8aKs", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-8.png`}
                 ],
             },
             {
@@ -232,10 +232,10 @@ export const educationData_TH = [
                 explanation: "โปรแกรม 'Mi-niverse' ซึ่งรวบรวมศิลปะสมัยใหม่ผ่านบันทึกชีวิตร่วมกับศิลปิน 'Shin Yong-jae' สร้างความเห็นอกเห็นใจและพื้นที่สำหรับครอบครัว และลดเกณฑ์สำหรับศิลปะสมัยใหม่ เพื่อให้ครอบครัวสามารถเพลิดเพลินกับศิลปะสมัยใหม่ในชีวิตของพวกเขา แทนที่จะต้องลำบากกับมันถึงเวลาที่จะหลอมละลายศิลปะสมัยใหม่ ผ่านประสบการณ์ทางศิลปะที่หลากหลายในการวาดภาพร่วมกับศิลปิน ชิน ยองแจ ถึงเวลาที่จะค้นหาและสัมผัสงานศิลปะได้ทุกที่ ยอมรับประสบการณ์ทางศิลปะใหม่ ๆ ว่าเป็นความสุข และแบ่งปันมุมมองของศิลปินกับครอบครัวที่เข้าร่วม แนวทางที่ผสมผสานเข้ากับครอบครัวและชีวิต แทนที่จะเป็นแนวทางศิลปะสมัยใหม่ที่เรียบง่าย นี่คือโปรแกรมที่พยายามรวมเอาศิลปะสมัยใหม่เข้าด้วยกัน",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/66b56acd-97f7-4634-1f0c-c7e8b2a9c300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-2.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=qXjmRDkQVXc", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8243576f-5cea-4046-c8c5-1f31196fd400/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=ZSNb0_T5D_U", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/541dab42-2d69-4137-a8c5-6012375fa800/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=qXjmRDkQVXc", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-3.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=ZSNb0_T5D_U", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-7.png`}
                 ],
             },
             {
@@ -251,10 +251,10 @@ export const educationData_TH = [
                 explanation: "'2021 You Over Flowers 5' จะมีทั้งหมด 5 วันทางวัฒนธรรม และเป้าหมายของโปรแกรมที่ 1, 3, 4 และ 5 จะเป็นเด็ก (ศูนย์เด็กท้องถิ่น), ชิน ยงแจ และไนออล คราเวน จะ ดำเนินการโดยนักเขียน Lee Go-woon และ Lee Seon-gu และรายการที่ 2 จะดำเนินการร่วมกับนักเขียน Choi Jae-young สำหรับผู้ใหญ่ (แม่บ้าน) รายการที่ 3 จะดำเนินการร่วมกับนักเขียน Niall Craven และรายการที่ 4 จะเป็น ดำเนินการร่วมกับนักเขียน Lee Go-woon โดยจะจัดขึ้นเป็นชั้นเรียนออนไลน์บน YouTube ที่ Schema Museum of Art",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8c33e0ca-2b1c-493e-6505-8e4418f74f00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-3.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=mxBb5jyxbvs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e382d8d5-8712-4d3e-5845-7206b12eed00/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=g95XGEb9T-w", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9a266245-c36b-4fd5-556e-fc3a0f96fe00/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=mxBb5jyxbvs", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-1.jpg`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=g95XGEb9T-w", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-2.png`}
                 ],
             },
             {
@@ -270,7 +270,7 @@ export const educationData_TH = [
                 explanation: "",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9c06d656-d695-4bdc-bf53-fa4e25a1b200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-4.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -288,7 +288,7 @@ export const educationData_TH = [
                 explanation: "ประสบการณ์ภาพพิมพ์ที่คุณสามารถสังเกตและนั่งสมาธิกับธรรมชาติและจับภาพธรรมชาติและฤดูกาลผ่านภาพคอลลากราฟโดยใช้วัสดุธรรมชาติที่สวยงามรอบตัวเรา ถึงเวลาสัมผัส คอลลากราฟ เทคนิคการแกะสลักซึ่งเป็นหนึ่งในวิธีการภาพพิมพ์มากมาย ช่วงเวลาแห่งความรู้สึกและสนใจธรรมชาติและฤดูกาลโดยใช้วัสดุจากธรรมชาติ",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/51851154-3acf-495a-6353-645697684e00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-5.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -312,7 +312,7 @@ export const educationData_TH = [
                 explanation: "กำหนดการจัดนิทรรศการปี 2020 วันที่ 13 สิงหาคม - 30 สิงหาคม นิทรรศการเดี่ยวของ Kim Kyeong-ae 'Variations of Life', 3 กันยายน - 4 ตุลาคม การหายใจเข้าและออก 'On the Road', 3 กันยายน - 4 ตุลาคม นิทรรศการเดี่ยวของ Heo Mun-jeong สวนของฉัน 'สวนของฉัน ' 8 ตุลาคม - 1 พฤศจิกายน เดินชมรอบๆ Seowon-gyeong - เมืองวัฒนธรรมและศิลปะ Cheongju - นิทรรศการศิลปะร่วมสมัย Jeonju",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e44c4797-0e29-42a8-d76d-c0a0ad9d7300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -330,7 +330,7 @@ export const educationData_TH = [
                 explanation: "ค้นหาความหลากหลายในตัวเอง_ค้นหาตัวเอง คุ้นเคยกับศิลปะสมัยใหม่และสิ่งแวดล้อมทางธรรมชาติ_ศิลปะสมัยใหม่ที่หลากหลาย เรียนรู้การทำให้เข้าใจง่ายในโลกที่ซับซ้อน_โลกในสี่เหลี่ยม จดหมายถึงตัวเองผ่านความหมายของพืช_ต้นไม้ของฉัน หุ่นนิ่งโดยศิลปิน การตีความและแสดงออกถึงหุ่นนิ่งของคุณเอง ผ่าน_ชีวิตของฉัน",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/0d1c4849-f213-4ddd-3b26-eb537b9fe000/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -348,10 +348,10 @@ export const educationData_TH = [
                 explanation: "โครงการ Art Star สำหรับเด็กปฐมวัยประจำปี 2020 เป็นโอกาสในการชื่นชมสภาพแวดล้อมทางธรรมชาติและท้องฟ้าตามฤดูกาลในชีวิตประจำวันโดยใช้เครื่องมือต่างๆ ร่วมกับศิลปิน Shin Yong-jae ผู้สังเกตเห็น 'ท้องฟ้า' ที่ไม่มีวัตถุ เปลี่ยนให้กลายเป็น และบันทึกภาพไว้บนพื้นผิว 2 มิติ “รายการที่คุณจะพบและสัมผัสประสบการณ์ทางศิลปะต่างๆ ในวัยเด็ก ทุกที่ทุกเวลา โดยการสังเกต แสดงออก และสื่อสารกับท้องฟ้าที่เปลี่ยนแปลงไป",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/d68eb492-93a7-4bb5-3b1d-a49d3197da00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-3.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=G20J4kGWu7s", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a8bd0edf-999e-404d-fc23-f3e819989d00/public"},
-                    {order: 2, url: "https://www.youtube.com/watch?v=pT6tuKB14U4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6b8cf315-212f-4409-26b4-7a8161b97b00/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=G20J4kGWu7s", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-thumbnail-1.png`},
+                    {order: 2, url: "https://www.youtube.com/watch?v=pT6tuKB14U4", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-thumbnail-4.png`}
                 ], 
             },
             {
@@ -367,10 +367,11 @@ export const educationData_TH = [
                 explanation: "สสารในฐานะวัสดุมีส่วนสำคัญมากในงานศิลปะซึ่งมีลักษณะเป็นภาพ ศิลปินหลายคนใช้สื่อเหล่านี้เพื่อสร้างแนวคิดที่เป็นนามธรรมในหัวให้กลายเป็นความจริง ดังนั้นวัสดุในฐานะวัสดุจึงได้รับการทดลอง ปรับปรุง และพัฒนามาอย่างหลากหลายในงานศิลปะสมัยใหม่ควบคู่ไปกับประวัติศาสตร์ศิลปะ แม้กระทั่งในปัจจุบัน ศิลปะสมัยใหม่ก็ถูกสร้างขึ้นด้วยวัสดุที่ไม่มีที่สิ้นสุด โปรแกรม '2020 Crossing' ของ Schema Museum of Art เป็นกระบวนการรวบรวมความคิดเชิงนามธรรมไว้ในใจร่วมกับศิลปินประติมากรรมนามธรรมในท้องถิ่น 'Baek Solmoe' และครอบครัวที่เข้าร่วมจะแบ่งปันมุมมองของศิลปินโดยใช้วัสดุต่างๆ ที่จำเป็นสำหรับกระบวนการนี้ โปรแกรมที่พยายามสำรวจความคิดด้วยการเปิดประสาทสัมผัสทั้งหมด นอกเหนือจากการแสดงออกทางสายตาของความคิดที่ไม่มีรูปแบบและไม่ใช่วัตถุ มากกว่าเป็นเพียงวิธีจัดการกับวัตถุ",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4642f7c8-3854-4526-3ab2-e4bc46fbf600/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-4.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=NfUEFH7C1w4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/5459f38f-496a-4751-bbb7-768c80fba400/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=WfY01k6jMEI", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2d0e042f-37e5-4281-f9fa-f9463996e200/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=NfUEFH7C1w4", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-thumbnail-3.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=WfY01k6jMEI", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-thumbnail-1.png`},
+                    {order: 3, url: "https://www.youtube.com/watch?v=0e1Rd8M4Ezo", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-thumbnail-2.png`}
                 ],
             },
             {
@@ -386,7 +387,7 @@ export const educationData_TH = [
                 explanation: "ในวันแห่งวัฒนธรรม 'You Over Flowers 4' เป็นนิทรรศการที่มีเอกลักษณ์เฉพาะของศิลปิน โดยมีศิลปิน Joo-hyung Kang, Yun-ho Kim, Su-min Na, Seung-hoon Lee และ Garam Hong ท่ามกลางศิลปินที่เข้าร่วมใน นิทรรศการพิเศษ Schema Museum of Art ประจำปี 2020 นำเสนอศิลปะร่วมสมัยที่หลากหลายและแสดงโลกของพวกเขา โปรแกรมเข้าใจมุมมองและมีประสบการณ์ทางศิลปะ",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/04611a47-a677-48e2-c683-84c9abee4e00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-5.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -410,9 +411,9 @@ export const educationData_TH = [
                 explanation: "นิทรรศการ 1 ครอบครัว 1 สร้างสรรค์เวลาแห่งการสื่อสารและความเข้าใจในครอบครัวโดยเปลี่ยนเรื่องราวประจำวันของครอบครัวให้เป็นงานศิลปะ มีส่วนร่วมในกระบวนการสร้างนิทรรศการทั้งหมดผ่านการสำรวจวัสดุ ความเข้าใจในวัสดุ การผลิตผลงาน การชื่นชมผลงาน การบันทึก และการส่งเสริม มีส่วนร่วมในการดูแลตนเอง กระบวนการทำงานอย่างสร้างสรรค์ร่วมกัน การสร้างวิธีการและระบบ 'การสื่อสาร' ที่เน้น 'กระบวนการ' โดยการแบ่งปันประสบการณ์ความล้มเหลวและกระบวนการ โอกาสในการขยายทักษะทางสังคมด้วยการพบปะกับเพื่อนฝูงที่หลากหลายนอกเหนือจากเพื่อนในชีวิตประจำวัน นอกครอบครัว ทริปศิลปะกับศิลปินฮักซัม ฮวาง และตัวแทนศิลปินประติมากรรมท้องถิ่น เวลาที่สัมผัสความแตกต่าง 'ดื่มด่ำ' ร่วมกัน เยี่ยมชมสตูดิโอของศิลปินและแบ่งปันประสบการณ์ส่วนตัวของศิลปิน โอกาสในการขยายประสบการณ์ของคุณโดย แบ่งปันประสบการณ์ทางศิลปะของคุณ ชื่นชมประติมากรรมกลางแจ้งของ Shema Art Museum และมองให้แตกต่างออกไป ถ่ายทอดงานศิลปะประเภทต่าง ๆ พื้นที่ว่างให้สัมผัสและสร้างสรรค์ด้วยตัวคุณเอง พื้นที่สำหรับการแสดงออกอย่างอิสระ ที่คุณสามารถสัมผัสและเข้าใจรูปทรงและการสังเกต สีและพื้นผิว ความเข้าใจ และการขยายพื้นที่ แสดงออก สร้างสรรค์ และสร้างเวลาในการเล่นวัสดุฟรี ซึ่งผู้เข้าร่วมสามารถแบ่งปันเรื่องราวจากพิพิธภัณฑ์ได้อย่างอิสระ ถึงเวลาค้นหาและแก้ไขด้วยตัวเอง",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/d4642c0c-5757-4999-2608-a2e17466d300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-1.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=s3McvuRhtWU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e9418526-07cd-406e-c237-a6a1d8d01500/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=s3McvuRhtWU", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-thumbnail-1.jpg`}
                 ],
             },
             {
@@ -428,10 +429,10 @@ export const educationData_TH = [
                 explanation: "ประติมากรศิลปะสมัยใหม่ Lim Seung-gyun ผู้ซึ่งผสมผสานสภาพแวดล้อมทางธรรมชาติเช่นธรรมชาติและระบบนิเวศเข้ากับศิลปะได้เข้าร่วมในด้านประสบการณ์ศิลปะ (มองหาความงาม การแสดงออกทางศิลปะ) และกระบวนการสำรวจธรรมชาติ (รักษาความอยากรู้อยากเห็น , “นี่เป็นโปรแกรมที่ให้โอกาสในการทำความเข้าใจวิธีการแสดงออกที่หลากหลายของศิลปินตามหลักสูตร Nuri ในพื้นที่โปรแกรมที่กำลังขยายและใกล้ชิดกับงานศิลปะมากขึ้นโดยการวิ่งไปรอบ ๆ พื้นที่ของพิพิธภัณฑ์อย่างอิสระด้วยความอยากรู้อยากเห็นเกี่ยวกับศิลปะและการแสดงออกที่หลากหลาย และประสบการณ์ทางศิลปะ",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2377976e-d2d5-4a99-0c08-310424c52b00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-2.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=hlIhjiBdTjU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f7bbf229-e88f-4519-f1ab-9946a2ebd600/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=oDX8PXOsdFE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/797b4ddd-2eec-4478-4ee4-aca4ccf59700/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=hlIhjiBdTjU", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-thumbnail-3.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=oDX8PXOsdFE", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-thumbnail-2.png`}
                 ],
             },
             {
@@ -447,7 +448,7 @@ export const educationData_TH = [
                 explanation: "ศิลปินที่เข้าร่วมใน '2019 You Over Flowers 3' ได้แก่ศิลปิน Seung-gyun Lim, Min-gyu Hwang, Yun-seop Kim, Shin Yong-jae และ Kang Hee-jung ซึ่งแสดงศิลปะร่วมสมัยต่างๆ และแสดงโลกของพวกเขาท่ามกลาง ศิลปินที่เข้าร่วมนิทรรศการพิเศษ Schema Museum of Art 2019 ทำความเข้าใจและสัมผัสงานศิลปะ",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2de1b977-548c-408f-d37c-de5e3e645000/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -471,7 +472,7 @@ export const educationData_TH = [
                 explanation: "โปรแกรม With U เป็นโปรแกรมที่ผสมผสานทัศนศิลป์และประสบการณ์เพื่อช่วยให้เด็กๆ จากภูมิภาค 'Naesu' และเด็กหลากวัฒนธรรมเรียนรู้เกี่ยวกับความแตกต่างผ่านทางอาหาร เสื้อผ้า และที่พักพิง เพื่อสร้างผลลัพธ์สุดท้าย ด้วย U ZONE โครงการแลกเปลี่ยนที่เข้าใจและเห็นคุณค่าของความแตกต่างระหว่างกันผ่านโปรแกรมการศึกษาของ obibus และสื่อสารและจำกัดความแตกต่างผ่านวัฒนธรรมของประเทศต่างๆ ทั่วโลก",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8d1d4051-954d-4937-c8c5-3ef7478c7b00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2018/18-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -489,7 +490,7 @@ export const educationData_TH = [
                 explanation: "ในโครงการ '2018 You Over Flowers 2' สำหรับ 'Finding Me' เราทำงานร่วมกับจิตรกรรุ่นเยาว์ 5 คน (Lee Seon-hee, Lim Bae Ji-hee, Han Seong-woo, Kim Yun-seop และ Lee Seo-in) ท่ามกลางศิลปินร่วมสมัยต่าง ๆ เพื่อทำความเข้าใจการแสดงออกที่เป็นเอกลักษณ์ของศิลปินและพัฒนาทักษะทางศิลปะ ประสบการณ์",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/eb461b31-8f0c-45b1-6144-e2fbbbc69200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2018/18-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -507,7 +508,7 @@ export const educationData_TH = [
                 explanation: "กฎหมาย Neighborhood 1% ของเรา ซึ่งเป็นโครงการที่เปลี่ยนแปลงกฎหมายที่กำหนดให้ต้องมีการติดตั้งประติมากรรมสาธารณะในอาคารขนาดใหญ่ให้เป็นโครงการความร่วมมือในท้องถิ่นขนาดเล็ก ในทางกลับกัน งานขนาดใหญ่ของศิลปินกลับถูกนำมาใช้เพื่อส่งเสริมให้ชาวหมู่บ้านดูแลถนน ต้นไม้และสิ่งแวดล้อมโดยรอบ โครงการที่ทุกคนสามารถสร้างสรรค์และสัมผัสงานศิลปะสาธารณะร่วมกัน",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7fd1dfb7-b605-4227-76dd-03e5f8837400/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2018/18-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -525,7 +526,7 @@ export const educationData_TH = [
                 explanation: "โปรแกรม Dream Cube + Link เข้าร่วมโดยเยาวชน Jeungpyeong (นักเรียนชั้นมัธยมศึกษาปีที่ 1 ถึงชั้นประถมศึกษาปีที่ 1 ถึงชั้นประถมศึกษาปีที่ 3) และมีเป้าหมายที่จะใช้พื้นที่ Dream Cube 1 และ 2 ที่มีอยู่เป็นส่วนขยายของศิลปะสาธารณะไปยังศูนย์วัฒนธรรม Jeungpyeong และประชาชน เยาวชนค้นพบอัตลักษณ์ของตนเองผ่านการทำความเข้าใจและเข้าถึง 'ศิลปะสาธารณะ' และสัมผัสประสบการณ์กิจกรรมต่าง ๆ พัฒนาเส้นทางอาชีพผ่านความสนใจและการสำรวจอย่างสร้างสรรค์ และเพิ่มความรู้สึกเป็นเจ้าของและมีส่วนร่วมใน 'ละแวกใกล้เคียง' ที่พวกเขาอยู่ เราต้องการทำให้ มันเป็นช่วงเวลาที่มีความหมาย",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/571c2080-f437-4798-ad5f-97523dff1300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2018/18-4.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -543,7 +544,7 @@ export const educationData_TH = [
                 explanation: "โปรแกรม Toto Table เป็นโปรแกรมการมีส่วนร่วมของครอบครัวที่ตระหนักถึงพื้นฐานของอาหารที่ดีและให้การศึกษาเชิงประสบการณ์สำหรับประสาทสัมผัสทั้งห้าโดยใช้ธรรมชาติเป็นสื่อกลางในสมัยนี้ เมื่อปัญหาการเปลี่ยนแปลงสภาพภูมิอากาศ พลังงานที่หมดสิ้น เกษตรกรรมและวิกฤตอาหาร และการแบ่งขั้วของอาหาร รุนแรงมากขึ้นกว่าเดิม เป็นโปรแกรมทำอาหารกินเองโดยใช้พืชผลจากสวน จัดขึ้นที่ห้องศึกษาและสวนกลางแจ้งของ Schema Museum of Art เป็นกิจกรรมทัศนศิลป์ที่หลากหลายที่เพิ่มความเพลิดเพลินให้กับ รับประทานอาหารอย่างเพลิดเพลินในการชมการเติบโตในสวนและช่วยให้คุณทำอาหารรับประทานเองในครอบครัว โปรแกรมการเล่นที่ซับซ้อนที่ทำ",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a9d6708e-8758-4897-9f74-eb8cbdaf1f00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2018/18-5.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -567,7 +568,7 @@ export const educationData_TH = [
                 explanation: "is is what~. เป็นคำใหม่ แปลว่า อะไรจะแย่ ก็คือ 'ถ้าเป็น ART อะไรก็ดี' วันวัฒนธรรมปี 2017 ที่ Schema Museum of Art เป็นชื่อที่ได้รับเลือกเพื่อลดเกณฑ์มาตรฐานของพิพิธภัณฑ์ศิลปะด้วยสโลแกน `มีอะไรแย่เกี่ยวกับ ART?` และจะนำเสนอเรื่องราว ART ที่สดใสซึ่งมีศูนย์กลางอยู่ที่นิทรรศการที่ Shema Museum เรื่องราวในนิทรรศการ และขั้นตอนการผลิตผลงานของศิลปิน เราวางแผนที่จะ พิจารณาศิลปินพร้อมคำบรรยายโดยภัณฑารักษ์ประมาณ 10 รอบ ตั้งแต่เดือนมีนาคมถึงธันวาคม โดยเฉพาะอย่างยิ่ง ภายในขอบเขตของวันวัฒนธรรม เราวางแผนที่จะดำเนินการปรับแต่งตามลักษณะของเป้าหมายความต้องการ ผสมผสานทิศทางที่เป็นที่สนใจของผู้บริโภคและทิศทางที่เป็นประโยชน์ทางการศึกษาอย่างเหมาะสม และใช้ความหมายของ 'วันวัฒนธรรม' อย่างจริงจัง โดยเฉพาะอย่างยิ่ง ด้วยความเข้าใจของศิลปินผ่านการวางแผนและการจัดเตรียมนิทรรศการ โปรแกรมจึงถูกสร้างขึ้นเพื่อให้บริการที่ปรับให้เหมาะสมและความก้าวหน้าสำหรับผู้เข้าร่วมแต่ละคนใน 'Culture Day'",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9fcdd99d-1e24-4704-f637-1f4bac268f00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2017/17-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -585,7 +586,7 @@ export const educationData_TH = [
                 explanation: "ในกระบวนการเรียนรู้ความหมายของเหงื่อและความสุขของการเก็บเกี่ยว Toto Farm 2 ตระหนักถึงความสุขของการทำงานควบคู่ไปกับความรักอันอบอุ่นต่อธรรมชาติ และเสริมสร้างทักษะการคิดเชิงรุกและเชิงรุกด้วยการสัมผัสกับความร่วมมือและความรู้สึกของชุมชน นอกโรงเรียน นักเรียนออกจากห้องเรียนในร่มอันแสนอบอ้าว และเข้าสู่อ้อมกอดของธรรมชาติที่สดชื่นและอิสระ เสริมสร้างทักษะการสังเกต ทักษะการคิด และความอยากรู้อยากเห็นโดยการสังเกตว่าพวกเขาเติบโตและเปลี่ยนแปลงไปตามกาลเวลากับดินและสัตว์อย่างไร Cube 2 of Dreams เป็นพื้นที่ทางวัฒนธรรมที่เยาวชนสร้างขึ้นเอง และพยายามค้นหาว่าพื้นที่ดังกล่าวจะขยายและใช้ประโยชน์ประเภทใด และสร้างพื้นที่แห่งประสบการณ์สำหรับการสื่อสารอย่างต่อเนื่องสำหรับเยาวชนในภูมิภาค เรามุ่งหวังที่จะจัดเตรียมสภาพแวดล้อมเพื่อสร้างวันเสาร์ที่ดีต่อสุขภาพและสนุกสนานสำหรับเยาวชนที่เข้าร่วมในโรงเรียนมัธยมศึกษาปีที่ 1 ถึงชั้นประถมศึกษาปีที่ 3 ผ่านกิจกรรมของโครงการ พวกเขาได้สัมผัสกับความสำเร็จและความร่วมมือซึ่งกลายเป็นแรงผลักดันที่อยู่เบื้องหลังความกระตือรือร้นผ่านกิจกรรมของโครงการ และการคิดเชิงบวกและกระบวนการเติบโตที่พึงประสงค์ อยากเป็น นอกจากนี้เรายังมุ่งมั่นที่จะมอบโอกาสและประสบการณ์ให้กับเยาวชนในการสำรวจเส้นทางอาชีพที่หลากหลายและเติบโตเป็นศิลปินที่มีความคิดสร้างสรรค์",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/1015dcd7-aa41-4b61-47bb-c998e8ce9500/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2017/17-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -609,7 +610,7 @@ export const educationData_TH = [
                 explanation: "Toto Garden เป็นโปรแกรมที่อธิบายสถานที่และปัจจัยด้านสิ่งแวดล้อมของ Schema Museum of Art ผ่านการศึกษา และเป็น 'โปรแกรมการบรรจบกันประเภทประสบการณ์ธรรมชาติ' ที่ทั้งครอบครัวสามารถเพลิดเพลินร่วมกันภายใต้สโลแกน 'Garden Education + Regeneration' . ตามโปรแกรมการทำสวนที่สร้างขึ้นร่วมกับครอบครัว ชั้นเรียนเป็นสถานที่สำหรับการสื่อสารระหว่างครอบครัว สังเกตสิ่งที่เกิดขึ้นระหว่างกระบวนการทำสวน และส่งเสริมความคิดและความฝันผ่านวารสารทางการเกษตรและประสบการณ์โดยใช้ภาษาของประสาทสัมผัสทั้งห้า โปรแกรมที่ เลี้ยงดู Cube of Dreams ตั้งอยู่ใน Jeungpyeong-gun ซึ่งเป็นพื้นที่ที่ค่อนข้างด้อยโอกาสทางวัฒนธรรม และจัดขึ้นที่ศูนย์วัฒนธรรม Jeungpyeong ซึ่งเป็นสถาบันวัฒนธรรมที่เป็นตัวแทนของใน Jeungpyeong-gun ภายใต้ธีม `พื้นที่ทางวัฒนธรรมที่สร้างสรรค์โดยเยาวชน` หากพิพิธภัณฑ์ศิลปะที่มีอยู่ไม่สามารถเข้าถึงได้และเข้าถึงได้ยาก 'Dream Cube' มีจุดมุ่งหมายเพื่อใช้เป็นพื้นที่ทางวัฒนธรรมแห่งความสามัคคีและการสื่อสารที่เยาวชนของ Jeungpyeong-gun สามารถสร้าง ดำเนินการ และเพลิดเพลินร่วมกับประชาชนได้ โดยผสมผสานกับ ศิลปะในชีวิตประจำวัน",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/33673495-0e16-4a70-3b2b-7772d3259e00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2016/16-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -627,7 +628,7 @@ export const educationData_TH = [
                 explanation: "นี่คือ 'โครงการศิลปะสาธารณะ' ที่ออกแบบมาเพื่อสร้างและขยายการทำงานของ 'วัฒนธรรม Sarangbang' ในฐานะพื้นที่วัฒนธรรมที่เป็นตัวแทนของหมู่บ้าน เรามุ่งมั่นที่จะสร้างพื้นที่ทางวัฒนธรรมที่ซับซ้อนซึ่งผู้อยู่อาศัยในหมู่บ้านทุกคนสามารถสอน เรียนรู้ และเล่น และสร้างงานที่ใช้ประโยชน์จากคุณลักษณะของหมู่บ้านเพื่อรักษาความสัมพันธ์ที่ดีระหว่างผู้อยู่อาศัยในท้องถิ่น",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6b0d6aff-50be-4d85-0aad-91b7b7cb7200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2016/16-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -645,7 +646,7 @@ export const educationData_TH = [
                 explanation: "เนื่องจากขอบเขตของชีวิตทางวัฒนธรรมนั้นแคบและมีผู้สูงอายุและเด็กจากชนชั้นล่างจำนวนมาก 'การเยี่ยมชมพิพิธภัณฑ์ศิลปะ - You Over Flowers' จึงจัดขึ้นในรูปแบบของ 'โปรแกรมการเยี่ยมชม' โดยแบ่ง 'บ้านพักคนชรา Chojeong' และ 'ศูนย์เด็กภูมิภาค Naesu' ครั้งละครั้ง เราต้องการดำเนินการตามโครงการต่อไป โครงการ “เยี่ยมชมพิพิธภัณฑ์ศิลปะ - คุณเหนือดอกไม้” ​​จะติดต่อสถาบันที่เกี่ยวข้องโดยตรงเพื่อแก้ไขปัญหาที่ผู้บริโภคต้องเผชิญเกี่ยวกับ 'ความคล่องตัว' ที่อาจ จำกัดเนื่องจากปัญหาต่างๆ เช่น ปัญหาเกี่ยวกับยานพาหนะ ปัญหาสุขภาพ และการไม่สามารถเดินทางพร้อมผู้ปกครองได้ นี่คือ 'โครงการเชื่อมโยงศิลปินสะสม' ที่ดำเนินการผ่านการเยี่ยมชม หลังจากเลือกผลงาน 2 ชิ้นจากคอลเลกชันของพิพิธภัณฑ์แล้ว ศิลปินของคอลเลกชันคือ ขอเชิญร่วมแสดงความคิดเห็นเกี่ยวกับผลงานผ่านการพบปะกับศิลปินและโครงการสร้างสรรค์ผลงาน โดยช่วงแรก จัดขึ้นร่วมกับศิลปิน ชิน ชอลวู 'You Over Flowers ตอนที่ 1' ร่วมกับนักเขียน ชิน ชอล-วู ครั้งที่ 2 'You Over Flowers ตอนที่ 2' กับผู้เขียน ชินชอลวู",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f4a77190-a113-4f71-33eb-5fd80842db00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2016/16-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -669,7 +670,7 @@ export const educationData_TH = [
                 explanation: "'ประเภทที่เชื่อมโยงกับศิลปิน (งาน)' ที่ตรวจสอบจุด เส้น และระนาบที่แสดงในสถาปัตยกรรม การวาดภาพ วิดีโอ ท่าทาง (การแสดง) เรขาคณิต นามธรรม และการวาดภาพเรียบๆ และพยายามสนทนาที่สัมผัสความรู้สึกระหว่างผู้สร้าง ผู้สร้าง และผู้เข้าร่วมโครงการตามสิ่งเหล่านี้ 'โปรแกรมประสบการณ์'",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/ad63b325-f7b2-4c29-0788-668eef473a00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2015/15-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -687,7 +688,7 @@ export const educationData_TH = [
                 explanation: "นี่คือโปรแกรมที่ปรับแต่งสำหรับพิพิธภัณฑ์ศิลปะโดยใช้วิธีการศึกษาแบบ 'ห้องเรียนพลิก' ซึ่งเริ่มต้นในด้านการศึกษาของอเมริกาในปี 2010 และเพิ่งแพร่กระจายไปทั่วโลก. เช่นเดียวกับวิธีการศึกษาแบบ 'ห้องเรียนพลิกกลับ' เพิ่มความสนุกสนานและความลึกในการศึกษาผ่านกิจกรรมต่างๆ แทนชั้นเรียนบรรยายที่น่าเบื่อซึ่งแต่เดิมเคยใช้ในห้องเรียน พิพิธภัณฑ์กลับหัวกลับคืนรูปแบบการศึกษาที่เกี่ยวข้องกับนิทรรศการที่มีอยู่และเข้ามาแทนที่แบบเหมารวมของ 'ศึกษา' งานศิลปะ ประกอบด้วยโปรแกรมแบบโต้ตอบ VTS (Visual Thinking Strategy) ที่ครอบครัว เด็ก และวัยรุ่น สนทนา 'ฟรี' โดยไม่มี 'คำตอบที่ถูกต้อง' หน้างานศิลปะ และกิจกรรมเชิงประสบการณ์ต่างๆ (เยี่ยมชม สตูดิโอศิลปิน/การศึกษาประสบการณ์ศิลปะสร้างสรรค์ ฯลฯ) ด้วยวิธีการสอน VTS (กลยุทธ์การคิดด้วยภาพ) ต่อหน้างานศิลปะ - ประสบการณ์ศิลปะที่สนุกสนานที่หอศิลป์ท้องถิ่นและสตูดิโอศิลปิน! องค์กรเอกชนจดทะเบียน 25 องค์กร ทั่วประเทศ เข้าร่วมโครงการโดยใช้วิธีสอนแบบ VTS (Visual Thinking Strategy) ในการถามและตอบคำถามปลายเปิดเกี่ยวกับหัวข้อหรือสถานการณ์โดยไม่ต้องให้ข้อมูลเกี่ยวกับงานหน้างานศิลปะซึ่งเป็นโครงการให้ความรู้ ที่ให้นักศึกษาได้ชื่นชมผลงานศิลปะในพิพิธภัณฑ์และสตูดิโอศิลปินในเครือพิพิธภัณฑ์ในภูมิภาค",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4874cc53-e8a9-46f7-2aa2-881eeada2300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2015/15-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -705,7 +706,7 @@ export const educationData_TH = [
                 explanation: "เป็น 'โปรแกรมประสบการณ์ศิลปะแบบการเล่น' ที่เข้าถึง 'การเล่น' ผ่านงานศิลปะในรูปแบบต่างๆ ผู้เข้าร่วมจะได้สัมผัสประสบการณ์ศิลปะประเภทต่างๆ และสัมผัสประสบการณ์ทางกายภาพ อารมณ์ และองค์ประกอบทางเทคนิคผ่านสิ่งเหล่านี้ นอกจากนี้ในฐานะโปรแกรมที่ผสมผสาน 'การบรรจบกันและองค์ประกอบที่ซับซ้อน' เข้าด้วยกัน จึงทำให้ผู้เข้าร่วมมีโปรแกรมที่น่าสนใจด้วยประเภทต่างๆ ผลงานต่างๆ และสื่อต่างๆ ช่วยให้พวกเขาได้สำรวจศิลปะอื่น ๆ โดยทุกโปรแกรมจะมอบประสบการณ์โดยตรงมากกว่าโดยอ้อม ด้วย ตามคำขวัญ เราแบ่งกิจกรรมเชิงประสบการณ์ออกเป็นขั้นตอนต่างๆ และพยายามที่จะเข้าถึงชุดของกระบวนการตั้งแต่ความชื่นชมในงานไปจนถึงการผลิตโดยใช้วัสดุที่หลากหลายและวิธีการต่างๆ และวางแผนที่จะอนุญาตให้มีการสำรวจเชิงลึกภายในกรอบการทำงานขั้นพื้นฐานที่สุดของ 'ศิลปะ' . . วิธีการดำเนินโครงการนี้จะสามารถกระตุ้นความสนใจและความกระตือรือร้นของผู้เข้าร่วม และแม้กระทั่งหลังจากสิ้นสุดโครงการในอนาคต ผู้เข้าร่วมจะสามารถแนะนำทิศทางสำหรับการชื่นชมงานศิลปะอย่างเสรี และท้ายที่สุด ผ่านทางนี้ ผู้เข้าร่วมจะได้เดินตามความฝันต่อไป โปรแกรมที่จะช่วยให้คุณก้าวไปข้างหน้า",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7999ed4d-f4f0-4039-3dd3-48b9ff263600/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2015/15-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -723,7 +724,7 @@ export const educationData_TH = [
                 explanation: "Schema Museum of Art มีเป้าหมายที่จะขยายโอกาสของสาธารณชนในการเพลิดเพลินกับวัฒนธรรมโดยการสนับสนุนโปรแกรมทางวัฒนธรรมและการศึกษาต่างๆ ของพิพิธภัณฑ์ศิลปะเอกชนที่เกี่ยวข้องกับวันวัฒนธรรม และเพื่อมอบสถานที่ท่องเที่ยวและประสบการณ์ที่หลากหลายแก่ผู้มาเยี่ยมชมพิพิธภัณฑ์ศิลปะส่วนตัวในวันวัฒนธรรม Shining Night - Rock, Rock, Rock' Art Appreciation School และ 'Culture Day Special Program' จะจัดขึ้น",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/30df04bc-1386-42ea-aa0b-f1a38cd1a200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2015/15-4.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -741,7 +742,7 @@ export const educationData_TH = [
                 explanation: "ด้วยการมอบหมายงานด้านวัฒนธรรมและศิลปะสำหรับแต่ละภูมิภาคและการวางแผนและดำเนินนโยบายการศึกษาศิลปะวัฒนธรรมตามลักษณะสิ่งแวดล้อมของภูมิภาคเราจึงดำเนินโครงการเชิงภาคสนามที่คำนึงถึงลักษณะและความต้องการของภูมิภาคช่วยให้ผู้อยู่อาศัยในท้องถิ่นเข้าใจภูมิภาคและสร้างความภาคภูมิใจ เรา มีส่วนร่วมในการพัฒนาภูมิภาคโดยการสร้างแรงบันดาลใจให้กับผู้คน 'Good Road' เป็น 'โครงการศิลปะสาธารณะ' ที่มีศูนย์กลางอยู่ที่พื้นที่ 'Naesu' และตั้งอยู่บน 'ถนน' ระหว่าง 'โรงเรียนประถมศึกษา Naesu' และศูนย์พลเมืองอาวุโส Masan 1-gu (วัฒนธรรม Sarangbang)",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3b7b1a4c-74ee-42e4-606c-589400561c00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2015/15-5.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -765,7 +766,7 @@ export const educationData_TH = [
                 explanation: "ได้เวลาแสดงสิ่งที่อยู่ในใจด้วยการทำบ้านโดยใช้กล่องกระดาษ โปรแกรมที่คุณใช้เวลาสำรวจและมององค์ประกอบต่างๆ ของตัวเอง เช่น สีสันที่คุณชอบ บ้านที่คุณอยากอยู่ในอนาคต ความหวังในอนาคต และสิ่งของที่คุณชอบ แล้วสะท้อนสิ่งเหล่านี้ เพื่อสร้างแบบจำลองบ้านในใจคุณ",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7bcaffd2-995b-4d00-c86c-3f76cba16300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2014/14-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -783,7 +784,7 @@ export const educationData_TH = [
                 explanation: "นี่คือโปรแกรมที่ปรับแต่งสำหรับพิพิธภัณฑ์ศิลปะโดยใช้วิธีการศึกษาแบบ 'ห้องเรียนพลิก' ซึ่งเริ่มต้นในด้านการศึกษาของอเมริกาในปี 2010 และเพิ่งแพร่กระจายไปทั่วโลก. เช่นเดียวกับวิธีการศึกษาแบบ 'ห้องเรียนพลิกกลับ' เพิ่มความสนุกสนานและความลึกในการศึกษาผ่านกิจกรรมต่างๆ แทนชั้นเรียนบรรยายที่น่าเบื่อซึ่งแต่เดิมเคยใช้ในห้องเรียน พิพิธภัณฑ์กลับหัวกลับคืนรูปแบบการศึกษาที่เกี่ยวข้องกับนิทรรศการที่มีอยู่และเข้ามาแทนที่แบบเหมารวมของ 'ศึกษา' งานศิลปะ ประกอบด้วยโปรแกรมแบบโต้ตอบ VTS (Visual Thinking Strategy) ที่ครอบครัว เด็ก และวัยรุ่น สนทนา 'ฟรี' โดยไม่มี 'คำตอบที่ถูกต้อง' หน้างานศิลปะ และกิจกรรมเชิงประสบการณ์ต่างๆ (เยี่ยมชม สตูดิโอศิลปิน/การศึกษาประสบการณ์ศิลปะสร้างสรรค์ ฯลฯ) ด้วยวิธีการสอน VTS (กลยุทธ์การคิดด้วยภาพ) ต่อหน้างานศิลปะ - ประสบการณ์ศิลปะที่สนุกสนานที่หอศิลป์ท้องถิ่นและสตูดิโอศิลปิน! องค์กรเอกชนจดทะเบียน 25 องค์กร ทั่วประเทศ เข้าร่วมโครงการโดยใช้วิธีสอนแบบ VTS (Visual Thinking Strategy) ในการถามและตอบคำถามปลายเปิดเกี่ยวกับหัวข้อหรือสถานการณ์โดยไม่ต้องให้ข้อมูลเกี่ยวกับงานหน้างานศิลปะซึ่งเป็นโครงการให้ความรู้ ที่ให้นักศึกษาได้ชื่นชมผลงานศิลปะในพิพิธภัณฑ์และสตูดิโอศิลปินในเครือพิพิธภัณฑ์ในภูมิภาค",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/cdbc34f3-68d6-4fc0-746a-bb54c07f4e00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2014/14-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -801,7 +802,7 @@ export const educationData_TH = [
                 explanation: "ประสบการณ์ศิลปะการสื่อสารกับคนรุ่นเงินในยุคแห่งวัยชราซึ่งเป็นประเด็นทางสังคมที่เกิดขึ้นเมื่อเร็ว ๆ นี้ หลังจากมอบประสบการณ์ศิลปะที่เข้าใจง่ายให้กับเด็กและวัยรุ่นแล้วเรามุ่งหวังที่จะปลูกฝังอุดมการณ์เส้นทางที่ขาดหายไป มากมายในช่วงไม่กี่ปีที่ผ่านมาและสร้างการสื่อสารทางอารมณ์ระหว่างรุ่น 'ประสบการณ์ศิลปะด้วยกัน' ช่วยให้เด็กและวัยรุ่นสร้างความมั่นคงทางอารมณ์และอัตลักษณ์ตนเอง นอกจากนี้ ไม่เพียงแต่ปลูกฝังความรู้เกี่ยวกับศิลปะและวัฒนธรรมเท่านั้น กิจกรรมศิลปะของบุคคลและส่งเสริมภูมิปัญญาและศักดิ์ศรีในการใช้ชีวิตอย่างสร้างสรรค์ โปรแกรมที่ก่อให้เกิดการสื่อสารระหว่างชนชั้น ภูมิภาค และรุ่น โดยมอบกลิ่นอายของศิลปะ",
                 host: "ชุงชองบุก-โด, ชองจู-ซี",
                 support: "กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว สำนักงานส่งเสริมการศึกษาศิลปะและวัฒนธรรมเกาหลี",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/14485c63-41bd-410b-ac79-17f6fd887700/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2014/14-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -825,7 +826,7 @@ export const educationData_TH = [
                 explanation: "ได้เวลาแสดงสิ่งที่อยู่ในใจด้วยการทำบ้านโดยใช้กล่องกระดาษ โปรแกรมที่คุณใช้เวลาสำรวจและมององค์ประกอบต่างๆ ของตัวเอง เช่น สีสันที่คุณชอบ บ้านที่คุณอยากอยู่ในอนาคต ความหวังในอนาคต และสิ่งของที่คุณชอบ แล้วสะท้อนสิ่งเหล่านี้ เพื่อสร้างแบบจำลองบ้านในใจคุณ",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/307060b2-e7c5-4619-5695-8d96f1090c00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2013/13-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -843,7 +844,7 @@ export const educationData_TH = [
                 explanation: "เราดำเนินการ 'โรงเรียนศิลปะเด็ก Shema' สำหรับทารก เด็กเล็ก นักเรียนชั้นประถมศึกษา ศูนย์รับเลี้ยงเด็ก และโรงเรียนประถมศึกษา Schema Art Museum Children's Art School เป็นโปรแกรมการศึกษาเชิงประสบการณ์ประเภทโครงการที่มอบโปรแกรมที่หลากหลายแก่เด็กๆ เช่น แนวคิดที่เป็นเอกลักษณ์ โปรแกรมการศึกษาที่ปรับให้เหมาะกับระดับสายตาของเด็ก และโปรแกรมเชื่อมโยงกับนิทรรศการที่เชื่อมโยงกับนิทรรศการที่กำลังดำเนินอยู่ และมอบความสะดวกและสนุกสนาน การศึกษาเกี่ยวกับศิลปะสมัยใหม่เพื่อช่วยให้เด็กๆ มีความคิดสร้างสรรค์ แนะแนวการเติบโต",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8143b9fb-0d3d-49ac-8c38-b76a00055800/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2013/13-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -861,7 +862,7 @@ export const educationData_TH = [
                 explanation: "เรากำลังดำเนินโครงการกิจกรรมประสบการณ์ศิลปะเพื่อ `สร้างความสัมพันธ์` ระหว่างผู้สูงอายุ เด็ก และเยาวชนที่อาศัยอยู่ในเมืองชองจูและพื้นที่โดยรอบ (ชองวอนกุน จังหวัดชุงชองเหนือ) และแบ่งปันเรื่องราวเก่าและปัจจุบัน ( การสนทนา การอภิปราย ฯลฯ) เราวางแผนทัศนศึกษาร่วมกันในภูมิภาคของเรา สร้างความเห็นอกเห็นใจซึ่งกันและกันผ่านงานศิลปะและนิทรรศการพิเศษ และจัดกิจกรรมประสบการณ์ศิลปะเพื่อเป็นสถานที่สำหรับการสื่อสารในท้องถิ่น นอกจากนี้ เราสนับสนุนให้ประชาชนปลูกฝังความตระหนักรู้ของพลเมืองขั้นสูงใน ภูมิภาคและใช้ชีวิตอย่างสร้างสรรค์ผ่านกิจกรรมศิลปะเพียงคนเดียว “ การมอบกลิ่นแห่งภูมิปัญญาและศิลปะที่มีคุณภาพทำให้เกิดการสื่อสารระหว่างชนชั้น ภูมิภาค และรุ่น และวางรากฐานสำหรับการมีส่วนร่วมในการพัฒนาชุมชนท้องถิ่นผ่านการเข้าถึงที่เข้าถึงได้ กิจกรรมศิลปะและวัฒนธรรม",
                 host: "กระทรวงวัฒนธรรม กีฬา และการท่องเที่ยว ชุงชองบุกโด มูลนิธิวัฒนธรรมชุงบุก",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/b4d50d12-e286-47b3-ed80-2c30645c7100/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2013/13-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -885,7 +886,7 @@ export const educationData_TH = [
                 explanation: "'โปรแกรมศิลปะประสบการณ์ธรรมชาติ' ที่เพิ่มความอ่อนไหวและการแสดงออกของผู้เข้าร่วมผ่านการพบปะของมนุษย์กับพืช ดอกไม้ ต้นไม้ ลม แสงแดด ฯลฯ ทุกชนิดที่มีอยู่ในธรรมชาติที่สวยงาม และในขณะเดียวกันก็ทำให้พวกเขาได้เห็นและ รู้สึกเพื่อตัวเอง",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/26ba1518-6f90-4122-96c7-8c63315e4e00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2012/12-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -909,7 +910,7 @@ export const educationData_TH = [
                 explanation: "โปรแกรมที่สร้างภาพโลกอันเป็นเอกลักษณ์เฉพาะของคุณเองผ่านการชมและสัมผัสธรรมชาติ แล้วดูภาพในภาพ และสร้างภาพธรรมชาติขึ้นมาใหม่เป็นภาพจินตนาการอีกภาพหนึ่ง",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4c43feab-8244-4ce8-686a-cb4ae724c200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2011/11-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],

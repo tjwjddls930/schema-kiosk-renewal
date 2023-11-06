@@ -79,10 +79,7 @@ const Awardcontent = ({imgname, engname, name, career, timeline_i, timeline_g}) 
             </div>
             <div
                 className={clsx(isPortrait ? "flex flex-row space-x-12 h-[58%] screen-w:w-11/12 screen-w:h-3/4 overflow-auto scroll-smooth" : "flex flex-col space-y-12 h-[500px] screen-w:w-[58%] screen-w:h-1/2 overflow-auto scroll-smooth")}>
-                <div className={clsx(isPortrait ? "flex flex-row space-x-2 screen-w:space-x-4 screen-w:w-full screen-w:overflow-auto screen-w:h-[1000px]" : "flex flex-row px-8 space-x-2 screen-w:space-x-4 screen-w:w-full screen-w:overflow-auto screen-w:h-[700px]")}>
-                    {/* <div className={clsx(isPortrait ? "text-Awhite text-lg screen-w:text-5xl font-bold w-[100px] screen-w:w-[20%]" : "text-Awhite text-lg screen-w:text-5xl font-bold w-[100px] screen-w:w-[250px]")}>
-                        {individualText[language](isPortrait)}
-                    </div> */}                        
+                <div className={clsx(isPortrait ? "flex flex-row space-x-2 screen-w:space-x-4 screen-w:w-full screen-w:overflow-auto screen-w:h-[1000px]" : "flex flex-row px-8 space-x-2 screen-w:space-x-4 screen-w:w-full screen-w:overflow-auto screen-w:h-[700px]")}>                       
                     {individualText[language](isPortrait)}
                     <div className={clsx(isPortrait ? "screen-w:w-[75%] flex flex-col space-y-2 screen-w:space-y-5" : "flex flex-col space-y-2 screen-w:space-y-5")}>
                             {timeline_i.map((item, index)=>(
@@ -105,30 +102,27 @@ const Awardcontent = ({imgname, engname, name, career, timeline_i, timeline_g}) 
                         </div>
                 </div>
                 <div className={clsx(isPortrait ? "flex flex-row px-8 space-x-2 screen-w:space-x-4 screen-w:w-full screen-w:overflow-auto screen-w:h-[1000px]" : "flex flex-row px-8 space-x-2 screen-w:space-x-4 screen-w:w-full screen-w:overflow-auto screen-w:h-[700px]")}>
-                    {/* <div className={clsx(isPortrait ? "text-Awhite text-lg screen-w:text-5xl font-bold w-[100px] screen-w:w-[20%]" : "text-Awhite text-lg screen-w:text-5xl font-bold w-[100px] screen-w:w-[250px]")}>
-                        {groupText[language]}
-                    </div> */}
                     {groupText[language](isPortrait)}
                     <div className={clsx(isPortrait ? "screen-w:w-[75%] flex flex-col space-y-2 screen-w:space-y-5" : "flex flex-col space-y-2 screen-w:space-y-5")}>
-                            {timeline_g.map((item, index)=>(
-                            <div
-                                key={index}
-                                id={item.id}
-                                className="flex flex-row space-x-2 screen-w:space-x-5">
-                                <span
-                                    key={item.id}
-                                    className="text-Bblue font-bold text-sm screen-w:text-3xl">
-                                        {item.year}
-                                </span>
-                                <span
-                                    key={item.order}
-                                    className="text-Awhite font-bold text-sm screen-w:text-3xl"
-                                >
-                                    {item.award}
-                                </span>
-                            </div>
-                            ))}
+                        {timeline_g.map((item, index)=>(
+                        <div
+                            key={index}
+                            id={item.id}
+                            className="flex flex-row space-x-2 screen-w:space-x-5">
+                            <span
+                                key={item.id}
+                                className="text-Bblue font-bold text-sm screen-w:text-3xl">
+                                    {item.year}
+                            </span>
+                            <span
+                                key={item.order}
+                                className="text-Awhite font-bold text-sm screen-w:text-3xl"
+                            >
+                                {item.award}
+                            </span>
                         </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

@@ -100,7 +100,7 @@ export default function Mainpage() {
             </div>
             {/* navbar */}
             <Navbar 
-                url={"/video/docent/schema-docent-04.webm"}
+                url={"https://metalab.store/ttangkkeut-museum/digital-docents/KOR/tk-docent-about-01-KOR.webm"}
                 sign={"/video/sign/schema_sign_2.mp4"}
             /> 
         </div>       

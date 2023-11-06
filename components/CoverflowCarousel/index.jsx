@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, EffectCoverflow } from "swiper";
 import "swiper/css";
@@ -7,9 +7,86 @@ import Link from "next/link";
 import { allExhibits } from "@/data/pastExhibit";
 import { paintData } from "@/data/paintData";
 import { useRouter } from "next/router";
+import { LanguageContext } from "@/contexts/LanguageContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import { clsx } from "clsx";
+
+const popupText1 = {
+  KOR: "작가 보기",
+  ENG: "See Artist",
+  CH: "查看作者",
+  TH: "ดูผู้เขียน",
+  VI: "Xem tác giả",
+};
+
+const popupText2 = {
+  KOR: "작품 보기",
+  ENG: "View Artwork",
+  CH: "查看作品",
+  TH: "ดูงาน",
+  VI: "Xem công việc",
+};
+
+const popupText3 = {
+  KOR: "닫기",
+  ENG: "Close",
+  CH: "关闭",
+  TH: "ปิด",
+  VI: "đóng",
+};
+
+const informText = {
+  KOR:(orient) => (
+    <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/4" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3")}>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'기간'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'아티스트'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'장소'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'주최/주관'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'후원'}</span>
+    </div>
+  ),
+  ENG:(orient) => (
+    <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/4" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3")}>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Period'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Artist'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Location'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Organized/Host'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Support'}</span>
+    </div>
+  ),
+  CH:(orient) => (
+    <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/4" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3")}>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'时期'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'艺术家'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'地点'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'主办/主办'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'支持'}</span>
+    </div>
+  ),
+  TH:(orient) => (
+    <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/4" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3")}>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ระยะเวลา'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ศิลปิน'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ที่ตั้ง'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'จัด/เป็นเจ้าภาพโดย'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'สนับสนุน'}</span>
+    </div>
+  ),
+  VI:(orient) => (
+    <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/4" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3")}>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Giai đoạn'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'nghệ sĩ'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'vị trí'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Được tổ chức/chủ trì bởi'}</span>
+        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ủng hộ'}</span>
+    </div>
+  ),
+};
 
 const CoverflowCarousel = ({index}) => {
   const [isClient, setIsClient] = useState(false);
+  const {language} = useContext(LanguageContext);
+  const {isPortrait} = useContext(ScreenOrientContext);
   const [popup, setPopup] = useState(false);
   const [highlightedImageIndex, setHighlightedImageIndex] = useState(0); // Initialize with the first slide
   const router = useRouter();
@@ -29,31 +106,31 @@ const CoverflowCarousel = ({index}) => {
       {isClient && (
             <div className="w-11/12 h-5/6 screen-w:h-[90%] mx-auto p-3 screen-w:px-10 screen-w:py-16">
             {popup && (
-              <div className="absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20">
-                <div className="w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center justify-center">
+              <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[91%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20")}>
+                <div className={clsx(isPortrait ? "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-end justify-center" : "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center justify-center")}>
                   <button 
-                    className="h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue"
+                    className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
                     onClick={()=> router.push(`/artist`)}
                   >
-                      {'작가 보기'}
+                      {popupText1[language]}
                   </button>
                   <button
-                      className="h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue"
-                      onClick={()=> router.push(`/viewpage/${paintData[0].order}`)}
-                      >
-                      {'작품 보기'}
+                    className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
+                    onClick={()=> router.push(`/viewpage/${paintData[0].order}`)}
+                    >
+                      {popupText2[language]}
                   </button>
                 </div>
                 <button
                     onClick={()=>setPopup(!popup)}
                     className="absolute h-10 w-[200px] screen-w:h-28 screen-w:w-[500px] text-center text-base screen-w:text-4xl text-Awhite font-bold items-center bottom-28 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue">
-                    {'닫기'}
+                    {popupText3[language]}
                 </button>
               </div>
             )}
             {/* 전시 설명 컨테이너 */}
-            <div className="flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center">
-                <div className="justify-start flex flex-row space-x-4 w-1/3">
+            <div className={clsx(isPortrait ? "flex flex-col space-y-12 screen-w:space-y-40 screen-w:justify-center" : "flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center")}>
+                <div className={clsx(isPortrait ? "justify-start flex flex-row space-x-12 w-11/12" : "justify-start flex flex-row space-x-4 w-1/3")}>
                     <span className="text-9xl screen-w:text-[250px] font-bold text-Ablack">{allExhibits[index].exhibits[highlightedImageIndex].order}</span>
                     <div className="flex flex-col space-y-2 screen-w:space-y-8 mt-6">
                         <div className="bg-Ablue h-[2px] w-[60px] screen-w:w-[100px] rounded-full"></div>
@@ -61,14 +138,8 @@ const CoverflowCarousel = ({index}) => {
                         <span className="text-2xl screen-w:text-6xl font-bold text-Ablack">{allExhibits[index].exhibits[highlightedImageIndex].title}</span>
                     </div>
                 </div>
-                <div className="flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3">
-                    <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
-                        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'기간'}</span>
-                        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'아티스트'}</span>
-                        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'장소'}</span>
-                        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'주최/주관'}</span>
-                        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'후원'}</span>
-                    </div>
+                <div className={clsx(isPortrait ? "flex flex-row justify-start space-x-8 w-11/12" : "flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3")}>
+                    {informText[language](isPortrait)}
                     <div className="flex flex-col space-y-2 screen-w:space-y-4 w-2/3">
                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].time1}</span>
                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{allExhibits[index].exhibits[highlightedImageIndex].artist1}</span>
@@ -77,16 +148,15 @@ const CoverflowCarousel = ({index}) => {
                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].support1}</span>
                     </div>
                 </div>
-                <div className="flex space-y-4 w-1/3 flex-col justify-end overflow-auto scroll-smooth">
-                        <p className="h-[180px] screen-w:h-[450px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed screen-w:truncate">
-                            {allExhibits[index].exhibits[highlightedImageIndex].explanation}
-                            <br />
-                            {allExhibits[index].exhibits[highlightedImageIndex].author}
-                        </p>
-                        {/* <span className="text-Cgrey text-xs screen-w:text-4xl font-bold pt-2">{author}</span> */}
+                <div className={clsx(isPortrait ? "flex space-y-4 w-11/12 flex-col justify-end overflow-auto scroll-smooth" : "flex space-y-4 w-1/3 flex-col justify-end overflow-auto scroll-smooth")}>
+                    <p className={clsx(isPortrait ? "h-[180px] screen-w:h-[700px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed" : "h-[180px] screen-w:h-[450px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed screen-w:truncate")}>
+                        {allExhibits[index].exhibits[highlightedImageIndex].explanation}
+                        <br />
+                        {allExhibits[index].exhibits[highlightedImageIndex].author}
+                    </p>
                 </div>
             </div>
-            <div className="relative px-6 screen-w:px-8 screen-w:py-12 sm:px-0 touch-none">
+            <div className={clsx(isPortrait ? "relative px-6 screen-w:px-8 screen-w:py-48 sm:px-0 touch-none" : "relative px-6 screen-w:px-8 screen-w:py-12 sm:px-0 touch-none")}>
           {/* <!-- Swiper Slider --> */}
           <Swiper
             breakpoints={{

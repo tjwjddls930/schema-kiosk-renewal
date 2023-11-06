@@ -200,7 +200,7 @@ const Newbutton = () => {
                             </div>
                         </div>
                         <div className="h-2/3 w-full flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">
-                            <div className="w-[70%] screen-w:w-full h-full relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/chatbot_bg.jpg')] bg-cover bg-no-repeat"
+                            <div className="w-[70%] screen-w:w-full h-full relative shadow-md rounded-sm mx-auto bg-[url('/img/intro/career/chat_bot_button_v.png')] bg-cover bg-no-repeat"
                                 onClick={()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
                             > 
                                 {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}
@@ -237,7 +237,7 @@ const Newbutton = () => {
                             {exhibitButton[language](fontsize)}
                         </button>
                     </div>
-                    <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/chatbot_bg.jpg')] bg-cover bg-no-repeat"
+                    <div className="w-[70%] screen-w:w-full h-3/4 relative shadow-md rounded-sm mx-auto bg-[url('/img/intro/career/chat_bot_button_h.png')] bg-contain bg-no-repeat"
                         onClick={()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
                     > 
                         {/* <div className="absolute inset-0 w-full h-full bg-Cpurple opacity-10" /> */}

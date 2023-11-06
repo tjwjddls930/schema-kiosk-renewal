@@ -1,9 +1,44 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { allExhibits } from "@/data/pastExhibit";
 import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
+import { LanguageContext } from "@/contexts/LanguageContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+
+const topText = {
+    KOR: () => (
+        <div className="w-full py-5 px-8 screen-w:py-10 screen-w:px-16 flex flex-row justify-between">
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'전시 안내 > 전시 선택'}</span>
+            <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
+        </div>
+    ),
+    ENG: () => (
+        <div className="w-full py-5 px-8 screen-w:py-10 screen-w:px-16 flex flex-row justify-between">
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Exhibition Information > Select Exhibition'}</span>
+            <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
+        </div>
+    ),
+    CH: () => (
+        <div className="w-full py-5 px-8 screen-w:py-10 screen-w:px-16 flex flex-row justify-between">
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'展会信息 > 精选展会'}</span>
+            <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
+        </div>
+    ),
+    TH: () => (
+        <div className="w-full py-5 px-8 screen-w:py-10 screen-w:px-16 flex flex-row justify-between">
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'ข้อมูลนิทรรศการ > เลือกนิทรรศการ'}</span>
+            <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
+        </div>
+    ),
+    VI: () => (
+        <div className="w-full py-5 px-8 screen-w:py-10 screen-w:px-16 flex flex-row justify-between">
+            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Thông tin triển lãm > Triển lãm chọn lọc'}</span>
+            <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
+        </div>
+    ),
+};
 
 const DynamicCoverflowCarousel = dynamic(
     () => import("@/components/CoverflowCarousel"),
@@ -16,17 +51,13 @@ const DynamicCoverflowCarousel = dynamic(
 export default function Exhibitpage() {
     const [exhibit, setExhibit] = useState(allExhibits[0]);
     const router = useRouter();
+    const {language} = useContext(LanguageContext);
+    const {isPortrait} = useContext(ScreenOrientContext);
 
     return(
         <div className="h-screen w-screen bg-[url('/img/exhibitpage/가로형_전시안내_배경.png')] bg-no-repeat bg-cover font-pretendard_bold">
             <div className="w-full py-5 px-8 screen-w:py-10 screen-w:px-16 flex flex-row justify-between">
-                <div>
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold">전시 안내 </span>
-                    <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'> 지난 전시'}</span>
-                </div>
-                <div>
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'모두를 위한 박물관 - Smart Space SAM'}</span>
-                </div>
+                {topText[language]()}
             </div>
 
             <main>

@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import { useContext } from "react";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { FontsizeContext } from "@/contexts/FontsizeContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import clsx from "clsx";
 
 const exhibitButton = {
     KOR: (size) => (
@@ -104,12 +106,13 @@ const ConnectButton = () => {
     const router = useRouter();
     const {language} = useContext(LanguageContext);
     const {fontsize} = useContext(FontsizeContext);
+    const {isPortrait} = useContext(ScreenOrientContext);
     return(
-        <div className="w-3/4 h-3/4 screen-w:h-3/4 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center">
-            <div className="flex h-2/3 w-3/4 items-center justify-center shadow-xl focus:shadow-none"
+        <div className={clsx(isPortrait ? "w-full h-[90%] flex flex-col space-y-4 screen-w:space-y-24 mx-auto justify-center items-center" : "w-3/4 h-3/4 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center")}>
+            <div className={clsx(isPortrait ? "flex h-[30%] w-3/4 items-center justify-center shadow-xl focus:shadow-none" : "flex h-2/3 w-3/4 items-center justify-center shadow-xl focus:shadow-none")}
                 onClick={()=>router.push("/exhibittest")}
             >
-                <div className="h-3/4 w-3/4 mx-auto">
+                <div className={clsx(isPortrait ? "h-3/4 w-3/4 mx-auto" : "h-3/4 w-3/4 mx-auto")}>
                     <div className="flex flex-row space-x-4 justify-start screen-w:space-x-6 screen-w:justify-center">
                         <span className="text-[150px] screen-w:text-[350px] font-bold text-Ablack drop-shadow-xl">{'01'}</span>
                         {exhibitButton[language](fontsize)}
@@ -124,10 +127,10 @@ const ConnectButton = () => {
                     <div className="bg-Ablack h-[1.5px] w-full mx-auto" />
                 </div>
             </div>
-            <div className="flex h-2/3 w-3/4 items-center shadow-xl focus:shadow-none"
+            <div className={clsx(isPortrait ? "flex h-[30%] w-3/4 items-center justify-center shadow-xl focus:shadow-none" : "flex h-2/3 w-3/4 items-center shadow-xl focus:shadow-none")}
                 onClick={async ()=> router.push(`/modelpage/${modelData[0].order}`)}
             >
-                <div className="h-3/4 w-3/4 mx-auto">
+                <div className={clsx(isPortrait ? "h-3/4 w-3/4 mx-auto" : "h-3/4 w-3/4 mx-auto")}>
                     <div className="flex flex-row space-x-4 justify-start screen-w:space-x-6 screen-w:justify-center">
                         <span className="text-[150px] screen-w:text-[350px] font-bold text-Ablack drop-shadow-xl">{'02'}</span>
                         {collectionButton[language](fontsize)}

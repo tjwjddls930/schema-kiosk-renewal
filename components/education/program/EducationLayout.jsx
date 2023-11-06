@@ -30,7 +30,6 @@ const EducationLayout = ({children}) => {
                             height: "auto"
                         }}
                     />
-                    {/* <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'교육프로그램'}</span> */}
                     <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{topText[language]}</span>
                 </div>
                 <div>
@@ -50,11 +49,6 @@ const EducationLayout = ({children}) => {
                 />
             </div>
             {children}
-            {/* <button
-                className="absolute h-10 w-[200px] screen-w:h-28 screen-w:w-[500px] text-center text-base screen-w:text-4xl text-Awhite font-bold items-center bottom-20 screen-w:bottom-56 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue">
-                {'프로그램 내용 보기'}
-            </button> */}
-
             <button className="absolute left-6 bottom-20 screen-w:left-16 screen-w:bottom-44"
                 onClick={()=>router.back()}
             >

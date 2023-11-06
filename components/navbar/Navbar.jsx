@@ -8,65 +8,65 @@ import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 
 const languageText = {
     KOR: (func)=> (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center items-center text-center">
-            <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center items-center text-center">
+            <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">
                 {"언어변경"}
             </span>
             <button
                 onClick={func}
-                className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
             >
                 {"KOR"}
             </button>
         </div>
     ),
     ENG: (func) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[500px] justify-center items-center text-center">
-            <span className="text-xl w-[350px] screen-w:text-4xl mx-auto text-Awhite">
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[600px] justify-center items-center text-center">
+            <span className="text-xl w-[450px] screen-w:text-5xl mx-auto text-Awhite mb-1">
                 {"Language Change"}
             </span>
             <button
                 onClick={func}
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
             >
                 {"ENG"}
             </button>
         </div>
     ),
     CH: (func) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center items-center text-center">
-            <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center items-center text-center">
+            <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">
                 {"改变语言"}
             </span>
             <button
                 onClick={func}
-                className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
             >
                 {"CH"}
             </button>
         </div>
     ),
     TH: (func) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[400px] justify-center items-center text-center">
-            <span className="text-xl w-[250px] screen-w:text-4xl mx-auto text-Awhite">
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[450px] justify-center items-center text-center">
+            <span className="text-xl w-[300px] screen-w:text-5xl mx-auto text-Awhite mb-1">
                 {"เปลี่ยนภาษา"}
             </span>
             <button
                 onClick={func}
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
             >
                 {"TH"}
             </button>
         </div>
     ),
     VI: (func) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[500px] justify-center items-center text-center">
-            <span className="text-xl w-[350px] screen-w:text-4xl mx-auto text-Awhite">
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[600px] justify-center items-center text-center">
+            <span className="text-xl w-[450px] screen-w:text-5xl mx-auto text-Awhite mb-1">
                 {"Thay đổi ngôn ngữ"}
             </span>
             <button
                 onClick={func}
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
             >
                 {"VI"}
             </button>
@@ -76,51 +76,51 @@ const languageText = {
 
 const textSize = {
     KOR: (func, size)=> (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
-        <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{"글씨크기"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+        <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">{"글씨크기"}</span>
             <button
                 onClick={func} 
-                className="rounded-full screen-w:text-3xl w-1/2 h-2/3 bg-Cgrey text-Awhite font-bold">
+                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
                 {size ? "작게" : "크게"}
             </button>
         </div>
     ),
     ENG: (func, size) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
-            <span className="text-xl w-[200px] screen-w:text-4xl mx-auto text-Awhite">{"Font Size"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[400px] justify-center text-center items-center">
+            <span className="text-xl w-[250px] screen-w:text-5xl mx-auto text-Awhite mb-1">{"Font Size"}</span>
             <button
                 onClick={func} 
-                className="rounded-full screen-w:text-3xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
+                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
                 {size ? "Small" : "Large"}
             </button>
         </div>
     ),
     CH: (func, size) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
-            <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{"字体大小"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+            <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">{"字体大小"}</span>
             <button
                 onClick={func} 
-                className="rounded-full screen-w:text-3xl w-1/2 h-2/3 bg-Cgrey text-Awhite font-bold">
+                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
                 {size ? "小的" : "大的"}
             </button>
         </div>
     ),
     TH: (func, size) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[400px] justify-center text-center items-center">
-            <span className="text-xl w-[250px] screen-w:text-4xl mx-auto text-Awhite">{"ขนาดตัวอักษร"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[450px] justify-center text-center items-center">
+            <span className="text-xl w-[300px] screen-w:text-5xl mx-auto text-Awhite mb-1">{"ขนาดตัวอักษร"}</span>
             <button
                 onClick={func} 
-                className="rounded-full screen-w:text-3xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
+                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
                 {size ? "เล็ก" : "ใหญ่"}
             </button>
         </div>
     ),
     VI: (func, size) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
-            <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{"Cỡ chữ"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+            <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">{"Cỡ chữ"}</span>
             <button
                 onClick={func} 
-                className="rounded-full screen-w:text-3xl w-1/2 h-2/3 bg-Cgrey text-Awhite font-bold">
+                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
                 {size ? "bé nhỏ" : "to lớn"}
             </button>
         </div> 
@@ -129,55 +129,55 @@ const textSize = {
 
 const volumeControl = {
     KOR: (func)=> (
-        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
-            <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{"볼륨조절"}</span>
+        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+            <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">{"볼륨조절"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
             >
                 {'조절'}
             </button>
         </div>
     ),
     ENG: (func) => (
-        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[450px] justify-center text-center items-center">
-            <span className="text-xl w-[300px] screen-w:text-4xl mx-auto text-Awhite">{"Volume Control"}</span>
+        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[500px] justify-center text-center items-center">
+            <span className="text-xl w-[350px] screen-w:text-5xl mx-auto text-Awhite mb-1">{"Volume Control"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
             >
                 {'Control'}
             </button>
         </div>
     ),
     CH: (func) => (
-        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
-            <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{"音量控制"}</span>
+        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+            <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">{"音量控制"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
             >
                 {'控制'}
             </button>
         </div>
     ),
     TH: (func) => (
-        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[500px] justify-center text-center items-center">
-            <span className="text-xl w-[350px] screen-w:text-4xl mx-auto text-Awhite">{"การควบคุมระดับเสียง"}</span>
+        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[600px] justify-center text-center items-center">
+            <span className="text-xl w-[450px] screen-w:text-5xl mx-auto text-Awhite mb-1">{"การควบคุมระดับเสียง"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
             >
                 {'ควบคุม'}
             </button>
         </div>
     ),
     VI: (func) => (
-        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[500px] justify-center text-center items-center">
-            <span className="text-xl w-[350px] screen-w:text-4xl mx-auto text-Awhite">{"Kiểm soát âm lượng"}</span>
+        <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[650px] justify-center text-center items-center">
+            <span className="text-xl w-[450px] screen-w:text-5xl mx-auto text-Awhite">{"Kiểm soát âm lượng"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[200px] screen-w:text-4xl bg-Cgrey text-white font-bold"
             >
                 {'điều khiển'}
             </button>
@@ -187,11 +187,11 @@ const volumeControl = {
 
 const soundDocent = {
     KOR: (func, sign, sound)=> (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
-            <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{"음성안내"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+            <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">{"음성안내"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
                 disabled={sign}
             >
                 {sound ? "정지" : "시작"}
@@ -199,11 +199,11 @@ const soundDocent = {
         </div>
     ),
     ENG: (func, sign, sound) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[400px] justify-center text-center items-center">
-            <span className="text-xl w-[250px] screen-w:text-4xl mx-auto text-Awhite">{"Sound Guide"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[450px] justify-center text-center items-center">
+            <span className="text-xl w-[300px] screen-w:text-5xl mx-auto text-Awhite mb-1">{"Sound Guide"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
                 disabled={sign}
             >
                 {sound ? "Stop" : "Start"}
@@ -211,11 +211,11 @@ const soundDocent = {
         </div>
     ),
     CH: (func, sign, sound) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
-            <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{"语音指导"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+            <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">{"语音指导"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
                 disabled={sign}
             >
                 {sound ? "停止" : "开始"}
@@ -223,11 +223,11 @@ const soundDocent = {
         </div>
     ),
     TH: (func, sign, sound) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[500px] justify-center text-center items-center">
-            <span className="text-xl w-[350px] screen-w:text-4xl mx-auto text-Awhite">{"คำแนะนำด้วยเสียง"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[550px] justify-center text-center items-center">
+            <span className="text-xl w-[400px] screen-w:text-5xl mx-auto text-Awhite mb-1">{"คำแนะนำด้วยเสียง"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
                 disabled={sign}
             >
                 {sound ? "หยุด" : "เริ่ม"}
@@ -235,11 +235,11 @@ const soundDocent = {
         </div>
     ),
     VI: (func, sign, sound) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[600px] justify-center text-center items-center">
-            <span className="text-xl w-[450px] screen-w:text-4xl mx-auto text-Awhite">{"hướng dẫn bằng giọng nói"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[800px] justify-center text-center items-center">
+            <span className="text-xl w-[650px] screen-w:text-5xl mx-auto text-Awhite">{"hướng dẫn bằng giọng nói"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
                 disabled={sign}
             >
                 {sound ? "dừng lại" : "bắt đầu"}
@@ -250,10 +250,10 @@ const soundDocent = {
 
 const signDocent = {
     KOR: (func, sound, sign)=> (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
-            <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{"수어안내"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+            <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">{"수어안내"}</span>
             <button 
-                className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
                 onClick={func}
                 disabled={sound}
             >
@@ -262,11 +262,11 @@ const signDocent = {
         </div>
     ),
     ENG: (func, sound, sign) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[500px] justify-center text-center items-center">
-            <span className="text-xl w-[350px] screen-w:text-4xl mx-auto text-Awhite">{"Sign Language Guide"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[600px] justify-center text-center items-center">
+            <span className="text-xl w-[450px] screen-w:text-5xl mx-auto text-Awhite mb-1">{"Sign Language Guide"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
                 disabled={sound}
             >
                 {sign ? "Stop" : "Start"}
@@ -274,11 +274,11 @@ const signDocent = {
         </div>
     ),
     CH: (func, sound, sign) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[300px] justify-center text-center items-center">
-            <span className="text-xl w-1/2 screen-w:text-4xl mx-auto text-Awhite">{"手语指南"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+            <span className="text-xl w-[200px] screen-w:text-5xl mx-auto text-Awhite">{"手语指南"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-1/2 screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
                 disabled={sound}
             >
                 {sign ? "停止" : "开始"}
@@ -286,11 +286,11 @@ const signDocent = {
         </div>
     ),
     TH: (func, sound, sign) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[400px] justify-center text-center items-center">
-            <span className="text-xl w-[250px] screen-w:text-4xl mx-auto text-Awhite">{"คู่มือภาษามือ"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[450px] justify-center text-center items-center">
+            <span className="text-xl w-[300px] screen-w:text-5xl mx-auto text-Awhite mb-1">{"คู่มือภาษามือ"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
                 disabled={sound}
             >
                 {sign ? "หยุด" : "เริ่ม"}
@@ -298,11 +298,11 @@ const signDocent = {
         </div>
     ),
     VI: (func, sound, sign) => (
-        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[700px] justify-center text-center items-center">
-            <span className="text-xl w-[550px] screen-w:text-4xl mx-auto text-Awhite">{"Hướng dẫn ngôn ngữ ký hiệu"}</span>
+        <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[850px] justify-center text-center items-center">
+            <span className="text-xl w-[700px] screen-w:text-5xl mx-auto text-Awhite">{"Hướng dẫn ngôn ngữ ký hiệu"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-3xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
                 disabled={sound}
             >
                 {sign ? "dừng lại" : "bắt đầu"}

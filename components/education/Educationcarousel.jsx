@@ -12,51 +12,53 @@ import { educationData_VI } from "@/data/educationData_VI";
 import { useRouter } from "next/router";
 import { useContext } from "react";
 import { LanguageContext } from "@/contexts/LanguageContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import clsx from "clsx";
 
 const dataText = {
-  KOR: () => (
-      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'기간'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'참여대상'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'장소'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'주최'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'후원'}</span>
+  KOR: (orient) => (
+      <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-3xl font-bold")}>
+          <span className="w-full">{'기간'}</span>
+          <span className="w-full">{'참여대상'}</span>
+          <span className="w-full">{'장소'}</span>
+          <span className="w-full">{'주최'}</span>
+          <span className="w-full">{'후원'}</span>
       </div> 
   ),
-  ENG: () => (
-      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Time Period'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Participation'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Location'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Host'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Support'}</span>
+  ENG: (orient) => (
+      <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-3xl font-bold")}>
+          <span className="w-full">{'Time Period'}</span>
+          <span className="w-full">{'Participation'}</span>
+          <span className="w-full">{'Location'}</span>
+          <span className="w-full">{'Host'}</span>
+          <span className="w-full">{'Support'}</span>
       </div> 
   ),
-  CH: () => (
-      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'时期'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'参与目标'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'地点'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'主持人'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'支持'}</span>
+  CH: (orient) => (
+      <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-3xl font-bold")}>
+          <span className="w-full">{'时期'}</span>
+          <span className="w-full">{'参与目标'}</span>
+          <span className="w-full">{'地点'}</span>
+          <span className="w-full">{'主持人'}</span>
+          <span className="w-full">{'支持'}</span>
       </div> 
   ),
-  TH: () => (
-      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ระยะเวลา'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'เป้าหมายการมีส่วนร่วม'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ที่ตั้ง'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'เจ้าภาพ'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'สนับสนุน'}</span>
+  TH: (orient) => (
+      <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-3xl font-bold")}>
+          <span className="w-full">{'ระยะเวลา'}</span>
+          <span className="w-full">{'เป้าหมายการมีส่วนร่วม'}</span>
+          <span className="w-full">{'ที่ตั้ง'}</span>
+          <span className="w-full">{'เจ้าภาพ'}</span>
+          <span className="w-full">{'สนับสนุน'}</span>
       </div> 
   ),
-  VI: () => (
-      <div className="flex flex-col space-y-2 screen-w:space-y-4 w-1/3">
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Giai đoạn'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Mục tiêu tham gia'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'vị trí'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'chủ nhà'}</span>
-          <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ủng hộ'}</span>
+  VI: (orient) => (
+      <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-3xl font-bold")}>
+          <span className="w-full">{'Giai đoạn'}</span>
+          <span className="w-full">{'Mục tiêu tham gia'}</span>
+          <span className="w-full">{'vị trí'}</span>
+          <span className="w-full">{'chủ nhà'}</span>
+          <span className="w-full">{'ủng hộ'}</span>
       </div> 
   ),
 };
@@ -72,6 +74,7 @@ const inputData = {
 const Educationcarousel = ({index}) => {
   const [isClient, setIsClient] = useState(false);
   const {language} = useContext(LanguageContext);
+  const {isPortrait} = useContext(ScreenOrientContext);
   const router = useRouter();
   const [list, setList] = useState(null);
   const [highlightedImageIndex, setHighlightedImageIndex] = useState(0); // Initialize with the first slide
@@ -93,34 +96,34 @@ const Educationcarousel = ({index}) => {
     <>
       {/* <!-- Coverflow Slider --> */}
       {isClient && (
-             <div className="w-11/12 h-5/6 screen-w:h-[90%] mx-auto p-3 screen-w:px-10 screen-w:py-16">
+             <div className={clsx(isPortrait ? "w-11/12 h-5/6 screen-w:h-[90%] mx-auto p-3 screen-w:px-10 screen-w:py-40" : "w-11/12 h-5/6 screen-w:h-[90%] mx-auto p-3 screen-w:px-10 screen-w:py-16")}>
              {/* 전시 설명 컨테이너 */}
-             <div className="flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center">
-                 <div className="justify-start flex flex-row space-x-4 w-1/3">
-                     <span className="text-9xl screen-w:text-[150px] font-bold text-Ablack">{inputData[language][index].education[highlightedImageIndex].id}</span>
-                     <div className="flex flex-col space-y-2 screen-w:space-y-8 mt-6">
+             <div className={clsx(isPortrait ? "flex flex-col space-y-12 screen-w:space-y-40 screen-w:justify-center" : "flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center")}>
+                 <div className={clsx(isPortrait ? "justify-start flex flex-row space-x-4 w-11/12 items-center" : "justify-start flex flex-row space-x-4 w-1/3")}>
+                     <span className={clsx(isPortrait ? "w-1/5 text-9xl screen-w:text-[150px] font-bold text-Ablack" : "text-9xl screen-w:text-[150px] font-bold text-Ablack")}>{inputData[language][index].education[highlightedImageIndex].id}</span>
+                     <div className={clsx(isPortrait ? "w-4/5 flex flex-col space-y-2 screen-w:space-y-8 mt-6" : "flex flex-col space-y-2 screen-w:space-y-8 mt-6")}>
                          <div className="bg-Ablue h-[2px] w-[60px] screen-w:w-[100px] rounded-full"></div>
                          <span className="text-xl screen-w:text-5xl font-bold text-Cgrey">{inputData[language][index].education[highlightedImageIndex].type}</span>
                          <span className="text-2xl screen-w:text-6xl font-bold text-Ablack">{inputData[language][index].education[highlightedImageIndex].title}</span>
                      </div>
                  </div>
-                 <div className="flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3">
-                     {dataText[language]()}
-                     <div className="flex flex-col space-y-2 screen-w:space-y-4 w-2/3">
-                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].time}</span>
-                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].participate}</span>
-                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].location}</span>
-                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].host}</span>
-                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].support}</span>
+                 <div className={clsx(isPortrait ? "flex flex-row justify-start space-x-4 screen-w:space-x-6 w-11/12" : "flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3")}>
+                     {dataText[language](isPortrait)}
+                     <div className={clsx(isPortrait ? "flex flex-col space-y-2 screen-w:space-y-4 w-2/3 text-Agrey text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-2/3 text-Agrey text-xs screen-w:text-3xl font-bold")}>
+                         <span className="w-full whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].time}</span>
+                         <span className="w-full whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].participate}</span>
+                         <span className="w-full whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].location}</span>
+                         <span className="w-full whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].host}</span>
+                         <span className="w-full whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].support}</span>
                      </div>
                  </div>
-                 <div className="flex space-y-2 w-1/3 justify-end overflow-auto scroll-smooth">
-                     <p className="h-[180px] screen-w:h-[450px] text-black text-xs screen-w:text-4xl font-bold leading-normal">
+                 <div className={clsx(isPortrait ? "flex space-y-2 w-11/12 justify-end overflow-auto scroll-smooth" : "flex space-y-2 w-1/3 justify-end overflow-auto scroll-smooth")}>
+                     <p className={clsx(isPortrait ? "h-[180px] screen-w:h-[550px] text-Agrey text-xs screen-w:text-5xl font-bold screen-w:leading-relaxed" : "h-[180px] screen-w:h-[450px] text-Agrey text-xs screen-w:text-4xl font-bold leading-normal")}>
                          {inputData[language][index].education[highlightedImageIndex].explanation}
                      </p>
                  </div>
              </div>
-             <div className="relative px-6 screen-w:px-8 screen-w:py-12 sm:px-0">
+             <div className={clsx(isPortrait ? "relative px-6 screen-w:px-8 screen-w:py-48 sm:px-0" : "relative px-6 screen-w:px-8 screen-w:py-12 sm:px-0")}>
             {/* <!-- Swiper Slider --> */}
             <Swiper
               breakpoints={{

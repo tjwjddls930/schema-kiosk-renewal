@@ -1,12 +1,14 @@
 import { useState, useEffect, useContext } from "react";
 import Soundguide from "@/components/docent/Soundguide";
 import { LanguageContext } from "@/contexts/LanguageContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import { educationData_KOR } from "@/data/educationData_KOR";
 import { educationData_ENG } from "@/data/educationData_ENG";
 import { educationData_CH } from "@/data/educationData_CH";
 import { educationData_TH } from "@/data/educationData_TH";
 import { educationData_VI } from "@/data/educationData_VI";
 import { useRouter } from "next/router";
+import clsx from "clsx";
 
 const clipText = {
     KOR: "교육 영상",
@@ -67,7 +69,15 @@ const dataText = {
             <span className="h-12">{'ủng hộ'}</span>
         </div>
     ),
-}
+};
+
+const popupText = {
+    KOR: "닫기",
+    ENG: "Close",
+    CH: "关闭",
+    TH: "ปิด",
+    VI: "đóng",
+};
 
 const inputData = {
   KOR: educationData_KOR,
@@ -82,6 +92,7 @@ const EducationContent = () => {
     const pid = router.query.slug; // 'slug'([slug]) is the name of the dynamic parameter
     const {index} = router.query;
     const {language} = useContext(LanguageContext);
+    const {isPortrait} = useContext(ScreenOrientContext);
     const [popup, setPopup] = useState(false);
     const [video, setVideo] = useState(null);
     useEffect(() => {
@@ -92,7 +103,7 @@ const EducationContent = () => {
     return(
        <>
         {isClient && (
-            <div className="h-3/4 w-[90%] flex flex-row mx-auto space-x-8 screen-w:space-x-12">
+            <div className={clsx(isPortrait ? "h-3/4 w-[90%] flex flex-col mx-auto space-y-8 screen-w:space-y-12" : "h-3/4 w-[90%] flex flex-row mx-auto space-x-8 screen-w:space-x-12")}>
                 {popup && (
                     <div className="absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20">
                         <div className="absolute transform -translate-x-1/2 left-1/2 -translate-y-1/2 top-1/2 h-2/3 w-2/3">
@@ -107,12 +118,12 @@ const EducationContent = () => {
                         <button
                             onClick={()=>setPopup(!popup)}
                             className="absolute h-10 w-[200px] screen-w:h-28 screen-w:w-[500px] text-center text-base screen-w:text-4xl text-Awhite font-bold items-center bottom-28 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue">
-                            {'닫기'}
+                            {popupText[language]}
                         </button>
                     </div>
                 )}
-                <div className="flex h-full flex-col space-y-4 screen-w:space-y-12 w-[40%] text-center">
-                    <div className="flex h-[48%] w-full z-10 items-center mx-auto">
+                <div className={clsx(isPortrait ? "flex w-11/12 h-1/2 flex-col space-y-4 screen-w:space-y-12 text-center mx-auto" : "flex h-full w-[40%] flex-col space-y-4 screen-w:space-y-12 text-center")}>
+                    <div className={clsx(isPortrait ? "flex h-[60%] w-full z-10 items-center mx-auto" : "flex h-[48%] w-full z-10 items-center mx-auto")}>
                         <img 
                             // src="/img/educationpage/education_1.png"
                             src={inputData[language][pid].education[index].img}
@@ -120,7 +131,6 @@ const EducationContent = () => {
                             alt="education"
                         />
                     </div>
-                    {/* <span className="font-bold text-Ablack text-base screen-w:text-7xl">{'교육 영상'}</span> */}
                     <span className="font-bold text-Ablack text-base screen-w:text-7xl">{clipText[language]}</span>
                     <div className="flex flex-row space-x-2 screen-w:space-x-6 h-[28%] w-full z-10 items-center mx-auto overflow-auto scroll-smooth">
                     {inputData[language][pid].education[index].youtube.map((item, index)=> (
@@ -138,8 +148,8 @@ const EducationContent = () => {
                     ))}
                     </div>
                 </div>
-                <div className="h-full w-[60%] flex flex-col space-y-6 screen-w:space-y-12">
-                    <div className="w-3/4 flex flex-col space-y-2 screen-w:space-y-8">
+                <div className={clsx(isPortrait ? "h-1/2 w-11/12 flex flex-col space-y-6 screen-w:space-y-12 mx-auto" : "h-full w-[60%] flex flex-col space-y-6 screen-w:space-y-12")}>
+                    <div className={clsx(isPortrait ? "w-full flex flex-col space-y-2 screen-w:space-y-8" : "w-3/4 flex flex-col space-y-2 screen-w:space-y-8")}>
                         <div className="bg-Ablue h-[1px] w-[70px] screen-w:w-[200px]" />
                         <span className="text-sm screen-w:text-6xl font-bold text-Bgrey">{inputData[language][pid].education[index].type}</span>
                         <span className="text-base screen-w:text-7xl font-bold text-Ablack screen-w:leading-normal">{inputData[language][pid].education[index].title}</span>
@@ -152,14 +162,6 @@ const EducationContent = () => {
                         </div>
                         <div className="bg-Cgrey w-[1px] h-[90%]" />
                         <div className="w-1/2 flex flex-row space-x-4 px-4">
-                            {/* <div className="w-1/4 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
-                                <span className="h-12">{'교육대상'}</span>
-                                <span className="h-12">{'교육시간'}</span>
-                                <span className="h-12">{'참여인원'}</span>
-                                <span className="h-12">{'교육장소'}</span>
-                                <span className="h-12">{'주최'}</span>
-                                <span className="h-12">{'후원'}</span>
-                            </div> */}
                             {dataText[language]()}
                             <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Cgrey font-bold">
                                 <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].participate}</span>

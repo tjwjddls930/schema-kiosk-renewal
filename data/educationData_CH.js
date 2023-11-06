@@ -16,9 +16,9 @@ export const educationData_CH = [
                 explanation: "“隐藏空间”项目是一个以当代艺术中“几何抽象”为主题的项目，利用美术馆藏品和文化艺术教育历史。利用Schema艺术博物馆收藏的几何抽象艺术家的作品，通过几何抽象代表艺术家“艺术家Seung-jo Lee”和“艺术家Jae-kwan Kim”的作品介绍现代艺术中的几何抽象世界。韩国当代艺术。我们希望通过更深入地体验艺术创作和表达并理解艺术家新的视觉表达来创造一个体验艺术创作和表达的时间。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/023e857f-e829-422c-255a-537ed5e33800/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-1.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f1a081a6-cbb2-42eb-b0b1-1d0ae544fb00/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=kkb014QR2WE", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-thumbnail-1.png`}
                 ],
             },
             {
@@ -34,9 +34,9 @@ export const educationData_CH = [
                 explanation: "“图式博物馆工作室”项目是一个自我发现项目，通过三位当代艺术家观察、欣赏和同情世界的时间，通过新的视觉表达方式进行艺术创作，发现自己的独特性和特殊性。这是一个项目。该项目由三位当代艺术家参与，包括：1. 雕塑艺术家李子妍的“雕塑实验室”，2. 绘画艺术家金东宇的“图像实验室”，3. 平面装置艺术家崔的“形式实验室” Min-sol和原始雕塑。我们希望创造一个艺术创作时间，让参与的孩子们可以诚实地表达他们的感官，同时更深入地体验绘画等现代艺术的各个领域。",
                 host: "文化体育观光部、韩国艺术文化教育振兴院",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4ae46749-73b4-4afb-24ae-f66621057a00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-2.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/11c82070-8468-4040-645c-6ab3c84dd200/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=UMQ9JWbdfS0", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-thumbnail-2.png`}
                 ],
             },
             {
@@ -52,7 +52,7 @@ export const educationData_CH = [
                 explanation: "“图式博物馆工作室”项目是一个自我发现项目，通过三位当代艺术家观察、欣赏和同情世界的时间，通过新的视觉表达方式进行艺术创作，发现自己的独特性和特殊性。这是一个项目。该项目由三位当代艺术家参与，包括：1. 雕塑艺术家李子妍的“雕塑实验室”，2. 绘画艺术家金东宇的“图像实验室”，3. 平面装置艺术家崔的“形式实验室” Min-sol和原始雕塑。我们希望创造一个艺术创作时间，让参与的孩子们可以诚实地表达他们的感官，同时更深入地体验绘画等现代艺术的各个领域。",
                 host: "文化体育观光部、韩国艺术文化教育振兴院",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f6887d75-4e72-4ec1-feed-30b062f69b00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -70,7 +70,7 @@ export const educationData_CH = [
                 explanation: "“景观之旅”是一次诙谐的当代艺术“之旅”，与当地当代艺术家金罗妍一起记录散步时发现的小故事，这是艺术家的方法，并使用物体和色彩来捕捉一个地方的氛围在某种情境下，这是一档试图表达“风景情感”的节目。我们旨在与参与的家庭一起，创造一个艺术时光，用艺术材料和新鲜的思想来漫步“日常场景”来传达情感，从“新的视角”接近它们，并利用各种材料通过艺术想象来表达它们。",
                 host: "模式博物馆",
                 support: "忠清北道忠北文化财团",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3a28cae3-354a-49f7-7b0a-f5f55eec0500/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-4.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -88,7 +88,7 @@ export const educationData_CH = [
                 explanation: "目的是通过博物馆、美术馆相关教育，为儿童、青少年提供观赏、体验人类文化遗产和历史产物的机会，使他们最终成长为更有兴趣享受文化的文化公民。",
                 host: "韩国博物馆协会",
                 support: "KB国民银行、教育部、文化体育观光部",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f5172ec0-48a2-4592-6b7b-006182923100/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-5.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -106,7 +106,7 @@ export const educationData_CH = [
                 explanation: "目的是提供参观博物馆、美术馆展览和参与体验活动的机会，让接触文化机会相对较少的贫困阶层学生能够体验人类文化遗产和历史产物。",
                 host: "韩国博物馆协会、KB 保险",
                 support: "KB保险",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7d39f38f-a11f-4234-b48a-ded33b57f700/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2023/23-6.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -130,11 +130,11 @@ export const educationData_CH = [
                 explanation: "与雕塑家Solmo Baek一起探索和发现日常生活中物体的特征和艺术元素，从艺术家的角度看待它们。了解雕塑和光的特征，感受阴影是三维雕塑的一部分。”皮影戏’通过观察和谈论自己的情感蓝图来了解雕塑的组成部分，并根据情感蓝图完成一个雕塑。至于后期活动，第三期结束后，我们的朋友们回到了参与机构回想起第三次“雕塑口袋”项目，我们使用“艺术家口袋”中的材料完成并安装了一个雕塑，该组织在课后分发了我们欣赏的“Sai”雕塑，并完成了它作为儿童空间中的新雕塑。尝试创意活动",
                 host: "模式博物馆",
                 support: "忠清北道忠北文化财团忠北文化艺术教育支援中心",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/b5831065-8c7f-447a-db17-7c0ce4296200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-1.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8b198d3e-a287-47ee-d15a-7abc20e39400/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6841e399-547e-49a7-fddb-fda3b162d500/public"}, 
-                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/c1cbc7a2-9a72-4156-4ff7-33ae5d8da800/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=pFc2TK5yqAM", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-1.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=8mVGJTwwtVg", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-3.png`}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=xqLfMc3lMhk", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-6.jpg`}
                 ],
             },
             {
@@ -150,7 +150,7 @@ export const educationData_CH = [
                 explanation: "我们为学生（包括因持续的COVID-19疫情而减少享受文化的机会的弱势群体）提供机会，让他们通过博物馆和美术馆照顾自己的身心，并成长为成熟的文化公民。",
                 host: "韩国博物馆协会、KB保险",
                 support: "KB保险B손해보험",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/1231f8bf-e6af-44b4-8b92-461cdea3dd00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -168,10 +168,10 @@ export const educationData_CH = [
                 explanation: "《2022花样男子6》共有5个文化日，第1期和第2期的对象为小学生，与艺术家林润默、全秉九一起举办。作者林润木的首个节目将在网上举行。第三期节目将由作者金罗妍（Ra-Yeon Kim）针对家庭进行，第四期作者崔民雪（Min-Sol Choi）针对中学生的节目将在网上进行。最后，由徐完浩编剧的各种节目组成，直至第五集。",
                 host: "文化体育观光部",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/732887a6-63a1-47b2-d414-7c9f369ca400/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-3.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/14fa3b95-c928-43ae-9843-bd82d6cbdc00/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/beea6d75-bbbe-4ef6-cb11-3b82edbb4000/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=4NzL3fXZ1bA", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-2.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=h4VIndz1Fzs", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-4.png`}
                 ],
             },
             {
@@ -187,9 +187,9 @@ export const educationData_CH = [
                 explanation: "“捕捉浮云”是艺术家申龙在的作品《运游：像浮云一样漂浮》的标题中的隐喻表达。谈谈当你仰望天空并在画布上作画时的感受。与艺术家申勇在共同创作的《捕捉浮云》旨在创造一个体验现代艺术隐喻和符号的时间，并用新的视角、艺术材料和新鲜的思想来接近、想象和表达它们，脱离传统观念。这是一个通过“还原”参与家庭的日常情绪和“回忆快乐的记忆”来直接引发情感的节目，让他们在现代艺术中用隐喻和诙谐的方式表达自己的情感。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/941229ba-7505-435e-acf7-0c0436299300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-4.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/ff324b67-d4e8-4ea1-8bf3-42885dd42400/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=PJF4whavDsk", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2022/22-thumbnail-5.png`}
                 ],
             },
         ]
@@ -211,12 +211,12 @@ export const educationData_CH = [
                 explanation: "与雕塑家Solmo Baek一起探索和发现日常生活中物体的特征和艺术元素，从艺术家的角度看待它们。了解雕塑和光的特征，感受阴影是三维雕塑的一部分。”皮影戏”通过对户外雕塑的视觉和触觉欣赏来了解雕塑的组成部分，并问自己“雕塑？”雕塑！”，拆除并重建雕塑的各个组成部分，以表达您自己的三维雕塑。",
                 host: "忠清北道文化体育观光部",
                 support: "文化体育观光部、韩国艺术文化教育振兴院",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/644c419e-6c20-4800-24f4-12da5bbd4400/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-1.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=S1VLpEB_Bx4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/99a466d9-ac8f-485f-60c6-b230d0f6fc00/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=KqnfaJ3saaU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/35f513c5-8e0a-4f49-8d5a-bafbc32ccb00/public"}, 
-                    {order: 3, url: "https://www.youtube.com/watch?v=7Iu9juqKQVA", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a01e843f-0ae6-4b69-0e51-ff51aec95000/public"}, 
-                    {order: 4, url: "https://www.youtube.com/watch?v=jnpBTvT8aKs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7759d779-28b4-407b-3348-8214cfbeb200/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=S1VLpEB_Bx4", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-4.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=KqnfaJ3saaU", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-5.png`}, 
+                    {order: 3, url: "https://www.youtube.com/watch?v=7Iu9juqKQVA", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-6.png`}, 
+                    {order: 4, url: "https://www.youtube.com/watch?v=jnpBTvT8aKs", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-8.png`}
                 ],
             },
             {
@@ -232,10 +232,10 @@ export const educationData_CH = [
                 explanation: "‘Mi-niverse’节目通过艺术家‘申勇在’的生活记录，运营现代艺术综合体，为家庭创造同理心和空间，降低现代艺术的门槛，让家庭少一些困难。”相反，这是一个将现代艺术融入生活的时代，是一个通过与艺术家申容宰一起绘画的各种艺术体验，在任何地方发现和感受艺术，并以快乐和愉悦的心情接受新的艺术体验的时代。与参与家庭分享艺术家的视角，以一种简单的方式接触现代艺术，这是一个试图以一种融入家庭和生活的方式，而不是一种方法，创造现代艺术综合体的节目。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/66b56acd-97f7-4634-1f0c-c7e8b2a9c300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-2.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=qXjmRDkQVXc", thumbnail: "/img/educationpage/2021/thumbnail-3.png"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=ZSNb0_T5D_U", thumbnail: "/img/educationpage/2021/thumbnail-7.png"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=qXjmRDkQVXc", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-3.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=ZSNb0_T5D_U", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-7.png`}
                 ],
             },
             {
@@ -251,10 +251,10 @@ export const educationData_CH = [
                 explanation: "《2021花样样的你5》总共有5个文化日，第1、3、4、5期节目的对象是儿童（当地儿童中心）、申龙在、尼尔·克雷文。与作家李高云、李善求一起进行，第2期由作家崔在英针对成人（家庭主妇）进行，第3期由作家尼尔·克雷文进行，第4期由作家尼尔·克雷文进行，第4期由作家崔在英进行。由作家 Lee Go-woon 主持。该课程将在 Schema 艺术博物馆的 YouTube 上以在线课程的形式举办。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8c33e0ca-2b1c-493e-6505-8e4418f74f00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-3.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=mxBb5jyxbvs", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e382d8d5-8712-4d3e-5845-7206b12eed00/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=g95XGEb9T-w", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9a266245-c36b-4fd5-556e-fc3a0f96fe00/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=mxBb5jyxbvs", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-1.jpg`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=g95XGEb9T-w", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-thumbnail-2.png`}
                 ],
             },
             {
@@ -270,7 +270,7 @@ export const educationData_CH = [
                 explanation: "",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9c06d656-d695-4bdc-bf53-fa4e25a1b200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-4.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -288,7 +288,7 @@ export const educationData_CH = [
                 explanation: "版画体验，您可以观察和冥想自然，并使用我们周围美丽的天然材料通过拼贴捕捉自然和季节。体验拼贴的时间，这是一种雕刻技术，是众多版画方法之一。使用天然材料感受自然和季节并产生兴趣的时刻。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/51851154-3acf-495a-6353-645697684e00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2021/21-5.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -312,7 +312,7 @@ export const educationData_CH = [
                 explanation: "2020年展览日程 8月13日-8月30日 金敬爱个展“生命的变化”，9月3日-10月4日 吸气与呼气“在路上”，9月3日-10月4日 许文正个展 我的花园“我的花园” ', 10月8日-11月1日 漫步书院景 - 文化艺术城清州 - 全州当代艺术展",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e44c4797-0e29-42a8-d76d-c0a0ad9d7300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -330,7 +330,7 @@ export const educationData_CH = [
                 explanation: "发现自己的多样性_发现自己，熟悉现代艺术和自然环境_各种当代艺术，在复杂的世界中学习简单化_方格的世界，通过植物的意义写给自己的一封信_我的植物，艺术家的静物画 解读和表达自己的静物画通过_我的静物",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/0d1c4849-f213-4ddd-3b26-eb537b9fe000/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -348,10 +348,10 @@ export const educationData_CH = [
                 explanation: "2020年幼儿文化艺术教育艺术之星计划包括与艺术家申勇在一起，利用各种工具欣赏日常生活中的自然环境和季节天空，观察非物质的“天空”，将其转化为事件，捕捉二维平面，探索变幻的天空，通过观察、表达、交流，随时随地发现和体验幼儿的各种艺术体验。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/d68eb492-93a7-4bb5-3b1d-a49d3197da00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-3.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=G20J4kGWu7s", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a8bd0edf-999e-404d-fc23-f3e819989d00/public"},
-                    {order: 2, url: "https://www.youtube.com/watch?v=pT6tuKB14U4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6b8cf315-212f-4409-26b4-7a8161b97b00/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=G20J4kGWu7s", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-thumbnail-1.png`},
+                    {order: 2, url: "https://www.youtube.com/watch?v=pT6tuKB14U4", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-thumbnail-4.png`}
                 ], 
             },
             {
@@ -367,10 +367,11 @@ export const educationData_CH = [
                 explanation: "物质作为一种材料在艺术中占有非常重要的地位，艺术具有视觉性。许多艺术家利用这些材料将头脑中的抽象想法变成现实。因此，材料作为材料，随着艺术史的发展，在现代艺术中得到了各种实验、改进和演变。即使是现在，现代艺术仍在用无穷无尽的材料进行创作。 Schema 艺术博物馆的“2020 Crossing”计划是与当地抽象雕塑艺术家“Baek Solmoe”捕捉头脑中抽象思想的过程，参与家庭使用该过程所需的各种材料分享艺术家的观点。一个试图通过打开所有感官来穿越思想的程序，超越无形、非物质思想的视觉表达，而不仅仅是一种处理材料的方式。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4642f7c8-3854-4526-3ab2-e4bc46fbf600/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-4.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=NfUEFH7C1w4", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/5459f38f-496a-4751-bbb7-768c80fba400/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=WfY01k6jMEI", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2d0e042f-37e5-4281-f9fa-f9463996e200/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=NfUEFH7C1w4", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-thumbnail-3.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=WfY01k6jMEI", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-thumbnail-1.png`},
+                    {order: 3, url: "https://www.youtube.com/watch?v=0e1Rd8M4Ezo", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-thumbnail-2.png`}
                 ],
             },
             {
@@ -386,7 +387,7 @@ export const educationData_CH = [
                 explanation: "在文化日，“花样的你4”是一个独特的艺术家展览，参加的艺术家包括姜柱亨、金润浩、罗秀民、李升勋、洪加兰等。 Schema艺术博物馆2020年特展表达了各种当代艺术并展示了他们的世界。一个了解观点和艺术体验的项目",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/04611a47-a677-48e2-c683-84c9abee4e00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2020/20-5.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -410,9 +411,9 @@ export const educationData_CH = [
                 explanation: "1家庭1展览 将日常家庭故事变成艺术品，创造家庭沟通和理解的时间，从材料探索、材料理解、作品制作、作品欣赏、记录、推广，参与展览创作的全过程. 参与自我策划. 协作创造性的工作流程. 通过分享失败的经验和过程，创建以“过程”为中心的“沟通”方法和系统. 通过与日常朋友以外的各种同龄人见面来扩展社交技能的机会家庭之外。与艺术家黄学三和当地代表性雕塑艺术家一起进行艺术之旅。一起感受“沉浸”的不同。参观艺术家的工作室，分享艺术家的个人经历。有机会通过以下方式扩展您的体验分享你的艺术经历，欣赏舍玛美术馆的户外雕塑，用不同的眼光来表达不同类型的艺术，一个为自己体验和创造的自由空间一个自由表达的空间，在这里你可以体验和理解形状和观察，色彩与质感，以及对空间的理解与拓展，表达与创造，创造自由物质发挥的时间，参与者可以自由分享来自博物馆的故事，自己寻找和解决的时间。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/d4642c0c-5757-4999-2608-a2e17466d300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-1.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=s3McvuRhtWU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/e9418526-07cd-406e-c237-a6a1d8d01500/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=s3McvuRhtWU", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-thumbnail-1.jpg`}
                 ],
             },
             {
@@ -428,10 +429,10 @@ export const educationData_CH = [
                 explanation: "当代艺术雕塑家林升均将自然和生态系统等自然环境与艺术相结合，参与艺术体验（寻找美、艺术表达）和自然探索过程（保持和扩大好奇心的计划） 5岁儿童。）这是一个以该地区的Nuri课程为基础，提供了解艺术家各种表达方式的机会，并通过带着对艺术的好奇心在博物馆的空间里自由奔跑来拉近与艺术的距离的项目以及艺术的各种表达和体验。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2377976e-d2d5-4a99-0c08-310424c52b00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-2.png`,
                 youtube: [
-                    {order: 1, url: "https://www.youtube.com/watch?v=hlIhjiBdTjU", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f7bbf229-e88f-4519-f1ab-9946a2ebd600/public"}, 
-                    {order: 2, url: "https://www.youtube.com/watch?v=oDX8PXOsdFE", thumbnail: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/797b4ddd-2eec-4478-4ee4-aca4ccf59700/public"}
+                    {order: 1, url: "https://www.youtube.com/watch?v=hlIhjiBdTjU", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-thumbnail-3.png`}, 
+                    {order: 2, url: "https://www.youtube.com/watch?v=oDX8PXOsdFE", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-thumbnail-2.png`}
                 ],
             },
             {
@@ -447,7 +448,7 @@ export const educationData_CH = [
                 explanation: "“2019花样男子3”的参展艺术家有林承均、黄旼奎、金润燮、申勇在、姜熙正等艺术家，他们表达了各种当代艺术，展现了他们的世界。参与Schema艺术博物馆2019年特展的艺术家，以艺术家独特的视角，了解艺术、体验艺术",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/2de1b977-548c-408f-d37c-de5e3e645000/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2019/19-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -471,7 +472,7 @@ export const educationData_CH = [
                 explanation: "With U 计划是一个结合视觉艺术和体验的计划，旨在帮助来自“Naesu”地区的儿童和多元文化儿童通过食物、衣服和住所了解差异。为了创造最终的结果，With U ZONE是一个交流项目，通过奥布斯教育项目理解和重视彼此的差异，并通过世界各国的文化来沟通和缩小差异。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8d1d4051-954d-4937-c8c5-3ef7478c7b00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2018/18-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -489,7 +490,7 @@ export const educationData_CH = [
                 explanation: "在“2018花样男子2”节目《寻找我》中，我们与五位年轻画家（李善熙、林裴智熙、韩成宇、金润燮、李瑞仁）合作与不同当代艺术家交流，了解艺术家独特的表现方式并培养艺术技巧。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/eb461b31-8f0c-45b1-6144-e2fbbbc69200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2018/18-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -507,7 +508,7 @@ export const educationData_CH = [
                 explanation: "我们邻里的1%法，这个项目将要求在大型建筑中放置公共雕塑的法律改为一个小规模的地方合作项目，而不是艺术家的大型作品，鼓励村里的当地居民使用街道树木和周围环境，一个每个人都可以共同创作和体验公共艺术的项目",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7fd1dfb7-b605-4227-76dd-03e5f8837400/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2018/18-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -525,7 +526,7 @@ export const educationData_CH = [
                 explanation: "Dream Cube + Link 项目由曾坪青少年（一至三年级中学生）参与，旨在利用现有的 Dream Cube 1 和 2 空间作为公共艺术向曾坪文化中心和市民的延伸。青少年通过了解和接触“公共艺术”、体验各种活动来发现自己的身份，通过兴趣和创造性探索开拓职业道路，增加对自己所属的“我们的社区”的归属感和参与感。这是一段有意义的时光。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/571c2080-f437-4798-ad5f-97523dff1300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2018/18-4.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -543,7 +544,7 @@ export const educationData_CH = [
                 explanation: "Toto餐桌计划是在气候变化、能源枯竭、农业和粮食危机、粮食两极分化等问题日益突出的今天，以自然为媒介，实现美食基础并提供五种感官体验式教育的家庭参与计划。这是一个用花园里的农作物自己做饭的项目，在舍玛艺术博物馆的教育室和室外花园举行，是一种丰富多彩的视觉艺术活动，当您在花园里成长时，将吃饭的乐趣与观看的乐趣相结合，并帮助您制作自己的家庭餐。复杂的游戏程序，可以",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/a9d6708e-8758-4897-9f74-eb8cbdaf1f00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2018/18-5.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -567,7 +568,7 @@ export const educationData_CH = [
                 explanation: "这是一个新词，意思是“什么会是坏事？”，即“如果是艺术，什么都好”。 2017年舍玛艺术博物馆文化日是为了降低美术馆门槛而选择的一个标题，其口号是“艺术有什么不好？？”，将围绕舍玛博物馆的展览、展览故事、以及艺术家作品的制作过程，我们计划从3月到12月进行约10场由策展人解说的艺术家观察。特别是在文化日的范围内，我们计划根据需求对象的特点进行定制化策展，适当混合消费者感兴趣的方向和有教育意义的方向，积极发挥“文化日”的意义。特别是，通过展览的策划和准备对艺术家的了解，制定了一个计划，为“文化日”的每个参与者提供量身定制的服务和进步。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/9fcdd99d-1e24-4704-f637-1f4bac268f00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2017/17-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -585,7 +586,7 @@ export const educationData_CH = [
                 explanation: "在了解汗水的意义和收获的喜悦的过程中，《多多农场2》体会到了工作的乐趣和对自然的热爱，并通过体验合作和社区意识，增强了积极主动的思维能力。课外，学生们离开闷热的室内教室，走进大自然自由清新的怀抱，通过观察自己如何随着时间的推移与土壤和动物一起生长、变化，增强观察能力、思维能力和好奇心。梦想立方2是一个青年人自己创造的文化空间，试图探讨它将拓展和利用什么样的空间，为该地区的青年人创造一个持续交流的体验空间。通过这个项目，我们旨在为初中一至三年级的参与青少年提供一个营造健康、愉快的周六的环境，通过项目活动让他们体验到成就感和合作感，成为积极主动的动力。以及积极的思考和理想的成长过程。想要成为此外，我们的目标是为年轻人提供探索各种职业道路并成长为创意艺术家的机会和经验。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/1015dcd7-aa41-4b61-47bb-c998e8ce9500/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2017/17-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -609,7 +610,7 @@ export const educationData_CH = [
                 explanation: "Toto花园是一个通过教育解释Schema艺术博物馆的位置和环境因素的项目，是一个以“花园教育+再生”为口号的全家人一起享受的“自然体验型融合项目”。 。该课程以与家庭共同创建的园艺项目为基础，为家庭之间提供了一个交流的场所，观察园艺过程中发生的事情，并通过农业日记和经验，用五种感官的语言来培育思想和梦想。培育。 《梦想的立方》以文化相对贫困地区的曾平郡为背景，在曾平郡代表性文化机构曾平文化院举办，主题为“年轻人创造的文化空间”。如果说现有的美术馆难以接近、难以接近，那么“梦立方”旨在将其与曾平郡的年轻人和市民一起创造、运营和享受的和谐与交流的文化空间结合起来。日常艺术。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/33673495-0e16-4a70-3b2b-7772d3259e00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2016/16-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -627,7 +628,7 @@ export const educationData_CH = [
                 explanation: "这是一个“公共艺术项目”，旨在建立和扩大“文化舍廊房”作为村里代表性文化空间的功能。我们的目标是创造一个所有村庄居民都能教、学、玩的复合文化空间，并利用村庄特色创造就业机会，保持当地居民之间的健康联系。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/6b0d6aff-50be-4d85-0aad-91b7b7cb7200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2016/16-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -645,7 +646,7 @@ export const educationData_CH = [
                 explanation: "由于文化生活范围狭窄，老年人和底层儿童较多，“参观美术馆-花样的你”以“参观项目”的形式举办，分为“草亭敬老院”和“参观项目”。 “内江地区儿童中心”各一次。我们愿意继续开展该项目。“参观美术馆-花样的你”项目直接联系相关机构，解决消费者在“出行”方面可能遇到的困难由于车辆问题、健康问题、无法监护人陪同等问题而受到限制。这是一个通过参观的方式进行的“藏品艺术家联动计划”，从博物馆的藏品中选出两件作品后，将藏品艺术家受邀通过与艺术家的会面和使用作品的创作节目来对作品进行评论。第一场与艺术家申哲宇一起举行。与作者申哲宇合作的“花样的你第1部分”，第2届“你”作者申哲宇的《花开彼岸2》",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/f4a77190-a113-4f71-33eb-5fd80842db00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2016/16-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -669,7 +670,7 @@ export const educationData_CH = [
                 explanation: "一种“艺术家（作品）联系类型”，审视建筑、绘画、视频、手势（表演）、几何、抽象和平面绘画中所显示的点、线和平面，并尝试在创作者、创意者之间进行感性对话。工作，以及基于这些的项目参与者。“体验项目”",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/ad63b325-f7b2-4c29-0788-668eef473a00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2015/15-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -687,7 +688,7 @@ export const educationData_CH = [
                 explanation: "这是一个利用“翻转课堂”教育方式为美术馆定制的项目，2010年开始在美国教育领域兴起，最近已在全球范围内推广。 正如“翻转课堂”的教育方式，通过各种活动增加学习的乐趣和深度，取代了原本课堂上枯燥的讲授式课程，颠倒博物馆扭转了现有展览相关的教育形式，取代了传统展览教育的刻板印象。 “学习”艺术作品，包括VTS（视觉思维策略）互动项目，家庭、儿童、青少年在艺术作品前进行没有“正确答案”的“自由”对话，以及各种体验活动（参观艺术家工作室/创意艺术体验教育等）。以VTS（视觉思维策略）在艺术作品前的教学方式——在当地美术馆和艺术家工作室享受有趣的艺术体验！全国25个注册私人组织参与该项目，采用VTS（视觉思维策略）教学方法，就主题或情境提出开放性问题和答案，而无需在艺术品前提供有关作品的信息。这是一个教育计划这使得学生能够在该地区的博物馆和附属于博物馆的艺术家工作室欣赏艺术作品。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4874cc53-e8a9-46f7-2aa2-881eeada2300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2015/15-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -705,7 +706,7 @@ export const educationData_CH = [
                 explanation: "这是一个通过艺术以多种方式接近“游戏”的“游戏型艺术体验项目”。参与者可以体验各种艺术流派，并通过它们体验身体、情感和技术元素。此外，作为“融合与复合元素”相结合的节目，它为参与者提供了多种流派、多种作品、多种材料的有趣节目，让他们探索其他艺术，所有节目都提供直接而非间接的体验。以此为座右铭，我们将体验活动细分为阶段，试图用各种材料、各种方法来探讨作品从欣赏到制作的一系列过程，并计划在“艺术”这个最基本的框架内进行深入的探索。 ..这种项目的开展方式将能够激发参与者的兴趣和主动性，甚至在未来项目结束后，参与者也能够为自由艺术欣赏提出一个方向，最终通过这个项目，参与者将继续追求自己的梦想。计划帮助您前进",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7999ed4d-f4f0-4039-3dd3-48b9ff263600/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2015/15-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -723,7 +724,7 @@ export const educationData_CH = [
                 explanation: "斯图玛艺术博物馆旨在通过支持私人艺术博物馆与文化日相关的各种文化和教育项目，扩大公众享受文化的机会，并在文化日期间为私人艺术博物馆的游客提供丰富多彩的景点和体验。举办“闪亮之夜-摇滚摇滚”艺术欣赏学校和“文化日特别节目”。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/30df04bc-1386-42ea-aa0b-f1a38cd1a200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2015/15-4.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -741,7 +742,7 @@ export const educationData_CH = [
                 explanation: "我们通过衍生各地区的文化艺术任务，结合区域环境特点规划和运营文化艺术教育政策，运营符合区域特色和需求的实地项目，帮助当地居民了解区域、树立自豪感。激励人民，为地区发展做出贡献。 “Good Road”是一个以“Naesu”地区为中心的“公共艺术项目”，位于“Naesu小学”和马山1区老年人中心（文化舍廊房）之间的“道路”上。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/3b7b1a4c-74ee-42e4-606c-589400561c00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2015/15-5.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -765,7 +766,7 @@ export const educationData_CH = [
                 explanation: "是时候用纸盒做一个房子来表达我的内心了。一个程序，让你花时间探索和观察自我的各种元素，比如你喜欢的颜色、你未来想住的房子、你未来的希望、你喜欢的物体，然后反映这些在你的脑海中创建一个房子的模型。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/7bcaffd2-995b-4d00-c86c-3f76cba16300/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2014/14-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -783,7 +784,7 @@ export const educationData_CH = [
                 explanation: "这是一个利用“翻转课堂”教育方式为美术馆定制的项目，2010年开始在美国教育领域兴起，最近已在全球范围内推广。正如“翻转课堂”的教育方式，通过各种活动增加学习的乐趣和深度，取代了原本课堂上枯燥的讲授式课程，颠倒博物馆扭转了现有展览相关的教育形式，取代了传统展览教育的刻板印象。 “学习”艺术作品，包括VTS（视觉思维策略）互动项目，家庭、儿童、青少年在艺术作品前进行没有“正确答案”的“自由”对话，以及各种体验活动（参观艺术家工作室/创意艺术体验教育等）。以VTS（视觉思维策略）在艺术作品前的教学方式——在当地美术馆和艺术家工作室享受有趣的艺术体验！全国25个注册私人组织参与该项目，采用VTS（视觉思维策略）教学方法，就主题或情境提出开放性问题和答案，而无需在艺术品前提供有关作品的信息。这是一个教育计划这使得学生能够在该地区的博物馆和附属于博物馆的艺术家工作室欣赏艺术作品。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/cdbc34f3-68d6-4fc0-746a-bb54c07f4e00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2014/14-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -801,7 +802,7 @@ export const educationData_CH = [
                 explanation: "与老龄化时代白银一代沟通的艺术体验是近年来的社会问题。培育近年来缺失的悲情思想，“体验”帮助儿童青少年建立情绪稳定和自我认同，不仅灌输艺术文化知识，还通过一件事培养先进的公民意识。每个公民的艺术活动、创造性生活的智慧和有尊严的艺术气息，是一个有助于阶级、地区和代际交流的项目。",
                 host: "忠清北道、清州市",
                 support: "文化体育观光部、韩国艺术文化教育振兴院",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/14485c63-41bd-410b-ac79-17f6fd887700/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2014/14-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -825,7 +826,7 @@ export const educationData_CH = [
                 explanation: "是时候用纸盒做一个房子来表达我的内心了。一个程序，让你花时间探索和观察自我的各种元素，比如你喜欢的颜色、你未来想住的房子、你未来的希望、你喜欢的物体，然后反映这些在你的脑海中创建一个房子的模型。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/307060b2-e7c5-4619-5695-8d96f1090c00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2013/13-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -843,7 +844,7 @@ export const educationData_CH = [
                 explanation: "我们运营针对婴幼儿、小学生、日托中心和小学的“舍玛儿童艺术学校”。图式艺术博物馆儿童艺术学校是一个项目式的体验式教育项目，为孩子们提供独特的创意、适合孩子眼部水平的教育项目、与正在进行的展览挂钩的展览联动项目等多种项目，并提供轻松、轻松的体验。现代艺术趣味教育，帮助孩子发挥创意，成长指导",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/8143b9fb-0d3d-49ac-8c38-b76a00055800/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2013/13-2.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -861,7 +862,7 @@ export const educationData_CH = [
                 explanation: "我们正在开展艺术体验活动项目，以在清州市及其周边地区（忠清北道清原郡）居住的老年人、儿童和青少年之间“建立关系”，分享过去和现在的故事（对话）我们策划实地考察，通过艺术作品和专题展览建立相互共鸣，举办艺术体验活动作为当地交流的场所，培养地区先进的公民意识和智慧。通过每个公民的艺术活动，过上创造性生活的尊严和尊严。通过提供艺术的香气，有助于阶级、地区和代际之间的沟通，并为通过轻松的方式为当地社区的发展做出贡献奠定基础。参加艺术和文化活动。",
                 host: "文化体育观光部、忠清北道、忠北文化财团",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/b4d50d12-e286-47b3-ed80-2c30645c7100/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2013/13-3.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -885,7 +886,7 @@ export const educationData_CH = [
                 explanation: "“自然体验艺术项目”，通过人类与美丽大自然中存在的各种植物、花草、树木、风、阳光等的接触，增强参与者的敏感度和表现力，同时让他们看到和感受到自己感受一下。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/26ba1518-6f90-4122-96c7-8c63315e4e00/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2012/12-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
@@ -909,7 +910,7 @@ export const educationData_CH = [
                 explanation: "一个程序，通过观看和体验自然来创建您自己独特的世界形象，然后查看图片中的图像并将自然图像重新创建为另一个想象的图像。",
                 host: "",
                 support: "",
-                img: "https://imagedelivery.net/lJym6rM69e3Ag6xxE0kj_w/4c43feab-8244-4ce8-686a-cb4ae724c200/public",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2011/11-1.png`,
                 youtube: [
                     {order: 1, url: "", thumbnail: ""}
                 ],
