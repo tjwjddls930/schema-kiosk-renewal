@@ -126,10 +126,10 @@ export default function Award() {
                     <AnimatePresence>
                         <motion.div
                             key={award ? award.title : ""}
-                            intitial={{y: 100, opacity: 0}}
-                            animate={{y: 0, opacity: 1}}
-                            exit={{y: -100, opacity: 0}}
-                            transition={{duration: 0.2}}
+                            intitial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            exit={{opacity: 0}}
+                            transition={{duration: 0.3}}
                         >
                             {award ? <Awardcontent 
                                 imgname={award.imgname}
