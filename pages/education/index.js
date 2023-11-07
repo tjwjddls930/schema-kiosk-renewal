@@ -77,8 +77,8 @@ export default function Educationpage() {
                     </motion.div>
                 </AnimatePresence>
             </main>  
-            <div className="w-3/4 h-10 screen-w:h-24 flex text-Dgrey shadow-md mx-auto justify-center overflow-auto scroll-smooth">
-                <ul className="flex flex-row space-x-12 font-bold text-base mb-2 screen-w:text-5xl screen-w:space-x-16 screen-w:mt-4">
+            <div className="w-3/4 h-10 screen-w:h-24 flex text-Dgrey shadow-md mx-auto justify-center">
+                <ul className="flex flex-row space-x-12 font-bold text-base mb-2 screen-w:text-5xl screen-w:space-x-16 screen-w:mt-4 overflow-auto">
                     {inputData[language].map((item)=> (
                         <li
                             key={item.year}

@@ -4,6 +4,7 @@ import Newbutton from '@/components/mainpage/Newbutton';
 import { LanguageContext } from '@/contexts/LanguageContext';
 import { useContext } from 'react';
 import { FontsizeContext } from "@/contexts/FontsizeContext";
+// import Newnavbar from "@/components/navbar/Newnavbar";
 
 const bottomText = {
     KOR: (size)=> (
@@ -103,6 +104,7 @@ export default function Mainpage() {
                 url={"https://metalab.store/ttangkkeut-museum/digital-docents/KOR/tk-docent-about-01-KOR.webm"}
                 sign={"/video/sign/schema_sign_2.mp4"}
             /> 
+            {/* <Newnavbar /> */}
         </div>       
     )
 };

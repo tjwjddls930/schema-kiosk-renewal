@@ -5,42 +5,42 @@ import { useContext } from "react";
 const topText = {
     KOR: () => (
         <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
-            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+            <span className="text-xl screen-w:text-5xl font-bold text-Agrey">
                 {'미술관 소개'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-5xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
     ENG: () => (
         <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
-            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+            <span className="text-xl screen-w:text-5xl font-bold text-Agrey">
                 {'Museum Introduction'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-5xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
     CH: () => (
         <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
-            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+            <span className="text-xl screen-w:text-5xl font-bold text-Agrey">
                 {'博物馆简介'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-5xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),   
     TH: () => (
         <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
-            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+            <span className="text-xl screen-w:text-5xl font-bold text-Agrey">
                 {'ความรู้เบื้องต้นเกี่ยวกับพิพิธภัณฑ์'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-5xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
     VI: () => (
         <div className="w-full flex flex-row justify-between p-10 screen-w:p-20 font-pretendard_bold">
-            <span className="text-xl screen-w:text-4xl font-bold text-Agrey">
+            <span className="text-xl screen-w:text-5xl font-bold text-Agrey">
                 {'Giới thiệu về bảo tàng'}
             </span>
-            <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
+            <span className="text-Agrey text-base screen-w:text-5xl font-bold">{'Smart Space SAM'}</span>
         </div>
     ),
 }

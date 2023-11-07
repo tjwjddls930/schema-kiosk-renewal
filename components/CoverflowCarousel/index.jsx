@@ -88,13 +88,20 @@ const CoverflowCarousel = ({index}) => {
   const {language} = useContext(LanguageContext);
   const {isPortrait} = useContext(ScreenOrientContext);
   const [popup, setPopup] = useState(false);
+  const [list, setList] = useState(null);
   const [highlightedImageIndex, setHighlightedImageIndex] = useState(0); // Initialize with the first slide
   const router = useRouter();
 
   useEffect(() => {
     // Update the isClient state to true as this code will be executed only on client side
     setIsClient(true);
-  }, []);
+    const order = allExhibits[index].order; 
+    router.replace(`?year=${allExhibits[index].exhibits[highlightedImageIndex].year}&?index=${highlightedImageIndex}`)
+    if(allExhibits[index]) {
+      setList(order);
+      // setTime(year);
+    }
+  }, [allExhibits, highlightedImageIndex]);
 
   const handleSlideChange = (swiper) => {
     setHighlightedImageIndex(swiper.activeIndex);

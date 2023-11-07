@@ -1,8 +1,29 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
+import { useContext } from "react";
+import { LanguageContext } from "@/contexts/LanguageContext";
+
+const topText = {
+    KOR: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'전시 안내 > 현재 전시 > 작가 선택 > 작품 선택'} </span>
+    ),
+    ENG: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'Exhibition Information > Current Exhibition > Select Artist > Select Art Work'} </span>
+    ),
+    CH: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'展览信息 > 当前展览 > 精选艺术家 > 精选作品'} </span>
+    ),
+    TH: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'ข้อมูลนิทรรศการ > นิทรรศการปัจจุบัน > เลือกศิลปิน > เลือกผลงาน'} </span>
+    ),
+    VI: () => (
+        <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{'Thông tin triển lãm > Triển lãm hiện tại > Chọn nghệ sĩ > Chọn tác phẩm'} </span>
+    ),
+}
 
 const Paintlayout = ({children}) => {
+    const {language} = useContext(LanguageContext);
     const router = useRouter();
     return(
         <div className="h-screen w-screen bg-Awhite">
@@ -22,10 +43,7 @@ const Paintlayout = ({children}) => {
                         }}
                         priority={true}
                     />
-                    <span className="text-Cgrey text-base screen-w:text-4xl mt-2">{'전시 안내 '} </span>
-                    <span className="text-Cgrey text-base screen-w:text-4xl mt-2">{' > 현재 전시'}</span>
-                    <span className="text-Cgrey text-base screen-w:text-4xl mt-2">{' > 작가 선택'}</span>
-                    <span className="text-Cgrey text-base screen-w:text-4xl font-bold mt-2">{' > 작품 선택'}</span>
+                    {topText[language]()}
                 </div>
                 <div>
                     <span className="text-Cgrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
@@ -50,7 +68,6 @@ const Paintlayout = ({children}) => {
             </button>
             <Navbar 
                 url={"/video/docent/blue-docent-test-02-removed.webm"}
-                lang={"/artist/paint"}
             />
         </div>
     )

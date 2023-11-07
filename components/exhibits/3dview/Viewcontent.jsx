@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Painting from "@/components/Painting";
 import { MathUtils } from "three";
-import {useEffect, useState, Suspense} from "react";
+import {useEffect, useState, Suspense, useContext} from "react";
 
 const Viewcontent = ({url, width, height}) => {
     const [isClient, setIsClient] = useState(false);
@@ -15,15 +15,13 @@ const Viewcontent = ({url, width, height}) => {
         // <div className="h-[91%] w-[1000px] absolute bottom-16 screen-w:h-[94%] screen-w:w-[1500px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
         <>
         {isClient && (
-        <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[94%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
+        <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[95%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
             <Canvas
                 gl={{antialias:true}}
-                shadows
             >
                 <directionalLight intensity={1} />
                 <Suspense>
                     <Painting 
-                        // url={'/img/exhibitpage/paintings/유성.jpg'}
                         url={`/img/exhibitpage/paintings/${url}`}
                         width={width}
                         height={height}

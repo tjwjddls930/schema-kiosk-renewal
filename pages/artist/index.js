@@ -1,4 +1,3 @@
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 // import Link from "next/link";
 import Artistlayout from "@/components/exhibits/artistselect/ArtistLayout";
 import { useState, useEffect } from "react";
@@ -26,13 +25,4 @@ export default function Presentpage() {
         )}
        </>
     )
-};
-
-export async function getStaticProps(context) {
-    const {locale} = context;
-    return{
-        props: {
-            ...(await serverSideTranslations(locale, ['common', 'navbar']))
-        }
-    }
 };

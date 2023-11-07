@@ -1,12 +1,44 @@
 import Link from "next/link";
 import Image from "next/image";
 import { artistData } from "@/data/artistData";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Artistcontent from "./Artistcontent";
+import { useRouter } from "next/router";
+import { LanguageContext } from "@/contexts/LanguageContext";
+import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import clsx from "clsx";
+
+const topText = {
+    KOR: () => (
+        <span className="text-Agrey text-base screen-w:text-4xl font-bold mt-2">{'전시 안내 > 현재 전시 > 작가 선택'} </span>
+    ),
+    ENG: () => (
+        <span className="text-Agrey text-base screen-w:text-4xl font-bold mt-2">{'Exhibition Information > Current Exhibition > Select Artist'} </span>
+    ),
+    CH: () => (
+        <span className="text-Agrey text-base screen-w:text-4xl font-bold mt-2">{'展览信息 > 当前展览 > 选定艺术家'} </span>
+    ),
+    TH: () => (
+        <span className="text-Agrey text-base screen-w:text-4xl font-bold mt-2">{'ข้อมูลนิทรรศการ > นิทรรศการปัจจุบัน > เลือกศิลปิน'} </span>
+    ),
+    VI: () => (
+        <span className="text-Agrey text-base screen-w:text-4xl font-bold mt-2">{'Thông tin triển lãm > Triển lãm hiện tại > Chọn nghệ sĩ'} </span>
+    ),
+};
+
+const selectText = {
+    KOR: "전시에 참여한 작가를 선택해보세요!",
+    ENG: "Choose an artist who participated in the exhibition!",
+    CH: "选出一位参加过展览的艺术家吧！",
+    TH: "เลือกศิลปินที่เข้าร่วมนิทรรศการ!",
+    VI: "Chọn một nghệ sĩ tham gia triển lãm!"
+};
 
 const Artistlayout = ({children}) => {
     const [artist, setArtist] = useState(artistData[0]);
+    const {language} = useContext(LanguageContext);
+    const {isPortrait} = useContext(ScreenOrientContext);
 
     return(
         <div className="h-screen w-screen bg-[url('/img/exhibitpage/artist_select_background.png')] bg-no-repeat bg-cover">
@@ -26,50 +58,46 @@ const Artistlayout = ({children}) => {
                             priority={true}
                         />
                     </Link>
-                    <span className="text-Agrey text-base screen-w:text-4xl mt-2">{'전시 안내 '} </span>
-                    <span className="text-Agrey text-base screen-w:text-4xl mt-2">{' > 현재 전시'}</span>
-                    <span className="text-Agrey text-base screen-w:text-4xl font-bold mt-2">{' > 작가 선택'}</span>
+                    {topText[language]()}
                 </div>
                 <div>
                     <span className="text-Agrey text-base screen-w:text-4xl font-bold">{'Smart Space SAM'}</span>
                 </div>
             </div>
-            <div className="flex flex-row w-full h-5/6 mx-auto space-x-4 screen-w:space-x-8">
-                <div className="w-1/3 h-full justify-center items-center">
+            <div className={clsx(isPortrait ? "flex flex-col w-full h-5/6 mx-auto space-y-4 screen-w:space-y-8 screen-w:pt-28" : "flex flex-row w-full h-5/6 mx-auto space-x-4 screen-w:space-x-8")}>
+                <div className={clsx(isPortrait ? "w-full h-1/3 justify-center items-center" : "w-1/3 h-full justify-center items-center")}>
                     <img 
                         className="w-3/4 h-3/4 screen-w:h-[90%] mx-auto border-4 border-Awhite"
                         src={`/img/exhibitpage/artists/${artist.imgname}`}
                         alt="artists"
                     />
                 </div>
-                <div className="flex flex-col w-2/3 h-full space-y-4 screen-w:space-y-16">
-                    <div className="w-full h-1/2 bg-Awhite">
+                <div className={clsx(isPortrait ? "flex flex-col w-full h-2/3 space-y-4 screen-w:space-y-16" : "flex flex-col w-2/3 h-full space-y-4 screen-w:space-y-16")}>
+                    <div className={clsx(isPortrait ? "w-3/4 h-1/2 bg-Awhite mx-auto" : "w-full h-1/2 bg-Awhite")}>
                         <main>
-                        {/* {children} */}
-                        <AnimatePresence>
-                            <motion.div
-                                key={artist ? artist.order : ""}
-                                intitial={{y: 5, opacity: 0}}
-                                animate={{y: 0, opacity: 1}}
-                                exit={{y: -5, opacity: 0}}
-                                transition={{duration: 0.2}}
-                            >
-                                {artist ? <Artistcontent 
-                                    number={artist.number}
-                                    order={artist.order}
-                                    title={artist.title}
-                                    name={artist.name}
-                                    text={artist.text}
-                                /> : ""}
-                            </motion.div>
-                        </AnimatePresence>
+                            <AnimatePresence>
+                                <motion.div
+                                    key={artist ? artist.order : ""}
+                                    initial={{opacity:0}}
+                                    animate={{opacity:1}}
+                                    transition={{duration: 0.3}}
+                                >
+                                    {artist ? <Artistcontent 
+                                        number={artist.number}
+                                        order={artist.order}
+                                        title={artist.title}
+                                        name={artist.name}
+                                        text={artist.text}
+                                    /> : ""}
+                                </motion.div>
+                            </AnimatePresence>
                         </main>
                     </div>
                     <div className="w-full h-1/2 mx-auto">
                         <div className="flex w-full h-[10%] screen-w:h-[15%] items-center text-center text-Agrey text-base font-bold screen-w:text-4xl">
-                            <span className="mx-auto">{'전시에 참여한 작가를 선택해보세요!'}</span>
+                            <span className="mx-auto">{selectText[language]}</span>
                         </div>
-                        <div className="w-11/12 h-3/4 flex mx-auto justify-center">
+                        <div className="w-11/12 h-3/4 flex mx-auto justify-center overflow-auto">
                                 <div className="flex flex-row space-x-12 font-bold text-md pb-1">
                                     {artistData.map((item, index)=> {
                                         const {order, name, imgname} = item;
