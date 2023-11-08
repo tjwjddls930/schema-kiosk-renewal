@@ -109,26 +109,24 @@ export default function Award() {
                     {topText2[language]()}
                 </div>
             </div>
-            <div className={clsx(isPortrait ? "absolute left-16 bottom-24 h-[300px] screen-w:left-16 screen-w:top-[920px] screen-w:h-[1000px]" : 
-                "absolute left-16 bottom-24 h-[300px] screen-w:left-20 screen-w:bottom-80 screen-w:h-[1000px]")}>
+            <div className="absolute left-16 bottom-24 h-[300px] screen-w:left-16 screen-w:top-[920px] screen-w:h-[1000px]">
                 <div className="flex flex-col space-y-2 screen-w:space-y-4">
                     <div className="h-2 w-2 screen-w:h-5 screen-w:w-5 bg-Bblue rounded-full"></div>
                     <div className="h-2 w-2 screen-w:h-5 screen-w:w-5 bg-Bblue rounded-full"></div>
                     <div className="h-2 w-2 screen-w:h-5 screen-w:w-5 bg-Bblue rounded-full"></div>
                 </div>
             </div>
-            <div className={clsx(isPortrait ? "absolute left-24 top-56 h-[390px] screen-w:h-[1150px] w-6 screen-w:w-16 screen-w:top-[420px] screen-w:left-28 rounded-r-xl bg-Bblue" : 
-                "absolute left-24 top-56 h-[390px] screen-w:h-[1150px] w-6 screen-w:w-16 screen-w:top-80 screen-w:left-44 rounded-r-xl bg-Bblue")} />
+            <div className="absolute left-24 top-56 h-[390px] screen-w:h-[1150px] w-6 screen-w:w-16 screen-w:top-[420px] screen-w:left-28 rounded-r-xl bg-Bblue" />
             <div 
                 id="touch-area"
-                className={clsx(isPortrait ? "w-full h-3/4 screen-w:h-[80%] flex items-center" : "w-full h-3/4 screen-w:h-[85%] bg-Bgrey bg-opacity-50")}>
+                className="w-full h-3/4 screen-w:h-[80%] flex items-center">
                 <main>
                     <AnimatePresence>
                         <motion.div
                             key={award ? award.title : ""}
                             intitial={{opacity: 0}}
                             animate={{opacity: 1}}
-                            exit={{opacity: 0}}
+                            exit={{opacity:0}}
                             transition={{duration: 0.3}}
                         >
                             {award ? <Awardcontent 
@@ -234,10 +232,10 @@ export default function Award() {
                     <AnimatePresence>
                         <motion.div
                             key={award ? award.title : ""}
-                            intitial={{y: 100, opacity: 0}}
-                            animate={{y: 0, opacity: 1}}
-                            exit={{y: -100, opacity: 0}}
-                            transition={{duration: 0.2}}
+                            intitial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            exit={{opacity:0}}
+                            transition={{duration: 0.3}}
                         >
                             {award ? <Awardcontent 
                                 imgname={award.imgname}

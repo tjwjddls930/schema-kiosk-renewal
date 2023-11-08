@@ -3,6 +3,7 @@ import { OrbitControls } from "@react-three/drei";
 import Painting from "@/components/Painting";
 import { MathUtils } from "three";
 import {useEffect, useState, Suspense, useContext} from "react";
+import Spot from "@/components/Spotlight";
 
 const Viewcontent = ({url, width, height}) => {
     const [isClient, setIsClient] = useState(false);
@@ -18,6 +19,7 @@ const Viewcontent = ({url, width, height}) => {
         <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[95%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
             <Canvas
                 gl={{antialias:true}}
+                shadows
             >
                 <directionalLight intensity={1} />
                 <Suspense>
@@ -36,6 +38,19 @@ const Viewcontent = ({url, width, height}) => {
                     minPolarAngle={MathUtils.degToRad(70)}
                     makeDefault 
                 />
+                <mesh position={[0, 0, -2]} rotation={[0, 0, 0]} receiveShadow>
+                    <boxGeometry attach="geometry" args={[100, 100, 2]} />
+                    <meshPhongMaterial color={"#5c92de"} attach="material" />
+                </mesh>
+                <mesh position={[50, 0, -2]} rotation={[0, MathUtils.degToRad(90), 0]} receiveShadow>
+                    <boxGeometry attach="geometry" args={[100, 100, 2]} />
+                    <meshPhongMaterial color={"#5c92de"} attach="material" />
+                </mesh>
+                <mesh position={[-50, 0, -2]} rotation={[0, MathUtils.degToRad(90), 0]} receiveShadow>
+                    <boxGeometry attach="geometry" args={[100, 100, 2]} />
+                    <meshPhongMaterial color={"#5c92de"} attach="material" />
+                </mesh>
+                <Spot position={[0, 7, 5]}/>
                 <ambientLight intensity={3} />
                 <color attach="background" args={["#FFFFFF"]} />
             </Canvas>

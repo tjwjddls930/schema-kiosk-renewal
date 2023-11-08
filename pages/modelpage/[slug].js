@@ -10,6 +10,8 @@ import * as THREE from 'three';
 import clsx from "clsx";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import Spot from "@/components/Spotlight";
+import IDBAnimationModel from "@/components/IndexedDB";
 
 const iconText1 = {
     KOR: "초기화",
@@ -76,7 +78,7 @@ export default function Modelpage({}) {
                         scale={data.scale}
                         position={data.position}
                     /> */}
-                    <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[94%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2 bg-Awhite">
+                    <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[95%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2 bg-Awhite">
                         <Suspense fallback={null}>
                             <Canvas
                                 gl={{
@@ -95,24 +97,45 @@ export default function Modelpage({}) {
                                 }}
                                 shadows
                             >
-                                <directionalLight intensity={2} position={[0, 0, 2]} />
                                 <Suspense fallback={null}>
-                                    <Modelanimation 
+                                    {/* <Modelanimation 
                                         modelName={data?.url}
                                         position={data?.position}
                                         rotation={[0, 0, 0]}
                                         scale={data?.scale}
+                                    /> */}
+                                    <IDBAnimationModel 
+                                        keyName={data.keyname}
+                                        modelSrc={data.url}
+                                        position={data.position}
+                                        rotation={[0, 0, 0]}
+                                        scale={data.scale}
                                     />
                                 </Suspense>
                                 <OrbitControls 
                                     minDistance={1.5}
                                     maxDistance={5}
+                                    minAzimuthAngle={MathUtils.degToRad(-45)}
+                                    maxAzimuthAngle={MathUtils.degToRad(45)}
                                     maxPolarAngle={MathUtils.degToRad(90)}
                                     minPolarAngle={MathUtils.degToRad(70)}
                                     makeDefault
                                 />
+                                <mesh position={[0, 0, -4]} rotation={[0, 0, 0]} receiveShadow>
+                                    <boxGeometry attach="geometry" args={[100, 100, 2]} />
+                                    <meshPhongMaterial color={"#5c92de"} attach="material" />
+                                </mesh>
+                                <mesh position={[50, 0, 46]} rotation={[0, MathUtils.degToRad(90), 0]} receiveShadow>
+                                    <boxGeometry attach="geometry" args={[100, 100, 2]} />
+                                    <meshPhongMaterial color={"#5c92de"} attach="material" />
+                                </mesh>
+                                <mesh position={[-50, 0, 46]} rotation={[0, MathUtils.degToRad(90), 0]} receiveShadow>
+                                    <boxGeometry attach="geometry" args={[100, 100, 2]} />
+                                    <meshPhongMaterial color={"#5c92de"} attach="material" />
+                                </mesh>
+                                <Spot position={[0, 8, 5]} />
                                 <ambientLight intensity={3} />
-                                <color attach="background" args={["#FFFFFF"]} />
+                                {/* <color attach="background" args={["#FFFFFF"]} /> */}
                             </Canvas>
                         </Suspense>
                     </div>
@@ -126,16 +149,11 @@ export default function Modelpage({}) {
                                     <span className="text-Dgrey font-bold text-xl screen-w:text-5xl">{''}</span>
                                 </div>
                                 <div className="flex flex-col space-y-2 mx-auto w-full screen-w:space-y-4">
-                                    {/* <img 
-                                        className="h-20 w-20 animate-bounce mx-auto screen-w:h-40 screen-w:w-40"
-                                        src="/img/exhibitpage/icons/화면확대_아이콘.png"
-                                        alt="toucn icon"
-                                    /> */}
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                                         className="h-20 w-20 animate-bounce mx-auto screen-w:h-40 screen-w:w-40 text-Awhite">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
                                     </svg>
-                                    <span className="text-Awhite font-bold text-base screen-w:text-3xl">{'확대해서 그림을 더 자세히 감상해보세요!'}</span>
+                                    <span className="text-Awhite font-bold text-base screen-w:text-4xl">{'화면 터치 후 확대해 보세요!'}</span>
                                 </div>
                                 <div className="flex flex-col w-full mx-auto">
                                     <div className="flex justify-between w-full">

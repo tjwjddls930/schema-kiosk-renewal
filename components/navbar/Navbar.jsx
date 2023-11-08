@@ -14,7 +14,7 @@ const languageText = {
             </span>
             <button
                 onClick={func}
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
             >
                 {"KOR"}
             </button>
@@ -27,7 +27,7 @@ const languageText = {
             </span>
             <button
                 onClick={func}
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
             >
                 {"ENG"}
             </button>
@@ -40,7 +40,7 @@ const languageText = {
             </span>
             <button
                 onClick={func}
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
             >
                 {"CH"}
             </button>
@@ -53,7 +53,7 @@ const languageText = {
             </span>
             <button
                 onClick={func}
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
             >
                 {"TH"}
             </button>
@@ -66,7 +66,7 @@ const languageText = {
             </span>
             <button
                 onClick={func}
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
             >
                 {"VI"}
             </button>
@@ -80,7 +80,7 @@ const textSize = {
         <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"글씨크기"}</span>
             <button
                 onClick={func} 
-                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
+                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Bblue text-Awhite font-bold">
                 {size ? "작게" : "크게"}
             </button>
         </div>
@@ -90,7 +90,7 @@ const textSize = {
             <span className="text-xl w-[250px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">{"Font Size"}</span>
             <button
                 onClick={func} 
-                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
+                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Bblue text-Awhite font-bold">
                 {size ? "Small" : "Large"}
             </button>
         </div>
@@ -100,7 +100,7 @@ const textSize = {
             <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"字体大小"}</span>
             <button
                 onClick={func} 
-                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
+                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Bblue text-Awhite font-bold">
                 {size ? "小的" : "大的"}
             </button>
         </div>
@@ -110,7 +110,7 @@ const textSize = {
             <span className="text-xl w-[350px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">{"ขนาดตัวอักษร"}</span>
             <button
                 onClick={func} 
-                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
+                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Bblue text-Awhite font-bold">
                 {size ? "เล็ก" : "ใหญ่"}
             </button>
         </div>
@@ -120,7 +120,7 @@ const textSize = {
             <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"Cỡ chữ"}</span>
             <button
                 onClick={func} 
-                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Cgrey text-Awhite font-bold">
+                className="rounded-full screen-w:text-4xl w-[150px] h-2/3 bg-Bblue text-Awhite font-bold">
                 {size ? "bé nhỏ" : "to lớn"}
             </button>
         </div> 
@@ -133,7 +133,7 @@ const volumeControl = {
             <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"볼륨조절"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
             >
                 {'조절'}
             </button>
@@ -144,7 +144,7 @@ const volumeControl = {
             <span className="text-xl w-[400px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">{"Volume Control"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
             >
                 {'Control'}
             </button>
@@ -155,7 +155,7 @@ const volumeControl = {
             <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"音量控制"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
             >
                 {'控制'}
             </button>
@@ -166,7 +166,7 @@ const volumeControl = {
             <span className="text-xl w-[500px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">{"การควบคุมระดับเสียง"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
             >
                 {'ควบคุม'}
             </button>
@@ -177,7 +177,7 @@ const volumeControl = {
             <span className="text-xl w-[500px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"Kiểm soát âm lượng"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[200px] screen-w:text-4xl bg-Cgrey text-white font-bold"
+                className="rounded-full h-2/3 w-[200px] screen-w:text-4xl bg-Bblue text-white font-bold"
             >
                 {'điều khiển'}
             </button>
@@ -191,7 +191,7 @@ const soundDocent = {
             <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"음성안내"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
                 disabled={sign}
             >
                 {sound ? "정지" : "시작"}
@@ -203,7 +203,7 @@ const soundDocent = {
             <span className="text-xl w-[350px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">{"Sound Guide"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
                 disabled={sign}
             >
                 {sound ? "Stop" : "Start"}
@@ -215,7 +215,7 @@ const soundDocent = {
             <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"语音指导"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
                 disabled={sign}
             >
                 {sound ? "停止" : "开始"}
@@ -227,7 +227,7 @@ const soundDocent = {
             <span className="text-xl w-[450px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">{"คำแนะนำด้วยเสียง"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
                 disabled={sign}
             >
                 {sound ? "หยุด" : "เริ่ม"}
@@ -239,7 +239,7 @@ const soundDocent = {
             <span className="text-xl w-[700px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"hướng dẫn bằng giọng nói"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
                 disabled={sign}
             >
                 {sound ? "dừng lại" : "bắt đầu"}
@@ -253,7 +253,7 @@ const signDocent = {
         <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
             <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"수어안내"}</span>
             <button 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
                 onClick={func}
                 disabled={sound}
             >
@@ -266,7 +266,7 @@ const signDocent = {
             <span className="text-xl w-[500px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">{"Sign Language Guide"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
                 disabled={sound}
             >
                 {sign ? "Stop" : "Start"}
@@ -278,7 +278,7 @@ const signDocent = {
             <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"手语指南"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
                 disabled={sound}
             >
                 {sign ? "停止" : "开始"}
@@ -290,7 +290,7 @@ const signDocent = {
             <span className="text-xl w-[300px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">{"คู่มือภาษามือ"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
                 disabled={sound}
             >
                 {sign ? "หยุด" : "เริ่ม"}
@@ -302,7 +302,7 @@ const signDocent = {
             <span className="text-xl w-[750px] screen-w:text-5xl mx-auto font-bold text-Awhite">{"Hướng dẫn ngôn ngữ ký hiệu"}</span>
             <button
                 onClick={func} 
-                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Cgrey text-white font-bold disabled:opacity-50"
+                className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
                 disabled={sound}
             >
                 {sign ? "dừng lại" : "bắt đầu"}
@@ -317,7 +317,7 @@ const Navbar = ({url, sign}) => {
     const [soundguide, setSoundguide] = useState(false);
     const [signLang, setsignLang] = useState(false);
     const [modal, setModal] = useState(false);
-    const [playing, setPlaying] = useState(true);
+    // const [playing, setPlaying] = useState(true);
     const {language, setLanguage} = useContext(LanguageContext);
     const {fontsize, setFontsize} = useContext(FontsizeContext);
     const {isPortrait} = useContext(ScreenOrientContext);
@@ -330,14 +330,16 @@ const Navbar = ({url, sign}) => {
         <>
             {soundguide && (
                 <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[94%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20")}
+                    onClick={()=>setSoundguide(!soundguide)}
                 >
                     <div className={clsx(isPortrait ? "absolute transform -translate-x-1/2 left-1/2 bottom-4 h-1/2 w-2/3 z-40" : "absolute transform -translate-x-1/2 left-1/2 bottom-0 h-3/4 w-3/4 z-40")}
-                        onClick={()=>setPlaying(!playing)}
+                        // onClick={()=>setPlaying(!playing)}
+                        onClick={()=>setSoundguide(!soundguide)}
                     >
                         <Soundguide 
                             videoUrl={url}
                             volume={Number(volume)}
-                            playing={playing ? true : false}
+                            playing={true}
                             end={()=>setSoundguide(!soundguide)}
                         />
                     </div>
@@ -479,7 +481,7 @@ const Navbar = ({url, sign}) => {
                 </div>
             </div>
             )}
-           <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-28 bg-Ablack px-10 screen-w:px-12 items-center">
+           <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-28 bg-Ablue px-10 screen-w:px-12 items-center">
                 <div className="flex flex-row w-full h-full space-x-4 screen-w:space-x-6 justify-end">
                     {languageText[language](()=>setModal(!modal))}
                     {textSize[language](()=>setFontsize(!fontsize), fontsize)}

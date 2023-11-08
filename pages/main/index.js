@@ -101,7 +101,7 @@ export default function Mainpage() {
             </div>
             {/* navbar */}
             <Navbar 
-                url={"https://metalab.store/ttangkkeut-museum/digital-docents/KOR/tk-docent-about-01-KOR.webm"}
+                url={`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-main-KOR.webm`}
                 sign={"/video/sign/schema_sign_2.mp4"}
             /> 
             {/* <Newnavbar /> */}

@@ -94,7 +94,7 @@ export default function Viewpage() {
                                 className="h-20 w-20 animate-bounce mx-auto screen-w:h-40 screen-w:w-40 text-Awhite">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
                             </svg>
-                            <span className="text-Dgrey font-bold text-base screen-w:text-3xl">{'확대해서 그림을 더 자세히 감상해보세요!'}</span>
+                            <span className="text-Dgrey font-bold text-base screen-w:text-4xl">{'화면 터치 후 확대해 보세요!'}</span>
                         </div>
                         <div className="flex flex-col w-full mx-auto">
                             <div className="flex justify-between w-full">

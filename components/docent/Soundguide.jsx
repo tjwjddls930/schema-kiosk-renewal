@@ -12,7 +12,6 @@ const Soundguide = ({videoUrl, volume, playing, end, loop, ...props}) => {
         volume={volume}
         controls={false}
         playing={playing}
-        loop={true}
         onEnded={end}
         {...props}
     />
