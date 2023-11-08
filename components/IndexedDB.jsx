@@ -24,8 +24,15 @@ export default function IDBAnimationModel({
 
   useFrame((state, delta) => {
     mixer.update(delta);
-    mesh.current.rotation.y += delta * 0.05;
+    mesh.current.rotation.y += delta * 0.4;
     state.camera.lookAt(0, 0, 0);
+  });
+
+  scene.traverse((child)=> {
+    if(child.isMesh) {
+        child.castShadow = true;
+        child.receiveShadow = true;
+    }
   });
 
   // IndexedDB
