@@ -3,10 +3,11 @@ import '@/styles/globals.css';
 // import TallLayout from '@/components/pagelayout/TallLayout';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import { FontsizeProvider } from '@/contexts/FontsizeContext';
-import Inactivityredirect from '@/components/digitaltwin/Inactivityredirect';
 import { ScreenOrientProvider } from '@/contexts/ScreenOrientContext';
 import {useEffect, useState} from 'react';
 import dynamic from 'next/dynamic';
+import Inactivityredirect from '@/components/digitaltwin/Inactivityredirect';
+// import InactivityRedirect2 from '@/components/digitaltwin/Inactivityredirect2';
 const WideLayout = dynamic(() => import('@/components/pagelayout/WideLayout'));
 const TallLayout = dynamic(() => import('@/components/pagelayout/TallLayout'));
 
@@ -35,11 +36,12 @@ export default function App({ Component, pageProps }) {
           {isPortrait ? 
             <TallLayout>
               <Component {...pageProps} />
+              <Inactivityredirect timeoutInMinutes={0.5} />
             </TallLayout>
             :  
             <WideLayout>
-              {/* <Inactivityredirect timeoutInMinutes={2} /> */}
               <Component {...pageProps} />  
+              <Inactivityredirect timeoutInMinutes={0.5} />
             </WideLayout>
           }
           </ScreenOrientProvider>

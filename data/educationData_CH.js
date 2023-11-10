@@ -918,6 +918,3 @@ export const educationData_CH = [
         ]
     },
 ];
-
-
-

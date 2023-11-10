@@ -6,6 +6,14 @@ import { useContext } from 'react';
 import { FontsizeContext } from "@/contexts/FontsizeContext";
 // import Newnavbar from "@/components/navbar/Newnavbar";
 
+const topText = {
+    KOR: "2023 사립박물관·미술관 디지털 전시관람 환경 개선 지원사업",
+    ENG: "2023 Support project to improve digital exhibition viewing environment at private museums and art galleries",
+    CH: "2023 支持改善私人博物馆和美术馆的数字展览观看环境的项目",
+    TH: "2023 สนับสนุนโครงการปรับปรุงสภาพแวดล้อมในการชมนิทรรศการดิจิทัลที่พิพิธภัณฑ์ส่วนตัวและหอศิลป์",
+    VI: "2023 Dự án hỗ trợ cải thiện môi trường xem triển lãm kỹ thuật số tại các bảo tàng và phòng trưng bày nghệ thuật tư nhân"
+}
+
 const bottomText = {
     KOR: (size)=> (
         <div className="mx-auto flex flex-row items-center">
@@ -77,7 +85,7 @@ const bottomText = {
             <span className={`text-Bgrey ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Đóng cửa vào thứ Hai hàng tuần"}</span>
         </div>
     ),
-}
+};
 
 export default function Mainpage() {
     const {language} = useContext(LanguageContext);
@@ -93,6 +101,11 @@ export default function Mainpage() {
             </div>
             {/* 상단 로고 섹션 */}
             <TopNavbar />
+            <div className="w-5/6 flex mx-auto text-center items-center justify-center">
+                <span className="flex text-5xl text-Bgrey font-bold">
+                    {topText[language]}
+                </span>
+            </div>
             {/* 중단 버튼 섹션 */}
             <Newbutton />
             {/* 하단 텍스트 */}

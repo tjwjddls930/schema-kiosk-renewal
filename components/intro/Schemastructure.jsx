@@ -238,7 +238,7 @@ const Schemastructure = () => {
                         </svg>
                     </Link>
                 </button>
-                <button className="absolute left-24 bottom-20 screen-w:left-60 screen-w:bottom-44">
+                <button className="absolute left-24 bottom-20 screen-w:left-16 screen-w:bottom-80">
                     <Link href="/main">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                             className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Ablack">

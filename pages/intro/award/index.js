@@ -155,7 +155,7 @@ export default function Award() {
                 </ul>
             </div>
             {/* 하단 홈, 뒤로가기 버튼 */}
-            <button className="absolute left-14 bottom-20 screen-w:bottom-40">
+            <button className="absolute left-16 bottom-20 screen-w:bottom-44">
                 <Link href="/intro">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                         className="w-12 h-12 screen-w:w-36 screen-w:h-36">
@@ -163,7 +163,7 @@ export default function Award() {
                     </svg>
                 </Link>
             </button>
-            <button className="absolute left-32 bottom-20 screen-w:left-60 screen-w:bottom-40">
+            <button className="absolute left-16 screen-w:bottom-80">
                 <Link href="/main">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                         className="w-16 h-16 screen-w:w-36 screen-w:h-36">
@@ -250,7 +250,7 @@ export default function Award() {
                 </main>
             </div>
             {/* 하단 홈, 뒤로가기 버튼 */}
-            <button className="absolute left-14 bottom-20 screen-w:bottom-40">
+            <button className="absolute left-16 bottom-20 screen-w:bottom-44">
                 <Link href="/intro">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                         className="w-12 h-12 screen-w:w-36 screen-w:h-36">
@@ -258,7 +258,7 @@ export default function Award() {
                     </svg>
                 </Link>
             </button>
-            <button className="absolute left-32 bottom-20 screen-w:left-60 screen-w:bottom-40">
+            <button className="absolute left-32 bottom-20 screen-w:left-16 screen-w:bottom-80">
                 <Link href="/main">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                         className="w-16 h-16 screen-w:w-36 screen-w:h-36">
@@ -270,7 +270,7 @@ export default function Award() {
             <div className="h-[150px] w-[30px] screen-w:h-[300px] screen-w:w-[100px] absolute right-14 bottom-56 screen-w:right-20 screen-w:transform screen-w:-translate-y-1/2 screen-w:bottom-1/2 animate-bounce">
                 <img 
                     src="/img/intro/award/scroll_icon.png"
-                    className={`h-20 w-20 screen-w:h-[300px] screen-w:w-[100px] transition-opacity ${isTouching ? "opacity-0" : "opacity-100"}`}
+                    className={`h-20 w-20 screen-w:h-[350px] screen-w:w-[150px] transition-opacity ${isTouching ? "opacity-0" : "opacity-100"}`}
                     alt="scroll"
                 />
             </div>

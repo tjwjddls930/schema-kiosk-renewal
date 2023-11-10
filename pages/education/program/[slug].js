@@ -87,7 +87,7 @@ const Program = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
             </svg>
         </button>
-        <button className="absolute left-24 bottom-20 screen-w:left-60 screen-w:bottom-44"
+        <button className="absolute left-24 bottom-20 screen-w:left-16 screen-w:bottom-80"
             onClick={()=>router.push("/main")}
         >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 

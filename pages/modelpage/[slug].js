@@ -199,7 +199,7 @@ export default function Modelpage({}) {
                 </button>
             </div>
             {/* 초기화 */}
-            <div className="h-[200px] w-[100px] absolute left-10 bottom-96 screen-w:h-[750px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-[470px]">
+            <div className="h-[200px] w-[100px] absolute left-10 bottom-96 screen-w:h-[750px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-[530px]">
                 <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
                     <button 
                         className="h-20 w-20 ml-2 screen-w:h-40 screen-w:w-40 screen-w:ml-4"
@@ -214,7 +214,7 @@ export default function Modelpage({}) {
                 </div>
             </div>
             {/* 작품해설 */}
-            <div className="h-[130px] w-[100px] absolute left-10 bottom-72 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-[370px]">
+            <div className="h-[130px] w-[100px] absolute left-10 bottom-72 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-[430px]">
                 <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
                     <button className="h-20 w-20 ml-2 screen-w:h-40 screen-w:w-40 screen-w:ml-4"> 
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
@@ -226,7 +226,7 @@ export default function Modelpage({}) {
                 </div>
             </div>
             {/* 챗봇안내 */}
-            <div className="h-[130px] w-[100px] absolute left-10 bottom-72 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-24">
+            <div className="h-[130px] w-[100px] absolute left-10 bottom-72 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-40">
                 <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
                     <button className="h-20 w-20 ml-2 screen-w:h-40 screen-w:w-40 screen-w:ml-4"> 
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
@@ -246,7 +246,7 @@ export default function Modelpage({}) {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
                 </svg>
             </button>
-            <button className="absolute left-36 bottom-28 screen-w:left-72 screen-w:bottom-44"
+            <button className="absolute left-36 bottom-28 screen-w:left-28 screen-w:bottom-[340px]"
                 onClick={async ()=> router.push("/")}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 

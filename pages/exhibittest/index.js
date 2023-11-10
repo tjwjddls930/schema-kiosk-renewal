@@ -76,7 +76,7 @@ export default function Exhibitpage() {
                     </motion.div>
                 </AnimatePresence>
             </main>  
-            <div className="w-11/12 h-10 screen-w:h-24 flex text-Dgrey shadow-md mx-auto justify-center overflow-hidden">
+            <div className="w-[88%] h-10 screen-w:h-24 flex text-Dgrey shadow-md mx-auto justify-center overflow-hidden">
                 <ul className="flex flex-row space-x-12 font-bold text-base mb-2 screen-w:text-5xl screen-w:space-x-16 screen-w:mt-4">
                     {allExhibits.map((item)=> (
                         <li
@@ -92,7 +92,7 @@ export default function Exhibitpage() {
                 </ul>
             </div>
               
-            <button className="absolute left-12 bottom-20 screen-w:bottom-40"
+            <button className="absolute left-16 bottom-20 screen-w:bottom-44"
                 onClick={async()=>router.back()}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
@@ -100,7 +100,7 @@ export default function Exhibitpage() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
                 </svg>
             </button>
-            <button className="absolute left-24 bottom-20 screen-w:left-60 screen-w:bottom-40"
+            <button className="absolute left-16 bottom-20 screen-w:bottom-80"
                 onClick={async()=>router.push("/main")}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 

@@ -258,23 +258,23 @@ const Newbutton = () => {
             </section>
             {/* 언어변경 버튼 */}
             <button 
-                    // className="absolute left-12 bottom-40 screen-w:left-24 screen-w:bottom-52 text-Bgrey space-y-4"
-                    className="absolute transform -translate-x-1/2 left-1/2 bottom-40 text-Bgrey space-y-4"
-                    onClick={()=>setModal(!modal)}    
-                >
-                    <div className="flex flex-col screen-w:space-y-4">
-                        <div className="border-4 border-Ablue rounded-full w-20 h-20 screen-w:w-40 screen-w:h-40 items-center bg-Awhite mx-auto">
-                            <Image 
-                                className="mx-auto pt-2.5 z-1 screen-w:pt-6"
-                                src="/img/mainpage/언어변경_아이콘_1.png"
-                                height="100"
-                                width="100"
-                                alt="language"
-                            />
-                        </div>
-                        {languageChange[language](fontsize)}
+                // className="absolute left-12 bottom-40 screen-w:left-24 screen-w:bottom-52 text-Bgrey space-y-4"
+                className={clsx(isPortrait ? "absolute transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4" : "absolute transform -translate-x-1/2 left-1/2 bottom-44 text-Bgrey space-y-4")}
+                onClick={()=>setModal(!modal)}    
+            >
+                <div className="flex flex-col screen-w:space-y-4">
+                    <div className="border-4 border-Ablue rounded-full w-20 h-20 screen-w:w-40 screen-w:h-40 items-center bg-Awhite mx-auto">
+                        <Image 
+                            className="mx-auto pt-2.5 z-1 screen-w:pt-6"
+                            src="/img/mainpage/언어변경_아이콘_1.png"
+                            height="100"
+                            width="100"
+                            alt="language"
+                        />
                     </div>
-                </button>
+                    {languageChange[language](fontsize)}
+                </div>
+            </button>
                 {modal && (
                     <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
                         <div className={clsx(isPortrait ? "flex flex-col h-[60%] w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-[700px] space-y-4 screen-w:space-y-6" 
@@ -311,29 +311,6 @@ const Newbutton = () => {
                                                 <span className="text-xl screen-w:text-6xl font-bold">English</span>
                                                 <span className="text-lg screen-w:text-4xl font-bold">English</span>
                                             </div>
-                                            {/* <Image 
-                                                id="en"
-                                                className="pt-3 screen-w:pt-14 mx-auto"
-                                                height="70"
-                                                width="100"
-                                                src="/img/flags/usa.png"
-                                                alt="usa"
-                                                style={{
-                                                    height:"auto",
-                                                    width:"auto"
-                                                }}
-                                                onClick={(e)=>handleLanguage(e, "English")}
-                                            /> */}
-                                             {/* <img 
-                                                id="en"
-                                                className="pt-3 screen-w:pt-14 mx-auto h-40 w-[100px] screen-w:h-60 screen-w:w-[300px]"
-                                                src="/img/flags/usa.png"
-                                                alt="usa"
-                                                onClick={(e)=>handleLanguage(e, "English")}
-                                            /> */}
-                                            {/* <div className="absolute w-full h-16 screen-w:h-24 bottom-0 pt-1 screen-w:pt-3 bg-Dgrey text-black z-40 rounded-b-lg">
-                                             
-                                            </div> */}
                                         </div>
                                     </button>
                                 </div>

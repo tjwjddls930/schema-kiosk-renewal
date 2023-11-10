@@ -3,7 +3,7 @@ export const awardData_KOR =
 [
     {
         title: "제 1회 수상작가", 
-        imgname:"유숩_작가이미지.png", 
+        imgname:"1st.jpg", 
         engname: "Jusuf Hadžifejzović", 
         name:"유숩 하지페조비치", 
         career: "School of Applied Art, Academy of Fine Arts in Belgrade",
@@ -37,7 +37,7 @@ export const awardData_KOR =
     },
     {
         title: "제 2회 수상작가", 
-        imgname:"김재남_작가이미지.png", 
+        imgname:"2nd.jpg", 
         engname: "Kim Jae Nam", 
         name:"김재남", 
         career: "홍익대학교 회화과, 동대학원 회화과, 미술학 박사",
@@ -64,7 +64,7 @@ export const awardData_KOR =
     },
     {
         title: "제 3회 수상작가", 
-        imgname:"창신_작가이미지.png", 
+        imgname:"3rd.jpg", 
         engname: "Chang Xin", 
         name:"창신", 
         career: "텐진대학교 음악대학 졸업",
@@ -98,7 +98,7 @@ export const awardData_KOR =
     },    
     {
         title: "제 4회 수상작가", 
-        imgname:"임은수_작가이미지.png", 
+        imgname:"4th.png", 
         engname: "Lim Eun Soo", 
         name:"임은수", 
         career: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
@@ -137,7 +137,7 @@ export const awardData_KOR =
     },    
     {
         title: "제 5회 수상작가", 
-        imgname:"가즈유키_작가이미지.png", 
+        imgname:"5th.jpg", 
         engname: "Uno Kazuyuki", 
         name:"우노 가즈유키", 
         career: "도쿄 예술 대학 대학원 미술 연구과 박사 후기 과정 수료",
@@ -191,7 +191,7 @@ export const awardData_ENG =
 [
     {
         title: "1st Award Winner", 
-        imgname:"유숩_작가이미지.png", 
+        imgname:"1st.jpg", 
         engname: "Jusuf Hadžifejzović", 
         name:"Jusuf Hadžifejzović", 
         career: "School of Applied Art, Academy of Fine Arts in Belgrade",
@@ -225,7 +225,7 @@ export const awardData_ENG =
     },
     {
         title: "2nd Award Winner", 
-        imgname:"김재남_작가이미지.png", 
+        imgname:"2nd.jpg", 
         engname: "Kim Jae Nam", 
         name:"김재남", 
         career: "홍익대학교 회화과, 동대학원 회화과, 미술학 박사",
@@ -252,7 +252,7 @@ export const awardData_ENG =
     },
     {
         title: "3rd Award Winner", 
-        imgname:"창신_작가이미지.png", 
+        imgname:"3rd.jpg", 
         engname: "Chang Xin", 
         name:"창신", 
         career: "텐진대학교 음악대학 졸업",
@@ -286,7 +286,7 @@ export const awardData_ENG =
     },    
     {
         title: "4th Award Winner", 
-        imgname:"임은수_작가이미지.png", 
+        imgname:"4th.png", 
         engname: "Lim Eun Soo", 
         name:"임은수", 
         career: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
@@ -325,7 +325,7 @@ export const awardData_ENG =
     },    
     {
         title: "5th Award Winner", 
-        imgname:"가즈유키_작가이미지.png", 
+        imgname:"5th.jpg", 
         engname: "Uno Kazuyuki", 
         name:"우노 가즈유키", 
         career: "도쿄 예술 대학 대학원 미술 연구과 박사 후기 과정 수료",
@@ -379,7 +379,7 @@ export const awardData_CH =
 [
     {
         title: "一等奖获得者", 
-        imgname:"유숩_작가이미지.png", 
+        imgname:"1st.jpg", 
         engname: "Jusuf Hadžifejzović", 
         name:"유숩 하지페조비치", 
         career: "School of Applied Art, Academy of Fine Arts in Belgrade",
@@ -413,7 +413,7 @@ export const awardData_CH =
     },
     {
         title: "第二届获奖艺术家", 
-        imgname:"김재남_작가이미지.png", 
+        imgname:"2nd.jpg", 
         engname: "Kim Jae Nam", 
         name:"김재남", 
         career: "홍익대학교 회화과, 동대학원 회화과, 미술학 박사",
@@ -440,7 +440,7 @@ export const awardData_CH =
     },
     {
         title: "三等奖获得者", 
-        imgname:"창신_작가이미지.png", 
+        imgname:"3rd.jpg", 
         engname: "Chang Xin", 
         name:"창신", 
         career: "텐진대학교 음악대학 졸업",
@@ -474,7 +474,7 @@ export const awardData_CH =
     },    
     {
         title: "第四名获奖者", 
-        imgname:"임은수_작가이미지.png", 
+        imgname:"4th.png", 
         engname: "Lim Eun Soo", 
         name:"임은수", 
         career: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
@@ -513,7 +513,7 @@ export const awardData_CH =
     },    
     {
         title: "第五届获奖者", 
-        imgname:"가즈유키_작가이미지.png", 
+        imgname:"5th.jpg", 
         engname: "Uno Kazuyuki", 
         name:"우노 가즈유키", 
         career: "도쿄 예술 대학 대학원 미술 연구과 박사 후기 과정 수료",
@@ -567,7 +567,7 @@ export const awardData_TH =
 [
     {
         title: "ผู้ชนะรางวัลที่ 1", 
-        imgname:"유숩_작가이미지.png", 
+        imgname:"1st.jpg", 
         engname: "Jusuf Hadžifejzović", 
         name:"유숩 하지페조비치", 
         career: "School of Applied Art, Academy of Fine Arts in Belgrade",
@@ -601,7 +601,7 @@ export const awardData_TH =
     },
     {
         title: "ศิลปินได้รับรางวัลรองชนะเลิศอันดับ 2", 
-        imgname:"김재남_작가이미지.png", 
+        imgname:"2nd.jpg", 
         engname: "Kim Jae Nam", 
         name:"김재남", 
         career: "홍익대학교 회화과, 동대학원 회화과, 미술학 박사",
@@ -628,7 +628,7 @@ export const awardData_TH =
     },
     {
         title: "ผู้ชนะรางวัลที่ 3", 
-        imgname:"창신_작가이미지.png", 
+        imgname:"3rd.jpg", 
         engname: "Chang Xin", 
         name:"창신", 
         career: "텐진대학교 음악대학 졸업",
@@ -662,7 +662,7 @@ export const awardData_TH =
     },    
     {
         title: "ผู้ชนะรางวัลที่ 4", 
-        imgname:"임은수_작가이미지.png", 
+        imgname:"4th.png", 
         engname: "Lim Eun Soo", 
         name:"임은수", 
         career: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
@@ -701,7 +701,7 @@ export const awardData_TH =
     },    
     {
         title: "ผู้ได้รับรางวัลอันดับที่ 5", 
-        imgname:"가즈유키_작가이미지.png", 
+        imgname:"5th.jpg", 
         engname: "Uno Kazuyuki", 
         name:"우노 가즈유키", 
         career: "도쿄 예술 대학 대학원 미술 연구과 박사 후기 과정 수료",
@@ -755,7 +755,7 @@ export const awardData_VI =
 [
     {
         title: "Người đoạt giải nhất", 
-        imgname:"유숩_작가이미지.png", 
+        imgname:"1st.jpg", 
         engname: "Jusuf Hadžifejzović", 
         name:"유숩 하지페조비치", 
         career: "School of Applied Art, Academy of Fine Arts in Belgrade",
@@ -789,7 +789,7 @@ export const awardData_VI =
     },
     {
         title: "Nghệ sĩ đoạt giải thứ 2", 
-        imgname:"김재남_작가이미지.png", 
+        imgname:"2nd.jpg", 
         engname: "Kim Jae Nam", 
         name:"김재남", 
         career: "홍익대학교 회화과, 동대학원 회화과, 미술학 박사",
@@ -816,7 +816,7 @@ export const awardData_VI =
     },
     {
         title: "Người đoạt giải thứ 3", 
-        imgname:"창신_작가이미지.png", 
+        imgname:"3rd.jpg", 
         engname: "Chang Xin", 
         name:"창신", 
         career: "텐진대학교 음악대학 졸업",
@@ -850,7 +850,7 @@ export const awardData_VI =
     },    
     {
         title: "Người đoạt giải thứ 4", 
-        imgname:"임은수_작가이미지.png", 
+        imgname:"4th.png", 
         engname: "Lim Eun Soo", 
         name:"임은수", 
         career: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
@@ -889,7 +889,7 @@ export const awardData_VI =
     },    
     {
         title: "Người đoạt giải thứ 5", 
-        imgname:"가즈유키_작가이미지.png", 
+        imgname:"5th.jpg", 
         engname: "Uno Kazuyuki", 
         name:"우노 가즈유키", 
         career: "도쿄 예술 대학 대학원 미술 연구과 박사 후기 과정 수료",

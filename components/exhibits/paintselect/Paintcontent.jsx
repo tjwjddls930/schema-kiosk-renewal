@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect, useContext } from "react";
 import Link from "next/link";
-import { artistData } from "@/data/artistData";
+// import { artistData } from "@/data/artistData";
+import { allExhibits } from "@/data/pastExhibit";
 import { useRouter } from "next/router";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
@@ -50,13 +51,17 @@ const Paintcontent = () => {
     const [length, setLength] = useState(null);
     const router = useRouter();
     const pid = router.query.slug; 
+    const {order, artist} = router.query;
 
     useEffect(()=> {
-        setData(artistData[pid]);
-        if(artistData[pid]) {
-            setLength(artistData[pid].paint.length);
+        if(pid && order && artist && allExhibits?.[pid]?.exhibits?.[order]?.artist?.[artist]) {
+            setData(allExhibits[pid].exhibits[order].artist[artist]);
+            setLength(allExhibits[pid].exhibits[order].artist[artist].paint.length);
+        } else {
+            setData(null);
+            setLength(null);
         }
-    }, [pid])
+    }, [pid, order, artist])
 
     function nextExhibit() {
         // if(carousel.current !== null && carousel.current.offsetWidth * current <= maxScrollWidth.current) {
@@ -109,19 +114,20 @@ const Paintcontent = () => {
                                     className={`h-[150px] screen-w:h-[550px] w-full shadow-xl ${index === current ? "border-4 border-Awhite" : null}`}
                                     src={`/img/exhibitpage/paintings/${item.imgname}`}
                                     alt="paintings"
+                                    onClick={()=>router.push(`/artist/paint/viewpage/${item.order}`)}
                                 />
-                                <div className="absolute h-20 screen-w:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0">
-                                    <Link href={`/artist/paint/viewpage/${item.order}`}>
-                                        <div className="flex justify-between p-4 screen-w:p-6">
-                                            <span className="font-bold text-base pt-2 screen-w:pt-4 text-Awhite screen-w:text-2xl">{viewText[language]}</span>
-                                            <button className="bg-black rounded-full h-10 w-10 screen-w:h-18 screen-w:w-18 items-cetner text-center screen-w:pt-2">
-                                                <img 
-                                                    src="/img/exhibitpage/icons/화살표버튼.png"
-                                                    alt="arrow"
-                                                />
-                                            </button> 
-                                        </div>
-                                    </Link>
+                                <div className="absolute h-20 screen-w:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0"
+                                    onClick={()=>router.push(`/artist/paint/viewpage/${item.order}`)}
+                                >
+                                    <div className="flex justify-between p-4 screen-w:p-6">
+                                        <span className="font-bold text-base pt-2 screen-w:pt-4 text-Awhite screen-w:text-2xl">{viewText[language]}</span>
+                                        <button className="bg-black rounded-full h-10 w-10 screen-w:h-18 screen-w:w-18 items-cetner text-center screen-w:pt-2">
+                                            <img 
+                                                src="/img/exhibitpage/icons/화살표버튼.png"
+                                                alt="arrow"
+                                            />
+                                        </button> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -129,13 +135,13 @@ const Paintcontent = () => {
                 </div>
              {isPortrait ?
              <div className="h-[600px] w-11/12 screen-w:h-[700px] flex flex-col space-y-1 px-12 py-3 screen-w:space-y-5 screen-w:px-16 mx-auto">
-                <div className="w-20 h-[1px] bg-Cpurple mb-1 screen-w:mb-2" />
+                <div className="w-20 h-[1px] bg-Ablue mb-1 screen-w:mb-2" />
                 <span className="text-sm screen-w:text-6xl font-bold text-Bgrey">{data.engname}</span>
                 <span className="text-base screen-w:text-7xl font-bold text-black mb-2 screen-w:mb-4">{data.name}</span>
                 <span className="text-xs screen-w:text-4xl font-bold text-black mb-2 screen-w:mb-4">{data.career}</span>
                 <div className="flex h-full flex-row space-x-8 w-full mx-auto">
                     <div className="h-full w-1/2 mx-auto flex flex-col space-y-6">
-                        <span className="text-sm screen-w:text-4xl text-Cpurple font-bold">{individualText[language]}</span>
+                        <span className="text-sm screen-w:text-4xl text-Ablue font-bold">{individualText[language]}</span>
                         <div className="overflow-auto w-full h-[10%] screen-w:h-3/4 flex flex-col space-y-2">
                             {data.individual_exhibition.map((item)=> (
                                 <span key={item.order} className="text-xs screen-w:text-3xl text-Cgrey font-bold">{item.exhibit}</span>
@@ -143,7 +149,7 @@ const Paintcontent = () => {
                         </div>
                     </div>
                     <div className="h-full w-1/2 mx-auto flex flex-col space-y-6">
-                    <span className="text-sm screen-w:text-4xl text-Cpurple font-bold mt-4">{groupText[language]}</span>
+                    <span className="text-sm screen-w:text-4xl text-Ablue font-bold mt-4">{groupText[language]}</span>
                         <div className="overflow-auto w-full h-[10%] screen-w:h-3/4 flex flex-col space-y-2">
                             {data.group_exhibition.map((item)=> (
                                 <span key={item.order} className="text-xs screen-w:text-3xl text-Cgrey font-bold">{item.exhibit}</span>
@@ -151,57 +157,61 @@ const Paintcontent = () => {
                         </div>
                     </div>
                 </div>
-                <button className="h-8 w-[100px] text-sm screen-w:h-[100px] screen-w:w-[400px] screen-w:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Agradient to-Bgradient shadow-md">
+                <button className="h-8 w-[100px] text-sm screen-w:h-[100px] screen-w:w-[400px] screen-w:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Bblue to-Ablue shadow-md">
                     {noteText[language]}
                 </button>
             </div>
             :
             <div className="w-[30%] h-[600px] screen-w:w-[35%] screen-w:h-[700px] flex flex-col space-y-1 px-12 py-3 screen-w:space-y-5 screen-w:px-16">
-                 <div className="w-20 h-[1px] bg-Cpurple mb-1 screen-w:mb-2" />
+                 <div className="w-20 h-[1px] bg-Ablue mb-1 screen-w:mb-2" />
                  <span className="text-sm screen-w:text-6xl font-bold text-Bgrey">{data.engname}</span>
                  <span className="text-base screen-w:text-7xl font-bold text-black mb-2 screen-w:mb-4">{data.name}</span>
                  <span className="text-xs screen-w:text-4xl font-bold text-black mb-2 screen-w:mb-4">{data.career}</span>
-                 <span className="text-sm screen-w:text-4xl text-Cpurple font-bold">{individualText[language]}</span>
+                 <span className="text-sm screen-w:text-4xl text-Ablue font-bold">{individualText[language]}</span>
                  <div className="overflow-auto w-full h-[10%] screen-w:h-1/2 flex flex-col space-y-1">
                      {data.individual_exhibition.map((item)=> (
                          <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
                      ))}
                  </div>
-                 <span className="text-sm screen-w:text-4xl text-Cpurple font-bold mt-4">{groupText[language]}</span>
+                 <span className="text-sm screen-w:text-4xl text-Ablue font-bold mt-4">{groupText[language]}</span>
                  <div className="overflow-auto w-full h-[10%] screen-w:h-1/2 flex flex-col space-y-1">
                      {data.group_exhibition.map((item)=> (
                          <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
                      ))}
                  </div>
-                 <button className="h-8 w-[100px] text-sm screen-w:h-48 screen-w:w-[400px] screen-w:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Agradient to-Bgradient shadow-md">
+                 <button className="h-8 w-[100px] text-sm screen-w:h-48 screen-w:w-[400px] screen-w:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Bblue to-Ablue shadow-md">
                      {noteText[language]}
                 </button>
              </div>
              }
              <div className="h-[30px] w-[300px] screen-w:w-[800px] absolute right-72 bottom-28 screen-w:bottom-72 screen-w:right-96">
                  <div className="flex flex-row space-x-2 screen-w:space-x-4">
-                     <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Cpurple rounded-full" />
-                     <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Cpurple rounded-full" />
-                     <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Cpurple rounded-full" />
+                     <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Ablue rounded-full" />
+                     <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Ablue rounded-full" />
+                     <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Ablue rounded-full" />
                  </div>
              </div>
              <button 
                  onClick={prevExhibit}
-                 className="absolute w-[208px] h-16 screen-w:h-32 screen-w:w-[320px] text-xl font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-l-md bottom-28 right-52 screen-w:bottom-72 screen-w:right-80">
-                     <img
-                         className="h-8 w-8 screen-w:h-12 screen-w:w-12 mx-auto"
-                         src="/img/exhibitpage/icons/left.png"
-                         alt="left"
-                     />
+                 className="absolute w-[208px] h-16 screen-w:h-32 screen-w:w-[320px] text-xl font-bold text-Awhite bg-Ablue focus:bg-Bblue rounded-l-md bottom-28 right-52 screen-w:bottom-72 screen-w:right-80">
+                    <svg 
+                        id="left"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-8 h-8 screen-w:w-24 screen-w:h-24 text-Awhite flex mx-auto"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
              </button>
              <button 
                  onClick={nextExhibit}
-                 className="absolute w-[208px] h-16 text-xl screen-w:h-32 screen-w:w-[320px] font-bold text-Awhite bg-Cpurple focus:bg-Bpurple rounded-r-md bottom-28 right-0 screen-w:bottom-72">
-                     <img 
-                         className="h-8 w-8 screen-w:h-12 screen-w:w-12 mx-auto"
-                         src="/img/exhibitpage/icons/right.png"
-                         alt="right"
-                     />
+                 className="absolute w-[208px] h-16 text-xl screen-w:h-32 screen-w:w-[320px] font-bold text-Awhite bg-Ablue focus:bg-Bblue rounded-r-md bottom-28 right-0 screen-w:bottom-72">
+                    <svg 
+                        id="right"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-8 h-8 screen-w:w-24 screen-w:h-24 text-Awhite flex mx-auto"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
              </button>
          </div>
         )

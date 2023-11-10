@@ -65,10 +65,10 @@ const Awardcontent = ({imgname, engname, name, career, timeline_i, timeline_g}) 
     return(
         <div className={clsx(isPortrait ? "w-full h-full mx-auto flex flex-col space-y-[200px] px-32 py-12 items-center" : "w-11/12 h-3/4 mx-auto px-20 py-12 screen-w:px-40 screen-w:py-16 lg:py-6 flex flex-row justify-between")}>
             <div className={clsx(isPortrait ? "flex flex-col screen-w:space-y-4 screen-w:w-11/12 screen-w:h-1/2 mx-auto" : "flex flex-col screen-w:space-y-4 screen-w:w-[40%] screen-w:h-1/2")}>
-                <div className="border-4 border-Awhite h-[250px] w-[380px] screen-w:h-[1100px] screen-w:w-[1300px]">
+                <div className="h-5/6 w-5/6 flex">
                     <img 
                         src={`/img/intro/award/${imgname}`}
-                        className="h-full w-full mx-auto shadow-lg mb-4"
+                        className="shadow-lg mb-4 border-4 border-Awhite flex"
                         alt="artist"
                     />
                 </div>

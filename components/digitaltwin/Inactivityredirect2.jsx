@@ -12,8 +12,8 @@ const InactivityRedirect2 = ({ timeoutInMinutes }) => {
       clearTimeout(inactivityTimer);
       inactivityTimer = setTimeout(() => {
         setInactive(true);
-        if (router.asPath !== '/') {
-          router.push('/'); // Redirect to the root page if not already there
+        if (router.asPath !== '/landingpage') {
+          router.push('/landingpage'); // Redirect to the root page if not already there
         }
       }, timeoutInMinutes * 60 * 1000);
     };

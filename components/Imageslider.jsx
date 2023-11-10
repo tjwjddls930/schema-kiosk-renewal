@@ -128,8 +128,8 @@ function Slider() {
 export default function Imageslider() {
   const {isPortrait} = useContext(ScreenOrientContext);
   const [canvasStyle, setCanvasStyle] = useState({
-    height: "50vh",
-    width: "90vw",
+    height: "70vh",
+    width: "100vw",
   });
 
   useEffect(()=> {

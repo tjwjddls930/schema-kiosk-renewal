@@ -95,8 +95,8 @@ const CoverflowCarousel = ({index}) => {
   useEffect(() => {
     // Update the isClient state to true as this code will be executed only on client side
     setIsClient(true);
-    const order = allExhibits[index].order; 
-    router.replace(`?year=${allExhibits[index].exhibits[highlightedImageIndex].year}&?index=${highlightedImageIndex}`)
+    const order = allExhibits[index].index; 
+    // router.replace(`?year=${allExhibits[index].exhibits[highlightedImageIndex].year}&?index=${highlightedImageIndex}`)
     if(allExhibits[index]) {
       setList(order);
       // setTime(year);
@@ -117,7 +117,7 @@ const CoverflowCarousel = ({index}) => {
                 <div className={clsx(isPortrait ? "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-end justify-center" : "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center justify-center")}>
                   <button 
                     className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
-                    onClick={()=> router.push(`/artist`)}
+                    onClick={()=> router.push(`/artist/${list}?order=${highlightedImageIndex}`)}
                   >
                       {popupText1[language]}
                   </button>

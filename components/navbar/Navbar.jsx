@@ -340,6 +340,7 @@ const Navbar = ({url, sign}) => {
                             videoUrl={url}
                             volume={Number(volume)}
                             playing={true}
+                            loop={false}
                             end={()=>setSoundguide(!soundguide)}
                         />
                     </div>
@@ -481,7 +482,7 @@ const Navbar = ({url, sign}) => {
                 </div>
             </div>
             )}
-           <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-28 bg-Ablue px-10 screen-w:px-12 items-center">
+           <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-40 bg-Ablue px-10 screen-w:px-12 items-center">
                 <div className="flex flex-row w-full h-full space-x-4 screen-w:space-x-6 justify-end">
                     {languageText[language](()=>setModal(!modal))}
                     {textSize[language](()=>setFontsize(!fontsize), fontsize)}

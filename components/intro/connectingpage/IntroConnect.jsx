@@ -52,7 +52,7 @@ const IntroConnect = ({children}) => {
             <div className="h-screen w-screen bg-[url('/img/intro/connectpage/미술관소개_배경이미지.png')] bg-cover bg-no-repeat">
                 {topText[language]()}
                 {children}
-                <button className="absolute left-14 bottom-20 screen-w:bottom-40">
+                <button className="absolute left-14 bottom-20 screen-w:bottom-44">
                     <Link href="/main">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                             className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Ablack">
