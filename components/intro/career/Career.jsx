@@ -43,7 +43,7 @@ const Career = ({}) => {
         <div className={clsx(isPortrait ? "h-5/6 w-full p-12 pb-56 mx-auto items-center z-10" : "p-6 screen-w:px-6 screen-w:pt-20 mx-auto items-center z-10")}>
             <div className={clsx(isPortrait ? "w-11/12 h-3/4 screen-w:h-[70%] mx-auto flex flex-col" : "w-11/12 h-3/4 screen-w:h-[70%] mx-auto flex flex-row space-x-[50px] screen-w:space-x-[100px] justify-between")}>
                 <div className={clsx(isPortrait ? "w-full h-[30%] flex" : "w-1/2 h-2/3 flex")}>
-                <Suspense fallback={null}>
+                <Suspense fallback={<p>Loading...</p>}>
                     <Imageslider />
                 </Suspense>
                 </div>
