@@ -34,7 +34,7 @@ const Imageandmodel = () => {
         <>
             <mesh 
                 position={[-10, 1, 0]} rotation={[0, 0, 0]} castShadow 
-                onClick={()=> router.push('/main')}>
+                onClick={()=> router.push('/')}>
                 <boxGeometry attach="geometry" args={[8, 4.5, 0.1]} />
                 <meshLambertMaterial color={0xffffff} attach="material-0" />
                 <meshLambertMaterial color={0xffffff} attach="material-1" />
