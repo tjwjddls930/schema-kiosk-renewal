@@ -37,13 +37,13 @@ export default function App({ Component, pageProps }) {
             <TallLayout>
               <Component {...pageProps} />
               {/* <InactivityDetector /> */}
-              <InactivityRedirect2 timeoutInMinutes={0.5} />
+              {/* <InactivityRedirect2 timeoutInMinutes={0.5} /> */}
             </TallLayout>
             :  
             <WideLayout>
               <Component {...pageProps} />  
               {/* <InactivityDetector /> */}
-              <InactivityRedirect2 timeoutInMinutes={0.5} />
+              {/* <InactivityRedirect2 timeoutInMinutes={0.5} /> */}
             </WideLayout>
           }
           </ScreenOrientProvider>

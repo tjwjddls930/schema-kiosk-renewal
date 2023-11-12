@@ -163,9 +163,10 @@ export default function Structure() {
                 </div>
             </div>
             }
-            <Navbar 
-                url={"/video/docent/blue-docent-test-02-removed.webm"}
-            />
+            {/* <Navbar 
+                url={intro.docent}
+            /> */}
+            {intro.docent}
         </> 
     )
 };

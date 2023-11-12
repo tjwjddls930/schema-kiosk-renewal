@@ -329,7 +329,7 @@ const Navbar = ({url, sign}) => {
     return(
         <>
             {soundguide && (
-                <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[94%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20")}
+                <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[94%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91%] screen-w:h-[92.7%] w-screen bg-Ablack bg-opacity-60 z-20")}
                     onClick={()=>setSoundguide(!soundguide)}
                 >
                     <div className={clsx(isPortrait ? "absolute transform -translate-x-1/2 left-1/2 bottom-4 h-1/2 w-2/3 z-40" : "absolute transform -translate-x-1/2 left-1/2 bottom-0 h-3/4 w-3/4 z-40")}

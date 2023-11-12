@@ -114,7 +114,7 @@ export default function Mainpage() {
             </div>
             {/* navbar */}
             <Navbar 
-                url={`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-main-KOR.webm`}
+                url={`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-intro-award-5-KOR.webm`}
                 sign={"/video/sign/schema_sign_2.mp4"}
             /> 
             {/* <Newnavbar /> */}

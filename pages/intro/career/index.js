@@ -198,9 +198,10 @@ export default function Career() {
                 </button>
         </div>
             }
-            <Navbar 
+            {/* <Navbar 
                 url={"/video/docent/blue-docent-test-02-removed.webm"}
-                lang={"/intro/structure"} />
+                lang={"/intro/structure"} /> */}
+            {career.docent}
         </>
     )
 };
