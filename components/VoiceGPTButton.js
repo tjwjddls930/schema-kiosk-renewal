@@ -261,7 +261,7 @@ export default function VoiceGPTButton({ isChatModalOpen }) {
     <div className="z-[999] flex justify-center items-center">
       <div
         className={clsx(
-          "z-[999] animate-opacitySlow backdrop-blur-sm border-2 border-white rounded-2xl mb-0 ml-3 py-3 pl-5 pr-3 absolute flex flex-col gap-3 justify-start items-start bottom-[200px] left-0 w-1/2 max-w-[400px] h-[250px] overflow-y-auto",
+          "z-[999] animate-opacitySlow backdrop-blur-sm border-2 border-white rounded-2xl mb-0 ml-3 py-3 pl-5 pr-3 absolute flex flex-col gap-3 justify-start items-start bottom-[200px] left-0 w-1/2 max-w-[500px] h-[250px] overflow-y-auto",
           (!isChatModalOpen || messages.length < 2) && "hidden"
         )}
       >
@@ -303,7 +303,7 @@ export default function VoiceGPTButton({ isChatModalOpen }) {
               onClick={startRecording}
             >
               <div className="flexjustify-center items-center gap-[0.3rem]">
-                <div className="text-gray-700 p-2 gap-[0.3rem] flex justify-center items-center text-base whitespace-nowrap">
+                <div className="text-gray-700 p-2 gap-[0.3rem] flex justify-center items-center text-base screen-w:text-2xl whitespace-nowrap">
                   {language === "KOR" ? "AI음성안내" : "AI Voice Guide"}{" "}
                   <div className="bg-gray-100 rounded-full flex justify-center items-center">
                     <span className="text-white bg-blue rounded-full font-light text-2xs px-2 py-2 whitespace-nowrap">

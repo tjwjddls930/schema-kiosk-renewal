@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 import ReactSlider from "react-slider";
 import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
@@ -6,6 +6,7 @@ import { LanguageContext } from "@/contexts/LanguageContext";
 import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import VoiceGPTButton from "../VoiceGPTButton";
+import { useRouter } from "next/router";
 
 const languageText = {
   KOR: (func) => (
@@ -61,8 +62,8 @@ const languageText = {
     </div>
   ),
   VI: (func) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[650px] justify-center items-center text-center">
-      <span className="text-xl w-[500px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
+    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[640px] justify-center items-center text-center">
+      <span className="text-xl w-[490px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
         {"Thay đổi ngôn ngữ"}
       </span>
       <button
@@ -129,8 +130,8 @@ const textSize = {
     </div>
   ),
   VI: (func, size) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
-      <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">
+    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[340px] justify-center text-center items-center">
+      <span className="text-xl w-[190px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"Cỡ chữ"}
       </span>
       <button
@@ -269,8 +270,8 @@ const soundDocent = {
     </div>
   ),
   VI: (func, sign, sound) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[850px] justify-center text-center items-center">
-      <span className="text-xl w-[700px] screen-w:text-5xl mx-auto font-bold text-Awhite">
+    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[840px] justify-center text-center items-center">
+      <span className="text-xl w-[690px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"hướng dẫn bằng giọng nói"}
       </span>
       <button
@@ -342,8 +343,8 @@ const signDocent = {
     </div>
   ),
   VI: (func, sound, sign) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[900px] justify-center text-center items-center">
-      <span className="text-xl w-[750px] screen-w:text-5xl mx-auto font-bold text-Awhite">
+    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[890px] justify-center text-center items-center">
+      <span className="text-xl w-[740px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"Hướng dẫn ngôn ngữ ký hiệu"}
       </span>
       <button
@@ -358,11 +359,13 @@ const signDocent = {
 };
 
 const Navbar = ({ url, sign }) => {
+  const router = useRouter();
   const [volume, setVolume] = useState(Number(0.5));
   const [volumepop, setVolumepop] = useState(false);
   const [soundguide, setSoundguide] = useState(false);
   const [signLang, setsignLang] = useState(false);
   const [modal, setModal] = useState(false);
+  const [isChatModalOpen, setIsChatModalOpen] = useState(false);
   // const [playing, setPlaying] = useState(true);
   const { language, setLanguage } = useContext(LanguageContext);
   const { fontsize, setFontsize } = useContext(FontsizeContext);
@@ -371,6 +374,10 @@ const Navbar = ({ url, sign }) => {
   const changeLanguage = (lang) => {
     setLanguage(lang);
   };
+
+  useEffect(() => {
+    setIsChatModalOpen(false);
+  }, [router.pathname]);
 
   return (
     <>
@@ -569,7 +576,7 @@ const Navbar = ({ url, sign }) => {
       )}
       <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-40 bg-Ablue px-10 screen-w:px-12 items-center">
         <div className="flex flex-row w-full h-full space-x-4 screen-w:space-x-6 justify-end">
-          <VoiceGPTButton />
+          <VoiceGPTButton isChatModalOpen={isChatModalOpen} />
           {languageText[language](() => setModal(!modal))}
           {textSize[language](() => setFontsize(!fontsize), fontsize)}
           {volumeControl[language](() => setVolumepop(!volumepop))}

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
     "@ionic/react": "^7.5.4",
     "@react-spring/web": "^9.7.3",
     "@react-three/drei": "^9.88.13",
