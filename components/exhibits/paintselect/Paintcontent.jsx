@@ -114,10 +114,10 @@ const Paintcontent = () => {
                                     className={`h-[150px] screen-w:h-[550px] w-full shadow-xl ${index === current ? "border-4 border-Awhite" : null}`}
                                     src={`/img/exhibitpage/paintings/${item.imgname}`}
                                     alt="paintings"
-                                    onClick={()=>router.push(`/artist/paint/viewpage/${item.order}`)}
+                                    onClick={()=>router.push(`/artist/paint/viewpage/${item.order}?order=${order}`)}
                                 />
                                 <div className="absolute h-20 screen-w:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0"
-                                    onClick={()=>router.push(`/artist/paint/viewpage/${item.order}`)}
+                                    onClick={()=>router.push(`/artist/paint/viewpage/${item.order}?order=${order}`)}
                                 >
                                     <div className="flex justify-between p-4 screen-w:p-6">
                                         <span className="font-bold text-base pt-2 screen-w:pt-4 text-Awhite screen-w:text-2xl">{viewText[language]}</span>

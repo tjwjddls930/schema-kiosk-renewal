@@ -7,18 +7,24 @@ import Navbar from "@/components/navbar/Navbar";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
+import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7 } from "@/data/paintData";
+
+const paintList = [
+    paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7
+];
+
 
 export default function Viewpage() {
     const {isPortrait} = useContext(ScreenOrientContext);
     const [popup, setPopup] = useState(true);
     const [data, setData] = useState(null)
     const router = useRouter();
-    const {slug} = router.query;
+    const {slug, order} = router.query;
 
     useEffect(()=> {
         const mid = slug?.replace("", "");
-        if(slug !== undefined && paintData[mid]) {
-            setData(paintData[mid]);
+        if(slug !== undefined && paintList?.[order]?.[mid]) {
+            setData(paintList[order][mid]);
         }
     }, [slug])
 
@@ -26,11 +32,11 @@ export default function Viewpage() {
         const currentIndex = Number(slug?.replace("", ""));
         let newIndex = currentIndex + offset;
         if (newIndex < 0) {
-        newIndex = paintData.length - 1;
-        } else if (newIndex >= paintData.length) {
+        newIndex = paintList[order].length - 1;
+        } else if (newIndex >= paintList[order].length) {
         newIndex = 0;
         }
-        router.replace(`/artist/paint/viewpage/${newIndex}`);
+        router.replace(`/artist/paint/viewpage/${newIndex}?order=${order}`);
     };
   
     return(

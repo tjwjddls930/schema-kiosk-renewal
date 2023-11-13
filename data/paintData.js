@@ -35,7 +35,7 @@ export const paintData2 = [
 
 export const paintData3 = [
     {order: 0, title: "SCENE_R2", imgname: "/2023/23-3/1-53x33.4.jpg", width: 3.34, height: 5.3, overview: "53x33.4", overview1: "Acrylic on canvas, 2022"},
-    {order: 1, title: "사라진 풍경", imgname: "/2023/23-3/2-116.8x72.7jpg", width: 2.908, height: 4.672, overview: "116.8x72.7", overview1: "Acrylic on canvas, 2022"},
+    {order: 1, title: "사라진 풍경", imgname: "/2023/23-3/2-116.8x72.7.jpg", width: 2.908, height: 4.672, overview: "116.8x72.7", overview1: "Acrylic on canvas, 2022"},
     {order: 2, title: "아무것도 없으니까", imgname: "/2023/23-3/3-72.7x60.6.jpg", width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "Oil on canvas, 2023"},
     {order: 3, title: "가만히 있는 척", imgname: "/2023/23-3/4-60x72.jpg", width: 4.32, height: 3.6, overview: "60x72cm", overview1: "장지에 채색, 2022"},
     {order: 4, title: "보물찾기", imgname: "/2023/23-3/5-72x60.jpg", width: 3.6, height: 4.32, overview: "72x60cm", overview1: "장지에 채색, 2022"},
