@@ -7,6 +7,8 @@ import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import VoiceGPTButton from "../VoiceGPTButton";
 import { useRouter } from "next/router";
+import Image from "next/image";
+import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
 
 const languageText = {
   KOR: (func) => (
@@ -358,6 +360,42 @@ const signDocent = {
   ),
 };
 
+const languageChange = {
+  KOR: (size) => (
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"언어 변경"}</span>
+  ),
+  ENG: (size) => (
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Language Change"}</span>
+  ),
+  CH: (size) => (
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"改变语言"}</span>
+  ),
+  TH: (size) => (
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"เปลี่ยนภาษา"}</span>
+  ),
+  VI: (size) => (
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"thay đổi ngôn ngữ"}</span>
+  ),
+};
+
+const chatbotText = {
+  KOR: (size) => (
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"챗봇 안내"}</span>
+  ),
+  ENG: (size) => (
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Chatbot Guide"}</span>
+  ),
+  CH: (size) => (
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"聊天机器人指南"}</span>
+  ),
+  TH: (size) => (
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"คู่มือแชทบอท"}</span>
+  ),
+  VI: (size) => (
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Hướng dẫn Chatbot"}</span>
+  ),
+};
+
 const Navbar = ({ url, sign }) => {
   const router = useRouter();
   const [volume, setVolume] = useState(Number(0.5));
@@ -366,6 +404,7 @@ const Navbar = ({ url, sign }) => {
   const [signLang, setsignLang] = useState(false);
   const [modal, setModal] = useState(false);
   const [isChatModalOpen, setIsChatModalOpen] = useState(false);
+  const [hide, setHide] = useState(true);
   // const [playing, setPlaying] = useState(true);
   const { language, setLanguage } = useContext(LanguageContext);
   const { fontsize, setFontsize } = useContext(FontsizeContext);
@@ -377,8 +416,12 @@ const Navbar = ({ url, sign }) => {
 
   useEffect(() => {
     setIsChatModalOpen(false);
+    if(router.pathname === "/main") {
+      setHide(false);
+    }
   }, [router.pathname]);
 
+  console.log(isChatModalOpen);
   return (
     <>
       {soundguide && (
@@ -444,6 +487,47 @@ const Navbar = ({ url, sign }) => {
           />
         </div>
       )}
+      {/* 언어변경 버튼 */}
+      <button 
+          // className="absolute left-12 bottom-40 screen-w:left-24 screen-w:bottom-52 text-Bgrey space-y-4"
+          className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 left-[45%] bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}
+          onClick={()=>setModal(!modal)}    
+      >
+          <div className="flex flex-col screen-w:space-y-3">
+              <div className="border-4 border-Ablue rounded-full w-20 h-20 screen-w:w-40 screen-w:h-40 items-center bg-Awhite mx-auto">
+                  <Image 
+                      className="mx-auto pt-2.5 z-1 screen-w:pt-6"
+                      src="/img/mainpage/언어변경_아이콘_1.png"
+                      height="100"
+                      width="100"
+                      alt="language"
+                  />
+              </div>
+              {languageChange[language](fontsize)}
+          </div>
+      </button>
+      {/* 챗봇 버튼 */}
+      <button 
+          onClick={() => setIsChatModalOpen((prev) => !prev)} 
+          className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 right-[40%] bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}        >
+        <div className="flex flex-col screen-w:space-y-3">
+          <div
+            className={clsx(
+              "p-2 border-4 border-Ablue rounded-full screen-w:h-40 screen-w:w-40",
+              isChatModalOpen
+                ? "border-Bblue"
+                : "border-Ablue",
+            )}
+          >
+            <ChatBubbleLeftRightIcon className={clsx("flex mx-auto mt-3 h-6 w-6 screen-w:h-28 screen-w:w-28",
+              isChatModalOpen 
+              ? "text-Bblue"
+              : "text-Ablue"
+            )} />
+          </div>
+          {chatbotText[language](fontsize)}
+        </div>
+      </button>
       {modal && (
         <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
           <div

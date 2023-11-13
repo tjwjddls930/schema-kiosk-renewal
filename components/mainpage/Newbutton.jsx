@@ -257,12 +257,12 @@ const Newbutton = () => {
                 }
             </section>
             {/* 언어변경 버튼 */}
-            <button 
+            {/* <button 
                 // className="absolute left-12 bottom-40 screen-w:left-24 screen-w:bottom-52 text-Bgrey space-y-4"
                 className={clsx(isPortrait ? "absolute transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4" : "absolute transform -translate-x-1/2 left-1/2 bottom-44 text-Bgrey space-y-4")}
                 onClick={()=>setModal(!modal)}    
             >
-                <div className="flex flex-col screen-w:space-y-4">
+                <div className="flex flex-col screen-w:space-y-3">
                     <div className="border-4 border-Ablue rounded-full w-20 h-20 screen-w:w-40 screen-w:h-40 items-center bg-Awhite mx-auto">
                         <Image 
                             className="mx-auto pt-2.5 z-1 screen-w:pt-6"
@@ -274,7 +274,7 @@ const Newbutton = () => {
                     </div>
                     {languageChange[language](fontsize)}
                 </div>
-            </button>
+            </button> */}
                 {modal && (
                     <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
                         <div className={clsx(isPortrait ? "flex flex-col h-[60%] w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-[700px] space-y-4 screen-w:space-y-6" 

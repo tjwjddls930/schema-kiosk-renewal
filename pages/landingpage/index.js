@@ -44,4 +44,13 @@ export default function Landingpage() {
             />
         </div>
     )
-}
+};
+
+export const getServerSideProps = async (context) => {
+    return {
+        redirect: {
+            destination: '/', 
+            permanent: false, 
+        },
+    };
+};
