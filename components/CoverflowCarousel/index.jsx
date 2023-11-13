@@ -10,6 +10,7 @@ import { useRouter } from "next/router";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import { clsx } from "clsx";
+import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7 } from "@/data/paintData";
 
 const popupText1 = {
   KOR: "작가 보기",
@@ -83,6 +84,10 @@ const informText = {
   ),
 };
 
+const paintList = [
+  paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7
+];
+
 const CoverflowCarousel = ({index}) => {
   const [isClient, setIsClient] = useState(false);
   const {language} = useContext(LanguageContext);
@@ -107,13 +112,14 @@ const CoverflowCarousel = ({index}) => {
     setHighlightedImageIndex(swiper.activeIndex);
   };
 
+
   return (
     <>
       {/* <!-- Coverflow Slider --> */}
       {isClient && (
             <div className="w-11/12 h-5/6 screen-w:h-[90%] mx-auto p-3 screen-w:px-10 screen-w:py-16">
             {popup && (
-              <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[91%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91%] screen-w:h-[95%] w-screen bg-Ablack bg-opacity-60 z-20")}>
+              <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[91%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91%] screen-w:h-[92.7%] w-screen bg-Ablack bg-opacity-60 z-20")}>
                 <div className={clsx(isPortrait ? "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-end justify-center" : "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center justify-center")}>
                   <button 
                     className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
@@ -123,7 +129,7 @@ const CoverflowCarousel = ({index}) => {
                   </button>
                   <button
                     className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
-                    onClick={()=> router.push(`/viewpage/${paintData[0].order}`)}
+                    onClick={()=> router.push(`/viewpage/${paintList[highlightedImageIndex][0].order}?order=${highlightedImageIndex}`)}
                     >
                       {popupText2[language]}
                   </button>
@@ -240,7 +246,10 @@ const CoverflowCarousel = ({index}) => {
                             />
                           </Link> */}
                           <div>
-                            <Link href={`/education/program/${order}`} className="block">
+                            <Link
+                               href={`/education/program/${order}`}
+                               className="block"
+                            >
                               <span className="font-display text-xs screen-w:text-lg leading-none text-jacarta-700 hover:text-accent dark:text-white">
                                 {title}
                               </span>

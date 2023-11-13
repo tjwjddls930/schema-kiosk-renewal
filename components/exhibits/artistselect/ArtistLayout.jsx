@@ -65,6 +65,8 @@ const Artistlayout = ({children}) => {
         //     router.replace(`/artist/${pid}?index=${index}&?artist=${artist.order}`)
         // }
     }, [pid, order])
+    console.log(artist)
+    console.log(artistData)
     return(
         <>        
         {isClient && (
@@ -151,14 +153,14 @@ const Artistlayout = ({children}) => {
                             <div className="flex w-full h-[10%] screen-w:h-[15%] items-center text-center text-Agrey text-base font-bold screen-w:text-4xl">
                                 <span className="mx-auto">{selectText[language]}</span>
                             </div>
-                            <div className="w-11/12 h-3/4 flex mx-auto justify-center overflow-auto">
-                                    <div className="flex flex-row space-x-12 font-bold text-md pb-1">
-                                        {artistData.map((item, index)=> {
+                            <div className="w-11/12 h-3/4 flex mx-auto justify-center">
+                                    <div className="w-full flex flex-row space-x-12 font-bold text-md pb-1 overflow-auto">
+                                        {allExhibits[pid].exhibits[order].artist.map((item, index)=> {
                                             const {order, name, imgname} = item;
                                             return(
                                             <div 
                                             key={order}
-                                            className="flex flex-col space-y-2 screen-w:space-y-4">
+                                            className="h-[600px] w-[600px] flex flex-col space-y-2 screen-w:space-y-4">
                                             {item === artist ? "" : <><div className="h-[0.5px] w-12 screen-w:h-[1px] screen-w:w-20 bg-Cpurple" />
                                             <span className="text-Agrey text-md screen-w:text-4xl mb-2">{name}</span></>}
                                                 <div 
