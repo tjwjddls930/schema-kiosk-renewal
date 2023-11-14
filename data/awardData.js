@@ -2,6 +2,7 @@
 export const awardData_KOR = 
 [
     {
+        index: 1, 
         title: "제 1회 수상작가", 
         imgname:"1st.jpg", 
         engname: "Jusuf Hadžifejzović", 
@@ -36,6 +37,7 @@ export const awardData_KOR =
         ]
     },
     {
+        index:2,
         title: "제 2회 수상작가", 
         imgname:"2nd.jpg", 
         engname: "Kim Jae Nam", 
@@ -63,6 +65,7 @@ export const awardData_KOR =
         ]
     },
     {
+        index: 3,
         title: "제 3회 수상작가", 
         imgname:"3rd.jpg", 
         engname: "Chang Xin", 
@@ -97,6 +100,7 @@ export const awardData_KOR =
         ]
     },    
     {
+        index: 4,
         title: "제 4회 수상작가", 
         imgname:"4th.png", 
         engname: "Lim Eun Soo", 
@@ -136,6 +140,7 @@ export const awardData_KOR =
         ]
     },    
     {
+        index: 5,
         title: "제 5회 수상작가", 
         imgname:"5th.jpg", 
         engname: "Uno Kazuyuki", 
@@ -190,6 +195,7 @@ export const awardData_KOR =
 export const awardData_ENG = 
 [
     {
+        index: 1,
         title: "1st Award Winner", 
         imgname:"1st.jpg", 
         engname: "Jusuf Hadžifejzović", 
@@ -224,6 +230,7 @@ export const awardData_ENG =
         ]
     },
     {
+        index: 2, 
         title: "2nd Award Winner", 
         imgname:"2nd.jpg", 
         engname: "Kim Jae Nam", 
@@ -251,6 +258,7 @@ export const awardData_ENG =
         ]
     },
     {
+        index: 3,
         title: "3rd Award Winner", 
         imgname:"3rd.jpg", 
         engname: "Chang Xin", 
@@ -285,6 +293,7 @@ export const awardData_ENG =
         ]
     },    
     {
+        index: 4,
         title: "4th Award Winner", 
         imgname:"4th.png", 
         engname: "Lim Eun Soo", 
@@ -324,6 +333,7 @@ export const awardData_ENG =
         ]
     },    
     {
+        index: 5,
         title: "5th Award Winner", 
         imgname:"5th.jpg", 
         engname: "Uno Kazuyuki", 
@@ -378,6 +388,7 @@ export const awardData_ENG =
 export const awardData_CH = 
 [
     {
+        index: 1,
         title: "一等奖获得者", 
         imgname:"1st.jpg", 
         engname: "Jusuf Hadžifejzović", 
@@ -412,6 +423,7 @@ export const awardData_CH =
         ]
     },
     {
+        index: 2,
         title: "第二届获奖艺术家", 
         imgname:"2nd.jpg", 
         engname: "Kim Jae Nam", 
@@ -439,6 +451,7 @@ export const awardData_CH =
         ]
     },
     {
+        index: 3,
         title: "三等奖获得者", 
         imgname:"3rd.jpg", 
         engname: "Chang Xin", 
@@ -473,6 +486,7 @@ export const awardData_CH =
         ]
     },    
     {
+        index: 4,
         title: "第四名获奖者", 
         imgname:"4th.png", 
         engname: "Lim Eun Soo", 
@@ -512,6 +526,7 @@ export const awardData_CH =
         ]
     },    
     {
+        index: 5,
         title: "第五届获奖者", 
         imgname:"5th.jpg", 
         engname: "Uno Kazuyuki", 
@@ -566,6 +581,7 @@ export const awardData_CH =
 export const awardData_TH = 
 [
     {
+        index: 1,
         title: "ผู้ชนะรางวัลที่ 1", 
         imgname:"1st.jpg", 
         engname: "Jusuf Hadžifejzović", 
@@ -600,6 +616,7 @@ export const awardData_TH =
         ]
     },
     {
+        index: 2,
         title: "ศิลปินได้รับรางวัลรองชนะเลิศอันดับ 2", 
         imgname:"2nd.jpg", 
         engname: "Kim Jae Nam", 
@@ -627,6 +644,7 @@ export const awardData_TH =
         ]
     },
     {
+        index: 3,
         title: "ผู้ชนะรางวัลที่ 3", 
         imgname:"3rd.jpg", 
         engname: "Chang Xin", 
@@ -661,6 +679,7 @@ export const awardData_TH =
         ]
     },    
     {
+        index: 4,
         title: "ผู้ชนะรางวัลที่ 4", 
         imgname:"4th.png", 
         engname: "Lim Eun Soo", 
@@ -700,6 +719,7 @@ export const awardData_TH =
         ]
     },    
     {
+        index: 5,
         title: "ผู้ได้รับรางวัลอันดับที่ 5", 
         imgname:"5th.jpg", 
         engname: "Uno Kazuyuki", 
@@ -754,6 +774,7 @@ export const awardData_TH =
 export const awardData_VI = 
 [
     {
+        index: 1,
         title: "Người đoạt giải nhất", 
         imgname:"1st.jpg", 
         engname: "Jusuf Hadžifejzović", 
@@ -788,6 +809,7 @@ export const awardData_VI =
         ]
     },
     {
+        index: 2,
         title: "Nghệ sĩ đoạt giải thứ 2", 
         imgname:"2nd.jpg", 
         engname: "Kim Jae Nam", 
@@ -815,6 +837,7 @@ export const awardData_VI =
         ]
     },
     {
+        inde: 3,
         title: "Người đoạt giải thứ 3", 
         imgname:"3rd.jpg", 
         engname: "Chang Xin", 
@@ -849,6 +872,7 @@ export const awardData_VI =
         ]
     },    
     {
+        index: 4,
         title: "Người đoạt giải thứ 4", 
         imgname:"4th.png", 
         engname: "Lim Eun Soo", 
@@ -888,6 +912,7 @@ export const awardData_VI =
         ]
     },    
     {
+        index: 5,
         title: "Người đoạt giải thứ 5", 
         imgname:"5th.jpg", 
         engname: "Uno Kazuyuki", 
@@ -938,8 +963,3 @@ export const awardData_VI =
         ]
     },    
 ];
-
-
-
-
-

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 // import { careerData } from "@/data/introData";
 import Image from "next/image";
@@ -60,7 +60,14 @@ export default function Career() {
     const {language} = useContext(LanguageContext);
     const {isPortrait} = useContext(ScreenOrientContext);
     const [career, setCareer] = useState(inputprofileData[language][0]);
-
+    const [video, setVideo] = useState();
+    useEffect(()=> {
+        if(career.index === "career") {
+            setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-intro-career-${language}.webm`);
+        } else {
+            setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-intro-artwork-${language}.webm`)
+        }
+    }, [language, career]);
     return(
         <>
         {isPortrait ? 
@@ -198,10 +205,9 @@ export default function Career() {
                 </button>
         </div>
             }
-            {/* <Navbar 
-                url={"/video/docent/blue-docent-test-02-removed.webm"}
-                lang={"/intro/structure"} /> */}
-            {career.docent}
+            <Navbar 
+                url={video}
+                lang={"/intro/structure"} />
         </>
     )
 };

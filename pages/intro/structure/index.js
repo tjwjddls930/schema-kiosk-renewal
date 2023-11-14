@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 // import { introData } from "@/data/introData";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
@@ -55,6 +55,14 @@ export default function Structure() {
     const {language} = useContext(LanguageContext);
     const { isPortrait } = useContext(ScreenOrientContext);
     const [intro, setIntro] = useState(inputintroData[language][0]);
+    const [video, setVideo] = useState();
+    useEffect(()=> {
+        if(intro.index === "main") {
+            setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-main-${language}.webm`);
+        } else {
+            setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-intro-structure-${language}.webm`)
+        }
+    }, [language, intro]);
     return(
         <>
             {isPortrait ? 
@@ -163,10 +171,9 @@ export default function Structure() {
                 </div>
             </div>
             }
-            {/* <Navbar 
-                url={intro.docent}
-            /> */}
-            {intro.docent}
+            <Navbar 
+                url={video}
+            />
         </> 
     )
 };

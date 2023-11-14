@@ -60,6 +60,7 @@ export default function Award() {
     const {isPortrait} = useContext(ScreenOrientContext);
     const [award, setAward] = useState(inputData[language][0]);
     const [isTouching, setIsTouching] = useState(false);
+    const [video, setVideo] = useState();
     useEffect(() => {
         const touchArea = document.getElementById('touch-area');
 
@@ -74,6 +75,10 @@ export default function Award() {
             touchArea.removeEventListener('touchend', handleTouchEnd);
         };
     }, []);
+
+    useEffect(()=> {
+        setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-intro-award-${award.index}-${language}.webm`)
+    }, [language, award])
   
     const handleTouchStart = () => {
       setIsTouching(true);
@@ -277,7 +282,7 @@ export default function Award() {
         </div>
         }
         <Navbar 
-            url={"/video/docent/schema-docent-01A.webm"}
+            url={video}
         />
     </>
     )

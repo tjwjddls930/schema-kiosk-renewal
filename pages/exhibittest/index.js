@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 import { allExhibits } from "@/data/pastExhibit";
 import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "@/components/navbar/Navbar";
@@ -50,9 +50,14 @@ const DynamicCoverflowCarousel = dynamic(
 
 export default function Exhibitpage() {
     const [exhibit, setExhibit] = useState(allExhibits[0]);
+    const [video, setVideo] = useState();
     const router = useRouter();
+    const {index} = router.query;
     const {language} = useContext(LanguageContext);
     const {isPortrait} = useContext(ScreenOrientContext);
+    useEffect(()=> {
+        setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-exhibit-2023-${index}-${language}.webm`)
+    }, [language, index]);
 
     return(
         <div className="h-screen w-screen bg-[url('/img/exhibitpage/가로형_전시안내_배경.png')] bg-no-repeat bg-cover font-pretendard_bold">
@@ -109,7 +114,7 @@ export default function Exhibitpage() {
                 </svg>
             </button>
             <Navbar 
-                url={"/video/docent/schema-docent-03.webm"}
+                url={video}
                 lang={"/intro/structure"} 
             />
         </div>

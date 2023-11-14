@@ -101,7 +101,7 @@ const CoverflowCarousel = ({index}) => {
     // Update the isClient state to true as this code will be executed only on client side
     setIsClient(true);
     const order = allExhibits[index].index; 
-    // router.replace(`?year=${allExhibits[index].exhibits[highlightedImageIndex].year}&?index=${highlightedImageIndex}`)
+    router.replace(`?index=${highlightedImageIndex + 1}`)
     if(allExhibits[index]) {
       setList(order);
       // setTime(year);

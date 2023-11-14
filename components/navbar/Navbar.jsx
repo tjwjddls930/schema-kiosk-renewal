@@ -1,4 +1,4 @@
-import { useState, useContext, useEffect } from "react";
+import { useState, useContext, useEffect, useRef } from "react";
 import ReactSlider from "react-slider";
 import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
@@ -396,8 +396,73 @@ const chatbotText = {
   ),
 };
 
+const getVideoSource = (path, lang) => {
+  let videoName = "schema-docent-";
+  switch (path) {
+    case "/main":
+      videoName += "main";
+      break;
+    case "/about/1":
+      videoName += "about-01";
+      break;
+    case "/about/2":
+      videoName += "about-02";
+      break;
+    case "/exhibition-halls":
+      videoName += "about-02";
+      break;
+    case "/ar/1":
+      videoName += "exhibits-001";
+      break;
+    case "/ar/2":
+      videoName += "exhibits-002";
+      break;
+    case "/ar/3":
+      videoName += "exhibits-003";
+      break;
+    // Add more cases if needed
+    default:
+      return ""; // Default video or an empty string if none matches
+  }
+  return `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${lang.toUpperCase()}/${videoName}-${lang.toUpperCase()}.webm`;
+};
+
+// Helper Functions for handling videos
+const useToggleGuide = (ref, isOpen, setIsOpen, otherRef, setOtherOpen) => {
+  return () => {
+    setIsOpen((prev) => {
+      if (ref.current) {
+        if (!prev) {
+          ref.current.play();
+          if (otherRef.current) {
+            otherRef.current.pause();
+            otherRef.current.currentTime = 0; // Reset the other video currentTime to 0
+            setOtherOpen(false);
+          }
+        } else {
+          ref.current.pause();
+          ref.current.currentTime = 0; // Reset the video currentTime to 0
+        }
+      } else {
+        console.log("Reference not found.");
+      }
+      return !prev;
+    });
+  };
+};
+
+const handleRouteChangeForVideo = (ref, setIsOpen) => {
+  if (ref.current) {
+    ref.current.pause();
+    ref.current.currentTime = 0;
+  }
+  setIsOpen(false);
+};
+
+
 const Navbar = ({ url, sign }) => {
   const router = useRouter();
+  const currentPath = router.asPath;
   const [volume, setVolume] = useState(Number(0.5));
   const [volumepop, setVolumepop] = useState(false);
   const [soundguide, setSoundguide] = useState(false);
@@ -405,6 +470,9 @@ const Navbar = ({ url, sign }) => {
   const [modal, setModal] = useState(false);
   const [isChatModalOpen, setIsChatModalOpen] = useState(false);
   const [hide, setHide] = useState(true);
+  const [isVideoGuideOpen, setIsVideoGuideOpen] = useState(false);
+  const [videoSource, setVideoSource] = useState("");
+  const videoRef = useRef();
   // const [playing, setPlaying] = useState(true);
   const { language, setLanguage } = useContext(LanguageContext);
   const { fontsize, setFontsize } = useContext(FontsizeContext);
@@ -421,7 +489,6 @@ const Navbar = ({ url, sign }) => {
     }
   }, [router.pathname]);
 
-  console.log(isChatModalOpen);
   return (
     <>
       {soundguide && (
@@ -671,6 +738,7 @@ const Navbar = ({ url, sign }) => {
           )}
           {soundDocent[language](
             () => setSoundguide(!soundguide),
+            // () => handleVideoGuideToggle(true),
             signLang,
             soundguide
           )}
