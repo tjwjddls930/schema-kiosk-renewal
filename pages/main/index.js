@@ -98,7 +98,6 @@ export default function Mainpage() {
         setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-main-${language}.webm`)
     }, [language, currentPath]);
 
-    console.log(video);
     return(
         <div className="h-screen w-screen flex flex-col justify-center items-center">
             <div className="absolute inset-0 bg-cover bg-no-repeat bg-[url('/img/mainpage/kiosk_main_bg.png')]"
@@ -126,7 +125,6 @@ export default function Mainpage() {
                 url={video}
                 sign={"/video/sign/schema_sign_2.mp4"}
             /> 
-            {/* <Newnavbar /> */}
         </div>       
     )
 };
