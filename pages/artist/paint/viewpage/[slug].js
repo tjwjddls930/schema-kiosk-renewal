@@ -7,10 +7,10 @@ import Navbar from "@/components/navbar/Navbar";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
-import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7 } from "@/data/paintData";
+import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8 } from "@/data/paintData";
 
 const paintList = [
-    paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7
+    paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8
 ];
 
 

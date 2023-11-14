@@ -120,35 +120,10 @@ export const paintData7 = [
     {order: 23, title: "Torso-12", name: "이윤성", imgname: "/이윤성/Torso-12-1.jpg", width: 4.86, height: 3.9, overview: "162x130cm", overview1: "Oil-on-Canvas-2023-2-1"},
 ];
 
-// export const paintData = [
-  
-    
-   
-    
-    
-    
-//     {order: 76, title: "The-Wind-Ⅰ", imgname: "/금민정/The-Wind-Ⅰ.jpeg", overview: "27x18x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:50 loop, 2023"},
-//     {order: 77, title: "The-Wind-Ⅱ", imgname: "/금민정/The-Wind-Ⅱ.jpg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
-//     {order: 78, title: "The-Wind-Ⅲ", imgname: "/금민정/The-Wind-Ⅲ.jpeg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
-//     {order: 79, title: "바람을 짓다", imgname: "/금민정/바람을-짓다.jpg", overview: "225x130x100cm", overview1: "Sculpture with 2-channel video on LED screens, 00:02:30 loop, 2020"},
-//     {order: 80, title: "생각하는 정원", imgname: "/금민정/생각하는-정원.jpg", overview: "200x240x200cm", overview1: "Sculpture with 3-channel video on LED screens, 2020"},
-//     {order: 81, title: "Flying-cat-Loop-Animation", imgname: "/김준/Flying-cat-Loop.jpg", overview: "", overview1: "2022-5"},
-//     {order: 82, title: "Mr.-purple-Loop-Animation", imgname: "/김준/Mr.-purple-Loop.jpg", overview: "", overview1: "2022-3"},
-//     {order: 83, title: "Somebody-anne", imgname: "/김준/Somebody-anne.jpg", overview: "100x100cm", overview1: "Digitalprint-2023-3"},
-//     {order: 84, title: "Somebody-chair-man", imgname: "/김준/Somebody-chair-man.jpg", overview: "70x70cm", overview1: "Digitalprint-2023-3"},
-//     {order: 85, title: "Somebody-curtain-call", imgname: "/김준/Somebody-curtain-call.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
-//     {order: 86, title: "Somebody-pink-tile", imgname: "/김준/Somebody-pink-tile.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
-//     {order: 87, title: "Somebody-red-dot", imgname: "/김준/Somebody-red-dot.jpg", overview: "78x110cm", overview1: "Digitalprint-2023-3"},
-//     {order: 88, title: "Portrait", imgname: "/옥승철/Portrait3.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-2-3"},
-//     {order: 89, title: "Portrait", imgname: "/옥승철/Portrait4.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-4"},
-//     {order: 90, title: "Install cut", imgname: "/옥승철/install cut 1.jpg", overview: "", overview1: ""},
-//     {order: 91, title: "Install cut", imgname: "/옥승철/install cut 2.jpg", overview: "", overview1: ""},
-//     {order: 92, title: "Install cut", imgname: "/옥승철/install cut 3.jpg", overview: "", overview1: ""},
-//     {order: 93, title: "Head-of-Medusa-Pink", imgname: "/이윤성/Head-of-Medusa-Pink.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-2-3"},
-//     {order: 94, title: "Head-of-Medusa", imgname: "/이윤성/Head-of-Medusa.jpg", overview: "162x162cm", overview1: "Oil-on-Canvas-2021-1"},
-//     {order: 95, title: "Head-of-Medusa-Pink", imgname: "/이윤성/Head-of-Medusa-Pink1.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-1"},
-//     {order: 96, title: "Head-of-Medusa-Silver-3D-Rendering", imgname: "/이윤성/Head-of-Medusa-Silver-3D.png", overview: "", overview1: "video-loop-2023-1"},
-//     {order: 97, title: "The-Three-Graces", imgname: "/이윤성/The-Three-Graces.jpg", overview: "300x480cm", overview1: "Oil-on-Canvas-2023-1"},
-//     {order: 98, title: "Torso-12", imgname: "/이윤성/Torso-12.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-1-1"},
-//     {order: 99, title: "Torso-12", imgname: "/이윤성/Torso-12-1.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-2-1"},
-// ]
+export const paintData8 = [
+    {order: 0, title: "변이", imgname: "/2023/23-8/1-45x65.jpg", width: 6.5, height: 4.5, overview: "45x65cm", overview1: "한지에 물감 드로잉 5 Pieces, 동물 뼈, 깃털, 2023"},
+    {order: 1, title: "물의 기억", imgname: "/2023/23-8/2-102.4x68.3.jpg", width: 4.096, height: 2.732, overview: "", overview1: "채색된 의류설치 위에 영상, 염색된 천 설치 위에 영상, 벽면에 초크 드로잉 가변설치, 영상 19분 5초, 2022"},
+    {order: 2, title: "지나가다", imgname: "/2023/23-8/3-95x180.jpg", width: 5.4, height: 2.85, overview: "95x180cm", overview1: "한지에 물감 드로잉, 2013"},
+    {order: 3, title: "나는 지금 이곳에 있다 속리산에서", imgname: "/2023/23-8/4-102.4x57.6.jpg", width: 4.096, height: 2.304, overview: "", overview1: "Video, 10분 6초, 2020. 10.25"},
+    {order: 4, title: "나는 지금 이곳에 있다. 대청호 미천리 습지에서", imgname: "/2023/23-8/5-102.4x68.3.jpg", width: 4.096, height: 2.732, overview: "", overview1: "Video, 2021.09.04._스틸컷1"},
+]
