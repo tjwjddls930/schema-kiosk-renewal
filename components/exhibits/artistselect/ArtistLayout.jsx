@@ -152,8 +152,8 @@ const Artistlayout = ({children}) => {
                             <div className="flex w-full h-[10%] screen-w:h-[15%] items-center text-center text-Agrey text-base font-bold screen-w:text-4xl">
                                 <span className="mx-auto">{selectText[language]}</span>
                             </div>
-                            <div className="w-11/12 h-3/4 flex mx-auto justify-center overflow-x-auto overflow-y-hidden">
-                                    <div className="flex flex-row space-x-12 font-bold text-md pb-1 overflow-auto overflow-y-hidden items-start">
+                            <div className="w-11/12 h-3/4 flex mx-auto justify-start overflow-x-auto overflow-y-hidden">
+                                    <div className="flex flex-row space-x-12 font-bold text-md pb-1 overflow-auto overflow-y-hidden">
                                         {allExhibits[pid].exhibits[order].artist.map((item, index)=> {
                                             const {order, name, imgname} = item;
                                             return(
