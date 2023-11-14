@@ -261,7 +261,7 @@ export default function VoiceGPTButton({ isChatModalOpen }) {
     <div className="z-[999] flex justify-center items-center">
       <div
         className={clsx(
-          "z-[999] animate-opacitySlow backdrop-blur-2xl border-2 border-white rounded-2xl mb-0 mr-3 py-3 pl-5 pr-3 absolute flex flex-col gap-3 justify-start items-start bottom-[200px] right-0 w-1/2 max-w-[500px] h-[250px] screen-w:text-3xl overflow-y-auto",
+          "z-[999] animate-opacitySlow backdrop-blur-2xl border-2 border-white rounded-2xl mb-0 mr-3 py-3 pl-5 pr-3 absolute flex flex-col gap-3 justify-start items-start bottom-[200px] right-0 w-1/2 max-w-[500px] h-[250px] overflow-y-auto text-Ablack",
           (!isChatModalOpen || messages.length < 2) && "hidden"
         )}
       >

@@ -380,85 +380,21 @@ const languageChange = {
 
 const chatbotText = {
   KOR: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"챗봇 안내"}</span>
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"채팅창"}</span>
   ),
   ENG: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Chatbot Guide"}</span>
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Chat Window"}</span>
   ),
   CH: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"聊天机器人指南"}</span>
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"聊天窗口"}</span>
   ),
   TH: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"คู่มือแชทบอท"}</span>
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"หน้าต่างแชท"}</span>
   ),
   VI: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Hướng dẫn Chatbot"}</span>
+      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"cửa sổ trò chuyện"}</span>
   ),
 };
-
-const getVideoSource = (path, lang) => {
-  let videoName = "schema-docent-";
-  switch (path) {
-    case "/main":
-      videoName += "main";
-      break;
-    case "/about/1":
-      videoName += "about-01";
-      break;
-    case "/about/2":
-      videoName += "about-02";
-      break;
-    case "/exhibition-halls":
-      videoName += "about-02";
-      break;
-    case "/ar/1":
-      videoName += "exhibits-001";
-      break;
-    case "/ar/2":
-      videoName += "exhibits-002";
-      break;
-    case "/ar/3":
-      videoName += "exhibits-003";
-      break;
-    // Add more cases if needed
-    default:
-      return ""; // Default video or an empty string if none matches
-  }
-  return `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${lang.toUpperCase()}/${videoName}-${lang.toUpperCase()}.webm`;
-};
-
-// Helper Functions for handling videos
-const useToggleGuide = (ref, isOpen, setIsOpen, otherRef, setOtherOpen) => {
-  return () => {
-    setIsOpen((prev) => {
-      if (ref.current) {
-        if (!prev) {
-          ref.current.play();
-          if (otherRef.current) {
-            otherRef.current.pause();
-            otherRef.current.currentTime = 0; // Reset the other video currentTime to 0
-            setOtherOpen(false);
-          }
-        } else {
-          ref.current.pause();
-          ref.current.currentTime = 0; // Reset the video currentTime to 0
-        }
-      } else {
-        console.log("Reference not found.");
-      }
-      return !prev;
-    });
-  };
-};
-
-const handleRouteChangeForVideo = (ref, setIsOpen) => {
-  if (ref.current) {
-    ref.current.pause();
-    ref.current.currentTime = 0;
-  }
-  setIsOpen(false);
-};
-
 
 const Navbar = ({ url, sign }) => {
   const router = useRouter();
