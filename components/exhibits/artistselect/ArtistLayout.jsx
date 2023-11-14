@@ -65,8 +65,7 @@ const Artistlayout = ({children}) => {
         //     router.replace(`/artist/${pid}?index=${index}&?artist=${artist.order}`)
         // }
     }, [pid, order])
-    console.log(artist)
-    console.log(artistData)
+
     return(
         <>        
         {isClient && (
@@ -97,7 +96,7 @@ const Artistlayout = ({children}) => {
                 <div className={clsx(isPortrait ? "flex flex-col w-full h-5/6 mx-auto space-y-4 screen-w:space-y-8 screen-w:pt-28" : "flex flex-row w-full h-5/6 mx-auto space-x-4 screen-w:space-x-8")}>
                     <div className={clsx(isPortrait ? "w-full h-1/3 justify-center items-center" : "w-1/3 h-full justify-center items-center")}>
                         <img 
-                            className="w-3/4 h-3/4 screen-w:h-[86%] mx-auto border-4 border-Awhite"
+                            className="flex mx-auto border-4 border-Awhite"
                             src={`/img/exhibitpage/artists/${artist.imgname}`}
                             alt="artists"
                         />
@@ -153,22 +152,22 @@ const Artistlayout = ({children}) => {
                             <div className="flex w-full h-[10%] screen-w:h-[15%] items-center text-center text-Agrey text-base font-bold screen-w:text-4xl">
                                 <span className="mx-auto">{selectText[language]}</span>
                             </div>
-                            <div className="w-11/12 h-3/4 flex mx-auto justify-center">
-                                    <div className="w-full flex flex-row space-x-12 font-bold text-md pb-1 overflow-auto">
+                            <div className="w-11/12 h-3/4 flex mx-auto justify-center overflow-x-auto overflow-y-hidden">
+                                    <div className="flex flex-row space-x-12 font-bold text-md pb-1 overflow-auto overflow-y-hidden items-start">
                                         {allExhibits[pid].exhibits[order].artist.map((item, index)=> {
                                             const {order, name, imgname} = item;
                                             return(
                                             <div 
                                             key={order}
-                                            className="h-[600px] w-[600px] flex flex-col space-y-2 screen-w:space-y-4">
-                                            {item === artist ? "" : <><div className="h-[0.5px] w-12 screen-w:h-[1px] screen-w:w-20 bg-Cpurple" />
-                                            <span className="text-Agrey text-md screen-w:text-4xl mb-2">{name}</span></>}
+                                            className="flex flex-col space-y-2 screen-w:space-y-4">
+                                            {item === artist ? "" : <><div className="h-[0.5px] w-12 screen-w:h-[1px] screen-w:w-32 bg-Ablue" />
+                                            <span className="text-Agrey text-md screen-w:text-5xl mb-2">{name}</span></>}
                                                 <div 
-                                                    // className={item === artist ? "h-[350px] w-[250px] border-2 border-Awhite" : "h-[300px] w-[200px]"}
+                                                    className={item === artist ? "h-[650px] w-[650px]" : "h-[600px] w-[600px]"}
                                                     onClick={()=> setArtist(item)}
                                                 >
                                                 <img 
-                                                    className={item === artist ? "h-[200px] w-[200px] screen-w:h-[550px] screen-w:w-[550px] border-4 border-Awhite rounded-lg" : "h-[150px] w-[150px] screen-w:h-[500px] screen-w:w-[500px] rounded-lg"}
+                                                    className={item === artist ? "border-4 border-Awhite rounded-lg" : "rounded-lg"}
                                                     src={`/img/exhibitpage/artists/${item.imgname}`}
                                                     alt="artist"
                                                 />
