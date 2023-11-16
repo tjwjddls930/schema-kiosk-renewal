@@ -126,7 +126,6 @@ export default function Mainpage() {
                 url={video}
                 sign={"/video/sign/schema_sign_2.mp4"}
             /> 
-            <InactivityRedirect timeout={30000} landingPageUrl={"/landingpage"} />
         </div>       
     )
 };

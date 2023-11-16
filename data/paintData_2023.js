@@ -127,3 +127,17 @@ export const paintData8 = [
     {order: 3, title: "나는 지금 이곳에 있다 속리산에서", imgname: "/2023/23-8/4-102.4x57.6.jpg", width: 4.096, height: 2.304, overview: "", overview1: "Video, 10분 6초, 2020. 10.25"},
     {order: 4, title: "나는 지금 이곳에 있다. 대청호 미천리 습지에서", imgname: "/2023/23-8/5-102.4x68.3.jpg", width: 4.096, height: 2.732, overview: "", overview1: "Video, 2021.09.04._스틸컷1"},
 ]
+
+export const paintData9 = [
+    {order: 0, title: "Naesudong-ro 102beon-gil No.10", imgname: "/2023/23-9/1-65.1x90.9.jpg", width: 5.454, height: 3.906, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+    {order: 1, title: "Naesudong-ro 102beon-gil", imgname: "/2023/23-9/2-195.3x454.5.jpg", width: 1.953, height: 4.545, overview: "195.3x454.5cm", overview1: "oil on canvas_2021"},
+    {order: 2, title: "Naesudong-ro 102beon-gil No.02", imgname: "/2023/23-9/3-65.1x90.9.jpg", width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+    {order: 3, title: "Naesudong-ro 102beon-gil No.12", imgname: "/2023/23-9/4-65.1x90.9.jpg", width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+    {order: 4, title: "Naesudong-ro 102beon-gil No.13", imgname: "/2023/23-9/5-65.1x90.9.jpg", width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+    {order: 5, title: "잡초들", imgname: "/2023/23-9/6-33.4x21.2.jpg", overview: "33.4x21.2cm", width: 4.24, height: 6.68, overview1: "oil on canvas_2021"},
+    {order: 6, title: "잡초들", imgname: "/2023/23-9/7-33.4x21.2.jpg", overview: "33.4x21.2cm", width: 4.24, height: 6.68, overview1: "oil on canvas_2021"},
+    {order: 7, title: "잡초들", imgname: "/2023/23-9/8-33.4x21.2.jpg", overview: "33.4x21.2cm", width: 4.24, height: 6.68, overview1: "oil on canvas_2021"},
+    {order: 8, title: "붉은 촉(觸)_어떤 상황적 풍경", imgname: "/2023/23-9/9-76.8x51.2.png", width: 3.072, height: 4.608, overview: "", overview1: "한지, 파라핀왁스, 콘크리트블록, 가변크기, 2022"},
+    {order: 9, title: "표류하거나 벗어나거나", imgname: "/2023/23-9/10-227x728.png", width: 2.27, height: 7.28, overview: "227x728cm", overview1: "캔버스 위에 유화, 2022"},
+    {order: 10, title: "우리들의 초상 (肖像)", imgname: "/2023/23-9/11-76.8x78.2.png", width: 4.692, height: 4.608, overview: "", overview1: "캔버스 위에 아크릴, 거울, 가변크기, 2020"},
+]

@@ -5,12 +5,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Link from "next/link";
 import { allExhibits } from "@/data/pastExhibit";
-import { paintData } from "@/data/paintData";
+import { paintData } from "@/data/paintData_2023";
 import { useRouter } from "next/router";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import { clsx } from "clsx";
-import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7 } from "@/data/paintData";
+import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9 } from "@/data/paintData_2023";
 
 const popupText1 = {
   KOR: "작가 보기",
@@ -85,7 +85,7 @@ const informText = {
 };
 
 const paintList = [
-  paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7
+  paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9
 ];
 
 const CoverflowCarousel = ({index}) => {

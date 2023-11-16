@@ -2,15 +2,15 @@ import Viewlayout from "@/components/exhibits/3dview/ViewLayout";
 import Viewcontent from "@/components/exhibits/3dview/Viewcontent";
 import { useState, useEffect, useContext } from "react";
 import { useRouter } from "next/router";
-import { paintData } from "@/data/paintData";
+import { paintData } from "@/data/paintData_2023";
 import Navbar from "@/components/navbar/Navbar";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
 // import ViewNavbar from "@/components/navbar/3DpageNavbar";
-import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8 } from "@/data/paintData";
+import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9 } from "@/data/paintData_2023";
 
 const paintList = [
-    paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8
+    paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9
 ]
 
 export default function Viewpage() {
