@@ -5,6 +5,7 @@ import { LanguageContext } from '@/contexts/LanguageContext';
 import { useContext, useEffect, useState } from 'react';
 import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { useRouter } from "next/router";
+import InactivityRedirect from "@/components/InactivityRedirect";
 // import Newnavbar from "@/components/navbar/Newnavbar";
 
 const topText = {
@@ -125,6 +126,7 @@ export default function Mainpage() {
                 url={video}
                 sign={"/video/sign/schema_sign_2.mp4"}
             /> 
+            <InactivityRedirect timeout={30000} landingPageUrl={"/landingpage"} />
         </div>       
     )
 };

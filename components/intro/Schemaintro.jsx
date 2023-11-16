@@ -5,11 +5,21 @@ import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
 
 const name = {
-    KOR: "쉐마미술관",
-    ENG: "Schema Art Museum",
-    CH: "图式艺术博物馆",
-    TH: "พิพิธภัณฑ์ศิลปะสคีมา",
-    VI: "Bảo tàng nghệ thuật Schema",
+    KOR: () => (
+        <span className="font-bold text-xl screen-w:text-8xl text-black">{"쉐마미술관"}</span>
+    ),
+    ENG: () => (
+        <span className="font-bold text-xl screen-w:text-8xl text-black">{"Schema Art Museum"}</span>
+    ),
+    CH: () => (
+        <span className="font-bold text-xl screen-w:text-8xl text-black">{"图式艺术博物馆"}</span>
+    ),
+    TH: () => (
+        <span className="font-bold text-xl screen-w:text-7xl text-black">{ "พิพิธภัณฑ์ศิลปะสคีมา"}</span>
+    ),
+    VI: () => (
+        <span  className="font-bold text-xl screen-w:text-8xl text-black">{"Bảo tàng nghệ thuật Schema"}</span>
+    ),
 };
 
 const paragraph1 = {
@@ -211,8 +221,8 @@ const Schemaintro = () => {
                 <div className={clsx(isPortrait ? "h-[30%] w-3/4 flex flex-col space-y-4 mx-auto" : "h-5/6 w-[30%] flex flex-col space-y-4 screen-w:space-y-12 screen-w:px-16")}>
                     <div className="flex flex-col space-y-1 screen-w:space-y-6">
                         <div className="h-[2px] w-14 screen-w:w-36 bg-Cpurple"></div>
-                        {/* <span className="font-bold text-lg screen-w:text-6xl text-Cgrey">{"Schema Art Museum"}</span> */}
-                        <span className="font-bold text-xl screen-w:text-8xl text-black">{name[language]}</span>
+                        {/* <span className="font-bold text-xl screen-w:text-8xl text-black">{name[language]}</span> */}
+                        {name[language]()}
                     </div>
                     {paragraph1[language](isPortrait)}
                     {circle[language]()}

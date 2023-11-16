@@ -1,19 +1,18 @@
 import '@/styles/globals.css';
-// import WideLayout from '@/components/pagelayout/WideLayout';
-// import TallLayout from '@/components/pagelayout/TallLayout';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import { FontsizeProvider } from '@/contexts/FontsizeContext';
 import { ScreenOrientProvider } from '@/contexts/ScreenOrientContext';
 import {useEffect, useState} from 'react';
+import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
-// import InactivityDetector from '@/components/InactivityDetector';
-import InactivityRedirect2 from '@/components/digitaltwin/Inactivityredirect2';
+import InactivityRedirect from '@/components/InactivityRedirect';
 const WideLayout = dynamic(() => import('@/components/pagelayout/WideLayout'));
 const TallLayout = dynamic(() => import('@/components/pagelayout/TallLayout'));
 
 export default function App({ Component, pageProps }) {
   const [isPortrait, setIsPortrait] = useState(false);
-
+  const router = useRouter();
+  const currentPath = router.asPath;
   useEffect(() => {
       const handleOrientationChange = () => {
       setIsPortrait(window.screen.height > window.screen.width);
@@ -33,17 +32,17 @@ export default function App({ Component, pageProps }) {
       <LanguageProvider>
         <FontsizeProvider>
           <ScreenOrientProvider>
+          {/* {currentPath === "/landingpage" 
+          ? null
+          : <InactivityRedirect timeout={90000} landingPageUrl={"/landingpage"} />
+          } */}
           {isPortrait ? 
             <TallLayout>
               <Component {...pageProps} />
-              {/* <InactivityDetector /> */}
-              {/* <InactivityRedirect2 timeoutInMinutes={0.5} /> */}
             </TallLayout>
             :  
             <WideLayout>
               <Component {...pageProps} />  
-              {/* <InactivityDetector /> */}
-              {/* <InactivityRedirect2 timeoutInMinutes={0.5} /> */}
             </WideLayout>
           }
           </ScreenOrientProvider>

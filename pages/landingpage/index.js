@@ -2,6 +2,9 @@ import { Canvas } from "@react-three/fiber"
 import Imageandmodel from "@/components/landingpage/ImageandModel";
 import { Suspense } from "react";
 import Navbar from "@/components/navbar/Navbar";
+import Soundguide from "@/components/docent/Soundguide";
+import { Html } from "@react-three/drei";
+import Screensaver from "@/components/docent/Screensaver2";
 
 export default function Landingpage() {
 
@@ -34,13 +37,26 @@ export default function Landingpage() {
                         </mesh>
                         <Suspense fallback={null}>
                             <Imageandmodel />
+                            <Html
+                                transform
+                                distanceFactor={10}
+                                position={[9, 1.2, 1]}
+                                zIndexRange={[1, 0]}
+                            >
+                                <Soundguide 
+                                    className="h-[850px] w-[850px]"
+                                    videoUrl={`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-main-KOR.webm`}
+                                    volume={0}
+                                    playing={true}
+                                    loop={true}
+                                />
+                            </Html>
                         </Suspense>
                     </Canvas>
                 </Suspense>
             </div>
+            {/* <Screensaver videoId="Z9K0zY5gB4o" timeout={60000} /> */}
             <Navbar 
-                url={"/video/docent/schema-docent-04.webm"}
-                sign={"/video/sign/schema_sign_2.mp4"}
             />
         </div>
     )
@@ -49,7 +65,7 @@ export default function Landingpage() {
 export const getServerSideProps = async (context) => {
     return {
         redirect: {
-            destination: '/', 
+            destination: 'https://schema-screensaver.vercel.app/', 
             permanent: false, 
         },
     };

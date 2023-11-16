@@ -1580,11 +1580,11 @@ export const allExhibits = [
                             {order: 18, exhibit: "《21C Water Color》, 양평군립미술관, 양평"},
                         ],
                         paint: [
-                            {order: 0, title: "The-Wind-Ⅰ", imgname: "/금민정/The-Wind-Ⅰ.jpeg", overview: "27x18x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:50 loop, 2023"},
-                            {order: 1, title: "The-Wind-Ⅱ", imgname: "/금민정/The-Wind-Ⅱ.jpg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
-                            {order: 2, title: "The-Wind-Ⅲ", imgname: "/금민정/The-Wind-Ⅲ.jpeg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
-                            {order: 3, title: "바람을 짓다", imgname: "/금민정/바람을-짓다.jpg", overview: "225x130x100cm", overview1: "Sculpture with 2-channel video on LED screens, 00:02:30 loop, 2020"},
-                            {order: 4, title: "생각하는 정원", imgname: "/금민정/생각하는-정원.jpg", overview: "200x240x200cm", overview1: "Sculpture with 3-channel video on LED screens, 2020"},
+                            {order: 0, title: "The-Wind-Ⅰ", imgname: "/2023/23-7/1.jpeg", overview: "27x18x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:50 loop, 2023"},
+                            {order: 1, title: "The-Wind-Ⅱ", imgname: "/2023/23-7/2.jpg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
+                            {order: 2, title: "The-Wind-Ⅲ", imgname: "/2023/23-7/3.jpeg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
+                            {order: 3, title: "바람을 짓다", imgname: "/2023/23-7/4.jpg", overview: "225x130x100cm", overview1: "Sculpture with 2-channel video on LED screens, 00:02:30 loop, 2020"},
+                            {order: 4, title: "생각하는 정원", imgname: "/2023/23-7/5.jpg", overview: "200x240x200cm", overview1: "Sculpture with 3-channel video on LED screens, 2020"},
                         ]
                     },
                     {
@@ -1653,13 +1653,13 @@ export const allExhibits = [
                             {order: 13, exhibit: "《현대미술, 런웨이를 걷다》, 성남아트센터 큐브미술관, 성남"},
                         ],
                         paint: [
-                            {order: 5, title: "Flying-cat-Loop-Animation", imgname: "/김준/Flying-cat-Loop.jpg", overview: "", overview1: "2022-5"},
-                            {order: 6, title: "Mr.-purple-Loop-Animation", imgname: "/김준/Mr.-purple-Loop.jpg", overview: "", overview1: "2022-3"},
-                            {order: 7, title: "Somebody-anne", imgname: "/김준/Somebody-anne.jpg", overview: "100x100cm", overview1: "Digitalprint-2023-3"},
-                            {order: 8, title: "Somebody-chair-man", imgname: "/김준/Somebody-chair-man.jpg", overview: "70x70cm", overview1: "Digitalprint-2023-3"},
-                            {order: 9, title: "Somebody-curtain-call", imgname: "/김준/Somebody-curtain-call.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
-                            {order: 10, title: "Somebody-pink-tile", imgname: "/김준/Somebody-pink-tile.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
-                            {order: 11, title: "Somebody-red-dot", imgname: "/김준/Somebody-red-dot.jpg", overview: "78x110cm", overview1: "Digitalprint-2023-3"},
+                            {order: 5, title: "Flying-cat-Loop-Animation", imgname: "/2023/23-7/6.jpg", overview: "", overview1: "2022-5"},
+                            {order: 6, title: "Mr.-purple-Loop-Animation", imgname: "/2023/23-7/7.jpg", overview: "", overview1: "2022-3"},
+                            {order: 7, title: "Somebody-anne", imgname: "/2023/23-7/8.jpg", overview: "100x100cm", overview1: "Digitalprint-2023-3"},
+                            {order: 8, title: "Somebody-chair-man", imgname: "/2023/23-7/9.jpg", overview: "70x70cm", overview1: "Digitalprint-2023-3"},
+                            {order: 9, title: "Somebody-curtain-call", imgname: "/2023/23-7/10.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
+                            {order: 10, title: "Somebody-pink-tile", imgname: "/2023/23-7/11.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
+                            {order: 11, title: "Somebody-red-dot", imgname: "/2023/23-7/12.jpg", overview: "78x110cm", overview1: "Digitalprint-2023-3"},
                 
                         ]
                     },
@@ -1695,11 +1695,11 @@ export const allExhibits = [
                             {order: 14, exhibit: "《소년이여, 신화가 되어라》, 스페이스 K, 대구"},
                         ],
                         paint: [
-                            {order: 12, title: "Portrait", imgname: "/옥승철/Portrait3.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-2-3"},
-                            {order: 13, title: "Portrait", imgname: "/옥승철/Portrait4.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-4"},
-                            {order: 14, title: "Install cut", imgname: "/옥승철/install cut 1.jpg", overview: "", overview1: ""},
-                            {order: 15, title: "Install cut", imgname: "/옥승철/install cut 2.jpg", overview: "", overview1: ""},
-                            {order: 16, title: "Install cut", imgname: "/옥승철/install cut 3.jpg", overview: "", overview1: ""},
+                            {order: 12, title: "Portrait", imgname: "/2023/23-7/13.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-2-3"},
+                            {order: 13, title: "Portrait", imgname: "/2023/23-7/14.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-4"},
+                            {order: 14, title: "Install cut", imgname: "/2023/23-7/15.jpg", overview: "", overview1: ""},
+                            {order: 15, title: "Install cut", imgname: "/2023/23-7/16.jpg", overview: "", overview1: ""},
+                            {order: 16, title: "Install cut", imgname: "/2023/23-7/17.jpg", overview: "", overview1: ""},
                         ]
                     },    
                     {
@@ -1745,13 +1745,13 @@ export const allExhibits = [
                             {order: 20, exhibit: "《미묘한 만남》, 갤러리 루, 서울"},
                         ],
                         paint: [
-                            {order: 17, title: "Head-of-Medusa-Pink", imgname: "/이윤성/Head-of-Medusa-Pink.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-2-3"},
-                            {order: 18, title: "Head-of-Medusa", imgname: "/이윤성/Head-of-Medusa.jpg", overview: "162x162cm", overview1: "Oil-on-Canvas-2021-1"},
-                            {order: 19, title: "Head-of-Medusa-Pink", imgname: "/이윤성/Head-of-Medusa-Pink1.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-1"},
-                            {order: 20, title: "Head-of-Medusa-Silver-3D-Rendering", imgname: "/이윤성/Head-of-Medusa-Silver-3D.png", overview: "", overview1: "video-loop-2023-1"},
-                            {order: 21, title: "The-Three-Graces", imgname: "/이윤성/The-Three-Graces.jpg", overview: "300x480cm", overview1: "Oil-on-Canvas-2023-1"},
-                            {order: 22, title: "Torso-12", imgname: "/이윤성/Torso-12.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-1-1"},
-                            {order: 23, title: "Torso-12", imgname: "/이윤성/Torso-12-1.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-2-1"},
+                            {order: 17, title: "Head-of-Medusa-Pink", imgname: "/2023/23-7/18.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-2-3"},
+                            {order: 18, title: "Head-of-Medusa", imgname: "/2023/23-7/19.jpg", overview: "162x162cm", overview1: "Oil-on-Canvas-2021-1"},
+                            {order: 19, title: "Head-of-Medusa-Pink", imgname: "/2023/23-7/20.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-1"},
+                            {order: 20, title: "Head-of-Medusa-Silver-3D-Rendering", imgname: "/2023/23-7/21.png", overview: "", overview1: "video-loop-2023-1"},
+                            {order: 21, title: "The-Three-Graces", imgname: "/2023/23-7/22.jpg", overview: "300x480cm", overview1: "Oil-on-Canvas-2023-1"},
+                            {order: 22, title: "Torso-12", imgname: "/2023/23-7/23.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-1-1"},
+                            {order: 23, title: "Torso-12", imgname: "/2023/23-7/24.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-2-1"},
                         ]
                     },        
                 ],
@@ -1814,6 +1814,119 @@ export const allExhibits = [
                             {order: 2, title: "지나가다", imgname: "/2023/23-8/3-95x180.jpg", overview: "95x180cm", overview1: "한지에 물감 드로잉, 2013"},
                             {order: 3, title: "나는 지금 이곳에 있다 속리산에서", imgname: "/2023/23-8/4-102.4x57.6.jpg", overview: "", overview1: "Video, 10분 6초, 2020. 10.25"},
                             {order: 4, title: "나는 지금 이곳에 있다. 대청호 미천리 습지에서", imgname: "/2023/23-8/5-102.4x68.3.jpg", overview: "", overview1: "Video, 2021.09.04._스틸컷1"},
+                        ]
+                    },      
+                ],
+            },
+            {
+                order:9, 
+                type:"쉐마미술관 결과보고전", 
+                title: "2023년 지원사업 결과보고전", 
+                time1: "2023/11/17 ~ 2023/12/10", 
+                artist1: "김라연, 이자연, 김동우, 최민솔", 
+                location1: "쉐마미술관 대전시실", host1: "쉐마미술관", support1: "", 
+                explanation: "‘풍경유람’은 우리 지역의 현대미술 작가인 김라연 작가와 함께 작가의 접근법인 산책을 하며 발견한 소소한 이야기를 기록하고 어떤 상황 속 장소의 분위기를 오브제와 색채를 이용하여 위트있는 현대미술의 ‘풍경 감정’을 표현해보는 프로그램입니다. ‘히든 스페이스’ 프로그램은 문화예술교육사와 함께 미술관 소장품을 활용한 현대미술의 ‘기하학적 추상화’ 키워드를 주제로 한 프로그램 입니다. ‘쉐마미술관 아틀리에’ 프로그램은 세 명의 현대미술작가를 통해 세상을 함께 바라보고 감상, 공감의 시간을 통해 새로운 시각적 표현으로 예술적 창작 활동의 시간을 통해 자신만의 고유함과 특별함을 발견하게 되는 자기 찾기 프로그램입니다. ‘쉐마미술관 아틀리에’ 프로그램은 세 명의 현대미술작가를 통해 세상을 함께 바라보고 감상, 공감의 시간을 통해 새로운 시각적 표현으로 예술적 창작 활동의 시간을 통해 자신만의 고유함과 특별함을 발견하게 되는 자기 찾기 프로그램입니다.",         
+                author: "",
+                img: "/img/exhibitpage/posters/2023/23-9.png",
+                artist: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title: "2023년 지원사업 결과보고전", 
+                        name: "김라연", 
+                        engname: "RaYeon Kim",
+                        imgname:"23-9-1.png", 
+                        text: "어느 순간, 길을 걸을 때마다 바닥을 보고 걷는 버릇이 생겨 버렸다. 매일 지나치는 내수동로 102번길을 평소처럼 바닥만 보고 무심히 걷다가 무관심하게 여겨졌던 것들이 서서히 눈에 띄기 시작했다. 다양한 모양새를 띈 낮은 석축들과 보도블록 틈 사이에서 자라난 잡초들을 유심히 바라보게 되었다. 어떻게 저것들을 뚫고 자라날 수 있을까 라는 의문과 함께 천천히 걷는 것이 일상이 되었다. 그동안 보이지 않았던 것들이 보이기 시작했다. 떨어진 낙엽들, 유유히 지나가는 고양이, 지나가는 사람들의 발자욱 소리… 늘 앞만 보고 걸었던 나에겐 새로운 느낌이었다. 그리고 끈질긴 생명력으로 피어난 잡초들이 갑자기 서글프게 아름다워 보이기 시작하였다. 그리고 나는 그 길을 따라 걸으며 보았던 잡초들을 하나씩 그리기 시작했다.",
+                        education: "충북대학교 미술학과 서양화 전공 졸업 및 충북대학교 일반대학원 조형예술학과 석사과정 재학",
+                        individual_exhibition: [
+                            {order: 1, year: 2021, exhibit: "2021 내수동로102번길,숲속갤러리,충북 청주"},
+                            {order: 2, year: 2019, exhibit: "2019 자연형상自然形相, GCJ 청주 갤러리, 충북 청주"},
+                            {order: 3, year: 2018, exhibit: "2018 다시 풍경, 숲속갤러리, 충북 청주"},
+                        ],
+                        group_exhibition: [
+                            {order: 1, year: 2022, exhibit: "2022 기획전 “탐색하며, 이야기하다.”, 청주시립미술관 오창전시관, 청주"},
+                            {order: 2, year: 2021, exhibit: "2021 현대미술동인 SLIPPER 기획전 “불확실한 설렘”,숲속갤러리,청주"},
+                            {order: 3, year: 2021, exhibit: "2021 청주·광주 작가교류전 “세계일화”,무등갤러리,광주"},
+                            {order: 4, year: 2020, exhibit: "2020 한국예술종합학교 미술원 창작스튜디오 5기 입주작가 결과보고심사전,신축교사 갤러리, 서울"},
+                            {order: 5, year: 2019, exhibit: "2019 아트 청주 신인미술상 초대전, 청주예술의전당"},
+                            {order: 6, year: 2019, exhibit: "2019 현대미술동인 SLIPPER 기획전 “시각적 언어 언어적 시각”, 청주시립미술관 오창전시관"},
+                            {order: 7, year: 2018, exhibit: "2018 Slipper 시각의 재배치, 신미술관, 청"},
+                            {order: 8, year: 2018, exhibit: "2018 제3회 뉴드로잉프로젝트, 양주시립장욱진미술관, 양주"},
+                            {order: 9, year: 2017, exhibit: "2017 제2회 서리풀 ART for ART 대상전 입선, 한전아트센터갤러리, 서울"},
+                            {order: 10, year: 2017, exhibit: "2017 제42회 충청북도 미술대전 입상, 청주예술의전당"},
+                            {order: 11, year: 2017, exhibit: "2017 GIAF 아시아현대미술청년작가공모전“Timing”, 서울세종미술관, 서울"},
+                            {order: 12, year: 2016, exhibit: "2016 위드아트페어, 그랜드 인터컨치넨탈 서울 파르나스 11층, 서울"},
+                            {order: 13, year: 2016, exhibit: "2016 신진작가 키.똑.전, 키다리 갤러리, 대구"},
+                            {order: 14, year: 2015, exhibit: "2015 Lonely&Ovlibian 김라연 展 , 서울 아트스페이스팝, 서울"},
+                            {order: 15, year: 2015, exhibit: "2015 GIAF 아시아현대미술청년작가공모전, 서울 세종미술관, 서울"},
+                        ],
+                        paint: [
+                            {order: 0, title: "Naesudong-ro 102beon-gil No.10", imgname: "/2023/23-9/1-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 1, title: "Naesudong-ro 102beon-gil", imgname: "/2023/23-9/2-195.3x454.5.jpg", overview: "195.3x454.5cm", overview1: "oil on canvas_2021"},
+                            {order: 2, title: "Naesudong-ro 102beon-gil No.02", imgname: "/2023/23-9/3-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 3, title: "Naesudong-ro 102beon-gil No.12", imgname: "/2023/23-9/4-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 4, title: "Naesudong-ro 102beon-gil No.13", imgname: "/2023/23-9/5-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 5, title: "잡초들", imgname: "/2023/23-9/6-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "oil on canvas_2021"},
+                            {order: 6, title: "잡초들", imgname: "/2023/23-9/7-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "oil on canvas_2021"},
+                            {order: 7, title: "잡초들", imgname: "/2023/23-9/8-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "oil on canvas_2021"},
+                        ]
+                    },   
+                    {
+                        order: 1, 
+                        number: "02",
+                        title: "2023년 지원사업 결과보고전", 
+                        name: "이자연", 
+                        engname: "JaYeon Lee",
+                        imgname:"23-9-2.png", 
+                        text: "조형의 기본요소 점선면과 기법, 형식, 재료를 알아보고 물성의 특징에 따라 다양한 도구 사용법 경험으로 입체작품 표현 연구를 다양한 만들기 실험을 통해 표현해보고 폭넓은 시각사고를 확장시키며 반려식물 작품 창작해보는 시간.",
+                        education: "",
+                        individual_exhibition: [
+                   
+                        ],
+                        group_exhibition: [
+             
+                        ],
+                        paint: [
+                            {order: 8, title: "붉은 촉(觸)_어떤 상황적 풍경", imgname: "/2023/23-9/9-76.8x51.2.png", overview: "", overview1: "한지, 파라핀왁스, 콘크리트블록, 가변크기, 2022"},
+                        ]
+                    },   
+                    {
+                        order: 2, 
+                        number: "03",
+                        title: "2023년 지원사업 결과보고전", 
+                        name: "김동우", 
+                        engname: "Dongwoo Kim",
+                        imgname:"23-9-3.png", 
+                        text: "각자가 꿈꾸는 세상의 모습과 풍경을 서로 이야기하고 나, 타인 그리고 우리에 대해 이해해보고 아날로그 페인팅을 통해 일상의 공간에서 일어나는 낯선 상황을 마주하는 상상 의 시간.",
+                        education: "",
+                        individual_exhibition: [
+                     
+                        ],
+                        group_exhibition: [
+                  
+                        ],
+                        paint: [
+                            {order: 9, title: "표류하거나 벗어나거나", imgname: "/2023/23-9/10-227x728.png", overview: "227x728cm", overview1: "캔버스 위에 유화, 2022"},
+                        ]
+                    },   
+                    {
+                        order: 3, 
+                        number: "04",
+                        title: "2023년 지원사업 결과보고전", 
+                        name: "최민솔", 
+                        engname: "Minsol Choi",
+                        imgname:"23-9-4.png", 
+                        text: "형태에 대한 이해와 현대미술의 ‘추상 회화’의 ‘선, 형태, 색채, 질감’ 등 추상적 요소들을 통해 자유롭게 표현하며 작가의 직관과 감정에 중점을 두고, 즉흥적, 표현주의적, 비정형의 확장된 시각을 함께 경험하고 공간의 설치를 통해 창의적 경험과 표현으로 정서적 예술사고 발달 형성하는 시간.",
+                        education: "",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 10, title: "우리들의 초상 (肖像)", imgname: "/2023/23-9/11-76.8x78.2.png", overview: "", overview1: "캔버스 위에 아크릴, 거울, 가변크기, 2020"},
+                         
                         ]
                     },      
                 ],

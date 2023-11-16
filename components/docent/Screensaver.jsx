@@ -10,6 +10,9 @@ const Screensaver = ({videoUrl, url, ...props}) => {
         url={videoUrl}
         width="100%"
         height="100%"
+        style={{
+            zIndex: "1"
+        }}
         volume={0.5}
         controls={false}
         muted={true}

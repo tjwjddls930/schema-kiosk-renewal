@@ -1,41 +1,49 @@
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
+import { useEffect, useState } from "react";
 
-const InactivityDetector = ({ timeout = 30000 }) => {
-  const [timer, setTimer] = useState(null);
-  const router = useRouter();
-
-  const handleActivity = () => {
-    resetTimer();
-  };
-
-  const resetTimer = () => {
-    clearTimeout(timer);
-    setTimer(setTimeout(redirectToLandingPage, timeout));
-  };
-
-  const redirectToLandingPage = () => {
-    router.push('/landingpage');
-  };
+const InactivityDetector = ({ timeoutInSeconds = 30, onInactivity }) => {
+  const [inactive, setInactive] = useState(false);
 
   useEffect(() => {
+    let inactivityTimer;
+
+    const resetTimer = () => {
+      clearTimeout(inactivityTimer);
+      inactivityTimer = setTimeout(() => {
+        setInactive(true);
+        // Perform the action on inactivity
+        if (onInactivity) {
+          onInactivity();
+        }
+      }, timeoutInSeconds * 1000);
+    };
+
+    const handleActivity = () => {
+      setInactive(false);
+      resetTimer();
+    };
+
+    // Attach event listeners
+    window.addEventListener("touchstart", handleActivity);
+    window.addEventListener("touchmove", handleActivity);
+    window.addEventListener("touchend", handleActivity);
+    window.addEventListener("mousemove", handleActivity);
+    window.addEventListener("keydown", handleActivity);
+
+    // Initial setup
     resetTimer();
 
-    // Add event listeners for user activity
-    window.addEventListener('click', handleActivity);
-    window.addEventListener('touchstart', handleActivity);
-    window.addEventListener('keydown', handleActivity);
-
-    // Clean up the event listeners on component unmount
+    // Clean up event listeners
     return () => {
-      clearTimeout(timer);
-      window.removeEventListener('click', handleActivity);
-      window.removeEventListener('touchstart', handleActivity);
-      window.removeEventListener('keydown', handleActivity);
+      window.addEventListener("touchstart", handleActivity);
+      window.addEventListener("touchmove", handleActivity);
+      window.addEventListener("touchend", handleActivity);
+      window.removeEventListener("mousemove", handleActivity);
+      window.removeEventListener("keydown", handleActivity);
+      clearTimeout(inactivityTimer);
     };
-  }, []);
+  }, [timeoutInSeconds, onInactivity]);
 
-  return null; // This component doesn't render anything
+  return null;
 };
 
 export default InactivityDetector;

@@ -1,4 +1,4 @@
-import { useState, useContext, useEffect, useRef } from "react";
+import { useState, useContext, useEffect } from "react";
 import ReactSlider from "react-slider";
 import Soundguide from "../docent/Soundguide";
 import clsx from "clsx";
@@ -9,6 +9,8 @@ import VoiceGPTButton from "../VoiceGPTButton";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
+import Screensaver from "../docent/Screensaver";
+import InactivityDetector from "../InactivityDetector";
 
 const languageText = {
   KOR: (func) => (
@@ -398,7 +400,7 @@ const chatbotText = {
 
 const Navbar = ({ url, sign }) => {
   const router = useRouter();
-  const currentPath = router.asPath;
+  // const currentPath = router.asPath;
   const [volume, setVolume] = useState(Number(0.5));
   const [volumepop, setVolumepop] = useState(false);
   const [soundguide, setSoundguide] = useState(false);
@@ -406,10 +408,7 @@ const Navbar = ({ url, sign }) => {
   const [modal, setModal] = useState(false);
   const [isChatModalOpen, setIsChatModalOpen] = useState(false);
   const [hide, setHide] = useState(true);
-  const [isVideoGuideOpen, setIsVideoGuideOpen] = useState(false);
-  const [videoSource, setVideoSource] = useState("");
-  const videoRef = useRef();
-  // const [playing, setPlaying] = useState(true);
+  // const [screensaver, setScreenSaver] = useState(false);
   const { language, setLanguage } = useContext(LanguageContext);
   const { fontsize, setFontsize } = useContext(FontsizeContext);
   const { isPortrait } = useContext(ScreenOrientContext);
@@ -417,6 +416,14 @@ const Navbar = ({ url, sign }) => {
   const changeLanguage = (lang) => {
     setLanguage(lang);
   };
+
+  // const handleInactivity = () => {
+  //   if(currentPath !== "/landingpage" && screensaver === false) {
+  //     setScreenSaver(!screensaver)
+  //   } else {
+  //     return null;
+  //   }
+  // };
 
   useEffect(() => {
     setIsChatModalOpen(false);
@@ -465,13 +472,13 @@ const Navbar = ({ url, sign }) => {
         </div>
       )}
       {volumepop && (
-        <div className="absolute h-8 w-[250px] screen-w:h-16 screen-w:w-[450px] bottom-24 right-96 screen-w:transform screen-w:-translate-x-1/2 screen-w:right-64 screen-w:bottom-36 rounded-full bg-Ablack bg-opacity-60 items-center z-30">
+        <div className="absolute h-8 w-[250px] screen-w:h-16 screen-w:w-[550px] bottom-24 right-96 screen-w:transform screen-w:-translate-x-1/2 screen-w:right-80 screen-w:bottom-44 rounded-full bg-Ablack bg-opacity-60 items-center z-30">
           <ReactSlider
             step={0.01}
             min={0}
             max={1}
-            className="w-[180px] screen-w:w-[400px] h-3 screen-w:h-6 bg-Awhite rounded-full cursor-grab mt-2 screen-w:mt-5 mx-auto"
-            thumbClassName="absolute w-5 h-5 screen-w:w-8 screen-w:h-8 cursor-grab bg-Cpurple rounded-full border-2 border-Awhite -top-1"
+            className="w-[180px] screen-w:w-[500px] h-3 screen-w:h-6 bg-Awhite rounded-full cursor-grab mt-2 screen-w:mt-5 mx-auto"
+            thumbClassName="absolute w-5 h-5 screen-w:w-8 screen-w:h-8 cursor-grab bg-Ablue rounded-full border-2 border-Awhite -top-1"
             trackClassName="top-0 bottom-0 bg-Awhite bg-Cpurple"
             renderTrack={(props, state) => (
               <div
@@ -480,13 +487,16 @@ const Navbar = ({ url, sign }) => {
                   "h-3 screen-w:h-6 rounded-full cursor-pointer",
                   {
                     "bg-Awhite": state.index === 1,
-                    "bg-Cpurple": state.index === 0,
+                    "bg-Ablue": state.index === 0,
                   }
                 )}
               ></div>
             )}
             value={volume}
             onChange={(value) => setVolume(value)}
+            onAfterChange={()=> setTimeout(()=> {
+              setVolumepop(!volumepop)
+            }, 3000)}
           />
         </div>
       )}
@@ -661,6 +671,21 @@ const Navbar = ({ url, sign }) => {
           </div>
         </div>
       )}
+      {/* {screensaver && (
+        <div className="h-screen w-screen animate-opacitySlow absolute z-20 top-0 left-0">
+          <div className="h-full w-full bg-Ablack bg-opacity-30 z-30 absolute top-0 left-0 text-center"
+            onClick={()=> router.push("/landingpage")}
+          >
+            <span className="w-1/2 z-[999] text-Awhite font-bold text-6xl absolute transform -translate-x-1/2 left-1/2 -translate-y-1/2 top-1/2" 
+            >
+              {"화면을 터치하여 키오스크를 이용해보세요!"}
+            </span>
+          </div>
+          <div className="h-full w-full -z-10 absolute top-0 left-0">
+            <Screensaver videoUrl={"https://www.youtube.com/watch?v=Z9K0zY5gB4o"} />
+          </div>
+        </div>
+      )} */}
       <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-40 bg-Ablue px-10 screen-w:px-12 items-center">
         <div className="flex flex-row w-full h-full space-x-4 screen-w:space-x-6 justify-end">
           <VoiceGPTButton isChatModalOpen={isChatModalOpen} />
@@ -680,6 +705,7 @@ const Navbar = ({ url, sign }) => {
           )}
         </div>
       </nav>
+      {/* <InactivityDetector timeoutInSeconds={30} onInactivity={handleInactivity} /> */}
     </>
   );
 };
