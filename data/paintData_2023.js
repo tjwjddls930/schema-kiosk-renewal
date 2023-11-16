@@ -130,7 +130,7 @@ export const paintData8 = [
 
 export const paintData9 = [
     {order: 0, title: "Naesudong-ro 102beon-gil No.10", imgname: "/2023/23-9/1-65.1x90.9.jpg", width: 5.454, height: 3.906, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
-    {order: 1, title: "Naesudong-ro 102beon-gil", imgname: "/2023/23-9/2-195.3x454.5.jpg", width: 1.953, height: 4.545, overview: "195.3x454.5cm", overview1: "oil on canvas_2021"},
+    {order: 1, title: "Naesudong-ro 102beon-gil", imgname: "/2023/23-9/2-195.3x454.5.jpg", width: 4.545, height: 1.953, overview: "195.3x454.5cm", overview1: "oil on canvas_2021"},
     {order: 2, title: "Naesudong-ro 102beon-gil No.02", imgname: "/2023/23-9/3-65.1x90.9.jpg", width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
     {order: 3, title: "Naesudong-ro 102beon-gil No.12", imgname: "/2023/23-9/4-65.1x90.9.jpg", width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
     {order: 4, title: "Naesudong-ro 102beon-gil No.13", imgname: "/2023/23-9/5-65.1x90.9.jpg", width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
