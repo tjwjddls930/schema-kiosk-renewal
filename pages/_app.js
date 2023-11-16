@@ -5,7 +5,7 @@ import { ScreenOrientProvider } from '@/contexts/ScreenOrientContext';
 import {useEffect, useState} from 'react';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
-import InactivityRedirect from '@/components/InactivityRedirect';
+// import InactivityRedirect from '@/components/InactivityRedirect';
 const WideLayout = dynamic(() => import('@/components/pagelayout/WideLayout'));
 const TallLayout = dynamic(() => import('@/components/pagelayout/TallLayout'));
 

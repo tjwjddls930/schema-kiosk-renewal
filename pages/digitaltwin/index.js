@@ -6,7 +6,6 @@ import Camerabutton from '@/components/digitaltwin/Camerabutton';
 import Cameracontrol from '@/components/digitaltwin/Cameracontrol';
 import Virtualexhibit from '@/components/digitaltwin/Virtualexhibit';
 import Model from '@/components/digitaltwin/Model';
-import Inactivityredirect from '@/components/digitaltwin/Inactivityredirect';
 
 export default function Schemafloor() {
     return(
