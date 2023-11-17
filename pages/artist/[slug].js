@@ -1,9 +1,5 @@
-// import Link from "next/link";
 import Artistlayout from "@/components/exhibits/artistselect/ArtistLayout";
 import { useState, useEffect } from "react";
-// import { artistData } from "@/data/artistData";
-// import { AnimatePresence, motion } from "framer-motion";
-// import Artistcontent from "@/components/exhibits/artistselect/Artistcontent";
 import Navbar from "@/components/navbar/Navbar";
 
 export default function Presentpage() {

@@ -5,10 +5,11 @@ import { useRouter } from "next/router";
 import Navbar from "@/components/navbar/Navbar";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
-import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9 } from "@/data/paintData_2023";
+import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9, paintData10, paintData11, paintData12 } from "@/data/paintData";
 
 const paintList = [
-    paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9
+    [paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9],
+    [paintData10, paintData11, paintData12]
 ];
 
 
@@ -17,12 +18,12 @@ export default function Viewpage() {
     const [popup, setPopup] = useState(true);
     const [data, setData] = useState(null)
     const router = useRouter();
-    const {slug, order} = router.query;
+    const {slug, order, year} = router.query;
 
     useEffect(()=> {
         const mid = slug?.replace("", "");
-        if(slug !== undefined && paintList?.[order]?.[mid]) {
-            setData(paintList[order][mid]);
+        if(slug !== undefined && paintList?.[year]?.[order]?.[mid]) {
+            setData(paintList[year][order][mid]);
         }
     }, [slug])
 
@@ -30,11 +31,11 @@ export default function Viewpage() {
         const currentIndex = Number(slug?.replace("", ""));
         let newIndex = currentIndex + offset;
         if (newIndex < 0) {
-        newIndex = paintList[order].length - 1;
-        } else if (newIndex >= paintList[order].length) {
+        newIndex = paintList[year][order].length - 1;
+        } else if (newIndex >= paintList[year][order].length) {
         newIndex = 0;
         }
-        router.replace(`/artist/paint/viewpage/${newIndex}?order=${order}`);
+        router.replace(`/artist/paint/viewpage/${newIndex}?order=${order}&year=${year}`);
     };
   
     return(

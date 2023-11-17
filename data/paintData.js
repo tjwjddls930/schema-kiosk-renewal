@@ -126,7 +126,7 @@ export const paintData8 = [
     {order: 2, title: "지나가다", imgname: "/2023/23-8/3-95x180.jpg", width: 5.4, height: 2.85, overview: "95x180cm", overview1: "한지에 물감 드로잉, 2013"},
     {order: 3, title: "나는 지금 이곳에 있다 속리산에서", imgname: "/2023/23-8/4-102.4x57.6.jpg", width: 4.096, height: 2.304, overview: "", overview1: "Video, 10분 6초, 2020. 10.25"},
     {order: 4, title: "나는 지금 이곳에 있다. 대청호 미천리 습지에서", imgname: "/2023/23-8/5-102.4x68.3.jpg", width: 4.096, height: 2.732, overview: "", overview1: "Video, 2021.09.04._스틸컷1"},
-]
+];
 
 export const paintData9 = [
     {order: 0, title: "Naesudong-ro 102beon-gil No.10", imgname: "/2023/23-9/1-65.1x90.9.jpg", width: 5.454, height: 3.906, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
@@ -140,4 +140,44 @@ export const paintData9 = [
     {order: 8, title: "붉은 촉(觸)_어떤 상황적 풍경", imgname: "/2023/23-9/9-76.8x51.2.png", width: 3.072, height: 4.608, overview: "", overview1: "한지, 파라핀왁스, 콘크리트블록, 가변크기, 2022"},
     {order: 9, title: "표류하거나 벗어나거나", imgname: "/2023/23-9/10-227x728.png", width: 2.27, height: 7.28, overview: "227x728cm", overview1: "캔버스 위에 유화, 2022"},
     {order: 10, title: "우리들의 초상 (肖像)", imgname: "/2023/23-9/11-76.8x78.2.png", width: 4.692, height: 4.608, overview: "", overview1: "캔버스 위에 아크릴, 거울, 가변크기, 2020"},
-]
+];
+
+export const paintData10 = [
+    {order: 0, title: "CutPieces-Pink", imgname: "/2022/22-1/1-162x130.jpg", width: 3.9, height: 4.86, overview: "162x130cm", overview1: "acrylic-on-canvas-hand-cut-2014"},
+    {order: 1, title: "간間", imgname: "/2022/22-1/2-148x115.jpg", width: 4.6, height: 5.92, overview: "148x115cm", overview1: "캔버스에-유채-1985"},
+    {order: 2, title: "Relation", imgname: "/2022/22-1/3-100x80.3.jpg", width: 4.15, height: 5, overview: "100x80.3cm", overview1: "Oil-on-canvas-1981"},
+    {order: 3, title: "우주에서 온 편지", imgname: "/2022/22-1/4-60.5x89.5.jpg", width: 5.37, height: 3.63, overview: "60.5x89.5cm", overview1: "사진-2014"},
+    {order: 4, title: "보리-생명生命", imgname: "/2022/22-1/5-62x93.jpg", width: 5.58, height: 3.72, overview: "62x93cm", overview1: "한지-먹-담채-1997"},
+    {order: 5, title: "Shimmery", imgname: "/2022/22-1/6-36x96.jpg", width: 6.72, height: 2.52, overview: "36x96cm", overview1: "한지-위에-수묵채색-2009"},
+    {order: 6, title: "Untitled-20", imgname: "/2022/22-1/7-90x72.jpg", width: 4.32, height: 5.4, overview: "90x72cm", overview1: "Pigment-Print-2022"},
+    {order: 7, title: "초최한 고뇌의 형상3", imgname: "/2022/22-1/8-100x200.jpg", width: 6, height: 3, overview: "100x200cm", overview1: "프린트화이아트-벨벳-2021"},
+    {order: 8, title: "1인 시위", imgname: "/2022/22-1/9-60.5x50.jpg", width: 4.5, height: 5.445, overview: "60.5x50cm", overview1: "Sandpaper-Oil-on-Canvas-2014"},
+    {order: 9, title: "Untitled-2", imgname: "/2022/22-1/10-116x91.jpg", width: 4.55, height: 5.8, overview: "116x91cm", overview1: "캔버스-위에-아크릴릭-2009"},
+    {order: 10, title: "변이-Meramorphosis", imgname: "/2022/22-1/11-145.5x112.1.jpg", width: 4.484, height: 5.82, overview: "145.5x112.1cm", overview1: "Drawing-on-Korean-paper-2013"},
+    {order: 11, title: "그것", imgname: "/2022/22-1/12-160x40.jpg", width: 1.6, height: 6.4, overview: "160x40cm", overview1: "아크릴물감-철망-등나무-색한지-2016"},
+    {order: 12, title: "독도를 바로 세우자 부끄럽지 않게", imgname: "/2022/22-1/13-97x162.jpg", width: 6.48, height: 3.88, overview: "97x162cm", overview1: "수묵-아크릴릭-2008"},
+    {order: 13, title: "Unknown time with 정선", imgname: "/2022/22-1/14-91x.116.8.jpg", width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "Acrylic-on-canvas-2020"},
+    {order: 14, title: "Unknown time with 정선", imgname: "/2022/22-1/15-60x96.jpg", width: 5.76, height: 3.6, overview: "60x96cm", overview1: "한지탁본-2006"},
+];
+
+export const paintData11 = [
+    {order: 0, title: "Accept", imgname: "/2022/22-2/1-60.6x72.7.jpg", width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
+    {order: 1, title: "Accept", imgname: "/2022/22-2/2-144.5x144.5.jpg", width: 4.335, height: 4.335, overview: "144.5x144.5cm", overview1: "Acrylic-on-canvas-2022"},
+    {order: 2, title: "Accept", imgname: "/2022/22-2/3-72.7x91.jpg", width: 5.4, height: 4.362, overview: "72.7x90cm", overview1: "Acrylic-on-canvas-2022"},
+    {order: 3, title: "Accept", imgname: "/2022/22-2/4-145x89.4.jpg", width: 3.576, height: 5.8, overview: "145x89.4cm", overview1: "Acrylic-on-canvas-2022"},
+    {order: 4, title: "Accept", imgname: "/2022/22-2/5-97x162.jpg", width: 6.48, height: 3.88, overview: "97x162cm", overview1: "Acrylic-on-canvas-2022"},
+    {order: 5, title: "Accept", imgname: "/2022/22-2/6-130x162.jpg", width: 6.48, height: 5.2, overview: "130x162cm", overview1: "Acrylic-on-canvas-2017"},
+    {order: 6, title: "Accept", imgname: "/2022/22-2/7-162x130.jpg", width: 5.2, height: 6.48, overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
+    {order: 7, title: "Accept", imgname: "/2022/22-2/8-162x130.jpg", width: 5.2, height: 6.48, overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
+    {order: 8, title: "Accept", imgname: "/2022/22-2/9-72x53.jpg", width: 4.24, height: 5.76, overview: "72x53cm", overview1: "Acrylic-on-canvas-2017"},
+    {order: 9, title: "Accept", imgname: "/2022/22-2/10-130x162.jpg", width: 6.48, height: 5.2, overview: "130x162cm", overview1: "Acrylic-on-canvas-2017"},
+    {order: 10, title: "Accept", imgname: "/2022/22-2/11-162x130.jpg", width: 5.2, height: 6.48, overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
+];
+
+export const paintData12 = [
+    {order: 0, title: "비틀즈발라드오디오", imgname: "/2022/22-3/1-70x60.jpg", width: 4.2, height: 4.9, overview: "70x60cm", overview1: "나무_2021"},
+    {order: 1, title: "오크통오디오", imgname: "/2022/22-3/2-80x56.7.jpg", width: 4, height: 2.835, overview: "200x100cm", overview1: "나무_2019"},
+    {order: 2, title: "재즈12오디오", imgname: "/2022/22-3/3-80x44.6.jpg", width: 4, height: 2.23, overview: "300x90cm", overview1: "종이_2021"},
+    {order: 3, title: "재즈100", imgname: "/2022/22-3/4-100x80.jpg", width: 3.2, height: 4, overview: "100x80cm", overview1: "나무_2021"},
+    {order: 4, title: "행복소리", imgname: "/2022/22-3/5-300x200.jpg", width: 4, height: 6, overview: "300x200cm", overview1: "나무_2022"},
+];

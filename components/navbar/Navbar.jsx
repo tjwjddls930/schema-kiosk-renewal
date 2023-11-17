@@ -9,8 +9,6 @@ import VoiceGPTButton from "../VoiceGPTButton";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
-import Screensaver from "../docent/Screensaver";
-import InactivityDetector from "../InactivityDetector";
 
 const languageText = {
   KOR: (func) => (
@@ -400,7 +398,6 @@ const chatbotText = {
 
 const Navbar = ({ url, sign }) => {
   const router = useRouter();
-  // const currentPath = router.asPath;
   const [volume, setVolume] = useState(Number(0.5));
   const [volumepop, setVolumepop] = useState(false);
   const [soundguide, setSoundguide] = useState(false);
@@ -408,7 +405,6 @@ const Navbar = ({ url, sign }) => {
   const [modal, setModal] = useState(false);
   const [isChatModalOpen, setIsChatModalOpen] = useState(false);
   const [hide, setHide] = useState(true);
-  // const [screensaver, setScreenSaver] = useState(false);
   const { language, setLanguage } = useContext(LanguageContext);
   const { fontsize, setFontsize } = useContext(FontsizeContext);
   const { isPortrait } = useContext(ScreenOrientContext);
@@ -416,14 +412,6 @@ const Navbar = ({ url, sign }) => {
   const changeLanguage = (lang) => {
     setLanguage(lang);
   };
-
-  // const handleInactivity = () => {
-  //   if(currentPath !== "/landingpage" && screensaver === false) {
-  //     setScreenSaver(!screensaver)
-  //   } else {
-  //     return null;
-  //   }
-  // };
 
   useEffect(() => {
     setIsChatModalOpen(false);
@@ -671,21 +659,6 @@ const Navbar = ({ url, sign }) => {
           </div>
         </div>
       )}
-      {/* {screensaver && (
-        <div className="h-screen w-screen animate-opacitySlow absolute z-20 top-0 left-0">
-          <div className="h-full w-full bg-Ablack bg-opacity-30 z-30 absolute top-0 left-0 text-center"
-            onClick={()=> router.push("/landingpage")}
-          >
-            <span className="w-1/2 z-[999] text-Awhite font-bold text-6xl absolute transform -translate-x-1/2 left-1/2 -translate-y-1/2 top-1/2" 
-            >
-              {"화면을 터치하여 키오스크를 이용해보세요!"}
-            </span>
-          </div>
-          <div className="h-full w-full -z-10 absolute top-0 left-0">
-            <Screensaver videoUrl={"https://www.youtube.com/watch?v=Z9K0zY5gB4o"} />
-          </div>
-        </div>
-      )} */}
       <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-40 bg-Ablue px-10 screen-w:px-12 items-center">
         <div className="flex flex-row w-full h-full space-x-4 screen-w:space-x-6 justify-end">
           <VoiceGPTButton isChatModalOpen={isChatModalOpen} />
@@ -699,13 +672,11 @@ const Navbar = ({ url, sign }) => {
           )}
           {soundDocent[language](
             () => setSoundguide(!soundguide),
-            // () => handleVideoGuideToggle(true),
             signLang,
             soundguide
           )}
         </div>
       </nav>
-      {/* <InactivityDetector timeoutInSeconds={30} onInactivity={handleInactivity} /> */}
     </>
   );
 };

@@ -6,3 +6,12 @@ export default function Home() {
     )
 };
 
+export const getServerSideProps = async (context) => {
+    return {
+        redirect: {
+            destination: 'https://schema-screensaver.vercel.app/', 
+            permanent: false, 
+        },
+    };
+};
+

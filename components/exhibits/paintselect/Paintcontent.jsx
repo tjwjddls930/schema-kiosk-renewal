@@ -1,6 +1,4 @@
 import { useState, useRef, useEffect, useContext } from "react";
-import Link from "next/link";
-// import { artistData } from "@/data/artistData";
 import { allExhibits } from "@/data/pastExhibit";
 import { useRouter } from "next/router";
 import { LanguageContext } from "@/contexts/LanguageContext";
@@ -114,10 +112,10 @@ const Paintcontent = () => {
                                     className={clsx(`shadow-xl flex mx-auto ${index === current ? "border-4 border-Awhite" : null}`)}
                                     src={`/img/exhibitpage/paintings/${item.imgname}`}
                                     alt="paintings"
-                                    onClick={()=>router.push(`/artist/paint/viewpage/${item.order}?order=${order}`)}
+                                    onClick={()=>router.push(`/artist/paint/viewpage/${item.order}?order=${order}&year=${pid}`)}
                                 />
                                 <div className="absolute h-20 screen-w:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0"
-                                    onClick={()=>router.push(`/artist/paint/viewpage/${item.order}?order=${order}`)}
+                                    onClick={()=>router.push(`/artist/paint/viewpage/${item.order}?order=${order}&year=${pid}`)}
                                 >
                                     <div className="flex justify-between p-4 screen-w:p-6">
                                         <span className="font-bold text-base pt-2 screen-w:pt-4 text-Awhite screen-w:text-2xl">{viewText[language]}</span>
