@@ -6,22 +6,22 @@ import Paintingbox from "../Paintingbox";
 const Virtualexhibit = () => {
     const [image0, image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15] = 
         [
-        '/img/exhibitpage/paintings/김준/Mr.-purple-Loop.jpg', 
-        '/img/exhibitpage/paintings/김준/Flying-cat-Loop.jpg', 
-        '/img/exhibitpage/paintings/이윤성/Head-of-Medusa-Pink.jpg',
-        '/img/exhibitpage/paintings/이윤성/Head-of-Medusa.jpg',
-        '/img/exhibitpage/paintings/이윤성/Head-of-Medusa-Pink1.jpg',
-        '/img/exhibitpage/paintings/이윤성/Head-of-Medusa-Silver-3D.png',
-        '/img/exhibitpage/paintings/이윤성/The-Three-Graces.jpg',
-        '/img/exhibitpage/paintings/김준/Somebody-anne.jpg', 
-        '/img/exhibitpage/paintings/김준/Somebody-pink-tile.jpg', 
-        '/img/exhibitpage/paintings/김준/Somebody-curtain-call.jpg', 
-        '/img/exhibitpage/paintings/김준/Somebody-chair-man.jpg',
-        '/img/exhibitpage/paintings/김준/Somebody-red-dot.jpg',
-        '/img/exhibitpage/paintings/이윤성/Torso-12.jpg',
-        '/img/exhibitpage/paintings/이윤성/Torso-12-1.jpg',
-        '/img/exhibitpage/paintings/옥승철/Portrait3.jpg',
-        '/img/exhibitpage/paintings/옥승철/Portrait4.jpg',
+        '/img/exhibitpage/paintings/2023/23-7/7.jpg', 
+        '/img/exhibitpage/paintings/2023/23-7/6.jpg', 
+        '/img/exhibitpage/paintings/2023/23-7/19.jpg',
+        '/img/exhibitpage/paintings/2023/23-7/18.jpg',
+        '/img/exhibitpage/paintings/2023/23-7/20.jpg',
+        '/img/exhibitpage/paintings/2023/23-7/21.png',
+        '/img/exhibitpage/paintings/2023/23-7/22.jpg',
+        '/img/exhibitpage/paintings/2023/23-7/8.jpg', 
+        '/img/exhibitpage/paintings/2023/23-7/11.jpg', 
+        '/img/exhibitpage/paintings/2023/23-7/10.jpg', 
+        '/img/exhibitpage/paintings/2023/23-7/9.jpg',
+        '/img/exhibitpage/paintings/2023/23-7/12.jpg',
+        '/img/exhibitpage/paintings/2023/23-7/23.jpg',
+        '/img/exhibitpage/paintings/2023/23-7/24.jpg',
+        '/img/exhibitpage/paintings/2023/23-7/13.jpg',
+        '/img/exhibitpage/paintings/2023/23-7/14.jpg',
     ];
 
     const [scale0, scale1, scale2, scale3, scale4, scale5, scale6, scale7, scale8, scale9, scale10, scale11, scale12] = [

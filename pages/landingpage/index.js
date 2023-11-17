@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import Navbar from "@/components/navbar/Navbar";
 import Soundguide from "@/components/docent/Soundguide";
 import { Html } from "@react-three/drei";
-import Screensaver from "@/components/docent/Screensaver2";
+// import Screensaver from "@/components/docent/Screensaver2";
 
 export default function Landingpage() {
 
@@ -62,12 +62,12 @@ export default function Landingpage() {
     )
 };
 
-export const getServerSideProps = async (context) => {
-    return {
-        redirect: {
-            // destination: 'https://schema-screensaver.vercel.app/',
-            destination: '/',  
-            permanent: false, 
-        },
-    };
-};
+// export const getServerSideProps = async (context) => {
+//     return {
+//         redirect: {
+//             destination: 'https://schema-screensaver.vercel.app/',
+//             destination: '/',  
+//             permanent: false, 
+//         },
+//     };
+// };

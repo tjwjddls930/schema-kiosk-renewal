@@ -3,8 +3,6 @@ import { SpotLight, useTexture, Text, Html } from "@react-three/drei";
 import { useRouter } from "next/router";
 import * as THREE from 'three';
 import { useFrame } from "@react-three/fiber";
-import Character from "../Character";
-import { MathUtils } from "three";
 import { LanguageContext } from "@/contexts/LanguageContext";
 
 const mainpageText ={
