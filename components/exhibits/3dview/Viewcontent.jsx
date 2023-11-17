@@ -16,7 +16,7 @@ const Viewcontent = ({url, width, height}) => {
         // <div className="h-[91%] w-[1000px] absolute bottom-16 screen-w:h-[94%] screen-w:w-[1500px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
         <>
         {isClient && (
-        <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[95%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
+        <div className="h-[92%] w-full absolute bottom-16 screen-w:h-[95%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
             <Canvas
                 gl={{antialias:true}}
                 shadows

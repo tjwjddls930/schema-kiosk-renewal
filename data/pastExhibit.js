@@ -2529,20 +2529,183 @@ export const allExhibits = [
                         ]
                     },
                     {
-                        order: 4, 
-                        number: "05",
+                        order: 5, 
+                        number: "06",
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
-                        name: "심재분", 
-                        engname: "Jaeboon Shim",
-                        imgname:"/2022/22-4/22-4-5.jpg", 
-                        text: "심재분 작가는 세상과 인간과의 관계, 보이지 않는 관계 속에 존재를 재현하기 위해 작가는 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 카메라에 담으며 대상의 본질을 꿰뚫어 자신의 언어로 이미지를 재현한다.",
+                        name: "김성미", 
+                        engname: "Sungmi Kim",
+                        imgname:"/2022/22-4/22-4-6.jpg", 
+                        text: "김성미 작가는 숲의 다양하고 자연스러운 생성과 변주들에서 ‘자연과 함께하는 인간의 모습’을 찾는 과정을 상상하며 추상적 회화 작업으로 표현하였다.",
                         education: "",
                         individual_exhibition: [
                         ],
                         group_exhibition: [
                         ],
                         paint: [
-                            {order: 10, title: "환상여행1", imgname: "/2022/22-4/11-75x75.jpg", overview: "75x75cm", overview1: "사진프린트, 2022"},
+                            {order: 11, title: "알레고리 2021-001", imgname: "/2022/22-4/12-162.2x130.3.jpg", overview: "162.2x130.3cm", overview1: "캔버스 위 혼합재료, 2021"},
+                            {order: 12, title: "알레고리 2021-002", imgname: "/2022/22-4/13-162.2x130.3.jpg", overview: "162.2x130.3cm", overview1: "캔버스 위 혼합재료, 2021"},
+                        ]
+                    },
+                    {
+                        order: 6, 
+                        number: "07",
+                        title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
+                        name: "최익규", 
+                        engname: "IkGyu Choi",
+                        imgname:"/2022/22-4/22-4-7.jpg", 
+                        text: "최익규 작가는 작가를 존재하게 한 가족과 작가 자신을 둘러쌓고 있는 사람들, 특히 아버지와 작가의 관계를 반복된 바느질 선 만들기의 과정을 통해 성찰하고, 시간 꾸밈없이 좀 더 진실에 가까운 작가의 자화상을 그리고 있다.",
+                        education: "",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 13, title: "무제", imgname: "/2022/22-4/14-180x122.jpg", overview: "180x122cm", overview1: "천에 바느질 후 채색, 2022"},
+                        ]
+                    },
+                    {
+                        order: 7, 
+                        number: "08",
+                        title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
+                        name: "이경화", 
+                        engname: "KyungHwa Lee",
+                        imgname:"/2022/22-4/22-4-8.jpg", 
+                        text: "이경화 작가의 작품에 보이는 풍경은 동양의 무의식적, 무위 자연적인 공간을 유지하려고 하면서도 그것이 실경이 아닌 관념적 세계를 비주얼로 해석하고자 하는 의도를 표현한다.",
+                        education: "",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 14, title: "夢中夢 9-1", imgname: "/2022/22-4/15-100x80.3.jpg", overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 15, title: "夢中夢 10-2", imgname: "/2022/22-4/16-100x80.3.jpg", overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 16, title: "夢中夢1-3", imgname: "/2022/22-4/17-53x45.5.jpg", overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
+                        ]
+                    },
+                    {
+                        order: 8, 
+                        number: "09",
+                        title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
+                        name: "박진명", 
+                        engname: "JinMyung Park",
+                        imgname:"/2022/22-4/22-4-9.jpg", 
+                        text: "박진명 작가는 작가만의 눈과 심상으로 무심코 지나쳐서 스치듯 지나간 그날의 기억과 이미지의 잔재는 무언가를 떠올리게 되고 나름의 새로운 기억을 ‘잔상의 기록’으로 담아낸다. 이번 ‘똑같은 봄은 없다’ 작품에서는 작가만의 기억의 봄을 남긴다.",
+                        education: "",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 17, title: "똑같은 봄은 없다", imgname: "/2022/22-4/18-166.5x71.jpg", overview: "166.5x71cm", overview1: "종이 위에 먹, 과슈, 2022"},
+                        ]
+                    },
+                    {
+                        order: 9, 
+                        number: "10",
+                        title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
+                        name: "최민건", 
+                        engname: "MinGun Choi",
+                        imgname:"/2022/22-4/22-4-10.jpg", 
+                        text: "최민건 작가는 경계의 모호함으로 인해 가상과 실제, 주체와 객체 사이에서 방황하면서 즐기고 있는 우리들의 모습을 표현한다. 화면에서 착시효과를 주는 개는 가상과 실제의 경계를 모호하게 하며, 인간과 다른 동물 중 가장 친숙한 개의 모습을 표현함으로써 우리와 다름을 인지함과 동시에 동질성을 느끼게 한다.",
+                        education: "",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 18, title: "Game of Thrones", imgname: "/2022/22-4/19-73x182.jpg", overview: "73x182cm", overview1: "천 위에 아크릴, 2022"},
+                        ]
+                    },
+                    {
+                        order: 10, 
+                        number: "11",
+                        title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
+                        name: "오승언", 
+                        engname: "SeungUn Oh",
+                        imgname:"/2022/22-4/22-4-11.jpg", 
+                        text: "오승언 작가는 특유의 시선으로 사회의 일상의 풍경을 고스란히 캔버스 화면에 담아 보여준다. 작가의 풍경은 지금의 풍경이면서도 어딘가 낯설고 감정이 느껴지지 않는 공간이기도 하다.",
+                        education: "",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 19, title: "Untitled", imgname: "/2022/22-4/20-45.5x53.jpg", overview: "45.5x53cm", overview1: "Oil on canvas, 2020"},
+                            {order: 20, title: "네 명의 행인", imgname: "/2022/22-4/21-91x91.jpg", overview: "91x91cm", overview1: "Oil on canvas, 2020"},
+                            {order: 21, title: "옥상", imgname: "/2022/22-4/22-130.3x97.jpg", overview: "130.3x97cm", overview1: "Oil on canvas, 2020"},
+                        ]
+                    },
+                    {
+                        order: 11, 
+                        number: "12",
+                        title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
+                        name: "김로이", 
+                        engname: "Loi Kim",
+                        imgname:"/2022/22-4/22-4-12.jpg", 
+                        text: "김로이 작가는 캔버스의 물리적 공간 안의 색과 선이 함께 사용하며 긴밀하게 상호작용한다. 작가의 Silicone string 선은 조밀하면서도 여백을 가지고 새로운 공간을 만들어낸다.",
+                        education: "",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 22, title: "90°8’0", imgname: "/2022/22-4/23-72.7x50.jpg", overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
+                            {order: 23, title: "90°12’0”", imgname: "/2022/22-4/24-72.7x50.jpg", overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
+                        ]
+                    },
+                    {
+                        order: 12, 
+                        number: "13",
+                        title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
+                        name: "한희준", 
+                        engname: "HeeJoon Han",
+                        imgname:"/2022/22-4/22-4-13.jpg", 
+                        text: "한희준 작가는 플리스틱 병을 포토그램 방식으로 인화하여 물질이 자연으로 되돌아가는 것을 상상하며 푸른빛은 영혼이 떠도는 그림자처럼 주위를 배회하면서 죽음을 연상하게 하여 환경의 중요성을 암시한다.",
+                        education: "",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 24, title: "Plastic NO-44", imgname: "/2022/22-4/25-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                            {order: 25, title: "Plastic NO-47", imgname: "/2022/22-4/26-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                            {order: 26, title: "Plastic NO-48", imgname: "/2022/22-4/27-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                        ]
+                    },
+                    {
+                        order: 13, 
+                        number: "14",
+                        title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
+                        name: "원영미", 
+                        engname: "YoungMi Won",
+                        imgname:"/2022/22-4/22-4-14.jpg", 
+                        text: "원영미 작가는 세상의 모든 흔적은 느낌의 편린이라고 생각한다. 작가의 느낌의 기억들은 그리움의 실체이다. 이런 그리움의 실체는 털실을 통해 보여준다.",
+                        education: "",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 27, title: "연(緣)", imgname: "/2022/22-4/28-100x100.jpg", overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
+                            {order: 28, title: "연(緣)", imgname: "/2022/22-4/29-100x100.jpg", overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
+                        ]
+                    },
+                    {
+                        order: 14, 
+                        number: "15",
+                        title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
+                        name: "김유진", 
+                        engname: "YooJin Kim",
+                        imgname:"/2022/22-4/22-4-15.jpg", 
+                        text: "김유진 작가의 시선과 호기심들을 자연이라는 매개체를 통해 캔버스 화면에 담아내고 있다. 특히 여성 작가가 가지고 있는 섬세함과 특유의 감수성, 작가의 생활 속에 녹아있는 심상은 작가만의 색채로 만들어간다.",
+                        education: "",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 29, title: "paper plants", imgname: "/2022/22-4/30-73x182.jpg", overview: "73x182cm", overview1: "Oil on canvas, 2022"},
+                            {order: 30, title: "The flow", imgname: "/2022/22-4/31-91x146.jpg", overview: "91x146cm", overview1: "Mixed media on Canvas, 2021"},
                         ]
                     },
                 ],

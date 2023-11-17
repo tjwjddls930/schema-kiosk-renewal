@@ -177,7 +177,7 @@ const Newbutton = () => {
              {/* 중단 버튼 구역*/}
              <section className={clsx(isPortrait ? 
                     "w-3/4 h-2/3 pt-14 px-14 flex flex-col space-y-5 screen-w:space-y-10 mx-auto" 
-                    : "w-3/4 h-[55%] pt-14 px-14 flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end")}>
+                    : "w-2/3 h-1/2 screen-w:w-3/4 screen-w:h-[55%] pt-14 px-14 flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end")}>
                 {isPortrait ?
                     <>
                         <div className="h-2/3 w-full flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">

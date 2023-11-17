@@ -362,37 +362,37 @@ const signDocent = {
 
 const languageChange = {
   KOR: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"언어 변경"}</span>
+      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"언어 변경"}</span>
   ),
   ENG: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Language Change"}</span>
+      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Language Change"}</span>
   ),
   CH: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"改变语言"}</span>
+      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"改变语言"}</span>
   ),
   TH: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"เปลี่ยนภาษา"}</span>
+      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"เปลี่ยนภาษา"}</span>
   ),
   VI: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"thay đổi ngôn ngữ"}</span>
+      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"thay đổi ngôn ngữ"}</span>
   ),
 };
 
 const chatbotText = {
   KOR: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"채팅창"}</span>
+      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"채팅창"}</span>
   ),
   ENG: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Chat Window"}</span>
+      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Chat Window"}</span>
   ),
   CH: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"聊天窗口"}</span>
+      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"聊天窗口"}</span>
   ),
   TH: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"หน้าต่างแชท"}</span>
+      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"หน้าต่างแชท"}</span>
   ),
   VI: (size) => (
-      <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"cửa sổ trò chuyện"}</span>
+      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"cửa sổ trò chuyện"}</span>
   ),
 };
 
@@ -491,17 +491,22 @@ const Navbar = ({ url, sign }) => {
       {/* 언어변경 버튼 */}
       <button 
           // className="absolute left-12 bottom-40 screen-w:left-24 screen-w:bottom-52 text-Bgrey space-y-4"
-          className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 left-[45%] bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}
+          className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 left-[45%] bottom-16 screen-w:bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}
           onClick={()=>setModal(!modal)}    
       >
           <div className="flex flex-col screen-w:space-y-3">
-              <div className="border-4 border-Ablue rounded-full w-20 h-20 screen-w:w-40 screen-w:h-40 items-center bg-Awhite mx-auto">
-                  <Image 
+              <div className="border-2 screen-w:border-4 border-Ablue rounded-full w-12 h-12 screen-w:w-40 screen-w:h-40 items-center bg-Awhite mx-auto">
+                  {/* <Image 
                       className="mx-auto pt-2.5 z-1 screen-w:pt-6"
                       src="/img/mainpage/언어변경_아이콘_1.png"
                       height="100"
                       width="100"
                       alt="language"
+                  /> */}
+                  <img 
+                    className="h-8 w-8 screen-w:h-24 screen-w:w-24 mx-auto pt-2.5 z-1 screen-w:pt-6"
+                    src="/img/mainpage/언어변경_아이콘_1.png"
+                    alt="language"
                   />
               </div>
               {languageChange[language](fontsize)}
@@ -510,17 +515,17 @@ const Navbar = ({ url, sign }) => {
       {/* 챗봇 버튼 */}
       <button 
           onClick={() => setIsChatModalOpen((prev) => !prev)} 
-          className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 right-[40%] bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}        >
+          className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 right-[40%] bottom-16 screen-w:bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}        >
         <div className="flex flex-col screen-w:space-y-3">
           <div
             className={clsx(
-              "p-2 border-4 border-Ablue rounded-full screen-w:h-40 screen-w:w-40",
+              "p-2 border-2 screen-w:border-4 border-Ablue rounded-full h-12 w-12 screen-w:h-40 screen-w:w-40",
               isChatModalOpen
                 ? "border-Bblue"
                 : "border-Ablue",
             )}
           >
-            <ChatBubbleLeftRightIcon className={clsx("flex mx-auto mt-3 h-6 w-6 screen-w:h-28 screen-w:w-28",
+            <ChatBubbleLeftRightIcon className={clsx("flex mx-auto mt-1 screen-w:mt-3 h-6 w-6 screen-w:h-28 screen-w:w-28",
               isChatModalOpen 
               ? "text-Bblue"
               : "text-Ablue"

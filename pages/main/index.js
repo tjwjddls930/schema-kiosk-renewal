@@ -110,15 +110,15 @@ export default function Mainpage() {
             </div>
             {/* 상단 로고 섹션 */}
             <TopNavbar />
-            <div className="w-5/6 flex mx-auto text-center items-center justify-center">
-                <span className="flex text-5xl text-Bgrey font-bold">
+            <div className="w-5/6 flex mx-auto text-center items-end justify-center">
+                <span className="flex screen-w:text-5xl text-Bgrey font-bold">
                     {topText[language]}
                 </span>
             </div>
             {/* 중단 버튼 섹션 */}
             <Newbutton />
             {/* 하단 텍스트 */}
-            <div className="flex flex-row space-x-4 text-md font-bold pt-7 screen-w:pt-9">
+            <div className="flex flex-row space-x-4 text-md font-bold pt-4 screen-w:pt-9">
                 {bottomText[language](fontsize)}
             </div>
             {/* navbar */}

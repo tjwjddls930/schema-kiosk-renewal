@@ -3,14 +3,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, EffectCoverflow } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import Link from "next/link";
 import { allExhibits } from "@/data/pastExhibit";
-import { paintData } from "@/data/paintData";
 import { useRouter } from "next/router";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import { clsx } from "clsx";
-import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9, paintData10, paintData11, paintData12 } from "@/data/paintData";
+import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9, paintData10, 
+  paintData11, paintData12, paintData13 } from "@/data/paintData";
 
 const popupText1 = {
   KOR: "작가 보기",
@@ -86,7 +85,7 @@ const informText = {
 
 const paintList = [
   [paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9],
-  [paintData10, paintData11, paintData12],
+  [paintData10, paintData11, paintData12, paintData13],
 ];
 
 const CoverflowCarousel = ({index}) => {
@@ -120,7 +119,7 @@ const CoverflowCarousel = ({index}) => {
       {isClient && (
             <div className="w-11/12 h-5/6 screen-w:h-[90%] mx-auto p-3 screen-w:px-10 screen-w:py-16">
             {popup && (
-              <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[91%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91%] screen-w:h-[92.7%] w-screen bg-Ablack bg-opacity-60 z-20")}>
+              <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[92%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91.5%] screen-w:h-[92.7%] w-screen bg-Ablack bg-opacity-60 z-20")}>
                 <div className={clsx(isPortrait ? "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-end justify-center" : "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center justify-center")}>
                   <button 
                     className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
@@ -145,11 +144,11 @@ const CoverflowCarousel = ({index}) => {
             {/* 전시 설명 컨테이너 */}
             <div className={clsx(isPortrait ? "flex flex-col space-y-12 screen-w:space-y-40 screen-w:justify-center" : "flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center")}>
                 <div className={clsx(isPortrait ? "justify-start flex flex-row space-x-12 w-11/12" : "justify-start flex flex-row space-x-4 w-1/3")}>
-                    <span className="text-9xl screen-w:text-[250px] font-bold text-Ablack">{allExhibits[index].exhibits[highlightedImageIndex].order}</span>
+                    <span className="text-7xl screen-w:text-[250px] font-bold text-Ablack">{allExhibits[index].exhibits[highlightedImageIndex].order}</span>
                     <div className="flex flex-col space-y-2 screen-w:space-y-8 mt-6">
                         <div className="bg-Ablue h-[2px] w-[60px] screen-w:w-[100px] rounded-full"></div>
-                        <span className="text-xl screen-w:text-5xl font-bold text-Cgrey">{allExhibits[index].exhibits[highlightedImageIndex].type}</span>
-                        <span className="text-2xl screen-w:text-6xl font-bold text-Ablack">{allExhibits[index].exhibits[highlightedImageIndex].title}</span>
+                        <span className="text-base screen-w:text-5xl font-bold text-Cgrey">{allExhibits[index].exhibits[highlightedImageIndex].type}</span>
+                        <span className="text-lg screen-w:text-6xl font-bold text-Ablack">{allExhibits[index].exhibits[highlightedImageIndex].title}</span>
                     </div>
                 </div>
                 <div className={clsx(isPortrait ? "flex flex-row justify-start space-x-8 w-11/12" : "flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3")}>
@@ -162,8 +161,8 @@ const CoverflowCarousel = ({index}) => {
                         <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].support1}</span>
                     </div>
                 </div>
-                <div className={clsx(isPortrait ? "flex space-y-4 w-11/12 flex-col justify-end overflow-auto scroll-smooth" : "flex space-y-4 w-1/3 flex-col justify-end overflow-auto scroll-smooth")}>
-                    <p className={clsx(isPortrait ? "h-[180px] screen-w:h-[700px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed" : "h-[180px] screen-w:h-[450px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed screen-w:truncate")}>
+                <div className={clsx(isPortrait ? "flex space-y-4 w-11/12 flex-col justify-end overflow-auto scroll-smooth" : "flex space-y-2 screen-w:space-y-4 w-1/3 flex-col justify-end overflow-auto scroll-smooth")}>
+                    <p className={clsx(isPortrait ? "h-[120px] screen-w:h-[700px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed" : "h-[180px] screen-w:h-[450px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed screen-w:truncate")}>
                         {allExhibits[index].exhibits[highlightedImageIndex].explanation}
                         <br />
                         {allExhibits[index].exhibits[highlightedImageIndex].author}
@@ -220,47 +219,30 @@ const CoverflowCarousel = ({index}) => {
                   <article>
                     <div className="block overflow-hidden rounded-2.5xl bg-white shadow-md transition-shadow hover:shadow-lg dark:bg-jacarta-700">
                       <figure className="relative">
-                        {/* <Image
-                          width={450}
-                          height={430}
-                          src={img}
-                          alt={title}
-                          priority={true}
-                          className="swiper-lazy object-cover"
-                        /> */}
                         <img 
-                          className="w-[450px] h-[250px] screen-w:w-[1100px] screen-w:h-[700px]"
+                          className="w-[350px] h-[150px] screen-w:w-[1100px] screen-w:h-[700px]"
                           src={img}
                           alt={title}
                           onClick={()=>setPopup(!popup)}
                         />
                       </figure>
                       <div className="p-4 screen-w:p-6">
-                        <div className="flex w-[450px] screen-w:w-[1100px]">
-                          {/* <Link href={`/author/${id}`} className="shrink-0">
-                            <Image
-                              width={40}
-                              height={40}
-                              src={authorImage}
-                              alt="avatar"
-                              className="mr-4 h-10 w-10 rounded-full"
-                            />
-                          </Link> */}
+                        <div className="flex w-[350px] screen-w:w-[1100px]">
                           <div>
-                            <Link
-                               href={`/education/program/${order}`}
+                            <div
+                              onClick={()=>setPopup(!popup)}
                                className="block"
                             >
                               <span className="font-display text-xs screen-w:text-lg leading-none text-jacarta-700 hover:text-accent dark:text-white">
                                 {title}
                               </span>
-                            </Link>
-                            <Link
-                              href={`/education/author/${order}`}
+                            </div>
+                            <div
+                              onClick={()=>setPopup(!popup)}
                               className="text-2xs text-accent"
                             >
                               {location1}
-                            </Link>
+                            </div>
                           </div>
                         </div>
                       </div>

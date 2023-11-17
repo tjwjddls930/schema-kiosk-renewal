@@ -9,7 +9,7 @@ import clsx from "clsx";
 const exhibitButton = {
     KOR: (size) => (
         <div className="flex flex-col w-[170px] screen-w:w-[60%] screen-w:space-y-6 mr-4 pt-10 justify-center">
-            <div className="bg-Cpurple h-[1px] w-[70px]" />
+            <div className="bg-Ablue h-[1px] w-[70px]" />
             <span className="text-base screen-w:text-5xl text-Agrey font-bold">{'Exhibition'}</span>
             <span className={`text-screen-w text-Ablack font-bold mb-5 ${size ? `screen-w:text-7xl` : `screen-w:text-6xl`}`}>{"전시 관람"}</span>
             <span className={`text-base text-Cgrey font-bold ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"현재 진행중인 전시를"}</span>                        
@@ -18,7 +18,7 @@ const exhibitButton = {
     ),
     ENG: (size) => (
         <div className="flex flex-col w-[170px] screen-w:w-[60%] screen-w:space-y-6 mr-4 pt-10 justify-center">
-            <div className="bg-Cpurple h-[1px] w-[70px]" />
+            <div className="bg-Ablue h-[1px] w-[70px]" />
             <span className="text-base screen-w:text-5xl text-Agrey font-bold">{'Exhibition'}</span>
             <span className={`text-screen-w text-Ablack font-bold mb-5 ${size ? `screen-w:text-7xl` : `screen-w:text-6xl`}`}>{"Exhibitions"}</span>
             <span className={`text-base text-Cgrey font-bold ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"You can enjoy the exhibition"}</span>                        
@@ -27,7 +27,7 @@ const exhibitButton = {
     ),
     CH: (size) => (
         <div className="flex flex-col w-[170px] screen-w:w-[60%] screen-w:space-y-6 mr-4 pt-10 justify-center">
-            <div className="bg-Cpurple h-[1px] w-[70px]" />
+            <div className="bg-Ablue h-[1px] w-[70px]" />
             <span className="text-base screen-w:text-5xl text-Agrey font-bold">{'Exhibition'}</span>
             <span className={`text-screen-w text-Ablack font-bold mb-5 ${size ? `screen-w:text-7xl` : `screen-w:text-6xl`}`}>{"观看展览"}</span>
             <span className={`text-base text-Cgrey font-bold ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"所有展览"}</span>                        
@@ -36,7 +36,7 @@ const exhibitButton = {
     ),
     TH: (size) => (
         <div className="flex flex-col w-[170px] screen-w:w-[60%] screen-w:space-y-6 mr-4 pt-10 justify-center">
-            <div className="bg-Cpurple h-[1px] w-[70px]" />
+            <div className="bg-Ablue h-[1px] w-[70px]" />
             <span className="text-base screen-w:text-5xl text-Agrey font-bold">{'Exhibition'}</span>
             <span className={`text-screen-w text-Ablack font-bold mb-5 ${size ? `screen-w:text-7xl` : `screen-w:text-6xl`}`}>{"การชมนิทรรศการ"}</span>
             <span className={`text-base text-Cgrey font-bold ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"นิทรรศการทั้งหมด"}</span>                        
@@ -45,7 +45,7 @@ const exhibitButton = {
     ),
     VI: (size) => (
         <div className="flex flex-col w-[170px] screen-w:w-[60%] screen-w:space-y-6 mr-4 pt-10 justify-center">
-            <div className="bg-Cpurple h-[1px] w-[70px]" />
+            <div className="bg-Ablue h-[1px] w-[70px]" />
             <span className="text-base screen-w:text-5xl text-Agrey font-bold">{'Exhibition'}</span>
             <span className={`text-screen-w text-Ablack font-bold mb-5 ${size ? `screen-w:text-7xl` : `screen-w:text-6xl`}`}>{"Xem triển lãm"}</span>
             <span className={`text-base text-Cgrey font-bold ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"tất cả các cuộc triển lãm"}</span>                        
@@ -57,7 +57,7 @@ const exhibitButton = {
 const collectionButton = {
     KOR: (size) => (
         <div className="flex flex-col w-[170px] screen-w:w-[60%] screen-w:space-y-6 pt-10 mr-4 justify-center">
-            <div className="bg-Cpurple h-[1px] w-[70px]" />
+            <div className="bg-Ablue h-[1px] w-[70px]" />
             <span className="text-base screen-w:text-5xl text-Agrey font-bold">{'Collection Tour'}</span>
             <span className={`text-screen-w text-Ablack font-bold mb-5 ${size ? `screen-w:text-7xl` : `screen-w:text-6xl`}`}>{"소장품 관람"}</span>
             <span className={`text-base text-Cgrey font-bold ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"미술관이 소장하고 있는 전시물을"}</span>                        
@@ -66,7 +66,7 @@ const collectionButton = {
     ),
     ENG: (size) => (
         <div className="flex flex-col w-[170px] screen-w:w-[60%] screen-w:space-y-6 pt-10 mr-4 justify-center">
-            <div className="bg-Cpurple h-[1px] w-[70px]" />
+            <div className="bg-Ablue h-[1px] w-[70px]" />
             <span className="text-base screen-w:text-5xl text-Agrey font-bold">{'Collection Tour'}</span>
             <span className={`text-screen-w text-Ablack font-bold mb-5 ${size ? `screen-w:text-7xl` : `screen-w:text-6xl`}`}>{"Collection Tour"}</span>
             <span className={`text-base text-Cgrey font-bold ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"You can view the"}</span>                        
@@ -75,7 +75,7 @@ const collectionButton = {
     ),
     CH: (size) => (
         <div className="flex flex-col w-[170px] screen-w:w-[60%] screen-w:space-y-6 pt-10 mr-4 justify-center">
-            <div className="bg-Cpurple h-[1px] w-[70px]" />
+            <div className="bg-Ablue h-[1px] w-[70px]" />
             <span className="text-base screen-w:text-5xl text-Agrey font-bold">{'Collection Tour'}</span>
             <span className={`text-screen-w text-Ablack font-bold mb-5 ${size ? `screen-w:text-7xl` : `screen-w:text-6xl`}`}>{"查看集合"}</span>
             <span className={`text-base text-Cgrey font-bold ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"博物馆拥有的展品"}</span>                        
@@ -84,7 +84,7 @@ const collectionButton = {
     ),
     TH: (size) => (
         <div className="flex flex-col w-[170px] screen-w:w-[60%] screen-w:space-y-6 pt-10 mr-4 justify-center">
-            <div className="bg-Cpurple h-[1px] w-[70px]" />
+            <div className="bg-Ablue h-[1px] w-[70px]" />
             <span className="text-base screen-w:text-5xl text-Agrey font-bold">{'Collection Tour'}</span>
             <span className={`text-screen-w text-Ablack font-bold mb-5 ${size ? `screen-w:text-7xl` : `screen-w:text-6xl`}`}>{"ดูคอลเลกชัน"}</span>
             <span className={`text-base text-Cgrey font-bold ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"นิทรรศการที่เป็นของพิพิธภัณฑ์"}</span>                        
@@ -93,7 +93,7 @@ const collectionButton = {
     ),
     VI: (size) => (
         <div className="flex flex-col w-[170px] screen-w:w-[60%] screen-w:space-y-6 pt-10 mr-4 justify-center">
-            <div className="bg-Cpurple h-[1px] w-[70px]" />
+            <div className="bg-Ablue h-[1px] w-[70px]" />
             <span className="text-base screen-w:text-5xl text-Agrey font-bold">{'Collection Tour'}</span>
             <span className={`text-screen-w text-Ablack font-bold mb-5 ${size ? `screen-w:text-7xl` : `screen-w:text-6xl`}`}>{"Xem bộ sưu tập"}</span>
             <span className={`text-base text-Cgrey font-bold ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Hiện vật thuộc quyền sở hữu của bảo tàng"}</span>                        

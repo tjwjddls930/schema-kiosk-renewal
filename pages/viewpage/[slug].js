@@ -7,11 +7,12 @@ import Navbar from "@/components/navbar/Navbar";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
 // import ViewNavbar from "@/components/navbar/3DpageNavbar";
-import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9, paintData10, paintData11, paintData12 } from "@/data/paintData";
+import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9, paintData10, 
+    paintData11, paintData12, paintData13 } from "@/data/paintData";
 
 const paintList = [
     [paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9],
-    [paintData10, paintData11, paintData12]
+    [paintData10, paintData11, paintData12, paintData13],
 ]
 
 export default function Viewpage() {
@@ -65,7 +66,7 @@ export default function Viewpage() {
                     <svg 
                         id="left"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
-                        className="w-6 h-6 screen-w:w-40 screen-w:h-40 text-Ablack"
+                        className="w-12 h-12 screen-w:w-40 screen-w:h-40 text-Ablack"
                         onClick={()=>changeExhibit(-1)}
                     >
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
@@ -79,7 +80,7 @@ export default function Viewpage() {
                     <svg 
                         id="right"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
-                        className="w-6 h-6 screen-w:w-40 screen-w:h-40 text-Ablack"
+                        className="w-12 h-12 screen-w:w-40 screen-w:h-40 text-Ablack"
                         onClick={()=>changeExhibit(1)}
                     >
                         <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
