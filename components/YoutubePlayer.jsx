@@ -8,14 +8,14 @@ const YouTubePlayer = ({ videoId, ...props }) => {
     : process.env.NEXT_PUBLIC_BASE_URL;
   const youtubeEmbedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&loop=1&playlist=${videoId}&mute=1&controls=0&origin=${baseUrl}`;
 
-  const handleClick = () => {
-    setIsHidden(true);
-  };
+  // const handleClick = () => {
+  //   setIsHidden(true);
+  // };
 
   return (
     <div
-      className={`fixed inset-0 ${isHidden ? "hidden" : ""}`}
-      style={{ zIndex: 1000 }}
+      className={`absolute inset-0`}
+      style={{ zIndex: 10 }}
     >
       <iframe
         src={youtubeEmbedUrl}
@@ -24,15 +24,6 @@ const YouTubePlayer = ({ videoId, ...props }) => {
         allowFullScreen={true}
         {...props}
       />
-      <div
-        className="absolute top-0 left-0 w-full h-full flex justify-center items-center"
-        onClick={handleClick}
-        onTouchStart={handleClick}
-      >
-        <p className="text-center text-white text-2xl screen-w:text-4xl font-light">
-          화면을 터치해서 키오스크를 이용해 보세요!
-        </p>
-      </div>
     </div>
   );
 };
