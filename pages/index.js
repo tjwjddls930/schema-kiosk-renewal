@@ -2,49 +2,50 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { modelData } from '@/data/modelData';
 import { useTrail, animated } from '@react-spring/web';
-import YouTubePlayer from '@/components/YoutubePlayer';
+// import YouTubePlayer from '@/components/YoutubePlayer';
+import Screensaver from '@/components/docent/Screensaver';
 
 export default function Home() {
   const router = useRouter();
   const [video, setVideo] = useState(false);
   const [collection, setCollection] = useState(false);
-  const [url, setUrl] = useState("Z9K0zY5gB4o")
+  const [url, setUrl] = useState("f9Vag-CGCG0")
   const items = [
-    {
-      order: 1,
-      src: "/img/thumbnails/thumbnail-1.png",
-      url: "3jm6c2qLmZk"
-    },
-    {
-      order: 2,
-      src: "/img/thumbnails/thumbnail-2.png",
-      url: "6ViQjZmCP3Y"
-    },
-    {
-      order: 3,
-      src: "/img/thumbnails/thumbnail-3.png",
-      url: "R8ozsVdLiEY"
-    },
-    {
-      order: 4,
-      src: "/img/thumbnails/thumbnail-4.png",
-      url: "Rz8CPx5NiZg"
-    },
-    {
-      order: 5,
-      src: "/img/thumbnails/thumbnail-5.png",
-      url: "Z9K0zY5gB4o"
-    },
-    {
-      order: 6,
-      src: "/img/thumbnails/thumbnail-6.png",
-      url: "ipzB3_2bk3c"
-    },
-    {
-      order: 7,
-      src: "/img/thumbnails/thumbnail-7.png",
-      url: "E9YSRNm1D6k"
-    },
+    // {
+    //   order: 1,
+    //   src: "/img/thumbnails/thumbnail-1.png",
+    //   url: "3jm6c2qLmZk"
+    // },
+    // {
+    //   order: 2,
+    //   src: "/img/thumbnails/thumbnail-2.png",
+    //   url: "6ViQjZmCP3Y"
+    // },
+    // {
+    //   order: 3,
+    //   src: "/img/thumbnails/thumbnail-3.png",
+    //   url: "R8ozsVdLiEY"
+    // },
+    // {
+    //   order: 4,
+    //   src: "/img/thumbnails/thumbnail-4.png",
+    //   url: "Rz8CPx5NiZg"
+    // },
+    // {
+    //   order: 5,
+    //   src: "/img/thumbnails/thumbnail-5.png",
+    //   url: "Z9K0zY5gB4o"
+    // },
+    // {
+    //   order: 6,
+    //   src: "/img/thumbnails/thumbnail-6.png",
+    //   url: "ipzB3_2bk3c"
+    // },
+    // {
+    //   order: 7,
+    //   src: "/img/thumbnails/thumbnail-7.png",
+    //   url: "E9YSRNm1D6k"
+    // },
     {
       order: 8,
       src: "/img/thumbnails/thumbnail-8.png",
@@ -96,9 +97,25 @@ const trail2 = useTrail(collections.length, {
   from: { opacity: 0, x: 20, height: 0},
 });
 
+const handleVideoEnd = () => {
+  // Find the current video index
+  const currentIndex = items.findIndex((item) => item.url === url);
+
+  // Check if there is a next video
+  if (currentIndex < items.length - 1) {
+    // Set the next video URL
+    setUrl(items[currentIndex + 1].url);
+  } else {
+    // If no next video, you can loop back to the first video or handle it based on your requirement
+    // For example, looping back to the first video:
+    setUrl(items[0].url);
+  }
+};
+
   return (
     <div className="h-screen w-screen bg-Ablack">
-        <YouTubePlayer videoId={url} />
+        {/* <YouTubePlayer videoId={url} onEnded={handleVideoEnd} /> */}
+        <Screensaver videoId={url} onEnded={handleVideoEnd} />
         <div className="h-[80px] w-[80px] rounded-full absolute left-4 bottom-12 z-40"
             onClick={()=> setVideo(!video)}
         >
@@ -126,53 +143,53 @@ const trail2 = useTrail(collections.length, {
             </div>
         </div>
         <div className={`absolute left-40 bottom-12 ${video ? "z-40" : ""}`}>
-        <div className="w-3/4 h-[100px] flex flex-row space-x-4 overflow-x-auto">
-            {trail.map(({x, height, ...rest}, index) => (
-                <animated.div 
-                    key={items[index].order} 
-                    className="will-change-transform overflow-hidden" 
-                    style={{
-                        ...rest,
-                        transform: x.to(x => `translate3d(0, ${x}px, 0)`)
-                    }}>
-                    <animated.div style={{ height }}>
-                        <img 
-                        key={items[index].order}
-                        className="mx-auto border-2 text-white"
-                        src={items[index].src}
-                        alt="thumbnail"
-                        onClick={()=> {
-                            setUrl(items[index].url)
-                            setVideo(!video)
-                        }}
-                        />
-                    </animated.div>
-                </animated.div>
-            ))}
-            </div>
+          <div className="w-3/4 h-[150px] flex flex-row space-x-4">
+          {trail.map(({x, height, ...rest}, index) => (
+              <animated.div 
+                  key={items[index].order} 
+                  className="will-change-transform overflow-hidden" 
+                  style={{
+                      ...rest,
+                      transform: x.to(x => `translate3d(0, ${x}px, 0)`)
+                  }}>
+                  <animated.div style={{ height }}>
+                      <img 
+                      key={items[index].order}
+                      className="mx-auto border-2 text-white"
+                      src={items[index].src}
+                      alt="thumbnail"
+                      onClick={()=> {
+                          setUrl(items[index].url)
+                          setVideo(!video)
+                      }}
+                      />
+                  </animated.div>
+              </animated.div>
+          ))}
+          </div>
         </div>
-        <div className={`absolute left-40 bottom-36 ${collection ? "z-40" : ""}`}>
-        <div className="w-3/4 h-[200px] flex flex-row space-x-4 overflow-x-auto">
-            {trail2.map(({x, height, ...rest}, index) => (
-                <animated.div 
-                    key={collections[index].order} 
-                    className="will-change-transform overflow-hidden" 
-                    style={{
-                        ...rest,
-                        transform: x.to(x => `translate3d(0, ${x}px, 0)`)
-                    }}>
-                    <animated.div style={{ height }}>
-                        <img 
-                        key={collections[index].order}
-                        className="mx-auto border-2 text-white"
-                        src={collections[index].src}
-                        alt="thumbnail"
-                        onClick={()=> router.push(`/pastexhibit/${modelData[collections[index].url].order}`)}
-                        />
-                    </animated.div>
-                </animated.div>
-            ))}
-            </div>
+        <div className={`absolute left-40 bottom-44 ${collection ? "z-40" : ""}`}>
+          <div className="w-3/4 h-[200px] flex flex-row space-x-4">
+          {trail2.map(({x, height, ...rest}, index) => (
+              <animated.div 
+                  key={collections[index].order} 
+                  className="will-change-transform overflow-hidden" 
+                  style={{
+                      ...rest,
+                      transform: x.to(x => `translate3d(0, ${x}px, 0)`)
+                  }}>
+                  <animated.div style={{ height }}>
+                      <img 
+                      key={collections[index].order}
+                      className="mx-auto border-2 text-white"
+                      src={collections[index].src}
+                      alt="thumbnail"
+                      onClick={()=> router.push(`/pastexhibit/${modelData[collections[index].url].order}`)}
+                      />
+                  </animated.div>
+              </animated.div>
+          ))}
+          </div>
         </div>
     </div>
   )

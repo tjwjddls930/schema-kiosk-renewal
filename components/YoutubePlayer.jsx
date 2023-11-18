@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const YouTubePlayer = ({ videoId, ...props }) => {
+const YouTubePlayer = ({ videoId, onEnded, ...props }) => {
   const [isHidden, setIsHidden] = useState(false);
   const isDevelopment = process.env.NODE_ENV === "development";
   const baseUrl = isDevelopment
@@ -22,6 +22,7 @@ const YouTubePlayer = ({ videoId, ...props }) => {
         className="absolute top-0 left-0 w-full h-full"
         allow="autoplay; encrypted-media"
         allowFullScreen={true}
+        onEnded={onEnded}
         {...props}
       />
     </div>

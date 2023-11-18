@@ -1,13 +1,16 @@
-// import ReactPlayer from "react-player";
-// import ReactPlayer from "react-player";
 import dynamic from "next/dynamic";
 
 const DynamicReactPlayer = dynamic(() => import('react-player'), {ssr: false});
 
-const Screensaver = ({videoUrl, url, ...props}) => {
+const Screensaver = ({videoId, onEnded, ...props}) => {
+    const isDevelopment = process.env.NODE_ENV === "development";
+    const baseUrl = isDevelopment
+      ? "http://localhost:3000"
+      : process.env.NEXT_PUBLIC_BASE_URL;
+    const youtubeEmbedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&loop=1&playlist=${videoId}&mute=1&controls=0&origin=${baseUrl}`;
     return(
         <DynamicReactPlayer
-        url={videoUrl}
+        url={youtubeEmbedUrl}
         width="100%"
         height="100%"
         style={{
@@ -16,7 +19,8 @@ const Screensaver = ({videoUrl, url, ...props}) => {
         volume={0.5}
         controls={false}
         muted={true}
-        loop={true}
+        loop={false}
+        onEnded={onEnded}
         playing={true}
         config={{
             youtube: {
