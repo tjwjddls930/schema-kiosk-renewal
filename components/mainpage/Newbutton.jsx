@@ -238,7 +238,7 @@ const Newbutton = () => {
                         </button>
                     </div>
                     <div className="w-[70%] screen-w:w-full h-full relative shadow-md rounded-sm mx-auto bg-[url('/img/intro/career/chat_bot_button_2.png')] bg-cover bg-no-repeat"
-                        onClick={()=>router.push("https://metalab-voice-gpt-v3.vercel.app/")}
+                        onClick={()=>router.push("https://schema-gpt-final-v1.vercel.app/")}
                     > 
                         <div className="absolute inset-0 w-full h-full bg-Ablack opacity-10" />
                         <button className="w-full h-full text-center text-Awhite bg-[url('/img/mainpage/챗봇안내_도형.png')] bg-cover bg-no-repeat mx-auto z-10">
