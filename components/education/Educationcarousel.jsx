@@ -13,11 +13,14 @@ import { useRouter } from "next/router";
 import { useContext } from "react";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import { FontsizeContext } from "@/contexts/FontsizeContext";
 import clsx from "clsx";
 
 const dataText = {
-  KOR: (orient) => (
-      <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-3xl font-bold")}>
+  KOR: (orient, font) => (
+      <div className={clsx(orient 
+        ? `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-5xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-4xl"}` 
+        : `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
           <span className="w-full">{'기간'}</span>
           <span className="w-full">{'참여대상'}</span>
           <span className="w-full">{'장소'}</span>
@@ -25,8 +28,10 @@ const dataText = {
           <span className="w-full">{'후원'}</span>
       </div> 
   ),
-  ENG: (orient) => (
-      <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-3xl font-bold")}>
+  ENG: (orient, font) => (
+      <div className={clsx(orient 
+        ? `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-5xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-4xl"}` 
+        : `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
           <span className="w-full">{'Time Period'}</span>
           <span className="w-full">{'Participation'}</span>
           <span className="w-full">{'Location'}</span>
@@ -34,8 +39,10 @@ const dataText = {
           <span className="w-full">{'Support'}</span>
       </div> 
   ),
-  CH: (orient) => (
-      <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-3xl font-bold")}>
+  CH: (orient, font) => (
+      <div className={clsx(orient 
+        ? `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-5xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-4xl"}` 
+        : `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
           <span className="w-full">{'时期'}</span>
           <span className="w-full">{'参与目标'}</span>
           <span className="w-full">{'地点'}</span>
@@ -43,8 +50,10 @@ const dataText = {
           <span className="w-full">{'支持'}</span>
       </div> 
   ),
-  TH: (orient) => (
-      <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-3xl font-bold")}>
+  TH: (orient, font) => (
+      <div className={clsx(orient 
+        ? `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-5xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-4xl"}` 
+        : `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
           <span className="w-full">{'ระยะเวลา'}</span>
           <span className="w-full">{'เป้าหมายการมีส่วนร่วม'}</span>
           <span className="w-full">{'ที่ตั้ง'}</span>
@@ -52,8 +61,10 @@ const dataText = {
           <span className="w-full">{'สนับสนุน'}</span>
       </div> 
   ),
-  VI: (orient) => (
-      <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3 text-Ablue text-xs screen-w:text-3xl font-bold")}>
+  VI: (orient, font) => (
+      <div className={clsx(orient 
+        ? `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-5xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-4xl"}` 
+        : `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
           <span className="w-full">{'Giai đoạn'}</span>
           <span className="w-full">{'Mục tiêu tham gia'}</span>
           <span className="w-full">{'vị trí'}</span>
@@ -75,6 +86,7 @@ const Educationcarousel = ({index}) => {
   const [isClient, setIsClient] = useState(false);
   const {language} = useContext(LanguageContext);
   const {isPortrait} = useContext(ScreenOrientContext);
+  const {fontsize} = useContext(FontsizeContext);
   const router = useRouter();
   const [list, setList] = useState(null);
   const [highlightedImageIndex, setHighlightedImageIndex] = useState(0); // Initialize with the first slide
@@ -100,16 +112,22 @@ const Educationcarousel = ({index}) => {
              {/* 전시 설명 컨테이너 */}
              <div className={clsx(isPortrait ? "flex flex-col space-y-12 screen-w:space-y-40 screen-w:justify-center" : "flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center")}>
                  <div className={clsx(isPortrait ? "justify-start flex flex-row space-x-4 w-11/12 items-center" : "justify-start flex flex-row space-x-4 w-1/3")}>
-                     <span className={clsx(isPortrait ? "w-1/5 text-9xl screen-w:text-[150px] font-bold text-Ablack" : "text-9xl screen-w:text-[150px] font-bold text-Ablack")}>{inputData[language][index].education[highlightedImageIndex].id}</span>
-                     <div className={clsx(isPortrait ? "w-4/5 flex flex-col space-y-2 screen-w:space-y-8 mt-6" : "flex flex-col space-y-2 screen-w:space-y-8 mt-6")}>
+                     <span className={clsx(isPortrait 
+                      ? `w-1/5 font-bold text-Ablack ${fontsize ? "text-[135px] screen-w:text-[157px]" : "text-9xl screen-w:text-[150px]"}` 
+                      : `text-9xl screen-w:text-[150px] font-bold text-Ablack`)}>{inputData[language][index].education[highlightedImageIndex].id}</span>
+                     <div className={clsx(isPortrait 
+                      ? "w-4/5 flex flex-col space-y-2 screen-w:space-y-8 mt-6" 
+                      : "flex flex-col space-y-2 screen-w:space-y-8 mt-6")}>
                          <div className="bg-Ablue h-[2px] w-[60px] screen-w:w-[100px] rounded-full"></div>
-                         <span className="text-xl screen-w:text-5xl font-bold text-Cgrey">{inputData[language][index].education[highlightedImageIndex].type}</span>
-                         <span className="text-2xl screen-w:text-6xl font-bold text-Ablack">{inputData[language][index].education[highlightedImageIndex].title}</span>
+                         <span className={clsx("font-bold text-Cgrey", fontsize ? "text-2xl screen-w:text-6xl" : "text-xl screen-w:text-5xl")}>{inputData[language][index].education[highlightedImageIndex].type}</span>
+                         <span className={clsx("font-bold text-Ablack screen-w:leading-normal", fontsize ? "text-3xl screen-w:text-7xl" : "text-2xl screen-w:text-6xl")}>{inputData[language][index].education[highlightedImageIndex].title}</span>
                      </div>
                  </div>
                  <div className={clsx(isPortrait ? "flex flex-row justify-start space-x-4 screen-w:space-x-6 w-11/12" : "flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3")}>
-                     {dataText[language](isPortrait)}
-                     <div className={clsx(isPortrait ? "flex flex-col space-y-2 screen-w:space-y-4 w-2/3 text-Agrey text-xs screen-w:text-4xl font-bold" : "flex flex-col space-y-2 screen-w:space-y-4 w-2/3 text-Agrey text-xs screen-w:text-3xl font-bold")}>
+                     {dataText[language](isPortrait, fontsize)}
+                     <div className={clsx(isPortrait 
+                      ? `flex flex-col w-2/3 text-Agrey font-bold ${fontsize ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-5xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-4xl"}` 
+                      : `flex flex-col w-2/3 text-Agrey font-bold ${fontsize ? "space-y-4 screen-w:space-y-8 text-xs screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
                          <span className="w-full whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].time}</span>
                          <span className="w-full whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].participate}</span>
                          <span className="w-full whitespace-nowrap overflow-auto">{inputData[language][index].education[highlightedImageIndex].location}</span>
@@ -118,7 +136,9 @@ const Educationcarousel = ({index}) => {
                      </div>
                  </div>
                  <div className={clsx(isPortrait ? "flex space-y-2 w-11/12 justify-end overflow-auto scroll-smooth" : "flex space-y-2 w-1/3 justify-end overflow-auto scroll-smooth")}>
-                     <p className={clsx(isPortrait ? "h-[180px] screen-w:h-[550px] text-Agrey text-xs screen-w:text-5xl font-bold screen-w:leading-relaxed" : "h-[180px] screen-w:h-[450px] text-Agrey text-xs screen-w:text-4xl font-bold leading-normal")}>
+                     <p className={clsx(isPortrait 
+                      ? `h-[180px] screen-w:h-[550px] text-Agrey font-bold screen-w:leading-relaxed ${fontsize ? "text-sm screen-w:text-6xl" : "text-xs screen-w:text-5xl"}` 
+                      : `h-[180px] screen-w:h-[450px] text-Agrey font-bold screen-w:leading-relaxed ${fontsize ? "text-sm screen-w:text-5xl" : "text-xs screen-w:text-4xl"}`)}>
                          {inputData[language][index].education[highlightedImageIndex].explanation}
                      </p>
                  </div>

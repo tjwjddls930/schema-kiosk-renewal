@@ -2,6 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import Soundguide from "@/components/docent/Soundguide";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { educationData_KOR } from "@/data/educationData_KOR";
 import { educationData_ENG } from "@/data/educationData_ENG";
 import { educationData_CH } from "@/data/educationData_CH";
@@ -19,8 +20,10 @@ const clipText = {
 };
 
 const dataText = {
-    KOR: () => (
-        <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
+    KOR: (font) => (
+        <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Ablack font-bold", font 
+        ? "text-sm screen-w:text-5xl" 
+        : "text-xs screen-w:text-4xl")}>
             <span className="h-12">{'교육대상'}</span>
             <span className="h-12">{'교육시간'}</span>
             <span className="h-12">{'참여인원'}</span>
@@ -29,9 +32,10 @@ const dataText = {
             <span className="h-12">{'후원'}</span>
         </div>
     ),
-    ENG: () => (
-        <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
-            <span className="h-12">{'Education Target'}</span>
+    ENG: (font) => (
+        <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Ablack font-bold", font 
+        ? "text-sm screen-w:text-5xl" 
+        : "text-xs screen-w:text-4xl")}>            <span className="h-12">{'Education Target'}</span>
             <span className="h-12">{'Time'}</span>
             <span className="h-12">{'Number of Participants'}</span>
             <span className="h-12">{'Location'}</span>
@@ -39,9 +43,10 @@ const dataText = {
             <span className="h-12">{'Support'}</span>
         </div>
     ),
-    CH: () => (
-        <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
-            <span className="h-12">{'教育目标'}</span>
+    CH: (font) => (
+        <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Ablack font-bold", font 
+        ? "text-sm screen-w:text-5xl" 
+        : "text-xs screen-w:text-4xl")}>            <span className="h-12">{'教育目标'}</span>
             <span className="h-12">{'训练时间'}</span>
             <span className="h-12">{'参加人数'}</span>
             <span className="h-12">{'教育场所'}</span>
@@ -49,9 +54,10 @@ const dataText = {
             <span className="h-12">{'支持'}</span>
         </div>
     ),
-    TH: () => (
-        <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
-            <span className="h-12">{'เป้าหมายทางการศึกษา'}</span>
+    TH: (font) => (
+        <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Ablack font-bold", font 
+        ? "text-sm screen-w:text-5xl" 
+        : "text-xs screen-w:text-4xl")}>            <span className="h-12">{'เป้าหมายทางการศึกษา'}</span>
             <span className="h-12">{'เวลาฝึกอบรม'}</span>
             <span className="h-12">{'จำนวนผู้เข้าร่วม'}</span>
             <span className="h-12">{'สถานที่ศึกษา'}</span>
@@ -59,9 +65,10 @@ const dataText = {
             <span className="h-12">{'สนับสนุน'}</span>
         </div>
     ),
-    VI: () => (
-        <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Ablack font-bold">
-            <span className="h-12">{'mục tiêu đào tạo'}</span>
+    VI: (font) => (
+        <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Ablack font-bold", font 
+        ? "text-sm screen-w:text-5xl" 
+        : "text-xs screen-w:text-4xl")}>            <span className="h-12">{'mục tiêu đào tạo'}</span>
             <span className="h-12">{'thời gian huấn luyện'}</span>
             <span className="h-12">{'Số lượng người tham gia'}</span>
             <span className="h-12">{'Nơi giáo dục'}</span>
@@ -93,6 +100,7 @@ const EducationContent = () => {
     const {index} = router.query;
     const {language} = useContext(LanguageContext);
     const {isPortrait} = useContext(ScreenOrientContext);
+    const {fontsize} = useContext(FontsizeContext);
     const [popup, setPopup] = useState(false);
     const [video, setVideo] = useState(null);
     useEffect(() => {
@@ -151,19 +159,21 @@ const EducationContent = () => {
                 <div className={clsx(isPortrait ? "h-1/2 w-11/12 flex flex-col space-y-6 screen-w:space-y-12 mx-auto" : "h-full w-[60%] flex flex-col space-y-6 screen-w:space-y-12")}>
                     <div className={clsx(isPortrait ? "w-full flex flex-col space-y-2 screen-w:space-y-8" : "w-3/4 flex flex-col space-y-2 screen-w:space-y-8")}>
                         <div className="bg-Ablue h-[1px] w-[70px] screen-w:w-[200px]" />
-                        <span className="text-sm screen-w:text-6xl font-bold text-Bgrey">{inputData[language][pid].education[index].type}</span>
-                        <span className="text-base screen-w:text-7xl font-bold text-Ablack screen-w:leading-normal">{inputData[language][pid].education[index].title}</span>
+                        <span className={clsx("font-bold text-Bgrey", fontsize ? "text-base screen-w:text-[66px]" : "text-sm screen-w:text-6xl")}>{inputData[language][pid].education[index].type}</span>
+                        <span className={clsx("font-bold text-Ablack screen-w:leading-normal", fontsize ? "text-lg screen-w:text-[80px]" : "text-base screen-w:text-7xl")}>{inputData[language][pid].education[index].title}</span>
                     </div>
                     <div className="bg-Dgrey bg-opacity-30 flex flex-row justify-center px-6 py-8 space-x-4 screen-w:py-24 screen-w:space-x-8 mx-auto h-[70%] w-full">
                         <div className="w-1/2 h-full mx-auto overflow-auto scroll-smooth">
-                            <p className="text-Bgrey text-sm screen-w:text-4xl px-4 screen-w:px-12 leading-normal screen-w:leading-loose font-bold">
+                            <p className={clsx("text-Bgrey px-4 screen-w:px-12 leading-normal screen-w:leading-loose font-bold", fontsize ? "text-base screen-w:text-5xl" : "text-sm screen-w:text-4xl")}>
                                 {inputData[language][pid].education[index].explanation}
                             </p>
                         </div>
                         <div className="bg-Cgrey w-[1px] h-[90%]" />
                         <div className="w-1/2 flex flex-row space-x-4 px-4">
-                            {dataText[language]()}
-                            <div className="w-1/2 flex flex-col space-y-3 text-xs screen-w:text-4xl screen-w:space-y-8 text-Cgrey font-bold">
+                            {dataText[language](fontsize)}
+                            <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Cgrey font-bold", fontsize 
+                            ? "text-sm screen-w:text-5xl" 
+                            : "text-xs screen-w:text-4xl")}>
                                 <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].participate}</span>
                                 <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].time1}</span>
                                 <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].participate1}</span>

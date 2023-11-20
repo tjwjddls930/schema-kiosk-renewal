@@ -6,14 +6,7 @@ import { paintData } from "@/data/paintData";
 import Navbar from "@/components/navbar/Navbar";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
-// import ViewNavbar from "@/components/navbar/3DpageNavbar";
-import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9, paintData10, 
-    paintData11, paintData12, paintData13 } from "@/data/paintData";
-
-const paintList = [
-    [paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9],
-    [paintData10, paintData11, paintData12, paintData13],
-]
+import { paintList } from "@/data/paintData";
 
 export default function Viewpage() {
     const {isPortrait} = useContext(ScreenOrientContext);

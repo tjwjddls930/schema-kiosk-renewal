@@ -7,7 +7,6 @@ import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import VoiceGPTButton from "../VoiceGPTButton";
 import { useRouter } from "next/router";
-import Image from "next/image";
 import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
 
 const languageText = {
@@ -147,7 +146,7 @@ const textSize = {
 };
 
 const volumeControl = {
-  KOR: (func) => (
+  KOR: (func, hide) => (
     <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
       <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"볼륨조절"}
@@ -160,8 +159,8 @@ const volumeControl = {
       </button>
     </div>
   ),
-  ENG: (func) => (
-    <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[550px] justify-center text-center items-center">
+  ENG: (func, hide) => (
+    <div className={clsx("flex flex-row space-x-2 w-[200px] screen-w:w-[550px] justify-center text-center items-center", hide ? "hidden" : "")}>
       <span className="text-xl w-[400px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
         {"Volume Control"}
       </span>
@@ -173,8 +172,8 @@ const volumeControl = {
       </button>
     </div>
   ),
-  CH: (func) => (
-    <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+  CH: (func, hide) => (
+    <div className={clsx("flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center", hide ? "hidden" : "")}>
       <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"音量控制"}
       </span>
@@ -186,8 +185,8 @@ const volumeControl = {
       </button>
     </div>
   ),
-  TH: (func) => (
-    <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[650px] justify-center text-center items-center">
+  TH: (func, hide) => (
+    <div className={clsx("flex flex-row space-x-2 w-[200px] screen-w:w-[650px] justify-center text-center items-center", hide ? "hidden" : "")}>
       <span className="text-xl w-[500px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
         {"การควบคุมระดับเสียง"}
       </span>
@@ -199,8 +198,8 @@ const volumeControl = {
       </button>
     </div>
   ),
-  VI: (func) => (
-    <div className="flex flex-row space-x-2 w-[200px] screen-w:w-[700px] justify-center text-center items-center">
+  VI: (func, hide) => (
+    <div className={clsx("flex flex-row space-x-2 w-[200px] screen-w:w-[700px] justify-center text-center items-center", hide ? "hidden" : "")}>
       <span className="text-xl w-[500px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"Kiểm soát âm lượng"}
       </span>
@@ -215,8 +214,8 @@ const volumeControl = {
 };
 
 const soundDocent = {
-  KOR: (func, sign, sound) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+  KOR: (func, sign, sound, hide) => (
+    <div className={clsx("h-full flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center", hide ? "hidden" : "flex")}>
       <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"음성안내"}
       </span>
@@ -229,8 +228,8 @@ const soundDocent = {
       </button>
     </div>
   ),
-  ENG: (func, sign, sound) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[500px] justify-center text-center items-center">
+  ENG: (func, sign, sound, hide) => (
+    <div className={clsx("h-full flex-row space-x-2 w-[200px] screen-w:w-[500px] justify-center text-center items-center", hide ? "hidden" : "flex")}>
       <span className="text-xl w-[350px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
         {"Sound Guide"}
       </span>
@@ -243,8 +242,8 @@ const soundDocent = {
       </button>
     </div>
   ),
-  CH: (func, sign, sound) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+  CH: (func, sign, sound, hide) => (
+    <div className={clsx("h-full flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center", hide ? "hidden" : "flex")}>
       <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"语音指导"}
       </span>
@@ -257,8 +256,8 @@ const soundDocent = {
       </button>
     </div>
   ),
-  TH: (func, sign, sound) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[600px] justify-center text-center items-center">
+  TH: (func, sign, sound, hide) => (
+    <div className={clsx("h-full flex-row space-x-2 w-[200px] screen-w:w-[600px] justify-center text-center items-center", hide ? "hidden" : "flex")}>
       <span className="text-xl w-[450px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
         {"คำแนะนำด้วยเสียง"}
       </span>
@@ -271,8 +270,8 @@ const soundDocent = {
       </button>
     </div>
   ),
-  VI: (func, sign, sound) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[840px] justify-center text-center items-center">
+  VI: (func, sign, sound, hide) => (
+    <div className={clsx("h-full flex-row space-x-2 w-[200px] screen-w:w-[840px] justify-center text-center items-center", hide ? "hidden" : "flex")}>
       <span className="text-xl w-[690px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"hướng dẫn bằng giọng nói"}
       </span>
@@ -405,6 +404,7 @@ const Navbar = ({ url, sign }) => {
   const [modal, setModal] = useState(false);
   const [isChatModalOpen, setIsChatModalOpen] = useState(false);
   const [hide, setHide] = useState(true);
+  const [docent, setDocent] = useState(false);
   const { language, setLanguage } = useContext(LanguageContext);
   const { fontsize, setFontsize } = useContext(FontsizeContext);
   const { isPortrait } = useContext(ScreenOrientContext);
@@ -417,9 +417,19 @@ const Navbar = ({ url, sign }) => {
     setIsChatModalOpen(false);
     if(router.pathname === "/main") {
       setHide(false);
+    } else {
+      setHide(true);
     }
   }, [router.pathname]);
 
+  useEffect(()=> {
+    if(!url || router.pathname ==="/intro/structure") {
+      setDocent(true);
+    } else {
+      setDocent(false);
+    }
+  }, [url, router.pathname]);
+  // console.log(url);
   return (
     <>
       {soundguide && (
@@ -504,7 +514,7 @@ const Navbar = ({ url, sign }) => {
                       alt="language"
                   /> */}
                   <img 
-                    className="h-8 w-8 screen-w:h-24 screen-w:w-24 mx-auto pt-2.5 z-1 screen-w:pt-6"
+                    className="h-8 w-8 screen-w:h-28 screen-w:w-28 mx-auto pt-2.5 z-1 screen-w:pt-8"
                     src="/img/mainpage/언어변경_아이콘_1.png"
                     alt="language"
                   />
@@ -669,16 +679,17 @@ const Navbar = ({ url, sign }) => {
           <VoiceGPTButton isChatModalOpen={isChatModalOpen} />
           {languageText[language](() => setModal(!modal))}
           {textSize[language](() => setFontsize(!fontsize), fontsize)}
-          {volumeControl[language](() => setVolumepop(!volumepop))}
+          {volumeControl[language](() => setVolumepop(!volumepop), docent)}
           {signDocent[language](
             () => setsignLang(!signLang),
             soundguide,
-            signLang
+            signLang,
           )}
           {soundDocent[language](
             () => setSoundguide(!soundguide),
             signLang,
-            soundguide
+            soundguide,
+            docent
           )}
         </div>
       </nav>

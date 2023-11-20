@@ -9,18 +9,19 @@ export default function Home() {
   const router = useRouter();
   const [video, setVideo] = useState(false);
   const [collection, setCollection] = useState(false);
-  const [url, setUrl] = useState("f9Vag-CGCG0")
+  // const [url, setUrl] = useState("f9Vag-CGCG0")
+  const [url, setUrl] = useState("3jm6c2qLmZk")
   const items = [
-    // {
-    //   order: 1,
-    //   src: "/img/thumbnails/thumbnail-1.png",
-    //   url: "3jm6c2qLmZk"
-    // },
-    // {
-    //   order: 2,
-    //   src: "/img/thumbnails/thumbnail-2.png",
-    //   url: "6ViQjZmCP3Y"
-    // },
+    {
+      order: 1,
+      src: "/img/thumbnails/thumbnail-1.png",
+      url: "3jm6c2qLmZk"
+    },
+    {
+      order: 2,
+      src: "/img/thumbnails/thumbnail-2.png",
+      url: "6ViQjZmCP3Y"
+    },
     // {
     //   order: 3,
     //   src: "/img/thumbnails/thumbnail-3.png",
@@ -46,16 +47,16 @@ export default function Home() {
     //   src: "/img/thumbnails/thumbnail-7.png",
     //   url: "E9YSRNm1D6k"
     // },
-    {
-      order: 8,
-      src: "/img/thumbnails/thumbnail-8.png",
-      url: "f9Vag-CGCG0"
-    },
-    {
-      order: 9,
-      src: "/img/thumbnails/thumbnail-9.png",
-      url: "SB473Uj57T8"
-    }
+    // {
+    //   order: 8,
+    //   src: "/img/thumbnails/thumbnail-8.png",
+    //   url: "f9Vag-CGCG0"
+    // },
+    // {
+    //   order: 9,
+    //   src: "/img/thumbnails/thumbnail-9.png",
+    //   url: "SB473Uj57T8"
+    // }
   ];
 
   const collections = [

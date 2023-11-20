@@ -7,9 +7,9 @@ import { allExhibits } from "@/data/pastExhibit";
 import { useRouter } from "next/router";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { clsx } from "clsx";
-import { paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9, paintData10, 
-  paintData11, paintData12, paintData13 } from "@/data/paintData";
+import { paintList } from "@/data/paintData";
 
 const popupText1 = {
   KOR: "작가 보기",
@@ -36,62 +36,68 @@ const popupText3 = {
 };
 
 const informText = {
-  KOR:(orient) => (
-    <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/4" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3")}>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'기간'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'아티스트'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'장소'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'주최/주관'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'후원'}</span>
+  KOR:(orient, font) => (
+    <div className={clsx(orient 
+      ? `flex flex-col w-1/4 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}` 
+      : `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
+        <span className="w-full">{'기간'}</span>
+        <span className="w-full">{'아티스트'}</span>
+        <span className="w-full">{'장소'}</span>
+        <span className="w-full">{'주최/주관'}</span>
+        <span className="w-full">{'후원'}</span>
     </div>
   ),
-  ENG:(orient) => (
-    <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/4" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3")}>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Period'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Artist'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Location'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Organized/Host'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Support'}</span>
+  ENG:(orient, font) => (
+    <div className={clsx(orient 
+      ? `flex flex-col w-1/4 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}` 
+      : `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
+        <span className="w-full">{'Period'}</span>
+        <span className="w-full">{'Artist'}</span>
+        <span className="w-full">{'Location'}</span>
+        <span className="w-full">{'Organized/Host'}</span>
+        <span className="w-full">{'Support'}</span>
     </div>
   ),
-  CH:(orient) => (
-    <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/4" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3")}>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'时期'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'艺术家'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'地点'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'主办/主办'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'支持'}</span>
+  CH:(orient, font) => (
+    <div className={clsx(orient 
+      ? `flex flex-col w-1/4 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}` 
+      : `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
+        <span className="w-full">{'时期'}</span>
+        <span className="w-full">{'艺术家'}</span>
+        <span className="w-full">{'地点'}</span>
+        <span className="w-full">{'主办/主办'}</span>
+        <span className="w-full">{'支持'}</span>
     </div>
   ),
-  TH:(orient) => (
-    <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/4" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3")}>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ระยะเวลา'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ศิลปิน'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ที่ตั้ง'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'จัด/เป็นเจ้าภาพโดย'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'สนับสนุน'}</span>
+  TH:(orient, font) => (
+    <div className={clsx(orient 
+      ? `flex flex-col w-1/4 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}` 
+      : `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
+        <span className="w-full">{'ระยะเวลา'}</span>
+        <span className="w-full">{'ศิลปิน'}</span>
+        <span className="w-full">{'ที่ตั้ง'}</span>
+        <span className="w-full">{'จัด/เป็นเจ้าภาพโดย'}</span>
+        <span className="w-full">{'สนับสนุน'}</span>
     </div>
   ),
-  VI:(orient) => (
-    <div className={clsx(orient ? "flex flex-col space-y-2 screen-w:space-y-4 w-1/4" : "flex flex-col space-y-2 screen-w:space-y-4 w-1/3")}>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Giai đoạn'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'nghệ sĩ'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'vị trí'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'Được tổ chức/chủ trì bởi'}</span>
-        <span className="w-full text-Ablue text-xs screen-w:text-3xl font-bold">{'ủng hộ'}</span>
+  VI:(orient, font) => (
+    <div className={clsx(orient 
+      ? `flex flex-col w-1/4 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}` 
+      : `flex flex-col w-1/3 text-Ablue font-bold ${font ? "space-y-4 screen-w:space-y-8 text-sm screen-w:text-4xl" : "space-y-2 screen-w:space-y-4 text-xs screen-w:text-3xl"}`)}>
+        <span className="w-full">{'Giai đoạn'}</span>
+        <span className="w-full">{'nghệ sĩ'}</span>
+        <span className="w-full">{'vị trí'}</span>
+        <span className="w-full">{'Được tổ chức/chủ trì bởi'}</span>
+        <span className="w-full">{'ủng hộ'}</span>
     </div>
   ),
 };
-
-const paintList = [
-  [paintData1, paintData2, paintData3, paintData4, paintData5, paintData6, paintData7, paintData8, paintData9],
-  [paintData10, paintData11, paintData12, paintData13],
-];
 
 const CoverflowCarousel = ({index}) => {
   const [isClient, setIsClient] = useState(false);
   const {language} = useContext(LanguageContext);
   const {isPortrait} = useContext(ScreenOrientContext);
+  const {fontsize} = useContext(FontsizeContext);
   const [popup, setPopup] = useState(false);
   const [list, setList] = useState(null);
   const [highlightedImageIndex, setHighlightedImageIndex] = useState(0); // Initialize with the first slide
@@ -112,7 +118,7 @@ const CoverflowCarousel = ({index}) => {
     setHighlightedImageIndex(swiper.activeIndex);
   };
 
-
+  // console.log(allExhibits[])
   return (
     <>
       {/* <!-- Coverflow Slider --> */}
@@ -144,25 +150,27 @@ const CoverflowCarousel = ({index}) => {
             {/* 전시 설명 컨테이너 */}
             <div className={clsx(isPortrait ? "flex flex-col space-y-12 screen-w:space-y-40 screen-w:justify-center" : "flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center")}>
                 <div className={clsx(isPortrait ? "justify-start flex flex-row space-x-12 w-11/12" : "justify-start flex flex-row space-x-4 w-1/3")}>
-                    <span className="text-7xl screen-w:text-[250px] font-bold text-Ablack">{allExhibits[index].exhibits[highlightedImageIndex].order}</span>
+                    <span className={clsx("text-7xl font-bold text-Ablack", fontsize ? "text-8xl screen-w:text-[260px]" : "text-7xl screen-w:text-[250px]")}>{allExhibits[index].exhibits[highlightedImageIndex].order}</span>
                     <div className="flex flex-col space-y-2 screen-w:space-y-8 mt-6">
                         <div className="bg-Ablue h-[2px] w-[60px] screen-w:w-[100px] rounded-full"></div>
-                        <span className="text-base screen-w:text-5xl font-bold text-Cgrey">{allExhibits[index].exhibits[highlightedImageIndex].type}</span>
-                        <span className="text-lg screen-w:text-6xl font-bold text-Ablack">{allExhibits[index].exhibits[highlightedImageIndex].title}</span>
+                        <span className={clsx("font-bold text-Cgrey", fontsize ? "text-lg screen-w:text-6xl" : "text-base screen-w:text-5xl")}>{allExhibits[index].exhibits[highlightedImageIndex].type}</span>
+                        <span className={clsx("screen-w:text-6xl font-bold text-Ablack", fontsize ? "text-2xl screen-w:text-7xl" : "text-lg screen-w:text-6xl")}>{allExhibits[index].exhibits[highlightedImageIndex].title}</span>
                     </div>
                 </div>
                 <div className={clsx(isPortrait ? "flex flex-row justify-start space-x-8 w-11/12" : "flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3")}>
-                    {informText[language](isPortrait)}
-                    <div className="flex flex-col space-y-2 screen-w:space-y-4 w-2/3">
-                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].time1}</span>
-                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold whitespace-nowrap overflow-auto">{allExhibits[index].exhibits[highlightedImageIndex].artist1}</span>
-                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].location1}</span>
-                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].host1}</span>
-                        <span className="w-full text-Agrey text-xs screen-w:text-3xl font-bold">{allExhibits[index].exhibits[highlightedImageIndex].support1}</span>
+                    {informText[language](isPortrait, fontsize)}
+                    <div className={clsx("flex flex-col w-2/3 text-Agrey font-bold", fontsize ? "space-y-4 screen-w:space-y-8" : "space-y-2 screen-w:space-y-4")}>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{allExhibits[index].exhibits[highlightedImageIndex].time1}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] pt-1 text-sm screen-w:text-4xl whitespace-nowrap overflow-y-visible overflow-auto" : "h-[36px] text-xs screen-w:text-3xl whitespace-nowrap overflow-auto")}>{allExhibits[index].exhibits[highlightedImageIndex].artist1}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{allExhibits[index].exhibits[highlightedImageIndex].location1}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{allExhibits[index].exhibits[highlightedImageIndex].host1}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{allExhibits[index].exhibits[highlightedImageIndex].support1}</span>
                     </div>
                 </div>
                 <div className={clsx(isPortrait ? "flex space-y-4 w-11/12 flex-col justify-end overflow-auto scroll-smooth" : "flex space-y-2 screen-w:space-y-4 w-1/3 flex-col justify-end overflow-auto scroll-smooth")}>
-                    <p className={clsx(isPortrait ? "h-[120px] screen-w:h-[700px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed" : "h-[180px] screen-w:h-[450px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed screen-w:truncate")}>
+                    <p className={clsx(isPortrait 
+                      ? "h-[120px] screen-w:h-[700px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed" 
+                      : `h-[180px] screen-w:h-[450px] text-Ablack ${fontsize ? "text-sm screen-w:text-[40px]" : "text-xs screen-w:text-4xl"} font-bold screen-w:leading-relaxed`)}>
                         {allExhibits[index].exhibits[highlightedImageIndex].explanation}
                         <br />
                         {allExhibits[index].exhibits[highlightedImageIndex].author}

@@ -1,12 +1,18 @@
 import { Canvas } from "@react-three/fiber"
 import Imageandmodel from "@/components/landingpage/ImageandModel";
-import { Suspense } from "react";
+import { Suspense, useState, useEffect, useContext } from "react";
 import Navbar from "@/components/navbar/Navbar";
 import Soundguide from "@/components/docent/Soundguide";
 import { Html } from "@react-three/drei";
+import { LanguageContext } from "@/contexts/LanguageContext";
 // import Screensaver from "@/components/docent/Screensaver2";
 
 export default function Landingpage() {
+    const {language} = useContext(LanguageContext);
+    const [video, setVideo] = useState(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-landing-${language}.webm`);
+    useEffect(()=> {
+        setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-landing-${language}.webm`)
+    }, [language]);
 
     return(
         <div className="h-screen w-screen bg-Ablue">
@@ -44,9 +50,9 @@ export default function Landingpage() {
                                 zIndexRange={[1, 0]}
                             >
                                 <Soundguide 
-                                    className="h-[850px] w-[850px]"
-                                    videoUrl={`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-main-KOR.webm`}
-                                    volume={0}
+                                    className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
+                                    videoUrl={video}
+                                    volume={0.5}
                                     playing={true}
                                     loop={true}
                                 />
@@ -62,12 +68,11 @@ export default function Landingpage() {
     )
 };
 
-export const getServerSideProps = async (context) => {
-    return {
-        redirect: {
-            // destination: 'https://schema-screensaver.vercel.app/',
-            destination: '/',  
-            permanent: false, 
-        },
-    };
-};
+// export const getServerSideProps = async (context) => {
+//     return {
+//         redirect: {
+//             destination: '/',  
+//             permanent: false, 
+//         },
+//     };
+// };
