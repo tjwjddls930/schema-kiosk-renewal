@@ -5,7 +5,7 @@ import Loading from '@/components/loading/Loading';
 import Camerabutton from '@/components/digitaltwin/Camerabutton';
 import Cameracontrol from '@/components/digitaltwin/Cameracontrol';
 import Virtualexhibit from '@/components/digitaltwin/Virtualexhibit';
-import Model from '@/components/digitaltwin/Model';
+import Model from '@/components/Model';
 
 export default function Schemafloor() {
     return(
