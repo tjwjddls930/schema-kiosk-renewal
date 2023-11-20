@@ -139,12 +139,17 @@ const CoverflowCarousel = ({index}) => {
                     >
                       {popupText2[language]}
                   </button>
+                
                 </div>
                 <button
                     onClick={()=>setPopup(!popup)}
                     className="absolute h-10 w-[200px] screen-w:h-28 screen-w:w-[500px] text-center text-base screen-w:text-4xl text-Awhite font-bold items-center bottom-28 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue">
                     {popupText3[language]}
-                </button>
+                </button> 
+                  {/* <iframe 
+                    className="h-full w-11/12 flex mx-auto"
+                    src="https://www.usgbe.org/items/1"
+                  /> */}
               </div>
             )}
             {/* 전시 설명 컨테이너 */}

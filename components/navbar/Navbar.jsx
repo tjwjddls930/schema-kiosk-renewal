@@ -501,7 +501,7 @@ const Navbar = ({ url, sign }) => {
       {/* 언어변경 버튼 */}
       <button 
           // className="absolute left-12 bottom-40 screen-w:left-24 screen-w:bottom-52 text-Bgrey space-y-4"
-          className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 left-[45%] bottom-16 screen-w:bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}
+          className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 left-1/2 bottom-16 screen-w:bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}
           onClick={()=>setModal(!modal)}    
       >
           <div className="flex flex-col screen-w:space-y-3">
@@ -514,7 +514,7 @@ const Navbar = ({ url, sign }) => {
                       alt="language"
                   /> */}
                   <img 
-                    className="h-8 w-8 screen-w:h-28 screen-w:w-28 mx-auto pt-2.5 z-1 screen-w:pt-8"
+                    className="h-8 w-8 screen-w:h-28 screen-w:w-28 mx-auto pt-2.5 z-1 screen-w:pt-6"
                     src="/img/mainpage/언어변경_아이콘_1.png"
                     alt="language"
                   />
@@ -523,7 +523,7 @@ const Navbar = ({ url, sign }) => {
           </div>
       </button>
       {/* 챗봇 버튼 */}
-      <button 
+      {/* <button 
           onClick={() => setIsChatModalOpen((prev) => !prev)} 
           className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 right-[40%] bottom-16 screen-w:bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}        >
         <div className="flex flex-col screen-w:space-y-3">
@@ -543,7 +543,7 @@ const Navbar = ({ url, sign }) => {
           </div>
           {chatbotText[language](fontsize)}
         </div>
-      </button>
+      </button> */}
       {modal && (
         <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
           <div

@@ -114,7 +114,7 @@ const Educationcarousel = ({index}) => {
                  <div className={clsx(isPortrait ? "justify-start flex flex-row space-x-4 w-11/12 items-center" : "justify-start flex flex-row space-x-4 w-1/3")}>
                      <span className={clsx(isPortrait 
                       ? `w-1/5 font-bold text-Ablack ${fontsize ? "text-[135px] screen-w:text-[157px]" : "text-9xl screen-w:text-[150px]"}` 
-                      : `text-9xl screen-w:text-[150px] font-bold text-Ablack`)}>{inputData[language][index].education[highlightedImageIndex].id}</span>
+                      : `font-bold text-Ablack ${fontsize ? "text-8xl screen-w:text-[157px]" : "text-7xl screen-w:text-[150px]"}`)}>{inputData[language][index].education[highlightedImageIndex].id}</span>
                      <div className={clsx(isPortrait 
                       ? "w-4/5 flex flex-col space-y-2 screen-w:space-y-8 mt-6" 
                       : "flex flex-col space-y-2 screen-w:space-y-8 mt-6")}>
@@ -196,7 +196,7 @@ const Educationcarousel = ({index}) => {
                         <figure className="relative">
                           <Link href={`/education/program/${list}?index=${highlightedImageIndex}`}>
                             <img 
-                              className="w-[450px] h-[250px] screen-w:w-[1200px] screen-w:h-[600px]"
+                              className="w-[350px] h-[150px] screen-w:w-[1200px] screen-w:h-[600px]"
                               src={img}
                               alt={title}
                             />
