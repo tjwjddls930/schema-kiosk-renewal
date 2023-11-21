@@ -68,11 +68,11 @@ export default function Landingpage() {
     )
 };
 
-// export const getServerSideProps = async (context) => {
-//     return {
-//         redirect: {
-//             destination: '/',  
-//             permanent: false, 
-//         },
-//     };
-// };
+export const getServerSideProps = async (context) => {
+    return {
+        redirect: {
+            destination: '/',  
+            permanent: false, 
+        },
+    };
+};
