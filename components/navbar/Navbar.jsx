@@ -7,8 +7,8 @@ import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import VoiceGPTButton from "../VoiceGPTButton";
 import { useRouter } from "next/router";
-import MusicPlayer from "../Musicplayer";
-import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
+// import MusicPlayer from "../Musicplayer";
+// import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
 
 const languageText = {
   KOR: (func) => (
@@ -676,7 +676,7 @@ const Navbar = ({ url, sign }) => {
         </div>
       )}
       <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-40 bg-Ablue px-10 screen-w:px-12 items-center">
-        <MusicPlayer audioSrc={'/audio/TheHolyLand.mp3'} isVideoPlaying={soundguide} />
+        {/* <MusicPlayer audioSrc={'/audio/TheHolyLand.mp3'} isVideoPlaying={soundguide} /> */}
         <div className="flex flex-row w-full h-full space-x-4 screen-w:space-x-6 justify-end">
           <VoiceGPTButton isChatModalOpen={isChatModalOpen} />
           {languageText[language](() => setModal(!modal))}
