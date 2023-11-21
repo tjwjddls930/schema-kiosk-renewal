@@ -398,6 +398,39 @@ export const paintList = [
             {order: 38, title: "감각의 소멸", imgname: "/2022/22-13/39-72.5x72.5.jpeg", width: 5.8, height: 5.8, overview: "72.5x72.5cm", overview1: "Acrylic on canvas, 2022"},
             {order: 39, title: "감각의 소멸", imgname: "/2022/22-13/40-72.5x72.5.jpeg", width: 5.8, height: 5.8, overview: "72.5x72.5cm", overview1: "Acrylic on canvas, 2022"},
         ],
+    ],
+    [
+        [
+            // {order: 0, title: "Accept", imgname: "/2022/22-2/1-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
+        ],
+        [
+            // {order: 0, title: "Accept", imgname: "/2022/22-2/1-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
+        ],
+        [
+            {order: 0, title: "", imgname: "/2021/21-3/1-102.4x76.8.jpg", width: 5.12, height: 3.84, overview: "", overview1: "미술관리서치시도 설치 모습"},
+            {order: 1, title: "", imgname: "/2021/21-3/2-102.4x72.4.jpg", width: 5.12, height: 3.62, overview: "", overview1: "미술관리서치시도 영상 스틸"},
+            {order: 2, title: "Untitled protest", imgname: "/2021/21-3/3-16x26.jpg", width: 5.2, height: 3.2, overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"},
+            {order: 3, title: "Untitled protest", imgname: "/2021/21-3/4-16x26.jpg", width: 5.2, height: 3.2, overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"}, 
+            {order: 4, title: "운형리듬3", imgname: "/2021/21-3/5-72.7x90.9.jpg", width: 4.545, height: 3.635, overview: "72.7x90.9cm", overview1: "Acrylic on canvas, 2021"},
+            {order: 5, title: "운형리듬4", imgname: "/2021/21-3/6-60.6x90.9.jpg", width: 4.545, height: 3.03, overview: "60.6x90.9cm", overview1: "Acrylic on canvas, 2021"},
+            {order: 6, title: "Line-drawing-3", imgname: "/2021/21-3/7-50x35.jpg", width: 5, height: 3.5, overview: "50x35cm", overview1: "An-inked-string-on-paper, 2020"},
+            {order: 7, title: "Space-drawing-2", imgname: "/2021/21-3/8-40x29.jpg", width: 3.19, height: 4.4, overview: "40x29cm", overview1: "Acrylic-on-paper-Pen, 2020"},
+            {order: 8, title: "Easter-Eggs-Puzzle_1", imgname: "/2021/21-3/9-162x130.jpg", width: 3.9, height: 4.86, overview: "162x130cm", overview1: "Oil on canvas, 2021"},
+            {order: 9, title: "Easter-Eggs-Puzzle_2", imgname: "/2021/21-3/10-162x130.jpg", width: 3.9, height: 4.86, overview: "162x130cm", overview1: "Oil on canvas, 2021"},
+        ],
+        [
+            {order: 0, title: "Unknown-time", imgname: "/2021/21-4/1-70x140.jpg", width: 5.6, height: 2.8, overview: "70x140cm", overview1: "Acrylic on canvas, 2021"},
+            {order: 1, title: "Time-layer-205", imgname: "/2021/21-4/2-77x97.jpg", width: 4.85, height: 3.85, overview: "77x97cm", overview1: "Acrylic on wood, 2021"},
+            {order: 2, title: "Time-layer-202", imgname: "/2021/21-4/3-65x87.jpg", width: 4.35, height: 3.25, overview: "65x87cm", overview1: "Acrylic on wood, 2020"},
+            {order: 3, title: "Time-layer-201", imgname: "/2021/21-4/4-66x86.jpg", width: 4.3, height: 3.3, overview: "66x86cm", overview1: "Acrylic on wood, 2020"},
+            {order: 4, title: "Unknown-time", imgname: "/2021/21-4/5-130.3x162.2.jpg", width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
+            {order: 5, title: "Unknown-time with 정선", imgname: "/2021/21-4/6-130.3x162.2.jpg", width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
+            {order: 6, title: "Unknown-time", imgname: "/2021/21-4/7-130.3x162.2.jpg", width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
+            {order: 7, title: "", imgname: "/2021/21-4/8-79.9x100.jpg", width: 5, height: 3.995, overview: "", overview1: ""},
+            {order: 8, title: "", imgname: "/2021/21-4/9-80x100.jpg", width: 5, height: 4, overview: "", overview1: ""},
+            {order: 9, title: "", imgname: "/2021/21-4/10-66.7x100.jpg", width: 5, height: 3.335, overview: "", overview1: ""},
+            {order: 10, title: "", imgname: "/2021/21-4/11-66.7x100.jpg", width: 5, height: 3.335, overview: "", overview1: ""},
+        ]
     ]
 ]
 

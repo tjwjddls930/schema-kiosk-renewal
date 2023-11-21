@@ -3,6 +3,7 @@ import Imageslider from "@/components/Imageslider";
 import { careerData_KOR, careerData_ENG, careerData_CH, careerData_TH, careerData_VI } from "@/data/careerData";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import { FontsizeContext } from "@/contexts/FontsizeContext";
 import clsx from "clsx";
 
 const inputData = {
@@ -17,6 +18,7 @@ const Career = ({}) => {
     const [isTouching, setIsTouching] = useState(false);
     const {language} = useContext(LanguageContext);
     const {isPortrait} = useContext(ScreenOrientContext);
+    const {fontsize} = useContext(FontsizeContext);
 
     useEffect(() => {
         const touchArea = document.getElementById('touch-area');
@@ -50,17 +52,17 @@ const Career = ({}) => {
                 <div className={clsx(isPortrait ? "w-3/4 h-1/2 flex flex-col space-y-4 screen-w:space-y-24 mx-auto" : "w-1/2 h-3/4 flex flex-col space-y-4 screen-w:space-y-24")}>
                     <div
                         id="touch-area" 
-                        className="w-full h-[500px] screen-w:h-[1000px] flex flex-col space-y-2 screen-w:space-y-6 overflow-auto">
+                        className={clsx("w-full h-[500px] screen-w:h-[1000px] flex flex-col overflow-auto", fontsize ? "space-y-4 screen-w:space-y-10" : "space-y-2 screen-w:space-y-6")}>
                         {inputData[language][0].activity.map((item, index)=>(
                             <div
                                 key={index} 
                                 className="flex flex-row space-x-2 screen-w:space-x-10">
                                 <span
                                     key={item.order} 
-                                    className="font-bold text-sm screen-w:text-4xl text-Ablue">{item.year}</span>
+                                    className={clsx("font-bold text-Ablue", fontsize ? "text-base screen-w:text-[42px] pt-2 leading-tight" : "text-sm screen-w:text-4xl")}>{item.year}</span>
                                 <span
                                     key={item.index} 
-                                    className="font-bold text-sm screen-w:text-4xl text-Agrey">{item.text}</span>
+                                    className={clsx("font-bold text-Agrey", fontsize ? "text-base screen-w:text-[42px] pt-2 leading-tight" : "text-sm screen-w:text-4xl")}>{item.text}</span>
                             </div>
                         ))}
                     </div>

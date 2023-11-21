@@ -20,6 +20,7 @@
     "eslint-config-next": "14.0.2",
     "framer-motion": "^10.16.4",
     "gsap": "^3.12.2",
+    "howler": "^2.2.4",
     "ionicons": "^7.2.1",
     "maath": "^0.10.4",
     "next": "14.0.2",
