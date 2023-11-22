@@ -239,7 +239,7 @@ export default function Modelpage({}) {
                 </svg>
             </button>
             <button className="absolute left-16 bottom-44 screen-w:left-28 screen-w:bottom-[340px]"
-                onClick={async ()=> router.push("/")}
+                onClick={async ()=> router.push("/main")}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                     className="w-12 h-12 screen-w:h-36 screen-w:w-36 text-Ablack">

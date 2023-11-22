@@ -185,7 +185,8 @@ const handleVideoEnd = () => {
                       className="mx-auto border-2 text-white"
                       src={collections[index].src}
                       alt="thumbnail"
-                      onClick={()=> router.push(`/pastexhibit/${modelData[collections[index].url].order}`)}
+                      // onClick={()=> router.push(`/pastexhibit/${modelData[collections[index].url].order}`)}
+                      onClick={()=> router.push("/main")}
                       />
                   </animated.div>
               </animated.div>

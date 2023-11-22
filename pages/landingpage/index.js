@@ -49,6 +49,7 @@ export default function Landingpage() {
                                 position={[9, 1.2, 1]}
                                 zIndexRange={[1, 0]}
                             >
+                                {video && (
                                 <Soundguide 
                                     className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
                                     videoUrl={video}
@@ -56,6 +57,7 @@ export default function Landingpage() {
                                     playing={true}
                                     loop={true}
                                 />
+                                )}
                             </Html>
                         </Suspense>
                     </Canvas>
@@ -68,11 +70,11 @@ export default function Landingpage() {
     )
 };
 
-export const getServerSideProps = async (context) => {
-    return {
-        redirect: {
-            destination: '/',  
-            permanent: false, 
-        },
-    };
-};
+// export const getServerSideProps = async (context) => {
+//     return {
+//         redirect: {
+//             destination: '/',  
+//             permanent: false, 
+//         },
+//     };
+// };
