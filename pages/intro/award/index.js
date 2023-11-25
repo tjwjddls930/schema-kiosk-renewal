@@ -58,7 +58,7 @@ const inputData = {
 export default function Award() {
     const {language} = useContext(LanguageContext);
     const {isPortrait} = useContext(ScreenOrientContext);
-    const [award, setAward] = useState(inputData[language][0]);
+    const [award, setAward] = useState(null);
     const [isTouching, setIsTouching] = useState(false);
     const [video, setVideo] = useState();
     useEffect(() => {
@@ -77,7 +77,13 @@ export default function Award() {
     }, []);
 
     useEffect(()=> {
-        setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-intro-award-${award.index}-${language}.webm`)
+        setAward(inputData[language][0])
+    },[inputData, language]);
+
+    useEffect(()=> {
+        if(award) {
+            setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-intro-award-${award.index}-${language}.webm`)
+        }
     }, [language, award])
   
     const handleTouchStart = () => {

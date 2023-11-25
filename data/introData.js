@@ -3,7 +3,6 @@ import Schemastructure from "@/components/intro/Schemastructure";
 import Profile from "@/components/intro/career/Profile";
 import Career from "@/components/intro/career/Career";
 import Work from "@/components/intro/career/Work";
-import Navbar from "@/components/navbar/Navbar";
 export const introData_KOR = [
     {index: "main", title: "미술관 소개", component: <Schemaintro />,  docent: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-main-KOR.webm`},
     {index: "structure",title: "미술관 구조", component: <Schemastructure />, docent: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-intro-structure-KOR.webm`},    

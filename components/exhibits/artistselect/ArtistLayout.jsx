@@ -1,14 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
-import { artistData } from "@/data/artistData";
 import { useState, useContext, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import Artistcontent from "./Artistcontent";
 import { useRouter } from "next/router";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
-import { allExhibits } from "@/data/pastExhibit";
+import { allExhibits_KOR } from "@/data/allExhibits_KOR";
+import { allExhibits_ENG } from "@/data/allExhibits_ENG";
+import { allExhibits_CH } from "@/data/allExhibits_CH";
+import { allExhibits_TH } from "@/data/allExhibits_TH";
+import { allExhibits_VI } from "@/data/allExhibits_VI";
 
 const topText = {
     KOR: () => (
@@ -44,6 +46,14 @@ const buttonText = {
     VI: "Đi xem tác phẩm"
 };  
 
+const inputData = {
+    KOR: allExhibits_KOR,
+    ENG: allExhibits_ENG,
+    CH: allExhibits_CH,
+    TH: allExhibits_TH,
+    VI: allExhibits_VI
+};
+
 const Artistlayout = ({children}) => {
     const[isClient, setIsClient] = useState(false);
     const router = useRouter();
@@ -55,8 +65,8 @@ const Artistlayout = ({children}) => {
     const [list, setList] = useState(null);
 
     useEffect(()=> {
-        if(pid && order && allExhibits[pid]?.exhibits[order]?.artist) {
-            setArtist(allExhibits[pid].exhibits[order].artist[0])
+        if(pid && order && inputData[language][pid]?.exhibits[order]?.artist) {
+            setArtist(inputData[language][pid].exhibits[order].artist[0])
         } else {
             setArtist(null)
         };
@@ -64,7 +74,7 @@ const Artistlayout = ({children}) => {
         // if(pid && index && artist) {
         //     router.replace(`/artist/${pid}?index=${index}&?artist=${artist.order}`)
         // }
-    }, [pid, order])
+    }, [pid, order, language]);
 
     return(
         <>        
@@ -112,13 +122,6 @@ const Artistlayout = ({children}) => {
                                         transition={{duration: 0.3}}
                                     >
                                         {artist ? 
-                                        // <Artistcontent 
-                                        //     number={artist.number}
-                                        //     order={artist.order}
-                                        //     title={artist.title}
-                                        //     name={artist.name}
-                                        //     text={artist.text}
-                                        // /> 
                                         <>
                                             <div className="flex flex-col h-3/4 screen-w:w-full screen-w:h-full screen-w:mx-auto bg-Awhite">
                                                 <div className="flex flex-row space-x-2 screen-w:space-x-4 h-1/4 w-full items-center px-8 bg-Awhite mx-auto">
@@ -154,7 +157,7 @@ const Artistlayout = ({children}) => {
                             </div>
                             <div className="w-11/12 h-3/4 flex mx-auto justify-start overflow-x-auto overflow-y-hidden">
                                     <div className="flex flex-row space-x-12 font-bold text-md pb-1 overflow-auto overflow-y-hidden">
-                                        {allExhibits[pid].exhibits[order].artist.map((item, index)=> {
+                                        {inputData[language][pid].exhibits[order].artist.map((item, index)=> {
                                             const {order, name, imgname} = item;
                                             return(
                                             <div 

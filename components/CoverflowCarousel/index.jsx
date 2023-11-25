@@ -3,13 +3,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, EffectCoverflow } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import { allExhibits } from "@/data/pastExhibit";
 import { useRouter } from "next/router";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { clsx } from "clsx";
 import { paintList } from "@/data/paintData";
+import { allExhibits_KOR } from "@/data/allExhibits_KOR";
+import { allExhibits_ENG } from "@/data/allExhibits_ENG";
+import { allExhibits_CH } from "@/data/allExhibits_CH";
+import { allExhibits_TH } from "@/data/allExhibits_TH";
+import { allExhibits_VI } from "@/data/allExhibits_VI";
 
 const popupText1 = {
   KOR: "작가 보기",
@@ -93,6 +97,14 @@ const informText = {
   ),
 };
 
+const inputData = {
+  KOR: allExhibits_KOR,
+  ENG: allExhibits_ENG,
+  CH: allExhibits_CH,
+  TH: allExhibits_TH,
+  VI: allExhibits_VI
+};
+
 const CoverflowCarousel = ({index}) => {
   const [isClient, setIsClient] = useState(false);
   const {language} = useContext(LanguageContext);
@@ -106,13 +118,15 @@ const CoverflowCarousel = ({index}) => {
   useEffect(() => {
     // Update the isClient state to true as this code will be executed only on client side
     setIsClient(true);
-    const order = allExhibits[index].index; 
+    // const order = allExhibits[index].index; 
+    const order = inputData[language][index].index;
     router.replace(`?index=${highlightedImageIndex + 1}&year=${order}`)
-    if(allExhibits[index]) {
+    // if(allExhibits[index]) {
+    if(inputData[language][index]){
       setList(order);
       // setTime(year);
     }
-  }, [allExhibits, highlightedImageIndex]);
+  }, [inputData, language, highlightedImageIndex]);
 
   const handleSlideChange = (swiper) => {
     setHighlightedImageIndex(swiper.activeIndex);
@@ -146,39 +160,35 @@ const CoverflowCarousel = ({index}) => {
                     className="absolute h-10 w-[200px] screen-w:h-28 screen-w:w-[500px] text-center text-base screen-w:text-4xl text-Awhite font-bold items-center bottom-28 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue">
                     {popupText3[language]}
                 </button> 
-                  {/* <iframe 
-                    className="h-full w-11/12 flex mx-auto"
-                    src="https://www.usgbe.org/items/1"
-                  /> */}
               </div>
             )}
             {/* 전시 설명 컨테이너 */}
             <div className={clsx(isPortrait ? "flex flex-col space-y-12 screen-w:space-y-40 screen-w:justify-center" : "flex flex-row space-x-12 justify-between screen-w:space-x-40 screen-w:justify-center")}>
                 <div className={clsx(isPortrait ? "justify-start flex flex-row space-x-12 w-11/12" : "justify-start flex flex-row space-x-4 w-1/3")}>
-                    <span className={clsx("text-7xl font-bold text-Ablack", fontsize ? "text-8xl screen-w:text-[260px]" : "text-7xl screen-w:text-[250px]")}>{allExhibits[index].exhibits[highlightedImageIndex].order}</span>
+                    <span className={clsx("text-7xl font-bold text-Ablack", fontsize ? "text-8xl screen-w:text-[260px]" : "text-7xl screen-w:text-[250px]")}>{inputData[language][index].exhibits[highlightedImageIndex].order}</span>
                     <div className="flex flex-col space-y-2 screen-w:space-y-8 mt-6">
                         <div className="bg-Ablue h-[2px] w-[60px] screen-w:w-[100px] rounded-full"></div>
-                        <span className={clsx("font-bold text-Cgrey", fontsize ? "text-lg screen-w:text-6xl" : "text-base screen-w:text-5xl")}>{allExhibits[index].exhibits[highlightedImageIndex].type}</span>
-                        <span className={clsx("screen-w:text-6xl font-bold text-Ablack", fontsize ? "text-2xl screen-w:text-7xl" : "text-lg screen-w:text-6xl")}>{allExhibits[index].exhibits[highlightedImageIndex].title}</span>
+                        <span className={clsx("font-bold text-Cgrey", fontsize ? "text-lg screen-w:text-6xl" : "text-base screen-w:text-5xl")}>{inputData[language][index].exhibits[highlightedImageIndex].type}</span>
+                        <span className={clsx("screen-w:text-6xl font-bold text-Ablack", fontsize ? "text-2xl screen-w:text-7xl" : "text-lg screen-w:text-6xl")}>{inputData[language][index].exhibits[highlightedImageIndex].title}</span>
                     </div>
                 </div>
                 <div className={clsx(isPortrait ? "flex flex-row justify-start space-x-8 w-11/12" : "flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3")}>
                     {informText[language](isPortrait, fontsize)}
                     <div className={clsx("flex flex-col w-2/3 text-Agrey font-bold", fontsize ? "space-y-4 screen-w:space-y-8" : "space-y-2 screen-w:space-y-4")}>
-                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{allExhibits[index].exhibits[highlightedImageIndex].time1}</span>
-                        <span className={clsx("w-full", fontsize ? "h-[40px] pt-1 text-sm screen-w:text-4xl whitespace-nowrap overflow-y-visible overflow-auto" : "h-[36px] text-xs screen-w:text-3xl whitespace-nowrap overflow-auto")}>{allExhibits[index].exhibits[highlightedImageIndex].artist1}</span>
-                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{allExhibits[index].exhibits[highlightedImageIndex].location1}</span>
-                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{allExhibits[index].exhibits[highlightedImageIndex].host1}</span>
-                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{allExhibits[index].exhibits[highlightedImageIndex].support1}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].time1}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] pt-1 text-sm screen-w:text-4xl whitespace-nowrap overflow-y-visible overflow-auto" : "h-[36px] text-xs screen-w:text-3xl whitespace-nowrap overflow-auto")}>{inputData[language][index].exhibits[highlightedImageIndex].artist1}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].location1}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].host1}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].support1}</span>
                     </div>
                 </div>
                 <div className={clsx(isPortrait ? "flex space-y-4 w-11/12 flex-col justify-end overflow-auto scroll-smooth" : "flex space-y-2 screen-w:space-y-4 w-1/3 flex-col justify-end overflow-auto scroll-smooth")}>
                     <p className={clsx(isPortrait 
                       ? "h-[120px] screen-w:h-[700px] text-Ablack text-xs screen-w:text-4xl font-bold screen-w:leading-relaxed" 
                       : `h-[180px] screen-w:h-[450px] text-Ablack ${fontsize ? "text-sm screen-w:text-[40px]" : "text-xs screen-w:text-4xl"} font-bold screen-w:leading-relaxed`)}>
-                        {allExhibits[index].exhibits[highlightedImageIndex].explanation}
+                        {inputData[language][index].exhibits[highlightedImageIndex].explanation}
                         <br />
-                        {allExhibits[index].exhibits[highlightedImageIndex].author}
+                        {inputData[language][index].exhibits[highlightedImageIndex].author}
                     </p>
                 </div>
             </div>
@@ -225,7 +235,7 @@ const CoverflowCarousel = ({index}) => {
             className="swiper coverflow-slider !py-5"
             onSlideChange={(swiper) => handleSlideChange(swiper)}
           >
-            {allExhibits[index].exhibits.map((item, idx)=> {
+            {inputData[language][index].exhibits.map((item, idx)=> {
               const {order, title, img, author, location1} = item;
               return (
                 <SwiperSlide key={idx}>

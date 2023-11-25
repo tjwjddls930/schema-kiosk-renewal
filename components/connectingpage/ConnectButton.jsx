@@ -1,10 +1,11 @@
 import { modelData } from "@/data/modelData";
 import { useRouter } from "next/router";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
+import { collection_KOR, collection_ENG, collection_CH, collection_TH, collection_VI } from "@/data/collectionData";
 
 const exhibitButton = {
     KOR: (size) => (
@@ -102,13 +103,70 @@ const collectionButton = {
     )
 };
 
+const popupText1 = {
+    KOR: "외부 조형물 보기",
+    ENG: "View the external sculpture",
+    CH: "查看外部雕塑",
+    TH: "Xem tác phẩm điêu khắc bên ngoài",
+    VI: "Xem tác phẩm điêu khắc bên ngoài",
+};
+  
+const popupText2 = {
+    KOR: "소장 그림 보기",
+    ENG: "View Collection Paintings",
+    CH: "查看我们收藏的画作",
+    TH: "ชมภาพวาดจากคอลเลกชันของเรา",
+    VI: "Xem tranh từ bộ sưu tập của chúng tôi",
+};
+  
+const popupText3 = {
+    KOR: "닫기",
+    ENG: "Close",
+    CH: "关闭",
+    TH: "ปิด",
+    VI: "đóng",
+};
+  
+const inputData = {
+    KOR: collection_KOR,
+    ENG: collection_ENG,
+    CH: collection_CH,
+    TH: collection_TH,
+    VI: collection_VI,
+};
+
 const ConnectButton = () => {
     const router = useRouter();
     const {language} = useContext(LanguageContext);
     const {fontsize} = useContext(FontsizeContext);
     const {isPortrait} = useContext(ScreenOrientContext);
+    const [popup, setPopup] = useState(false);
     return(
         <div className={clsx(isPortrait ? "w-full h-[90%] flex flex-col space-y-4 screen-w:space-y-24 mx-auto justify-center items-center" : "w-3/4 h-3/4 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center")}>
+            {popup && inputData[language] && (
+              <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[92%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91.5%] screen-w:h-[92.7%] w-screen bg-Ablack bg-opacity-60 z-20")}>
+                <div className={clsx(isPortrait ? "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-end justify-center" : "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center justify-center")}>
+                  <button 
+                    className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
+                    onClick={()=> router.push(`/modelpage/${modelData[0].order}`)}
+                  >
+                      {popupText1[language]}
+                  </button>
+                  <button
+                    className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
+                    // onClick={()=> router.push(`/pastexhibit/${inputData[language][0][0].order}`)}
+                    >
+                      {popupText2[language]}
+                  </button>
+                
+                </div>
+                <button
+                    onClick={()=>setPopup(!popup)}
+                    className="absolute h-10 w-[200px] screen-w:h-28 screen-w:w-[500px] text-center text-base screen-w:text-4xl text-Awhite font-bold items-center bottom-28 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue">
+                    {popupText3[language]}
+                </button> 
+              </div>
+            )}
             <div className={clsx(isPortrait ? "flex h-[30%] w-3/4 items-center justify-center shadow-xl focus:shadow-none" : "flex h-2/3 w-3/4 items-center justify-center shadow-xl focus:shadow-none")}
                 onClick={()=>router.push("/exhibittest")}
             >
@@ -128,7 +186,7 @@ const ConnectButton = () => {
                 </div>
             </div>
             <div className={clsx(isPortrait ? "flex h-[30%] w-3/4 items-center justify-center shadow-xl focus:shadow-none" : "flex h-2/3 w-3/4 items-center shadow-xl focus:shadow-none")}
-                onClick={async ()=> router.push(`/modelpage/${modelData[0].order}`)}
+                onClick={()=> setPopup(!popup)}
             >
                 <div className={clsx(isPortrait ? "h-3/4 w-3/4 mx-auto" : "h-3/4 w-3/4 mx-auto")}>
                     <div className="flex flex-row space-x-4 justify-start screen-w:space-x-6 screen-w:justify-center">

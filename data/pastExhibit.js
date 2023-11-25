@@ -25,11 +25,8 @@ export const allExhibits = [
                         text: "이고운의 작업은 삶의 하루하루에서부터 시작한다. 일상을 고스란히 기록하는 것은 아니지만 어디에 머무르며 무엇을 보고 느끼는지가 중요하다. 작가는 동시대의 첨예한 담론, 거시적인 이슈들과는 살짝 거리를 두고 외부적 요인으로 발생하는 상념으로부터 자유로운 상태를 담으려 노력한다. 처음에는 세계 속 존재인 자신에게 집중했다. 먼발치의 눈밭 그리고 여성. 멀리 보이는 바다와 그 위의 사람들. 자연을 배경으로 생성되는, 현실과 환상이 맞닿은 듯한 몽환적 분위기는 이고운의 작업 초기부터 최근까지 지속되는 특징이다. 달무지개뿐 아니라 비와 눈, 구름 같은 날씨에 관한 기억, 봄과 겨울 같은 계절의 분위기, 현실임에도 현실을 벗어난 것 같은 낯선 풍경 등은 작가의 내면과 외부 세계를 연결 짓는 상상의 시작점이 된다. 눈과 비를 배경으로 ‘구름나무’와 하나가 된 얼굴을 가진 사람들은 구름처럼 자유로운 사유를 가능하게 하는 상상의 공간에 머무르는 것 같다. 정체성을 가장 명확히 드러내는 얼굴이 사라진 존재는 사회 규범과 통념이 규정한 한정된 개인을 벗어나게 한다. 사실 눈이 쌓이고 비가 오는 상황들은 일상에서 자주 일어난다. 그러나 신비로운 변화들이다. 무엇보다 눈과 비는 현실 속에서 현실을 벗어나게 해준다. 선명한 시야를 방해한다. 경계를 흐릿하게 해 여지를 남기고 정서에 영향을 끼친다. 세상은 명명백백한 구획을 요구한다. 그러나 모든 구획을 지워버리고 싶을 때가 있다. 현실에 닿은 두 발을 살짝 떼고 몽상의 시간을 갖게 하는 비와 눈이다. 미지의 시공간은 그렇게 상상된다. 결혼하고 어머니가 된 뒤 이고운은 아이들에게 자장가를 불러주듯 그림을 그리게 되었다. 특별히 의도하거나 계획한 것은 아니었다. 어머니가 된 여성의 노동이나 현실적 고충을 다루기 위한 것도 아니었다. 자기에게 집중할수록 작가의 머릿속에는 아이와 관련된 이미지들이 떠올랐다. 물이 흘러가고 계절이 바뀌듯 자연스러운 일이었다. 작품 속 장난감은 상상을 직조하는 훌륭한 소재로 작동한다. 아이와의 기억을 담은 작품들이 밤을 배경으로 하는 이유 역시 상상과 연결된다. 눈과 비가 오는 시간이 그렇듯 밤에는 날카로운 경계가 흐릿해진다. 신비로운 밤의 기운은 나른한 편안함을 제공하고 낮 동안의 번잡함과 스트레스로부터 자유로운 고요함을 선사한다. 무엇보다 아이에게 밤은 잠을 자고 꿈을 꾸는 시간이다. 작가는 아이가 어떤 꿈나라에 들어설지 상상해본다. 작가는 꿈의 시간을 그려본다. 아이의 꿈과 작가의 상상이 교차한다. 작가는 그렇게 몽상에 빠진다. 몽상은 생각하는 자아(cogito)의 활동이다. 몽상가들은 존재의 아래, 무(無) 위에 위치한 영혼의 상태이자 현실과 비현실의 매개 지대를 탐색하며 시적 몽상을 유발하는 의식의 주인이다. 몽상은 무의식의 활동인 꿈이 아니다. 몽상은 의식의 빛이 그 안에 지속되는 정신 활동이다. 의식은 몽상을 지탱하고 방향을 인도한다. 한편 이고운의 작품에 자주 등장하는 정원이나 풍경들 역시 일상에 존재하지만 일상을 벗어나는 것 같은 환상적인 상황, 여행지에서의 경험 등과 관련된 기억에 근거한다. 이고운이 창작하는 공간은 낭만적 헤테로토피아(heterotopia)와 같다. 현실 공간과도 다르고, 유토피아도 아닌 헤테로토피아는 일상과 단절된 특이한 공간이지만 현실에 존재하는, 양립할 수 없는 이질적 요소들로 구성된 공간이다. 작가는 이번에도 현실과 상상, 실재와 환상이 연결되는 경계를 넘나들며 부유한다. 현실과 비현실이 겹치는 순간이 반복되며 작가적 상상의 여지는 더 커진다. 이처럼 이고운이 초기부터 꾸준히 추구하는 작업 방식, 태도, 그리고 완성된 작품들은 모두 상상과 긴밀하다. 이미지의 지각과 함께 상상은 시작된다. 작가의 상상력은 지각 작용으로 받아들이게 된 이미지들을 변형시킨다. 외부의 공간과 내밀의 공간은 서로를 고무하며 자라난다. 객관적 사실보다 더 많은 가능성의 여지를 주는 시적인 공간이 만들어지고 내밀의 공간은 팽창한다. 상상력은 현존하는 이미지에서 보이지 않는 이미지를 떠올리게 하기에 작가는 이미지의 깊은 곳에 숨겨진 무언가를 발견하고 표현한다. 그런데 상상력의 주된 활동 무대인 몽상은 특정한 문제에 집중해서 논리적인 해결을 찾는 사색과 다르다. 그것은 뚜렷한 의지 없이 상상력의 활동으로 자연스럽게 이뤄지는 정신 활동이다. 그러나 꿈을 꾸는 것 같은 무의식의 상태가 아니라 의식의 빛이 존재하는 정신 활동이 몽상이기 때문에 작가는 생각하는 주체로서 자신을 중심에 놓을 수 있다. 완전한 무의식도, 완전한 의식도 아닌 상태의 활동, 합리주의적인 현실에 속하지 않는 비현실의 기능, 그러나 현실 세계에 뿌리를 갖는 것이 몽상이다. 그렇게 조금은 멍한 듯 편안한 상태에서 빠져드는 공상 속에서 작가는 느슨하게, 자연스럽게 이미지를 떠올리고 몽상한다. 그리고 작품에 펼쳐낸다. 이미지를 받아들여서 독자적으로 변형할 수 있는 상상력은 보편성을 갖기에 이고운의 작품을 보는 우리도 다양한 상상을 할 수 있다. 몽상의 철학적 범주라 말할 수 있는 무한은 우리의 내부에 있다. 현실의 삶이 억제하고 조심성이 멈추게 하지만, 고독 가운데에서 계속되는 존재의 팽창과 연결되는 그것. 작가(우리)는 무한한 세계 속에서 무한을 꿈꾼다. 그렇게 “지적 노고로부터 자유로운, 스르르 시작하고 끝나는” 작품이 선사하는 따뜻한 시공간, 무한의 세계에 조금 더 깊이 들어가 본다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
-                        
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 0, title: "정원의 자장가", imgname: "/2023/23-1/1-50x150.png", overview: "50x150cm", overview1: "캔버스에 아크릴, 2022"},
@@ -75,28 +72,28 @@ export const allExhibits = [
                             {order: 1, exhibit: "1979~현재 국내외 개인전 (서울, 파리, 도쿄, L.A) 40여회 개최"},
                         ],
                         group_exhibition: [
-                            {index: 0, order: 1, exhibit: "2021 김재관 회고전, 청주시립미술관"},
-                            {index: 1, order: 2, exhibit: "2021 시대와 개성 展, 해든미술관, 강화, 인천"},
-                            {index: 2, order: 3, exhibit: "2020 통인화랑, 서울"},
-                            {index: 3, order: 4, exhibit: "2019 한국현대미술 파리전 ‘New Dialogue’ 갤러리 89, 파리, 프랑스"},
-                            {index: 4, order: 5, exhibit: "2018 한국-프랑스 ‘New Dialogue’ 전, 쉐마미술관, 청주"},
-                            {index: 5, order: 6, exhibit: "2017 이스탄불비엔날레, “TASTE of TEA” 초대 출품 / Haydarpasa Terminal, 터키"},
-                            {index: 6, order: 7, exhibit: "2017 한·불 현대미술의 거장전 / 프랑스와 양평 초대전 / 양평군립미술관"},
-                            {index: 7, order: 8, exhibit: "2015 90년대 다무라·마키시대 이후 한일현대미술전 / 쉐마미술관, 청주"},
-                            {index: 8, order: 9, exhibit: "2015 제56회 베니스비엔날레 특별전 한국커미셔너"},
-                            {index: 9, order: 10, exhibit: "2015 사유로서의 드로잉전, 뮤지엄 산, 강원, 원주"},
-                            {index: 10, order: 11, exhibit: "2013 한중현대미술전 “必然中的偶然” / 사면공간화랑, 베이징, 중국"},
-                            {index: 11, order: 12, exhibit: "2013 문신미술상 수상작가 김재관 초대전 / 문신미술관, 창원, 서울"},
-                            {index: 12, order: 13, exhibit: "2012 Steps 갤러리, 도쿄, 일본"},
-                            {index: 13, order: 14, exhibit: "2008 한국추상회화;1958-2008전(서울시립미술관 기획초대), 서울"},
-                            {index: 14, order: 15, exhibit: "2007 제1회 뉴욕아시아현대미술전 / 뉴욕 pier 92, 미국"},
-                            {index: 15, order: 16, exhibit: "2003~2009 시카고, 퀼른, 뉴욕, 상하이, 북경, 아르코, 바젤 아트페어 등 출품"},
-                            {index: 16, order: 17, exhibit: "1997 마키 다무라 화랑, 도쿄, 일본"},
-                            {index: 17, order: 18, exhibit: "1989 L.A 아트코아 갤러리, L.A, 미국"},
-                            {index: 18, order: 19, exhibit: "1988 갤러리 현대, 서울"},
-                            {index: 19, order: 20, exhibit: "1988~1997 Ecole de Seoul 초대전 / 관훈갤러리, 서울"},
-                            {index: 20, order: 21, exhibit: "1987 제19회 쌍파울로비엔날레전 / 현대미술관, 브라질"},
-                            {index: 21, order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
+                            {order: 1, exhibit: "2021 김재관 회고전, 청주시립미술관"},
+                            {order: 2, exhibit: "2021 시대와 개성 展, 해든미술관, 강화, 인천"},
+                            {order: 3, exhibit: "2020 통인화랑, 서울"},
+                            {order: 4, exhibit: "2019 한국현대미술 파리전 ‘New Dialogue’ 갤러리 89, 파리, 프랑스"},
+                            {order: 5, exhibit: "2018 한국-프랑스 ‘New Dialogue’ 전, 쉐마미술관, 청주"},
+                            {order: 6, exhibit: "2017 이스탄불비엔날레, “TASTE of TEA” 초대 출품 / Haydarpasa Terminal, 터키"},
+                            {order: 7, exhibit: "2017 한·불 현대미술의 거장전 / 프랑스와 양평 초대전 / 양평군립미술관"},
+                            {order: 8, exhibit: "2015 90년대 다무라·마키시대 이후 한일현대미술전 / 쉐마미술관, 청주"},
+                            {order: 9, exhibit: "2015 제56회 베니스비엔날레 특별전 한국커미셔너"},
+                            {order: 10, exhibit: "2015 사유로서의 드로잉전, 뮤지엄 산, 강원, 원주"},
+                            {order: 11, exhibit: "2013 한중현대미술전 “必然中的偶然” / 사면공간화랑, 베이징, 중국"},
+                            {order: 12, exhibit: "2013 문신미술상 수상작가 김재관 초대전 / 문신미술관, 창원, 서울"},
+                            {order: 13, exhibit: "2012 Steps 갤러리, 도쿄, 일본"},
+                            {order: 14, exhibit: "2008 한국추상회화;1958-2008전(서울시립미술관 기획초대), 서울"},
+                            {order: 15, exhibit: "2007 제1회 뉴욕아시아현대미술전 / 뉴욕 pier 92, 미국"},
+                            {order: 16, exhibit: "2003~2009 시카고, 퀼른, 뉴욕, 상하이, 북경, 아르코, 바젤 아트페어 등 출품"},
+                            {order: 17, exhibit: "1997 마키 다무라 화랑, 도쿄, 일본"},
+                            {order: 18, exhibit: "1989 L.A 아트코아 갤러리, L.A, 미국"},
+                            {order: 19, exhibit: "1988 갤러리 현대, 서울"},
+                            {order: 20, exhibit: "1988~1997 Ecole de Seoul 초대전 / 관훈갤러리, 서울"},
+                            {order: 21, exhibit: "1987 제19회 쌍파울로비엔날레전 / 현대미술관, 브라질"},
+                            {order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
                         ],
                         paint: [
                             {order: 0, title: "Layer of Light - Relationship 2022-601", imgname: "/2023/23-2/1-130.3x97.jpg", overview: "130.3x97", overview1: "Acrylic on canvas, 2022"},
@@ -112,11 +109,9 @@ export const allExhibits = [
                         text: "김성미 작가에게 숲이란 존재로서, 작가는 최근 몇 년 동안 계속해서 숲을 모티브로 하여 시간에 따라 변화되는 모습을 모두 담아내고 있다. 우리들의 삶이 그렇듯이 세월의 변화를 수용하며 그 안에 작가 개인의 삶이 투영되는 은유적 표현을 통해 작가가 바라보는 ‘숲’을 감상하는 전시가 될 예정이다. 캔버스 평면을 넘어 디지털 작업으로 확장된 시간의 변화와 흔적의 구현을 통해 ‘자연과 함께 하는 삶’을 찾는다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 1, title: "숲의 잔상 2022-4", imgname: "/2023/23-2/2-91x91.jpg", overview: "91x91cm", overview1: "캔버스 위에 혼합 재료, 2022"},
@@ -132,11 +127,9 @@ export const allExhibits = [
                         text: "김연희 작가는 자신의 회화에서의 상징적 이미지를 ‘명상적 개념’에서 찾고자 한다. 작가의 화면에는 흑과 백이 공존하며 화면 안에는 단순함의 묘미에 무게를 두게 되며 추상 작업에서 쓰던 네모를 발전시켜 공간 구성에 활용 작업을 한다. 작가는 네모 안에 우주를 담아내고자 하는데 그 색은 검정 흑색이다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 2, title: "ACCEPT", imgname: "/2023/23-2/3-65.2x182.jpg", overview: "65.2x182cm", overview1: "Acrylic on canvas, 2022"},
@@ -152,11 +145,9 @@ export const allExhibits = [
                         text: "김영배(1947-2001 )작가는 모더니즘과 포스트모더니즘의 가교 역할을 하는 특유의 방법론을 고민했던 작고 작가로서 팝과 리얼리즘을 동시에 충돌시키고 선과 면, 구상과 레이어 등을 각각 충돌시키며 새로운 회화의 차원을 실험하던 작가였다. 그는 여러 방면에 열린 자세를 취하고 있었고 만화에도 관심이 많았기 때문에 상명대학교 만화학과의 교수를 지내며 많은 후학을 양성했다. ”무제“ 시리즈 형상적 이미지와 기하학적 패턴과 같은 언어의 조합으로 반복된 패턴으로 화면을 구성한다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 3, title: "패턴-동그라미2", imgname: "/2023/23-2/4-184x93.jpg", overview: "184x93cm", overview1: "Acrylic on paper, 1997"},
@@ -167,29 +158,29 @@ export const allExhibits = [
                         number: "05",
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김재남", 
-                        engname: "YoungBae Kim",
+                        engname: "Jaenam Kim",
                         imgname:"/2023/23-2/23-2-5.jpg", 
                         text: "김재남 작가의 <사라진 풍경(lost Landscape)>회화 시리즈는 문화적, 사회적 기억들을 내포하고 있는 특정 장소의 바다 이미지들을 채집하고 “낯설게 하기”를 통하여 불완전한 상태로 보여준다. 해석체(interpretant)로서의 기억들을 환기시키기 위해 검은색 목탄을 캔버스에 수없이 칠하고 문지르기를 반복하여 신체가 개입된 흑과 백의 단순한 색 면으로 치환시킨다.",
                         education: "",
                         individual_exhibition: [
-                            {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
-                            {order: 2, year: 2017, exhibit: "2017 사라진 풍경(벽과나사이갤러리, 서울)"},
-                            {order: 3, year: 2016, exhibit: "2016 흰 바람벽이 있어-백석(갤러리오, 서울)"},
-                            {order: 4, year: 2012, exhibit: "2012 Nostalgia 프로젝트(홍익대학교 현대미술관, 서울"},
-                            {order: 5, year: 2011, exhibit: "2011 두 개의 섬 프로젝트(CSP 111아트스페이스, 서울)"},
-                            {order: 6, year: 2006, exhibit: "2006 표류하는 영웅들 프로젝트(금호미술관, 서울)"},
+                            {order: 1, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
+                            {order: 2, exhibit: "2017 사라진 풍경(벽과나사이갤러리, 서울)"},
+                            {order: 3, exhibit: "2016 흰 바람벽이 있어-백석(갤러리오, 서울)"},
+                            {order: 4, exhibit: "2012 Nostalgia 프로젝트(홍익대학교 현대미술관, 서울"},
+                            {order: 5, exhibit: "2011 두 개의 섬 프로젝트(CSP 111아트스페이스, 서울)"},
+                            {order: 6, exhibit: "2006 표류하는 영웅들 프로젝트(금호미술관, 서울)"},
                         ],
                         group_exhibition: [
-                            {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
-                            {order: 2, year: 2017, exhibit: "2017 15회 이스탄불비엔날레 병행전-Taste of Tea(하이다파사, 이스탄불, 터키)"},
-                            {order: 3, year: 2017, exhibit: "2017 문래서유기-한, 중, 일, 인도 네트워크전(문래예술공장, 서울)"},
-                            {order: 4, year: 2017, exhibit: "2017 Fantastic Voyage(홍익대 현대미술관, 서울)"},
-                            {order: 5, year: 2017, exhibit: "2017 혜초 이후-한국·인도 문화의 소통(한국문화원, KcciGallery, 뉴델리, 인도)"},
-                            {order: 6, year: 2017, exhibit: "2017 갤러리30개관전(갤러리30, 서울)"},
-                            {order: 7, year: 2016, exhibit: "2016 New dream New future(Quartair, 헤이그, 네델란드)"},
-                            {order: 8, year: 2016, exhibit: "2016서울아트쇼 특별전 ‘한국미술의 주목할 작가 10인’(코엑스, 서울)"},
-                            {order: 9, year: 2016, exhibit: "2016 아트스테이지 싱가포르(마리나베이센즈 컨벤션센타, 싱가포르)"},
-                            {order: 10, year: 2016, exhibit: "2016 서울사진축제-열 개의 문장으로 쓴 편지(문래예술촌, 서울)"},
+                            {order: 1, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
+                            {order: 2, exhibit: "2017 15회 이스탄불비엔날레 병행전-Taste of Tea(하이다파사, 이스탄불, 터키)"},
+                            {order: 3, exhibit: "2017 문래서유기-한, 중, 일, 인도 네트워크전(문래예술공장, 서울)"},
+                            {order: 4, exhibit: "2017 Fantastic Voyage(홍익대 현대미술관, 서울)"},
+                            {order: 5, exhibit: "2017 혜초 이후-한국·인도 문화의 소통(한국문화원, KcciGallery, 뉴델리, 인도)"},
+                            {order: 6, exhibit: "2017 갤러리30개관전(갤러리30, 서울)"},
+                            {order: 7, exhibit: "2016 New dream New future(Quartair, 헤이그, 네델란드)"},
+                            {order: 8, exhibit: "2016서울아트쇼 특별전 ‘한국미술의 주목할 작가 10인’(코엑스, 서울)"},
+                            {order: 9, exhibit: "2016 아트스테이지 싱가포르(마리나베이센즈 컨벤션센타, 싱가포르)"},
+                            {order: 10, exhibit: "2016 서울사진축제-열 개의 문장으로 쓴 편지(문래예술촌, 서울)"},
                         ],
                         paint: [
                             {order: 4, title: "닿을 수 없는 지점, 보이지 않는 시점-여수(한국)", imgname: "/2023/23-2/5-130x130.jpg", overview: "130x130cm", overview1: "캔버스에 목탄, 2019"},
@@ -205,11 +196,9 @@ export const allExhibits = [
                         text: "박진명 작가는 청주의 대표적인 현대적 동양화 작가로 기억 속에 떠오르는 이미지를 그림으로 표현하면서 작가에게 스치듯 지나간 특정 장면들은 또 다른 기억과 이미지를 생산하고, 그 순간들을 겹쳐지는 것을 반복하며 하나의 새로운 장면이 돼 잔상으로 새긴다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 5, title: "Shimmery", imgname: "/2023/23-2/6-49x33.jpg", overview: "49x33cm", overview1: "화선지 위에 먹, 채색, 은분, 2019"},
@@ -225,11 +214,9 @@ export const allExhibits = [
                         text: "심재분 작가는 연꽃’이라는 대상을 넘어 대상의 본질을 꿰뚫어 자신의 언어로 다시 재현한다. 자연과 인간의 보이지 않는 존재를 재현하기 위해 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 담으며 느껴지는 초현실적인 사실을 작품화한다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 6, title: "초췌한 고뇌의 형상1", imgname: "/2023/23-2/7-100x140.jpg", overview: "100x140cm", overview1: "프린트 & 화인아트 벨벳, 2021"},
@@ -245,11 +232,9 @@ export const allExhibits = [
                         text: "이홍원 작가는 현란한 색채로 한국적인 미의식을 강하게 드러낸다. 그림 속에 등장하는 호랑이나 인물 형상은 전통성을 기초로 하면서도 현대미술로의 접근성을 내포한다. 주제나 표현의 자유로움이라든가 단순화하거나 과장된, 대범함, 익살의 미학과 해학이 가득한은 이홍원 작가의 작품이 지니는 큰 특징이며 고전과 현대, 신화의 세계와 현실의 세계가 동시성 속에 공존한다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 7, title: "연못이야기", imgname: "/2023/23-2/8-60x60.jpg", overview: "60x60cm", overview1: "Mix-Color Korean paper reied on panel, 2009"},
@@ -265,36 +250,36 @@ export const allExhibits = [
                         text: "임은수 작가는 페미니즘의 자의식을 가지고 여성의 관능과 감각을 체현하는 작가로서 특유의 자의식으로 인하여 모더니즘의 톱니에서 한층 멀어져 자신만의 문제의식과 움직을 통한 새로운 드로잉을 표현하는 작가이다. 2020년부터 최근까지 작가는 ‘나는 지금 이곳에 있다’ 퍼포먼스를 통해 지금의 사회, 기후, 환경의 현상을 특유의 위로와 순환의 마음을 담아 영상으로 담아 보여준다. 작가는 ‘나는 지금 이곳에 있다 7’에서 대청호수의 물의 순환 과정으로 들어가 합류한다. 그리고 자아를 확장해 대리자로서, 생명의 모체가 되어 이 시대 우리가 진정 소중히 여기고 보호해야 할 것이 무엇인가를, 상징적인 도구와 행위로 제시한다.",
                         education: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
                         individual_exhibition: [
-                            {order: 1, year: 2018, exhibit: "2018 Triple Artists Exhibition (쉐마미술관, 청주)"},
-                            {order: 2, year: 2016, exhibit: "2016 Eun Soo Lim Drawing (사라예보, 갤러리벨)"},
-                            {order: 3, year: 2013, exhibit: "2013 임은수 개인전 '지나가다' (갤러리 그림손그림손, 서울/ 쉐마미술관, 청주)"},
-                            {order: 4, year: 2010, exhibit: "2010 자인제노 갤러리 기획초대전 (자인제노 갤러리)"},
-                            {order: 5, year: 2009, exhibit: "2009 線 위의 線 (인사아트센터, 서울)"},
-                            {order: 6, year: 2007, exhibit: "2007 제 5회 올해의 좋은 작가 미술상 기획초대전 (무심갤러리, 청주)"},
-                            {order: 7, year: 2007, exhibit: "2007 나무 아래서 (갤러리 PICI, 서울)"},
-                            {order: 8, year: 2006, exhibit: "2006 당신의 초상 (무심 갤러리, 청주)"},
-                            {order: 9, year: 2006, exhibit: "2006 자라다-대전국제 아트페스티벌 (대전)"},
-                            {order: 10, year: 2005, exhibit: "2005 성원미술관 초대전(성원미술관, 홍천)"},
-                            {order: 11, year: 2002, exhibit: "2002 어떤 초월 (갤러리 타블로, 서울)"},
-                            {order: 12, year: 2001, exhibit: "2001 만남에 관한 보고서 (갤러리 신, 청주)"},
-                            {order: 13, year: 2001, exhibit: "2001 감추어지지 않는 것에 대하여 (스페이스 샘, 청주)"},
-                            {order: 14, year: 2000, exhibit: "2000 자라다 여성 작가 2인 초대전 (무심갤러이, 청주)"},
-                            {order: 15, year: 1997, exhibit: "1997 사람들 (청주 예술의 전당, 청주)"},
-                            {order: 16, year: 1995, exhibit: "1995 꽃을 밴 여인 (학천갤러이, 청주)"},
-                            {order: 17, year: 1992, exhibit: "1992 부드러운 수음자 (무심갤러리, 청주), (삼정미술관, 서울)"},
+                            {order: 1, exhibit: "2018 Triple Artists Exhibition (쉐마미술관, 청주)"},
+                            {order: 2, exhibit: "2016 Eun Soo Lim Drawing (사라예보, 갤러리벨)"},
+                            {order: 3, exhibit: "2013 임은수 개인전 '지나가다' (갤러리 그림손그림손, 서울/ 쉐마미술관, 청주)"},
+                            {order: 4, exhibit: "2010 자인제노 갤러리 기획초대전 (자인제노 갤러리)"},
+                            {order: 5, exhibit: "2009 線 위의 線 (인사아트센터, 서울)"},
+                            {order: 6, exhibit: "2007 제 5회 올해의 좋은 작가 미술상 기획초대전 (무심갤러리, 청주)"},
+                            {order: 7, exhibit: "2007 나무 아래서 (갤러리 PICI, 서울)"},
+                            {order: 8, exhibit: "2006 당신의 초상 (무심 갤러리, 청주)"},
+                            {order: 9, exhibit: "2006 자라다-대전국제 아트페스티벌 (대전)"},
+                            {order: 10, exhibit: "2005 성원미술관 초대전(성원미술관, 홍천)"},
+                            {order: 11, exhibit: "2002 어떤 초월 (갤러리 타블로, 서울)"},
+                            {order: 12, exhibit: "2001 만남에 관한 보고서 (갤러리 신, 청주)"},
+                            {order: 13, exhibit: "2001 감추어지지 않는 것에 대하여 (스페이스 샘, 청주)"},
+                            {order: 14, exhibit: "2000 자라다 여성 작가 2인 초대전 (무심갤러이, 청주)"},
+                            {order: 15, exhibit: "1997 사람들 (청주 예술의 전당, 청주)"},
+                            {order: 16, exhibit: "1995 꽃을 밴 여인 (학천갤러이, 청주)"},
+                            {order: 17, exhibit: "1992 부드러운 수음자 (무심갤러리, 청주), (삼정미술관, 서울)"},
                         ],
                         group_exhibition: [
-                            {order: 1, year: 2020, exhibit: "한중 국제미술교류전 조우여상전 (쉐마미술관, 청주)"},
-                            {order: 2, year: 2020, exhibit: "후기 에스팩트 현대미술동인회 현대미술전 서원경산책 (쉐마미술관, 청주)"},
-                            {order: 3, year: 2020, exhibit: "한국, 프랑스 Korean Artists 특별전(쉐마미술관, 청주)"},
-                            {order: 4, year: 2020, exhibit: "현장 퍼포먼스 '나는 지금 이곳에 있다 3-속리산'(속리산 조각공원주변, 충북 보은)"},
-                            {order: 5, year: 2020, exhibit: "충북미술페스티벌 참여 퍼포먼스 (청주 문화제조창 제 5갤러리, 청주)"},
-                            {order: 6, year: 2020, exhibit: "충북여성미술작가전 (숲갤러리, 청주)"},
-                            {order: 7, year: 2019, exhibit: "나가사키에서 사유하는 예술(나가사키 현대미술관, 나가사키)"},
-                            {order: 8, year: 2019, exhibit: "후기 에스펙트 좌고우면전 (쉐마미술관, 청주)"},
-                            {order: 9, year: 2019, exhibit: "한국-프랑스 현대미술전“New Dialogue”(Galerie89, 파리)"},
-                            {order: 10, year: 2019, exhibit: "현장 퍼프먼스 ‘파종’(몽쉘미셀수 수도원, 프랑스)"},
-                            {order: 11, year: 2019, exhibit: " 조각조각 -Pieces of times 전 (터미널 작은미술관, 정선)"},
+                            {order: 1, exhibit: "2020 한중 국제미술교류전 조우여상전 (쉐마미술관, 청주)"},
+                            {order: 2, exhibit: "2020 후기 에스팩트 현대미술동인회 현대미술전 서원경산책 (쉐마미술관, 청주)"},
+                            {order: 3, exhibit: "2020 한국, 프랑스 Korean Artists 특별전(쉐마미술관, 청주)"},
+                            {order: 4, exhibit: "2020 현장 퍼포먼스 '나는 지금 이곳에 있다 3-속리산'(속리산 조각공원주변, 충북 보은)"},
+                            {order: 5, exhibit: "2020 충북미술페스티벌 참여 퍼포먼스 (청주 문화제조창 제 5갤러리, 청주)"},
+                            {order: 6, exhibit: "2020 충북여성미술작가전 (숲갤러리, 청주)"},
+                            {order: 7, exhibit: "2019 나가사키에서 사유하는 예술(나가사키 현대미술관, 나가사키)"},
+                            {order: 8, exhibit: "2019 후기 에스펙트 좌고우면전 (쉐마미술관, 청주)"},
+                            {order: 9, exhibit: "2019 한국-프랑스 현대미술전“New Dialogue”(Galerie89, 파리)"},
+                            {order: 10, exhibit: "2019 현장 퍼프먼스 ‘파종’(몽쉘미셀수 수도원, 프랑스)"},
+                            {order: 11, exhibit: "2019 조각조각 -Pieces of times 전 (터미널 작은미술관, 정선)"},
                         ],
                         paint: [
                             {order: 8, title: "변이", imgname: "/2023/23-2/9-72.7x91.jpg", overview: "72.9x91cm", overview1: "water acrylic on canvas, 2015"},
@@ -310,11 +295,9 @@ export const allExhibits = [
                         text: "전년일 작가(1945-2021)는 현대사회의 산업의 발달로 인해 사라진 인간성 회복을 담는 동시에 우리 민족이 오래전부터 숭배하며 생활에 매우 가깝게 사용한 오방색을 작품의 소재로 사용한다. 오방색은 우리의 삶의 즐거움, 슬픔, 등을 근본으로 현대화된 시각화 작품을 보여준다. 시각화된 작품은 샤머니즘 적이면서도 원시적으로 다가온다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 9, title: "그것", imgname: "/2023/23-2/10-160x30.jpg", overview: "160x30cm", overview1: "아크릴물감 철망 등 나무 색한지, 2021"},
@@ -330,11 +313,9 @@ export const allExhibits = [
                         text: "기산 정명희 작가는 한지와 먹을 중심으로 금강과 우주적 이야기를 다양한 재료와 색으로 펼쳐왔다. 근래에는 문인화의 정신과 빗대 희 바탕에 검은 먹을 바탕으로 삶의 근본을 말하고 있다. 화면 가득 기산의 새가 검은 먹으로 혹은 여백으로 나타난다. 이새는 마치 십자가와도 같은 근본적인 조형으로 화면을 분활하며 삶을 자유롭게 날아가는 모습으로 시각화하고 있다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 10, title: "Freedom trail 324", imgname: "/2023/23-2/11-88.5x138.5.jpg", overview: "88.5x138.5cm", overview1: "한지 먹, 2022"},
@@ -350,11 +331,9 @@ export const allExhibits = [
                         text: "조현애 작가는 캔버스에 ‘시간’을 담아낸다. 사라진 시간과 현재의 시간이 공존하는 작가의 작품은 시간의 누적을 작가가 만들어내는 공간에 담고 있다. 특히 작가의 가상공간에는 과거와 현재의 이미지가 공존하며 조선 시대 산수화, 풍속화, 서양의 명화 들이 함께 여려 층위의 공간들을 형성하고 겹쳐있다. 2차원 평면 안에 과거와 현재의 공존은 작가만의 ‘초현실적’ 세계를 형성하며 시각적 은유를 만들어내고 있다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 11, title: "Unknown time 2015", imgname: "/2023/23-2/12-116.8x91.jpg", overview: "116.8x91cm", overview1: "Acrylic on canvs, 2015"},
@@ -370,11 +349,9 @@ export const allExhibits = [
                         text: "최민건 작가는 경계의 모호함으로 인해 가상과 실제, 주체와 객체 사이에서 방황하면서 즐기고 있는 우리들의 모습을 표현한다. 화면에서 착시효과를 주는 개는 가상과 실제의 경계를 모호하게 하며, 인간과 다른 동물 중 가장 친숙한 개의 모습을 표현함으로써 우리와 다름을 인지함과 동시에 동질성을 느끼게 한다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 12, title: "Borderline between 17-3001", imgname: "/2023/23-2/13-130x489.jpg", overview: "130x489cm", overview1: "캔버스에 아크릴릴, 2017"},
@@ -436,7 +413,7 @@ export const allExhibits = [
                         individual_exhibition: [
                             {order: 1, exhibit: "2022 “이규선Collection” 이안테라스개인초대전시, 청주"},
                             {order: 2, exhibit: "2022 “Someone’s things”누군가의 것들. PA갤러리, 청주"},
-                            {order: 3, exhibit: "021 “잉여로운 행위의 서막” 이 작가의 사생활. 갤러리, 청주"},                        
+                            {order: 3, exhibit: "2021 “잉여로운 행위의 서막” 이 작가의 사생활. 갤러리, 청주"},                        
                         ],
                         group_exhibition: [
                             {order: 1, exhibit: "2022 <숲과 사람 그 사이> 이규선,최재영,신용재,이은아 4인전, PA갤러리, 청주"},
@@ -689,10 +666,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "1979~현재 국내외 개인전 (서울, 파리, 도쿄, L.A) 40여회 개최"},
                         ],
                         group_exhibition: [
-                            // {index: 0, order: 1, exhibit: "2021 김재관 회고전, 청주시립미술관"},
                         ],
                         paint: [
                             {order: 1, title: "Thing_Rock 23-012", imgname: "/2023/23-5/2-163.3x97.2.jpg", overview: "163.3x97.2cm", overview1: "Acrylic on Canvas, 2023"},
@@ -770,7 +745,7 @@ export const allExhibits = [
                             {order: 24, exhibit: "2016 순천만 국제환경미술제 (순천만 국가정원 미술관. 순천)"},
                         ],
                         paint: [
-                            {order: 3, title: "현대인의 성경경", imgname: "/2023/23-5/4-31x37.jpg", overview: "31x37x30cm", overview1: "물에 담긴 책, 유리 상자, 입체 설치, 2023"},
+                            {order: 3, title: "현대인의 성경", imgname: "/2023/23-5/4-31x37.jpg", overview: "31x37x30cm", overview1: "물에 담긴 책, 유리 상자, 입체 설치, 2023"},
                         ]
                     },
                     {
@@ -783,10 +758,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 4, title: "아버지 전상서_Letters to parents", imgname: "/2023/23-5/5-210x140.jpg", overview: "210x140cm", overview1: "천에 바느질, 판넬, 2017-2019"},
@@ -802,10 +775,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 5, title: "잠자리와 프랙털", imgname: "/2023/23-5/6-58x85.jpg", overview: "58x85cm", overview1: "구리판, 2021"},
@@ -866,10 +837,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 7, title: "Memory Gap-delight I", imgname: "/2023/23-5/8-147x147.jpg", overview: "147x147cm", overview1: "Mixed media on Korean Paper, 2021"},
@@ -885,10 +854,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 8, title: "대지의 희망", imgname: "/2023/23-5/9-75x75.jpg", overview: "75x75cm", overview1: "화인아트 벨벳, 2023"},
@@ -904,10 +871,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 9, title: "Untitled", imgname: "/2023/23-5/10-24x20.jpg", overview: "24x20cm", overview1: "금속 CNC조각, 한지에 아트스틱, 2018"},
@@ -923,10 +888,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 10, title: "Indonesian Jaran Kepang Flat horse", imgname: "/2023/23-5/11-63x93.jpg", overview: "63x93cm", overview1: "Colour Wood cut Printon Hanji Paper, 2023 Netherlands"},
@@ -942,10 +905,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 11, title: "Scrap 1", imgname: "/2023/23-5/12-70x60.jpg", overview: "70x60cm", overview1: "Acrylic on Canvas, 2023 Netherlands"},
@@ -961,10 +922,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 12, title: "The game of percentage %", imgname: "/2023/23-5/13-29.7x21.jpg", overview: "29.7x21cm", overview1: "Mix medium on Paper, 8 piece, 2019, India"},
@@ -980,10 +939,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 13, title: "Embracing Social Consciousness", imgname: "/2023/23-5/14-55.2x91.4.jpg", overview: "55.2x91.4cm", overview1: "Photo(Print), 2023, India"},
@@ -999,10 +956,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 14, title: "Over Think", imgname: "/2023/23-5/15-37x60.jpg", overview: "37x60cm", overview1: "2022 Installation Photo(Print), 2023, Thailand"},
@@ -1018,10 +973,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 15, title: "Shuffle off", imgname: "/2023/23-5/16-15x13.jpg", overview: "15x13x26cm", overview1: "Yellow ropes in Buddhist image from, 2023, Thailand"},
@@ -1077,10 +1030,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 17, title: "昆虫肖像NO3", imgname: "/2023/23-5/18-120x100.png", overview: "120x100cm", overview1: "Oil on Canvas, 2023, China"},
@@ -1096,10 +1047,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 18, title: "Grid", imgname: "/2023/23-5/19-162x112.jpg", overview: "162x112cm", overview1: "Acrylic on Canvas, 2021, Japan"},
@@ -1331,10 +1280,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "1979~현재 국내외 개인전 (서울, 파리, 도쿄, L.A) 40여회 개최"},
                         ],
                         group_exhibition: [
-                            // {index: 0, order: 1, exhibit: "2021 김재관 회고전, 청주시립미술관"},
                         ],
                         paint: [
                             {order: 5, title: "Our work", imgname: "/2023/23-6/6-168x55.jpg", overview: "168x55cm", overview1: "패브릭 바느질 작업, 2023"},
@@ -1350,10 +1297,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "1979~현재 국내외 개인전 (서울, 파리, 도쿄, L.A) 40여회 개최"},
                         ],
                         group_exhibition: [
-                            // {index: 0, order: 1, exhibit: "2021 김재관 회고전, 청주시립미술관"},
                         ],
                         paint: [
                             {order: 6, title: "그... 봄", imgname: "/2023/23-6/7-110x80.jpg", overview: "110x80cm", overview1: "종이 위에 먹, 과슈, 2023"},
@@ -1369,10 +1314,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 7, title: "생각에 대한 생각 1", imgname: "/2023/23-6/8-30x30.png", overview: "30x30cm", overview1: "화인아트 벨벳 사진프린트, 2023"},
@@ -1388,10 +1331,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 8, title: "검은벽", imgname: "/2023/23-6/9-33.4x24.2.jpg", overview: "33.4x24.2cm", overview1: "Oil on canvas, 2021"},
@@ -1407,10 +1348,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 9, title: "untitled", imgname: "/2023/23-6/10-145.5x112.1.png", overview: "145.5x112.1cm", overview1: "설치, 2023"},
@@ -1426,10 +1365,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 10, title: "夢中果", imgname: "/2023/23-6/11-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "Acrylic on canvas, 2023"},
@@ -1490,10 +1427,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 12, title: "A borderline between", imgname: "/2023/23-6/13-60.6x200.jpg", overview: "60.6x200cm", overview1: "천 위에 아크릴 과슈, 2023"},
@@ -1509,10 +1444,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 13, title: "자화상", imgname: "/2023/23-6/14-120x180.jpg", overview: "120x180cm", overview1: "천에 바느질 후 채색, 2023"},
@@ -1528,10 +1461,8 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, year: 2018, exhibit: "2018 ‘검은 소금을 찾아서’(무풍지대 아트스페이스, 북경, 중국)"},
                         ],
                         group_exhibition: [
-                            // {order: 1, year: 2017, exhibit: "2017 바다미술제-Ars Ludens(다대포, 부산)"},
                         ],
                         paint: [
                             {order: 14, title: "Plastic NO-45", imgname: "/2023/23-6/15-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
@@ -1791,7 +1722,7 @@ export const allExhibits = [
                     {
                         order: 0, 
                         number: "01",
-                        title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
+                        title:"숨을 위한 시간 (Time for Breath)", 
                         name: "임은수", 
                         engname: "Eunsoo Lim",
                         imgname:"/2023/23-8/23-8-1.png", 
@@ -1952,6 +1883,453 @@ export const allExhibits = [
                     },      
                 ],
             },
+            {
+                order:10, 
+                type:"쉐마미술관 청년 작가 기획전", 
+                title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                time1: "2023/11/17 ~ 2023/11/28, 2023/11/29 ~ 2023/12/10", 
+                artist1: "김세은, 김수완, 김유빈, 서지연, 신해인, 오은정, 윤선재, 이도훈, 이하늘, 진형준, 권소영, 기 유, 김도훈, 김지훈, 심규봉, 이승지, 임재현, 정영훈, 정지용, 한예진, 홍명기", 
+                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                explanation: "쉐마미술관은 자신의 정서적 내면을 그림으로 다잡아 가는 젊은 예술가들과 이제 막 졸업하거나 새로운 시작을 앞둔 신생 작가들에게 기회를 주고자 하며 지속적인 지역 예술의 균형과 예술 생태계 구축을 위해 매년 청년 작가들 기획전을 진행합니다. 2023 불안정한 가능성 展은 청년 작가들의 적극적인 작업 태도와 실험정신, 도전정신을 지지하며 지역 청년 예술가들에게 새로운 도전의 기회가 되어 우리 지역의 예술 생태계가 만들어지길 희망하는 전시입니다. Unstable Possibility가 의미하는 것처럼 청년 작가들은 불안정하지만, 무한한 가능성을 담고 있습니다. 불안정한 이성과 세계에 대한 자기만의 인식을 다양한 방법으로 시각화하며 각자의 일상과 살아가는 개인들의 이야기들에서부터 우리가 살아가는 세상과 예술에 대한 사유들을 작품에 담아내는 청년 작가들의 전시를 통해 새로운 가능성을 엿보려 합니다. 이제 막 졸업을 하고 자신이 맞닿은 단면과 예술가적 시선은 그들을 둘러싼 환경과 작가의 의식이 결합해 새로운 창작품을 만들어 내며 자신의 정서적 내면을 그림으로 다잡아 가는 젊은 예술가들의 시선에 주목하려 합니다. 단편적인 소재를 가지고 삶의 단면을 드러내며 자신의 세계를 구축해 가는 1부 김세은, 김수완, 김유빈, 서지연, 신해인, 오은정, 윤선재, 이도훈, 이하늘, 진형준 2부 권소영, 김도훈, 김지훈, 심규봉, 이승지, 기유, 정영훈, 정지용, 한예진, 홍명기 작가 총 20명의 청년 작가를 소개하려 합니다.",         
+                author: "",
+                img: "/img/exhibitpage/posters/2023/23-10.jpg",
+                artist: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "김세은", 
+                        engname: "Seeun Kim",
+                        imgname:"/2023/23-10/23-10-1.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 0, title: "행복", imgname: "/2023/23-10/1-394x545.jpg", overview: "394x545cm", overview1: "아크릴, 2023"},
+                        ]
+                    },   
+                    {
+                        order: 1, 
+                        number: "02",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "김수완", 
+                        engname: "Soowan Kim",
+                        imgname:"/2023/23-10/23-10-2.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+                        ],
+                        group_exhibition: [
+                        ],
+                        paint: [
+                            {order: 1, title: "꿈 속에서", imgname: "/2023/23-10/2-59.7x42.7.jpg", overview: "59.7x42.7cm", overview1: "캔버스에 Oil, 2023"},
+                        ]
+                    },   
+                    {
+                        order: 2, 
+                        number: "03",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "김유빈", 
+                        engname: "Yoobin Kim",
+                        imgname:"/2023/23-10/23-10-3.jpg", 
+                        text: "",
+                        education: "배재대학교 아트앤웹툰학과 졸업",
+                        individual_exhibition: [
+                     
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2022 대전국제아트쇼 청년작가전 (DCC 대전 컨벤션센터 제2전시장)"},
+                            {order: 2, exhibit: "2022 #Self_I 전 (강남 유나이티드 갤러리)"},
+                            {order: 3, exhibit: "2022 대전시 미술대전 특선 (대전시립미술관)"},
+                            {order: 4, exhibit: "2021 내 안의 연결•고리 전 (배재대학교 U-STORY 1층 전시실)"},
+                            {order: 5, exhibit: "2021 MBC 금강 미술대전 입선 (대전 MBC 갤러리M)"},
+                            {order: 6, exhibit: "2021 대전시 미술대전 입선 (대전시립미술관)"},
+                        ],
+                        paint: [
+                            {order: 2, title: "", imgname: "/2023/23-10/3-30x29.8.jpg", overview: "", overview1: ""},
+                            {order: 3, title: "대비", imgname: "/2023/23-10/4-116.8x91.jpg", overview: "116.8x91cm", overview1: "장치에 채색, 2023"},
+                        ]
+                    },   
+                    {
+                        order: 3, 
+                        number: "04",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "서지연", 
+                        engname: "Jiyeon Seo",
+                        imgname:"/2023/23-10/23-10-4.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 4, title: "공구함 속 재료들", imgname: "/2023/23-10/5-27x22.jpg", overview: "27x22cm", overview1: "아크릴, 2022"},
+                        ]
+                    },   
+                    {
+                        order: 4, 
+                        number: "05",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "신해인", 
+                        engname: "Haein Shin",
+                        imgname:"/2023/23-10/23-10-5.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 5, title: "", imgname: "/2023/23-10/6-30x30.jpg", overview: "", overview1: ""},
+                         
+                        ]
+                    },  
+                    {
+                        order: 5, 
+                        number: "06",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "윤선재", 
+                        engname: "Sunjae Yoon",
+                        imgname:"/2023/23-10/23-10-6.png", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 6, title: "빛나는 시선1", imgname: "/2023/23-10/7-30x20.png", overview: "", overview1: ""},
+                            {order: 7, title: "빛나는 시선2", imgname: "/2023/23-10/8-30x20.png", overview: "", overview1: ""},                         
+                        ]
+                    },   
+                    {
+                        order: 6, 
+                        number: "07",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "이도훈", 
+                        engname: "Dohoon Lee",
+                        imgname:"/2023/23-10/23-10-7.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 8, title: "셀픽", imgname: "/2023/23-10/9-59.7x42.7.jpg", overview: "", overview1: "디지털 프린트에 아크릴릭, 2023"},
+                        ]
+                    }, 
+                    {
+                        order: 7, 
+                        number: "08",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "이하늘", 
+                        engname: "Haneul Lee",
+                        imgname:"/2023/23-10/23-10-8.png", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 9, title: "밥상", imgname: "/2023/23-10/10-49.4x49.4.png", overview: "49.4x49.4cm", overview1: "아크릴, 2023"},
+                        ]
+                    }, 
+                    {
+                        order: 8, 
+                        number: "09",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "진형준", 
+                        engname: "Hyungjun Jin",
+                        imgname:"/2023/23-10/23-10-9.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 10, title: "", imgname: "/2023/23-10/11-29.5x30.jpg", overview: "", overview1: ""},
+                        ]
+                    }, 
+                    {
+                        order: 9, 
+                        number: "10",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "권소영", 
+                        engname: "Soyoung Kwon",
+                        imgname:"/2023/23-10/23-10-10.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 11, title: "안식처", imgname: "/2023/23-10/12-53x45.5.jpg", overview: "53x45.5cm", overview1: "캔버스에 아크릴릭, 2023"},
+                        ]
+                    }, 
+                    {
+                        order: 10, 
+                        number: "11",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "김도훈", 
+                        engname: "Dohoon Kim",
+                        imgname:"/2023/23-10/23-10-11.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 12, title: "끝에 다다라", imgname: "/2023/23-10/13-90.9x72.7.jpg", overview: "90.9x72.7cm", overview1: "캔버스에 유채, 2023"},
+                        ]
+                    }, 
+                    {
+                        order: 11, 
+                        number: "12",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "김지훈", 
+                        engname: "Jihoon Kim",
+                        imgname:"/2023/23-10/23-10-12.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 13, title: "심연", imgname: "/2023/23-10/14-130.3x97.jpg", overview: "130.3x97cm", overview1: "면끈 벨벳 끈 비닐 혼합재료, 2023"},
+                            {order: 14, title: "사유의 숲", imgname: "/2023/23-10/15-72.7x72.7.jpg", overview: "72.7x72.7cm", overview1: "종이에 먹 채색, 2023"},
+                        ]
+                    }, 
+                    {
+                        order: 12, 
+                        number: "13",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "심규봉", 
+                        engname: "Kyubong Shim",
+                        imgname:"/2023/23-10/23-10-13.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 15, title: "", imgname: "/2023/23-10/16-30x30.jpg", overview: "", overview1: ""},
+                        ]
+                    }, 
+                    {
+                        order: 13, 
+                        number: "14",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "이승지", 
+                        engname: "Seungjee Lee",
+                        imgname:"/2023/23-10/23-10-14.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+         
+                        ],
+                        paint: [
+                            {order: 16, title: "", imgname: "/2023/23-10/17-23.4x30.jpg", overview: "", overview1: ""},
+                        ]
+                    }, 
+                    {
+                        order: 14, 
+                        number: "15",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "임재현", 
+                        engname: "Jaehyun Lim",
+                        imgname:"/2023/23-10/23-10-15.jpg", 
+                        text: "",
+                        education: "배재대학교 아트앤웹툰학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2023, 대전 갤러리 단체전"},
+                            {order: 2, exhibit: "2023, 장애예술인 미술작품 전시회, 대전광역시 서구"},
+                            {order: 3, exhibit: "2023 mbc 지역 대학 초대전"},
+                            {order: 4, exhibit: "2023 배재대학교 미로회 그린나래 전시"},
+                            {order: 5, exhibit: "2022 대전시 미술대전 특선"},
+                            {order: 6, exhibit: "2022 배재대학교 미로회 그린나래 전시"},
+                            {order: 7, exhibit: "2022 mbc 청년 작가전 전시"},
+                            {order: 8, exhibit: "2022 personality of the times 이미정갤러리 전시"},
+                            {order: 9, exhibit: "2021 테미오래 3기 연결된 상상 전시"},
+                        ],
+                        paint: [
+                            {order: 17, title: "", imgname: "/2023/23-10/18-25.9x30.jpg", overview: "", overview1: ""},
+                        ]
+                    }, 
+                    {
+                        order: 15, 
+                        number: "16",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "기유", 
+                        engname: "Yu Gi",
+                        imgname:"/2023/23-10/23-10-16.jpg", 
+                        text: "",
+                        education: "배재대학교 아트앤웹툰학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2022, 동인전,을지로 빈칸"},
+                            {order: 2, exhibit: "2022, 단체전,대전 현대갤러리 작품 참여"},
+                            {order: 3, exhibit: "2022, 단체전, 수원아트페어 청년작가 부문 참여"},
+                            {order: 4, exhibit: "2022, 단체전, 이공갤러리"},
+                            {order: 5, exhibit: "2022,단체전, MBC갤러리"},
+                            {order: 6, exhibit: "2022, 개인전, 세종예술소"},
+                            {order: 7, exhibit: "2022, 단체전, 모아도갤러리"},
+                            {order: 8, exhibit: "2022, 단체전, 이미정갤러리"},
+                            {order: 9, exhibit: "2021, 동인전, 배재 U Story"},
+                            {order: 10, exhibit: "2021, 동인전, 동양장비원"},
+                        ],
+                        paint: [
+                            {order: 18, title: "", imgname: "/2023/23-10/19-21x29.jpg", overview: "21x29cm", overview1: ""},
+                        ]
+                    }, 
+                    {
+                        order: 16, 
+                        number: "17",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "정영훈", 
+                        engname: "Younghoon Chung",
+                        imgname:"/2023/23-10/23-10-17.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+        
+                        ],
+                        paint: [
+                            {order: 19, title: "고립의 시대", imgname: "/2023/23-10/20-25.3x30.jpg", overview: "", overview1: ""},
+                        ]
+                    }, 
+                    {
+                        order: 17, 
+                        number: "18",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "한예진", 
+                        engname: "Yejin Han",
+                        imgname:"/2023/23-10/23-10-18.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+        
+                        ],
+                        paint: [
+                            {order: 20, title: "시선1", imgname: "/2023/23-10/21-35x27.5.jpg", overview: "35x27.5cm", overview1: "캔버스에 아크릴, 2023"},
+                            {order: 21, title: "시선2", imgname: "/2023/23-10/22-35x27.5.jpg", overview: "35x27.5cm", overview1: "캔버스에 아크릴, 2023"},
+                        ]
+                    }, 
+                    {
+                        order: 18, 
+                        number: "19",
+                        title: "2023 불안정한 가능성 -청년신생작가 전시", 
+                        name: "홍명기", 
+                        engname: "Myunggi Hong",
+                        imgname:"/2023/23-10/23-10-19.jpg", 
+                        text: "",
+                        education: "청주대학교 아트앤패션 디자인학과 졸업",
+                        individual_exhibition: [
+
+                        ],
+                        group_exhibition: [
+        
+                        ],
+                        paint: [
+                            {order: 22, title: "조류 공포증", imgname: "/2023/23-10/23-45x45.jpg", overview: "45x45cm", overview1: "오일파스텔-canvas-2023"},
+                        ]
+                    }, 
+                ],
+            },
+            {
+                order:11, 
+                type:"쉐마미술관 기획초대전", 
+                title:"‘괴산의 그림쟁이’ 황창배 작고 22주기 기획초대전", 
+                time1: "2023/12/15 ~ 2024/01/28", 
+                artist1: "황창배", 
+                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                explanation: "황창배는 서울대학교 미술대학 동양화과 및 동 대학원을 졸업했다. 명지전문대학교, 동덕여자대학교, 경희대학교, 이화여자대학교에서 교수를 역임했으며, 제24회, 25회 대한민국 미술전람회 특선, 제26회 대한민국 미술전람회 문화공보부장관상(<秘31>출품), 제27회 대한민국미술전람회 대통령상(<秘51>출품), 1987년 선 미술상, 1991년 토탈미술상, 2019년 석재문화상을 수상하였다. 서울, 밀라노, 보스톤, 파리 등에서 9회의 개인전을 개최하였고, 전각협회전, 일연회전, 국립현대미술관, 서울시립미술관, 호암갤러리 외 다수의 그룹전 및 초대전을 개최하였다. 그의 작품은 청와대, 국회의사당, 국립현대미술관, 서울시립미술관 등에 소장되어있다.",         
+                author: "황창배",
+                img: "/img/exhibitpage/posters/2023/23-11.jpg",
+                artist: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"‘괴산의 그림쟁이’ 황창배 작고 22주기 기획초대전", 
+                        name: "황창배", 
+                        engname: "Changbae Hwang",
+                        imgname:"/2023/23-11/23-11-1.jpg", 
+                        text: "나는 내 그림을 통하여 어떤 메세지를 강하게 전달하겠다는 생각은 별로 하지 않는다. 그래서 작업에 들어가기 전에 무엇을 그릴 것인가에 대한 구체적인 계획이 없다. 그러나 반면에 계획이 없기에 화면을 대할 때마다 막연하고 두려울 때도 있어서 마치 암흑 속에 갇혀 있는 것 같기도 하다. 나는 그림마다 그 당시의 즉흥적 감정에 충실하려 노력한다. 나에게는 표현된 대상이 주는 의미의 진폭은 그리 크지 않다. 나는 그 표현된 구체적 대상들이 내가 의도하고자 하는 최종의 것이 아니라는 것을 알고 있기 때문이다.",
+                        education: "서울대학교 미술대학 회화과 졸업, 서울대학교 대학원 회화전공 졸업",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "1998 제9회 개인전, 선화랑, 서울"},
+                            {order: 2, exhibit: "1997 제8회 개인전, Galerie Gana-Beaubourg. 파리, 프랑스"},
+                            {order: 3, exhibit: "1996 제7회 개인전, 예화랑, 서울"},
+                            {order: 4, exhibit: "1993 제6회 개인전, Gallery Fine Art, 보스톤, 미국"},
+                            {order: 5, exhibit: "1991 제5회 개인전. 월드갤러리, 부산"},
+                            {order: 6, exhibit: "1991 제4회 개인전. 갤러리 상문당, 두손갤러리, 서울"},
+                            {order: 7, exhibit: "1990 제3회 개인전. Gallery Carlo Grosetti, 밀라노 이탈리아"},
+                            {order: 8, exhibit: "1987 제2회 개인전. 선화랑, 서울"},
+                            {order: 9, exhibit: "1981 제1회 개인전. 동산방갤러리, 서울"},
+                        ],
+                        group_exhibition: [
+            
+                        ],
+                        paint: [
+                            {order: 0, title: "탄생, 시련, 기적, 사랑, 영생, 부활", imgname: "/2023/23-11/1-71.6x72.7.jpg", overview: "310x70cm", overview1: "캔버스에 아크릴릭, 1997"},
+                            {order: 1, title: "탄생, 시련, 기적, 사랑, 영생, 부활", imgname: "/2023/23-11/2-71.7x72.8.jpg", overview: "310x70cm", overview1: "캔버스에 아크릴릭, 1997"},
+                            {order: 2, title: "부활하신 예수님", imgname: "/2023/23-11/3-45x45.jpg", overview: "45x45cm", overview1: "캔버스에 아크릴릭, 1998"},
+                            {order: 3, title: "엘리야의 기도", imgname: "/2023/23-11/4-45x45.jpg", overview: "45x45cm", overview1: "캔버스에 아크릴릭, 1998"},
+                            {order: 4, title: "성모마리아와 말", imgname: "/2023/23-11/5-130.5x130.5.jpg", overview: "130.5x130.5cm", overview1: "캔버스에 혼합재료, 1995"},
+                            {order: 5, title: "95-57", imgname: "/2023/23-11/6-127x166.jpg", overview: "127x166cm", overview1: "한지에 혼합재료, 1995"},
+                            {order: 6, title: "96-2", imgname: "/2023/23-11/7-117x91.jpg", overview: "117x91cm", overview1: "캔버스에 혼합재료, 1996"},
+                            {order: 7, title: "96-12", imgname: "/2023/23-11/8-162x130.jpg", overview: "162x130cm", overview1: "캔버스에 혼합재료, 1996"},
+                            {order: 8, title: "C33", imgname: "/2023/23-11/9-21x25.jpg", overview: "21x25cm", overview1: "종이에 채색, 1992"},
+                            {order: 9, title: "D-107", imgname: "/2023/23-11/10-135x167.jpg", overview: "135x167cm", overview1: "한지에 혼합, 1994"},
+                            {order: 10, title: "D-139", imgname: "/2023/23-11/11-130x166.jpg", overview: "130x166cm", overview1: "한지에 혼합재료, 1996"},
+                        ]
+                    },
+                ],
+            },
         ]    
     },   
     {
@@ -1979,11 +2357,9 @@ export const allExhibits = [
                         text: "김서연 작가는 캔버스를 Hand-Cut 하며 캔버스에 의미를 담기보다는 의미를 비우고 지우는 부정의 시간을 담아낸다. 캔버스를 비우며 행해지는 끊임없는 단순 반복은 삶에 대한 희망을 의미할 수도 있지만 그 이면적인 의미는 죽음을 내포한다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 0, title: "CutPieces-Pink", imgname: "/2022/22-1/1-162x130.jpg", overview: "162x130cm", overview1: "acrylic-on-canvas-hand-cut-2014"},
@@ -1999,11 +2375,9 @@ export const allExhibits = [
                         text: "김영배(1947-2001 )작가의 “무제” 시리즈 형상적 이미지와 기하학적 패턴과 같은 언어의 조합으로 반복된 패턴으로 화면을 구성한다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 1, title: "간間", imgname: "/2022/22-1/2-148x115.jpg", overview: "148x115cm", overview1: "캔버스에-유채-1985"},
@@ -2059,11 +2433,9 @@ export const allExhibits = [
                         text: "문상욱 작가는 사회현상이나 자연현상을 넓은 미시적 시야로 바라보며 그 안에 보이지 않는 체계와 질서의 구조를 사진 작품으로 형상화하고 있다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 3, title: "우주에서 온 편지", imgname: "/2022/22-1/4-60.5x89.5.jpg", overview: "60.5x89.5cm", overview1: "사진-2014"},
@@ -2079,11 +2451,9 @@ export const allExhibits = [
                         text: "박영대 작가는 ‘보리’ 작가로 알려져 있으며 지역의 대표적 원로작가이다. 처음에는 멍석 위에 엿질금을 그렸으나 점차 보리로 변하게 되고 지금은 추상적 형식이 더 가까운 보리 시리즈를 선보이고 있다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 4, title: "보리-생명生命", imgname: "/2022/22-1/5-62x93.jpg", overview: "62x93cm", overview1: "한지-먹-담채-1997"},
@@ -2099,11 +2469,9 @@ export const allExhibits = [
                         text: "박진명 작가는 현대적 동양화 작가로 기억 속에 떠오르는 이미지를 그림으로 표현하면서 작가에게 스치듯 지나간 특정 장면들은 또 다른 기억과 이미지를 생산하고, 그 순간들을 겹쳐지는 것을 반복하며 하나의 새로운 장면이 돼 잔상으로 새긴다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 5, title: "Shimmery", imgname: "/2022/22-1/6-36x96.jpg", overview: "36x96cm", overview1: "한지-위에-수묵채색-2009"},
@@ -2119,11 +2487,9 @@ export const allExhibits = [
                         text: "심명희 작가는 2022년 ‘Untitled’ 사진 작품을 통해 ‘기록과 재현’이라는 기본 속성을 넘어 카메라의 대상은 단순한 재현이 아닌 대상의 내적 표현을 찾아 담아내고 있다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 6, title: "Untitled-20", imgname: "/2022/22-1/7-90x72.jpg", overview: "90x72cm", overview1: "Pigment-Print-2022"},
@@ -2139,11 +2505,9 @@ export const allExhibits = [
                         text: "심재분 작가는 ‘연꽃’이라는 대상을 넘어 대상의 본질을 꿰뚫어 자신의 언어로 다시 재현한다. 자연과 인간의 보이지 않는 존재를 재현하기 위해 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 담으며 느껴지는 초현실적인 사실을 작품화한다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 7, title: "초최한 고뇌의 형상3", imgname: "/2022/22-1/8-100x200.jpg", overview: "100x200cm", overview1: "프린트화이아트-벨벳-2021"},
@@ -2159,11 +2523,9 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 8, title: "1인 시위", imgname: "/2022/22-1/9-60.5x50.jpg", overview: "60.5x50cm", overview1: "Sandpaper-Oil-on-Canvas-2014"},
@@ -2179,11 +2541,9 @@ export const allExhibits = [
                         text: "",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 9, title: "Untitled-2", imgname: "/2022/22-1/10-116x91.jpg", overview: "116x91cm", overview1: "캔버스-위에-아크릴릭-2009"},
@@ -2244,11 +2604,9 @@ export const allExhibits = [
                         text: "전년일 작가는 우리 민족이 오래전부터 숭배하고 친근했던 색상을 중시한다. 그것은 노랑(黃), 파랑(靑), 흰색(白), 검정(黑)인데 바로 우리 민족이 숭상했던 오방색의 근본을 갖고 현대화된 이미지의 형상을 입체적으로 시각화하는 기법을 작품의 근원으로 삼고 있다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 11, title: "그것", imgname: "/2022/22-1/12-160x40.jpg", overview: "160x40cm", overview1: "아크릴물감-철망-등나무-색한지-2016"},
@@ -2264,11 +2622,9 @@ export const allExhibits = [
                         text: "정명희 작가는 대지의 기운이 농축되어 있는 편경의 이미지를 중심으로 새 그리고 물의 흐름이나 파동에 연결되는 흘러내리는 선들로 짜이는 구성을 보인다. 오방색, 무지개를 연상하게하는 채색은 대지의 기운을 발산한다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 12, title: "독도를 바로 세우자 부끄럽지 않게", imgname: "/2022/22-1/13-97x162.jpg", overview: "97x162cm", overview1: "수묵-아크릴릭-2008"},
@@ -2284,11 +2640,9 @@ export const allExhibits = [
                         text: "조현애 작가는 시간을 주제로 작업을 한다. 작가는 과거의 명화에 현재의 이미지를 결합하여 현실과 가상의 경계가 없는 공간, 과거와 현재와 미래의 모호한 시간의 흐름을 시각적 은유로 구성하여 보여주고 있다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 13, title: "Unknown time with 정선", imgname: "/2022/22-1/14-91x.116.8.jpg", overview: "91x116.8cm", overview1: "Acrylic-on-canvas-2020"},
@@ -2304,11 +2658,9 @@ export const allExhibits = [
                         text: "한영섭 작가는 독특한 ‘한지와 탁본의 화가’로 알려져 있으며 한국 고유의 전통적 소재인 한지 위에 자연의 다양한 표정을 담으며, 한지의 물성을 넘어 자연속에 내재된 운율을 표현한다.",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 14, title: "Unknown time with 정선", imgname: "/2022/22-1/15-60x96.jpg", overview: "60x96cm", overview1: "한지탁본-2006"},
@@ -2337,11 +2689,9 @@ export const allExhibits = [
                         text: "“예술은 살아 있음과 죽음, 받아드림과 받아드리지 못함, 공간과 형태가 있고 없음 등 여러 가지 요인이 영원함이다. 이 모든 것이 예술의 끝이 아닌가 싶다.” “나의 내면의 열정은 캄캄한 밤 반딧불을 보고 눈의 초점을 맞추듯 그렇게 한 사물에 집중하고 몰입해야 한다고 생각한다.” “예술가로서 나는 구상적 이미지를 모두 제거하고 싶다, 색에서도 모든 색을 아우르고 함축하고 있는 검정색과 아무 색도 품지 않은 흰색 이 두 색의 성격과 대비가 같은 사고와 단순함을 동시에 갖게 하는 면에서 흥미롭다.”",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 0, title: "Accept", imgname: "/2022/22-2/1-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
@@ -2380,11 +2730,9 @@ export const allExhibits = [
                         text: "“예술은 살아 있음과 죽음, 받아드림과 받아드리지 못함, 공간과 형태가 있고 없음 등 여러 가지 요인이 영원함이다. 이 모든 것이 예술의 끝이 아닌가 싶다.” “나의 내면의 열정은 캄캄한 밤 반딧불을 보고 눈의 초점을 맞추듯 그렇게 한 사물에 집중하고 몰입해야 한다고 생각한다.” “예술가로서 나는 구상적 이미지를 모두 제거하고 싶다, 색에서도 모든 색을 아우르고 함축하고 있는 검정색과 아무 색도 품지 않은 흰색 이 두 색의 성격과 대비가 같은 사고와 단순함을 동시에 갖게 하는 면에서 흥미롭다.”",
                         education: "",
                         individual_exhibition: [
-                            // {order: 1, exhibit: "2023 《The Wind, Motion》, 홍익대학교 현대미술관, 서울"},
                         
                         ],
                         group_exhibition: [
-                            // {order: 1, exhibit: "2023 《매끄러운 돌밭 2》, 쉐마미술관, 청주"},
                         ],
                         paint: [
                             {order: 0, title: "비틀즈발라드오디오", imgname: "/2022/22-3/1-70x60.jpg", overview: "70x60cm", overview1: "나무_2021"},

@@ -4,6 +4,11 @@ import { useRouter } from "next/router";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
+import { allExhibits_KOR } from "@/data/allExhibits_KOR";
+import { allExhibits_ENG } from "@/data/allExhibits_ENG";
+import { allExhibits_CH } from "@/data/allExhibits_CH";
+import { allExhibits_TH } from "@/data/allExhibits_TH";
+import { allExhibits_VI } from "@/data/allExhibits_VI";
 
 const viewText = {
     KOR: "작품 감상하기",
@@ -37,7 +42,13 @@ const noteText = {
     VI: "Xem ghi chú của tác giả"
 };
 
-
+const inputData = {
+    KOR: allExhibits_KOR,
+    ENG: allExhibits_ENG,
+    CH: allExhibits_CH,
+    TH: allExhibits_TH,
+    VI: allExhibits_VI,
+};
 
 const Paintcontent = () => {
     const {language} = useContext(LanguageContext);
@@ -52,14 +63,15 @@ const Paintcontent = () => {
     const {order, artist} = router.query;
 
     useEffect(()=> {
-        if(pid && order && artist && allExhibits?.[pid]?.exhibits?.[order]?.artist?.[artist]) {
-            setData(allExhibits[pid].exhibits[order].artist[artist]);
-            setLength(allExhibits[pid].exhibits[order].artist[artist].paint.length);
+        // if(pid && order && artist && allExhibits?.[pid]?.exhibits?.[order]?.artist?.[artist]) {
+        if(pid && order && artist && inputData?.[language]?.[pid]?.exhibits?.[order]?.artist?.[artist]) {
+            setData(inputData[language][pid].exhibits[order].artist[artist]);
+            setLength(inputData[language][pid].exhibits[order].artist[artist].paint.length);
         } else {
             setData(null);
             setLength(null);
         }
-    }, [pid, order, artist])
+    }, [pid, order, artist, language])
 
     function nextExhibit() {
         // if(carousel.current !== null && carousel.current.offsetWidth * current <= maxScrollWidth.current) {

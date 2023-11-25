@@ -6,9 +6,13 @@ import {useEffect, useState, Suspense, useContext} from "react";
 import Spot from "@/components/Spotlight";
 import * as THREE from 'three';
 import Model from "@/components/Model";
+import { useRouter } from "next/router";
 
 const Viewcontent = ({url, width, height}) => {
     const [isClient, setIsClient] = useState(false);
+    const router = useRouter();
+    const currentPath = router.asPath;
+    console.log(currentPath);
 
     useEffect(() => {
       // Update the isClient state to true as this code will be executed only on client side

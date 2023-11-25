@@ -10,9 +10,11 @@ import { LanguageContext } from "@/contexts/LanguageContext";
 export default function Landingpage() {
     const {language} = useContext(LanguageContext);
     const [video, setVideo] = useState(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-landing-${language}.webm`);
-    useEffect(()=> {
-        setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-landing-${language}.webm`)
-    }, [language]);
+    // useEffect(()=> {
+    //     setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-landing-${language}.webm`)
+    // }, [language]);
+
+    // console.log(language, video);
 
     return(
         <div className="h-screen w-screen bg-Ablue">
@@ -49,7 +51,7 @@ export default function Landingpage() {
                                 position={[9, 1.2, 1]}
                                 zIndexRange={[1, 0]}
                             >
-                                {video && (
+                            
                                 <Soundguide 
                                     className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
                                     videoUrl={video}
@@ -57,7 +59,6 @@ export default function Landingpage() {
                                     playing={true}
                                     loop={true}
                                 />
-                                )}
                             </Html>
                         </Suspense>
                     </Canvas>

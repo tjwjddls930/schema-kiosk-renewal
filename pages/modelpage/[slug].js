@@ -37,6 +37,14 @@ const iconText3 = {
     VI: "Thông tin Chatbot",
 };
 
+const popupText = {
+    KOR: "화면 터치 후 확대해 보세요!",
+    ENG: "Touch the screen to zoom in!",
+    CH: "触摸屏幕即可放大！",
+    TH: "แตะที่หน้าจอเพื่อซูมเข้า!",
+    VI: "Chạm vào màn hình để phóng to!",
+};
+
 export default function Modelpage({}) {
     const {language} = useContext(LanguageContext);
     const {isPortrait} = useContext(ScreenOrientContext);
@@ -145,7 +153,7 @@ export default function Modelpage({}) {
                                         className="h-20 w-20 animate-bounce mx-auto screen-w:h-40 screen-w:w-40 text-Awhite">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
                                     </svg>
-                                    <span className="text-Awhite font-bold text-base screen-w:text-4xl">{'화면 터치 후 확대해 보세요!'}</span>
+                                    <span className="text-Awhite font-bold text-base screen-w:text-4xl">{popupText[language]}</span>
                                 </div>
                                 <div className="flex flex-col w-full mx-auto">
                                     <div className="flex justify-between w-full">

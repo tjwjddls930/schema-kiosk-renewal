@@ -135,6 +135,44 @@ export const paintList = [
             {order: 9, title: "표류하거나 벗어나거나", imgname: "/2023/23-9/10-227x728.png", width: 2.27, height: 7.28, overview: "227x728cm", overview1: "캔버스 위에 유화, 2022"},
             {order: 10, title: "우리들의 초상 (肖像)", imgname: "/2023/23-9/11-76.8x78.2.png", width: 4.692, height: 4.608, overview: "", overview1: "캔버스 위에 아크릴, 거울, 가변크기, 2020"},
         ],
+        [
+            {order: 0, title: "행복", imgname: "/2023/23-10/1-394x545.jpg", width: 5.45, height: 3.94, overview: "394x545cm", overview1: "아크릴, 2023"},
+            {order: 1, title: "꿈 속에서", imgname: "/2023/23-10/2-59.7x42.7.jpg", width: 3.843, height: 4.776, overview: "59.7x42.7cm", overview1: "캔버스에 Oil, 2023"},
+            {order: 2, title: "", imgname: "/2023/23-10/3-30x29.8.jpg", width: 6, height: 5.96, overview: "", overview1: ""},
+            {order: 3, title: "대비", imgname: "/2023/23-10/4-116.8x91.jpg", width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "장치에 채색, 2023"},
+            {order: 4, title: "공구함 속 재료들", imgname: "/2023/23-10/5-27x22.jpg", width: 4.4, height: 5.4, overview: "27x22cm", overview1: "아크릴, 2022"},
+            {order: 5, title: "", imgname: "/2023/23-10/6-30x30.jpg", width: 6, height: 6, overview: "", overview1: ""},
+            {order: 6, title: "빛나는 시선1", imgname: "/2023/23-10/7-30x20.png", width: 6, height: 4, overview: "", overview1: ""},
+            {order: 7, title: "빛나는 시선2", imgname: "/2023/23-10/8-30x20.png", width: 6, height: 4, overview: "", overview1: ""},  
+            {order: 8, title: "셀픽", imgname: "/2023/23-10/9-59.7x42.7.jpg", width: 4.27, height: 5.97, overview: "", overview1: "디지털 프린트에 아크릴릭, 2023"},
+            {order: 9, title: "밥상", imgname: "/2023/23-10/10-49.4x49.4.png", width: 4.94, height: 4.94, overview: "49.4x49.4cm", overview1: "아크릴, 2023"},
+            {order: 10, title: "", imgname: "/2023/23-10/11-29.5x30.jpg", width: 5.9, height: 6, overview: "", overview1: ""},
+            {order: 11, title: "안식처", imgname: "/2023/23-10/12-53x45.5.jpg", width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "캔버스에 아크릴릭, 2023"},
+            {order: 12, title: "끝에 다다라", imgname: "/2023/23-10/13-90.9x72.7.jpg", width: 2.908, height: 3.636, overview: "90.9x72.7cm", overview1: "캔버스에 유채, 2023"},
+            {order: 13, title: "심연", imgname: "/2023/23-10/14-130.3x97.jpg", width: 3.88, height: 5.212, overview: "130.3x97cm", overview1: "면끈 벨벳 끈 비닐 혼합재료, 2023"},
+            {order: 14, title: "사유의 숲", imgname: "/2023/23-10/15-72.7x72.7.jpg", width: 4.362, height: 4.362, overview: "72.7x72.7cm", overview1: "종이에 먹 채색, 2023"},
+            {order: 15, title: "", imgname: "/2023/23-10/16-30x30.jpg", width: 6, height: 6, overview: "", overview1: ""},
+            {order: 16, title: "", imgname: "/2023/23-10/17-23.4x30.jpg", width: 4.68, height: 6, overview: "", overview1: ""},
+            {order: 17, title: "", imgname: "/2023/23-10/18-25.9x30.jpg", width: 5.18, height: 6, overview: "", overview1: ""},
+            {order: 18, title: "", imgname: "/2023/23-10/19-21x29.jpg", width: 5.8, height: 4.2, overview: "21x29cm", overview1: ""},
+            {order: 19, title: "고립의 시대", imgname: "/2023/23-10/20-25.3x30.jpg", width: 5.06, height: 6, overview: "", overview1: ""},
+            {order: 20, title: "시선1", imgname: "/2023/23-10/21-35x27.5.jpg", width: 2.75, height: 3.5, overview: "35x27.5cm", overview1: "캔버스에 아크릴, 2023"},
+            {order: 21, title: "시선2", imgname: "/2023/23-10/22-35x27.5.jpg", width: 2.75, height: 3.5, overview: "35x27.5cm", overview1: "캔버스에 아크릴, 2023"},
+            {order: 22, title: "조류 공포증", imgname: "/2023/23-10/23-45x45.jpg", width: 4.5, height: 4.5, overview: "45x45cm", overview1: "오일파스텔-canvas-2023"},
+        ],
+        [
+            {order: 0, title: "탄생, 시련, 기적, 사랑, 영생, 부활", imgname: "/2023/23-11/1-71.6x72.7.jpg", width: 4.296, height: 4.362, overview: "310x70cm", overview1: "캔버스에 아크릴릭, 1997"},
+            {order: 1, title: "탄생, 시련, 기적, 사랑, 영생, 부활", imgname: "/2023/23-11/2-71.7x72.8.jpg", width: 4.302, height: 4.368, overview: "310x70cm", overview1: "캔버스에 아크릴릭, 1997"},
+            {order: 2, title: "부활하신 예수님", imgname: "/2023/23-11/3-45x45.jpg", width: 4.5, height: 4.5, overview: "45x45cm", overview1: "캔버스에 아크릴릭, 1998"},
+            {order: 3, title: "엘리야의 기도", imgname: "/2023/23-11/4-45x45.jpg", width: 4.5, height: 4.5, overview: "45x45cm", overview1: "캔버스에 아크릴릭, 1998"},
+            {order: 4, title: "성모마리아와 말", imgname: "/2023/23-11/5-130.5x130.5.jpg", width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "캔버스에 혼합재료, 1995"},
+            {order: 5, title: "95-57", imgname: "/2023/23-11/6-127x166.jpg", width: 4.98, height: 3.81, overview: "127x166cm", overview1: "한지에 혼합재료, 1995"},
+            {order: 6, title: "96-2", imgname: "/2023/23-11/7-117x91.jpg", width: 3.64, height: 4.68, overview: "117x91cm", overview1: "캔버스에 혼합재료, 1996"},
+            {order: 7, title: "96-12", imgname: "/2023/23-11/8-162x130.jpg", width: 3.9, height: 4.86, overview: "162x130cm", overview1: "캔버스에 혼합재료, 1996"},
+            {order: 8, title: "C33", imgname: "/2023/23-11/9-21x25.jpg", width: 5, height: 4.2, overview: "21x25cm", overview1: "종이에 채색, 1992"},
+            {order: 9, title: "D-107", imgname: "/2023/23-11/10-135x167.jpg", width: 5.01, height: 4.05, overview: "135x167cm", overview1: "한지에 혼합, 1994"},
+            {order: 10, title: "D-139", imgname: "/2023/23-11/11-130x166.jpg", width: 4.98, height: 3.9, overview: "130x166cm", overview1: "한지에 혼합재료, 1996"},
+        ],
     ],
     [
         [
@@ -430,8 +468,6 @@ export const paintList = [
             {order: 8, title: "", imgname: "/2021/21-4/9-80x100.jpg", width: 5, height: 4, overview: "", overview1: ""},
             {order: 9, title: "", imgname: "/2021/21-4/10-66.7x100.jpg", width: 5, height: 3.335, overview: "", overview1: ""},
             {order: 10, title: "", imgname: "/2021/21-4/11-66.7x100.jpg", width: 5, height: 3.335, overview: "", overview1: ""},
-        ]
+        ],
     ]
-]
-
-
+];
