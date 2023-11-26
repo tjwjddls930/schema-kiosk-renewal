@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }) {
           <ScreenOrientProvider>
           {currentPath === "/" 
           ? null
-          : <InactivityRedirect timeout={10000} landingPageUrl={"/"} />
+          : <InactivityRedirect timeout={120000} landingPageUrl={"/"} />
           }
           {isPortrait ? 
             <TallLayout>
