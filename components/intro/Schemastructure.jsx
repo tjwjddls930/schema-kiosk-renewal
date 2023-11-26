@@ -1,5 +1,6 @@
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import { FontsizeContext } from "@/contexts/FontsizeContext";
 import clsx from "clsx";
 import Link from "next/link";
 import { useContext } from "react";
@@ -148,28 +149,28 @@ const outside = {
 };
 
 const outsideText = {
-    KOR: () => (
-        <p className="text-sm text-Cgrey font-bold screen-w:text-4xl screen-w:leading-normal">
+    KOR: (font) => (
+        <p className={clsx(" text-Cgrey font-bold", font ? "text-sm screen-w:text-[42px] screen-w:leading-normal" : "text-xs screen-w:text-4xl screen-w:leading-normal")}>
             {"주변 야산으로 둘러싸여 아늑하게 자리 잡은 쉐마미술관은 정문에서부터 미술관 현관에 이르기까지 약 80m정도에 이르는 야외공간에 입체 또는 설치 작품을 보실 수 있는 공간입니다. 또한 쉐마미술관은 아름다운 경치를 자랑하며 사계절의 변화와 자연을 느낄 수 있는 공간입니다."}
         </p>
     ),
-    ENG: () => (
-        <p className="text-sm text-Cgrey font-bold screen-w:text-4xl screen-w:leading-normal">
+    ENG: (font) => (
+        <p className={clsx(" text-Cgrey font-bold", font ? "text-sm screen-w:text-[42px] screen-w:leading-normal" : "text-xs screen-w:text-4xl screen-w:leading-normal")}>
             {"The Schema Museum of Art, which is nestled comfortably surrounded by surrounding mountains, is a space where you can view three-dimensional or installation works in an outdoor space extending approximately 80 meters from the main entrance to the entrance of the museum. In addition, the Schema Museum of Art boasts beautiful scenery and is a space where you can feel the changes of the four seasons and nature."}
         </p>
     ),
-    CH: () => (
-        <p className="text-sm text-Cgrey font-bold screen-w:text-4xl screen-w:leading-normal">
+    CH: (font) => (
+        <p className={clsx(" text-Cgrey font-bold", font ? "text-sm screen-w:text-[42px] screen-w:leading-normal" : "text-xs screen-w:text-4xl screen-w:leading-normal")}>
             {"Schema艺术博物馆坐落在群山环抱之中，是一个可以在从主入口到博物馆入口约80米的户外空间中观赏三维或装置作品的空间。此外，图格玛艺术博物馆风景优美，是一个可以感受四季和自然变化的空间。"}
         </p>
     ),
-    TH: () => (
-        <p className="text-sm text-Cgrey font-bold screen-w:text-4xl screen-w:leading-normal">
+    TH: (font) => (
+        <p className={clsx(" text-Cgrey font-bold", font ? "text-sm screen-w:text-[42px] screen-w:leading-normal" : "text-xs screen-w:text-4xl screen-w:leading-normal")}>
             {"พิพิธภัณฑ์ศิลปะสคีมาซึ่งตั้งอยู่อย่างสะดวกสบายรายล้อมไปด้วยภูเขาโดยรอบ เป็นพื้นที่ที่คุณสามารถชมงานสามมิติหรืองานจัดวางในพื้นที่กลางแจ้งที่ทอดยาวประมาณ 80 เมตรจากทางเข้าหลักไปยังทางเข้าพิพิธภัณฑ์ นอกจากนี้ พิพิธภัณฑ์ศิลปะสเคมะยังมีทิวทัศน์ที่สวยงามและเป็นพื้นที่ที่คุณสามารถสัมผัสได้ถึงการเปลี่ยนแปลงของฤดูกาลทั้งสี่และธรรมชาติ"}
         </p>
     ),
-    VI: () => (
-        <p className="text-sm text-Cgrey font-bold screen-w:text-4xl screen-w:leading-normal">
+    VI: (font) => (
+        <p className={clsx(" text-Cgrey font-bold", font ? "text-sm screen-w:text-[42px] screen-w:leading-normal" : "text-xs screen-w:text-4xl screen-w:leading-normal")}>
             {"Bảo tàng Nghệ thuật Schema, ẩn mình thoải mái được bao quanh bởi những ngọn núi xung quanh, là không gian nơi bạn có thể xem các tác phẩm ba chiều hoặc sắp đặt trong không gian ngoài trời kéo dài khoảng 80 mét từ lối vào chính đến lối vào của bảo tàng. Ngoài ra, Bảo tàng Nghệ thuật Schema còn có phong cảnh tuyệt đẹp và là không gian nơi bạn có thể cảm nhận được sự thay đổi của bốn mùa và thiên nhiên."}
         </p>
     ),
@@ -186,9 +187,12 @@ const inputData = {
 const Schemastructure = () => {
     const {language} = useContext(LanguageContext);
     const {isPortrait} = useContext(ScreenOrientContext);
+    const {fontsize} = useContext(FontsizeContext);
     return(
-        <div className={clsx(isPortrait ? "p-6 screen-w:p-12 mx-auto items-center" : "p-6 screen-w:p-12 mx-auto items-center")}>
-            <div className={clsx(isPortrait ? "h-2/3 w-full flex flex-col space-y-2 screen-w:space-y-8 screen-w:pt-6 screen-w:px-8" : "h-2/3 w-full flex flex-row space-x-2 screen-w:space-x-8 screen-w:pt-6 screen-w:px-8")}>
+        <div className={clsx(isPortrait ? "p-6 mx-auto items-center" : "p-6 mx-auto items-center")}>
+            <div className={clsx(isPortrait 
+                ? "h-2/3 w-full flex flex-col space-y-2 screen-w:space-y-6 screen-w:pt-6 screen-w:px-12" 
+                : "h-2/3 w-full flex flex-row space-x-2 screen-w:space-x-6 screen-w:pt-6 screen-w:px-12")}>
                 <div className={clsx(isPortrait ? "w-[85%] h-1/2 flex flex-col space-y-2 screen-w:space-y-8 items-center mx-auto" : "w-[40%] flex flex-col space-y-2 screen-w:space-y-8 items-center")}>
                     <div className={clsx(isPortrait ? "flex shadow-lg screen-w:w-full screen-w:h-[55%]" : "flex shadow-lg screen-w:w-5/6 screen-w:h-[60%]")}>
                         <img 
@@ -198,10 +202,13 @@ const Schemastructure = () => {
                         />
                     </div>
                     <div className={clsx(isPortrait ? "w-[450px] screen-w:w-full flex flex-row mx-auto" : "w-[450px] screen-w:w-5/6 flex flex-row mx-auto")}>
-                        <span className="text-lg screen-w:text-5xl font-bold text-Bblue justify-start">{outside[language]} <span className="text-Cgrey opacity-30 screen-w:text-5xl">{' |'}</span> <span className="font-bold text-lg text-black screen-w:text-5xl">{' Outdoor'}</span></span>
+                        <span className={clsx("screen-w:text-5xl font-bold text-Bblue justify-start", fontsize ? "text-lg screen-w:text-[54px]" : "text-base screen-w:text-5xl")}>{outside[language]} 
+                            <span className="text-Cgrey opacity-30 screen-w:text-5xl">{' |'}</span> 
+                            <span className={clsx("font-bold text-Ablack", fontsize ? "text-lg screen-w:text-[54px]" : "text-base screen-w:text-5xl")}>{' Outdoor'}</span>
+                        </span>
                     </div>
                     <div className={clsx(isPortrait ? "w-[450px] screen-w:w-full flex justify-start" : "w-[450px] screen-w:w-5/6 flex justify-start")}>
-                        {outsideText[language]()}
+                        {outsideText[language](fontsize)}
                     </div>
                 </div>
                 <div className={clsx(isPortrait ? "grid gap-6 grid-cols-2 w-[85%] h-1/2 mx-auto items-center" : "grid gap-6 grid-cols-2 screen-w:w-[60%] mx-auto items-center")}>
@@ -218,11 +225,14 @@ const Schemastructure = () => {
                                 />
                                 <div
                                     className="w-[320px] flex flex-row mx-auto screen-w:w-[850px] screen-w:justify-start">
-                                    <span className="text-lg font-bold text-Bblue justify-start screen-w:text-3xl">{img.name}<span className="text-Cgrey opacity-30 screen-w:text-3xl">{' | '}</span> <span className="font-bold text-lg text-black screen-w:text-3xl">{img.engname}</span></span>
+                                    <span className={clsx("text-lg font-bold text-Bblue justify-start screen-w:text-3xl", fontsize ? "text-lg screen-w:text-[34px]" : "text-base screen-w:text-3xl")}>
+                                        {img.name}<span className="text-Cgrey opacity-30 screen-w:text-3xl">{' | '}</span>
+                                         <span className={clsx("font-bold  text-Ablack", fontsize ? "text-lg screen-w:text-[34px]" : "text-base screen-w:text-3xl")}>{img.engname}</span>
+                                    </span>
                                 </div>
                                 <div
                                     className="w-[320px] mx-auto screen-w:w-[850px] screen-w:justify-start">
-                                    <p className="text-sm text-Cgrey font-bold screen-w:text-3xl screen-w:leading-normal">
+                                    <p className={clsx("text-Cgrey font-bold screen-w:leading-normal", fontsize ? "text-sm screen-w:text-[34px]" : "text-xs screen-w:text-3xl")}>
                                         {img.text}
                                     </p>    
                                 </div>
@@ -230,7 +240,7 @@ const Schemastructure = () => {
                         ))
                     }
                 </div>
-                <button className="absolute left-6 bottom-20 screen-w:left-16 screen-w:bottom-44">
+                <button className="absolute left-6 bottom-20 screen-w:left-12 screen-w:bottom-44">
                     <Link href="/intro">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                             className="w-12 h-12 screen-w:w-36 screen-w:h-36 text-Ablack">
@@ -238,7 +248,7 @@ const Schemastructure = () => {
                         </svg>
                     </Link>
                 </button>
-                <button className="absolute left-24 bottom-20 screen-w:left-16 screen-w:bottom-80">
+                <button className="absolute left-24 bottom-20 screen-w:left-12 screen-w:bottom-80">
                     <Link href="/main">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                             className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Ablack">

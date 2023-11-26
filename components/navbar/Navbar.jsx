@@ -424,7 +424,7 @@ const Navbar = ({ url, sign }) => {
   }, [router.pathname]);
 
   useEffect(()=> {
-    if(!url || router.pathname ==="/intro/structure") {
+    if(!url) {
       setDocent(true);
     } else {
       setDocent(false);

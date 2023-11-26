@@ -31,7 +31,7 @@ export default function Viewpage() {
     const {slug, year} = router.query;
     const [popup, setPopup] = useState(true);
     const [data, setData] = useState(null);
-    const [time ,setTime] = useState(year);
+    const [video, setVideo] = useState();
     
     useEffect(()=> {
         const mid = slug?.replace("", "");
@@ -40,11 +40,9 @@ export default function Viewpage() {
         };
     }, [slug, language]);
 
-    useEffect(()=> {
-        if(data) {
-            setTime(data.time);
-        };
-    }, [data]);
+    useEffect(()=>{
+        setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-${year}-${language}.webm`)
+    }, [language, year]);
 
      const changeExhibit = (offset) => {
         const currentIndex = Number(slug?.replace("", ""));
@@ -54,10 +52,20 @@ export default function Viewpage() {
         } else if (newIndex >= inputData[language].length) {
           newIndex = 0;
         }
-        router.replace(`/pastexhibit/${newIndex}?time=${time}`);
+        // router.replace(`/pastexhibit/${newIndex}?time=${time}`);
+        const currentQuery = { ...router.query };
+
+        // Update the time parameter
+        currentQuery.year = inputData[language][newIndex].time;
+      
+        // Use router.replace to update the URL with the new query parameters
+        // router.replace(`/pastexhibit/${newIndex}?time=${currentQuery}`);
+        router.replace({
+          pathname: `/pastexhibit/${newIndex}`,
+          query: currentQuery,
+        });
     };
 
-    // console.log(data.time)
     return(
         <>
         {data && (
@@ -136,7 +144,7 @@ export default function Viewpage() {
                 </div>
             )}
             <Navbar 
-                url={"/video/docent/schema-docent-04.webm"}
+                url={video}
                 // sign={"/video/sign/schema_sign_2.mp4"}
             />  
         </Viewlayout>

@@ -162,7 +162,7 @@ export default function Structure() {
                                 exit={{y: -100, opacity: 0}}
                                 transition={{duration: 0.3}}
                             >
-                                {intro ? <div className="p-6 screen-w:p-12 mx-auto items-center">
+                                {intro ? <div className="p-4 mx-auto items-center">
                                     {intro.component}
                                 </div> : ""}
                             </motion.div>

@@ -1742,12 +1742,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-9/23-9-2.png", 
                         text: "เวลาในการเรียนรู้องค์ประกอบพื้นฐานของการออกแบบ เส้นประ เทคนิค รูปทรง และวัสดุ และสัมผัสประสบการณ์การใช้เครื่องมือต่างๆ ตามลักษณะคุณสมบัติทางกายภาพ เพื่อแสดงงานวิจัยเกี่ยวกับการแสดงออกของงานสามมิติผ่านรูปแบบต่างๆ ทำการทดลอง เพื่อขยายขอบเขตของการคิดด้วยภาพ และสร้างผลงานโรงงานคู่กัน",
                         education: "",
-                        individual_exhibition: [
-                   
-                        ],
-                        group_exhibition: [
-             
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 8, title: "ปลายปากกาสีแดง(觸)_ฉากสถานการณ์บางอย่าง", imgname: "/2023/23-9/9-76.8x51.2.png", overview: "", overview1: "กระดาษเกาหลี แว๊กซ์พาราฟิน คอนกรีตบล็อก ขนาดแปรผัน 2022"},
                         ]
@@ -1761,12 +1757,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-9/23-9-3.png", 
                         text: "ช่วงเวลาแห่งจินตนาการที่แต่ละคนพูดถึงรูปทรงและทิวทัศน์ของโลกที่พวกเขาใฝ่ฝัน เข้าใจตนเอง ผู้อื่น และตัวเราเอง และเผชิญกับสถานการณ์ที่ไม่คุ้นเคยที่เกิดขึ้นในชีวิตประจำวันผ่านการวาดภาพแบบอะนาล็อก",
                         education: "",
-                        individual_exhibition: [
-                     
-                        ],
-                        group_exhibition: [
-                  
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 9, title: "ล่องลอยหรือหลบหนี", imgname: "/2023/23-9/10-227x728.png", overview: "227x728cm", overview1: "ภาพวาดสีน้ำมันบนผ้าใบ พ.ศ. 2022"},
                         ]
@@ -1780,15 +1772,10 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-9/23-9-4.png", 
                         text: "แสดงออกอย่างอิสระผ่านความเข้าใจรูปทรงและองค์ประกอบเชิงนามธรรม เช่น 'เส้น รูปทรง สี และพื้นผิว' ของ 'การวาดภาพนามธรรม' ของศิลปะสมัยใหม่ โดยเน้นไปที่สัญชาตญาณและอารมณ์ของศิลปิน และขยายมุมมองแบบกะทันหัน การแสดงออก และไม่มีโครงสร้าง เวลาที่จะ สัมผัสประสบการณ์ร่วมกันและพัฒนาความคิดทางศิลปะทางอารมณ์ผ่านประสบการณ์สร้างสรรค์และการแสดงออกผ่านการติดตั้งพื้นที่",
                         education: "",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 10, title: "รูปของเรา", imgname: "/2023/23-9/11-76.8x78.2.png", overview: "", overview1: "สีอะครีลิคบนผ้าใบ กระจก ตัวแปรขนาด 2020"},
-                         
                         ]
                     },      
                 ],
@@ -1800,7 +1787,6 @@ export const allExhibits_TH = [
                 time1: "2023/11/17 ~ 2023/11/28, 2023/11/29 ~ 2023/12/10",
                 artist1: "คิมเซอึน, คิมซูวาน, คิมยูบิน, ซอจียอน, ชินแฮอิน, โออึนจอง, ยุนซอนแจ, ลีโดฮุน, ลีฮานึล, จินฮยอง จุน, ควอน โซ-ยัง, กี ยู, คิม โด-ฮุน, คิม จี-ฮุน, ชิม กยู-บง, ลี ซึง-จี, ลิม แจ-ฮยอน, จอง ยอง-ฮุน, จอง จี-ยง, ฮัน เย-จิน , ฮง มยองกี",
                 location1: "พิพิธภัณฑ์ Shema", host1: "พิพิธภัณฑ์ Schema", support1: "",
-
                 explanation: "쉐마미술관은 자신의 정서적 내면을 그림으로 다잡아 가는 젊은 예술가들과 이제 막 졸업하거나 새로운 시작을 앞둔 신생 작가들에게 기회를 주고자 하며 지속적인 지역 예술의 균형과 예술 생태계 구축을 위해 매년 청년 작가들 기획전을 진행합니다. 2023 불안정한 가능성 展은 청년 작가들의 적극적인 작업 태도와 실험정신, 도전정신을 지지하며 지역 청년 예술가들에게 새로운 도전의 기회가 되어 우리 지역의 예술 생태계가 만들어지길 희망하는 전시입니다. Unstable Possibility가 의미하는 것처럼 청년 작가들은 불안정하지만, 무한한 가능성을 담고 있습니다. 불안정한 이성과 세계에 대한 자기만의 인식을 다양한 방법으로 시각화하며 각자의 일상과 살아가는 개인들의 이야기들에서부터 우리가 살아가는 세상과 예술에 대한 사유들을 작품에 담아내는 청년 작가들의 전시를 통해 새로운 가능성을 엿보려 합니다. 이제 막 졸업을 하고 자신이 맞닿은 단면과 예술가적 시선은 그들을 둘러싼 환경과 작가의 의식이 결합해 새로운 창작품을 만들어 내며 자신의 정서적 내면을 그림으로 다잡아 가는 젊은 예술가들의 시선에 주목하려 합니다. 단편적인 소재를 가지고 삶의 단면을 드러내며 자신의 세계를 구축해 가는 1부 김세은, 김수완, 김유빈, 서지연, 신해인, 오은정, 윤선재, 이도훈, 이하늘, 진형준 2부 권소영, 김도훈, 김지훈, 심규봉, 이승지, 기유, 정영훈, 정지용, 한예진, 홍명기 작가 총 20명의 청년 작가를 소개하려 합니다.",         
                 author: "",
                 img: "/img/exhibitpage/posters/2023/23-10.jpg",
@@ -1814,10 +1800,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-1.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 0, title: "ความสุข", imgname: "/2023/23-10/1-394x545.jpg", overview: "394x545cm", overview1: "อะคริลิค, 2023"},
                         ]
@@ -1831,10 +1815,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-2.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 1, title: "ในความฝัน", imgname: "/2023/23-10/2-59.7x42.7.jpg", overview: "59.7x42.7cm", overview1: "สีน้ำมันบนผ้าใบ, 2023"},
                         ]
@@ -1848,9 +1830,7 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-3.jpg", 
                         text: "",
                         education: "จบจากมหาวิทยาลัยไผ่ชัย ภาควิชาศิลปะ และเว็บตูน",
-                        individual_exhibition: [
-                     
-                        ],
+                        individual_exhibition: [],
                         group_exhibition: [
                             {order: 1, exhibit: "นิทรรศการศิลปะนานาชาติแทจอนประจำปี 2022 (ศูนย์นิทรรศการ DCC Daejeon Convention Center 2nd Exhibition Hall)"},
                             {order: 2, exhibit: "นิทรรศการ #Self_I ปี 2022 (แกลเลอรีกังนัมยูไนเต็ด)"},
@@ -1873,12 +1853,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-4.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 4, title: "วัสดุในกล่องเครื่องมือ", imgname: "/2023/23-10/5-27x22.jpg", overview: "27x22cm", overview1: "อะคริลิค, 2022"},
                         ]
@@ -1892,15 +1868,10 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-5.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 5, title: "", imgname: "/2023/23-10/6-30x30.jpg", overview: "", overview1: ""},
-                         
                         ]
                     },  
                     {
@@ -1912,12 +1883,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-6.png", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 6, title: "จ้องมองที่ส่องแสง1", imgname: "/2023/23-10/7-30x20.png", overview: "", overview1: ""},
                             {order: 7, title: "จ้องมองที่ส่องแสง2", imgname: "/2023/23-10/8-30x20.png", overview: "", overview1: ""},                         
@@ -1932,12 +1899,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-7.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 8, title: "เซลฟี่", imgname: "/2023/23-10/9-59.7x42.7.jpg", overview: "", overview1: "สีอะคริลิกบนงานพิมพ์ดิจิทัล 2023"},
                         ]
@@ -1951,12 +1914,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-8.png", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 9, title: "โต๊ะรับประทานอาหาร", imgname: "/2023/23-10/10-49.4x49.4.png", overview: "49.4x49.4cm", overview1: "อะคริลิค, 2023"},
                         ]
@@ -1970,12 +1929,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-9.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 10, title: "", imgname: "/2023/23-10/11-29.5x30.jpg", overview: "", overview1: ""},
                         ]
@@ -1989,12 +1944,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-10.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 11, title: "บ้าน", imgname: "/2023/23-10/12-53x45.5.jpg", overview: "53x45.5cm", overview1: "สีอะครีลิคบนผ้าใบ 2023"},
                         ]
@@ -2008,12 +1959,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-11.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 12, title: "ถึงจุดสิ้นสุด", imgname: "/2023/23-10/13-90.9x72.7.jpg", overview: "90.9x72.7cm", overview1: "สีน้ำมันบนผ้าใบ, 2023"},
                         ]
@@ -2027,12 +1974,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-12.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 13, title: "เหว", imgname: "/2023/23-10/14-130.3x97.jpg", overview: "130.3x97cm", overview1: "วัสดุผสมไวนิลเชือกฝ้ายกำมะหยี่ 2023"},
                             {order: 14, title: "ป่าแห่งความคิดส่วนตัว", imgname: "/2023/23-10/15-72.7x72.7.jpg", overview: "72.7x72.7cm", overview1: "หมึกและสีบนกระดาษ 2023"},
@@ -2047,12 +1990,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-13.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 15, title: "", imgname: "/2023/23-10/16-30x30.jpg", overview: "", overview1: ""},
                         ]
@@ -2066,12 +2005,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-14.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-         
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 16, title: "", imgname: "/2023/23-10/17-23.4x30.jpg", overview: "", overview1: ""},
                         ]
@@ -2085,9 +2020,7 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-15.jpg", 
                         text: "",
                         education: "จบจากมหาวิทยาลัยไผ่ชัย ภาควิชาศิลปะ และเว็บตูน",
-                        individual_exhibition: [
-
-                        ],
+                        individual_exhibition: [],
                         group_exhibition: [
                             {order: 1, exhibit: "2023, นิทรรศการ Daejeon Gallery Group"},
                             {order: 2, exhibit: "2023, นิทรรศการศิลปะศิลปินพิการ, ซอ-กู, แทจอน"},
@@ -2112,9 +2045,7 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-16.jpg", 
                         text: "",
                         education: "จบจากมหาวิทยาลัยไผ่ชัย ภาควิชาศิลปะ และเว็บตูน",
-                        individual_exhibition: [
-
-                        ],
+                        individual_exhibition: [],
                         group_exhibition: [
                             {order: 1, exhibit: "2022, นิทรรศการ Dojin, Euljiro Blank"},
                             {order: 2, exhibit: "2022 นิทรรศการกลุ่ม การเข้าร่วมงานที่ Hyundai Gallery ในแทจอน"},
@@ -2140,12 +2071,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-17.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-        
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 19, title: "ยุคแห่งความโดดเดี่ยว", imgname: "/2023/23-10/20-25.3x30.jpg", overview: "", overview1: ""},
                         ]
@@ -2159,12 +2086,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-18.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-        
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 20, title: "ภาพ1", imgname: "/2023/23-10/21-35x27.5.jpg", overview: "35x27.5cm", overview1: "สีอะครีลิคบนผ้าใบ 2023"},
                             {order: 21, title: "ภาพ2", imgname: "/2023/23-10/22-35x27.5.jpg", overview: "35x27.5cm", overview1: "สีอะครีลิคบนผ้าใบ 2023"},
@@ -2179,12 +2102,8 @@ export const allExhibits_TH = [
                         imgname:"/2023/23-10/23-10-19.jpg", 
                         text: "",
                         education: "สำเร็จการศึกษาจากมหาวิทยาลัย Cheongju ภาควิชาศิลปะและการออกแบบแฟชั่น",
-                        individual_exhibition: [
-
-                        ],
-                        group_exhibition: [
-        
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 22, title: "ความหวาดกลัวนก", imgname: "/2023/23-10/23-45x45.jpg", overview: "45x45cm", overview1: "สีพาสเทลสีน้ำมัน-canvas-2023"},
                         ]
@@ -2222,9 +2141,7 @@ export const allExhibits_TH = [
                             {order: 8, exhibit: "นิทรรศการเดี่ยวครั้งที่ 2 ปี 1987 Sun Gallery, โซล"},
                             {order: 9, exhibit: "นิทรรศการเดี่ยวครั้งแรกปี 1981 Dongsanbang Gallery, โซล"},
                         ],
-                        group_exhibition: [
-            
-                        ],
+                        group_exhibition: [],
                         paint: [
                             {order: 0, title: "การกำเนิด การทดลอง ปาฏิหาริย์ ความรัก ชีวิตนิรันดร์ การฟื้นคืนชีพ", imgname: "/2023/23-11/1-71.6x72.7.jpg", overview: "310x70cm", overview1: "สีอะครีลิคบนผ้าใบ, 1997"},
                             {order: 1, title: "การกำเนิด การทดลอง ปาฏิหาริย์ ความรัก ชีวิตนิรันดร์ การฟื้นคืนชีพ", imgname: "/2023/23-11/2-71.7x72.8.jpg", overview: "310x70cm", overview1: "สีอะครีลิคบนผ้าใบ, 1997"},
