@@ -1,25 +1,33 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import YouTubePlayer from "../YoutubePlayer";
 import { useRouter } from "next/router";
+import { ScreensaverContext } from "@/contexts/ScreensaverContext";
 
 const Screensaver = ({ videoId, timeout }) => {
+
+  const {isShowingScreensaver, setScreensaverStatus} = useContext(ScreensaverContext);
   // default timeout: 3 seconds
-  const [isShowingScreensaver, setIsShowingScreensaver] = useState(true);
+  // const [isShowingScreensaver, setIsShowingScreensaver] = useState(true);
+  // const [isShowingScreensaver, setIsShowingScreensaver] = useState(show);
+
   const router = useRouter();
 
   useEffect(() => {
     let screensaverTimer;
 
     const resetScreensaverTimer = () => {
-      setIsShowingScreensaver(false);
+      // setIsShowingScreensaver(false);
+      setScreensaverStatus(false)
       clearTimeout(screensaverTimer);
       screensaverTimer = setTimeout(() => {
-        setIsShowingScreensaver(true);
+        // setIsShowingScreensaver(true);
+        setScreensaverStatus(true);
       }, timeout);
     };
 
     screensaverTimer = setTimeout(() => {
-      setIsShowingScreensaver(true);
+      // setIsShowingScreensaver(true);
+      setScreensaverStatus(true)
     }, timeout);
 
     document.addEventListener("click", resetScreensaverTimer);

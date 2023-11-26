@@ -28,18 +28,25 @@ export default function Viewpage() {
     const {isPortrait} = useContext(ScreenOrientContext);
     const {language} = useContext(LanguageContext);
     const router = useRouter();
-    const {slug} = router.query;
+    const {slug, year} = router.query;
     const [popup, setPopup] = useState(true);
-    const [data, setData] = useState(null)
+    const [data, setData] = useState(null);
+    const [time ,setTime] = useState(year);
     
     useEffect(()=> {
         const mid = slug?.replace("", "");
-        if(slug !== undefined && inputData?.[language]?.[mid][0]) {
-            setData(inputData[language][mid][0]);
-        }
-    }, [slug, language])
+        if(slug !== undefined && inputData?.[language]?.[mid]) {
+            setData(inputData[language][mid]);
+        };
+    }, [slug, language]);
 
-    const changeExhibit = (offset) => {
+    useEffect(()=> {
+        if(data) {
+            setTime(data.time);
+        };
+    }, [data]);
+
+     const changeExhibit = (offset) => {
         const currentIndex = Number(slug?.replace("", ""));
         let newIndex = currentIndex + offset;
         if (newIndex < 0) {
@@ -47,10 +54,10 @@ export default function Viewpage() {
         } else if (newIndex >= inputData[language].length) {
           newIndex = 0;
         }
-        router.replace(`/pastexhibit/${newIndex}`);
+        router.replace(`/pastexhibit/${newIndex}?time=${time}`);
     };
 
-    console.log(data)
+    // console.log(data.time)
     return(
         <>
         {data && (

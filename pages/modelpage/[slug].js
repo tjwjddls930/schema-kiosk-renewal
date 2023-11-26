@@ -75,7 +75,7 @@ export default function Modelpage({}) {
     function handleRefresh() {
         router.reload();
     };
-    // console.log(data);
+    console.log(modelData);
     return(
         <div className="h-screen w-screen bg-Awhite bg-cover bg-no-repeat">
             {/* 3D 콘텐츠 구역 */}

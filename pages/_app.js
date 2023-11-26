@@ -5,7 +5,8 @@ import { ScreenOrientProvider } from '@/contexts/ScreenOrientContext';
 import {useEffect, useState} from 'react';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
-// import InactivityRedirect from '@/components/InactivityRedirect';
+import InactivityRedirect from '@/components/InactivityRedirect';
+import { ScreensaverProvider } from '@/contexts/ScreensaverContext';
 // const WideLayout = dynamic(() => import('@/components/pagelayout/WideLayout'));
 const TallLayout = dynamic(() => import('@/components/pagelayout/TallLayout'));
 
@@ -32,10 +33,10 @@ export default function App({ Component, pageProps }) {
       <LanguageProvider>
         <FontsizeProvider>
           <ScreenOrientProvider>
-          {/* {currentPath === "/landingpage" 
+          {currentPath === "/" 
           ? null
-          : <InactivityRedirect timeout={90000} landingPageUrl={"/landingpage"} />
-          } */}
+          : <InactivityRedirect timeout={10000} landingPageUrl={"/"} />
+          }
           {isPortrait ? 
             <TallLayout>
               <Component {...pageProps} />
@@ -43,7 +44,9 @@ export default function App({ Component, pageProps }) {
             :  
             // <WideLayout>
             // </WideLayout>
-            <Component {...pageProps} />  
+            <ScreensaverProvider>
+              <Component {...pageProps} /> 
+            </ScreensaverProvider> 
           }
           </ScreenOrientProvider>
         </FontsizeProvider>

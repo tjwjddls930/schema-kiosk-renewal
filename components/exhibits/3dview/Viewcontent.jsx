@@ -12,7 +12,6 @@ const Viewcontent = ({url, width, height}) => {
     const [isClient, setIsClient] = useState(false);
     const router = useRouter();
     const currentPath = router.asPath;
-    console.log(currentPath);
 
     useEffect(() => {
       // Update the isClient state to true as this code will be executed only on client side
@@ -36,8 +35,13 @@ const Viewcontent = ({url, width, height}) => {
             >
                 <directionalLight intensity={1} />
                 <Suspense>
-                    <Painting 
+                    {/* <Painting 
                         url={`/img/exhibitpage/paintings/${url}`}
+                        width={width}
+                        height={height}
+                    /> */}
+                      <Painting 
+                        url={url}
                         width={width}
                         height={height}
                     />

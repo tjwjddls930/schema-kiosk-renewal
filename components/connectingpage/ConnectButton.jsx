@@ -143,7 +143,7 @@ const ConnectButton = () => {
     const [popup, setPopup] = useState(false);
     return(
         <div className={clsx(isPortrait ? "w-full h-[90%] flex flex-col space-y-4 screen-w:space-y-24 mx-auto justify-center items-center" : "w-3/4 h-3/4 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center")}>
-            {popup && inputData[language] && (
+            {popup && (
               <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[92%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91.5%] screen-w:h-[92.7%] w-screen bg-Ablack bg-opacity-60 z-20")}>
                 <div className={clsx(isPortrait ? "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-end justify-center" : "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center justify-center")}>
                   <button 
@@ -154,7 +154,7 @@ const ConnectButton = () => {
                   </button>
                   <button
                     className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
-                    // onClick={()=> router.push(`/pastexhibit/${inputData[language][0][0].order}`)}
+                    onClick={()=> router.push(`/pastexhibit/${inputData[language][0].order}?year=${inputData[language][0].time}`)}
                     >
                       {popupText2[language]}
                   </button>
