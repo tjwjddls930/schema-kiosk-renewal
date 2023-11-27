@@ -1,10 +1,9 @@
-import { useState, useEffect, useContext } from 'react';
+import { useEffect, useContext } from 'react';
 import { ScreensaverContext } from '@/contexts/ScreensaverContext';
-import { Howl } from 'howler';
 import clsx from 'clsx';
 import { MusicContext } from '@/contexts/MusicContext';
 
-const MusicPlayer = ({ sources, isScreensaverPlaying }) => {
+const MusicPlayer = () => {
   const { isShowingScreensaver } = useContext(ScreensaverContext);
   const {audio, isPlaying, setIsPlaying} = useContext(MusicContext);
 

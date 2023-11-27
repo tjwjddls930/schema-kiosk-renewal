@@ -5,7 +5,15 @@ export const MusicContext = createContext();
 
 export const MusicProvider = ({ children }) => {
     const [isPlaying, setIsPlaying] = useState(false);
-    const [audio, setAudio] = useState(new Howl({ src: '/audio/bgm-2.mp3', autoplay: false }));
+    const [audio, setAudio] = useState(new Howl({ 
+      src: '/audio/reflections-on-water.mp3', 
+      autoplay: false, 
+      onend: () => {
+      // Handle the end of the audio, for example, by restarting it
+      audio.play();
+      },
+      volume: 0.5, 
+    }));
 
     // const [activePlayer, setActivePlayer] = useState(null);
     useEffect(() => {
