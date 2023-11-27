@@ -1,46 +1,54 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
+import { ScreensaverContext } from '@/contexts/ScreensaverContext';
 import { Howl } from 'howler';
+import clsx from 'clsx';
+import { MusicContext } from '@/contexts/MusicContext';
 
-const MusicPlayer = ({ audioSrc, isVideoPlaying }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [audio] = useState(new Howl({ src: [audioSrc], autoplay: false })); // Set autoplay to false initially
+const MusicPlayer = ({ sources, isScreensaverPlaying }) => {
+  const { isShowingScreensaver } = useContext(ScreensaverContext);
+  const {isPlaying, setIsPlaying} = useContext(MusicContext);
+  const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
+  const [audio, setAudio] = useState(new Howl({ src: [sources[currentTrackIndex]], autoplay: false }));
 
   useEffect(() => {
-    // Autoplay the music when the component mounts
-    if (!isVideoPlaying && !isPlaying) {
-      audio.play();
-      setIsPlaying(true);
-    }
+    // Update the audio source when the track changes
+    audio.unload();
+    audio.load();
+    audio.src = [sources[currentTrackIndex]];
+  }, [currentTrackIndex, sources, audio]);
 
-    // Pause the music when a video is playing
-    if (isVideoPlaying && isPlaying) {
+  useEffect(() => {
+    if (isShowingScreensaver) {
       audio.pause();
       setIsPlaying(false);
     }
+  }, [isShowingScreensaver, audio]);
 
-    return () => {
-      // Cleanup: pause and unload the audio when the component unmounts
+  const togglePlay = () => {
+    if (isPlaying) {
       audio.pause();
-      audio.unload();
-    };
-  }, [isVideoPlaying, isPlaying, audio]);
-
-  // const togglePlay = () => {
-  //   if (isPlaying) {
-  //     audio.pause();
-  //   } else {
-  //     audio.play();
-  //   }
-  //   setIsPlaying(!isPlaying);
-  // };
+    } else {
+      audio.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
 
   return (
-    null
-    // <div>
-    //   <button onClick={togglePlay}>
-    //     {isPlaying ? 'Pause' : 'Play'}
-    //   </button>
-    // </div>
+    <div className="p-4 absolute right-14 bottom-20 screen-w:bottom-40">
+      <button
+        onClick={togglePlay}
+        className={clsx("text-white font-bold py-2 px-4 h-full w-full text-base screen-w:text-4xl")}
+      >
+        {isPlaying 
+        ? <svg className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Bblue" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 20">
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M6 1v4a1 1 0 0 1-1 1H1m8 7.5V5s3 1 3 4m3 9a.97.97 0 0 1-.933 1H1.933A.97.97 0 0 1 1 18V5.828a2 2 0 0 1 .586-1.414l2.828-2.828A2 2 0 0 1 5.828 1h8.239A.97.97 0 0 1 15 2v16Zm-6-4c0 1.105-1.12 2-2.5 2S4 15.105 4 14s1.12-2 2.5-2 2.5.895 2.5 2Z"/>
+          </svg>
+        : <svg className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Ablack" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 20">
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M6 1v4a1 1 0 0 1-1 1H1m8 7.5V5s3 1 3 4m3 9a.97.97 0 0 1-.933 1H1.933A.97.97 0 0 1 1 18V5.828a2 2 0 0 1 .586-1.414l2.828-2.828A2 2 0 0 1 5.828 1h8.239A.97.97 0 0 1 15 2v16Zm-6-4c0 1.105-1.12 2-2.5 2S4 15.105 4 14s1.12-2 2.5-2 2.5.895 2.5 2Z"/>
+          </svg>
+      }
+      </button>
+    </div>
   );
 };
 

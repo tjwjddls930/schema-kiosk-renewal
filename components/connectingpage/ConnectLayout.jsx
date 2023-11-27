@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Navbar from "../navbar/Navbar";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { useContext } from "react";
 
@@ -65,9 +64,6 @@ const ConnectLayout = ({children}) => {
                     </svg>
                 </Link>
             </button>
-            <Navbar 
-                url={"/video/docent/blue-docent-test-02-removed.webm"}
-            />
         </div>
     );
 };

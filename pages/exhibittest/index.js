@@ -1,11 +1,15 @@
 import { useState, useContext, useEffect } from "react";
-import { allExhibits } from "@/data/pastExhibit";
 import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import { allExhibits_KOR } from "@/data/allExhibits_KOR";
+import { allExhibits_ENG } from "@/data/allExhibits_ENG";
+import { allExhibits_CH } from "@/data/allExhibits_CH";
+import { allExhibits_TH } from "@/data/allExhibits_TH";
+import { allExhibits_VI } from "@/data/allExhibits_VI";
 
 const topText = {
     KOR: () => (
@@ -40,6 +44,14 @@ const topText = {
     ),
 };
 
+const inputData = {
+    KOR: allExhibits_KOR,
+    ENG: allExhibits_ENG,
+    CH: allExhibits_CH,
+    TH: allExhibits_TH,
+    VI: allExhibits_VI
+};
+
 const DynamicCoverflowCarousel = dynamic(
     () => import("@/components/CoverflowCarousel"),
     {
@@ -49,12 +61,13 @@ const DynamicCoverflowCarousel = dynamic(
   );
 
 export default function Exhibitpage() {
-    const [exhibit, setExhibit] = useState(allExhibits[0]);
     const [video, setVideo] = useState();
     const router = useRouter();
     const {index} = router.query;
     const {language} = useContext(LanguageContext);
     const {isPortrait} = useContext(ScreenOrientContext);
+    const [exhibit, setExhibit] = useState(inputData[language][0]);
+
     useEffect(()=> {
         setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-exhibit-2023-${index}-${language}.webm`)
     }, [language, index]);
@@ -83,7 +96,7 @@ export default function Exhibitpage() {
             </main>  
             <div className="w-3/4 screen-w:w-[88%] h-10 screen-w:h-24 flex text-Dgrey shadow-md mx-auto justify-center overflow-hidden">
                 <ul className="flex flex-row space-x-12 font-bold text-base mb-2 screen-w:text-5xl screen-w:space-x-16 screen-w:mt-4">
-                    {allExhibits.map((item)=> (
+                    {inputData[language].map((item)=> (
                         <li
                             key={item.year}
                             className={item === exhibit ? "text-Ablack border-b-4 border-Ablue" : ""}

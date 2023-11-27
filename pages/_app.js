@@ -7,11 +7,18 @@ import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
 import InactivityRedirect from '@/components/InactivityRedirect';
 import { ScreensaverProvider } from '@/contexts/ScreensaverContext';
+import { MusicProvider } from '@/contexts/MusicContext';
+import MusicPlayer from '@/components/Musicplayer';
+// import MusicPlayer from '@/components/Musicplayer2';
 // const WideLayout = dynamic(() => import('@/components/pagelayout/WideLayout'));
 const TallLayout = dynamic(() => import('@/components/pagelayout/TallLayout'));
 
 export default function App({ Component, pageProps }) {
   const [isPortrait, setIsPortrait] = useState(false);
+  const musicList = [
+    // '/audio/bgm-1.mp3',
+    '/audio/bgm-2.mp3',
+  ];
   const router = useRouter();
   const currentPath = router.asPath;
   useEffect(() => {
@@ -42,10 +49,14 @@ export default function App({ Component, pageProps }) {
               <Component {...pageProps} />
             </TallLayout>
             :  
-            // <WideLayout>
-            // </WideLayout>
             <ScreensaverProvider>
-              <Component {...pageProps} /> 
+              <MusicProvider>
+                <Component {...pageProps} /> 
+                {currentPath === "/" 
+                ? null 
+                : <MusicPlayer sources = {musicList} />
+                }
+              </MusicProvider>
             </ScreensaverProvider> 
           }
           </ScreenOrientProvider>

@@ -24,56 +24,57 @@ const dataText = {
         <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Ablack font-bold", font 
         ? "text-sm screen-w:text-5xl" 
         : "text-xs screen-w:text-4xl")}>
-            <span className="h-12">{'교육대상'}</span>
-            <span className="h-12">{'교육시간'}</span>
-            <span className="h-12">{'참여인원'}</span>
-            <span className="h-12">{'교육장소'}</span>
-            <span className="h-12">{'주최'}</span>
-            <span className="h-12">{'후원'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'교육대상'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'교육시간'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'참여인원'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'교육장소'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'주최'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'후원'}</span>
         </div>
     ),
     ENG: (font) => (
         <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Ablack font-bold", font 
         ? "text-sm screen-w:text-5xl" 
-        : "text-xs screen-w:text-4xl")}>            <span className="h-12">{'Education Target'}</span>
-            <span className="h-12">{'Time'}</span>
-            <span className="h-12">{'Number of Participants'}</span>
-            <span className="h-12">{'Location'}</span>
-            <span className="h-12">{'Host'}</span>
-            <span className="h-12">{'Support'}</span>
+        : "text-xs screen-w:text-4xl")}>            
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'Education Target'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'Time'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'Number of Participants'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'Location'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'Host'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'Support'}</span>
         </div>
     ),
     CH: (font) => (
         <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Ablack font-bold", font 
         ? "text-sm screen-w:text-5xl" 
         : "text-xs screen-w:text-4xl")}>            <span className="h-12">{'教育目标'}</span>
-            <span className="h-12">{'训练时间'}</span>
-            <span className="h-12">{'参加人数'}</span>
-            <span className="h-12">{'教育场所'}</span>
-            <span className="h-12">{'主持人'}</span>
-            <span className="h-12">{'支持'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'训练时间'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'参加人数'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'教育场所'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'主持人'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'支持'}</span>
         </div>
     ),
     TH: (font) => (
         <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Ablack font-bold", font 
         ? "text-sm screen-w:text-5xl" 
         : "text-xs screen-w:text-4xl")}>            <span className="h-12">{'เป้าหมายทางการศึกษา'}</span>
-            <span className="h-12">{'เวลาฝึกอบรม'}</span>
-            <span className="h-12">{'จำนวนผู้เข้าร่วม'}</span>
-            <span className="h-12">{'สถานที่ศึกษา'}</span>
-            <span className="h-12">{'เจ้าภาพ'}</span>
-            <span className="h-12">{'สนับสนุน'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'เวลาฝึกอบรม'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'จำนวนผู้เข้าร่วม'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'สถานที่ศึกษา'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'เจ้าภาพ'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'สนับสนุน'}</span>
         </div>
     ),
     VI: (font) => (
         <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Ablack font-bold", font 
         ? "text-sm screen-w:text-5xl" 
         : "text-xs screen-w:text-4xl")}>            <span className="h-12">{'mục tiêu đào tạo'}</span>
-            <span className="h-12">{'thời gian huấn luyện'}</span>
-            <span className="h-12">{'Số lượng người tham gia'}</span>
-            <span className="h-12">{'Nơi giáo dục'}</span>
-            <span className="h-12">{'chủ nhà'}</span>
-            <span className="h-12">{'ủng hộ'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'thời gian huấn luyện'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'Số lượng người tham gia'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'Nơi giáo dục'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'chủ nhà'}</span>
+            <span className={clsx("h-12", font ? "h-16" : "")}>{'ủng hộ'}</span>
         </div>
     ),
 };
@@ -174,12 +175,12 @@ const EducationContent = () => {
                             <div className={clsx("w-1/2 flex flex-col space-y-3 screen-w:space-y-8 text-Cgrey font-bold", fontsize 
                             ? "text-sm screen-w:text-5xl" 
                             : "text-xs screen-w:text-4xl")}>
-                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].participate}</span>
-                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].time1}</span>
-                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].participate1}</span>
-                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].location}</span>
-                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].host}</span>
-                                <span className="h-12 whitespace-nowrap overflow-auto">{inputData[language][pid].education[index].support}</span>
+                                <span className={clsx("h-12 whitespace-nowrap overflow-auto", fontsize ? "screen-w:h-16" : "")}>{inputData[language][pid].education[index].participate}</span>
+                                <span className={clsx("h-12 whitespace-nowrap overflow-auto", fontsize ? "screen-w:h-16" : "")}>{inputData[language][pid].education[index].time1}</span>
+                                <span className={clsx("h-12 whitespace-nowrap overflow-auto", fontsize ? "screen-w:h-16" : "")}>{inputData[language][pid].education[index].participate1}</span>
+                                <span className={clsx("h-12 whitespace-nowrap overflow-auto", fontsize ? "screen-w:h-16" : "")}>{inputData[language][pid].education[index].location}</span>
+                                <span className={clsx("h-12 whitespace-nowrap overflow-auto", fontsize ? "screen-w:h-16" : "")}>{inputData[language][pid].education[index].host}</span>
+                                <span className={clsx("h-12 whitespace-nowrap overflow-auto", fontsize ? "screen-w:h-16" : "")}>{inputData[language][pid].education[index].support}</span>
                             </div>
                         </div>
                     </div>

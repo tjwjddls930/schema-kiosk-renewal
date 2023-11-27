@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect, useContext } from "react";
-import { allExhibits } from "@/data/pastExhibit";
 import { useRouter } from "next/router";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";

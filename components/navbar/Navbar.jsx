@@ -5,72 +5,78 @@ import clsx from "clsx";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
+import { ScreensaverContext } from "@/contexts/ScreensaverContext";
 import VoiceGPTButton from "../VoiceGPTButton";
 import { useRouter } from "next/router";
-// import MusicPlayer from "../Musicplayer";
+import MusicPlayer from "../Musicplayer";
 // import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
 
 const languageText = {
-  KOR: (func) => (
+  KOR: (func, sound, sign) => (
     <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center items-center text-center">
       <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"언어변경"}
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
+        disabled={sound || sign}
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
       >
         {"KOR"}
       </button>
     </div>
   ),
-  ENG: (func) => (
+  ENG: (func, sound, sign) => (
     <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[600px] justify-center items-center text-center">
       <span className="text-xl w-[450px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
         {"Language Change"}
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
+        disabled={sound || sign}
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
       >
         {"ENG"}
       </button>
     </div>
   ),
-  CH: (func) => (
+  CH: (func, sound, sign) => (
     <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center items-center text-center">
       <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"改变语言"}
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
+        disabled={sound || sign}
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
       >
         {"CH"}
       </button>
     </div>
   ),
-  TH: (func) => (
+  TH: (func, sound, sign) => (
     <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[450px] justify-center items-center text-center">
       <span className="text-xl w-[300px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
         {"เปลี่ยนภาษา"}
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
+        disabled={sound || sign}
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
       >
         {"TH"}
       </button>
     </div>
   ),
-  VI: (func) => (
+  VI: (func, sound, sign) => (
     <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[640px] justify-center items-center text-center">
       <span className="text-xl w-[490px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
         {"Thay đổi ngôn ngữ"}
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold"
+        disabled={sound || sign}
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
       >
         {"VI"}
       </button>
@@ -288,8 +294,8 @@ const soundDocent = {
 };
 
 const signDocent = {
-  KOR: (func, sound, sign) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+  KOR: (func, sound, sign, hide) => (
+    <div className={clsx("h-full flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center", hide ? "hidden" : "flex")}>
       <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"수어안내"}
       </span>
@@ -302,8 +308,8 @@ const signDocent = {
       </button>
     </div>
   ),
-  ENG: (func, sound, sign) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[650px] justify-center text-center items-center">
+  ENG: (func, sound, sign, hide) => (
+    <div className={clsx("h-full flex-row space-x-2 w-[200px] screen-w:w-[650px] justify-center text-center items-center", hide ? "hidden" : "flex")}>
       <span className="text-xl w-[500px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
         {"Sign Language Guide"}
       </span>
@@ -316,8 +322,8 @@ const signDocent = {
       </button>
     </div>
   ),
-  CH: (func, sound, sign) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center">
+  CH: (func, sound, sign, hide) => (
+    <div className={clsx("h-full flex-row space-x-2 w-[200px] screen-w:w-[350px] justify-center text-center items-center", hide ? "hidden" : "flex")}>
       <span className="text-xl w-[200px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"手语指南"}
       </span>
@@ -330,8 +336,8 @@ const signDocent = {
       </button>
     </div>
   ),
-  TH: (func, sound, sign) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[450px] justify-center text-center items-center">
+  TH: (func, sound, sign, hide) => (
+    <div className={clsx("h-full flex-row space-x-2 w-[200px] screen-w:w-[450px] justify-center text-center items-center", hide ? "hidden" : "flex")}>
       <span className="text-xl w-[300px] screen-w:text-5xl mx-auto font-bold text-Awhite mb-1">
         {"คู่มือภาษามือ"}
       </span>
@@ -344,8 +350,8 @@ const signDocent = {
       </button>
     </div>
   ),
-  VI: (func, sound, sign) => (
-    <div className="h-full flex flex-row space-x-2 w-[200px] screen-w:w-[890px] justify-center text-center items-center">
+  VI: (func, sound, sign, hide) => (
+    <div className={clsx("h-full flex-row space-x-2 w-[200px] screen-w:w-[890px] justify-center text-center items-center", hide ? "hidden" : "flex")}>
       <span className="text-xl w-[740px] screen-w:text-5xl mx-auto font-bold text-Awhite">
         {"Hướng dẫn ngôn ngữ ký hiệu"}
       </span>
@@ -406,8 +412,10 @@ const Navbar = ({ url, sign }) => {
   const [isChatModalOpen, setIsChatModalOpen] = useState(false);
   const [hide, setHide] = useState(true);
   const [docent, setDocent] = useState(false);
+  const [signbutton, setsignButton] = useState(false);
   const { language, setLanguage } = useContext(LanguageContext);
   const { fontsize, setFontsize } = useContext(FontsizeContext);
+  const { isShowingScreensaver, setScreensaverStatus } = useContext(ScreensaverContext);
   const { isPortrait } = useContext(ScreenOrientContext);
 
   const changeLanguage = (lang) => {
@@ -429,7 +437,23 @@ const Navbar = ({ url, sign }) => {
     } else {
       setDocent(false);
     }
-  }, [url, router.pathname]);
+  }, [url]);
+
+  useEffect(()=> {
+    if(!sign) {
+      setsignButton(true);
+    } else {
+      setsignButton(false);
+    }
+  }, [sign])
+
+  useEffect(()=> {
+    if(soundguide || signLang) {
+      setScreensaverStatus(true)
+    } else {
+      setScreensaverStatus(false)
+    }
+  }, [soundguide, isShowingScreensaver])
   // console.log(url);
   return (
     <>
@@ -440,7 +464,9 @@ const Navbar = ({ url, sign }) => {
               ? "absolute top-0 left-0 h-[94%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20"
               : "absolute top-0 left-0 h-[91%] screen-w:h-[92.7%] w-screen bg-Ablack bg-opacity-60 z-20"
           )}
-          onClick={() => setSoundguide(!soundguide)}
+          onClick={() => {
+            setSoundguide(!soundguide)
+          }}
         >
           <div
             className={clsx(
@@ -449,14 +475,18 @@ const Navbar = ({ url, sign }) => {
                 : "absolute transform -translate-x-1/2 left-1/2 bottom-0 h-3/4 w-3/4 z-40"
             )}
             // onClick={()=>setPlaying(!playing)}
-            onClick={() => setSoundguide(!soundguide)}
+            onClick={() => {
+              setSoundguide(!soundguide)
+            }}
           >
             <Soundguide
               videoUrl={url}
               volume={Number(volume)}
               playing={true}
               loop={false}
-              end={() => setSoundguide(!soundguide)}
+              end={() => {
+                setSoundguide(!soundguide)
+              }}
             />
           </div>
         </div>
@@ -507,13 +537,6 @@ const Navbar = ({ url, sign }) => {
       >
           <div className="flex flex-col screen-w:space-y-3">
               <div className="border-2 screen-w:border-4 border-Ablue rounded-full w-12 h-12 screen-w:w-40 screen-w:h-40 items-center bg-Awhite mx-auto">
-                  {/* <Image 
-                      className="mx-auto pt-2.5 z-1 screen-w:pt-6"
-                      src="/img/mainpage/언어변경_아이콘_1.png"
-                      height="100"
-                      width="100"
-                      alt="language"
-                  /> */}
                   <img 
                     className="h-8 w-8 screen-w:h-28 screen-w:w-28 mx-auto pt-2.5 z-1 screen-w:pt-6"
                     src="/img/mainpage/언어변경_아이콘_1.png"
@@ -523,28 +546,6 @@ const Navbar = ({ url, sign }) => {
               {languageChange[language](fontsize)}
           </div>
       </button>
-      {/* 챗봇 버튼 */}
-      {/* <button 
-          onClick={() => setIsChatModalOpen((prev) => !prev)} 
-          className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 right-[40%] bottom-16 screen-w:bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}        >
-        <div className="flex flex-col screen-w:space-y-3">
-          <div
-            className={clsx(
-              "p-2 border-2 screen-w:border-4 border-Ablue rounded-full h-12 w-12 screen-w:h-40 screen-w:w-40",
-              isChatModalOpen
-                ? "border-Bblue"
-                : "border-Ablue",
-            )}
-          >
-            <ChatBubbleLeftRightIcon className={clsx("flex mx-auto mt-1 screen-w:mt-3 h-6 w-6 screen-w:h-28 screen-w:w-28",
-              isChatModalOpen 
-              ? "text-Bblue"
-              : "text-Ablue"
-            )} />
-          </div>
-          {chatbotText[language](fontsize)}
-        </div>
-      </button> */}
       {modal && (
         <div className="absolute top-0 h-screen w-screen bg-opacity-60 bg-Ablack z-10">
           <div
@@ -676,16 +677,17 @@ const Navbar = ({ url, sign }) => {
         </div>
       )}
       <nav className="fixed lg:flex bottom-0 w-screen h-16 screen-w:h-40 bg-Ablue px-10 screen-w:px-12 items-center">
-        {/* <MusicPlayer audioSrc={'/audio/TheHolyLand.mp3'} isVideoPlaying={soundguide} /> */}
+        {/* <MusicPlayer src={'/audio/TheHolyLand.mp3'} /> */}
         <div className="flex flex-row w-full h-full space-x-4 screen-w:space-x-6 justify-end">
           <VoiceGPTButton isChatModalOpen={isChatModalOpen} />
-          {languageText[language](() => setModal(!modal))}
+          {languageText[language](() => setModal(!modal), soundguide, signLang)}
           {textSize[language](() => setFontsize(!fontsize), fontsize)}
           {volumeControl[language](() => setVolumepop(!volumepop), docent)}
           {signDocent[language](
             () => setsignLang(!signLang),
             soundguide,
             signLang,
+            signbutton
           )}
           {soundDocent[language](
             () => setSoundguide(!soundguide),
