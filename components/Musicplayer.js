@@ -6,16 +6,7 @@ import { MusicContext } from '@/contexts/MusicContext';
 
 const MusicPlayer = ({ sources, isScreensaverPlaying }) => {
   const { isShowingScreensaver } = useContext(ScreensaverContext);
-  const {isPlaying, setIsPlaying} = useContext(MusicContext);
-  const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
-  const [audio, setAudio] = useState(new Howl({ src: [sources[currentTrackIndex]], autoplay: false }));
-
-  useEffect(() => {
-    // Update the audio source when the track changes
-    audio.unload();
-    audio.load();
-    audio.src = [sources[currentTrackIndex]];
-  }, [currentTrackIndex, sources, audio]);
+  const {audio, isPlaying, setIsPlaying} = useContext(MusicContext);
 
   useEffect(() => {
     if (isShowingScreensaver) {
