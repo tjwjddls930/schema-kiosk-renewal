@@ -5,22 +5,21 @@ import Navbar from "@/components/navbar/Navbar";
 import Soundguide from "@/components/docent/Soundguide";
 import { Html } from "@react-three/drei";
 import { LanguageContext } from "@/contexts/LanguageContext";
-import { ScreensaverContext } from "@/contexts/ScreensaverContext";
 // import Screensaver from "@/components/docent/NewScreensaver";
-import Screensaver2 from "@/components/docent/Screensaver2";
+// import Screensaver2 from "@/components/docent/Screensaver2";
 export default function Landingpage() {
     const {language} = useContext(LanguageContext);
-    const {isShowingScreensaver} = useContext(ScreensaverContext);
+    const [play, setPlay] = useState(false);
     const [video, setVideo] = useState(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-landing-KOR.webm`);
     useEffect(()=> {
         setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-landing-${language}.webm`)
     }, [language]);
 
-    // console.log(isShowingScreensaver);
-
     return(
         <div className="h-screen w-screen bg-Ablue">
-            <div className="w-1/3 h-1/12 flex mx-auto justify-center py-12">
+            <div className="w-1/3 h-1/12 flex mx-auto justify-center py-12"
+                // onClick={()=> setPlay(!play)}
+            >
                 <img 
                     src="/img/mainpage/schema-logo-NEW.svg"
                     alt="logo1"
@@ -53,11 +52,40 @@ export default function Landingpage() {
                                 position={[9, 1.2, 1]}
                                 zIndexRange={[1, 0]}
                             >
+                               {/* {play 
+                                ?  
+                                <Soundguide 
+                                className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
+                                videoUrl={video}
+                                volume={0.5}
+                                playing={true}
+                                loop={true}
+                                />
+                                : <Soundguide 
+                                className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
+                                videoUrl={video}
+                                volume={0.5}
+                                playing={false}
+                                loop={true}
+                                />
+                                :  <img 
+                                    className="h-[400px] w-[400px] screen-w:h-[750px] screen-w:w-[750px]"
+                                    src="/img/landingpage/docent.png"
+                                    alt="docent"
+                                />
+                                } */}
+                                {/* <Soundguide 
+                                className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
+                                videoUrl={video}
+                                volume={0.5}
+                                playing={play}
+                                loop={true}
+                                /> */}
                                 <Soundguide 
                                     className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
                                     videoUrl={video}
                                     volume={0.5}
-                                    playing={isShowingScreensaver ? false : true}
+                                    playing={true}
                                     loop={true}
                                 />
                             </Html>
@@ -65,9 +93,8 @@ export default function Landingpage() {
                     </Canvas>
                 </Suspense>
             </div>
-            <Screensaver2 videoId="Z9K0zY5gB4o" timeout={120000} />
-            <Navbar 
-            />
+            {/* <Screensaver videoId="Z9K0zY5gB4o" timeout={10000} /> */}
+            <Navbar />
         </div>
     )
 };

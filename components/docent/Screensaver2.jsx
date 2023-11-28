@@ -5,7 +5,7 @@ import { ScreensaverContext } from "@/contexts/ScreensaverContext";
 
 const Screensaver2 = ({ videoId, timeout }) => {
 
-  const {isShowingScreensaver, setScreensaverStatus} = useContext(ScreensaverContext);
+  // const {isShowingScreensaver, setScreensaverStatus} = useContext(ScreensaverContext);
   // default timeout: 3 seconds
   // const [isShowingScreensaver, setIsShowingScreensaver] = useState(true);
   // const [isShowingScreensaver, setIsShowingScreensaver] = useState(show);

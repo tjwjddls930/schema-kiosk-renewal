@@ -1,28 +1,23 @@
-import React, { useEffect, useContext } from "react";
-import { ScreensaverContext } from "@/contexts/ScreensaverContext";
-import Dynamicplayer from "./Dynamicplayer";
+import React, { useState, useEffect, useContext } from "react";
+import YouTubePlayer from "@/components/YouTubePlayer";
 
-const Screensaver = ({ videoId, timeout = 3000 }) => {
+const Screensaver = ({ videoId, timeout }) => {
   // default timeout: 3 seconds
-//   const [isShowingScreensaver, setIsShowingScreensaver] = useState(true);
-    const {isShowingScreensaver, setScreensaverStatus} = useContext(ScreensaverContext);
+  const [isShowingScreensaver, setIsShowingScreensaver] = useState(false);
 
   useEffect(() => {
     let screensaverTimer;
 
     const resetScreensaverTimer = () => {
-        setScreensaverStatus(false);
-    //   setIsShowingScreensaver(false);
+      setIsShowingScreensaver(false);
       clearTimeout(screensaverTimer);
       screensaverTimer = setTimeout(() => {
-        setScreensaverStatus(true);
-        // setIsShowingScreensaver(true);
+        setIsShowingScreensaver(true);
       }, timeout);
     };
 
     screensaverTimer = setTimeout(() => {
-        setScreensaverStatus(true);
-    //   setIsShowingScreensaver(true);
+      setIsShowingScreensaver(true);
     }, timeout);
 
     document.addEventListener("click", resetScreensaverTimer);
@@ -47,7 +42,7 @@ const Screensaver = ({ videoId, timeout = 3000 }) => {
     };
   }, [timeout]);
 
-  return <>{isShowingScreensaver && <Dynamicplayer videoId={videoId} />}</>;
+  return <>{isShowingScreensaver && <YouTubePlayer videoId={videoId} />}</>;
 };
 
 export default Screensaver;

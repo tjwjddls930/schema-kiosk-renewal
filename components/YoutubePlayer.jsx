@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 const YouTubePlayer = ({ videoId, ...props }) => {
-  const router = useRouter();
   const [isHidden, setIsHidden] = useState(false);
   const isDevelopment = process.env.NODE_ENV === "development";
   const baseUrl = isDevelopment
@@ -12,7 +11,6 @@ const YouTubePlayer = ({ videoId, ...props }) => {
 
   const handleClick = () => {
     setIsHidden(true);
-    router.reload();
   };
 
   return (
