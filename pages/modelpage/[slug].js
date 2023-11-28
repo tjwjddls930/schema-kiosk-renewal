@@ -4,7 +4,6 @@ import { modelData } from "@/data/modelData";
 import Navbar from "@/components/navbar/Navbar";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import Modelanimation from "@/components/Modelanimation";
 import { MathUtils } from "three";
 import * as THREE from 'three';
 import clsx from "clsx";
@@ -12,6 +11,7 @@ import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import Spot from "@/components/Spotlight";
 import IDBAnimationModel from "@/components/IndexedDB";
+import { modelData_KOR, modelData_ENG, modelData_CH, modelData_TH, modelData_VI } from "@/data/modelData";
 
 const iconText1 = {
     KOR: "초기화",
@@ -45,6 +45,14 @@ const popupText = {
     VI: "Chạm vào màn hình để phóng to!",
 };
 
+const inputData = {
+    KOR: modelData_KOR,
+    ENG: modelData_ENG,
+    CH: modelData_CH,
+    TH: modelData_TH,
+    VI: modelData_VI,
+};
+
 export default function Modelpage({}) {
     const {language} = useContext(LanguageContext);
     const {isPortrait} = useContext(ScreenOrientContext);
@@ -56,17 +64,17 @@ export default function Modelpage({}) {
     useEffect(()=> {
         // Fetch and set data based on the slug from the router
         const mid = slug?.replace("", "");
-        if(slug !== undefined && modelData[mid]) {
-            setData(modelData[mid]);
+        if(slug !== undefined && inputData?.[language]?.[mid]) {
+            setData(inputData[language][mid]);
         }
-    }, [slug])
+    }, [slug, language])
 
     const changeExhibit = (offset) => {
         const currentIndex = Number(slug?.replace("", ""));
         let newIndex = currentIndex + offset;
         if (newIndex < 0) {
-          newIndex = modelData.length - 1;
-        } else if (newIndex >= modelData.length) {
+          newIndex = inputData[language].length - 1;
+        } else if (newIndex >= inputData[language].length) {
           newIndex = 0;
         }
 
@@ -75,7 +83,7 @@ export default function Modelpage({}) {
     function handleRefresh() {
         router.reload();
     };
-    console.log(modelData);
+    // console.log(modelData);
     return(
         <div className="h-screen w-screen bg-Awhite bg-cover bg-no-repeat">
             {/* 3D 콘텐츠 구역 */}

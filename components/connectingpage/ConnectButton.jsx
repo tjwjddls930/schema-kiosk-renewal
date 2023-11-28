@@ -1,4 +1,4 @@
-import { modelData } from "@/data/modelData";
+// import { modelData } from "@/data/modelData";
 import { useRouter } from "next/router";
 import { useContext, useState } from "react";
 import { LanguageContext } from "@/contexts/LanguageContext";
@@ -6,6 +6,7 @@ import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
 import { collection_KOR, collection_ENG, collection_CH, collection_TH, collection_VI } from "@/data/collectionData";
+import { modelData_KOR, modelData_ENG, modelData_CH, modelData_TH, modelData_VI } from "@/data/modelData";
 
 const exhibitButton = {
     KOR: (size) => (
@@ -135,6 +136,14 @@ const inputData = {
     VI: collection_VI,
 };
 
+const inputmodelData = {
+    KOR: modelData_KOR,
+    ENG: modelData_ENG,
+    CH: modelData_CH,
+    TH: modelData_TH,
+    VI: modelData_VI
+};
+
 const ConnectButton = () => {
     const router = useRouter();
     const {language} = useContext(LanguageContext);
@@ -148,7 +157,7 @@ const ConnectButton = () => {
                 <div className={clsx(isPortrait ? "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-end justify-center" : "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center justify-center")}>
                   <button 
                     className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
-                    onClick={()=> router.push(`/modelpage/${modelData[0].order}`)}
+                    onClick={()=> router.push(`/modelpage/${inputmodelData[language][0].order}`)}
                   >
                       {popupText1[language]}
                   </button>

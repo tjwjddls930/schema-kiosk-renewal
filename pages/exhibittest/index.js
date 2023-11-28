@@ -128,7 +128,6 @@ export default function Exhibitpage() {
             </button>
             <Navbar 
                 url={video}
-                lang={"/intro/structure"} 
             />
         </div>
     )
