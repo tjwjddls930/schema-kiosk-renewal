@@ -5,8 +5,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Soundguide from "@/components/docent/Soundguide";
 import { Html } from "@react-three/drei";
 import { LanguageContext } from "@/contexts/LanguageContext";
-// import Screensaver from "@/components/docent/NewScreensaver";
-// import Screensaver2 from "@/components/docent/Screensaver2";
+
 export default function Landingpage() {
     const {language} = useContext(LanguageContext);
     const [play, setPlay] = useState(false);
