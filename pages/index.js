@@ -18,7 +18,6 @@ export default function Landingpage() {
     return(
         <div className="h-screen w-screen bg-Ablue">
             <div className="w-1/3 h-1/12 flex mx-auto justify-center py-12"
-                // onClick={()=> setPlay(!play)}
             >
                 <img 
                     src="/img/mainpage/schema-logo-NEW.svg"
@@ -52,35 +51,6 @@ export default function Landingpage() {
                                 position={[9, 1.2, 1]}
                                 zIndexRange={[1, 0]}
                             >
-                               {/* {play 
-                                ?  
-                                <Soundguide 
-                                className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
-                                videoUrl={video}
-                                volume={0.5}
-                                playing={true}
-                                loop={true}
-                                />
-                                : <Soundguide 
-                                className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
-                                videoUrl={video}
-                                volume={0.5}
-                                playing={false}
-                                loop={true}
-                                />
-                                :  <img 
-                                    className="h-[400px] w-[400px] screen-w:h-[750px] screen-w:w-[750px]"
-                                    src="/img/landingpage/docent.png"
-                                    alt="docent"
-                                />
-                                } */}
-                                {/* <Soundguide 
-                                className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
-                                videoUrl={video}
-                                volume={0.5}
-                                playing={play}
-                                loop={true}
-                                /> */}
                                 <Soundguide 
                                     className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
                                     videoUrl={video}
