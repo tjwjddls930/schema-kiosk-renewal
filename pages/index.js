@@ -6,18 +6,17 @@ import Soundguide from "@/components/docent/Soundguide";
 import { Html } from "@react-three/drei";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreensaverContext } from "@/contexts/ScreensaverContext";
-import Screensaver from "@/components/docent/Screensaver2";
-
+// import Screensaver from "@/components/docent/NewScreensaver";
+import Screensaver2 from "@/components/docent/Screensaver2";
 export default function Landingpage() {
     const {language} = useContext(LanguageContext);
     const {isShowingScreensaver} = useContext(ScreensaverContext);
-    const [play, setPlay] = useState(true)
     const [video, setVideo] = useState(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-landing-KOR.webm`);
     useEffect(()=> {
         setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-landing-${language}.webm`)
     }, [language]);
 
-    // console.log(language, video);
+    // console.log(isShowingScreensaver);
 
     return(
         <div className="h-screen w-screen bg-Ablue">
@@ -66,19 +65,9 @@ export default function Landingpage() {
                     </Canvas>
                 </Suspense>
             </div>
-            <Screensaver videoId="Z9K0zY5gB4o" timeout={120000} />
-            {/* <Screensaver videoId="f9Vag-CGCG0" timeout={50000} /> */}
+            <Screensaver2 videoId="Z9K0zY5gB4o" timeout={120000} />
             <Navbar 
             />
         </div>
     )
 };
-
-// export const getServerSideProps = async (context) => {
-//     return {
-//         redirect: {
-//             destination: '/',  
-//             permanent: false, 
-//         },
-//     };
-// };

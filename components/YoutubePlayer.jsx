@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 
-const YouTubePlayer = ({ videoId, onEnded, ...props }) => {
-  const [isHidden, setIsHidden] = useState(false);
+const YouTubePlayer = ({ videoId, ...props }) => {
   const router = useRouter();
+  const [isHidden, setIsHidden] = useState(false);
   const isDevelopment = process.env.NODE_ENV === "development";
   const baseUrl = isDevelopment
     ? "http://localhost:3000"
@@ -17,8 +17,8 @@ const YouTubePlayer = ({ videoId, onEnded, ...props }) => {
 
   return (
     <div
-      className={`absolute inset-0`}
-      style={{ zIndex: 10 }}
+      className={`fixed inset-0 ${isHidden ? "hidden" : ""}`}
+      style={{ zIndex: 1000 }}
     >
       <iframe
         src={youtubeEmbedUrl}

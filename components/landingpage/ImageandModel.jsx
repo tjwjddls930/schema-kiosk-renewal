@@ -22,7 +22,7 @@ const chatbotText ={
 };
 
 const Imageandmodel = () => {
-    const [texture1, texture2] = useTexture(['/img/landingpage/mainpage.png', '/img/mainpage/ai_chatbot.png']);
+    const [texture1, texture2] = useTexture(['/img/landingpage/mainpage.png', '/img/landingpage/chatbotpage.png']);
     const {language} = useContext(LanguageContext);
     const router = useRouter();
     const lightRef1 = useRef();

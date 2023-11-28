@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 
 const DynamicReactPlayer = dynamic(() => import('react-player'), {ssr: false});
 
-const Screensaver1 = ({videoId, onEnded, ...props}) => {
+const Dynamicplayer = ({videoId, onEnded, volume, ...props}) => {
     const isDevelopment = process.env.NODE_ENV === "development";
     const baseUrl = isDevelopment
       ? "http://localhost:3000"
@@ -18,7 +18,7 @@ const Screensaver1 = ({videoId, onEnded, ...props}) => {
         }}
         volume={0.5}
         controls={false}
-        muted={true}
+        muted={false}
         loop={false}
         onEnded={onEnded}
         playing={true}
@@ -32,19 +32,4 @@ const Screensaver1 = ({videoId, onEnded, ...props}) => {
     )
 };
 
-export default Screensaver1;
-
-// export default function Screensaver({videoUrl, ...props}) {
-//     return (
-//     <ReactPlayer 
-//         url={videoUrl}
-//         width="100%"
-//         height="100%"
-//         volume={0.5}
-//         controls={false}
-//         playing={true}
-//         loop={true}
-//         {...props}
-//     />
-//     )
-// };
+export default Dynamicplayer;

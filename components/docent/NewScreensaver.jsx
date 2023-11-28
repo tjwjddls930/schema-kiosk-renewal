@@ -1,36 +1,29 @@
-import React, { useState, useEffect, useContext } from "react";
-import YouTubePlayer from "../YoutubePlayer";
-import { useRouter } from "next/router";
+import React, { useEffect, useContext } from "react";
 import { ScreensaverContext } from "@/contexts/ScreensaverContext";
+import Dynamicplayer from "./Dynamicplayer";
 
-const Screensaver2 = ({ videoId, timeout }) => {
-
-  const {isShowingScreensaver, setScreensaverStatus} = useContext(ScreensaverContext);
+const Screensaver = ({ videoId, timeout = 3000 }) => {
   // default timeout: 3 seconds
-  // const [isShowingScreensaver, setIsShowingScreensaver] = useState(true);
-  // const [isShowingScreensaver, setIsShowingScreensaver] = useState(show);
-
-  const router = useRouter();
+//   const [isShowingScreensaver, setIsShowingScreensaver] = useState(true);
+    const {isShowingScreensaver, setScreensaverStatus} = useContext(ScreensaverContext);
 
   useEffect(() => {
     let screensaverTimer;
 
     const resetScreensaverTimer = () => {
-      // setIsShowingScreensaver(false);
-      setScreensaverStatus(false);
+        setScreensaverStatus(false);
+    //   setIsShowingScreensaver(false);
       clearTimeout(screensaverTimer);
       screensaverTimer = setTimeout(() => {
-        // setIsShowingScreensaver(true);
         setScreensaverStatus(true);
+        // setIsShowingScreensaver(true);
       }, timeout);
     };
 
     screensaverTimer = setTimeout(() => {
-      // setIsShowingScreensaver(true);
-      setScreensaverStatus(true);
+        setScreensaverStatus(true);
+    //   setIsShowingScreensaver(true);
     }, timeout);
-
-    resetScreensaverTimer();
 
     document.addEventListener("click", resetScreensaverTimer);
     document.addEventListener("touchstart", resetScreensaverTimer, {
@@ -54,7 +47,7 @@ const Screensaver2 = ({ videoId, timeout }) => {
     };
   }, [timeout]);
 
-  return <>{isShowingScreensaver && <YouTubePlayer videoId={videoId} />}</>;
+  return <>{isShowingScreensaver && <Dynamicplayer videoId={videoId} />}</>;
 };
 
-export default Screensaver2;
+export default Screensaver;

@@ -113,11 +113,11 @@ const popupText1 = {
 };
   
 const popupText2 = {
-    KOR: "소장 그림 보기",
-    ENG: "View Collection Paintings",
-    CH: "查看我们收藏的画作",
-    TH: "ชมภาพวาดจากคอลเลกชันของเรา",
-    VI: "Xem tranh từ bộ sưu tập của chúng tôi",
+    KOR: "김재관 작품 보기",
+    ENG: "View Jai-Kwan Kim's  artworks",
+    CH: "查看 Jai-Kwan Kim 的作品",
+    TH: "ชมผลงานของแจกวาน คิม",
+    VI: "Xem các tác phẩm của Jai-Kwan Kim",
 };
   
 const popupText3 = {

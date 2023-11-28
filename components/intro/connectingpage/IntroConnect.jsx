@@ -61,9 +61,7 @@ const IntroConnect = ({children}) => {
                     </Link>
                 </button>
             </div>
-            <Navbar 
-                url={"/video/docent/schema-docent-03.webm"}
-            />
+            <Navbar />
         </>
     )
 };

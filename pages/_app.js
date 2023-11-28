@@ -9,6 +9,7 @@ import InactivityRedirect from '@/components/InactivityRedirect';
 import { ScreensaverProvider } from '@/contexts/ScreensaverContext';
 import { MusicProvider } from '@/contexts/MusicContext';
 import MusicPlayer from '@/components/Musicplayer';
+import Screensaver from '@/components/docent/Screensaver2';
 // import MusicPlayer from '@/components/Musicplayer2';
 // const WideLayout = dynamic(() => import('@/components/pagelayout/WideLayout'));
 const TallLayout = dynamic(() => import('@/components/pagelayout/TallLayout'));
@@ -42,7 +43,7 @@ export default function App({ Component, pageProps }) {
           <ScreenOrientProvider>
           {currentPath === "/" 
           ? null
-          : <InactivityRedirect timeout={120000} landingPageUrl={"/"} />
+          : <InactivityRedirect timeout={150000} landingPageUrl={"/"} />
           }
           {isPortrait ? 
             <TallLayout>
@@ -53,7 +54,7 @@ export default function App({ Component, pageProps }) {
               <MusicProvider>
                 <Component {...pageProps} /> 
                 {currentPath === "/" 
-                ? null 
+                ? null
                 : <MusicPlayer sources = {musicList} />
                 }
               </MusicProvider>
