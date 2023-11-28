@@ -106,7 +106,6 @@ export default function Mainpage() {
         <div className="h-screen w-screen flex flex-col justify-center items-center">
             <div className="absolute inset-0 bg-cover bg-no-repeat bg-[url('/img/mainpage/kiosk_main_bg.png')]"
             style={{
-                // opacity:0.5,
                 zIndex: -1
             }}
             >
