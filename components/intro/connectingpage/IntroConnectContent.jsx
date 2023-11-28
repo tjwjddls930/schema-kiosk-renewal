@@ -166,7 +166,7 @@ const IntroConnectContent = () => {
                         {structureButton[language](fontsize)}
                         <div className="flex flex-col-reverse pb-8">
                             <img 
-                                className={clsx(isPortrait ? "h-12 w-12 screen-w:h-24 screen-w:w-24" : "h-8 w-8 screen-w:h-24 screen-w:w-28")}
+                                className={clsx(isPortrait ? "h-12 w-12 screen-w:h-24 screen-w:w-24 animate-bounce" : "h-8 w-8 screen-w:h-24 screen-w:w-28 animate-bounce")}
                                 src="/img/connectpage/arrow_icon.png"
                                 alt="arrow"
                             />
@@ -184,7 +184,7 @@ const IntroConnectContent = () => {
                         {careerButton[language](fontsize)}
                         <div className="flex flex-col-reverse pb-8">
                             <img 
-                                className={clsx(isPortrait ? "h-12 w-12 screen-w:h-24 screen-w:w-24" : "h-8 w-8 screen-w:h-24 screen-w:w-28")}
+                                className={clsx(isPortrait ? "h-12 w-12 screen-w:h-24 screen-w:w-24 animate-bounce" : "h-8 w-8 screen-w:h-24 screen-w:w-28 animate-bounce")}
                                 src="/img/connectpage/arrow_icon.png"
                                 alt="arrow"
                             />
@@ -202,7 +202,7 @@ const IntroConnectContent = () => {
                         {awardButton[language](fontsize)}
                         <div className="flex flex-col-reverse pb-8">
                             <img 
-                                className={clsx(isPortrait ? "h-12 w-12 screen-w:h-24 screen-w:w-24" : "h-8 w-8 screen-w:h-24 screen-w:w-28")}
+                                className={clsx(isPortrait ? "h-12 w-12 screen-w:h-24 screen-w:w-24 animate-bounce" : "h-8 w-8 screen-w:h-24 screen-w:w-28 animate-bounce")}
                                 src="/img/connectpage/arrow_icon.png"
                                 alt="arrow"
                             />

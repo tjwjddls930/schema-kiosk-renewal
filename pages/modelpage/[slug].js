@@ -60,6 +60,7 @@ export default function Modelpage({}) {
     const {slug} = router.query;
     const [popup, setPopup] = useState(true);
     const [data, setData] = useState(null);
+    const [color, setColor] = useState("#F5F049");
 
     useEffect(()=> {
         // Fetch and set data based on the slug from the router
@@ -95,6 +96,12 @@ export default function Modelpage({}) {
                         position={data.position}
                     /> */}
                     <div className="h-[91%] w-full absolute bottom-16 screen-w:h-[95%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2 bg-Awhite">
+                        <div className="h-[50px] w-[50px] z-10 screen-w:h-[150px] screen-w:w-[150px] absolute bottom-20 screen-w:bottom-60 right-20 border-2 border-Ablack rounded-full bg-orange"
+                            onClick={()=> setColor("#F5F049")}
+                        />
+                        <div className="h-[50px] w-[50px] z-10 screen-w:h-[150px] screen-w:w-[150px] absolute bottom-20 screen-w:bottom-60 right-64 border-2 border-Ablack rounded-full bg-Awhite"
+                            onClick={()=> setColor("#FFFFFF")}
+                        />
                         <Suspense fallback={null}>
                             <Canvas
                                 gl={{
@@ -141,7 +148,7 @@ export default function Modelpage({}) {
                                     <boxGeometry attach="geometry" args={[100, 100, 2]} />
                                     <meshPhongMaterial color={"#FFFFFF"} attach="material" />
                                 </mesh>
-                                <Spot position={[0, 8, 5]} />
+                                <Spot position={[0, 8, 5]} color={color} />
                                 <ambientLight intensity={3} />
                                 {/* <color attach="background" args={["#FFFFFF"]} /> */}
                             </Canvas>

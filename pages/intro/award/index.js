@@ -54,13 +54,13 @@ const inputData = {
     VI: awardData_VI,
 };
 
-
 export default function Award() {
     const {language} = useContext(LanguageContext);
     const {isPortrait} = useContext(ScreenOrientContext);
     const [award, setAward] = useState(null);
     const [isTouching, setIsTouching] = useState(false);
     const [video, setVideo] = useState();
+    const [sign, setSign] = useState();
     useEffect(() => {
         const touchArea = document.getElementById('touch-area');
 
@@ -82,7 +82,8 @@ export default function Award() {
 
     useEffect(()=> {
         if(award) {
-            setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-intro-award-${award.index}-${language}.webm`)
+            setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-intro-award-${award.index}-${language}.webm`);
+            setSign(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/sign-docents/schema-sign-docent-award-${award.index}.webm`);
         }
     }, [language, award])
   
@@ -289,6 +290,7 @@ export default function Award() {
         }
         <Navbar 
             url={video}
+            sign={sign}
         />
     </>
     )

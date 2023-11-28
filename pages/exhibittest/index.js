@@ -62,6 +62,7 @@ const DynamicCoverflowCarousel = dynamic(
 
 export default function Exhibitpage() {
     const [video, setVideo] = useState();
+    const [sign, setSign] = useState();
     const router = useRouter();
     const {index} = router.query;
     const {language} = useContext(LanguageContext);
@@ -69,8 +70,12 @@ export default function Exhibitpage() {
     const [exhibit, setExhibit] = useState(inputData[language][0]);
 
     useEffect(()=> {
-        setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-exhibit-2023-${index}-${language}.webm`)
+        setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-exhibit-2023-${index}-${language}.webm`);
     }, [language, index]);
+
+    useEffect(()=> {
+        setSign(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/sign-docents/schema-sign-docent-exhibit-2023-${index}.webm`);
+    }, [index]);
 
     return(
         <div className="h-screen w-screen bg-[url('/img/exhibitpage/가로형_전시안내_배경.png')] bg-no-repeat bg-cover font-pretendard_bold">
@@ -128,6 +133,7 @@ export default function Exhibitpage() {
             </button>
             <Navbar 
                 url={video}
+                sign={sign}
             />
         </div>
     )

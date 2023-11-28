@@ -2,16 +2,16 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Painting from "@/components/Painting";
 import { MathUtils } from "three";
-import {useEffect, useState, Suspense, useContext} from "react";
-import Spot from "@/components/Spotlight";
+import {useEffect, useState, Suspense} from "react";
 import * as THREE from 'three';
-import Model from "@/components/Model";
 import { useRouter } from "next/router";
+// import Spot from "@/components/Spotlight";
+// import Model from "@/components/Model";
 
 const Viewcontent = ({url, width, height}) => {
     const [isClient, setIsClient] = useState(false);
     const router = useRouter();
-    const currentPath = router.asPath;
+    const [color, setColor] = useState("#FFFFFF");
 
     useEffect(() => {
       // Update the isClient state to true as this code will be executed only on client side
@@ -22,6 +22,12 @@ const Viewcontent = ({url, width, height}) => {
         <>
         {isClient && (
         <div className="h-[92%] w-full absolute bottom-16 screen-w:h-[95%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
+            <div className="h-[50px] w-[50px] z-10 screen-w:h-[150px] screen-w:w-[150px] absolute bottom-20 screen-w:bottom-60 right-20 border-2 border-Ablack rounded-full bg-Bblue"
+                onClick={()=> setColor("#5c92de")}
+            />
+            <div className="h-[50px] w-[50px] z-10 screen-w:h-[150px] screen-w:w-[150px] absolute bottom-20 screen-w:bottom-60 right-64 border-2 border-Ablack rounded-full bg-Awhite"
+                onClick={()=> setColor("#FFFFFF")}
+            />
             <Canvas
                 gl={{
                     antialias:true,
@@ -68,7 +74,7 @@ const Viewcontent = ({url, width, height}) => {
                 />
                 <Spot position={[0, 7, 5]}/> */}
                 <ambientLight intensity={3} />
-                <color attach="background" args={["#FFFFFF"]} />
+                <color attach="background" args={[color]} />
             </Canvas>
         </div>
         )}

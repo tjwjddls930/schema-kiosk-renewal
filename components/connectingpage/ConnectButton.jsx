@@ -185,7 +185,7 @@ const ConnectButton = () => {
                         {exhibitButton[language](fontsize)}
                         <div className="flex flex-col-reverse pb-8">
                             <img 
-                                className="h-12 w-12 screen-w:h-24 screen-w:w-full"
+                                className="h-12 w-12 screen-w:h-24 screen-w:w-full animate-bounce"
                                 src="/img/connectpage/arrow_icon.png"
                                 alt="arrow"
                             />
@@ -203,7 +203,7 @@ const ConnectButton = () => {
                         {collectionButton[language](fontsize)}
                         <div className="flex flex-col-reverse pb-8">
                             <img 
-                                className="h-12 w-12 screen-w:h-24 screen-w:w-full"
+                                className="h-12 w-12 screen-w:h-24 screen-w:w-full animate-bounce"
                                 src="/img/connectpage/arrow_icon.png"
                                 alt="arrow"
                             />

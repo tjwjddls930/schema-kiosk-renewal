@@ -3,7 +3,7 @@ import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import * as THREE from "three";
 
-const Spot = ({position, ...props}) => {
+const Spot = ({position, color, ...props}) => {
     const ref = useRef();
     const targetPosition = new THREE.Vector3();
 
@@ -12,7 +12,7 @@ const Spot = ({position, ...props}) => {
     })
     return(
         <SpotLight castShadow ref={ref} 
-            penumbra={0.1} distance={150} angle={Math.PI / 6} intensity={40} decay={1} position={position} color={"#F5F049"}
+            penumbra={0.1} distance={150} angle={Math.PI / 6} intensity={40} decay={1} position={position} color={color}
         />
     )
 };

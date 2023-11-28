@@ -228,7 +228,7 @@ const soundDocent = {
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50 animate-pulse"
         disabled={sign}
       >
         {sound ? "정지" : "시작"}
@@ -242,7 +242,7 @@ const soundDocent = {
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50 animate-pulse"
         disabled={sign}
       >
         {sound ? "Stop" : "Start"}
@@ -256,7 +256,7 @@ const soundDocent = {
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50 animate-pulse"
         disabled={sign}
       >
         {sound ? "停止" : "开始"}
@@ -270,7 +270,7 @@ const soundDocent = {
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50 animate-pulse"
         disabled={sign}
       >
         {sound ? "หยุด" : "เริ่ม"}
@@ -284,7 +284,7 @@ const soundDocent = {
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50 animate-pulse"
         disabled={sign}
       >
         {sound ? "dừng lại" : "bắt đầu"}
@@ -300,7 +300,7 @@ const signDocent = {
         {"수어안내"}
       </span>
       <button
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50 animate-pulse"
         onClick={func}
         disabled={sound}
       >
@@ -315,7 +315,7 @@ const signDocent = {
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50 animate-pulse"
         disabled={sound}
       >
         {sign ? "Stop" : "Start"}
@@ -329,7 +329,7 @@ const signDocent = {
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50 animate-pulse"
         disabled={sound}
       >
         {sign ? "停止" : "开始"}
@@ -343,7 +343,7 @@ const signDocent = {
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50 animate-pulse"
         disabled={sound}
       >
         {sign ? "หยุด" : "เริ่ม"}
@@ -357,7 +357,7 @@ const signDocent = {
       </span>
       <button
         onClick={func}
-        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50"
+        className="rounded-full h-2/3 w-[150px] screen-w:text-4xl bg-Bblue text-white font-bold disabled:opacity-50 animate-pulse"
         disabled={sound}
       >
         {sign ? "dừng lại" : "bắt đầu"}
@@ -492,13 +492,36 @@ const Navbar = ({ url, sign }) => {
         </div>
       )}
       {signLang && (
-        <div className="absolute bottom-0 right-0 h-[330px] w-[430px] screen-w:h-[700px] screen-w:w-[700px]">
+        <div
+        className={clsx(
+          isPortrait
+            ? "absolute top-0 left-0 h-[94%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20"
+            : "absolute top-0 left-0 h-[91%] screen-w:h-[92.7%] w-screen bg-Ablack bg-opacity-60 z-20"
+        )}
+        onClick={() => {
+          setsignLang(!signLang)
+        }}
+      >
+        <div
+          className={clsx(
+            isPortrait
+              ? "absolute transform -translate-x-1/2 left-1/2 bottom-4 h-1/2 w-2/3 z-40"
+              : "absolute transform -translate-x-1/2 left-1/2 bottom-0 h-3/4 w-3/4 z-40"
+          )}
+          // onClick={()=>setPlaying(!playing)}
+          onClick={() => {
+            setsignLang(!signLang)
+          }}
+        >
           <Soundguide
             videoUrl={sign}
-            volume={Number(volume)}
+            volume={0}
+            playing={true}
+            loop={false}
             end={() => setsignLang(!signLang)}
           />
         </div>
+      </div>
       )}
       {volumepop && (
         <div className="absolute h-8 w-[250px] screen-w:h-16 screen-w:w-[550px] bottom-24 right-96 screen-w:transform screen-w:-translate-x-1/2 screen-w:right-80 screen-w:bottom-44 rounded-full bg-Ablack bg-opacity-60 items-center z-30">

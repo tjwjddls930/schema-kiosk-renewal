@@ -5,8 +5,6 @@ import { LanguageContext } from '@/contexts/LanguageContext';
 import { useContext, useEffect, useState } from 'react';
 import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { useRouter } from "next/router";
-import InactivityRedirect from "@/components/InactivityRedirect";
-// import Newnavbar from "@/components/navbar/Newnavbar";
 
 const topText = {
     KOR: "2023 사립박물관·미술관 디지털 전시관람 환경 개선 지원사업",
@@ -95,9 +93,14 @@ export default function Mainpage() {
     const {language} = useContext(LanguageContext);
     const {fontsize} = useContext(FontsizeContext);
     const [video, setVideo] = useState();
+    const [sign, setSign] = useState();
     useEffect(()=>{
         setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-main-${language}.webm`)
     }, [language, currentPath]);
+
+    useEffect(()=> {
+        setSign(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/sign-docents/schema-sign-docent-main-1.webm`)
+    }, []);
 
     return(
         <div className="h-screen w-screen flex flex-col justify-center items-center">
@@ -124,7 +127,7 @@ export default function Mainpage() {
             {/* navbar */}
             <Navbar 
                 url={video}
-                sign={"/video/sign/schema_sign_2.mp4"}
+                sign={sign}
             /> 
         </div>       
     )

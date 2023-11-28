@@ -56,11 +56,14 @@ export default function Structure() {
     const { isPortrait } = useContext(ScreenOrientContext);
     const [intro, setIntro] = useState(inputintroData[language][0]);
     const [video, setVideo] = useState();
+    const [sign, setSign] = useState();
     useEffect(()=> {
         if(intro.index === "main") {
             setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-intro-main-${language}.webm`);
+            setSign(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/sign-docents/schema-sign-docent-intro.webm`);
         } else {
             setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-intro-structure-${language}.webm`)
+            setSign(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/sign-docents/schema-sign-docent-structure.webm`);
         }
     }, [language, intro]);
     return(
@@ -173,6 +176,7 @@ export default function Structure() {
             }
             <Navbar 
                 url={video}
+                sign={sign}
             />
         </> 
     )
