@@ -14,6 +14,13 @@ const Soundguide = ({videoUrl, volume, playing, end, loop, ...props}) => {
         playing={playing}
         loop={loop}
         onEnded={end}
+        config={{
+            file: {
+              attributes: {
+                preload: 'auto',
+              },
+            },
+          }}
         {...props}
     />
     )
