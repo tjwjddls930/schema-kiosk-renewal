@@ -8,7 +8,7 @@ import { LanguageContext } from "@/contexts/LanguageContext";
 
 export default function Landingpage() {
     const {language} = useContext(LanguageContext);
-    const [video, setVideo] = useState(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-landing-${language}.webm`);
+    const [video, setVideo] = useState(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-landing-KOR.webm`);
     useEffect(()=> {
         const fetchVideoUrl = async () => {
             setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-landing-${language}.webm`);
