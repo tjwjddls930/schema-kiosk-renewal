@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-const InactivityRedirect = ({ timeout = 5000, landingPageUrl = "/" }) => {
+const InactivityRedirect = ({ timeout, landingPageUrl}) => {
   const router = useRouter();
 
   useEffect(() => {
