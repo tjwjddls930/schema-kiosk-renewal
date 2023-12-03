@@ -133,7 +133,7 @@ export default function Viewpage() {
                     </div>
                 </div>
             )}
-            {isMobile ? null : <Navbar />  }
+            <Navbar />
         </Viewlayout>
         )}
         </>

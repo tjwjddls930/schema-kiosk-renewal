@@ -144,12 +144,9 @@ export default function Viewpage() {
                     </div>
                 </div>
             )}
-            {isMobile 
-                ? <Navbar 
-                    url={video}
-                />  
-                : null
-            }
+            <Navbar 
+                url={video}
+            />  
         </Viewlayout>
         )}
         </>

@@ -172,11 +172,11 @@ const ConnectButton = () => {
                   >
                       {popupText1[language]}
                       <QRCode
-                        className="flex mx-auto my-24" 
+                        className="flex mx-auto my-4 screen-w:my-24" 
                         size={128}
                         value ={path + `/modelpage/${inputmodelData[language][0].order}`}
                       />
-                      <span className="text-4xl">
+                      <span className="text-base screen-w:text-4xl">
                         {popupText4[language]}
                       </span>
                   </button>
@@ -186,11 +186,11 @@ const ConnectButton = () => {
                     >
                       {popupText2[language]}
                       <QRCode
-                        className="flex mx-auto my-24" 
+                        className="flex mx-auto my-4 screen-w:my-24" 
                         size={128}
                         value ={path + `/pastexhibit/${inputData[language][0].order}?year=${inputData[language][0].time}`}
                       />
-                        <span className="text-4xl">
+                        <span className="text-base screen-w:text-4xl">
                             {popupText4[language]}
                         </span>
                   </button>
