@@ -5,6 +5,8 @@ import { MathUtils } from "three";
 import {useEffect, useState, Suspense} from "react";
 import * as THREE from 'three';
 import { useRouter } from "next/router";
+import clsx from "clsx";
+import { isMobile } from "react-device-detect";
 // import Spot from "@/components/Spotlight";
 // import Model from "@/components/Model";
 
@@ -21,7 +23,7 @@ const Viewcontent = ({url, width, height}) => {
         // <div className="h-[91%] w-[1000px] absolute bottom-16 screen-w:h-[94%] screen-w:w-[1500px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
         <>
         {isClient && (
-        <div className="h-[92%] w-full absolute bottom-16 screen-w:h-[95%] screen-w:bottom-28 left-1/2 transform -translate-x-1/2">
+        <div className={clsx("absolute left-1/2 transform -translate-x-1/2", isMobile ? "h-full w-full bottom-0" : "h-[92%] w-full screen-w:h-[95%] bottom-16 screen-w:bottom-28")}>
             <div className="h-[50px] w-[50px] z-10 screen-w:h-[150px] screen-w:w-[150px] absolute bottom-20 screen-w:bottom-60 right-20 border-2 border-Ablack rounded-full bg-Bblue"
                 onClick={()=> setColor("#5c92de")}
             />
