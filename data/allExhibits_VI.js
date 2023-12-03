@@ -2174,7 +2174,7 @@ export const allExhibits_VI = [
                 artist1: "김서연, 김영배, 김재관, 문상욱, 박영대, 박진명, 심명희, 심재분, 유석규, 임성수, 임은수, 전년일, 정명희, 조현애, 한영섭, 허문정", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
                 explanation: "쉐마미술관은 2022년 소장품 전시 ‘이성과 감성이 만든 공간’展을 통해 자기표현의 한 방법인 현대미술로 작가의 정신적 욕망인 감성을 이성의 작용으로 조화시켜 보여주는 소장 작품을 선보인다. 현대미술에서 감성이란 작가의 강력한 욕구와 창조성을 말하고, 이성은 감성을 실현할 수 있는 지적 능력과 테크닉의 기술을 의미한다. 이성과 감성은 현대미술에서 절대적 상호관계를 지켜왔고 작품들은 언제나 이성과 감성의 그 사이에서 우위를 반복하며 진행되고 있다. 참여 작가는 김서연, 김영배, 김재관, 문상욱, 박영대, 박진명, 심명희, 심재분, 유석규, 임성수, 임은수, 전년일, 정명희, 조현애, 한영섭, 허문정 16명의 작가가 참여하며 형식이 전혀 다른 작품들로 구성되며 이성과 감성의 공감을 일으키는 소장 작품 전시이다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-1.jpg",
                 artist: [
                     {
@@ -2215,33 +2215,33 @@ export const allExhibits_VI = [
                         engname: "JaiKwan Kim",
                         imgname:"/2022/22-1/22-1-3.png", 
                         text: "김재관 작가의 기하학적 추상미술 반세기 작품 중 80년대 ‘관계’ 시리즈는 지속과 조형적 레퍼토리가 등장하게 되는 시기로 캔버스 화면에 무정형의 반복된 획과 사각면의 중첩이 시작을 보여준다. <Relationship-1980~1981>은 백색 톤의 미세한 칼라의 사각 앵글과 코발트블루 붓질(劃)의 반복된 겹침이 평면으로 중첩된 구조로 이루어져 있으며, 이후 컴포지션과 재료의 사용 방법이 조금씩 변하면서 지속된다.",
-                        education: "",
+                        education: "Tốt nghiệp Khoa Hội họa phương Tây tại Đại học Hongik với bằng thạc sĩ và lấy bằng tiến sĩ mỹ thuật tại cùng trường đại học.",
                         individual_exhibition: [
-                            {order: 1, exhibit: "1979~현재 국내외 개인전 (서울, 파리, 도쿄, L.A) 40여회 개최"},
+                            {order: 1, exhibit: "1979~nay Khoảng 40 triển lãm cá nhân được tổ chức trong và ngoài nước (Seoul, Paris, Tokyo, L.A.)"},
                         ],
                         group_exhibition: [
-                            {index: 0, order: 1, exhibit: "2021 김재관 회고전, 청주시립미술관"},
-                            {index: 1, order: 2, exhibit: "2021 시대와 개성 展, 해든미술관, 강화, 인천"},
-                            {index: 2, order: 3, exhibit: "2020 통인화랑, 서울"},
-                            {index: 3, order: 4, exhibit: "2019 한국현대미술 파리전 ‘New Dialogue’ 갤러리 89, 파리, 프랑스"},
-                            {index: 4, order: 5, exhibit: "2018 한국-프랑스 ‘New Dialogue’ 전, 쉐마미술관, 청주"},
-                            {index: 5, order: 6, exhibit: "2017 이스탄불비엔날레, “TASTE of TEA” 초대 출품 / Haydarpasa Terminal, 터키"},
-                            {index: 6, order: 7, exhibit: "2017 한·불 현대미술의 거장전 / 프랑스와 양평 초대전 / 양평군립미술관"},
-                            {index: 7, order: 8, exhibit: "2015 90년대 다무라·마키시대 이후 한일현대미술전 / 쉐마미술관, 청주"},
-                            {index: 8, order: 9, exhibit: "2015 제56회 베니스비엔날레 특별전 한국커미셔너"},
-                            {index: 9, order: 10, exhibit: "2015 사유로서의 드로잉전, 뮤지엄 산, 강원, 원주"},
-                            {index: 10, order: 11, exhibit: "2013 한중현대미술전 “必然中的偶然” / 사면공간화랑, 베이징, 중국"},
-                            {index: 11, order: 12, exhibit: "2013 문신미술상 수상작가 김재관 초대전 / 문신미술관, 창원, 서울"},
-                            {index: 12, order: 13, exhibit: "2012 Steps 갤러리, 도쿄, 일본"},
-                            {index: 13, order: 14, exhibit: "2008 한국추상회화;1958-2008전(서울시립미술관 기획초대), 서울"},
-                            {index: 14, order: 15, exhibit: "2007 제1회 뉴욕아시아현대미술전 / 뉴욕 pier 92, 미국"},
-                            {index: 15, order: 16, exhibit: "2003~2009 시카고, 퀼른, 뉴욕, 상하이, 북경, 아르코, 바젤 아트페어 등 출품"},
-                            {index: 16, order: 17, exhibit: "1997 마키 다무라 화랑, 도쿄, 일본"},
-                            {index: 17, order: 18, exhibit: "1989 L.A 아트코아 갤러리, L.A, 미국"},
-                            {index: 18, order: 19, exhibit: "1988 갤러리 현대, 서울"},
-                            {index: 19, order: 20, exhibit: "1988~1997 Ecole de Seoul 초대전 / 관훈갤러리, 서울"},
-                            {index: 20, order: 21, exhibit: "1987 제19회 쌍파울로비엔날레전 / 현대미술관, 브라질"},
-                            {index: 21, order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
+                            {order: 1, exhibit: "Triển lãm hồi tưởng Kim Jae-gwan 2021, Bảo tàng nghệ thuật Cheongju"},
+                            {order: 2, exhibit: "Triển lãm cá nhân và kỷ nguyên 2021, Bảo tàng nghệ thuật Hadden, Ganghwa, Inch"},
+                            {order: 3, exhibit: "2020 Phòng trưng bày Tongin, Seoul"},
+                            {order: 4, exhibit: "Triển lãm nghệ thuật đương đại Hàn Quốc 2019 tại Paris 'Đối thoại mới' Phòng trưng bày 89, Paris, Pháp"},
+                            {order: 5, exhibit: "Triển lãm 'Đối thoại mới' Hàn-Pháp 2018, Bảo tàng Nghệ thuật Schema, Cheongju"},
+                            {order: 6, exhibit: "2017 Istanbul Biennale, triển lãm được mời “TASTE of TEA” / Nhà ga Haydarpasa, Thổ Nhĩ Kỳ"},
+                            {order: 7, exhibit: "Triển lãm nghệ thuật đương đại Hàn-Pháp 2017 / Triển lãm mời gọi Pháp và Yangpyeong / Bảo tàng nghệ thuật quận Yangpyeong"},
+                            {order: 8, exhibit: "Triển lãm nghệ thuật đương đại Hàn Quốc-Nhật Bản 2015 sau thời đại Tamura-Maki vào những năm 1990 / Bảo tàng nghệ thuật Schema, Cheongju"},
+                            {order: 9, exhibit: "Ủy viên Hàn Quốc tại Triển lãm đặc biệt Venice Biennale lần thứ 56 năm 2015"},
+                            {order: 10, exhibit: "2015 Vẽ theo suy nghĩ, Bảo tàng San, Gangwon, Wonju"},
+                            {order: 11, exhibit: "Triển lãm nghệ thuật đương đại Hàn-Trung 2013 “必然中的偶然” / Phòng trưng bày Four Side Space, Bắc Kinh, Trung Quốc"},
+                            {order: 12, exhibit: "Triển lãm được mời của nghệ sĩ đoạt giải Moonshot Art Award 2013 Kim Jae-kwan / Bảo tàng nghệ thuật Moonshin, Changwon, Seoul"},
+                            {order: 13, exhibit: "2012 Steps Gallery, Tokyo, Japan"},
+                            {order: 14, exhibit: "Tranh trừu tượng Hàn Quốc 2008; Triển lãm 1958-2008 (Lời mời đặc biệt của Bảo tàng Nghệ thuật Seoul), Seoul"},
+                            {order: 15, exhibit: "Triển lãm nghệ thuật đương đại châu Á New York lần thứ 1 năm 2007 / Bến tàu New York 92, Hoa Kỳ"},
+                            {order: 16, exhibit: "2003~2009 Được triển lãm tại Chicago, Cologne, New York, Thượng Hải, Bắc Kinh, Arko, Hội chợ nghệ thuật Basel, v.v."},
+                            {order: 17, exhibit: "1997 Phòng trưng bày Maki Tamura, Tokyo, Nhật Bản"},
+                            {order: 18, exhibit: "1989 L.A Artcore Gallery, L.A., USA"},
+                            {order: 19, exhibit: "1988 Gallery Hyundai, Seoul"},
+                            {order: 20, exhibit: "1988~1997 Triển lãm mời Ecole de Seoul / Phòng trưng bày Kwanhoon, Seoul"},
+                            {order: 21, exhibit: "Triển lãm Sao Paulo Biennale lần thứ 19 năm 1987 / Bảo tàng nghệ thuật hiện đại, Brazil"},
+                            {order: 22, exhibit: "1984~1991 Triển lãm nghệ thuật đương đại mời gọi / Bảo tàng nghệ thuật đương đại và hiện đại quốc gia, Gwacheon"},
                         ],
                         paint: [
                             {order: 2, title: "Relation", imgname: "/2022/22-1/3-100x80.3.jpg", overview: "100x80.3cm", overview1: "Oil-on-canvas-1981"},
@@ -2360,38 +2360,38 @@ export const allExhibits_VI = [
                         engname: "Eunsoo Lim",
                         imgname:"/2022/22-1/22-1-11.png", 
                         text: "",
-                        education: "",
+                        education: "Tốt nghiệp trường Cao đẳng Sư phạm, Khoa Giáo dục Nghệ thuật, Đại học Quốc gia Chungbuk và cùng trường cao học.",
                         individual_exhibition: [
-                            {order: 1, year: 2018, exhibit: "2018 Triple Artists Exhibition (쉐마미술관, 청주)"},
-                            {order: 2, year: 2016, exhibit: "2016 Eun Soo Lim Drawing (사라예보, 갤러리벨)"},
-                            {order: 3, year: 2013, exhibit: "2013 임은수 개인전 '지나가다' (갤러리 그림손그림손, 서울/ 쉐마미술관, 청주)"},
-                            {order: 4, year: 2010, exhibit: "2010 자인제노 갤러리 기획초대전 (자인제노 갤러리)"},
-                            {order: 5, year: 2009, exhibit: "2009 線 위의 線 (인사아트센터, 서울)"},
-                            {order: 6, year: 2007, exhibit: "2007 제 5회 올해의 좋은 작가 미술상 기획초대전 (무심갤러리, 청주)"},
-                            {order: 7, year: 2007, exhibit: "2007 나무 아래서 (갤러리 PICI, 서울)"},
-                            {order: 8, year: 2006, exhibit: "2006 당신의 초상 (무심 갤러리, 청주)"},
-                            {order: 9, year: 2006, exhibit: "2006 자라다-대전국제 아트페스티벌 (대전)"},
-                            {order: 10, year: 2005, exhibit: "2005 성원미술관 초대전(성원미술관, 홍천)"},
-                            {order: 11, year: 2002, exhibit: "2002 어떤 초월 (갤러리 타블로, 서울)"},
-                            {order: 12, year: 2001, exhibit: "2001 만남에 관한 보고서 (갤러리 신, 청주)"},
-                            {order: 13, year: 2001, exhibit: "2001 감추어지지 않는 것에 대하여 (스페이스 샘, 청주)"},
-                            {order: 14, year: 2000, exhibit: "2000 자라다 여성 작가 2인 초대전 (무심갤러이, 청주)"},
-                            {order: 15, year: 1997, exhibit: "1997 사람들 (청주 예술의 전당, 청주)"},
-                            {order: 16, year: 1995, exhibit: "1995 꽃을 밴 여인 (학천갤러이, 청주)"},
-                            {order: 17, year: 1992, exhibit: "1992 부드러운 수음자 (무심갤러리, 청주), (삼정미술관, 서울)"},
+                            {order: 1, exhibit: "2018 Triển lãm ba nghệ sĩ (Bảo tàng Shema, Cheongju)"},
+                            {order: 2, exhibit: "2016 Eun Soo Lim Painting (Sarajevo, Gallery Bell)"},
+                            {order: 3, exhibit: "2013 Triển lãm cá nhân 'Passing' của Eunsoo Lim (Gallery Grim Songeulson, Seoul/ Schema Museum of Art, Cheongju)"},
+                            {order: 4, exhibit: "2010 Triển lãm mời đặc biệt của Phòng trưng bày Zainzeno (Phòng trưng bày Zainzeno)"},
+                            {order: 5, exhibit: "2009 Line on Line (Trung tâm nghệ thuật Insa, Seoul)"},
+                            {order: 6, exhibit: "2007 Triển lãm đặc biệt về giải thưởng nghệ sĩ xuất sắc của năm lần thứ 5 (Phòng trưng bày Musim, Cheongju)"},
+                            {order: 7, exhibit: "2007 Dưới gốc cây (Phòng trưng bày PICI, Seoul)"},
+                            {order: 8, exhibit: "2006 Chân dung của bạn (Phòng trưng bày Musim, Cheongju)"},
+                            {order: 9, exhibit: "2006 Grow up - Liên hoan nghệ thuật quốc tế Daejeon (Daejeon)"},
+                            {order: 10, exhibit: "2005 Triển lãm mời gọi Bảo tàng nghệ thuật Seongwon (Bảo tàng nghệ thuật Seongwon, Hongcheon)"},
+                            {order: 11, exhibit: "2002 Một sự siêu việt nhất định (Gallery Tablo, Seoul)"},
+                            {order: 12, exhibit: "2001 Báo cáo về cuộc họp (Gallery Shin, Cheongju)"},
+                            {order: 13, exhibit: "2001 Về những gì không thể giấu được (Space Sam, Cheongju)"},
+                            {order: 14, exhibit: "2000 Triển lãm mời Zarada của hai nữ nghệ sĩ (Phòng trưng bày Musim, Cheongju)"},
+                            {order: 15, exhibit: "1997 People (Trung tâm nghệ thuật Cheongju, Cheongju)"},
+                            {order: 16, exhibit: "1995 Người phụ nữ với hoa (Phòng trưng bày Hakcheon, Cheongju)"},
+                            {order: 17, exhibit: "1992 Máy thủ dâm mềm (Phòng trưng bày Musim, Cheongju), (Bảo tàng nghệ thuật Samjeong, Seoul)"},
                         ],
                         group_exhibition: [
-                            {order: 1, year: 2020, exhibit: "한중 국제미술교류전 조우여상전 (쉐마미술관, 청주)"},
-                            {order: 2, year: 2020, exhibit: "후기 에스팩트 현대미술동인회 현대미술전 서원경산책 (쉐마미술관, 청주)"},
-                            {order: 3, year: 2020, exhibit: "한국, 프랑스 Korean Artists 특별전(쉐마미술관, 청주)"},
-                            {order: 4, year: 2020, exhibit: "현장 퍼포먼스 '나는 지금 이곳에 있다 3-속리산'(속리산 조각공원주변, 충북 보은)"},
-                            {order: 5, year: 2020, exhibit: "충북미술페스티벌 참여 퍼포먼스 (청주 문화제조창 제 5갤러리, 청주)"},
-                            {order: 6, year: 2020, exhibit: "충북여성미술작가전 (숲갤러리, 청주)"},
-                            {order: 7, year: 2019, exhibit: "나가사키에서 사유하는 예술(나가사키 현대미술관, 나가사키)"},
-                            {order: 8, year: 2019, exhibit: "후기 에스펙트 좌고우면전 (쉐마미술관, 청주)"},
-                            {order: 9, year: 2019, exhibit: "한국-프랑스 현대미술전“New Dialogue”(Galerie89, 파리)"},
-                            {order: 10, year: 2019, exhibit: "현장 퍼프먼스 ‘파종’(몽쉘미셀수 수도원, 프랑스)"},
-                            {order: 11, year: 2019, exhibit: " 조각조각 -Pieces of times 전 (터미널 작은미술관, 정선)"},
+                            {order: 1, exhibit: "2020 Triển lãm trao đổi nghệ thuật quốc tế Hàn-Trung Jo Woo Yeosang (Bảo tàng nghệ thuật Shema, Cheongju)"},
+                            {order: 2, exhibit: "2020 Triển lãm nghệ thuật đương đại của Hiệp hội nghệ thuật đương đại khía cạnh muộn Seowongyeong Walk (Bảo tàng nghệ thuật Shema, Cheongju)"},
+                            {order: 3, exhibit: "2020 Triển lãm đặc biệt về nghệ sĩ Hàn Quốc, Pháp (Bảo tàng Schema, Cheongju)"},
+                            {order: 4, exhibit: "2020 Biểu diễn tại chỗ 'Tôi đang ở đây 3-Songnisan' (Gần Công viên Điêu khắc Songnisan, Boeun, Tỉnh Bắc Chungcheong)"},
+                            {order: 5, exhibit: "2020 Biểu diễn tham gia Lễ hội nghệ thuật Chungbuk (Phòng trưng bày thứ 5 của Nhà máy Văn hóa Cheongju, Cheongju)"},
+                            {order: 6, exhibit: "2020 Triển lãm nghệ sĩ nữ Chungbuk (Soop Gallery, Cheongju)"},
+                            {order: 7, exhibit: "2019 Nghệ thuật chiêm ngưỡng ở Nagasaki (Bảo tàng nghệ thuật đương đại Nagasaki, Nagasaki)"},
+                            {order: 8, exhibit: "2019 Triển lãm về bên trái và bên phải ở khía cạnh muộn (Bảo tàng nghệ thuật Shema, Cheongju)"},
+                            {order: 9, exhibit: "2019 Triển lãm nghệ thuật đương đại Hàn-Pháp “Đối thoại mới” (Galerie89, Paris)"},
+                            {order: 10, exhibit: "2019 Biểu diễn tại chỗ ‘Gieo hạt’ (Tu viện Mont-Chele-Michelsu, Pháp)"},
+                            {order: 11, exhibit: "2019 Triển lãm Pieces of Times (Bảo tàng Nghệ thuật Nhỏ Terminal, Jeongseon)"},
                         ],
                         paint: [
                             {order: 10, title: "변이-Meramorphosis", imgname: "/2022/22-1/11-145.5x112.1.jpg", overview: "145.5x112.1cm", overview1: "Drawing-on-Korean-paper-2013"},
@@ -2467,7 +2467,7 @@ export const allExhibits_VI = [
                 artist1: "김연희", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
                 explanation: "김연희 작가는 자신의 회화에서의 상징적 이미지를 ‘명상적 개념’에서 찾고자 한다. 작가의 화면에는 흑과 백이 공존하며 화면 안에는 단순함의 묘미에 무게를 두게 되며 추상 작업에서 쓰던 네모를 발전시켜 공간 구성에 활용 작업을 한다. 작가는 네모 안에 우주를 담아내고자 하는데 그 색은 검정 흑색이다. 흑의 세계에는 모든 색이 섞여 있어 다른 어떤 색보다 응축된 힘과 아름다움 담고 있다고 한다. 작가에게 먹의 색은 아크릴로 만들어 쓰는 표본 색으로 그동안 김연희 작가의 일련의 작품의 형식에서 볼 수 있듯이, 작품은 대부분 독자적 연구를 통해서 습득하고 후기 현대미술의 사조로서 풍미했던 ‘미니멀 아트’와 ‘모노크롬 회화’, ‘개념미술’ 등의 정신을 공유하려고 노력하였음을 볼 수 있다. 이러한 사상은 물질문명 중심의 서구적 시각에서 동양사상의 정신, 이데아가 새로운 중요한 대안으로 부상되어지는 ‘한국적 모노크롬 회화’의 기저가 되어졌음을 볼 수 있다. 현대미술에서는 색과 구도의 절제, 단순화 시키면서 동양적 사유인 ‘무위(無爲)’와 불교의 ‘공(空)’ 사상의 영향으로 화면의 여백과 공간성의 중시하는 현상이 나타나게 된다. 김연희 작가의 회화의 순수성의 배경은 이러한 동양적 사상을 미적 가치의 형상화의 배경으로 수용되어지고 있음을 알 수 있다. 이러한 개념이 작가 정신의 회화 속에 수용, 확장 되어지며 물성과 매체가 중첩되어서 우연성의 형태로 작품의 이미지에 용해되고 있음을 보게 된다. 김연희 작가의 작품의 기호는 작품 전체에 배열되어 상징적, 서정적 이미지로 나타나며 묵시적 의미를 전달하게 된다. 작가가 표현기법으로 차용하고 있는 ‘플로잉(Flowing)’ 기법과 ‘오토마티즘(Automatism)’ 기법이 자유롭게 의도된 물성으로 화면을 구성하는 조형성으로 적용되고 있음을 볼 수 있다. 2015년 이후 작품들, 문자 추상 작품에서 볼 수 있듯이 70년대 초 ‘사물 자체로서의 미술(object art)’의 대안적 방법으로 선택한 ‘언어’와 ‘이념’을 ‘예술’과 ‘진술’의 대안으로 제시했던 컨셉츄얼 작가들의 ‘언어’와 ‘문자’에도 매료되었음을 볼 수 있다. 이러한 언어적 기술(記述)이 검은 단색화의 표상으로 결정되어짐을 보게 된다. 대형 모노크롬 작품으로 형상과 바탕 사이의 관계, 모호한 방형에 가까운 색면을 색채의 미묘한 조화로 자신의 미학을 발전시키는 방법을 기저로 삼아 회화라는 매체를 재해석하고 그 영역을 확장시키지 않았나 생각된다. 이들 작가들의 작품은 대부분 물성과 매체가 중첩되어 우연한 효과로 화면이 구성되어짐을 볼 수 있는데, 이와 같이 특징이 작품 속에 적용되면서 물감이 캔버스 안에서 밀고 당기고 이러한 중력에 의해 화면 위에서 밀도감과 속도감의 궤적을 갖게 되고 화면에 자연스러운 형태의 여백이 형성되어지는데, 이러한 현상을 김연희 작가는 자신의 독창적인 색채 기법으로 진화시켜 나갔음을 볼 수 있다. 김연희 작가는 자신의 의지로, 자신의 넘쳐흐르는 생명력으로, 자신만의 작품세계를 만들고 그 속에 의미와 아름다움을 부여한다. 가장 단순한 구성 색, 면, 선이 각기 다른 여백 속에서 큰 울림을 가져오는 2022 쉐마미술관의 기획초대 된 김연희 작가의 Accept 전시에는 2016부터 최근 작품 30여 점의 작품을 감상할 수 있다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-2.jpg",
                 artist: [
                     {
@@ -2537,7 +2537,7 @@ export const allExhibits_VI = [
                 artist1: "김재관, 임은수, 장백순, 김영란, 심재분, 김성미, 최익규, 이경화, 박진명, 최민건, 오승언, 김로이, 한희준, 원영미, 김유진", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
                 explanation: "이 전시는 청주 지역의 현대미술을 선도하는 미술 단체로 가장 대표적인 그룹 ‘애스펙트 현대미술동인회’가 주관하는 전시로 ‘새로운 미술의 변종과 변이’의 주제 전시이다. 후기 애스펙트 현대미술 동인회 15명의 작가는 급격히 변화하는 자연과의 공존, 현재의 문제와 현상을 직시하며 코로나-19의 그늘에 가린 지난 시간을 극복하고 받아들여 각자의 현실에 결합해 출구를 찾아가고자 한다. ‘2030 축의 전환’의 저자, ‘마우로 기옌 와튼스쿨’은, 코로나19는 끝나지 않는다. 세계는 더 심오하고 거대한 질적 전환을 맞이한다고 언급하였다. 또한, 찰스 다윈은 ‘생명은 생존을 위해 환경에 적응하고 변화한다.’라고 말했다. 이에 대응이라도 하듯 팬데믹 시기에 우리 사회에 많은 변화가 생겼고, 생존을 위해 새로운 방법들을 모색해야만 하는 시기가 되었다. 이번 전시에는 후기애스펙트 현대미술 동인회원 김재관, 김로이, 김성미, 김영란, 김유진, 박진명, 심재분, 오승언, 원영미, 이경화, 임은수, 장백순, 최민건, 최익규, 한희준 15명의 작가가 참여한다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-4.jpg",
                 artist: [
                     {
@@ -2548,33 +2548,33 @@ export const allExhibits_VI = [
                         engname: "JaiKwan Kim",
                         imgname:"/2022/22-4/22-4-1.png", 
                         text: "김재관 작가의 기하학은 가시적 실체는 아니지만, 추상적 실체이다. 작가의 추상 세계의 아이콘이었던 정방형의 세계를 해체하고 보다 자유스러운 기하학적 추상 세계의 새로운 형태의 ‘율(律)’과 ‘색’으로 자유스럽게 표현한다. 작가의 작업은 과거에 완성하지 못했던 개념과 방법에 대한 재발견과 새로운 모색은 또 다른 시작을 보여준다.",
-                        education: "홍익대학교 서양화 학부, 석사 졸업 및 동대학교 미술학박사학위 취득",
+                        education: "Tốt nghiệp Khoa Hội họa phương Tây tại Đại học Hongik với bằng thạc sĩ và lấy bằng tiến sĩ mỹ thuật tại cùng trường đại học.",
                         individual_exhibition: [
-                            {order: 1, exhibit: "1979~현재 국내외 개인전 (서울, 파리, 도쿄, L.A) 40여회 개최"},                        
+                            {order: 1, exhibit: "1979~nay Khoảng 40 triển lãm cá nhân được tổ chức trong và ngoài nước (Seoul, Paris, Tokyo, L.A.)"},
                         ],
                         group_exhibition: [
-                            {index: 0, order: 1, exhibit: "2021 김재관 회고전, 청주시립미술관"},
-                            {index: 1, order: 2, exhibit: "2021 시대와 개성 展, 해든미술관, 강화, 인천"},
-                            {index: 2, order: 3, exhibit: "2020 통인화랑, 서울"},
-                            {index: 3, order: 4, exhibit: "2019 한국현대미술 파리전 ‘New Dialogue’ 갤러리 89, 파리, 프랑스"},
-                            {index: 4, order: 5, exhibit: "2018 한국-프랑스 ‘New Dialogue’ 전, 쉐마미술관, 청주"},
-                            {index: 5, order: 6, exhibit: "2017 이스탄불비엔날레, “TASTE of TEA” 초대 출품 / Haydarpasa Terminal, 터키"},
-                            {index: 6, order: 7, exhibit: "2017 한·불 현대미술의 거장전 / 프랑스와 양평 초대전 / 양평군립미술관"},
-                            {index: 7, order: 8, exhibit: "2015 90년대 다무라·마키시대 이후 한일현대미술전 / 쉐마미술관, 청주"},
-                            {index: 8, order: 9, exhibit: "2015 제56회 베니스비엔날레 특별전 한국커미셔너"},
-                            {index: 9, order: 10, exhibit: "2015 사유로서의 드로잉전, 뮤지엄 산, 강원, 원주"},
-                            {index: 10, order: 11, exhibit: "2013 한중현대미술전 “必然中的偶然” / 사면공간화랑, 베이징, 중국"},
-                            {index: 11, order: 12, exhibit: "2013 문신미술상 수상작가 김재관 초대전 / 문신미술관, 창원, 서울"},
-                            {index: 12, order: 13, exhibit: "2012 Steps 갤러리, 도쿄, 일본"},
-                            {index: 13, order: 14, exhibit: "2008 한국추상회화;1958-2008전(서울시립미술관 기획초대), 서울"},
-                            {index: 14, order: 15, exhibit: "2007 제1회 뉴욕아시아현대미술전 / 뉴욕 pier 92, 미국"},
-                            {index: 15, order: 16, exhibit: "2003~2009 시카고, 퀼른, 뉴욕, 상하이, 북경, 아르코, 바젤 아트페어 등 출품"},
-                            {index: 16, order: 17, exhibit: "1997 마키 다무라 화랑, 도쿄, 일본"},
-                            {index: 17, order: 18, exhibit: "1989 L.A 아트코아 갤러리, L.A, 미국"},
-                            {index: 18, order: 19, exhibit: "1988 갤러리 현대, 서울"},
-                            {index: 19, order: 20, exhibit: "1988~1997 Ecole de Seoul 초대전 / 관훈갤러리, 서울"},
-                            {index: 20, order: 21, exhibit: "1987 제19회 쌍파울로비엔날레전 / 현대미술관, 브라질"},
-                            {index: 21, order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
+                            {order: 1, exhibit: "Triển lãm hồi tưởng Kim Jae-gwan 2021, Bảo tàng nghệ thuật Cheongju"},
+                            {order: 2, exhibit: "Triển lãm cá nhân và kỷ nguyên 2021, Bảo tàng nghệ thuật Hadden, Ganghwa, Inch"},
+                            {order: 3, exhibit: "2020 Phòng trưng bày Tongin, Seoul"},
+                            {order: 4, exhibit: "Triển lãm nghệ thuật đương đại Hàn Quốc 2019 tại Paris 'Đối thoại mới' Phòng trưng bày 89, Paris, Pháp"},
+                            {order: 5, exhibit: "Triển lãm 'Đối thoại mới' Hàn-Pháp 2018, Bảo tàng Nghệ thuật Schema, Cheongju"},
+                            {order: 6, exhibit: "2017 Istanbul Biennale, triển lãm được mời “TASTE of TEA” / Nhà ga Haydarpasa, Thổ Nhĩ Kỳ"},
+                            {order: 7, exhibit: "Triển lãm nghệ thuật đương đại Hàn-Pháp 2017 / Triển lãm mời gọi Pháp và Yangpyeong / Bảo tàng nghệ thuật quận Yangpyeong"},
+                            {order: 8, exhibit: "Triển lãm nghệ thuật đương đại Hàn Quốc-Nhật Bản 2015 sau thời đại Tamura-Maki vào những năm 1990 / Bảo tàng nghệ thuật Schema, Cheongju"},
+                            {order: 9, exhibit: "Ủy viên Hàn Quốc tại Triển lãm đặc biệt Venice Biennale lần thứ 56 năm 2015"},
+                            {order: 10, exhibit: "2015 Vẽ theo suy nghĩ, Bảo tàng San, Gangwon, Wonju"},
+                            {order: 11, exhibit: "Triển lãm nghệ thuật đương đại Hàn-Trung 2013 “必然中的偶然” / Phòng trưng bày Four Side Space, Bắc Kinh, Trung Quốc"},
+                            {order: 12, exhibit: "Triển lãm được mời của nghệ sĩ đoạt giải Moonshot Art Award 2013 Kim Jae-kwan / Bảo tàng nghệ thuật Moonshin, Changwon, Seoul"},
+                            {order: 13, exhibit: "2012 Steps Gallery, Tokyo, Japan"},
+                            {order: 14, exhibit: "Tranh trừu tượng Hàn Quốc 2008; Triển lãm 1958-2008 (Lời mời đặc biệt của Bảo tàng Nghệ thuật Seoul), Seoul"},
+                            {order: 15, exhibit: "Triển lãm nghệ thuật đương đại châu Á New York lần thứ 1 năm 2007 / Bến tàu New York 92, Hoa Kỳ"},
+                            {order: 16, exhibit: "2003~2009 Được triển lãm tại Chicago, Cologne, New York, Thượng Hải, Bắc Kinh, Arko, Hội chợ nghệ thuật Basel, v.v."},
+                            {order: 17, exhibit: "1997 Phòng trưng bày Maki Tamura, Tokyo, Nhật Bản"},
+                            {order: 18, exhibit: "1989 L.A Artcore Gallery, L.A., USA"},
+                            {order: 19, exhibit: "1988 Gallery Hyundai, Seoul"},
+                            {order: 20, exhibit: "1988~1997 Triển lãm mời Ecole de Seoul / Phòng trưng bày Kwanhoon, Seoul"},
+                            {order: 21, exhibit: "Triển lãm Sao Paulo Biennale lần thứ 19 năm 1987 / Bảo tàng nghệ thuật hiện đại, Brazil"},
+                            {order: 22, exhibit: "1984~1991 Triển lãm nghệ thuật đương đại mời gọi / Bảo tàng nghệ thuật đương đại và hiện đại quốc gia, Gwacheon"},
                         ],
                         paint: [
                             {order: 0, title: "Relationship - Color & Light 2022-501", imgname: "/2022/22-4/1-91x116.8.jpg", overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
@@ -2589,38 +2589,38 @@ export const allExhibits_VI = [
                         engname: "Eunsoo Lim",
                         imgname:"/2022/22-4/22-4-2.png", 
                         text: "임은수 작가는 2020년부터 지금까지 ‘나는 지금 이곳에 있다’ 퍼포먼스를 통해 지금의 사회, 기후, 환경의 현상을 특유의 위로와 순환의 마음을 담아 영상으로 담아 보여준다. 작가는 ‘나는 지금 이곳에 있다 7’에서 대청호수의 물의 순환 과정으로 들어가 합류한다. 그리고 자아를 확장해 대리자로서, 생명의 모체가 되어 이 시대 우리가 진정 소중히 여기고 보호해야 할 것이 무엇인가를, 상징적인 도구와 행위로 제시한다.",
-                        education: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
+                        education: "Tốt nghiệp trường Cao đẳng Sư phạm, Khoa Giáo dục Nghệ thuật, Đại học Quốc gia Chungbuk và cùng trường cao học.",
                         individual_exhibition: [
-                            {order: 1, year: 2018, exhibit: "2018 Triple Artists Exhibition (쉐마미술관, 청주)"},
-                            {order: 2, year: 2016, exhibit: "2016 Eun Soo Lim Drawing (사라예보, 갤러리벨)"},
-                            {order: 3, year: 2013, exhibit: "2013 임은수 개인전 '지나가다' (갤러리 그림손그림손, 서울/ 쉐마미술관, 청주)"},
-                            {order: 4, year: 2010, exhibit: "2010 자인제노 갤러리 기획초대전 (자인제노 갤러리)"},
-                            {order: 5, year: 2009, exhibit: "2009 線 위의 線 (인사아트센터, 서울)"},
-                            {order: 6, year: 2007, exhibit: "2007 제 5회 올해의 좋은 작가 미술상 기획초대전 (무심갤러리, 청주)"},
-                            {order: 7, year: 2007, exhibit: "2007 나무 아래서 (갤러리 PICI, 서울)"},
-                            {order: 8, year: 2006, exhibit: "2006 당신의 초상 (무심 갤러리, 청주)"},
-                            {order: 9, year: 2006, exhibit: "2006 자라다-대전국제 아트페스티벌 (대전)"},
-                            {order: 10, year: 2005, exhibit: "2005 성원미술관 초대전(성원미술관, 홍천)"},
-                            {order: 11, year: 2002, exhibit: "2002 어떤 초월 (갤러리 타블로, 서울)"},
-                            {order: 12, year: 2001, exhibit: "2001 만남에 관한 보고서 (갤러리 신, 청주)"},
-                            {order: 13, year: 2001, exhibit: "2001 감추어지지 않는 것에 대하여 (스페이스 샘, 청주)"},
-                            {order: 14, year: 2000, exhibit: "2000 자라다 여성 작가 2인 초대전 (무심갤러이, 청주)"},
-                            {order: 15, year: 1997, exhibit: "1997 사람들 (청주 예술의 전당, 청주)"},
-                            {order: 16, year: 1995, exhibit: "1995 꽃을 밴 여인 (학천갤러이, 청주)"},
-                            {order: 17, year: 1992, exhibit: "1992 부드러운 수음자 (무심갤러리, 청주), (삼정미술관, 서울)"},                       
+                            {order: 1, exhibit: "2018 Triển lãm ba nghệ sĩ (Bảo tàng Shema, Cheongju)"},
+                            {order: 2, exhibit: "2016 Eun Soo Lim Painting (Sarajevo, Gallery Bell)"},
+                            {order: 3, exhibit: "2013 Triển lãm cá nhân 'Passing' của Eunsoo Lim (Gallery Grim Songeulson, Seoul/ Schema Museum of Art, Cheongju)"},
+                            {order: 4, exhibit: "2010 Triển lãm mời đặc biệt của Phòng trưng bày Zainzeno (Phòng trưng bày Zainzeno)"},
+                            {order: 5, exhibit: "2009 Line on Line (Trung tâm nghệ thuật Insa, Seoul)"},
+                            {order: 6, exhibit: "2007 Triển lãm đặc biệt về giải thưởng nghệ sĩ xuất sắc của năm lần thứ 5 (Phòng trưng bày Musim, Cheongju)"},
+                            {order: 7, exhibit: "2007 Dưới gốc cây (Phòng trưng bày PICI, Seoul)"},
+                            {order: 8, exhibit: "2006 Chân dung của bạn (Phòng trưng bày Musim, Cheongju)"},
+                            {order: 9, exhibit: "2006 Grow up - Liên hoan nghệ thuật quốc tế Daejeon (Daejeon)"},
+                            {order: 10, exhibit: "2005 Triển lãm mời gọi Bảo tàng nghệ thuật Seongwon (Bảo tàng nghệ thuật Seongwon, Hongcheon)"},
+                            {order: 11, exhibit: "2002 Một sự siêu việt nhất định (Gallery Tablo, Seoul)"},
+                            {order: 12, exhibit: "2001 Báo cáo về cuộc họp (Gallery Shin, Cheongju)"},
+                            {order: 13, exhibit: "2001 Về những gì không thể giấu được (Space Sam, Cheongju)"},
+                            {order: 14, exhibit: "2000 Triển lãm mời Zarada của hai nữ nghệ sĩ (Phòng trưng bày Musim, Cheongju)"},
+                            {order: 15, exhibit: "1997 People (Trung tâm nghệ thuật Cheongju, Cheongju)"},
+                            {order: 16, exhibit: "1995 Người phụ nữ với hoa (Phòng trưng bày Hakcheon, Cheongju)"},
+                            {order: 17, exhibit: "1992 Máy thủ dâm mềm (Phòng trưng bày Musim, Cheongju), (Bảo tàng nghệ thuật Samjeong, Seoul)"},
                         ],
                         group_exhibition: [
-                            {order: 1, year: 2020, exhibit: "한중 국제미술교류전 조우여상전 (쉐마미술관, 청주)"},
-                            {order: 2, year: 2020, exhibit: "후기 에스팩트 현대미술동인회 현대미술전 서원경산책 (쉐마미술관, 청주)"},
-                            {order: 3, year: 2020, exhibit: "한국, 프랑스 Korean Artists 특별전(쉐마미술관, 청주)"},
-                            {order: 4, year: 2020, exhibit: "현장 퍼포먼스 '나는 지금 이곳에 있다 3-속리산'(속리산 조각공원주변, 충북 보은)"},
-                            {order: 5, year: 2020, exhibit: "충북미술페스티벌 참여 퍼포먼스 (청주 문화제조창 제 5갤러리, 청주)"},
-                            {order: 6, year: 2020, exhibit: "충북여성미술작가전 (숲갤러리, 청주)"},
-                            {order: 7, year: 2019, exhibit: "나가사키에서 사유하는 예술(나가사키 현대미술관, 나가사키)"},
-                            {order: 8, year: 2019, exhibit: "후기 에스펙트 좌고우면전 (쉐마미술관, 청주)"},
-                            {order: 9, year: 2019, exhibit: "한국-프랑스 현대미술전“New Dialogue”(Galerie89, 파리)"},
-                            {order: 10, year: 2019, exhibit: "현장 퍼프먼스 ‘파종’(몽쉘미셀수 수도원, 프랑스)"},
-                            {order: 11, year: 2019, exhibit: " 조각조각 -Pieces of times 전 (터미널 작은미술관, 정선)"},
+                            {order: 1, exhibit: "2020 Triển lãm trao đổi nghệ thuật quốc tế Hàn-Trung Jo Woo Yeosang (Bảo tàng nghệ thuật Shema, Cheongju)"},
+                            {order: 2, exhibit: "2020 Triển lãm nghệ thuật đương đại của Hiệp hội nghệ thuật đương đại khía cạnh muộn Seowongyeong Walk (Bảo tàng nghệ thuật Shema, Cheongju)"},
+                            {order: 3, exhibit: "2020 Triển lãm đặc biệt về nghệ sĩ Hàn Quốc, Pháp (Bảo tàng Schema, Cheongju)"},
+                            {order: 4, exhibit: "2020 Biểu diễn tại chỗ 'Tôi đang ở đây 3-Songnisan' (Gần Công viên Điêu khắc Songnisan, Boeun, Tỉnh Bắc Chungcheong)"},
+                            {order: 5, exhibit: "2020 Biểu diễn tham gia Lễ hội nghệ thuật Chungbuk (Phòng trưng bày thứ 5 của Nhà máy Văn hóa Cheongju, Cheongju)"},
+                            {order: 6, exhibit: "2020 Triển lãm nghệ sĩ nữ Chungbuk (Soop Gallery, Cheongju)"},
+                            {order: 7, exhibit: "2019 Nghệ thuật chiêm ngưỡng ở Nagasaki (Bảo tàng nghệ thuật đương đại Nagasaki, Nagasaki)"},
+                            {order: 8, exhibit: "2019 Triển lãm về bên trái và bên phải ở khía cạnh muộn (Bảo tàng nghệ thuật Shema, Cheongju)"},
+                            {order: 9, exhibit: "2019 Triển lãm nghệ thuật đương đại Hàn-Pháp “Đối thoại mới” (Galerie89, Paris)"},
+                            {order: 10, exhibit: "2019 Biểu diễn tại chỗ ‘Gieo hạt’ (Tu viện Mont-Chele-Michelsu, Pháp)"},
+                            {order: 11, exhibit: "2019 Triển lãm Pieces of Times (Bảo tàng Nghệ thuật Nhỏ Terminal, Jeongseon)"},
                         ],
                         paint: [
                             {order: 2, title: "나는 지금 이곳에 있다. 대청호 미천리 습지에서", imgname: "/2022/22-4/3-102.4x68.3.jpg", overview: "", overview1: "퍼포먼스 비디오, 2021"},
@@ -2637,10 +2637,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-3.jpg", 
                         text: "장백순 작가는 물질과 정신의 관계를 자연물인 마(麻)를 통해 일상 사물과 일상 경계를 만들어 생명의 짧음과 시간의 영원함, 개체의 한계와 우주의 아득함을 물체와 공간을 통해 보여준다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 5, title: "부유(浮游)", imgname: "/2022/22-4/6-68.9x45.9.jpg", overview: "65x60x210cm", overview1: "마(麻), 2020"},
                             {order: 6, title: "부유(浮游)", imgname: "/2022/22-4/7-45.4x71.9.jpg", overview: "65x60x210cm", overview1: "마(麻), 2020"},
@@ -2655,10 +2653,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-4.jpg", 
                         text: "김영란 작가는 작업은 한지의 물성과 질감을 살려 구상된 부조 작품들로 회화와 조각의 장점을 끌어안으며 시각과 촉각의 호기심을 동시에 자극한다. 특히 회화가 지닌 입체감 표현의 한계를 조소 기법을 활용하여, 작품을 구성하는 소재들이 지닌 실제의 양감을 표현한다. 꽃이 피고 지는 자연의 한 가운데서 사계절의 아름다운 기억을 더듬어 간다",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 7, title: "끌림 attraction", imgname: "/2022/22-4/8-60x80.jpg", overview: "60x80x5cm", overview1: "조각, 2016"},
                             {order: 8, title: "끌림 attraction", imgname: "/2022/22-4/9-60x80.jpg", overview: "60x80x5cm", overview1: "조각, 2016"},
@@ -2674,10 +2670,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-5.jpg", 
                         text: "심재분 작가는 세상과 인간과의 관계, 보이지 않는 관계 속에 존재를 재현하기 위해 작가는 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 카메라에 담으며 대상의 본질을 꿰뚫어 자신의 언어로 이미지를 재현한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 10, title: "환상여행1", imgname: "/2022/22-4/11-75x75.jpg", overview: "75x75cm", overview1: "사진프린트, 2022"},
                         ]
@@ -2691,10 +2685,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-6.jpg", 
                         text: "김성미 작가는 숲의 다양하고 자연스러운 생성과 변주들에서 ‘자연과 함께하는 인간의 모습’을 찾는 과정을 상상하며 추상적 회화 작업으로 표현하였다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 11, title: "알레고리 2021-001", imgname: "/2022/22-4/12-162.2x130.3.jpg", overview: "162.2x130.3cm", overview1: "캔버스 위 혼합재료, 2021"},
                             {order: 12, title: "알레고리 2021-002", imgname: "/2022/22-4/13-162.2x130.3.jpg", overview: "162.2x130.3cm", overview1: "캔버스 위 혼합재료, 2021"},
@@ -2709,10 +2701,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-7.jpg", 
                         text: "최익규 작가는 작가를 존재하게 한 가족과 작가 자신을 둘러쌓고 있는 사람들, 특히 아버지와 작가의 관계를 반복된 바느질 선 만들기의 과정을 통해 성찰하고, 시간 꾸밈없이 좀 더 진실에 가까운 작가의 자화상을 그리고 있다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 13, title: "무제", imgname: "/2022/22-4/14-180x122.jpg", overview: "180x122cm", overview1: "천에 바느질 후 채색, 2022"},
                         ]
@@ -2726,10 +2716,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-8.jpg", 
                         text: "이경화 작가의 작품에 보이는 풍경은 동양의 무의식적, 무위 자연적인 공간을 유지하려고 하면서도 그것이 실경이 아닌 관념적 세계를 비주얼로 해석하고자 하는 의도를 표현한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 14, title: "夢中夢 9-1", imgname: "/2022/22-4/15-100x80.3.jpg", overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
                             {order: 15, title: "夢中夢 10-2", imgname: "/2022/22-4/16-100x80.3.jpg", overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
@@ -2745,10 +2733,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-9.jpg", 
                         text: "박진명 작가는 작가만의 눈과 심상으로 무심코 지나쳐서 스치듯 지나간 그날의 기억과 이미지의 잔재는 무언가를 떠올리게 되고 나름의 새로운 기억을 ‘잔상의 기록’으로 담아낸다. 이번 ‘똑같은 봄은 없다’ 작품에서는 작가만의 기억의 봄을 남긴다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 17, title: "똑같은 봄은 없다", imgname: "/2022/22-4/18-166.5x71.jpg", overview: "166.5x71cm", overview1: "종이 위에 먹, 과슈, 2022"},
                         ]
@@ -2762,10 +2748,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-10.jpg", 
                         text: "최민건 작가는 경계의 모호함으로 인해 가상과 실제, 주체와 객체 사이에서 방황하면서 즐기고 있는 우리들의 모습을 표현한다. 화면에서 착시효과를 주는 개는 가상과 실제의 경계를 모호하게 하며, 인간과 다른 동물 중 가장 친숙한 개의 모습을 표현함으로써 우리와 다름을 인지함과 동시에 동질성을 느끼게 한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 18, title: "Game of Thrones", imgname: "/2022/22-4/19-73x182.jpg", overview: "73x182cm", overview1: "천 위에 아크릴, 2022"},
                         ]
@@ -2779,10 +2763,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-11.jpg", 
                         text: "오승언 작가는 특유의 시선으로 사회의 일상의 풍경을 고스란히 캔버스 화면에 담아 보여준다. 작가의 풍경은 지금의 풍경이면서도 어딘가 낯설고 감정이 느껴지지 않는 공간이기도 하다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 19, title: "Untitled", imgname: "/2022/22-4/20-45.5x53.jpg", overview: "45.5x53cm", overview1: "Oil on canvas, 2020"},
                             {order: 20, title: "네 명의 행인", imgname: "/2022/22-4/21-91x91.jpg", overview: "91x91cm", overview1: "Oil on canvas, 2020"},
@@ -2798,10 +2780,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-12.jpg", 
                         text: "김로이 작가는 캔버스의 물리적 공간 안의 색과 선이 함께 사용하며 긴밀하게 상호작용한다. 작가의 Silicone string 선은 조밀하면서도 여백을 가지고 새로운 공간을 만들어낸다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 22, title: "90°8’0", imgname: "/2022/22-4/23-72.7x50.jpg", overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
                             {order: 23, title: "90°12’0”", imgname: "/2022/22-4/24-72.7x50.jpg", overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
@@ -2816,10 +2796,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-13.jpg", 
                         text: "한희준 작가는 플리스틱 병을 포토그램 방식으로 인화하여 물질이 자연으로 되돌아가는 것을 상상하며 푸른빛은 영혼이 떠도는 그림자처럼 주위를 배회하면서 죽음을 연상하게 하여 환경의 중요성을 암시한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 24, title: "Plastic NO-44", imgname: "/2022/22-4/25-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
                             {order: 25, title: "Plastic NO-47", imgname: "/2022/22-4/26-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
@@ -2835,10 +2813,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-14.jpg", 
                         text: "원영미 작가는 세상의 모든 흔적은 느낌의 편린이라고 생각한다. 작가의 느낌의 기억들은 그리움의 실체이다. 이런 그리움의 실체는 털실을 통해 보여준다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 27, title: "연(緣)", imgname: "/2022/22-4/28-100x100.jpg", overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
                             {order: 28, title: "연(緣)", imgname: "/2022/22-4/29-100x100.jpg", overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
@@ -2853,10 +2829,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-4/22-4-15.jpg", 
                         text: "김유진 작가의 시선과 호기심들을 자연이라는 매개체를 통해 캔버스 화면에 담아내고 있다. 특히 여성 작가가 가지고 있는 섬세함과 특유의 감수성, 작가의 생활 속에 녹아있는 심상은 작가만의 색채로 만들어간다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 29, title: "paper plants", imgname: "/2022/22-4/30-73x182.jpg", overview: "73x182cm", overview1: "Oil on canvas, 2022"},
                             {order: 30, title: "The flow", imgname: "/2022/22-4/31-91x146.jpg", overview: "91x146cm", overview1: "Mixed media on Canvas, 2021"},
@@ -2872,7 +2846,7 @@ export const allExhibits_VI = [
                 artist1: "강재원, 강주형, 이승훈, 한재열", 
                 location1: "Decentraland(57,-83)", host1: "쉐마미술관", support1: "문화체육관광부, 한국문화예술위원회", 
                 explanation: "본 프로젝트 ‘SM Smash’는 지역적 한계를 넘어서 쉐마미술관의 기획과 작가관을 세계적인 무대로 옮기는 초석이 되는 작업이다. 지역 미술관은 지리적 한계와 수도권 중심으로 벌어지는 문화예술 활동에 큰 제약이 있는 것이 사실이다. 피지컬-오프라인에서의 기획과 더불어 온라인으로는 갑자기 떠오른 블록체인 신대륙인 메타버스에 쉐마미술관의 컨셉 공간을 구축하여 쉐마미술관의 실험적 기획을 메타버스 공간에 노출하고 지역과 중앙을 아우르는 현대미술 작가들을 소개하려고 한다. SM Smash 체인점 형식 플랫폼은 마치 맥도널드가 세계로 뻣어 나간 페스트푸드점이 된 것과 같이 쉐마미술관의 NFT 본점이 되며 분점화시키고자 한다. ‘Schema art museum – SM Smash’ 공간에서는 세 개의 이벤트를 진행 예정이다. 1. 디지털 회화, 디지털 조각을 연구하는 SM-Smash#1, 2. 참여형프로젝트와 퍼포먼스 공간 SM-Smash#2, 3. 아카이빙과 이벤트를 통해 네트워크를 확장하는 SM-Smash#3 세 개의 이벤트 중 ‘SM-Smash#1 : Data Material’ 은 SM Smash 첫 전시로서 데이터를 물성으로 가지는 작품들 중 메타버스에 최적화된 형태의 연구가 진행되고 있는 회화, 조각작가를 소개하고 전시구성을 진행하려 한다. 미술의 질료로서 데이터가 가지는 특성을 활용하거나 작품의 목적에 맞는 형태로 데이터 질료로 리메이크 하는 작품들은 동시대 현대미술작가들에게는 하나의 커다란 환경적 변화이자 화두라고 생각한다. 우리는 환영을 적극 가동시키는 메타버스 플랫폼에서 이러한 선도적 작가들의 작품을 소개하려 한다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-5.jpg",
                 artist: [
                     {
@@ -2884,11 +2858,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-5/22-5-1.jpg", 
                         text: "강재원 작가는 전통적 조각의 형식을 뛰어넘어 3D프로그램의 프로그램 명령어의 방법으로 불어나고 쪼그라드는 조각을 만든다. 공기를 주입하여 만드는 풍선 조각을 만들던 작가는 금속의 착시를 주는 원단을 사용하여 마치 스테인리스 조각의 환영을 보여주는 듯한 미래적 조각을 만든다. 그의 작품은 전통 조각의 양감과 균형감을 가지고 나타났다 사라지길 반복한다. 인플레이터 조각의 조형성에서 3D프로그램을 사용하기 때문에 그의 조각은 자연스럽게 디지털과 NFT의 세계로 발전한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 0, title: "Exo2_crop", imgname: "/2022/22-5/1-102.4x68.3.jpg", overview: "458x213x270cm", overview1: "Inflatable, 2021"},
                             {order: 1, title: "Trippy Deflate", imgname: "/2022/22-5/2-102.4x72.5.jpg", overview: "84.1x59.4cm", overview1: "pigment print(digital image), 2020"},
@@ -2903,11 +2874,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-5/22-5-2.jpg", 
                         text: "강주형 작가는 빛나는 캔버스 위에 움직임을 그린다. 움직임 속에 그림이 있고 그림은 그려지는 동시에 움직이기를 기다린다. 멈춰있는 상(像)들에서 느껴지는 아득한 아우라는 끊임없이 흔적을 남기며 자신의 신체를 만들어간다. 매일 반복하며 어디론가 걸어가는 사람들, 달리는 자동차에 흔들리는 나뭇가지들, 물을 주지 않으면 시들어버리는 화분 등 일상의 율동이라는 리듬을 만들어내고 레이어를 쌓는다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 2, title: "도시 산책(A city walk)", imgname: "/2022/22-5/3-102.4x57.6.jpg", overview: "", overview1: "시간-회화(Single channel video), 2160p, 1m 30s, 2021"},
                             {order: 3, title: "움직이는 나무(Moving tree)", imgname: "/2022/22-5/4-57.6x102.4.jpg", overview: "", overview1: "시간-회화(Single channel video), 2160p, 2m 59s, 2020"},
@@ -2922,11 +2890,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-5/22-5-3.jpg", 
                         text: "이승훈 작가는 광학적 디스플레이를 일종의 통로로 삼되, 현실적인 감각의 증강과는 다른 방향을 향한다. 우리가 미술사에서 알고 있는 초현실주의가 현실을 초월하는 어떤 이상적인 상태의 재현이나 환상과는 정반대이듯이, 이승훈의 디스플레이는 현실보다 더 매끈한 디지털 환영을 오히려 삐걱거리고 울퉁불퉁한 매질로 변형시킨다. 그의 애니메이션 회화는 디지털 디스플레이에서 으레 기대하는 매끈하고 환영적인 이미지, 현실보다 더욱 실감 나는, ‘자연스러움’을 자랑하며 ‘살아나는 animated’ 이미지를 배반한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 4, title: "말 잘 듣는 사람들", imgname: "/2022/22-5/5-102.4x57.6.jpg", overview: "", overview1: "시간-회화(4K Single channel video), 3min, 2021"},
                             {order: 5, title: "섬", imgname: "/2022/22-5/6-102.4x57.6.jpg", overview: "", overview1: "시간-회화(4K Single channel video), 2160p, 3min, 2022"},
@@ -2941,11 +2906,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-5/22-5-4.jpg", 
                         text: "한재열 작가는 작가 생활의 출발점으로 2010년 대지진이 휩쓸고 간 아이티에서의 파병 생활을 꼽곤 한다. 한재열의 그림은 재난의 자리에서 시작된 셈이다. 『Passersby』 연작의 캔버스는 얼핏 보아 재난으로 부서진 형상을 직설적으로 표현하는 것 같다. 그곳에는 한 사람을 알아볼 수 있는 외양의 차이, 즉 눈, 코, 입이나 사회적 기호, 즉 인종, 성별이나 계급을 추측할 수 있는 기호를 제거한 얼굴 아닌 얼굴이 있다. 이 형상은 질료적 원상태를 끊임없이 환기하는 색채 덩어리, 얼굴의 자리, 자국에 가까워 보인다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 6, title: "Deathmask #2(Passerby, Flesh Off)", imgname: "/2022/22-5/7-102.4x102.4.jpg", overview: "", overview1: "Digital Sculpture, Single channel video(Color), 50sec, 2022"},
                             {order: 7, title: "Deathmask #14", imgname: "/2022/22-5/8-97.1x102.4.jpg", overview: "", overview1: "Digital Sculpture, Single channel video(Color), 50sec, 2022"},
@@ -2961,7 +2923,7 @@ export const allExhibits_VI = [
                 artist1: "김재관, 박승순, 박영학, 박진명, 방효성, 이규식, 진익송, 최민건, 하명복, 창신, 덩상동, 무레이, 이신모, 이자신, 장정정, 저우빈, 주이밍, 진젠룽", 
                 location1: "", host1: "쉐마미술관", support1: "", 
                 explanation: "제9회 청주국제현대미술전 – ‘한·중 현대미술의 새로운 좌표’전시는 올해로 9년째를 맞이하는 청주의 대표적인 국제교류전으로 쉐마미술관은 지역을 넘어 국제미술의 활발한 교류를 통해 세계미술의 다양성과 고유성의 문제와 해체되고 변화하는 지금의 현대미술의 흐름을 확인하는 플랫폼의 역할과 소통의 공간으로 나아가고 있다. 이번 전시는 코로나-19라는 세계의 혼돈 시간을 지나 한국과 중국의 중견 작가와 청년 작가 18명이 참여하며 다양한 매체, 다양한 질료의 실험을 통해 개개인의 예술세계와 현대미술 전반의 변화를 살펴보고 조망해보는 소통의 전시이다. 이번 전시에 참여하는 한국 작가들은 청주를 연고로 활동하는 김재관, 박영학, 박진명, 이규식, 진익송, 최민건 작가와 한국의 대표적 추상회화 중견 작가 박승순, 하명복 작가와 한국을 넘어 세계적 퍼포먼스 작가로 알려진 방효성 작가가 참여한다. 중국 작가는 세계적인 퍼포먼스 작가 창 신(Cang Xin)작가가 커미셔너로 참여하며 창 신(Cang Xin) 작가가 추천한 퍼포먼스 작가 덩상동(Deng Shangdong), 저우빈(Zhou Bin), 이신모(Li xinmo), 주이밍(Zhu Yiming), 영상 무레이(Mulei), 장정정(Zhang Zengzeng), 사진 이자신(Li Jiaxin), 진젠룽(Jin Jianrong)작가가 참여한다. 특히 9명의 중국 작가 중 8명의 영상, 퍼포먼스, 사진작가는 중국의 거대한 시대의 변화와 혼돈 속의 자본 사회, 급격한 도시화와 경제성장, 중국의 자연 생태계 환경적인 현상을 비판하고 기록하며 작가들의 뚜렷한 예술관을 보여주는 작품을 선보이고 있다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-6.gif",
                 artist: [
                     {
@@ -2972,33 +2934,33 @@ export const allExhibits_VI = [
                         engname: "Jaikwan Kim",
                         imgname:"/2022/22-6/22-6-1.png", 
                         text: "한국 작가 커미셔너이며 참여 작가인 김재관 작가는 그리드(Grid)와 방형(Cube)에서 출발한 작가의 작품세계는 최근에는 ’왜곡된 기하학‘과 ’멀티플 기하학‘의 아름다움으로 확산되고 있다. ‘자연으로의 회귀’ 시리즈에서 예술은 ‘꼭’ 미학적, 조형적 원칙과 원리에 따라 그려지는 것이 아니라 자유로운 형태의 ‘율(律)’과 ‘색’으로 자유스럽게 표현하며 공간에 ‘빛’을 넣고 있다.",
-                        education: "홍익대학교 서양화 학부, 석사 졸업 및 동대학교 미술학박사학위 취득",
+                        education: "Tốt nghiệp Khoa Hội họa phương Tây tại Đại học Hongik với bằng thạc sĩ và lấy bằng tiến sĩ mỹ thuật tại cùng trường đại học.",
                         individual_exhibition: [
-                            {order: 1, exhibit: "1979~현재 국내외 개인전 (서울, 파리, 도쿄, L.A) 40여회 개최"},
+                            {order: 1, exhibit: "1979~nay Khoảng 40 triển lãm cá nhân được tổ chức trong và ngoài nước (Seoul, Paris, Tokyo, L.A.)"},
                         ],
                         group_exhibition: [
-                            {index: 0, order: 1, exhibit: "2021 김재관 회고전, 청주시립미술관"},
-                            {index: 1, order: 2, exhibit: "2021 시대와 개성 展, 해든미술관, 강화, 인천"},
-                            {index: 2, order: 3, exhibit: "2020 통인화랑, 서울"},
-                            {index: 3, order: 4, exhibit: "2019 한국현대미술 파리전 ‘New Dialogue’ 갤러리 89, 파리, 프랑스"},
-                            {index: 4, order: 5, exhibit: "2018 한국-프랑스 ‘New Dialogue’ 전, 쉐마미술관, 청주"},
-                            {index: 5, order: 6, exhibit: "2017 이스탄불비엔날레, “TASTE of TEA” 초대 출품 / Haydarpasa Terminal, 터키"},
-                            {index: 6, order: 7, exhibit: "2017 한·불 현대미술의 거장전 / 프랑스와 양평 초대전 / 양평군립미술관"},
-                            {index: 7, order: 8, exhibit: "2015 90년대 다무라·마키시대 이후 한일현대미술전 / 쉐마미술관, 청주"},
-                            {index: 8, order: 9, exhibit: "2015 제56회 베니스비엔날레 특별전 한국커미셔너"},
-                            {index: 9, order: 10, exhibit: "2015 사유로서의 드로잉전, 뮤지엄 산, 강원, 원주"},
-                            {index: 10, order: 11, exhibit: "2013 한중현대미술전 “必然中的偶然” / 사면공간화랑, 베이징, 중국"},
-                            {index: 11, order: 12, exhibit: "2013 문신미술상 수상작가 김재관 초대전 / 문신미술관, 창원, 서울"},
-                            {index: 12, order: 13, exhibit: "2012 Steps 갤러리, 도쿄, 일본"},
-                            {index: 13, order: 14, exhibit: "2008 한국추상회화;1958-2008전(서울시립미술관 기획초대), 서울"},
-                            {index: 14, order: 15, exhibit: "2007 제1회 뉴욕아시아현대미술전 / 뉴욕 pier 92, 미국"},
-                            {index: 15, order: 16, exhibit: "2003~2009 시카고, 퀼른, 뉴욕, 상하이, 북경, 아르코, 바젤 아트페어 등 출품"},
-                            {index: 16, order: 17, exhibit: "1997 마키 다무라 화랑, 도쿄, 일본"},
-                            {index: 17, order: 18, exhibit: "1989 L.A 아트코아 갤러리, L.A, 미국"},
-                            {index: 18, order: 19, exhibit: "1988 갤러리 현대, 서울"},
-                            {index: 19, order: 20, exhibit: "1988~1997 Ecole de Seoul 초대전 / 관훈갤러리, 서울"},
-                            {index: 20, order: 21, exhibit: "1987 제19회 쌍파울로비엔날레전 / 현대미술관, 브라질"},
-                            {index: 21, order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
+                            {order: 1, exhibit: "Triển lãm hồi tưởng Kim Jae-gwan 2021, Bảo tàng nghệ thuật Cheongju"},
+                            {order: 2, exhibit: "Triển lãm cá nhân và kỷ nguyên 2021, Bảo tàng nghệ thuật Hadden, Ganghwa, Inch"},
+                            {order: 3, exhibit: "2020 Phòng trưng bày Tongin, Seoul"},
+                            {order: 4, exhibit: "Triển lãm nghệ thuật đương đại Hàn Quốc 2019 tại Paris 'Đối thoại mới' Phòng trưng bày 89, Paris, Pháp"},
+                            {order: 5, exhibit: "Triển lãm 'Đối thoại mới' Hàn-Pháp 2018, Bảo tàng Nghệ thuật Schema, Cheongju"},
+                            {order: 6, exhibit: "2017 Istanbul Biennale, triển lãm được mời “TASTE of TEA” / Nhà ga Haydarpasa, Thổ Nhĩ Kỳ"},
+                            {order: 7, exhibit: "Triển lãm nghệ thuật đương đại Hàn-Pháp 2017 / Triển lãm mời gọi Pháp và Yangpyeong / Bảo tàng nghệ thuật quận Yangpyeong"},
+                            {order: 8, exhibit: "Triển lãm nghệ thuật đương đại Hàn Quốc-Nhật Bản 2015 sau thời đại Tamura-Maki vào những năm 1990 / Bảo tàng nghệ thuật Schema, Cheongju"},
+                            {order: 9, exhibit: "Ủy viên Hàn Quốc tại Triển lãm đặc biệt Venice Biennale lần thứ 56 năm 2015"},
+                            {order: 10, exhibit: "2015 Vẽ theo suy nghĩ, Bảo tàng San, Gangwon, Wonju"},
+                            {order: 11, exhibit: "Triển lãm nghệ thuật đương đại Hàn-Trung 2013 “必然中的偶然” / Phòng trưng bày Four Side Space, Bắc Kinh, Trung Quốc"},
+                            {order: 12, exhibit: "Triển lãm được mời của nghệ sĩ đoạt giải Moonshot Art Award 2013 Kim Jae-kwan / Bảo tàng nghệ thuật Moonshin, Changwon, Seoul"},
+                            {order: 13, exhibit: "2012 Steps Gallery, Tokyo, Japan"},
+                            {order: 14, exhibit: "Tranh trừu tượng Hàn Quốc 2008; Triển lãm 1958-2008 (Lời mời đặc biệt của Bảo tàng Nghệ thuật Seoul), Seoul"},
+                            {order: 15, exhibit: "Triển lãm nghệ thuật đương đại châu Á New York lần thứ 1 năm 2007 / Bến tàu New York 92, Hoa Kỳ"},
+                            {order: 16, exhibit: "2003~2009 Được triển lãm tại Chicago, Cologne, New York, Thượng Hải, Bắc Kinh, Arko, Hội chợ nghệ thuật Basel, v.v."},
+                            {order: 17, exhibit: "1997 Phòng trưng bày Maki Tamura, Tokyo, Nhật Bản"},
+                            {order: 18, exhibit: "1989 L.A Artcore Gallery, L.A., USA"},
+                            {order: 19, exhibit: "1988 Gallery Hyundai, Seoul"},
+                            {order: 20, exhibit: "1988~1997 Triển lãm mời Ecole de Seoul / Phòng trưng bày Kwanhoon, Seoul"},
+                            {order: 21, exhibit: "Triển lãm Sao Paulo Biennale lần thứ 19 năm 1987 / Bảo tàng nghệ thuật hiện đại, Brazil"},
+                            {order: 22, exhibit: "1984~1991 Triển lãm nghệ thuật đương đại mời gọi / Bảo tàng nghệ thuật đương đại và hiện đại quốc gia, Gwacheon"},
                         ],
                         paint: [
                             {order: 0, title: "Relationship 律과 色 2021-1001", imgname: "/2022/22-6/1-162.2x112.jpg", overview: "162.2x112cm", overview1: "Acrylic on Korea Paper, 2021"},
@@ -3013,11 +2975,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-2.jpg", 
                         text: "박승순 작가는 다양하게 변모하는 도시 이미지와 현대 도시의 시대상에서 아름다움을 찾는 작가이다. 작가에게 도시란 생명력과 자연 생태계의 순환을 보여주는 곳이자 자신에게 상상력과 자극을 부여하는 공간이다. 이런 작가의 시선은 불규칙한 선의 변형을 거쳐 직선과 운동감이 넘치는 곡선의 형태로 변화하며 또 다른 색을 가진 면과 함께 중첩되면 작품에서 새로운 조화를 만들어 낸다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 1, title: "선.미.공간 8-28", imgname: "/2022/22-6/2-120x120.jpg", overview: "120x120cm", overview1: "Oil on Canvas, 2020"},
                         ]
@@ -3031,11 +2990,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-3.jpg", 
                         text: "박영학 작가의 ‘단아한 풍경’은 불필요한 욕망과 억제 사이의 균형과 긴장감을 갖고, 그 경계의 풍경을 표현한다. 작품에 보이는 흰색과 검은색의 대비는 가시적 세계와 비가시적 세계를 동시에 보여주며 그 풍경은 실제의 풍경을 그리거나 원근법적 질서를 파괴한 새로운 풍경이다. 한국화 적인 느낌을 현대화시켜 보여주는 공허한 풍경은 오묘하고 신비로운 풍경을 보여준다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 2, title: "세월의 흔적", imgname: "/2022/22-6/3-68.3x102.4.jpg", overview: "50x30x30cm", overview1: "Gypsum, pigment(석고에 안료), 2021"},
                         ]
@@ -3049,11 +3005,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-4.jpg", 
                         text: "박진명 작가는 빠르게 살아가는 우리의 삶 속의 여러 풍경에서 생명력을 발견한다. 작가는 화면 밖에 놓인 기억의 잔상의 이미지들은 작가만의 풍경으로 재탄생 시킨다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 3, title: "똑같은 봄은 없다", imgname: "/2022/22-6/4-166.5x71.jpg", overview: "166.5x71cm", overview1: "Ink stick, Gouache on Paper(종이에 먹, 과슈), 2022"},
                         ]
@@ -3066,35 +3019,35 @@ export const allExhibits_VI = [
                         engname: "Hyo-sung Pang",
                         imgname:"/2022/22-6/22-6-5.png", 
                         text: "방효성 작가는 국내와 해외에 널리 알려진 행위예술가이다. 행위예술가이면서도 작가는 회화와 드로잉에 주력한다. 작가의 드로잉 안에는 소멸을 반복하는 시간 속에서 영원을 추구하는 본능적 욕구가 있다. 화면 속에는 여러 가지 기호들이 차용되어 사용되고 조형적 요소들은 이미지 채집을 통하여 잠재된 의식 속에 떠오르는 것들을 기호적으로 표현된다.",
-                        education: "경희대학교 및 동대학원 미술과 졸업",
+                        education: "Tốt nghiệp Đại học Kyung Hee và trường sau đại học, Khoa Mỹ thuật",
                         individual_exhibition: [
-                            {order: 1, exhibit: "서울, 오사카, 대구에서 개인전 29회 개최"},
+                            {order: 1, exhibit: "29 triển lãm cá nhân được tổ chức tại Seoul, Osaka và Daegu"},
                         ],
                         group_exhibition: [
-                            {order: 1, exhibit: "2023 기억하다. 아트미션전 (토포하우스. 서울)"},
-                            {order: 2, exhibit: "2022 온세미로 국제미술프로젝트 (101CM 아트센터. 수원)"},
-                            {order: 3, exhibit: "2022 청주국제현대미술 교류전 (쉐마미술관. 청주)"},
-                            {order: 4, exhibit: "2021 수원 국제 현대미술전 (수원미술관. 수원)"},
-                            {order: 5, exhibit: "2020 한,중 현대미술전 (쉐마미술관. 청주)"},
-                            {order: 6, exhibit: "2020 한강의 흐름전 (강동아트센타. 서울)"},
-                            {order: 7, exhibit: "2020 이레 갤러리 초대전 ‘ 모퉁이 돌’ (이레갤러리. 파주"},
-                            {order: 8, exhibit: "2020 기억하는사람들 –아트미션 정기전 (토포하우스 갤러리. 서울)"},
-                            {order: 9, exhibit: "2020 35회 사라예보 윈터패스티발 (보스니아 컬쳐센타. 사라예보)"},
-                            {order: 10, exhibit: "2020 ‘움직이는 물’ 청주시립미술관 초대전 (대청호미술관. 청주"},
-                            {order: 11, exhibit: "2019 한국기독교미술인협회전 (조선일보미술관. 서울)"},
-                            {order: 12, exhibit: "2019 한강의 흐름전 (강동아트센타. 서울)"},
-                            {order: 13, exhibit: "2019 이후전 (마로니에 갤러리. 오사카)"},
-                            {order: 14, exhibit: "2019 아티스트리움12 (조지아 국립미술관. 트빌리시)"},
-                            {order: 15, exhibit: "2019 아트미션전 (이랜드 스페이스갤러리. 서울)"},
-                            {order: 16, exhibit: "2018 한국기독교미술인협회 정기전 (조선일보 미술관. 서울)"},
-                            {order: 17, exhibit: "2018 한국 프랑스 현대미술전 (쉐마미술관. 청주)"},
-                            {order: 18, exhibit: "2018 전위미술의 이단아들 (대구 현대미술관. 대구)"},
-                            {order: 19, exhibit: "2018 안동행위예술제 (안동 예술의전당. 안동)"},
-                            {order: 20, exhibit: "2018 몸짓에 담다 (팔복예술공장. 전주"},
-                            {order: 21, exhibit: "2018 아트미션20주년 기념전 (관훈갤러리. 서울)"},
-                            {order: 22, exhibit: "2018 2000년대의 행위 (제주 현대미술관. 제주)"},
-                            {order: 23, exhibit: "2017 이스탄불 비엔날레 (Haydarpas station. 이스탄불)"},
-                            {order: 24, exhibit: "2016 순천만 국제환경미술제 (순천만 국가정원 미술관. 순천)"},
+                            {order: 1, exhibit: "2023 Remember. Triển lãm sứ mệnh nghệ thuật (Topo House. Seoul)"},
+                            {order: 2, exhibit: "Dự án nghệ thuật quốc tế Onsemiro 2022 (Trung tâm nghệ thuật 101CM. Suwon)"},
+                            {order: 3, exhibit: "Triển lãm trao đổi nghệ thuật đương đại quốc tế Cheongju 2022 (Bảo tàng nghệ thuật Shema, Cheongju)"},
+                            {order: 4, exhibit: "Triển lãm nghệ thuật đương đại quốc tế Suwon 2021 (Bảo tàng nghệ thuật Suwon. Suwon)"},
+                            {order: 5, exhibit: "Triển lãm nghệ thuật đương đại Hàn Quốc-Trung Quốc 2020 (Bảo tàng nghệ thuật Shema, Cheongju)"},
+                            {order: 6, exhibit: "Triển lãm dòng chảy sông Hàn 2020 (Trung tâm nghệ thuật Gangdong. Seoul)"},
+                            {order: 7, exhibit: "Triển lãm mời gọi Ire Gallery 2020 ‘Góc đá’ (Ire Gallery. Paju"},
+                            {order: 8, exhibit: "2020 People Who Remember – Triển lãm thường kỳ sứ mệnh nghệ thuật (Phòng trưng bày Topo House. Seoul)"},
+                            {order: 9, exhibit: "Lễ hội mùa đông Sarajevo lần thứ 35 năm 2020 (Trung tâm văn hóa Bosnia. Sarajevo)"},
+                            {order: 10, exhibit: "Triển lãm mời gọi Bảo tàng nghệ thuật Cheongju 'Nước chuyển động' năm 2020 (Bảo tàng nghệ thuật Daecheongho. Cheongju"},
+                            {order: 11, exhibit: "Triển lãm Hiệp hội Nghệ sĩ Thiên chúa giáo Hàn Quốc 2019 (Bảo tàng nghệ thuật Chosun Ilbo, Seoul)"},
+                            {order: 12, exhibit: "Triển lãm dòng chảy sông Hàn 2019 (Trung tâm nghệ thuật Gangdong, Seoul)"},
+                            {order: 13, exhibit: "Hậu triển lãm năm 2019 (Phòng trưng bày Marronnier. Osaka)"},
+                            {order: 14, exhibit: "2019 Artistium 12 (Phòng trưng bày Quốc gia Georgia, Tbilisi)"},
+                            {order: 15, exhibit: "Triển lãm sứ mệnh nghệ thuật 2019 (Phòng trưng bày không gian E-Land. Seoul)"},
+                            {order: 16, exhibit: "Triển lãm thường kỳ của Hiệp hội nghệ sĩ Cơ đốc giáo Hàn Quốc 2018 (Bảo tàng nghệ thuật Chosun Ilbo, Seoul)"},
+                            {order: 17, exhibit: "Triển lãm nghệ thuật đương đại Hàn-Pháp 2018 (Bảo tàng nghệ thuật Chemar, Cheongju)"},
+                            {order: 18, exhibit: "Đứa con dị giáo của nghệ thuật tiên phong 2018 (Bảo tàng nghệ thuật đương đại Daegu, Daegu)"},
+                            {order: 19, exhibit: "Lễ hội biểu diễn nghệ thuật Andong 2018 (Trung tâm nghệ thuật Andong. Andong)"},
+                            {order: 20, exhibit: "2018 Put in Gesture (Palbok Art Factory. Jeonju"},
+                            {order: 21, exhibit: "Triển lãm kỷ niệm 20 năm sứ mệnh nghệ thuật 2018 (Phòng trưng bày Kwanhoon, Seoul)"},
+                            {order: 22, exhibit: "Những hành động của thập niên 2018 (Bảo tàng Nghệ thuật Đương đại Jeju, Jeju)"},
+                            {order: 23, exhibit: "2017 Istanbul Biennale (ga Haydarpas. Istanbul)"},
+                            {order: 24, exhibit: "Lễ hội nghệ thuật môi trường quốc tế Vịnh Suncheon 2016 (Bảo tàng nghệ thuật vườn quốc gia vịnh Suncheon, Suncheon)"},
                         ],
                         paint: [
                             {order: 4, title: "Over the there", imgname: "/2022/22-6/5-76x52.jpg", overview: "76x52cm", overview1: "Acrylic on paper, 2021"},
@@ -3109,11 +3062,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-6.jpg", 
                         text: "이규식 작가는 ‘이름 쓰기’ 드로잉을 통해 타인의 시선으로 자신을 바라보려 한다. 작가는 욕망에 사로잡힌 자신을 인정함으로써 자기부정과 비판이 가능해진다면 삶은 한결 자유로워진다고 생각한다. 자신의 이름 쓰기는 수행과도 같으며 쓰기의 수행은 자신과 또 다른 존재들을 소환하며 존재 이유를 깨닫게 해준다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-    
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 5, title: "李규식 - Red", imgname: "/2022/22-6/6-73.5x143.5.jpg", overview: "73.5x143.5cm", overview1: "Acrylic on paper, 2022"},                        
                         ]
@@ -3127,11 +3077,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-7.jpg", 
                         text: "진익송 작가는 어떤 크고 작은 사연이 내재 된 오브제들을 장소와 시간을 넘어 재조합해 새로운 이야기를 엮어낸다. 사소하고도 작은 물체들(Objects)을 통해 지나간 이들의 삶과 시간과 흔적이 뒤섞여지며 경의와 연민이 자연스럽게 표현하여 우주의 신비를 밝혀내는 범위를 확장해간다. 작가에게 오브제로 재조합하며 육체는 한정적으로 어떤 신비로운 코드(code)를 채굴하는 도구이며, 행위는 작품이 된다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-    
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 6, title: "Another song of cosmoss(Front)", imgname: "/2022/22-6/7-72.4x102.4.jpg", overview: "56.2x180x15cm", overview1: "Mixed media on a Door, 2021"}, 
                             {order: 7, title: "Another song of cosmoss(Back)", imgname: "/2022/22-6/8-71.1x102.4.jpg", overview: "56.2x180x15cm", overview1: "Mixed media on a Door, 2021"},                        
@@ -3146,11 +3093,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-8.jpg", 
                         text: "최민건 작가의 작품에는 의식 속에 존재하는 화면으로 표출된 공간과 현실과 괴리된 환상 속의 공간이 아니라 현재를 사는 현실의 공간과 가상의 공간과의 경계의 틈에 존재하는 일종의 이중적인 공간을 보여주려 한다. 화면 안에는 현재와 과거, 현존과 부재의 의미를 동시에 담고 있으며 화면 속 개는 작가의 가상과 실제의 경계를 모호하게 하며, 과거와 현재, 현세와 가상의 세계를 이어주며 시공간을 초월한 안내자와 같은 매개체이다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-    
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 8, title: "A borderline between", imgname: "/2022/22-6/9-100x224.jpg", overview: "100x224cm", overview1: "Acrylic on canvas, 2022"}, 
                         ]
@@ -3164,11 +3108,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-9.jpg", 
                         text: "하명복 작가의 영루(靈淚) 작품은 구체적 형상이 드러나지 않는 추상적인 이미지로 작업하며 캔버스에 흔적을 남긴다. 작가의 깊은 곳에서 전해지는 울림과 떨림으로 인해 흐르는 눈물을 바라보며 그 눈물은 점이 되어 화면 위에 남겨지는 흔적을 통해 무의식의 잠재의식이 표출된다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-    
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 9, title: "영루(靈淚)", imgname: "/2022/22-6/10-162x112.jpg", overview: "162x112cm", overview1: "Acrylic on canvas, 2022"}, 
                         ]
@@ -3181,33 +3122,33 @@ export const allExhibits_VI = [
                         engname: "Cang Xin",
                         imgname:"/2022/22-6/22-6-10.jpg", 
                         text: "중국 작가 창 신(Cang Xin)은 현대 인간 사회에 대한 정확한 인식과 성찰을 표현하고 새로운 가치와 예술적 양식을 구축하기 위해 항상 “새로운 샤머니즘”과 “과학적, 기술적 혁신”을 작업에 통합하려고 한다. 신샤머니즘은 중국 북부의 한랭지에서 샤머니즘의 애니미즘에서 파생된 것이다.",
-                        education: "텐진대학교 음악대학 졸업",
+                        education: "Tốt nghiệp Đại học Âm nhạc Thiên Tân",
                         individual_exhibition: [
-                            {order: 1, award: "2020 “Constant & Mutation” Luxehille Art Museum, 청두"},
-                            {order: 2, award: "2019 “현대 증상” 광저우"},
-                            {order: 3, award: "2019 “일러스트 핸드북 ”신성함“, 베이징"},
-                            {order: 4, award: "2019 “의식 표현” 광저우"},
-                            {order: 5, award: "2018 “에너지 모델” 광저우"},
-                            {order: 6, award: "2018 “창신 개인전 직관” 시안 스페이스, 베이징"},
-                            {order: 7, award: "2017 “원형” 산야 현대 미술관, 하이난 성 산야 이하이탕"},
-                            {order: 8, award: "2017 “Cang Xin 중국에서 2년 동안의 공연” 사라고사, 스페인"},
-                            {order: 9, award: "2017 “영적 감각” Leo Gallery & Contemporary by Angela Li, Hongkong"},
-                            {order: 10, award: "2017 “공생” 아트 인스티튜트 암누아, 난징"},
+                            {order: 1, exhibit: "2019 “Constant & Mutation” Bảo tàng nghệ thuật Luxehille, Thành Đô"},
+                            {order: 2, exhibit: "2019 “Triệu chứng hiện đại” Quảng Châu"},
+                            {order: 3, exhibit: "2019 “Sổ tay minh họa ”Thánh thiêng“, Bắc Kinh"},
+                            {order: 4, exhibit: "2019 “Biểu hiện ý thức” Quảng Châu"},
+                            {order: 5, exhibit: "2018 “Mô hình năng lượng” Quảng Châu"},
+                            {order: 6, exhibit: "2018 Triển lãm cá nhân Changshin Trực giác Không gian Tây An, Bắc Kinh"},
+                            {order: 7, exhibit: "2017 Bảo tàng nghệ thuật hiện đại Tam Á “Thông tư”, Tam Á Hải Đường, tỉnh Hải Nam"},
+                            {order: 8, exhibit: "2017 “Cang Xin 2 Năm biểu diễn ở Trung Quốc” Zaragoza, Tây Ban Nha"},
+                            {order: 9, exhibit: "2017 Phòng trưng bày Leo & Đương đại”“Cảm giác tâm linh” của Angela Li, Hồng Kông"},
+                            {order: 10, exhibit: "2017 “Symbiosis” Viện nghệ thuật Amnua, Nam Kinh"},
                         ],
                         group_exhibition: [
-                            {order: 1, award: "2020 《L’Autre en je》 Photo Doc UAAF, 파리"},
-                            {order: 2, award: "2020 “12년：현장 아카이브” Up-on 국제 라이브 아트 페스티벌 2008-2020, ”Up-on 국제 라이브 아트 페스티벌, 청두"},
-                            {order: 3, award: "2020 “당신이 볼 수 있듯” 5주년 특별전, Justart space, 광저우"},
-                            {order: 4, award: "2020 “합성 분해”, 광저우"},
-                            {order: 5, award: "2020 “Restarting The Time”, 청두"},
-                            {order: 6, award: "2020 “A Glance“, 허베이, 스자좡"},
-                            {order: 7, award: "2020 “On Self” 하이난 완쿠 미술관"},
-                            {order: 8, award: "2020 “Pulse of the Dragon” 카술라 파워하우스 미술관, 시드니"},
-                            {order: 9, award: "2020 “변화 : 아시아 예술”, 프랑스"},
-                            {order: 10, award: "2019 “Hibridaciones” Casal Solleric Museum, 팔마, 스페인"},
-                            {order: 11, award: "2019 “중국 현대 미술가” New MoMA, New York"},
-                            {order: 12, award: "2019 “2019 Art Hefei·Contemporary Art Season”, 안후이, 허페이"},
-                            {order: 13, award: "2019 “뇌의 비밀”, 베이징"},
+                            {order: 1, exhibit: "2020 《L'Autre en je》 Ảnh Doc UAAF, Paris"},
+                            {order: 2, exhibit: "2020 “12 Năm: Lưu trữ Hiện trường” Lễ hội Nghệ thuật Trực tiếp Quốc tế Up-on 2008-2020, ”Lễ hội Nghệ thuật Trực tiếp Quốc tế Up-on, Thành Đô"},
+                            {order: 3, exhibit: "2020 Triển lãm đặc biệt kỷ niệm 5 năm “As You Can See”, không gian Justart, Quảng Châu"},
+                            {order: 4, exhibit: "2020 `Phân hủy tổng hợp`, Quảng Châu"},
+                            {order: 5, exhibit: "2020 `Khởi động lại thời gian`, Thành Đô"},
+                            {order: 6, exhibit: "2020 “A Glance“, Hà Bắc, Thạch Gia Trang"},
+                            {order: 7, exhibit: "2020 Bảo tàng nghệ thuật Wanku Hải Nam” “Tự mình”"},
+                            {order: 8, exhibit: "2020 “Pulse of the Dragon” Phòng trưng bày nghệ thuật Casula Powerhouse, Sydney"},
+                            {order: 9, exhibit: "2020 “Change: Asian Art, France"},
+                            {order: 10, exhibit: "2019 “Hibridaciones” Bảo tàng Casal Solleric, Palma, Tây Ban Nha"},
+                            {order: 11, exhibit: "2019 “Nghệ sĩ đương đại Trung Quốc” MoMA mới, New York"},
+                            {order: 12, exhibit: "2019 “2019 Nghệ thuật Hợp Phì·Mùa nghệ thuật đương đại”, An Huy, Hợp Phì"},
+                            {order: 13, exhibit: "2019 `Bí mật của bộ não`, Bắc Kinh"},
                         ],
                         paint: [
                             {order: 10, title: "Broadhand User", imgname: "/2022/22-6/11-134x200.jpg", overview: "134x200cm", overview1: "Golden color on rice paper(Print), 2022"}, 
@@ -3222,12 +3163,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-11.jpg", 
                         text: "덩상동(Deng Shangdong) 작가는 퍼포먼스 영상을 통해 개인적인 감정적 경험에 초점을 맞추고 삶과 죽음의 의미를 탐구한다. 특히 작품을 통해 오늘날 젊은이들의 신체에 대한 탐구와 기록이나 젊은이들의 서브컬처 생활환경에 주목하여 실제적인 신체 관을 제시하거나 과거를 잊지 않고, 순간을 기억하여 현재를 살아가고자 한다.",
                         education: "",
-                        individual_exhibition: [
-                            
-                        ],
-                        group_exhibition: [
-            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 11, title: "Earthquake Remembrance Day", imgname: "/2022/22-6/12-102.4x57.jpg", overview: "", overview1: "15m, Performance Video, 2018"}, 
                         ]
@@ -3241,12 +3178,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-12.jpg", 
                         text: "무레이(Mulei) 작가는 디지털 영상 작품을 통해 영상의 모든 프레임에 시간적 측면을 상징하며 초자연적인 변형이 일어난다. 특히 작가의 눈에는 영원 속에 떠 있는 신기한 돌들과 무한히 흐르는 원형 물속에서 시간이 드러난다.",
                         education: "",
-                        individual_exhibition: [
-                            
-                        ],
-                        group_exhibition: [
-            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 12, title: "Infinity", imgname: "/2022/22-6/13-102.4x57.6.jpg", overview: "", overview1: "5m, Video, 2021"}, 
                             {order: 13, title: "Infinity", imgname: "/2022/22-6/14-102.4x57.6.jpg", overview: "", overview1: "5m, Video, 2021"}, 
@@ -3261,12 +3194,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-13.jpg", 
                         text: "이신모(Li xinmo) 작가의 작업은 실존적 질문을 불러일으킬 방법을 탐구하며 여성의 신체에 대한 폭력, 자연환경에 대한 폭력, 가부장적 폭력의 사회적 사이의 유사점들에 대해 생태 페미니스트적 렌즈를 통해 퍼포먼스를 한다. 몸을 써 겪는 신체적 불편함을 통해 관객을 압도하고 끌어들인다. 작가는 산업화와 상업화가 자연환경을 파괴하며 사라지며 상실되는 환경은 생태계와 여성의 몸뿐만 아니라 우리 인류의 핵심 본질인 예술 형식의 파괴라고 생각한다.",
                         education: "",
-                        individual_exhibition: [
-                            
-                        ],
-                        group_exhibition: [
-            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 14, title: "Maxim", imgname: "/2022/22-6/15-78.8x102.4.jpg", overview: "", overview1: "4m 42s, Performance Video, 2018"}, 
                         ]
@@ -3280,12 +3209,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-14.jpg", 
                         text: "이자신(Li Jiaxin) 작가는 작품을 통해 또한 다른 사람들이 세상을 이해하고 어떤 것을 이해하기 위해 다른 관점을 보게 할 수 있다고 생각하며 다른 사람들과 소통하는 매개체이며, 단어와 문자보다 더 상상력과 힘을 가지 매개체라고 생각한다. 작가는 지허(Jihe River) 강가에서 태어났으며 무차별적 개발로 조각난 고향을 지키기 위해 사진을 사용한다.",
                         education: "",
-                        individual_exhibition: [
-                            
-                        ],
-                        group_exhibition: [
-            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 15, title: "Investigation of Zihe River", imgname: "/2022/22-6/16-25x30.jpg", overview: "25x30cm", overview1: "Photo(Print), 2022"}, 
                             {order: 16, title: "Investigation of Zihe River", imgname: "/2022/22-6/17-25x30.jpg", overview: "25x30cm", overview1: "Photo(Print), 2022"}, 
@@ -3300,12 +3225,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-15.jpg", 
                         text: "장정정(Zhang Zengzeng) 작가는 조각의 보이지 않는 것의 형태를 탐구한다. 조각의 ‘형태’의 가장 기본적인 개념 중 하나인 ‘공간’, ‘멀티미디어 기술의 형태‘로 해석한다. 작가의 이런 생각은 작품에서 ‘무형’의 형태로 사용하고 나타난다.",
                         education: "",
-                        individual_exhibition: [
-                            
-                        ],
-                        group_exhibition: [
-            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 17, title: "The Moment", imgname: "/2022/22-6/18-102.4x52.jpg", overview: "", overview1: "1m 16s, Video, 2021"}, 
                         ]
@@ -3319,12 +3240,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-16.jpg", 
                         text: "저우빈 (Zhou Bin) 작가는 청두를 중심으로 활동하는 퍼포먼스 작가로 주로 정치적, 사회적 문제를 다루는 작가로 알려져 있다. ‘谁是恐怖分子(Who is the Terrorist)’ 작품은 2008년 9월 유대교 구역에 있는 Western Wall에서 진행한 퍼포먼스 작품으로 이 벽은 구약성서에 등장하는 성전의 서쪽 벽, ‘통곡의 벽’(Wailing Wall)이라는 별칭을 가지고 있는 장소에서 유대교인들이 자신의 소원이 담긴 성격을 성지 ‘서벽’ 틈에 끼워 넣고 떨어진 종이들로 작가는 ‘테러리스트는 누구인가?’를 발문하며 테러와 전쟁의 위협을 안고 살아가는 사회적 문제를 제시한다.",
                         education: "",
-                        individual_exhibition: [
-                            
-                        ],
-                        group_exhibition: [
-            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 18, title: "Who Is the Terrorist_谁", imgname: "/2022/22-6/19-60x40.jpg", overview: "60x40cm", overview1: "Photo(Print), 2022"}, 
                             {order: 19, title: "Who Is the Terrorist", imgname: "/2022/22-6/20-60x40.jpg", overview: "60x40", overview1: "Photo(Print), 2022"}, 
@@ -3339,12 +3256,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-17.jpg", 
                         text: "주이밍(Zhu Yiming) 작가는 영상 작품을 통해 예술작품 자체는 현재 환경에 존재한다고 생각한다. 이런 작가의 생각은 ‘In one breath’ 작품에서 시민들이 풍선을 불며 참여하여 이 시대의 사람들의 상태와 영적인 힘과 더 나아가 보이지 않는 삶의 생명을 보여준다.",
                         education: "",
-                        individual_exhibition: [
-                            
-                        ],
-                        group_exhibition: [
-            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 20, title: "In one breath", imgname: "/2022/22-6/21-102.4x57.1.jpg", overview: "", overview1: "7m 36s, Video, 2021"}, 
                         ]
@@ -3358,12 +3271,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-6/22-6-18.jpg", 
                         text: "진젠룽(Jin Jianrong) 작가는 사람들은 복부나 발가락 등을 잡아당겨서 촬영하며 순간에 이상적인 이미지를 갖게 된다는 사실에서 작품이 시작한다. 아름다움을 추구하는 인간의 본성의 중독된 환상을 객관적으로 관찰하는 작품을 선보인다.",
                         education: "",
-                        individual_exhibition: [
-                            
-                        ],
-                        group_exhibition: [
-            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 21, title: "Partial eclipse", imgname: "/2022/22-6/22-80x45.jpg", overview: "80x45cm", overview1: "Art micro spray photo(Print), 2022"}, 
                             {order: 22, title: "Partial eclipse", imgname: "/2022/22-6/23-45x80.jpg", overview: "45x80cm", overview1: "Art micro spray photo(Print), 2022"}, 
@@ -3379,7 +3288,7 @@ export const allExhibits_VI = [
                 artist1: "김성미", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "충청북도, 충북문화재단", 
                 explanation: "쉐마미술관은 무더운 여름 김성미 작가의 12번째 개인전 ‘숲의 잔상’ 展을 준비하고 있다. 작가의 작업에 모티브가 되는 ‘숲’은 삶에 ‘생명력과 치유’의 의미이다. 인간의 삶의 터전이자 휴식처이기도 한 숲은 작가에게 자연이 주는 영감으로 다가온다. 김성미 작가에게 ‘숲’은 시각적 ‘숲’을 넘어 ‘숲’이 가지고 있는 비밀과 기록, 인류가 새로운 문명으로 발전하며 새로운 역사를 만들어 가며 필연적으로 파괴하고 자연과 멀어짐을 경고한다. 우리가 예상하지 못했던 여러 가지 사회적, 자연적 문제들은 이번 전시에서 푸른색의 추상 평면 작업과 영상 작업을 통해 보여준다. 작가에게 숲이란 존재로서, 생명으로서 외부 세계를 직면하게 되며 작가가 느끼는 자연에 대한 동경과 갈망, 안타까움은 미묘한 세계와 관계하게 되며 여러 번 색이 레이어 되고 물감 흡수되며 마르면서 남게 되는 흔적들은 작가가 생각하는 세계관의 상호작용을 보여주는 추상회화를 선보이게 된다. 이번 전시는 작가는 최근 몇 년 동안 계속해서 숲을 모티브로 하여 시간에 따라 변화되는 모습을 모두 담아내고 있다. 우리들의 삶이 그렇듯이 세월의 변화를 수용하며 그 안에 작가 개인의 삶이 투영되는 은유적 표현을 통해 작가가 바라보는 ‘숲’을 감상하는 전시가 될 예정이다. 캔버스 평면을 넘어 디지털 작업으로 확장된 시간의 변화와 흔적의 구현을 통해 ‘자연과 함께 하는 삶’을 찾는 계기가 되기를 기대해 본다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-7.jpg",
                 artist: [
                     {
@@ -3391,11 +3300,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-7/22-7-1.jpg", 
                         text: "‘숲의 다양하고 자연스러운 생성과 변주들이 인류의 발전이라 거대한 욕망에 의해 광적으로 빠르게 파괴되고, 이러한 파괴된 자연과 소외된 인간의 모습을 ‘숲의 잔상’이라는 주제로 전시하고자 한다.’",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                            
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 0, title: "숲의 잔상22-1", imgname: "/2022/22-7/1-100x100.jpg", overview: "100x100cm", overview1: "캔버스 위에 혼합재료, 2022"},
                             {order: 1, title: "숲의 잔상22-2", imgname: "/2022/22-7/2-100x100.jpg", overview: "100x100cm", overview1: "캔버스 위에 혼합재료, 2022"},
@@ -3416,7 +3322,7 @@ export const allExhibits_VI = [
                 artist1: "김만순, 김윤섭, 이병호, 조민선", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "한국문화예술위원회, 시각예술창작산실", 
                 explanation: "인류의 조상들은 돌벽을 평평하게 만들어 그곳에 사냥을 기원하는 그림을 그렸다. 인류가 만들어낸 평면은 그 자체로 하나의 획기적인 진화의 수단이 되었고 평면 안에서 인류는 새로운 형이상학과 언어, 이미지를 상상할 수 있었다. 예술의 탄생 배경에는 이런 평면성이 자리하고 있다. 돌벽을 부수고 갈아 만든 평면이 흙과 나무를 거쳐 현재는 희토류를 기본 원자재로 하는 매끄러운 모니터가 되었다. 인류의 역사는 어쩌면 인간이 만들어내는 평면의 매끄러움의 감도에 따라 보인다고도 할 수 있다. 물질세계와 형이상학의 세계는 [매끄러움-입자의 조밀함]과 어떤 연관이 있으며 이것은 현대미술에 어떠한 영향을 끼치고 있을 것인지 또한 현대미술 작가들은 이러한 인류 역사상 가장 매끄러운 평면을 가지고 있는 세대에서 여전히 물질세계의 부분으로 존재하며 어떠한 상호작용을 하며 작업을 하는지 살펴보고자 이 전시를 기획했다. 우리는 어쩌면 돌로 상징되는 물질의 입자와 그것으로 인해 파생된 형이상학과 상상력의 세계를 가장 조밀한 형태로 이해하고 있지 않을까? 생각한다. 김윤섭 작가는 이미지의 홍수 속에서 이미지들을 수집하고 그것들을 하루하루 아카이빙하며 그날의 현대미술을 캔버스 화면에 조합해 [오늘의 현대미술 시리즈]를 제작한다. 그는 물질이 아닌 스크린으로 소비되는 현대미술의 이미지를 전유하여 새로운 화면구성을 만들어내고 그것을 회화적 회화의 방식으로 구현해낸다. 이병호 작가는 유일하게 입체 작업을 하는 작가로서 새로운 조각을 만들기 위한 도구로 먼저 3D 프로그램으로 스케치를 한다. 스케치 된 입체 폴리곤은 다시 물질로 옮겨지며 분할되어 각 부분이 서로 다른 재료로 다시 조립되며 제작된다. 그는 이 과정에서 발생하는 재료의 충돌과 대비를 적극적으로 받아들이며 새로운 조형성을 가진 조각을 제작한다. 조민선 작가는 형이상학적 상상력의 세계를 가장 조밀하게 보여줄 수 있는 작가가 아닐까 생각한다. 작가는 작품을 통해 상호 의존적 이지만 또 독립된 개체로서 끊임없이 관계 맺는 인간의 양가적 모습을 담아내고 있다. 관계 맺음으로부터 오는 다양한 상황, 복잡한 감정들을 설치, 영상, 인터렉티브 등의 다양한 매체를 사용해 시각화한다. 주로 프로그래밍, 영상 맵핑 등의 기술을 이용한 인터랙티브 설치 작업으로 보여주며 사진이나 회화를 접목한 작업도 보여주며 데이터에서 다시 물질적 작업으로 회귀하는 이러한 작업의 형식으로도 보여준다. 이처럼 현대의 작가들은 기본적으로 매끄러운 돌밭과 거친 돌밭을 동시에 사용하며 물질로 대표되는 몸을 이용하여 다시 작품을 제작한다. 우리에게 이러한 방식은 어떠한 의의가 있으며 앞으로 어떤 방식으로 변화할지 시대의 눈을 크게 떠야 할 시기이다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-8.gif",
                 artist: [
                     {
@@ -3494,7 +3400,6 @@ export const allExhibits_VI = [
                             {order: 22, title: "오늘의 현대미술시리즈-2022 봄-여름4", imgname: "/2022/22-8/23-226.5x182.jpg", overview: "226.5x182cm", overview1: "oil on canvas, 2022"},
                             {order: 23, title: "오늘의 현대미술시리즈-2022 봄-여름5", imgname: "/2022/22-8/24-90.5x73.jpg", overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
                             {order: 24, title: "근방역-오늘의 현대미술시리즈 2020.02.20", imgname: "/2022/22-8/25-194x259.jpg", overview: "194x259cm", overview1: "oil on canvas, 2020"},
-                           
                         ]
                     },
                     {
@@ -3580,7 +3485,7 @@ export const allExhibits_VI = [
                 artist1: "디오라마비방씨어터 송주호 감독", 
                 location1: "Decentraland(57, -83)", host1: "쉐마미술관", support1: "문화체육관광부, 한국문화예술위원회", 
                 explanation: "본 프로젝트 ‘SM Smash’는 지역적 한계를 넘어서 쉐마미술관의 기획과 작가관을 세계적인 무대로 옮기는 초석이 되는 작업이다. 지역 미술관은 지리적 한계와 수도권 중심으로 벌어지는 문화예술 활동에 큰 제약이 있는 것이 사실이다. 피지컬-오프라인에서의 기획과 더불어 온라인으로는 갑자기 떠오른 블록체인 신대륙인 메타버스에 쉐마미술관의 컨셉 공간을 구축하여 쉐마미술관의 실험적 기획을 메타버스 공간에 노출하고 지역과 중앙을 아우르는 현대미술 작가들을 소개하려고 한다. SM Smash 체인점 형식 플랫폼은 마치 맥도널드가 세계로 뻗어 나간 페스트푸드점이 된 것과 같이 쉐마미술관의 NFT 본점이 되며 분점화시키고자 한다. 쉐마미술관의 온라인 메타버스 분점인 SM-Smash에서 디지털 미디어의 가능성을 실험했던 첫번째 전시인 <Data Meterial> 이후 두번째 전시를 진행한다. 두번째 전시인 <Wa are Happening> 전은 메타버스 플랫폼을 이용한 퍼포먼스 분야의 실험적 전시를 보여준다. 관객들은 세계최대 메타버스 플랫폼인 디센트럴랜드 Decentraland를 통해 새로운 극의 세계로 들어가게 된다. 디센트럴랜드 내에 존재하는 SM-Smash 매표소를 찾아(57,-83) 새로운 메타버스 공간인 메타베리 Metaberry에 입장하게 되는 이런 전시 형식은 국내에서 처음 이루어지는 메타버스 간 이동 전시이며, 메타버스 플랫폼의 확장과 네트워크의 가능성을 통해 새로운 형태의 극 예술의 가능성을 보여준다. 이번 전시를 위해 초대된 디오라마비방씨어터 Diorama Vivant Theatre의 송주호 감독은 특유의 아날로그적 감성을 토대로 확장된 극의 형태를 디자인하고 실험한다. 관객들은 마치 매표소를 지나 극장으로 들어가 현대예술의 전위에 서있는 새로운 극을 함께 경험할 것이다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-9.gif",
                 artist: [
                     {
@@ -3627,7 +3532,7 @@ export const allExhibits_VI = [
                 artist1: "구자승, 장지원", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
                 explanation: "구자승 작가(1941~, 서양화가)는 한국 극사실주의 1세대 작가로 동양적 세계관의 사유 공간을 통해 절제된 정물화 작품을 보여준다. 구자승 작가는 1941년 태어나 홍익대학교 미술대학 회화학과 및 동 교육대학원을 졸업하고 1978년 선화랑 첫 개인전을 시작으로 44년 동안 끝없는 작품 활동을 하고 있다. 장지원 작가(1946~, 서양화가)는 꽃, 새, 나무들의 소재들로 마음속에 숨겨진 자연을 은유하며 작가의 심상적 세상을 지금도 치열한 자기와의 싸움을 통해 작품을 하고 있다. 구자승, 장지원 작가는 1986년부터 충주 남한강 변으로 작업실을 옮기면서 충주에서 작업을 시작하였고 구자승 작가가 상명대학교 은퇴 후 2007년 지금의 작업실을 신축하며 충북에서 현재까지 작업 활동을 하고 있다. 이번 쉐마미술관에서의 구자승, 장지원 부부 전시는 지역의 원로작가이며 부부 작가라는 특별한 시너지가 있는 전시이다. 두 작가는 서로 교감하고 자극을 주는 동료로서 한국 화단에 굵직한 자취를 남겼다고 말할 수 있다. 두 부부 작가의 화풍은 다르지만, 작품에 소재인 꽃은 두 부부의 상통되는 부분이다. 치열한 작가의 세상에 두 부부가 서로를 지지하며 지원하며 반평생 작업을 하며 새로운 조형적인 해석의 아름다움과 동양의 사유의 공간 그리고 동양적 시각으로 각자의 독특한 작업 세계를 구축하고 확장해 왔다. 구자승 작가는 극사실주의에 가까운 정물화를 그리는데 글라스, 술병, 꽃병, 꽃, 궤짝 등과 같은 평범한 모티브들이 구자승 작가의 그림의 주인공이 된다. 이러한 대상들은 섬세함과 빛의 반사효과 등으로 각각의 만남과 조화를 이루고 많은 사물을 의도적으로 화폭 중심에 몰아놓고 그대로 재현하거나 옮겨 놓는 작업이 아니라 절제된 시간의 흐름을 보여준다. 절제된 작가의 정물화에서는 아름다움을 넘어 치열한 작가의 정신세계까지 엿볼 수 있다. 장지원 작가는 자연의 숨겨진 차원을 작가만의 심상적 풍경으로 보여준다. 작가의 작업에 등장하는 꽃, 새, 나무 등의 소재들은 한지를 이용해 기초 작업을 하며 오려 붙이기를 반복하고 그 위에 칠하고 긁어내고 또다시 한지를 붙이며 두꺼운 마티에르 효과로 원하는 형태를 만들고 아크릴, 오일, 파스텔, 색연필 등 다양한 재료를 사용해 자유롭게 표현된다. 작가는 자연에서 인간의 본질을 들여다보며 치유와 행복의 세계, 위로와 평안의 세계를 보여준다. 쉐마미술관에서 진행되는 이번 구자승, 장지원 기획 초대 부부 전시는 충북의 리얼리즘의 거장 구자승 작가의 44년 동안의 작품세계와 장지원 작가의 40여 년의 작품 세계가 서로를 마주 보며 숨 쉬는 전시이다. 반평생 서로를 응원하며 교감하며 작업했던 두 원로 부부 작가의 작품세계를 쉐마미술관에서 10. 14 ~11. 13 일까지 감상할 수 있다. 한국 리얼리즘 최고의 작가로 부동의 자리를 지키고 있는 구자승 작가의 ‘숨 쉬는 정물화’와 자연의 심상적 풍경을 따뜻한 소재들로 보여주는 또 다른 정물화의 세계를 보여주는 장지원 작가의 ‘숨겨진 次元’ 작품을 통해 1세기 이전의 사실주의의 미학적 조형성과 심상적 표현을 찾아보며 독창적이며 아름다운 정물화의 매력에 빠져보는 전시가 될 예정이다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-10.jpg",
                 artist: [
                     {
@@ -3639,10 +3544,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-10/22-10-1.jpg", 
                         text: "숨을 쉬는 그림, 그 미세한 호흡을 찾아서: 나는 내 작품에서 감정의 과잉을 억제하면서 철저한 이지적인 태도로 모티브와 대결하는 치열한 정신을 통해 표현하고자 한다. 숨을 쉬는 그림, 그 대상들이 주는 더 미세한 호흡을 찾으려 늘 탐구한다. 마치 그려놓은 대상이 무생물체의 큰 덩어리가 아닌, 무수한 꿈의 파편들이 부서져 그 잔해의 흔적들을 극복하고 온전한 오브제가 되기까지 상처투성이의 그 정물들을 나는 내 그림속에서 치유한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 0, title: "함 위에 꽃", imgname: "/2022/22-10/1-162x112.jpg", overview: "162x112cm", overview1: "Oil on canvas, 2022"},
                             {order: 1, title: "해주항아리에 꽃", imgname: "/2022/22-10/2-162x130.jpg", overview: "162x130cm", overview1: "Oil on canvas, 2022"},
@@ -3671,10 +3574,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-10/22-10-2.jpg", 
                         text: "예술에 있어 창작은 깊은 영혼의 밑바닥에서 길어내는 맑은 샘물이다. 치열한 고독과 싸워 이겨내는 심오한 환타지아! 나는 긍정적인 사고와 향수에 젖은 아우라를 표출하고자 노력한다. 사랑과 평화, 자연의 소리에 귀기울이며 마음속에 오염되지 않은 청정한 영역을 노래하고 싶다. 아직도 소녀처럼 마음에 정원을 가꾸며 위안과 휴식을 모든 이에게 전하고 싶다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 16, title: "숨겨진 차원", imgname: "/2022/22-10/17-53x45.jpg", overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
                             {order: 17, title: "숨겨진 차원", imgname: "/2022/22-10/18-41x27.jpg", overview: "41x27cm", overview1: "Mixed media on canvas, 2022"},
@@ -3702,10 +3603,9 @@ export const allExhibits_VI = [
                 artist1: "강재원, 강주형, 이승훈, 한재열, 디오라마비방씨어터 송주호 감독", 
                 location1: "Decentraland(57, -83)", host1: "쉐마미술관", support1: "문화체육관광부, 한국문화예술위원회", 
                 explanation: "쉐마미술관의 세번째 메타버스 전시 ‘SM-SMASH#3 : SMASH ARCHIVE’ 는 SM-Smash#1, SM-Smash#2를 잇는 링크 공간이자 아카이빙 공간으로서 프로젝트와 전시 후기 등의 다양한 소통의 창구 역할을 한다. 우리의 두 체인 점을 이어주는 연결로이자 매개의 공간으로서 SM-Smash에 유동성과 확장을 주는 공간이 될 것이다. 이 곳은 전시 활동 과정에서 이루어진 도록과 발간물 등과 예술가들의 포트폴리오를 볼 수도 있는 공간으로 디자인하려 한다. 사람들은 각 공간의 링크로 들어갈 수 있고 예술가들은 이곳에서 아이디어 공유와 함께 메타버스 안에서 전 세계의 작가들과 교류를 할 수 있을 것이다. 우리의 목표는 SM-Smash#3 공간을 통하여 전 세계에 한국의 젊은 작가들의 작품을 보여주고 각자의 메타버스 스튜디오 공간을 만드는 것을 도와 하나의 예술 거리로 만들려고 한다. 한국의 여러 작가들의 메타버스 스튜디오 제작과 정보 공유를 이곳에서 도와주고 교류함으로서 부동산 같은 개념의 정보 교류의 장이 되었으면 한다. 또한 다양한 예술체험 이벤트를 만들어 세계의 사람을 대상으로 한국의 예술을 체험 할 수 있는 기회를 주는 등 공지를 통한 참여를 확대하고자 한다. 작가 커뮤니티와 자유로운 참여 활동의 독려를 위한 여러 이벤트를 기획하고 진행할 예정이다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-11.jpg",
-                artist: [
-                ],
+                artist: [],
             },
             {
                 order: 11,  
@@ -3715,7 +3615,7 @@ export const allExhibits_VI = [
                 artist1: "백솔뫼, 신용재", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "충청북도, 충북문화재단 충북문화예술교육지원센터", 
                 explanation: "2022 쉐마미술관은 지역 작가와 함께 미술관의 교육프로그램을 협업하고 쉐마미술관의 고유성을 소재로 다양한 문화예술교육을 진행하였습니다. 쉐마미술관이 만들어가는 문화예술교육프로그램은 지역의 작가와 함께 일반 학교 교육과는 차별성을 가지며 다양한 연령들이 함께 만들어가는 맞춤 문화예술교육을 진행하고자 노력하고 있습니다. 이번 결과보고 전시는 지역의 대표적인 하늘 기록 작가인 신용재 작가가 함께한 꿈다락토요문화학교 지원사업 – ‘뜬구름잡기’와 추상 조각 작가인 백솔뫼 작가와 함께 1년간 진행된 유아문화예술교육의-‘조각주머니’ 진행 내용과 과정을 아카이브 형태와 전시 형태로 진행되는 결과 보고전입니다. 전시는 모든 프로그램의 참여자들로 사회예술교육의 중요성과 미술관의 역할을 다시 한번 생각해보며 쉐마미술관이 공공 문화공간으로 시민들과 소통하는 공간으로 자리잡는 시간의 전시라고 생각합니다. 어느 해 보다 활기차며 참여 가족과 어린이들이 열정을 느낄 수 있었던 문화예술교육 결과 보고전시에 여러분을 초대합니다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-12.jpg",
                 artist: [
                     {
@@ -3727,10 +3627,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-12/22-12-1.jpg", 
                         text: "2022 ‘조각주머니’ 프로그램은 지역의 추상 조각 작가 ‘백솔뫼’ 작가가 참여하여 형태가 없는 감정이 조각의 2차원적인 화면을 재구성하여 3차원적 덩어리를 예술적으로 창조하는 ‘조각’작품이 만들어지는 전 과정을 ‘조각주머니’ 3회차 프로그램을 경험해보며 유아들이 직접 조각가가 되어보는 프로그램. 특히 일상의 사물을 새롭게 재탐구, 재관찰하며 일상의 재료들로 상상하며 감정의 입체 설계도 만들기, 설계도를 바탕으로 조각가가 되어 창작과 표현해보는 예술창작 프로그램.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 0, title: "유아문화예술교육 <조각주머니>", imgname: "/2022/22-12/1-102.4x76.8.jpg", overview: "", overview1: ""},
                             {order: 1, title: "유아문화예술교육 <조각주머니>", imgname: "/2022/22-12/2-102.4x76.8.jpg", overview: "", overview1: ""},
@@ -3746,10 +3644,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-12/22-12-2.jpg", 
                         text: "2022 꿈다락토요문화학교 지원사업 -‘신용재’ 작가와 함께 일상의 자연환경을 참여자들의 새로운 ‘눈’과 ‘마음으로’ 관찰하며 아카이브 형식의 관찰과 삶의 기록을 통하며 현대미술 옴니버스 프로그램을 만들어가고자 한다. 특히 이 과정에서 참여 가족들은 평범하고 일상에서 발견하는 소재들을 이용하여 현대미술에서 어떻게 개인의 의미를 부여하고 표현되는지 서로의 생각을 공유하며 참여 가족들은 단순한 현대미술 접근 방식이 아닌 삶 속에 녹아드는 접근 방식으로 현대미술을 경험하는 시간.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 3, title: "무제, 자연과 대화하기, 해가지지 않는 곳에서 기다리는", imgname: "/2022/22-12/4-102.4x76.8.jpg", overview: "94.8x122cm, 54x68cm, 25.9x32cm", overview1: "Acrylic on wood panel, 2021, 2022"},
                             {order: 4, title: "꿈다락토요문화학교 <뜬구름잡기>", imgname: "/2022/22-12/5-76.8x102.4.jpg", overview: "", overview1: ""},
@@ -3770,7 +3666,7 @@ export const allExhibits_VI = [
                 artist1: "김기태, 손 별, 윤승원, 전상희, 최규봉, 김준후, 이유승, 이준우, 장윤희, 전치훈", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
                 explanation: "2022 ‘불안정한 가능성’ 展에 참여하는 작가들은 이제 막 졸업하거나 새로운 시작을 앞둔 신생 작가들이 참여한다. 쉐마미술관은 매년 지속적인 지역 예술의 밸런스 구축을 위해 청년 작가들에게 기회를 주고자 하며 신진작가들의 작업 열정을 격려하고자 한다. ‘불안정한 가능성’ 展에 참여하는 청년 작가들의 적극적인 작업 태도와 실험정신, 도전정신을 지지하며 지역 청년 예술가들에게 새로운 도전과 기회가 되어 우리 지역의 예술 생태계가 만들어지길 희망해 보는 전시이다. 불안정한 가능성 전시는 1부 2부로 진행되며 ‘불안정한 가능성 1’ 전시는 김기태, 손 별, 윤승원, 전상희, 최규봉 작가가 참여하며 2부 불안정한 가능성 2’ 전시에는 김준후, 이유승, 이준우, 장윤희, 전치훈 작가 총 열 명의 작가가 참여한다. 특히 Unstable Possibility가 의미하는 것처럼 작가들은 불안정하지만 무한한 가능성을 담고 있다. 작가들은 불안정한 이성과 세계에 대한 자기만의 인식을 다양한 방법으로 시각화하며 각자의 일상을 살아가는 개인들의 이야기들에서부터 우리가 살아가는 세상과 예술에 대한 사유들을 작품에 담아낸다. 이런 사유와 고민은 불안정하지만 새로운 세계를 만들어 가고 있다. 불안정한 가능성 1부 전시에 참여하는 김기태 작가는 자연스럽게 흘러가는가는 삶을 찾아가고 싶다고 한다. 그런 물음을 ‘선인장’을 통해 찾으려 한다. 작가에게 선인장은 편안함을 주면서도 동시에 수많은 가시는 개인의 아픔이기도 하며 삶을 찾으며 겪는 아픔과 고난이기고 하다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2022/22-13.jpg",
                 artist: [
                     {
@@ -3782,10 +3678,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-13/22-13-1.jpg", 
                         text: "김기태 작가는 자연스럽게 흘러가는가는 삶을 찾아가고 싶다고 한다. 그런 물음을 ‘선인장’을 통해 찾으려 한다. 작가에게 선인장은 편안함을 주면서도 동시에 수많은 가시는 개인의 아픔이기도 하며 삶을 찾으며 겪는 아픔과 고난이기고 하다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 0, title: "마지막 위로", imgname: "/2022/22-13/1-100x300.jpg", overview: "100x300cm", overview1: "장지에 수채화, 2021"},
                             {order: 1, title: "서로의 공간", imgname: "/2022/22-13/2-97x131.jpg", overview: "97x131cm", overview1: "장지에 수채화, 2021"},
@@ -3800,10 +3694,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-13/22-13-2.jpg", 
                         text: "손 별 작가는 작가의 개인적인 사건들을 훑고 지나거나 기억을 그린다. 개인적 기억의 파편들은 삶의 단면을 드러내며 그 감성을 공유하게 한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 2, title: "살아가는 삶의 얄궃음", imgname: "/2022/22-13/3-91x91.jpg", overview: "91x91cm", overview1: "Oil on canvas, 2022"},
                             {order: 3, title: "완전해질 수 없는 관계", imgname: "/2022/22-13/4-145.5x97.jpg", overview: "145.5x97cm", overview1: "Oil on canvas, 2022"},
@@ -3824,10 +3716,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-13/22-13-3.jpg", 
                         text: "윤승원 작가의 작품에는 사회 속에서 느끼는 다양한 감정, 유기적인 관계, 작은 세계들을 담아낸다. 작가의 소재가 되는 것들은 작가만의 표현으로 독특한 개성을 보는 인물들로 풍경으로 표현된다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 10, title: "나의 불안에게", imgname: "/2022/22-13/11-81x65.jpg", overview: "81x65cm", overview1: "Mixed media, 2022"},
                             {order: 11, title: "그림자", imgname: "/2022/22-13/12-130.3x97.jpg", overview: "130.3x97cm", overview1: "Oil on canvas, pastel drawing, 2022"},
@@ -3844,10 +3734,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-13/22-13-4.jpg", 
                         text: "전상희 작가의 시선은 매 순간 빠르게 변화하고 있는 현대사회 속에서 계속 변화하는 주변의 상황과 현상들에 멈춘다. 어떻게 변화할지 무슨 모습일지 모르는 그런 상황들은 마불링 기법과 어우러지며 시간 속의 일렁임을 포착한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 14, title: "일렁이는", imgname: "/2022/22-13/15-50x50.jpg", overview: "50x50cm", overview1: "장지에 채색, 2022"},
                             {order: 15, title: "어느 순간", imgname: "/2022/22-13/16-45.5x60.6.jpg", overview: "45.5x60.6cm", overview1: "장지에 채색, 2022"},
@@ -3863,10 +3751,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-13/22-13-5.jpg", 
                         text: "최규봉 작가의 투박하고 거친 인물의 표현으로 우리가 직면하는 사회의 현실과 작가의 ‘한’을 보여주며 평범한 삶과 정서를 시각화하며 현실을 드러내고 있다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 17, title: "목 매달린 사람들", imgname: "/2022/22-13/18-100x80.3.jpg", overview: "100x80.3cm", overview1: "Oil on canvas, 2021"},
                             {order: 18, title: "음흉한 남자 질색하는 여자", imgname: "/2022/22-13/19-90x116.8.jpg", overview: "90x116.8cm", overview1: "Oil on canvas, 2021"},
@@ -3882,10 +3768,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-13/22-13-6.jpg", 
                         text: "김준후 작가는 심상의 변화를 ‘물’이라는 대상을 통해 보여준다. 작가에게 ‘물’이라는 무형 형태는 시간의 흐름에 따라 만들어가는 개인적 공간이며 모두의 공간이기도 하다. 작가는 볼펜으로 켜켜이 쌓아가며 내면의 공간을 만들어간다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 20, title: "심연", imgname: "/2022/22-13/21-91x116.8.jpg", overview: "91x116.8cm", overview1: "장지에 목탄, 2019"},
                             {order: 21, title: "안식", imgname: "/2022/22-13/22-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "판넬에 볼펜, 2021"},
@@ -3901,10 +3785,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-13/22-13-7.jpg", 
                         text: "이유승 작가는 현대 사회의 씁쓸한 인간관계를 역설적으로 표현한다. 작가의 직관적 표현은 세상을 몰랐을 때나 받을 수 있었던 선물 같은 관계, 상상 속에나 존재할 수 있을 것 같은 순수하고 절대적인 관계에 대한 환상 같은 그리움을 어린아이로 표현한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 23, title: "Relationship with", imgname: "/2022/22-13/24-76.8x102.4.jpg", overview: "230x90x90cm", overview1: "혼합 매체, 2022"},
                             {order: 24, title: "하늘과 바다사이", imgname: "/2022/22-13/25-56.4x60.8.jpg", overview: "64x86x35cm", overview1: "혼합 매체, 2021"},
@@ -3919,10 +3801,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-13/22-13-8.jpg", 
                         text: "이준우 작가는 ‘생각을 이미지로 표현하고, 이미지를 통해 교감하는 것’을 가장 중요하게 생각한다고 한다. 이런 작가의 생각은 푸른색으로 기하학적 구성과 추상적 이미지들로 교감한다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 25, title: "내가 생각한, 너가 바라는, 우리가 가야할", imgname: "/2022/22-13/26-89.4x130.3.jpg", overview: "89.4x130.3cm", overview1: "Acrylic on canvas, 2019"},
                             {order: 26, title: "거리감", imgname: "/2022/22-13/27-80.3x130.3.jpg", overview: "80.3x130.3cm", overview1: "Acrylic on canvas, 2022"},
@@ -3943,10 +3823,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-13/22-13-9.jpg", 
                         text: "장윤희 작가는 일상생활 속에서 소재를 찾고 그 기억을 사진으로 재현한 다음 화면 위에 그린다. 일상의 단면과 예술가적 시선이 머문 장면들은 작가의 정서를 느낄 수 있다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 33, title: "부재", imgname: "/2022/22-13/34-112.1x193.9.jpg", overview: "112.1x193.9cm", overview1: "광목에 채색, 2021"},
                             {order: 34, title: "무제", imgname: "/2022/22-13/35-30x40.jpg", overview: "30x40cm", overview1: "광목에 채색, 2022"},
@@ -3961,10 +3839,8 @@ export const allExhibits_VI = [
                         imgname:"/2022/22-13/22-13-10.jpg", 
                         text: "전치훈 작가는 무의식 속 장소로부터 왜곡된 감정 속에 숨겨져 있는 감정들을 찾아 화면을 구성한다. 감정 속 장면들은 단편적인 이미지들로 재조합되고 작가만의 감정들을 느낄 수 있는 화려한 색채는 청년들의 시선이 머무는 곳과 사회의 이면들을 포장하고 있다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 35, title: "잊을만하면", imgname: "/2022/22-13/36-53x45.5.jpeg", overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
                             {order: 36, title: "얽히고 설켜", imgname: "/2022/22-13/37-65.1x53.jpeg", overview: "65.1x53cm", overview1: "Acrylic on canvas, 2022"},
@@ -3989,7 +3865,7 @@ export const allExhibits_VI = [
                 artist1: "창신", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
                 explanation: "쉐마미술관은 쉐마국제미술상(The Schema International Best Artist Award) 수상을 진행하며 청주 지역의 가장 대표적인 현대미술관으로서 새로운 현대미술의 정보를 제공하고 창의적인 작품전을 기획하여 세계 현대미술의 흐름을 확인하는 플랫폼의 역할을 하고자 한다. 그런 의미에서 매년 쉐마미술관에서 기획한 각종 국제행사에 참여하고 국제적으로 가장 활발하게 작가 활동을 해온 대표적 예술가를 선정하여 상패와 상금을 수여하고 있다. 이번 전시회는 수상 작가 <창신 특별전>으로 2021년 쉐마미술관의 첫 번째 전시로 열리게 된다. 쉐마국제미술상 역대 수상작가 2018년 제 1회 쉐마국제미술상 – 수상작가 : Jusuf Hadẑifejzović / Bosnia And Herzegovina 2019년 제 2회 쉐마국제미술상 – 수상작가 : 김재남 Kim, Jae-nam / Korea (R. O. K.) 2020년 제 3회 쉐마국제미술상 – 수상작가 : 창신 Cang Xin / China 제 3회 쉐마국제미술상(The 3rd Schema International Best Artist Award) 수상 작가 「창신(Cang Xin)」은 시대정신 ‘Fluxes 운동’, ‘해체주의’, ‘Cyber 미학의 정신’이 추구하는 정신에 선도적으로 실행하는 중국 현대미술을 대표하는 작가라 말을 할 수 있다. 그는 드로잉, 오브제, 설치, 퍼포먼스 등으로 중국에서뿐만 아니라 미국, 영국, 한국 등 세계 각지에서도 매우 활발하게 활동하고 있다. 그의 작품 ‘천인합일(天人合一)’ 퍼포먼스, ‘북방적 낭만주의’ 제작품, ‘기화승초(奇花昇草)’ 오브제 설치 작품, 드로잉(素描) 시리즈 작품들은 하나하나가 그의 천재적 작가의 모습을 보여주기에 충분한 작품들이다. 2009년 쉐마미술관 김재관 관장님과 우연히 만난 후, “不期而遇” 展 <베이징 사면공간 갤러리, 2010>, “和異不同” 展 <청주 쉐마미술관, 2011>, “必然的 偶然” 展 <베이징 사면공간 갤러리, 2012> 등 몇 차례의 기획전을 함께 하였고 베이징과 청주를 오가며 교류하였다. 특히 2017년 쉐마미술관 특별전으로 열린 4개국 국제교류전 “새로운 미술로서의 기억과 상상” 전에 중국을 대표하는 작가로 선정되어 참가하였다. 2020 한·중 국제미술교류전 遭遇与相处(조우여상처), “우연히 만나 다시 함께 떠나다” 전시에서도 중국 커미셔너로 Cang Xin이 참여하였다. 두 작가의 관계는 작품을 넘어 작가의 정신적 교감으로 이어져 교류하고 있으며 자신만의 정체성을 확고하게 이어나가고 있다. 이번 초대전에서 창신 작가의 2003년 작품부터 20년도 퍼포먼스 영상까지 모두 13점의 작품을 감상할 수 있다. 유감스럽게도 이 뜻깊은 행사에 ‘코로나-19’ 팬데믹으로 인하여 창신 작가가 참석할 수 없다는 것이 매우 안타깝다. 그렇지만 우리는 곧 다시 만날 수 있다는 희망과 기대를 한다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2021/21-1.gif",
                 artist: [
                     {
@@ -4000,33 +3876,33 @@ export const allExhibits_VI = [
                         engname: "Cang Xin",
                         imgname:"/2021/21-1/21-1-1.jpg", 
                         text: "작품에서 “뉴샤머니즘”과 “과학의 첨단적 성과”를 통합하고 당대 인류 사회에 대한 정확한 이해와 자기 성찰로 확장하여 일종의 새로운 가치관과 예술 언어 양식을 형성하고자 시도하였다. 뉴샤머니즘은 한랭지대의 샤머니즘 숭배 중 애니미즘, 고대 페르시아 조로아스터교의 이원론, 바벨론의 점성술, 힌두교의 윤회설, 인도 자이나교 중 동물에 대한 연민, 이슬람교 수피파의 호형 선회 수행, 그노시스교의 타향신론, 유대교 카발라의 지혜의 나무, 역경의 수리 괘상, 도교의 연단술, 서방의 연금술, 헤르메스의 신비로운 가르침, 피타고라스 학파의 수론, 2차대전 이후 서양에서 신흥한 “신기원” 영적수련 운동 등을 포함하여 당시 삶의 영적 수행 방식을 통합한 것이다. 과학은 논리적 추리와 실증적 방법으로 당대 인류가 자연을 개발하여 첨단 이론과 성과를 제시하도록 촉진한다. 예를 들어 사이보그, 블록체인, 사물인터넷, 브레인 과학, 디지털 화폐, 알고리즘 생명, 뉴미디어 예술, 바이오 유전자 공학, 우주 여행, 나노 기술, 양자 물리, 인류 영생, 특이점의 출현 등은 과학 종교와 기술 철학을 배경으로 전통적 생활 방식과 지구의 모습을 놀랍게 변화시키고 있다. 결론적으로 “뉴샤머니즘”과 “과학의 첨단적 성과” 두 라인을 통해 체계적인 예술 언어 체계를 주관적으로 구축하고자 한다.",
-                        education: "텐진대학교 음악대학 졸업",
+                        education: "Tốt nghiệp Đại học Âm nhạc Thiên Tân",
                         individual_exhibition: [
-                            {order: 1, exhibit: "2020 “Constant & Mutation” Luxehille Art Museum, 청두"},
-                            {order: 2, exhibit: "2019 “현대 증상” 광저우"},
-                            {order: 3, exhibit: "2019 “일러스트 핸드북 ”신성함“, 베이징"},
-                            {order: 4, exhibit: "2019 “의식 표현” 광저우"},
-                            {order: 5, exhibit: "2018 “에너지 모델” 광저우"},
-                            {order: 6, exhibit: "2018 “창신 개인전 직관” 시안 스페이스, 베이징"},
-                            {order: 7, exhibit: "2017 “원형” 산야 현대 미술관, 하이난 성 산야 이하이탕"},
-                            {order: 8, exhibit: "2017 “Cang Xin 중국에서 2년 동안의 공연” 사라고사, 스페인"},
-                            {order: 9, exhibit: "2017 “영적 감각” Leo Gallery & Contemporary by Angela Li, Hongkong"},
-                            {order: 10, exhibit: "2017 “공생” 아트 인스티튜트 암누아, 난징"},
+                            {order: 1, exhibit: "2019 “Constant & Mutation” Bảo tàng nghệ thuật Luxehille, Thành Đô"},
+                            {order: 2, exhibit: "2019 “Triệu chứng hiện đại” Quảng Châu"},
+                            {order: 3, exhibit: "2019 “Sổ tay minh họa ”Thánh thiêng“, Bắc Kinh"},
+                            {order: 4, exhibit: "2019 “Biểu hiện ý thức” Quảng Châu"},
+                            {order: 5, exhibit: "2018 “Mô hình năng lượng” Quảng Châu"},
+                            {order: 6, exhibit: "2018 Triển lãm cá nhân Changshin Trực giác Không gian Tây An, Bắc Kinh"},
+                            {order: 7, exhibit: "2017 Bảo tàng nghệ thuật hiện đại Tam Á “Thông tư”, Tam Á Hải Đường, tỉnh Hải Nam"},
+                            {order: 8, exhibit: "2017 “Cang Xin 2 Năm biểu diễn ở Trung Quốc” Zaragoza, Tây Ban Nha"},
+                            {order: 9, exhibit: "2017 Phòng trưng bày Leo & Đương đại”“Cảm giác tâm linh” của Angela Li, Hồng Kông"},
+                            {order: 10, exhibit: "2017 “Symbiosis” Viện nghệ thuật Amnua, Nam Kinh"},
                         ],
                         group_exhibition: [
-                            {order: 1, exhibit: "2020 《L’Autre en je》 Photo Doc UAAF, 파리"},
-                            {order: 2, exhibit: "2020 “12년：현장 아카이브” Up-on 국제 라이브 아트 페스티벌 2008-2020, ”Up-on 국제 라이브 아트 페스티벌, 청두"},
-                            {order: 3, exhibit: "2020 “당신이 볼 수 있듯” 5주년 특별전, Justart space, 광저우"},
-                            {order: 4, exhibit: "2020 “합성 분해”, 광저우"},
-                            {order: 5, exhibit: "2020 “Restarting The Time”, 청두"},
-                            {order: 6, exhibit: "2020 “A Glance“, 허베이, 스자좡"},
-                            {order: 7, exhibit: "2020 “On Self” 하이난 완쿠 미술관"},
-                            {order: 8, exhibit: "2020 “Pulse of the Dragon” 카술라 파워하우스 미술관, 시드니"},
-                            {order: 9, exhibit: "2020 “변화 : 아시아 예술”, 프랑스"},
-                            {order: 10, exhibit: "2019 “Hibridaciones” Casal Solleric Museum, 팔마, 스페인"},
-                            {order: 11, exhibit: "2019 “중국 현대 미술가” New MoMA, New York"},
-                            {order: 12, exhibit: "2019 “2019 Art Hefei·Contemporary Art Season”, 안후이, 허페이"},
-                            {order: 13, exhibit: "2019 “뇌의 비밀”, 베이징"},
+                            {order: 1, exhibit: "2020 《L'Autre en je》 Ảnh Doc UAAF, Paris"},
+                            {order: 2, exhibit: "2020 “12 Năm: Lưu trữ Hiện trường” Lễ hội Nghệ thuật Trực tiếp Quốc tế Up-on 2008-2020, ”Lễ hội Nghệ thuật Trực tiếp Quốc tế Up-on, Thành Đô"},
+                            {order: 3, exhibit: "2020 Triển lãm đặc biệt kỷ niệm 5 năm “As You Can See”, không gian Justart, Quảng Châu"},
+                            {order: 4, exhibit: "2020 `Phân hủy tổng hợp`, Quảng Châu"},
+                            {order: 5, exhibit: "2020 `Khởi động lại thời gian`, Thành Đô"},
+                            {order: 6, exhibit: "2020 “A Glance“, Hà Bắc, Thạch Gia Trang"},
+                            {order: 7, exhibit: "2020 Bảo tàng nghệ thuật Wanku Hải Nam” “Tự mình”"},
+                            {order: 8, exhibit: "2020 “Pulse of the Dragon” Phòng trưng bày nghệ thuật Casula Powerhouse, Sydney"},
+                            {order: 9, exhibit: "2020 “Change: Asian Art, France"},
+                            {order: 10, exhibit: "2019 “Hibridaciones” Bảo tàng Casal Solleric, Palma, Tây Ban Nha"},
+                            {order: 11, exhibit: "2019 “Nghệ sĩ đương đại Trung Quốc” MoMA mới, New York"},
+                            {order: 12, exhibit: "2019 “2019 Nghệ thuật Hợp Phì·Mùa nghệ thuật đương đại”, An Huy, Hợp Phì"},
+                            {order: 13, exhibit: "2019 `Bí mật của bộ não`, Bắc Kinh"},
                         ],
                         paint: [
                             // {order: 0, title: "Accept", imgname: "/2022/22-2/1-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
@@ -4042,7 +3918,7 @@ export const allExhibits_VI = [
                 artist1: "심재분", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
                 explanation: "비욘드 연(蓮) (Beyond Lotus): 2021년 쉐마미술관의 첫 번째 기획초대전 ‘심재분 작가’의 ‘인드라얄라:연’ 전시는 작가가 2018년부터 최근까지 찍은 64점의 ‘연꽃’ 사진 작품들을 선보이는 전시이다. 현대미술에서 사진은 ‘기록과 재현’이라는 기본 속성을 넘어 개성적 표현이 가능해지며 작가가 대상을 어떻게 선택하느냐, 또 어떻게 보느냐에 따라 표현 가능성이 다양해지며 확장되고 있다. 심재분 작가는 ‘연꽃’을 사진에 카메라에 담으며 작가의 심층적 내면에 있는 무의식과 상상의 세계로까지 표현 영역을 확장하고 ‘연꽃’이라는 대상을 단순한 재현이 아닌 대상의 내적 표현을 찾으려 수년 동안 기록하며 깨달음의 정신적 세계로 나가는 수행으로 이어지고 있다. 전시 타이틀인 인드라얄라(Indrjala)는 이런 작가의 생각을 고스란히 담고 있다. 인드라얄라(Indrjala)는 산스크리트어로 인드라의 그물을 뜻한다고 한다. 고대 인도 신화에 따르면 인드라 신이 사는 선견성(善見城) 위의 하늘을 덮고 있고 일종의 무기로 그물코마다 보배 구슬이 박혀 있고 거기에서 나오는 빛들이 무수히 겹치며 신비한 세계를 만들어 낸다고 한다. 불교에서는 끊임없이 서로 연결되어 온 세상으로 퍼지는 법의 세계를 뜻하는 말로 쓰이며 인드라망은 불교에서 세상을 바라보는 관점이기도 하다. 심재분 작가는 ‘인드리얄라 : 연’展에서 ‘연꽃’이라는 대상을 넘어 작가만의 인드라망을 통해 인간 세상의 모습을 바라보고 있다. 우리는 저 혼자 살아가는 것 같지만 실제로는 서로 연결돼 있고, 서로가 서로를 비추고 더 나아가서는 세상과 인간과의 관계로까지 밀접한 관계 속에 존재를 재현하기 위해 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 담으며 느껴지는 초현실적인 사실을 작품화하고 또 다른 이미지를 재현하고 있다. 이번 전시에서 대상의 본질을 꿰뚫어 자신의 언어로 다시 재현한 ‘원초적 순수’, ‘순수의 정화’, ‘존재의 그림자’, ‘집착의 타락’, ‘초췌한 고뇌의 형상’, ‘균형과 형상을 찾아서’, ‘자유로운 영혼의 승화’ 시리즈 작품과 설치 작품 ‘Chaos’를 선보일 예정이다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2021/21-2.jpg",
                 artist: [
                     {
@@ -4054,10 +3930,8 @@ export const allExhibits_VI = [
                         imgname:"/2021/21-2/21-2-1.jpg", 
                         text: "일상에서 일어나는 수많은 생각들은 어디가 시작이고 어디가 끝인지 모를 만큼 쉼 없이 이어진다. 연꽃을 보면 그들에게 명명된 기록뿐만 아니라, 바람에 흔들려 나는 작은 소리에도 생각은 먼저 앞서간다. 물 공기 바람 흙이 길러낸 연꽃들… 지하세계와 땅 그리고 하늘이 결합하는 보편적 이데아로 생명의 근원으로 다산을 상징하며 극락왕생과 윤회, 인연의 연결 고리를 연꽃의 사계에서 찾고자 했다. 그것이 어둠이 내린 밤이든 안개 자욱한 연 밭이든 끈질긴 생명력과 지혜로 더러운 진흙탕 속에서도 더러움에 물들지 않고 흔들리는 수면 위로 솟아 있어도 요염하지 않으며 꽃이 피면서 동시에 열매를 맺음으로써 인과 연을 동시에 나타내어 어떤 원인이 만들어질 때 이미 결과도 함께 있다는 진리를 말하고 있었다. 그것을 실제의 형태에서 느낄 수 없었던 내재되어 있는 또 다른 인연의 고리를 사진 적 주제로 삼아 직설적이면서 추상적이고 우회적이며 간접적이면서 함축적인 그래서 보여지는 실제에서 채도나 빛 색상을 바꾸고, 더하거나 제거하면서, 그 과정을 살피고 인연의 시작점을 찾아 자유로운 영혼의 승화를 제연 하려 했다. 보여지는 모든 것이 전부가 아니라 보이지 않는 그 무엇까지도 모두 진실이라는 진리에 조금 더 다가갈 수 있었다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             // {order: 0, title: "Accept", imgname: "/2022/22-2/1-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
                         ]
@@ -4072,7 +3946,7 @@ export const allExhibits_VI = [
                 artist1: "김현묵, 나일 크레이븐, 신용재, 이선구, 최재영", 
                 location1: "쉐마미술관", host1: "쉐마미술관", support1: "충청북도, 청주시", 
                 explanation: "스튜디오란 작가들이 작업을 생산하는 장소이자 사유하는 장소이며 움직이는 장소를 대표한다. 쉐마미술관은 쉐마미술관의 안과 밖을 어우르는 장소로서의 스튜디오를 미술관으로 대체 하려 한다. 청주 내수의 아름다운 시골에 위치한 쉐마미술관은 야외와 화이트큐브를 모두 갖춘 장소로서 다섯 명의 작가들에게 스튜디오-전시장을 내어주려 한다. 작가들은 이곳의 내 외부에서 벽이나 혹은 야외에서 작품의 영감을 느끼고 이곳에서 작업을 진행한다. 이는 작가 개인의 ‘스튜디오’ 확장이자 대체로서 작가 스스로가 다른 장소성을 느끼며 새로운 작품을 생산하고 그 현장성을 생생하게 기록하고 작품화하려는 목적을 가지고 있다. ‘스튜디오(STUDIO)’ 전시는 작가들의 작업을 생산하고, 사유하고, 움직이는 장소를 청주 내수의 아름다운 시골에 위치한 야외와 화이트큐브를 모두 갖춘 장소인 쉐마미술관에 스튜디오-전시장을 내어주어 청주에서 활동하고 있는 다섯 명의 작가들에게 쉐마미술관의 내 외부, 벽 혹은 야외에서 작품의 영감을 느끼고 이곳에서 작업을 진행하고자 한다. 참여 작가는 청주 지역에서 활동하는 김현묵, 나일 크레벤, 신용재, 이선구, 최재영 다섯 명의 작가들로 쉐마미술관의 내부와 외부를 연결하는 하나의 매개체이며 작가들이 쉐마미술관을 새로운 작품이 탄생하는 장소이자 스튜디오로서 또한 이곳에서 발생한 작품들로서 전시를 진행하며 점유하는 전시이다. 특히 이번 전시에 참여하는 다섯 명의 작가들은 작업에 대한 열정과 참신한 아이디어와 이들이 지니는 무한한 잠재력과 앞으로 발전해 나갈 수 있는 실험과 도전 그리고 작업의 정체성을 탐색하며 동시대의 담론과 다각적인 시각적 조형 작품으로 소통하고자 한다. 쉐마미술관에서 기획한 이번 ‘스튜디오(studio)’ 전시는 확장되고 있는 현대미술에서 장소성에 대한 물음과 실험적인 창작 공간 역할의 매개체가 되고자 한다. 현대미술에서 ‘장소’는 많은 의미를 부여하고 우리에게 새로운 영감을 주었고 지금도 현재 진행형으로 진행되고 있다. ‘스튜디오(studio)’ 전시에서 장소의 이미지는 바로 곧 정체성이며, 개인적 또는 집단적, 사회적으로 만들어지고 있다. 각자의 ‘정체성’ 찾으며 만들고 있는 지역의 젊은 작가들 김현묵, 나일 크레벤, 신용재, 이선구, 최재영이 참여하는 이번 전시는 작가들에게 쉐마미술관이라는 새로운 공간을 부여함으로 유기적인 관계를 맺고 있는 화이트 큐브와 외부 환경이 작가들에게 각기 다른 기억과 영감이 마주하여 회화와 설치까지 다양한 매체로 형상화되는 전시이다. 작가들은 작업에 대한 열정과 참신한 아이디어와 이들이 지니는 무한한 잠재력과 앞으로 발전해 나갈 수 있는 실험과 도전 그리고 작업의 정체성을 탐색하며 동시대의 담론과 다각적인 시각적 조형 작품 전시는 지역의 현대미술의 새로운 발판을 마련하게 될 것으로 예상한다.", 
-                author: "쉐마미술관 큐레이터 / 한영애",
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
                 img: "/img/exhibitpage/posters/2021/21-3.jpg",
                 artist: [
                     {
@@ -4115,8 +3989,7 @@ export const allExhibits_VI = [
                         imgname:"/2021/21-3/21-3-2.png", 
                         text: "나는 오랫동안 사람이 스스로의 신체와 주고받는 영향에 대한 그림을 그렸습니다. 최근에는 감각 차원, 감정 차원에서 주변 환경이 사람에게 끼치는 영향에 대한 작품을 그리고 있습니다. 내년에도 이러한 탐구를 계속할 계획입니다. 가장 최근의 작품들은 훨씬 더 개인적인 주제를 다룹니다. 저는 스스로의 불안, 집착, 기분을 드러내는 작품을 그리기 위해 제 몸과 환경에서 영감을 받습니다. 스튜디오란 개인적인 주제를 자유롭게 탐구할 수 있는 안전한 장소입니다. 스튜디오에서 작품을 가져다가 전시하는 것은 신뢰에 기반을 둔 행동입니다. 저는 보다 개인적인 작업들을 창작하고 전시하기에, 전시라는 행동에 더 깊은 의미가 담겨있습니다. 제가 이번 전시에서 탐구하고자 하는 것은, 작가와 관람객을 위해 스튜디오에서 작업을 가져오는 과정 전반을 포함한 것입니다. 스튜디오에 남는 작품들은 실패라고 생각할 수 있습니다. 혹은 너무 사적이어서 전시하고 싶지 않은 것일 수도 있습니다. 그러나 제 작품 중에서는 되려 이러한 작품들이 제가 통상 타인에게 보여주기 위해 전시하는 작품보다 더 강렬한 인상을 줄 수도 있습니다. 과거의 작업들은 종종 개인적인 주제를 다루지 않고, 그보다는 주제에 관해서 좀 더 보편적인 접근을 하고자 하였습니다. 앞으로는 작업에 더욱더 개인적이고 사적인 의미를 부여하고자 노력할 계획입니다.",
                         education: "2014 미술학, 뉴캐슬대학교, 영국",
-                        individual_exhibition: [
-                        ],
+                        individual_exhibition: [],
                         group_exhibition: [
                             {order: 1, exhibit: "2019 청주아트바자르, 청주"},
                             {order: 2, exhibit: "2019 Dosi_Rock International Art Show, 갤러리 활, 서울"},
@@ -4134,7 +4007,6 @@ export const allExhibits_VI = [
                             {order: 3, title: "Untitled protest", imgname: "/2021/21-3/4-16x26.jpg", overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"},
                         ]
                     },
-               
                     {
                         order: 2, 
                         number: "03",
@@ -4244,10 +4116,8 @@ export const allExhibits_VI = [
                         imgname:"/2021/21-4/21-4-1.jpg", 
                         text: "내 작업의 주제는 시간이다 삶이 지평이 아득한 아포리아의 세계이듯이 삶의 근거인 시간 역시 아득하다 그래서 시간은 단순한 흐름이거나 소멸되는 것이 아니다 시간은 오랜 삶의 현장이 질펀히 녹아 있는 장소이다. 일체의 기억과 흔적, 그리고 꿈과 기대가 층층히 주름 잡혀 있다 시간은 두껍다 이 시간의 두께를 어떻게 가늠할까? 나의 회화는 공간과 시간을 구성하여 이차원 평면 위에 시각적 은유를 만들어내고 은유속에 담긴 연상을 공간적, 시각적 언어로 표현하는 작업이다. 현실과 가상의 모호한 경계에서 과거와 현재와 미래의 환영적인 이미지를 재현하거나 변용하여 화면을 완성해간다. 작품 속에 등장하는 이미지들은 전혀 다른 공간과 시간에 존재하였던 사물을 동시에 혹은 비현실적으로 배치하여 시공(時空)을 초월한 초현실적 공간을 극대화하고 무한공간의 metaphor로 작용하기도 한다. 최근 2~3년의 작품 중 커다란 꽃잎 한 장이 주제가 되는 작품들이 있다. 작가에게는 작업실과 주위환경이 미치는 영향이 크다. 다행히 작업실이 전원에 있어 온갖 나무와 꽃들을 가까이 접할 수 있고 계절의 변화를 실감나게 느낄 수 있다. 매년 백모란 꽃의 크고 화려한 자태에 눈을 빼앗기던 어느 날 겨우내 움을 키우며 기다리다 막상 꽃을 피운지 열흘도 채 되지 않아 시들어 떨어지는 것을 보고 안타까운 마음에 꽃잎 한 장을 시간의 metaphor로 설정하게 되었다. 기다림에 비해 너무 짧게 피었다가 지는 것이 우리의 삶과 다를 것이 없다는 쓸쓸함의 표현이기도 하다. 올 상반기엔 보자기와 쇼핑백을 시간의 metaphor로 설정하여 새로운 작업을 시작하였다. 평면작업에서 부족한 입체감을 추가하기 위해 자작나무로 shape canvas를 만들고 오브제나 네온을 접목하여 시간의 층을 다양한 방법으로 추구하였다. 쇼핑백과 보자기는 present, gift의 상징성도 가지고 있어 시대를 아우르는 사랑과 욕망의 기표가 아닐까? 그러므로 나의 작업은 과거와 현재 그리고 미래를 아우르는, 현실과 가상의 경계가 없는 공간과 과거와 현재와 미래의 모호한 시간의 흐름을 구성한 것이다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
                             {order: 0, title: "Unknown-time", imgname: "/2021/21-4/1-70x140.jpg", overview: "70x140cm", overview1: "Acrylic on canvas, 2021"},
                             {order: 1, title: "Time-layer-205", imgname: "/2021/21-4/2-77x97.jpg", overview: "77x97cm", overview1: "Acrylic on wood, 2021"},

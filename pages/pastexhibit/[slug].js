@@ -7,6 +7,7 @@ import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import clsx from "clsx";
 import { collection_KOR, collection_ENG, collection_CH, collection_TH, collection_VI } from "@/data/collectionData";
+import { isMobile } from "react-device-detect";
 
 const inputData = {
     KOR: collection_KOR,
@@ -143,10 +144,12 @@ export default function Viewpage() {
                     </div>
                 </div>
             )}
-            <Navbar 
-                url={video}
-                // sign={"/video/sign/schema_sign_2.mp4"}
-            />  
+            {isMobile 
+                ? <Navbar 
+                    url={video}
+                />  
+                : null
+            }
         </Viewlayout>
         )}
         </>

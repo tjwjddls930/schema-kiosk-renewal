@@ -6,7 +6,6 @@ import Navbar from "@/components/navbar/Navbar";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import clsx from "clsx";
-import { paintList } from "@/data/paintData";
 import { paintList_KOR } from "@/data/paintList_KOR";
 import { paintList_ENG } from "@/data/paintList_ENG";
 import { paintList_CH } from "@/data/paintList_CH";
@@ -107,7 +106,9 @@ export default function Viewpage() {
                 </button>
             </div>
             {popup && (
-                <div className={clsx(isPortrait ? "absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 screen-w:h-[97%] screen-w:w-[1500px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2" : "absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 screen-w:h-[95%] screen-w:w-[1700px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2")}
+                <div className={clsx(isPortrait 
+                    ? "absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 screen-w:h-[97%] screen-w:w-[1500px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2" 
+                    : "absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 screen-w:h-[95%] screen-w:w-[1700px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2")}
                     onClick={()=>setPopup(!popup)}
                 >
                     <div className={clsx(isPortrait ? "w-5/6 h-5/6 flex flex-col space-y-32 screen-w:space-y-[650px] px-4 mt-16 screen-w:px-8 screen-w:mt-48 mx-auto items-center justify-end text-center" : "w-5/6 flex flex-col space-y-32 screen-w:space-y-[650px] px-4 mt-16 screen-w:px-8 screen-w:mt-48 mx-auto items-center justify-center text-center")}>

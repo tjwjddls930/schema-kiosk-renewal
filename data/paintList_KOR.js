@@ -190,7 +190,7 @@ export const paintList_KOR = [
             {order: 11, title: "그것", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/12-160x40.jpg`, width: 1.6, height: 6.4, overview: "160x40cm", overview1: "아크릴물감-철망-등나무-색한지-2016"},
             {order: 12, title: "독도를 바로 세우자 부끄럽지 않게", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/13-97x162.jpg`, width: 6.48, height: 3.88, overview: "97x162cm", overview1: "수묵-아크릴릭-2008"},
             {order: 13, title: "Unknown time with 정선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/14-91x.116.8.jpg`, width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "Acrylic-on-canvas-2020"},
-            {order: 14, title: "Unknown time with 정선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/15-60x96.jpg`, width: 5.76, height: 3.6, overview: "60x96cm", overview1: "한지탁본-2006"},
+            {order: 14, title: "불확실", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/15-60x96.jpg`, width: 5.76, height: 3.6, overview: "60x96cm", overview1: "한지탁본-2006"},
         ],
         [
             {order: 0, title: "Accept", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/1-60.6x72.7.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
@@ -229,7 +229,7 @@ export const paintList_KOR = [
             {order: 13, title: "무제", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/14-180x122.jpg`, width: 3.66, height: 5.4, overview: "180x122cm", overview1: "천에 바느질 후 채색, 2022"},
             {order: 14, title: "夢中夢 9-1", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/15-100x80.3.jpg`, width: 3.212, height: 4, overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
             {order: 15, title: "夢中夢 10-2", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/16-100x80.3.jpg`, width: 3.212, height: 4, overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
-            {order: 16, title: "夢中夢1-3", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/17-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
+            {order: 16, title: "夢中夢 1-3", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/17-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
             {order: 17, title: "똑같은 봄은 없다", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/18-166.5x71.jpg`, width: 2.13, height: 4.995, overview: "166.5x71cm", overview1: "종이 위에 먹, 과슈, 2022"},
             {order: 18, title: "Game of Thrones", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/19-73x182.jpg`, width: 5.46, height: 2.19, overview: "73x182cm", overview1: "천 위에 아크릴, 2022"},
             {order: 19, title: "Untitled", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/20-45.5x53.jpg`, width: 5.3, height: 4.55, overview: "45.5x53cm", overview1: "Oil on canvas, 2020"},

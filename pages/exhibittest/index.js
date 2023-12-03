@@ -1,4 +1,4 @@
-import { useState, useContext, useEffect } from "react";
+import { useState, useContext, useEffect, Suspense } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "@/components/navbar/Navbar";
 import { useRouter } from "next/router";
@@ -92,9 +92,11 @@ export default function Exhibitpage() {
                         transition={{duration: 0.5, ease: "easeInOut"}}
                     >
                     {exhibit ? 
-                            <DynamicCoverflowCarousel 
-                                index={exhibit.index}
-                            />
+                            <Suspense fallback={<>Loading...</>}>
+                                <DynamicCoverflowCarousel 
+                                    index={exhibit.index}
+                                />
+                            </Suspense>
                         : ""}
                     </motion.div>
                 </AnimatePresence>

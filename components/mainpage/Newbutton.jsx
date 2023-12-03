@@ -6,24 +6,6 @@ import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
 
-const languageChange = {
-    KOR: (size) => (
-        <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"언어 변경"}</span>
-    ),
-    ENG: (size) => (
-        <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Language Change"}</span>
-    ),
-    CH: (size) => (
-        <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"改变语言"}</span>
-    ),
-    TH: (size) => (
-        <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"เปลี่ยนภาษา"}</span>
-    ),
-    VI: (size) => (
-        <span className={`text-xl font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"thay đổi ngôn ngữ"}</span>
-    ),
-};
-
 const introButton = {
     KOR: (size)=> (
         <div className={`flex flex-col space-y-2 ${size ? `screen-w:space-y-8` : `screen-w:space-y-4`}`}>
@@ -163,14 +145,9 @@ const educationButton = {
 
 const Newbutton = () => {
     const router = useRouter();
-    const [modal, setModal] = useState();
     const {language, setLanguage} = useContext(LanguageContext);
     const {fontsize} = useContext(FontsizeContext);
     const {isPortrait} = useContext(ScreenOrientContext)
-
-    const changeLanguage = (lang) => {
-        setLanguage(lang)
-    };
 
     return(
         <>

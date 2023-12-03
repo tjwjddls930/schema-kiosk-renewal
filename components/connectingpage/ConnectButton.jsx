@@ -7,6 +7,7 @@ import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import clsx from "clsx";
 import { collection_KOR, collection_ENG, collection_CH, collection_TH, collection_VI } from "@/data/collectionData";
 import { modelData_KOR, modelData_ENG, modelData_CH, modelData_TH, modelData_VI } from "@/data/modelData";
+import QRCode from "react-qr-code";
 
 const exhibitButton = {
     KOR: (size) => (
@@ -127,6 +128,14 @@ const popupText3 = {
     TH: "ปิด",
     VI: "đóng",
 };
+
+const popupText4 = {
+    KOR: "(QR 코드를 스캔하여 작품을 감상해 보세요!)",
+    ENG: "(Scan the QR code to view the artwork!)",
+    CH: "(扫描二维码即可查看作品！)",
+    TH: "(สแกนรหัส QR เพื่อชมผลงาน!)",
+    VI: "(Quét mã QR để xem tác phẩm nghệ thuật!)",
+};
   
 const inputData = {
     KOR: collection_KOR,
@@ -150,6 +159,8 @@ const ConnectButton = () => {
     const {fontsize} = useContext(FontsizeContext);
     const {isPortrait} = useContext(ScreenOrientContext);
     const [popup, setPopup] = useState(false);
+    const path = "https://schema-kiosk.com"
+    // console.log(path + `/modelpage/${inputmodelData[language][0].order}`)
     return(
         <div className={clsx(isPortrait ? "w-full h-[90%] flex flex-col space-y-4 screen-w:space-y-24 mx-auto justify-center items-center" : "w-3/4 h-3/4 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center")}>
             {popup && (
@@ -160,14 +171,29 @@ const ConnectButton = () => {
                     onClick={()=> router.push(`/modelpage/${inputmodelData[language][0].order}`)}
                   >
                       {popupText1[language]}
+                      <QRCode
+                        className="flex mx-auto my-24" 
+                        size={128}
+                        value ={path + `/modelpage/${inputmodelData[language][0].order}`}
+                      />
+                      <span className="text-4xl">
+                        {popupText4[language]}
+                      </span>
                   </button>
                   <button
                     className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
                     onClick={()=> router.push(`/pastexhibit/${inputData[language][0].order}?year=${inputData[language][0].time}`)}
                     >
                       {popupText2[language]}
+                      <QRCode
+                        className="flex mx-auto my-24" 
+                        size={128}
+                        value ={path + `/pastexhibit/${inputData[language][0].order}?year=${inputData[language][0].time}`}
+                      />
+                        <span className="text-4xl">
+                            {popupText4[language]}
+                        </span>
                   </button>
-                
                 </div>
                 <button
                     onClick={()=>setPopup(!popup)}

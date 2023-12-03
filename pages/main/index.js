@@ -2,7 +2,7 @@ import TopNavbar from "@/components/mainpage/Topnavbar";
 import Navbar from "@/components/navbar/Navbar";
 import Newbutton from '@/components/mainpage/Newbutton';
 import { LanguageContext } from '@/contexts/LanguageContext';
-import { useContext, useEffect, useState } from 'react';
+import { Suspense, useContext, useEffect, useState } from 'react';
 import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { useRouter } from "next/router";
 
@@ -118,7 +118,9 @@ export default function Mainpage() {
                 </span>
             </div>
             {/* 중단 버튼 섹션 */}
-            <Newbutton />
+            <Suspense fallback={<>Loading...</>}>
+                <Newbutton />
+            </Suspense>
             {/* 하단 텍스트 */}
             <div className="flex flex-row space-x-4 text-md font-bold pt-4 screen-w:pt-9">
                 {bottomText[language](fontsize)}

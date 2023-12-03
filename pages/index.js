@@ -8,13 +8,18 @@ import { LanguageContext } from "@/contexts/LanguageContext";
 
 export default function Landingpage() {
     const {language} = useContext(LanguageContext);
-    const [video, setVideo] = useState(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-landing-KOR.webm`);
+    const [video, setVideo] = useState();
+    
     useEffect(()=> {
         const fetchVideoUrl = async () => {
             setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/${language}/schema-docent-landing-${language}.webm`);
           };
       
-          fetchVideoUrl();
+        if(language) {
+            fetchVideoUrl();
+        } else {
+            setVideo(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/digital-docents/KOR/schema-docent-landing-KOR.webm`)
+        }
     }, [language]);
 
     return(
@@ -59,6 +64,7 @@ export default function Landingpage() {
                                     videoUrl={video}
                                     volume={0.5}
                                     playing={true}
+                                    muted={false}
                                     loop={true}
                                 />
                             )}

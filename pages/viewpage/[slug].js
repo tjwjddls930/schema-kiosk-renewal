@@ -12,6 +12,7 @@ import { paintList_ENG } from "@/data/paintList_ENG";
 import { paintList_CH } from "@/data/paintList_CH";
 import { paintList_TH } from "@/data/paintList_TH";
 import { paintList_VI } from "@/data/paintList_VI";
+import { isMobile } from "react-device-detect";
 
 const inputData = {
     KOR: paintList_KOR,
@@ -132,10 +133,7 @@ export default function Viewpage() {
                     </div>
                 </div>
             )}
-            <Navbar 
-                url={"/video/docent/schema-docent-04.webm"}
-                sign={"/video/sign/schema_sign_2.mp4"}
-            />  
+            {isMobile ? null : <Navbar />  }
         </Viewlayout>
         )}
         </>

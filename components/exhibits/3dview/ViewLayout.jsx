@@ -1,6 +1,8 @@
 import { useRouter } from "next/router";
 import { useContext } from "react";
 import { LanguageContext } from "@/contexts/LanguageContext";
+import { isMobile } from "react-device-detect";
+import clsx from "clsx";
 
 const iconText1 = {
     KOR: "초기화",
@@ -74,7 +76,7 @@ const Viewlayout = ({children}) => {
                         <span className="text-Ablack text-base font-bold screen-w:text-3xl">{iconText3[language]}</span>
                 </div>
             </div>
-            <button className="absolute left-16 bottom-28 screen-w:left-28 screen-w:bottom-44"
+            <button className={clsx("absolute left-16 bottom-28 screen-w:left-28 screen-w:bottom-44", isMobile ? "" : "hidden")}
                 onClick={()=> router.back()}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
@@ -82,7 +84,7 @@ const Viewlayout = ({children}) => {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
                 </svg>
             </button>
-            <button className="absolute left-16 bottom-44 screen-w:left-28 screen-w:bottom-[340px]"
+            <button className={clsx("absolute left-16 bottom-44 screen-w:left-28 screen-w:bottom-[340px]", isMobile ? "" : "hidden")}
                 onClick={()=> router.push("/main")}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 

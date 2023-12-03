@@ -14,6 +14,7 @@ import { allExhibits_ENG } from "@/data/allExhibits_ENG";
 import { allExhibits_CH } from "@/data/allExhibits_CH";
 import { allExhibits_TH } from "@/data/allExhibits_TH";
 import { allExhibits_VI } from "@/data/allExhibits_VI";
+import QRCode from "react-qr-code";
 
 const popupText1 = {
   KOR: "작가 보기",
@@ -37,6 +38,14 @@ const popupText3 = {
   CH: "关闭",
   TH: "ปิด",
   VI: "đóng",
+};
+
+const popupText4 = {
+  KOR: "(QR 코드를 스캔하여 작품을 감상해 보세요!)",
+  ENG: "(Scan the QR code to view the artwork!)",
+  CH: "(扫描二维码即可查看作品！)",
+  TH: "(สแกนรหัส QR เพื่อชมผลงาน!)",
+  VI: "(Quét mã QR để xem tác phẩm nghệ thuật!)",
 };
 
 const informText = {
@@ -114,6 +123,7 @@ const CoverflowCarousel = ({index}) => {
   const [list, setList] = useState(null);
   const [highlightedImageIndex, setHighlightedImageIndex] = useState(0); // Initialize with the first slide
   const router = useRouter();
+  const path = "https://schema-kiosk.com"
 
   useEffect(() => {
     // Update the isClient state to true as this code will be executed only on client side
@@ -152,6 +162,14 @@ const CoverflowCarousel = ({index}) => {
                     onClick={()=> router.push(`/viewpage/${paintList[list][highlightedImageIndex][0].order}?order=${highlightedImageIndex}&year=${list}`)}
                     >
                       {popupText2[language]}
+                      <QRCode 
+                        className="flex mx-auto my-24"
+                        size={128}
+                        value={path + `/viewpage/${paintList[list][highlightedImageIndex][0].order}?order=${highlightedImageIndex}&year=${list}`}
+                      />
+                      <span className="text-4xl">
+                        {popupText4[language]}
+                      </span>
                   </button>
                 
                 </div>
