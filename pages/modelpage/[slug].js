@@ -149,7 +149,11 @@ export default function Modelpage({}) {
                         </Suspense>
                     </div>
                     {popup && (
-                        <div className={clsx(isPortrait ? "absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 screen-w:h-[97%] screen-w:w-[1500px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2" : "absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 screen-w:h-[95%] screen-w:w-[1700px] screen-w:bottom-28 left-1/2 transform -translate-x-1/2")}
+                        <div className={clsx("absolute bg-Ablack bg-opacity-40 h-[91%] w-[600px] bottom-16 left-1/2 transform -translate-x-1/2", 
+                        isPortrait 
+                        ? `screen-w:h-[97%] screen-w:w-[1500px] screen-w:bottom-28 ${isMobile ? "h-full w-full" : ""}` 
+                        : `screen-w:h-[95%] screen-w:w-[1700px] screen-w:bottom-28 ${isMobile ? "h-full w-full" : ""}`,
+                        )}
                             onClick={()=>setPopup(!popup)}
                         >
                             <div className={clsx(isPortrait ? "w-5/6 h-5/6 flex flex-col space-y-32 screen-w:space-y-[650px] px-4 mt-16 screen-w:px-8 screen-w:mt-48 mx-auto items-center justify-end text-center" : "w-5/6 flex flex-col space-y-32 screen-w:space-y-[650px] px-4 mt-16 screen-w:px-8 screen-w:mt-48 mx-auto items-center justify-center text-center")}>
@@ -246,29 +250,25 @@ export default function Modelpage({}) {
                         <span className="text-Ablack text-base font-bold screen-w:text-3xl">{iconText3[language]}</span>
                 </div>
             </div>
-            {!isMobile && (
-            <>
-                {/* 뒤로 가기 */}
-                <button className={clsx("absolute left-16 bottom-28 screen-w:left-28 screen-w:bottom-44")}
-                onClick={async ()=> router.back()}
-                >
+            {/* 뒤로 가기 */}
+            <button className={clsx("absolute left-16 bottom-28 screen-w:left-28 screen-w:bottom-44")}
+            onClick={async ()=> router.back()}
+            >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                className="w-12 h-12 screen-w:w-36 screen-w:h-36 text-Ablack">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+            </svg>
+            </button>
+            {/* 홈버튼 */}
+            <button className={clsx("absolute left-16 bottom-44 screen-w:left-28 screen-w:bottom-[340px]")}
+                onClick={async ()=> router.push("/main")}
+            >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
-                    className="w-12 h-12 screen-w:w-36 screen-w:h-36 text-Ablack">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                    className="w-12 h-12 screen-w:h-36 screen-w:w-36 text-Ablack">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
-                </button>
-                {/* 홈버튼 */}
-                <button className={clsx("absolute left-16 bottom-44 screen-w:left-28 screen-w:bottom-[340px]")}
-                    onClick={async ()=> router.push("/main")}
-                >
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
-                        className="w-12 h-12 screen-w:h-36 screen-w:w-36 text-Ablack">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-                    </svg>
-                </button>
-                <Navbar />
-            </>
-            )}
+            </button>
+            <Navbar />
         </div>
     )
 };

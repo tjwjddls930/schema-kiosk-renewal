@@ -162,14 +162,14 @@ const CoverflowCarousel = ({index}) => {
                     onClick={()=> router.push(`/viewpage/${paintList[list][highlightedImageIndex][0].order}?order=${highlightedImageIndex}&year=${list}`)}
                     >
                       {popupText2[language]}
-                      <QRCode 
+                      {/* <QRCode 
                         className="flex mx-auto my-24"
                         size={128}
                         value={path + `/viewpage/${paintList[list][highlightedImageIndex][0].order}?order=${highlightedImageIndex}&year=${list}`}
                       />
                       <span className="text-4xl">
                         {popupText4[language]}
-                      </span>
+                      </span> */}
                   </button>
                 
                 </div>

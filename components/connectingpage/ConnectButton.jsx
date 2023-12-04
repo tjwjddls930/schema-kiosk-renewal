@@ -171,28 +171,28 @@ const ConnectButton = () => {
                     onClick={()=> router.push(`/modelpage/${inputmodelData[language][0].order}`)}
                   >
                       {popupText1[language]}
-                      <QRCode
+                      {/* <QRCode
                         className="flex mx-auto my-4 screen-w:my-24" 
                         size={128}
                         value ={path + `/modelpage/${inputmodelData[language][0].order}`}
                       />
                       <span className="text-base screen-w:text-4xl">
                         {popupText4[language]}
-                      </span>
+                      </span> */}
                   </button>
                   <button
                     className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
                     onClick={()=> router.push(`/pastexhibit/${inputData[language][0].order}?year=${inputData[language][0].time}`)}
                     >
                       {popupText2[language]}
-                      <QRCode
+                      {/* <QRCode
                         className="flex mx-auto my-4 screen-w:my-24" 
                         size={128}
                         value ={path + `/pastexhibit/${inputData[language][0].order}?year=${inputData[language][0].time}`}
                       />
                         <span className="text-base screen-w:text-4xl">
                             {popupText4[language]}
-                        </span>
+                        </span> */}
                   </button>
                 </div>
                 <button

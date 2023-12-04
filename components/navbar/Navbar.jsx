@@ -700,7 +700,7 @@ const Navbar = ({ url, sign }) => {
           </div>
         </div>
       )}
-      <nav className={clsx("bottom-0 w-screen h-16 screen-w:h-40 bg-Ablue px-10 screen-w:px-12 items-center", isMobile ? "hidden" : "fixed lg:flex")}>
+      <nav className={clsx("fixed lg:flex bottom-0 w-screen h-16 screen-w:h-40 bg-Ablue px-10 screen-w:px-12 items-center")}>
         {/* <MusicPlayer src={'/audio/TheHolyLand.mp3'} /> */}
         <div className="flex flex-row w-full h-full space-x-4 screen-w:space-x-6 justify-end">
           <VoiceGPTButton isChatModalOpen={isChatModalOpen} />
