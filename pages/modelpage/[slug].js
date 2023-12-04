@@ -246,24 +246,29 @@ export default function Modelpage({}) {
                         <span className="text-Ablack text-base font-bold screen-w:text-3xl">{iconText3[language]}</span>
                 </div>
             </div>
-            {/* 뒤로 가기 */}
-            <button className={clsx("absolute left-16 bottom-28 screen-w:left-28 screen-w:bottom-44", isMobile ? "hidden" : "")}
+            {!isMobile && (
+            <>
+                {/* 뒤로 가기 */}
+                <button className={clsx("absolute left-16 bottom-28 screen-w:left-28 screen-w:bottom-44")}
                 onClick={async ()=> router.back()}
-            >
-                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                     className="w-12 h-12 screen-w:w-36 screen-w:h-36 text-Ablack">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
                 </svg>
-            </button>
-            <button className={clsx("absolute left-16 bottom-44 screen-w:left-28 screen-w:bottom-[340px]", isMobile ? "hidden" : "")}
-                onClick={async ()=> router.push("/main")}
-            >
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
-                    className="w-12 h-12 screen-w:h-36 screen-w:w-36 text-Ablack">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-                </svg>
-            </button>
-            <Navbar />
+                </button>
+                {/* 홈버튼 */}
+                <button className={clsx("absolute left-16 bottom-44 screen-w:left-28 screen-w:bottom-[340px]")}
+                    onClick={async ()=> router.push("/main")}
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                        className="w-12 h-12 screen-w:h-36 screen-w:w-36 text-Ablack">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                    </svg>
+                </button>
+                <Navbar />
+            </>
+            )}
         </div>
     )
 };
