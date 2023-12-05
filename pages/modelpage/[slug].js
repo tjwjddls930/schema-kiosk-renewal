@@ -95,7 +95,7 @@ export default function Modelpage({}) {
                         scale={data.scale}
                         position={data.position}
                     /> */}
-                    <div className={clsx("absolute left-1/2 transform -translate-x-1/2 bg-Awhite", isMobile ? "h-full w-full bottom-0" : "h-[91%] w-full screen-w:h-[95%] bottom-16 screen-w:bottom-28")}>
+                    <div className={clsx("absolute h-[91%] w-full screen-w:h-[95%] bottom-16 screen-w:bottom-28 left-1/2 transform -translate-x-1/2 bg-Awhite")}>
                         <div className="h-[50px] w-[50px] z-10 screen-w:h-[150px] screen-w:w-[150px] absolute bottom-20 screen-w:bottom-60 right-20 border-2 border-Ablack rounded-full bg-orange"
                             onClick={()=> setColor("#F5F049")}
                         />

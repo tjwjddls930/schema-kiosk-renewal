@@ -139,7 +139,7 @@ export default function Viewpage() {
             )}
             <Navbar 
                 // url={"/video/docent/schema-docent-04.webm"}
-                sign={"/video/sign/schema_sign_2.mp4"}
+                // sign={"/video/sign/schema_sign_2.mp4"}
             />  
         </Viewlayout>
         )}

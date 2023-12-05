@@ -63,9 +63,9 @@ const Paintcontent = () => {
 
     useEffect(()=> {
         // if(pid && order && artist && allExhibits?.[pid]?.exhibits?.[order]?.artist?.[artist]) {
-        if(pid && order && artist && inputData?.[language]?.[pid]?.exhibits?.[order]?.artist?.[artist]) {
-            setData(inputData[language][pid].exhibits[order].artist[artist]);
-            setLength(inputData[language][pid].exhibits[order].artist[artist].paint.length);
+        if(pid && order && artist && inputData?.[language]?.[pid]?.exhibits?.[order]?.artist_info?.[artist]) {
+            setData(inputData[language][pid].exhibits[order].artist_info[artist]);
+            setLength(inputData[language][pid].exhibits[order].artist_info[artist].paint.length);
         } else {
             setData(null);
             setLength(null);
@@ -121,7 +121,8 @@ const Paintcontent = () => {
                             <div className="relative group w-[850px] h-5/6">
                                 <img 
                                     className={clsx(`shadow-xl flex mx-auto ${index === current ? "border-4 border-Awhite" : null}`)}
-                                    src={`/img/exhibitpage/paintings/${item.imgname}`}
+                                    // src={`/img/exhibitpage/paintings/${item.imgname}`}
+                                    src={`${item.imgname}`}
                                     alt="paintings"
                                     onClick={()=>router.push(`/artist/paint/viewpage/${item.order}?order=${order}&year=${pid}`)}
                                 />

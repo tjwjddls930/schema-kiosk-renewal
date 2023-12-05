@@ -193,11 +193,11 @@ const CoverflowCarousel = ({index}) => {
                 <div className={clsx(isPortrait ? "flex flex-row justify-start space-x-8 w-11/12" : "flex flex-row justify-start space-x-4 screen-w:space-x-6 w-1/3")}>
                     {informText[language](isPortrait, fontsize)}
                     <div className={clsx("flex flex-col w-2/3 text-Agrey font-bold", fontsize ? "space-y-4 screen-w:space-y-8" : "space-y-2 screen-w:space-y-4")}>
-                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].time1}</span>
-                        <span className={clsx("w-full", fontsize ? "h-[40px] pt-1 text-sm screen-w:text-4xl whitespace-nowrap overflow-y-visible overflow-auto" : "h-[36px] text-xs screen-w:text-3xl whitespace-nowrap overflow-auto")}>{inputData[language][index].exhibits[highlightedImageIndex].artist1}</span>
-                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].location1}</span>
-                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].host1}</span>
-                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].support1}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].time}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] pt-1 text-sm screen-w:text-4xl whitespace-nowrap overflow-y-visible overflow-auto" : "h-[36px] text-xs screen-w:text-3xl whitespace-nowrap overflow-auto")}>{inputData[language][index].exhibits[highlightedImageIndex].artist}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].location}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].host}</span>
+                        <span className={clsx("w-full", fontsize ? "h-[40px] text-sm screen-w:text-4xl" : "text-xs screen-w:text-3xl")}>{inputData[language][index].exhibits[highlightedImageIndex].support}</span>
                     </div>
                 </div>
                 <div className={clsx(isPortrait ? "flex space-y-4 w-11/12 flex-col justify-end overflow-auto scroll-smooth" : "flex space-y-2 screen-w:space-y-4 w-1/3 flex-col justify-end overflow-auto scroll-smooth")}>

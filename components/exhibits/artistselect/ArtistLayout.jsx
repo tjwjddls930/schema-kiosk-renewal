@@ -65,8 +65,8 @@ const Artistlayout = ({children}) => {
     const [list, setList] = useState(null);
 
     useEffect(()=> {
-        if(pid && order && inputData[language][pid]?.exhibits[order]?.artist) {
-            setArtist(inputData[language][pid].exhibits[order].artist[0])
+        if(pid && order && inputData[language][pid]?.exhibits[order]?.artist_info) {
+            setArtist(inputData[language][pid].exhibits[order].artist_info[0])
         } else {
             setArtist(null)
         };
@@ -157,7 +157,7 @@ const Artistlayout = ({children}) => {
                             </div>
                             <div className="w-11/12 h-3/4 flex mx-auto justify-start overflow-x-auto overflow-y-hidden">
                                     <div className="flex flex-row space-x-12 font-bold text-md pb-1 overflow-auto overflow-y-hidden">
-                                        {inputData[language][pid].exhibits[order].artist.map((item, index)=> {
+                                        {inputData[language][pid].exhibits[order].artist_info.map((item, index)=> {
                                             const {order, name, imgname} = item;
                                             return(
                                             <div 

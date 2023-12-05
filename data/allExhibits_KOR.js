@@ -8,42 +8,42 @@ export const allExhibits_KOR = [
                 order:1, 
                 type:"쉐마미술관 기획전", 
                 title:"이고운 기획초대전 '정원의 자장가'", 
-                time1: "2022/12/08 ~ 2023/01/21", 
-                artist1: "이고운", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2022/12/08 ~ 2023/01/21", 
+                artist: "이고운", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "이고운 작가는 그동안 <구름나무>, <이상정원> 연작을 통해 공원, 숲, 바다와 같은 실재하는 공간에 본인의 정서를 투영하여 치유의 이상향에 대한 심리적 풍경을 드로잉, 회화, 애니메이션 등의 매체를 통해 표현해 왔다. 캔버스에 물감을 칠하고 갈아내는 반복의 과정으로 독특한 질감을 연출하는 채색법과 장지에 은은한 반짝임을 더한 뒤 그려지는 섬세하고 따듯한 색조의 화면은 작품의 몽환적 분위기를 연출한다. 또한 손으로 그려진 수백 장의 드로잉을 종합, 편집하여 제작하고 나지막한 허밍으로 사운드를 입힌 애니메이션에서는 관객과의 정서적 교감을 시도한다. 이고운 작가의 작품은 지극히 비현실적인 동시에 친근하게 느껴지며, 우리가 언젠가 한 번쯤 꿈에서 본 듯한 작품 속 이미지는 감상자의 꿈, 상상, 추억들을 불러일으킨다. 이번 “정원의 자장가” 전시는 그동안 작가가 주목해 온 밤의 정원이라는 시공간을 자장가의 은유를 통해 풀어냈다. 마치 어린아이를 의식의 세계에서 꿈의 세계로 인도하는 나긋한 자장가의 멜로디처럼 작품을 통해 일상의 논리와 긴장을 잠시 내려두고 부드러운 휴식을 경험할 수 있는 전시이다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2023/23-1.png",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-1.png`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
                         title: "이고운 기획초대전 '정원의 자장가'", 
                         name: "이고운", 
                         engname: "Goun Lee",
-                        imgname:"/2023/23-1/23-1-1.png", 
+                        imgname:`/2023/23-1/23-1-1.png`, 
                         text: "이고운의 작업은 삶의 하루하루에서부터 시작한다. 일상을 고스란히 기록하는 것은 아니지만 어디에 머무르며 무엇을 보고 느끼는지가 중요하다. 작가는 동시대의 첨예한 담론, 거시적인 이슈들과는 살짝 거리를 두고 외부적 요인으로 발생하는 상념으로부터 자유로운 상태를 담으려 노력한다. 처음에는 세계 속 존재인 자신에게 집중했다. 먼발치의 눈밭 그리고 여성. 멀리 보이는 바다와 그 위의 사람들. 자연을 배경으로 생성되는, 현실과 환상이 맞닿은 듯한 몽환적 분위기는 이고운의 작업 초기부터 최근까지 지속되는 특징이다. 달무지개뿐 아니라 비와 눈, 구름 같은 날씨에 관한 기억, 봄과 겨울 같은 계절의 분위기, 현실임에도 현실을 벗어난 것 같은 낯선 풍경 등은 작가의 내면과 외부 세계를 연결 짓는 상상의 시작점이 된다. 눈과 비를 배경으로 ‘구름나무’와 하나가 된 얼굴을 가진 사람들은 구름처럼 자유로운 사유를 가능하게 하는 상상의 공간에 머무르는 것 같다. 정체성을 가장 명확히 드러내는 얼굴이 사라진 존재는 사회 규범과 통념이 규정한 한정된 개인을 벗어나게 한다. 사실 눈이 쌓이고 비가 오는 상황들은 일상에서 자주 일어난다. 그러나 신비로운 변화들이다. 무엇보다 눈과 비는 현실 속에서 현실을 벗어나게 해준다. 선명한 시야를 방해한다. 경계를 흐릿하게 해 여지를 남기고 정서에 영향을 끼친다. 세상은 명명백백한 구획을 요구한다. 그러나 모든 구획을 지워버리고 싶을 때가 있다. 현실에 닿은 두 발을 살짝 떼고 몽상의 시간을 갖게 하는 비와 눈이다. 미지의 시공간은 그렇게 상상된다. 결혼하고 어머니가 된 뒤 이고운은 아이들에게 자장가를 불러주듯 그림을 그리게 되었다. 특별히 의도하거나 계획한 것은 아니었다. 어머니가 된 여성의 노동이나 현실적 고충을 다루기 위한 것도 아니었다. 자기에게 집중할수록 작가의 머릿속에는 아이와 관련된 이미지들이 떠올랐다. 물이 흘러가고 계절이 바뀌듯 자연스러운 일이었다. 작품 속 장난감은 상상을 직조하는 훌륭한 소재로 작동한다. 아이와의 기억을 담은 작품들이 밤을 배경으로 하는 이유 역시 상상과 연결된다. 눈과 비가 오는 시간이 그렇듯 밤에는 날카로운 경계가 흐릿해진다. 신비로운 밤의 기운은 나른한 편안함을 제공하고 낮 동안의 번잡함과 스트레스로부터 자유로운 고요함을 선사한다. 무엇보다 아이에게 밤은 잠을 자고 꿈을 꾸는 시간이다. 작가는 아이가 어떤 꿈나라에 들어설지 상상해본다. 작가는 꿈의 시간을 그려본다. 아이의 꿈과 작가의 상상이 교차한다. 작가는 그렇게 몽상에 빠진다. 몽상은 생각하는 자아(cogito)의 활동이다. 몽상가들은 존재의 아래, 무(無) 위에 위치한 영혼의 상태이자 현실과 비현실의 매개 지대를 탐색하며 시적 몽상을 유발하는 의식의 주인이다. 몽상은 무의식의 활동인 꿈이 아니다. 몽상은 의식의 빛이 그 안에 지속되는 정신 활동이다. 의식은 몽상을 지탱하고 방향을 인도한다. 한편 이고운의 작품에 자주 등장하는 정원이나 풍경들 역시 일상에 존재하지만 일상을 벗어나는 것 같은 환상적인 상황, 여행지에서의 경험 등과 관련된 기억에 근거한다. 이고운이 창작하는 공간은 낭만적 헤테로토피아(heterotopia)와 같다. 현실 공간과도 다르고, 유토피아도 아닌 헤테로토피아는 일상과 단절된 특이한 공간이지만 현실에 존재하는, 양립할 수 없는 이질적 요소들로 구성된 공간이다. 작가는 이번에도 현실과 상상, 실재와 환상이 연결되는 경계를 넘나들며 부유한다. 현실과 비현실이 겹치는 순간이 반복되며 작가적 상상의 여지는 더 커진다. 이처럼 이고운이 초기부터 꾸준히 추구하는 작업 방식, 태도, 그리고 완성된 작품들은 모두 상상과 긴밀하다. 이미지의 지각과 함께 상상은 시작된다. 작가의 상상력은 지각 작용으로 받아들이게 된 이미지들을 변형시킨다. 외부의 공간과 내밀의 공간은 서로를 고무하며 자라난다. 객관적 사실보다 더 많은 가능성의 여지를 주는 시적인 공간이 만들어지고 내밀의 공간은 팽창한다. 상상력은 현존하는 이미지에서 보이지 않는 이미지를 떠올리게 하기에 작가는 이미지의 깊은 곳에 숨겨진 무언가를 발견하고 표현한다. 그런데 상상력의 주된 활동 무대인 몽상은 특정한 문제에 집중해서 논리적인 해결을 찾는 사색과 다르다. 그것은 뚜렷한 의지 없이 상상력의 활동으로 자연스럽게 이뤄지는 정신 활동이다. 그러나 꿈을 꾸는 것 같은 무의식의 상태가 아니라 의식의 빛이 존재하는 정신 활동이 몽상이기 때문에 작가는 생각하는 주체로서 자신을 중심에 놓을 수 있다. 완전한 무의식도, 완전한 의식도 아닌 상태의 활동, 합리주의적인 현실에 속하지 않는 비현실의 기능, 그러나 현실 세계에 뿌리를 갖는 것이 몽상이다. 그렇게 조금은 멍한 듯 편안한 상태에서 빠져드는 공상 속에서 작가는 느슨하게, 자연스럽게 이미지를 떠올리고 몽상한다. 그리고 작품에 펼쳐낸다. 이미지를 받아들여서 독자적으로 변형할 수 있는 상상력은 보편성을 갖기에 이고운의 작품을 보는 우리도 다양한 상상을 할 수 있다. 몽상의 철학적 범주라 말할 수 있는 무한은 우리의 내부에 있다. 현실의 삶이 억제하고 조심성이 멈추게 하지만, 고독 가운데에서 계속되는 존재의 팽창과 연결되는 그것. 작가(우리)는 무한한 세계 속에서 무한을 꿈꾼다. 그렇게 “지적 노고로부터 자유로운, 스르르 시작하고 끝나는” 작품이 선사하는 따뜻한 시공간, 무한의 세계에 조금 더 깊이 들어가 본다.",
                         education: "",
-                        individual_exhibition: [
-                        ],
-                        group_exhibition: [
-                        ],
+                        individual_exhibition: [],
+                        group_exhibition: [],
                         paint: [
-                            {order: 0, title: "정원의 자장가", imgname: "/2023/23-1/1-50x150.png", overview: "50x150cm", overview1: "캔버스에 아크릴, 2022"},
-                            {order: 1, title: "핑크 뮬리", imgname: "/2023/23-1/2-70x70.jpg", overview: "70x70cm", overview1: "캔버스에 아크릴, 2022"},
-                            {order: 2, title: "나의 작은 정원", imgname: "/2023/23-1/3-90x90.jpg", overview: "90x90cm", overview1: "캔버스에 아크릴, 2022"},
-                            {order: 3, title: "무지개 왕자", imgname: "/2023/23-1/4-40x30.png", overview: "40x30cm", overview1: "장지에 과슈와 연필, 2022"},
-                            {order: 4, title: "빗 속의 용감한 오리", imgname: "/2023/23-1/5-40x40.png", overview: "40x40cm", overview1: "장지에 과슈와 연필, 2022"},
-                            {order: 5, title: "핑크뮬리 밤 22-2", imgname: "/2023/23-1/6-50x40.jpg", overview: "50x40cm", overview1: "장지에 과슈, 2022"},
-                            {order: 6, title: "별 줍는 밤", imgname: "/2023/23-1/7-162x520.png", overview: "162x520cm", overview1: "캔버스에 아크릴, 2022"},
-                            {order: 7, title: "별 줍는 밤 1", imgname: "/2023/23-1/8-162x130.jpg", overview: "162x520cm", overview1: "캔버스에 아크릴, 2022"},
-                            {order: 8, title: "별 줍는 밤 2", imgname: "/2023/23-1/9-162x130.jpg", overview: "162x520cm", overview1: "캔버스에 아크릴, 2022"},
-                            {order: 9, title: "별 줍는 밤 3", imgname: "/2023/23-1/10-162x130.jpg", overview: "162x520cm", overview1: "캔버스에 아크릴, 2022"},
-                            {order: 10, title: "별 줍는 밤 4", imgname: "/2023/23-1/11-162x130.jpg", overview: "162x520cm", overview1: "캔버스에 아크릴, 2022"},
-                            {order: 11, title: "Good Night My Dear", imgname: "/2023/23-1/12-200x200.png", overview: "200x200cm", overview1: "장지에 과슈와 연필, 2022"},
-                            {order: 12, title: "동백 정원 II", imgname: "/2023/23-1/13-90x90.png", overview: "90x90cm", overview1: "캔버스에 아크릴, 2020"},
-                            {order: 13, title: "이름없는 정원", imgname: "/2023/23-1/14-40x40.png", overview: "40x40cm", overview1: "장지에 과슈, 2019"},
-                            {order: 14, title: "이름없는 정원 II", imgname: "/2023/23-1/15-180x260.png", overview: "180x260cm", overview1: "장지에 과슈, 2015"},
+                            {order: 0, title: "정원의 자장가", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/1-50x150.png`, width: 7.5, height: 2.5, overview: "50x150cm", overview1: "캔버스에 아크릴, 2022"},
+                            {order: 1, title: "핑크 뮬리", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/2-70x70.jpg`, width: 4.2, height: 4.2, overview: "70x70cm", overview1: "캔버스에 아크릴, 2022"},
+                            {order: 2, title: "나의 작은 정원", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/3-90x90.jpg`, width: 5.6, height: 5.6, overview: "90x90cm", overview1: "캔버스에 아크릴, 2022"},
+                            {order: 3, title: "무지개 왕자", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/4-40x30.png`, width: 3.3, height: 4.4, overview: "40x30cm", overview1: "장지에 과슈와 연필, 2022"},
+                            {order: 4, title: "빗 속의 용감한 오리", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/5-40x40.png`, width: 4.4, height: 4.4, overview: "40x40cm", overview1: "장지에 과슈와 연필, 2022"},
+                            {order: 5, title: "핑크뮬리 밤 22-2", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/6-50x40.jpg`, width: 4, height: 5, overview: "50x40cm", overview1: "장지에 과슈, 2022"},
+                            {order: 6, title: "별 줍는 밤", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/7-162x520.png`, width: 5.2, height: 1.62, overview: "162x520cm", overview1: "캔버스에 아크릴, 2022"},
+                            {order: 7, title: "별 줍는 밤 1", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x520cm", overview1: "캔버스에 아크릴, 2022"},
+                            {order: 8, title: "별 줍는 밤 2", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/9-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x520cm", overview1: "캔버스에 아크릴, 2022"},
+                            {order: 9, title: "별 줍는 밤 3", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/10-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x520cm", overview1: "캔버스에 아크릴, 2022"},
+                            {order: 10, title: "별 줍는 밤 4", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/11-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x520cm", overview1: "캔버스에 아크릴, 2022"},
+                            {order: 11, title: "Good Night My Dear", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/12-200x200.png`, width: 4, height: 4, overview: "200x200cm", overview1: "장지에 과슈와 연필, 2022"},
+                            {order: 12, title: "동백 정원 II", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/13-90x90.png`, width: 5.6, height: 5.6, overview: "90x90cm", overview1: "캔버스에 아크릴, 2020"},
+                            {order: 13, title: "이름없는 정원", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/14-40x40.png`, width: 4, height: 4, overview: "40x40cm", overview1: "장지에 과슈, 2019"},
+                            {order: 14, title: "이름없는 정원 II", name: "이고운", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/15-180x260.png`, width: 5.2, height: 3.6, overview: "180x260cm", overview1: "장지에 과슈, 2015"},
                         ]
                     }
                 ],
@@ -52,20 +52,22 @@ export const allExhibits_KOR = [
                 order:2, 
                 type:"쉐마미술관 소장품전", 
                 title:"2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
-                time1: "2023/02/04 ~ 2023/04/01", 
-                artist1: "김재관, 김성미, 김연희, 김영배, 김재남, 박진명, 심재분, 이홍원, 임은수, 전년일, 정명희, 조현애, 최민건", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2023/02/04 ~ 2023/04/01", 
+                artist: "김재관, 김성미, 김연희, 김영배, 김재남, 박진명, 심재분, 이홍원, 임은수, 전년일, 정명희, 조현애, 최민건", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "2023 쉐마미술관 계묘년, 새해 첫 전시 ‘에꼴 드 청주’ – 쉐마의 걸작 展은 또 다른 의미를 갖는 소장 작품전시이다. 2024년이면 쉐마미술관이 건립 된지 15년이 되는 해이다. 이번 소장품 전시는 지난 14년의 지난 세월을 생각하며 중요한 작품들을 선보이는 전시이다. 쉐마미술관의 김재관 관장님과 각별한 친구였지만 작고한 작가의 작품들. 절친한 후배 작가들, 그동안 쉐마미술관에서 개인전으로 참여했던 작가들의 소중한 작품들을 새삼 생각하고 회상해 보면서 기획한 전시이다. 총 13명의 작가의 회화, 사진, 영상 작품을 선보이는 에꼴 드 쉐마의 소장품들이다. 김재관 작가는 기하학적 추상미술 반세기 작품 중 최근 ‘관계’ 시리즈는 오랫동안 기하학적 추상구조의 이성적 해석으로 접근해오던 작품 형식에서 벗어나 자연을 그리고 있다. 자연을 상식적인 풍경화로 그리는 것이 아니라 ‘자연의 현상’- ‘빛’, ‘소리’, ‘색’, ‘율(律)’로 표현된다. 김영배(1947-2001 )작가는 모더니즘과 포스트모더니즘의 가교 역할을 하는 특유의 방법론을 고민했던 작고 작가로서 팝과 리얼리즘을 동시에 충돌시키고 선과 면, 구상과 레이어 등을 각각 충돌시키며 새로운 회화의 차원을 실험하던 작가였다. 그는 여러 방면에 열린 자세를 취하고 있었고 만화에도 관심이 많았기 때문에 상명대학교 만화학과의 교수를 지내며 많은 후학을 양성했다. ”무제“ 시리즈 형상적 이미지와 기하학적 패턴과 같은 언어의 조합으로 반복된 패턴으로 화면을 구성한다. 김연희 작가는 자신의 회화에서의 상징적 이미지를 ‘명상적 개념’에서 찾고자 한다. 작가의 화면에는 흑과 백이 공존하며 화면 안에는 단순함의 묘미에 무게를 두게 되며 추상 작업에서 쓰던 네모를 발전시켜 공간 구성에 활용 작업을 한다. 작가는 네모 안에 우주를 담아내고자 하는데 그 색은 검정 흑색이다. 김재남 작가의 <사라진 풍경(lost Landscape)>회화 시리즈는 문화적, 사회적 기억들을 내포하고 있는 특정 장소의 바다 이미지들을 채집하고 “낯설게 하기”를 통하여 불완전한 상태로 보여준다. 해석체(interpretant)로서의 기억들을 환기시키기 위해 검은색 목탄을 캔버스에 수없이 칠하고 문지르기를 반복하여 신체가 개입된 흑과 백의 단순한 색 면으로 치환시킨다. 김성미 작가에게 숲이란 존재로서, 작가는 최근 몇 년 동안 계속해서 숲을 모티브로 하여 시간에 따라 변화되는 모습을 모두 담아내고 있다. 우리들의 삶이 그렇듯이 세월의 변화를 수용하며 그 안에 작가 개인의 삶이 투영되는 은유적 표현을 통해 작가가 바라보는 ‘숲’을 감상하는 전시가 될 예정이다. 캔버스 평면을 넘어 디지털 작업으로 확장된 시간의 변화와 흔적의 구현을 통해 ‘자연과 함께 하는 삶’을 찾는다. 박진명 작가는 청주의 대표적인 현대적 동양화 작가로 기억 속에 떠오르는 이미지를 그림으로 표현하면서 작가에게 스치듯 지나간 특정 장면들은 또 다른 기억과 이미지를 생산하고, 그 순간들을 겹쳐지는 것을 반복하며 하나의 새로운 장면이 돼 잔상으로 새긴다. 달이 떠 있는 어둠의 기억과 그 아래에서의 순간이 겹쳐지질 반복하여 재생되는 이미지는 고스란히 하나의 장면으로 화면에 스며든다. 심재분 작가는 연꽃’이라는 대상을 넘어 대상의 본질을 꿰뚫어 자신의 언어로 다시 재현한다. 자연과 인간의 보이지 않는 존재를 재현하기 위해 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 담으며 느껴지는 초현실적인 사실을 작품화한다. 이홍원 작가는 현란한 색채로 한국적인 미의식을 강하게 드러낸다. 그림 속에 등장하는 호랑이나 인물 형상은 전통성을 기초로 하면서도 현대미술로의 접근성을 내포한다. 주제나 표현의 자유로움이라든가 단순화하거나 과장된, 대범함, 익살의 미학과 해학이 가득한은 이홍원 작가의 작품이 지니는 큰 특징이며 고전과 현대, 신화의 세계와 현실의 세계가 동시성 속에 공존한다. 임은수 작가는 페미니즘의 자의식을 가지고 여성의 관능과 감각을 체현하는 작가로서 특유의 자의식으로 인하여 모더니즘의 톱니에서 한층 멀어져 자신만의 문제의식과 움직을 통한 새로운 드로잉을 표현하는 작가이다. 2020년부터 최근까지 작가는 ‘나는 지금 이곳에 있다’ 퍼포먼스를 통해 지금의 사회, 기후, 환경의 현상을 특유의 위로와 순환의 마음을 담아 영상으로 담아 보여준다. 작가는 ‘나는 지금 이곳에 있다 7’에서 대청호수의 물의 순환 과정으로 들어가 합류한다. 그리고 자아를 확장해 대리자로서, 생명의 모체가 되어 이 시대 우리가 진정 소중히 여기고 보호해야 할 것이 무엇인가를, 상징적인 도구와 행위로 제시한다. 전년일 작가(1945-2021)는 현대사회의 산업의 발달로 인해 사라진 인간성 회복을 담는 동시에 우리 민족이 오래전부터 숭배하며 생활에 매우 가깝게 사용한 오방색을 작품의 소재로 사용한다. 오방색은 우리의 삶의 즐거움, 슬픔, 등을 근본으로 현대화된 시각화 작품을 보여준다. 시각화된 작품은 샤머니즘 적이면서도 원시적으로 다가온다. 기산 정명희 작가는 한지와 먹을 중심으로 금강과 우주적 이야기를 다양한 재료와 색으로 펼쳐왔다. 근래에는 문인화의 정신과 빗대 희 바탕에 검은 먹을 바탕으로 삶의 근본을 말하고 있다. 화면 가득 기산의 새가 검은 먹으로 혹은 여백으로 나타난다. 이새는 마치 십자가와도 같은 근본적인 조형으로 화면을 분활하며 삶을 자유롭게 날아가는 모습으로 시각화하고 있다. 조현애 작가는 캔버스에 ‘시간’을 담아낸다. 사라진 시간과 현재의 시간이 공존하는 작가의 작품은 시간의 누적을 작가가 만들어내는 공간에 담고 있다. 특히 작가의 가상공간에는 과거와 현재의 이미지가 공존하며 조선 시대 산수화, 풍속화, 서양의 명화 들이 함께 여려 층위의 공간들을 형성하고 겹쳐있다. 2차원 평면 안에 과거와 현재의 공존은 작가만의 ‘초현실적’ 세계를 형성하며 시각적 은유를 만들어내고 있다. 최민건 작가는 경계의 모호함으로 인해 가상과 실제, 주체와 객체 사이에서 방황하면서 즐기고 있는 우리들의 모습을 표현한다. 화면에서 착시효과를 주는 개는 가상과 실제의 경계를 모호하게 하며, 인간과 다른 동물 중 가장 친숙한 개의 모습을 표현함으로써 우리와 다름을 인지함과 동시에 동질성을 느끼게 한다.",         
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2023/23-2.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-2.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김재관", 
                         engname: "Jai-Kwan Kim",
-                        imgname:"/2023/23-2/23-2-1.png", 
+                        imgname:`/2023/23-2/23-2-1.png`, 
                         text: "김재관 작가는 기하학적 추상미술 반세기 작품 중 최근 ‘관계’ 시리즈는 오랫동안 기하학적 추상구조의 이성적 해석으로 접근해오던 작품 형식에서 벗어나 자연을 그리고 있다. 자연을 상식적인 풍경화로 그리는 것이 아니라 ‘자연의 현상’- ‘빛’, ‘소리’, ‘색’, ‘율(律)’로 표현된다.",
                         education: "홍익대학교 서양화 학부, 석사 졸업 및 동대학교 미술학박사학위 취득",
                         individual_exhibition: [
@@ -96,7 +98,7 @@ export const allExhibits_KOR = [
                             {order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
                         ],
                         paint: [
-                            {order: 0, title: "Layer of Light - Relationship 2022-601", imgname: "/2023/23-2/1-130.3x97.jpg", overview: "130.3x97", overview1: "Acrylic on canvas, 2022"},
+                            {order: 0, title: "Layer of Light - Relationship 2022-601", name:"김재관", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/1-130.3x97.jpg`, width: 5.212, height: 3.88, overview: "130.3x97", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -105,13 +107,13 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김성미", 
                         engname: "Sungmi Kim",
-                        imgname:"/2023/23-2/23-2-2.jpg", 
+                        imgname:`/2023/23-2/23-2-2.jpg`, 
                         text: "김성미 작가에게 숲이란 존재로서, 작가는 최근 몇 년 동안 계속해서 숲을 모티브로 하여 시간에 따라 변화되는 모습을 모두 담아내고 있다. 우리들의 삶이 그렇듯이 세월의 변화를 수용하며 그 안에 작가 개인의 삶이 투영되는 은유적 표현을 통해 작가가 바라보는 ‘숲’을 감상하는 전시가 될 예정이다. 캔버스 평면을 넘어 디지털 작업으로 확장된 시간의 변화와 흔적의 구현을 통해 ‘자연과 함께 하는 삶’을 찾는다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "숲의 잔상 2022-4", imgname: "/2023/23-2/2-91x91.jpg", overview: "91x91cm", overview1: "캔버스 위에 혼합 재료, 2022"},
+                            {order: 1, title: "숲의 잔상 2022-4", name:"김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/2-91x91.jpg`, width: 5.46, height: 5.46, overview: "91x91cm", overview1: "캔버스 위에 혼합 재료, 2022"},
                         ]
                     },
                     {
@@ -120,13 +122,13 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김연희", 
                         engname: "YeonHee Kim",
-                        imgname:"/2023/23-2/23-2-3.jpg", 
+                        imgname:`/2023/23-2/23-2-3.jpg`, 
                         text: "김연희 작가는 자신의 회화에서의 상징적 이미지를 ‘명상적 개념’에서 찾고자 한다. 작가의 화면에는 흑과 백이 공존하며 화면 안에는 단순함의 묘미에 무게를 두게 되며 추상 작업에서 쓰던 네모를 발전시켜 공간 구성에 활용 작업을 한다. 작가는 네모 안에 우주를 담아내고자 하는데 그 색은 검정 흑색이다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "ACCEPT", imgname: "/2023/23-2/3-65.2x182.jpg", overview: "65.2x182cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 2, title: "ACCEPT", name:"김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/3-65.2x182.jpg`, width: 7.28, height: 2.608, overview: "65.2x182cm", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -135,13 +137,13 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김영배", 
                         engname: "YoungBae Kim",
-                        imgname:"/2023/23-2/23-2-4.jpg", 
+                        imgname:`/2023/23-2/23-2-4.jpg`, 
                         text: "김영배(1947-2001 )작가는 모더니즘과 포스트모더니즘의 가교 역할을 하는 특유의 방법론을 고민했던 작고 작가로서 팝과 리얼리즘을 동시에 충돌시키고 선과 면, 구상과 레이어 등을 각각 충돌시키며 새로운 회화의 차원을 실험하던 작가였다. 그는 여러 방면에 열린 자세를 취하고 있었고 만화에도 관심이 많았기 때문에 상명대학교 만화학과의 교수를 지내며 많은 후학을 양성했다. ”무제“ 시리즈 형상적 이미지와 기하학적 패턴과 같은 언어의 조합으로 반복된 패턴으로 화면을 구성한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "패턴-동그라미2", imgname: "/2023/23-2/4-184x93.jpg", overview: "184x93cm", overview1: "Acrylic on paper, 1997"},
+                            {order: 3, title: "패턴-동그라미2", name:"김영배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/4-184x93.jpg`, width: 3.72, height: 5.52, overview: "184x93cm", overview1: "Acrylic on paper, 1997"},
                         ]
                     },
                     {
@@ -150,7 +152,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김재남", 
                         engname: "Jaenam Kim",
-                        imgname:"/2023/23-2/23-2-5.jpg", 
+                        imgname:`/2023/23-2/23-2-5.jpg`, 
                         text: "김재남 작가의 <사라진 풍경(lost Landscape)>회화 시리즈는 문화적, 사회적 기억들을 내포하고 있는 특정 장소의 바다 이미지들을 채집하고 “낯설게 하기”를 통하여 불완전한 상태로 보여준다. 해석체(interpretant)로서의 기억들을 환기시키기 위해 검은색 목탄을 캔버스에 수없이 칠하고 문지르기를 반복하여 신체가 개입된 흑과 백의 단순한 색 면으로 치환시킨다.",
                         education: "",
                         individual_exhibition: [
@@ -174,7 +176,7 @@ export const allExhibits_KOR = [
                             {order: 10, exhibit: "2016 서울사진축제-열 개의 문장으로 쓴 편지(문래예술촌, 서울)"},
                         ],
                         paint: [
-                            {order: 4, title: "닿을 수 없는 지점, 보이지 않는 시점-여수(한국)", imgname: "/2023/23-2/5-130x130.jpg", overview: "130x130cm", overview1: "캔버스에 목탄, 2019"},
+                            {order: 4, title: "닿을 수 없는 지점, 보이지 않는 시점-여수(한국)", name:"김재남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/5-130x130.jpg`, width: 5.2, height: 5.2, overview: "130x130cm", overview1: "캔버스에 목탄, 2019"},
                         ]
                     },
                     {
@@ -183,13 +185,13 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "박진명", 
                         engname: "JinMyoung Park",
-                        imgname:"/2023/23-2/23-2-6.jpg", 
+                        imgname:`/2023/23-2/23-2-6.jpg`, 
                         text: "박진명 작가는 청주의 대표적인 현대적 동양화 작가로 기억 속에 떠오르는 이미지를 그림으로 표현하면서 작가에게 스치듯 지나간 특정 장면들은 또 다른 기억과 이미지를 생산하고, 그 순간들을 겹쳐지는 것을 반복하며 하나의 새로운 장면이 돼 잔상으로 새긴다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "Shimmery", imgname: "/2023/23-2/6-49x33.jpg", overview: "49x33cm", overview1: "화선지 위에 먹, 채색, 은분, 2019"},
+                            {order: 5, title: "Shimmery", name: "박진명", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/6-49x33.jpg`, width: 4.9, height: 3.3, overview: "49x33cm", overview1: "화선지 위에 먹, 채색, 은분, 2019"},
                         ]
                     },
                     {
@@ -198,13 +200,13 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "심재분", 
                         engname: "Jaeboon Shim",
-                        imgname:"/2023/23-2/23-2-7.jpg", 
+                        imgname:`/2023/23-2/23-2-7.jpg`, 
                         text: "심재분 작가는 연꽃’이라는 대상을 넘어 대상의 본질을 꿰뚫어 자신의 언어로 다시 재현한다. 자연과 인간의 보이지 않는 존재를 재현하기 위해 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 담으며 느껴지는 초현실적인 사실을 작품화한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "초췌한 고뇌의 형상1", imgname: "/2023/23-2/7-100x140.jpg", overview: "100x140cm", overview1: "프린트 & 화인아트 벨벳, 2021"},
+                            {order: 6, title: "초췌한 고뇌의 형상1", name:"심재분", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/7-100x140.jpg`, width: 5.6, height: 4, overview: "100x140cm", overview1: "프린트 & 화인아트 벨벳, 2021"},
                         ]
                     },
                     {
@@ -213,13 +215,13 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "이홍원", 
                         engname: "Hongwon Lee",
-                        imgname:"/2023/23-2/23-2-8.jpg", 
+                        imgname:`/2023/23-2/23-2-8.jpg`, 
                         text: "이홍원 작가는 현란한 색채로 한국적인 미의식을 강하게 드러낸다. 그림 속에 등장하는 호랑이나 인물 형상은 전통성을 기초로 하면서도 현대미술로의 접근성을 내포한다. 주제나 표현의 자유로움이라든가 단순화하거나 과장된, 대범함, 익살의 미학과 해학이 가득한은 이홍원 작가의 작품이 지니는 큰 특징이며 고전과 현대, 신화의 세계와 현실의 세계가 동시성 속에 공존한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "연못이야기", imgname: "/2023/23-2/8-60x60.jpg", overview: "60x60cm", overview1: "Mix-Color Korean paper reied on panel, 2009"},
+                            {order: 7, title: "연못이야기", name:"이홍원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/8-60x60.jpg`, width: 5.4, height: 5.4, overview: "60x60cm", overview1: "Mix-Color Korean paper reied on panel, 2009"},
                         ]
                     },
                     {
@@ -228,7 +230,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "임은수", 
                         engname: "Eunsoo Lim",
-                        imgname:"/2023/23-2/23-2-9.png", 
+                        imgname:`/2023/23-2/23-2-9.png`, 
                         text: "임은수 작가는 페미니즘의 자의식을 가지고 여성의 관능과 감각을 체현하는 작가로서 특유의 자의식으로 인하여 모더니즘의 톱니에서 한층 멀어져 자신만의 문제의식과 움직을 통한 새로운 드로잉을 표현하는 작가이다. 2020년부터 최근까지 작가는 ‘나는 지금 이곳에 있다’ 퍼포먼스를 통해 지금의 사회, 기후, 환경의 현상을 특유의 위로와 순환의 마음을 담아 영상으로 담아 보여준다. 작가는 ‘나는 지금 이곳에 있다 7’에서 대청호수의 물의 순환 과정으로 들어가 합류한다. 그리고 자아를 확장해 대리자로서, 생명의 모체가 되어 이 시대 우리가 진정 소중히 여기고 보호해야 할 것이 무엇인가를, 상징적인 도구와 행위로 제시한다.",
                         education: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
                         individual_exhibition: [
@@ -264,7 +266,7 @@ export const allExhibits_KOR = [
                             {order: 11, exhibit: "2019 조각조각 -Pieces of times 전 (터미널 작은미술관, 정선)"},
                         ],
                         paint: [
-                            {order: 8, title: "변이", imgname: "/2023/23-2/9-72.7x91.jpg", overview: "72.9x91cm", overview1: "water acrylic on canvas, 2015"},
+                            {order: 8, title: "변이", name:"임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/9-72.7x91.jpg`, width: 4.55, height: 3.645, overview: "72.9x91cm", overview1: "water acrylic on canvas, 2015"},
                         ]
                     },
                     {
@@ -273,13 +275,13 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "전년일", 
                         engname: "NyeonIl Jun",
-                        imgname:"/2023/23-2/23-2-10.jpg", 
+                        imgname:`/2023/23-2/23-2-10.jpg`, 
                         text: "전년일 작가(1945-2021)는 현대사회의 산업의 발달로 인해 사라진 인간성 회복을 담는 동시에 우리 민족이 오래전부터 숭배하며 생활에 매우 가깝게 사용한 오방색을 작품의 소재로 사용한다. 오방색은 우리의 삶의 즐거움, 슬픔, 등을 근본으로 현대화된 시각화 작품을 보여준다. 시각화된 작품은 샤머니즘 적이면서도 원시적으로 다가온다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "그것", imgname: "/2023/23-2/10-160x30.jpg", overview: "160x30cm", overview1: "아크릴물감 철망 등 나무 색한지, 2021"},
+                            {order: 9, title: "그것", name:"전년일", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/10-160x30.jpg`, width: 0.9, height: 4.8, overview: "160x30cm", overview1: "아크릴물감 철망 등 나무 색한지, 2021"},
                         ]
                     },
                     {
@@ -288,13 +290,13 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "정명희", 
                         engname: "MyeongHee Chung",
-                        imgname:"/2023/23-2/23-2-11.jpg", 
+                        imgname:`/2023/23-2/23-2-11.jpg`, 
                         text: "기산 정명희 작가는 한지와 먹을 중심으로 금강과 우주적 이야기를 다양한 재료와 색으로 펼쳐왔다. 근래에는 문인화의 정신과 빗대 희 바탕에 검은 먹을 바탕으로 삶의 근본을 말하고 있다. 화면 가득 기산의 새가 검은 먹으로 혹은 여백으로 나타난다. 이새는 마치 십자가와도 같은 근본적인 조형으로 화면을 분활하며 삶을 자유롭게 날아가는 모습으로 시각화하고 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "Freedom trail 324", imgname: "/2023/23-2/11-88.5x138.5.jpg", overview: "88.5x138.5cm", overview1: "한지 먹, 2022"},
+                            {order: 10, title: "Freedom trail 324", name:"정명희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/11-88.5x138.5.jpg`, width: 5.54, height: 3.54, overview: "88.5x138.5cm", overview1: "한지 먹, 2022"},
                         ]
                     },
                     {
@@ -303,13 +305,13 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "조현애", 
                         engname: "HyunAe Cho",
-                        imgname:"/2023/23-2/23-2-12.jpg", 
+                        imgname:`/2023/23-2/23-2-12.jpg`, 
                         text: "조현애 작가는 캔버스에 ‘시간’을 담아낸다. 사라진 시간과 현재의 시간이 공존하는 작가의 작품은 시간의 누적을 작가가 만들어내는 공간에 담고 있다. 특히 작가의 가상공간에는 과거와 현재의 이미지가 공존하며 조선 시대 산수화, 풍속화, 서양의 명화 들이 함께 여려 층위의 공간들을 형성하고 겹쳐있다. 2차원 평면 안에 과거와 현재의 공존은 작가만의 ‘초현실적’ 세계를 형성하며 시각적 은유를 만들어내고 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "Unknown time 2015", imgname: "/2023/23-2/12-116.8x91.jpg", overview: "116.8x91cm", overview1: "Acrylic on canvs, 2015"},
+                            {order: 11, title: "Unknown time 2015", name:"조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/12-116.8x91.jpg`, width: 3.94, height: 4.672, overview: "116.8x91cm", overview1: "Acrylic on canvs, 2015"},
                         ]
                     },
                     {
@@ -318,13 +320,13 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "최민건", 
                         engname: "Mingun Choi",
-                        imgname:"/2023/23-2/23-2-13.jpg", 
+                        imgname:`/2023/23-2/23-2-13.jpg`, 
                         text: "최민건 작가는 경계의 모호함으로 인해 가상과 실제, 주체와 객체 사이에서 방황하면서 즐기고 있는 우리들의 모습을 표현한다. 화면에서 착시효과를 주는 개는 가상과 실제의 경계를 모호하게 하며, 인간과 다른 동물 중 가장 친숙한 개의 모습을 표현함으로써 우리와 다름을 인지함과 동시에 동질성을 느끼게 한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "Borderline between 17-3001", imgname: "/2023/23-2/13-130x489.jpg", overview: "130x489cm", overview1: "캔버스에 아크릴릴, 2017"},
+                            {order: 12, title: "Borderline between 17-3001", name:"최민건", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/13-130x489.jpg`, width: 4.89, height: 1.3, overview: "130x489cm", overview1: "캔버스에 아크릴릴, 2017"},
                         ]
                     },
                 ],
@@ -333,13 +335,15 @@ export const allExhibits_KOR = [
                 order:3, 
                 type:"쉐마미술관 기획전", 
                 title:"2023 쉐마미술관 기획전 - 부드러운 인생", 
-                time1: "2023/04/07 ~ 2023/05/21", 
-                artist1: "박해빈, 이규선, 조민아, 서민정", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2023/04/07 ~ 2023/05/21", 
+                artist: "박해빈, 이규선, 조민아, 서민정", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "부드러운 인생 전시는 역동적인 현대사회를 살아가면서 요동치지 않고 자신의 주변에 따뜻하거나 새로운 시각을 새롭게 심어주는 작가들을 초대한다. 일상의 여러 주변부를 살피며 일상의 사건과 이미지를 소재로 새로운 이미지를 창출하는 네 명의 작가들은 창작자라는 존재자 외에도 자체로 실존적이라는 생각을 가지게 한다. 사건과 이미지를 구성하면서 드러내는 그들의 방법론은 구상회화로 구성되며 각자의 세계로의 진입을 꾀한다. 박해빈 작가는 제주도와 청주를 오가며 각인된 이미지와 여러 사건을 회화 안에서 집적해 나간다. 평면의 황영성을 폭로하거나 작은 세필로 조밀한 구성을 재현하거나 하는 그의 작품은 재현의 한계를 넘어 새로운 재현의 세계로의 진입을 꾀하며 그 방법론을 실험한다. 자신의 주위에서 이미지를 수집하며 회화의 여러 방법론으로 정진하는 그의 작품은 관객에게 생경함과 궁금증을 불러일으킨다. 서민정 작가는 개의 시선과 자신의 시선을 교차시키며 사건과 이미지를 다룬다. 여러 섬세한 감정의 사건과 마음에 남은 이미지의 덩어리들은 그의 소재로 확정되고 구성되는 데 오랜 시간이 걸림을 유추할 수 있다. 그는 식물의 야생성과 기원이 담긴 풍경 등을 구성하며 마음의 풍경을 구성하며 켜켜이 쌓이는 동양화 특유의 방법론으로 쌓아가듯 이미지를 드러낸다. 이규선 작가는 반복되는 일상과 왕래하는 풍경 사이에서 자신의 심리적 환경과 공명하는 이미지를 찾아내 표현한다. 무심천의 소용돌이와 청주의 풍경, 인물들은 그의 살풍경하고 건조하지만 살아있는 세계를 유추하게 해준다. 그의 리얼리즘은 그 자신을 여과 없이 보여주기에 빠른 스트로크와 표현을 보여준다. 조민아 작가는 일상에서 이루어지는 모순과 부조리, 농담이 깃든 상상을 화면에 풀어나간다. 그는 여러 파편적 사건을 구상하고 그것을 표현하며 확장해 나간다. 이러한 화면에서 관객들은 특유의 작업하는 그를 바라볼 수 있으며 작가의 상상 궤도를 보게 된다. 위의 네 명의 작가들이 부드럽게 풀어내는 그들의 인생을 통해 지금의 회화작가들의 세계를 보여주고자 한다. ",         
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2023/23-3.png",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-3.png`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -367,8 +371,8 @@ export const allExhibits_KOR = [
 
                         ],
                         paint: [
-                            {order: 0, title: "SCENE_R2", imgname: "/2023/23-3/1-53x33.4.jpg", overview: "53x33.4", overview1: "Acrylic on canvas, 2022"},
-                            {order: 1, title: "사라진 풍경", imgname: "/2023/23-3/2-116.8x72.7.jpg", overview: "116.8x72.7", overview1: "Acrylic on canvas, 2022"},
+                            {order: 0, title: "SCENE_R2", name: "박해빈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/1-53x33.4.jpg`, width: 3.34, height: 5.3, overview: "53x33.4", overview1: "Acrylic on canvas, 2022"},
+                            {order: 1, title: "사라진 풍경", name: "박해빈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/2-116.8x72.7.jpg`, width: 2.908, height: 4.672, overview: "116.8x72.7", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -411,7 +415,7 @@ export const allExhibits_KOR = [
                             {order: 23, exhibit: "2015 “Real Young Artist” 쉐마미술관, 청주"},
                         ],
                         paint: [
-                            {order: 2, title: "아무것도 없으니까", imgname: "/2023/23-3/3-72.7x60.6.jpg", overview: "72.7x60.6cm", overview1: "Oil on canvas, 2023"},
+                            {order: 2, title: "아무것도 없으니까", name: "이규선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/3-72.7x60.6.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "Oil on canvas, 2023"},
                         ]
                     },
                     {
@@ -462,8 +466,8 @@ export const allExhibits_KOR = [
                             {order: 25, exhibit: "사람들은 이런 걸 소설이라고 한단다, 써드플레이스, 서울 외 다수 참여"},
                         ],
                         paint: [
-                            {order: 3, title: "가만히 있는 척", imgname: "/2023/23-3/4-60x72.jpg", overview: "60x72cm", overview1: "장지에 채색, 2022"},
-                            {order: 4, title: "보물찾기", imgname: "/2023/23-3/5-72x60.jpg", overview: "72x60cm", overview1: "장지에 채색, 2022"},
+                            {order: 3, title: "가만히 있는 척", name: "조민아", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/4-60x72.jpg`, width: 4.32, height: 3.6, overview: "60x72cm", overview1: "장지에 채색, 2022"},
+                            {order: 4, title: "보물찾기", name: "조민아", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/5-72x60.jpg`, width: 3.6, height: 4.32, overview: "72x60cm", overview1: "장지에 채색, 2022"},
                         ]
                     },
                     {
@@ -508,8 +512,8 @@ export const allExhibits_KOR = [
                             {order: 23, exhibit: "2006 ‘유스크리에이터 선정전’ 아트선재센터, 서울"},
                         ],
                         paint: [
-                            {order: 5, title: "작은 돌탑", imgname: "/2023/23-3/6-45.5x37.9.jpg", overview: "45.5x37.9cm", overview1: "장지에 분채, 2021"},
-                            {order: 6, title: "잉걸불01", imgname: "/2023/23-3/7-45.5x37.9.jpg", overview: "45.5x37.9cm", overview1: "장지에 분채, 2021"},
+                            {order: 5, title: "작은 돌탑", name: "서민정", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/6-45.5x37.9.jpg`, width: 3.79, height: 4.55, overview: "45.5x37.9cm", overview1: "장지에 분채, 2021"},
+                            {order: 6, title: "잉걸불01", name: "서민정", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/7-45.5x37.9.jpg`, width: 3.79, height: 4.55, overview: "45.5x37.9cm", overview1: "장지에 분채, 2021"},
                         ]
                     },
                 ],
@@ -518,13 +522,15 @@ export const allExhibits_KOR = [
                 order:4, 
                 type:"쉐마미술관 기획초대전", 
                 title:"방효성 기획초대전 《 脫  경계의  언어 》", 
-                time1: "2023/05/26 ~ 2023/06/25", 
-                artist1: "방효성", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2023/05/26 ~ 2023/06/25", 
+                artist: "방효성", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "방효성의 작업은 장소와 시간의 경계와 의식과 무의식, 엄숙함과 키치, 철학과 에피소드의 경계의 의미를 넘나 들며 무경계의 언어를 사용하고 있다. 창조질서에 따라 사유하는 모든 존재는 의미를 부여받고 태어나며 주어진 시간속에 그 의미를 발견하기도 하고 덧없이 사라지기도 한다. 가시적인것과 비가시적인 것이 공존하는 세상에서 가시적으로 비가시적인 것을 들어내는 작업을 한다. 모든 생명체나 물질세계에는 주어진 시간이 있다. 길고 짧을 뿐 영원한 것은 없으며 생성과 소멸을 반복한다. 작가는 탈 경계의 언어에서 공간과 시간속에 놓여 있는 모든 것들에 대한 사유를 이야기 하고 있다. 모든 것은 변한다. 시간에 의해. 지금의 시간속에 들어난 현상은 물질계와 정신계를 넘나들며 이야기 하고 있다. 지금이란 시간속에는 영원성도 포함 되어 있고 잠시후에 사라지기도 한다. 나는 추구하는것은 대상의 본질이 무엇인가를 오랜시간 고민한다. 본질은 인식 그 이전의 것으로 본질과 비 본질과의 사이엔 편견이 있다. 본질은 존재를 우선 할 수 없다. 존재는 존재와 부존재로 존재되지만 본질은 시간속에 정의 될 수 없는 순간의 인식에 지나지 않는다. 사물이든 정신적인 것이든 우리가 보고 느끼고 인식하는것은 무엇인가. 인식이란 불완전성과 착각.편견.부조리와 모호성등을 가지고 있다. 정신의 세계에 한 부분에 지나지 않는 물질의 세계가 자칫 눈에 보이는 현상에 대하여 정신 세계가 관념의 고착화로 인하여 본질을 흐리는 편견에 사로잡혀 있지는 않나 반문해 본다. 나의작업은 물질이 갖는 고유의 성질에 의미부여를 한다. 내가 갖는 사물이나 철학에 본질또한 나에게 해석된 또다른 본질 일 수 있다. 생성과 소멸을 반복해 하는 시간속에서 영원을 추구하는 본능적 욕구가 있다. 모든 것은 시간과 함께 소멸되어진다. 피투되어진 존재로서 나를 비롯한 모든 것들은 물질과 정신세계에서 가시적인것과 비 가시적인 관계속에 역학 구도를 이루고 있다. 정신적인것을 조형적인 어법으로 물질화 시키는 작업이다. 영원한 시간속에 놓여진 예술은 무엇을 보여주고자 하는것인지 생각해 본다. 순간에 존재하는 물질은 상상력의 옷을 입고 창작된 작품으로 존재 가치를지닌다. 이 존재 또한 소멸을 향하여 잠시 존재할뿐이다. 나의 작품속에 여러 가지 기호들이 차용되어 사용된다. 조형적 요소들은 이미지 채집을 통하여 잠재된 의식속에 떠오르는 것들을 기호적으로 표현한것들이 많이 있다. 인간은 서로의 소통을 위하여 기호체계를 만들어 사용한다. 모호 하기도한 소통불능의 기호가 쓰여지기도 한다. 조형적 이미지로 쓰여지는 것 들이다. 이번 전시는 기호체계가 갖는 정신적 소통에 대한 현상론에 바탕을 둔 것이다. 물질을 정신적인 것으로 또한 정신적인것을 물질적인 것으로 치환하는 작업이다. 드로잉과 약간의 설치물을 통하여 미니멀적인 작품 경향으로 이미지화된 물질. 그 물질이 갖는 정신적인 가치.구조를 보여주고자 한다. 싸르트르의 존재는 본질을 앞선다. 이것은 본질은 시간에 의해 변질되며 본질을 인식하는 것으로 존재의 의미를 부여한다. 하지만 인식은 불완전한것으로 시간속에 놓여진 과정중에 있다. 인식은 본질의 일부분이며 이성으로 세계 안의 범위속에 놓여져 있는 것이다. 존재는 있다 라는 사실이며 어떤 역할이나 성격.방향.등 무의미 속에 존재한다. 존재의 의미를 갖는 다는 것은 그것의 존재 본질이며 그 본질은 설명적이 된다. 모든 존재는 시간속에 변하며 본질도 변질된다. 본질은 용도에 의해 명명되어지고 명명된 언어에 따라 그 의미를 부여받는다. 용도를 모르거나 낯선 존재는 세계밖에 존재하는 것으로 설명되어질 수 있는 것이며 다른말로 무경험된 존재이다. 단 존재와 부존재는 상대가 있음으로 즉자와 대자와의 관계일 수 있다. 합리는 부조리의 부분 집합이다. 즉 완전한 인식이나 합리는 존재하지 않는다. 본질은 변하기 때문에 완전한 조합은 불가능 하다. 인간의 세계에서 언어와 감정은 소통의 불완전으로 말미암아 불완전한 인식체계로 소통되어질뿐이며 소통도 인식의 깨어진 부분이다. 우리는 다 안다. 이해된다. 라는 허구속에 당위성을 부여하며 소통의 완성을 꽤한다. 하지만 우리의 생각을 완벽하게 표현하는 언어는 존재하지 않는다. ‘말 할 수 없는 것들에 대하여는 침묵하라’ 라고 비트갠슈타인은 말하고 있다.",         
                 author: "방효성",
-                img: "/img/exhibitpage/posters/2023/23-4.png",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-4.png`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -564,11 +570,11 @@ export const allExhibits_KOR = [
                             {order: 24, exhibit: "2016 순천만 국제환경미술제 (순천만 국가정원 미술관. 순천)"},
                         ],
                         paint: [
-                            {order: 0, title: "회상하다", imgname: "/2023/23-4/1-56x78.jpg", overview: "56x78cm", overview1: "Acrylic on paper, 2021"},
-                            {order: 1, title: "시간여행", imgname: "/2023/23-4/2-52x76.jpg", overview: "52x76cm", overview1: "Acrylic on paper, 2021"},
-                            {order: 2, title: "순례자", imgname: "/2023/23-4/3-52x79.jpg", overview: "52x79cm", overview1: "Acrylic on paper, 2016"},
-                            {order: 3, title: "Over the there", imgname: "/2023/23-4/4-76x52.jpg", overview: "76x52cm", overview1: "Acrylic on paper, 2021"},
-                            {order: 4, title: "채집, 이스탄불 레스토랑", imgname: "/2023/23-4/5-102.4x68.4.jpg", overview: "", overview1: "2017"},
+                            {order: 0, title: "회상하다", name: "방효성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/1-56x78.jpg`, width: 4.68, height: 3.36, overview: "56x78cm", overview1: "Acrylic on paper, 2021"},
+                            {order: 1, title: "시간여행", name: "방효성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/2-52x76.jpg`, width: 4.56, height: 3.12, overview: "52x76cm", overview1: "Acrylic on paper, 2021"},
+                            {order: 2, title: "순례자", name: "방효성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/3-52x79.jpg`, width: 4.74, height: 3.64, overview: "52x79cm", overview1: "Acrylic on paper, 2016"},
+                            {order: 3, title: "Over the there", name: "방효성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/4-76x52.jpg`, width: 5.32, height: 3.64, overview: "76x52cm", overview1: "Acrylic on paper, 2021"},
+                            {order: 4, title: "채집, 이스탄불 레스토랑", name: "방효성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/5-102.4x68.4.jpg`, width: 3.84, height: 5.12, overview: "", overview1: "2017"},
                         ]
                     },
                 ],
@@ -577,13 +583,15 @@ export const allExhibits_KOR = [
                 order:5, 
                 type:"청주국제현대미술전", 
                 title:"《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
-                time1: "2023/06/30 ~ 2023/07/30", 
-                artist1: "김재관, 김재남, 김정희, 문상욱, 방효성, 서윤희, 심재분, 임은수, 최익규, 허은영, 제시 라만, 피터 반 슈페터, 아지트바르 쿠마르 더글라스, 라비 라잔, 창신, 첸 광, 하세가와 이치로, 우노 가츠유키, 타와차이 창퀴엔, 콩삭 굴굴랑돈, 유숩 하지페조비치", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "충청북도, 청주시, 충북지역개발회", 
+                time: "2023/06/30 ~ 2023/07/30", 
+                artist: "김재관, 김재남, 김정희, 문상욱, 방효성, 서윤희, 심재분, 임은수, 최익규, 허은영, 제시 라만, 피터 반 슈페터, 아지트바르 쿠마르 더글라스, 라비 라잔, 창신, 첸 광, 하세가와 이치로, 우노 가츠유키, 타와차이 창퀴엔, 콩삭 굴굴랑돈, 유숩 하지페조비치", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "충청북도, 청주시, 충북지역개발회", 
                 explanation: "올해는 쉐마미술관이 개관 14주년을 맞이한다. 지난 14년 동안 쉐마미술관은 지역의 대표적인 현대미술관으로 새로운 시대, 미래와 호흡하는 예술과 타 분야와 융복합 전시를 지향해왔다. 그리고 시대의 흐름과 사회의 현상을 반영하며 청주 지역의현대미술의 발전을 위한 다양한 주제전시와 국제교류 전시로 미술관의 정체성을 구축하고 지역을 넘어 우리나라의 대표적인 사립미술관으로 자리매김하였다. 2009년 개관 이후 쉐마미술관은 지금의 다양한 현대미술 전시를 진행하며 지역의 국제교류 센터의 역할을 하고자 노력하였다. 청주국제현대미술전은 2014년 11월 14일부터 진행된 제1회 청주국제현대미술전 ‘New ASIA·Sympathy & Difference’을 시작으로 10년의 서사가 시작되었다. 특히 국제교류전시는 이시종 도지사님의 예술을 사랑하고 청주에 대표적인 국제현대미술전이 생겨나길 바라는 염원에서부터 시작되었다. 충청북도와 청주시의 이런 관심과 후원이 없었다면 지금의 국제교류전 10년이 없었을 것이다. 10회 청주국제현대미술전을 맞이하면서 새삼 이시종 전 지사님의 결단으로 시작될 수 있어 다시 한번 깊은 감사의 의미를 새기고 싶다. 아울러 이번 10회 청주국제현대미술전시 개최에도 도움을 주신 충청북도 김영환 도지사님과 청주시 이범석 시장님께 다시 한번 감사드린다. ‘10년’을 영어로는 ‘Decade’라 한다. 이 말에는 깊은 메타포가 잠재되어 있다. 즉, 10년이라는 말에는 우리나라에서도 “십 년이면 강산도 변한다”는 말이 있듯이 서양에서도 “10년이면 새로운 패러다임이 시작된다”는 의미로 사용된다. 2014 제1회 – New ASIA · Sympathy & Difference 2015 제2회 – 90년대 田村·眞木시대 이후、한일현대미술·지금에 대하여 2016 제3회 – New dream New future 2017 제4회 – 혜초 이후 – 한국·인도 문화의 소통 2018 제5회 – 한·불 현대미술 ‘New Dialogue’ 2019 제6회 – 프랑스 국제교류전 ‘2019 New Dialogue’ 2020 제7회 – 한국·프랑스 Korean Artists 2021 제8회 – 한·일 국제교류전-다시 대화하는 풍토 2022 제9회 – 한·중 현대미술의 새로운 좌표 2023 제10회 – 청주국제현대미술 Decade의 회고와 새로운 미래의 전망 그동안 아시아교류전, 한·중·일전, 한·중전, 한·일전, 한국·인도전, 한국·네덜란드 교류전, 한국·보스니아 교류전, 한국·프랑스 교류전 등등 적지 않은 국제교류전을 진행해 왔다. 그러나 2020년 코로나 팬데믹이 시작하고는 전시 형태도 바뀌게 되고온라인 영상 매체를 이용하는 새로운 패턴으로 전시의 메커니즘이 변했다. 이런 힘든 시기를 지나 23년 청주 쉐마미술관의 국제교류전에 참여 작가들이 모두 모일 수 있게 되어 참으로 다행이라고 생각하며 기쁘게 생각한다. 이번 제10회 청주국제현대미술전은 한국작가 10명(김재관,김정희, 김재남, 서윤희, 심재분, 문상욱, 임은수, 최익규,방효성, 허은영)과 중국, 일본, 태국, 인도, 네덜란드, 보스니아에서 참여하는 11명(창 신(Cang Xin), 첸 광(Chen Gang),우노 가츠유키(Uno Kazuyuki), 하세가와 이치로(Hasegawa Ichirou), 콩삭 굴글랑돈(Kongsak Gulglangdon), 타와차이 창퀴엔(Thawatchai Changkwien), 아지트바르 쿠마르 더글러스(Ajitvar Kumar Douglas), 라비 라잔(Ravi Ranjan),피터제 반 스플런터(Pietertje van Splunter), 제시 라만(Jessy Rahman), 유숩 하지페조비치(Jusuf Hadẑifejzović)의 작가를 포함하여 21명의 아티스트가 참여하는 국제현대미술제이다. 2023 쉐마미술관이 국제현대미술전을 진행한지 10년을 맞이하여 너무 큰 경사가 아닐 수 없다. 이번 국제전의 외국 참여 작가 중에는 이미 국제적으로 명성을 지니고 있는 창신 Cang Xin(중국), 유숩 하지페조비치 Jusuf Hadžifejzović(보스니아) 등이 참여하고 있다. 한국작가 10명도 그동안 국제전에서 가장 창의성 있는 작가로 평가받았던 작가로 구성되었다. 그렇기 때문에 이번 전시는 지난 10년을 회고함과 동시에 새로운 10년을 기약하는 ‘Decade’가 될 것으로 믿어 의심치 않는다. 이 전시를 위하여 협력해 주신 충청북도와 청주시에 다시 한번 깊은 감사를 드린다.",         
                 author: "쉐마미술관장, 미술학박사 김재관",
-                img: "/img/exhibitpage/posters/2023/23-5.png",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-5.png`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -1095,13 +1103,15 @@ export const allExhibits_KOR = [
                 order:6, 
                 type:"후기 에스펙트전", 
                 title:"2023 후기 애스펙트 《아름답게 사유하는 예술》", 
-                time1: "2023/08/04 ~ 2023/08/20", 
-                artist1: "김재관, 임은수, 김영란, 심재분, 김성미, 최익규, 이경화, 최민건, 박진명, 오승언, 김로이, 김유진, 구명회, 우라카와 아츠코", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2023/08/04 ~ 2023/08/20", 
+                artist: "김재관, 임은수, 김영란, 심재분, 김성미, 최익규, 이경화, 최민건, 박진명, 오승언, 김로이, 김유진, 구명회, 우라카와 아츠코", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "2023. 후기 애스펙트전 -아름답게 사유하는 예술 2023년 후기 애스펙트 현대미술 동인회 에서는 ‘아름답게 사유하는 예술’이라는 주제로 전시를 기획하고자 한다. 현재 우리는 코로나의 위기에서 벗어나기도 전에 러시아와 우크라이나 전쟁의 소통돌이에서 또 다시 급속히 변화되는 사회를 직면하고 있다. 지구인 전체가 불안정한 미래에 대하여 위협감을 느끼고 있다.. 그럼에도 불구하고 우리는 이러한 총체적 문제와 현상을 직시하며 극복하고 받아들여 각자의 현실에 결합해 출구를 찾아야만 할 것이다. 삶은 어떠한 상황 속에서도 변화하고 지속되며 깊어지기 때문일 것이다. 불온한 현실에 삶의 의지를 불어넣는 생명력은 무엇일까? 각자의 자리에서 근원적 성찰이 필요하다고 할 수 있을 것이다. 미술생태계의 변종과 변이를 받아들이는 가장 큰 핵심으로 ‘아름답게 사유하는 예술로 새로운 시대를 만나다’ 라는 의미로 전시를 기획하고자 한다.",         
                 author: "",
-                img: "/img/exhibitpage/posters/2023/23-6.png",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-6.png`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -1388,13 +1398,15 @@ export const allExhibits_KOR = [
                 order:7, 
                 type:"쉐마미술관 기획전", 
                 title:"매끄러운 돌밭2", 
-                time1: "2023/09/01 ~ 2023/10/08", 
-                artist1: "금민정, 김 준, 옥승철, 이윤성", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "한국문화예술위원회, 시각예술창작산실", 
+                time: "2023/09/01 ~ 2023/10/08", 
+                artist: "금민정, 김 준, 옥승철, 이윤성", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "한국문화예술위원회, 시각예술창작산실", 
                 explanation: "인류의 조상들은 돌벽을 평평하게 만들어 그곳에 사냥을 기원하는 그림을 그렸다. 인류가 만들어낸 평면은 그 자체로 하나의 획기적인 진화의 수단이 되었고 평면 안에서 인류는 새로운 형이상학과 언어, 이미지를 상상할 수 있었다. 예술의 탄생 배경에는 이런 평면성이 자리하고 있다. 돌벽을 부수고 갈아 만든 평면이 흙과 나무를 거쳐 현재는 희토류를 기본 원자재로 하는 매끄러운 모니터가 되었다. 인류의 역사는 어쩌면 인간이 만들어내는 평면의 매끄러움의 감도에 따라 보인다고도 할 수 있다. ‘매끄러운 돌밭’ 전시는 물질세계와 형이상학의 세계는 [매끄러움-입자의 조밀함]과 어떤 연관이 있으며 이것은 현대미술에 어떠한 영향을 끼치고 있을 것인지 또한 현대미술 작가들은 이러한 인류 역사상 가장 매끄러운 평면을 가지고 있는 세대에서 여전히 물질세계의 부분으로 존재하며 어떠한 상호작용을 하며 작업을 하는지 살펴보는 전시이다. ‘매끄러운 돌밭 1’ 전시는 김만순, 김윤섭, 이병호, 조민선 네 명의 작가들을 통해 기본적으로 매끄러운 돌밭과 거친 돌밭을 동시에 사용하며 물질로 대표되는 몸을 이용하여 우리에게 이러한 방식은 어떠한 의의가 있으며 앞으로 어떤 방식으로 변화할지 시대의 눈을 크게 떠야 할 시기이며 고민해보는 전시였다. 23년으로 이어지는 매끄러운 돌밭 2 에서는 평면에서 희토류로 대표되는 모니터를 표면으로 하는 현대의 평면성에 대해 재고하는 전시이다. 이것은 고대로부터 이어진 인간이 만든 평면성에 대한 고찰을 미술의 영역으로 해석 가능한지 또한 그것을 이용하여 새로운 방법론으로 작업을 선보이는 작가들을 다루고자 한다. 금민정 작가는 모니터의 표면과 나무 그리고 돌과 같은 질료를 혼합하여 새로운 표면의 구성을 만드는데 주목한다. 그녀의 조각은 모두 자연에서 가져온 물성을 적극적으로 드러내는 역할을 함으로서 조각적 조각의 새로운 형태를 제시한다. 김 준 작가는 한국 1세대 미디어 아티스트로서 문신이라는 주제를 가지고 개인의 정체성이 표면으로 드러나는 표현의 문제를 가늠해왔다. 3D 프로그램으로 만들어지는 미디어 작품으로서 NFT 이전의 데이터 물성을 대표한다고 할 수 있다. 이윤성 작가는 동시대에 가장 활발히 활동하는 NFT 작가 중 한 명으로 오타쿠 문화를 신화에 대입하여 새로운 평면성의 신화를 창조하고 있는 작가이다. 그는 온라인 가상세계에 관한 끊임없는 관심으로 NFT 작업 활동에 첨단을 걷고 있다. 그리스 로마 신화와 전설에서 생산된 이야기를 모티브로, 망가, 모에화로 불리는 서브컬처 이미지에서 연유한 표현 방법을 형식으로 삼고 있다. 그리고 이러한 방법론을 그림의 주제와 형상뿐만 아니라 프레임의 형태와 크기, 조합 모듈과 구성 방식, 색채와 묘법에까지 폭넓게 활용하고 있다. 옥승철 작가는 캐릭터의 표정과 얼굴을 전면에 드러내는 대형 회화와 조각작품을 진행하며 그것이 온라인과 가상환경에 어떠한 매게 상황을 만드는지 실험하고 있는 작가이다. 여러 장르와의 콜라보레이션으로도 유명한 작가는 평면의 새로운 실험을 다양한 형태의 콜라보 작품으로 변환시킨다. 현대에 있어서 평면성은 그다지 희소한 공간이 아니다. 하지만 새롭게 확장된 평면성의 개념은 온라인을 넘어서 데이터로의 변환으로까지 그 물성을 달리하며 진행되고 있다. 우리는 변하고 있는 새로운 질료로 현대미술 작품들이 어떠한 상호반응을 보이며 관객과 소통하는지도 주목해보며 참여작가 금민정, 김 준, 이윤성, 옥승철 네 명의 작가의 작품을 통해 현대의 평면성에 대해 재고해보고자 한다.",         
                 author: "쉐마미술관 큐레이터 한영애",
-                img: "/img/exhibitpage/posters/2023/23-7.png",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-7.png`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -1626,13 +1638,15 @@ export const allExhibits_KOR = [
                 order:8, 
                 type:"쉐마미술관 기획전", 
                 title:"숨을 위한 시간 (Time for Breath)", 
-                time1: "2023/10/13 ~ 2023/11/12", 
-                artist1: "임은수", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2023/10/13 ~ 2023/11/12", 
+                artist: "임은수", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "‘숨을 위한 시간(Time for Breath)’ 나의 예술표현 활동은 내 몸과 정신의 통로를 기준으로 삼는다. 공간 속 생명 에너지를 받아들여, 생명 의지를 잃은 공간에 연결해 치유와 회복에 참여하는 실천 과정이다. ‘숨을 위한 시간(Time for Breath)’은 자연의 에너지를 불러내어 이어주는 생명 회복과 치유에 관한 이야기다. 자연 속에서 쉼 없이 부유하는 생명 입자를 화면으로 옮겨 드로잉 하거나 자연물을 설치하고 에너지를 채집하는 상징적인 행위를 한다. 치유를 의미하는 주제를 통해 취약한 공간에 생명 에너지를 이어주는 퍼프먼스, 설치, 드로잉 작품들로 구성된다. 숨을 위한 시간(Time for Breath)’ 전시를 통해 불안한 시대를 살아하는 사람들에게 치유와 힘이 되는 계기가 되길 희망한다.",         
                 author: "",
-                img: "/img/exhibitpage/posters/2023/23-8.png",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-8.png`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -1688,13 +1702,15 @@ export const allExhibits_KOR = [
                 order:9, 
                 type:"쉐마미술관 결과보고전", 
                 title: "2023년 지원사업 결과보고전", 
-                time1: "2023/11/17 ~ 2023/12/10", 
-                artist1: "김라연, 이자연, 김동우, 최민솔", 
-                location1: "쉐마미술관 대전시실", host1: "쉐마미술관", support1: "", 
+                time: "2023/11/17 ~ 2023/12/10", 
+                artist: "김라연, 이자연, 김동우, 최민솔", 
+                location: "쉐마미술관 대전시실", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "‘풍경유람’은 우리 지역의 현대미술 작가인 김라연 작가와 함께 작가의 접근법인 산책을 하며 발견한 소소한 이야기를 기록하고 어떤 상황 속 장소의 분위기를 오브제와 색채를 이용하여 위트있는 현대미술의 ‘풍경 감정’을 표현해보는 프로그램입니다. ‘히든 스페이스’ 프로그램은 문화예술교육사와 함께 미술관 소장품을 활용한 현대미술의 ‘기하학적 추상화’ 키워드를 주제로 한 프로그램 입니다. ‘쉐마미술관 아틀리에’ 프로그램은 세 명의 현대미술작가를 통해 세상을 함께 바라보고 감상, 공감의 시간을 통해 새로운 시각적 표현으로 예술적 창작 활동의 시간을 통해 자신만의 고유함과 특별함을 발견하게 되는 자기 찾기 프로그램입니다. ‘쉐마미술관 아틀리에’ 프로그램은 세 명의 현대미술작가를 통해 세상을 함께 바라보고 감상, 공감의 시간을 통해 새로운 시각적 표현으로 예술적 창작 활동의 시간을 통해 자신만의 고유함과 특별함을 발견하게 되는 자기 찾기 프로그램입니다.",         
                 author: "",
-                img: "/img/exhibitpage/posters/2023/23-9.png",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-9.png`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -1788,13 +1804,15 @@ export const allExhibits_KOR = [
                 order:10, 
                 type:"쉐마미술관 청년 작가 기획전", 
                 title: "2023 불안정한 가능성 -청년신생작가 전시", 
-                time1: "2023/11/17 ~ 2023/11/28, 2023/11/29 ~ 2023/12/10", 
-                artist1: "김세은, 김수완, 김유빈, 서지연, 신해인, 오은정, 윤선재, 이도훈, 이하늘, 진형준, 권소영, 기 유, 김도훈, 김지훈, 심규봉, 이승지, 임재현, 정영훈, 정지용, 한예진, 홍명기", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2023/11/17 ~ 2023/11/28, 2023/11/29 ~ 2023/12/10", 
+                artist: "김세은, 김수완, 김유빈, 서지연, 신해인, 오은정, 윤선재, 이도훈, 이하늘, 진형준, 권소영, 기 유, 김도훈, 김지훈, 심규봉, 이승지, 임재현, 정영훈, 정지용, 한예진, 홍명기", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "쉐마미술관은 자신의 정서적 내면을 그림으로 다잡아 가는 젊은 예술가들과 이제 막 졸업하거나 새로운 시작을 앞둔 신생 작가들에게 기회를 주고자 하며 지속적인 지역 예술의 균형과 예술 생태계 구축을 위해 매년 청년 작가들 기획전을 진행합니다. 2023 불안정한 가능성 展은 청년 작가들의 적극적인 작업 태도와 실험정신, 도전정신을 지지하며 지역 청년 예술가들에게 새로운 도전의 기회가 되어 우리 지역의 예술 생태계가 만들어지길 희망하는 전시입니다. Unstable Possibility가 의미하는 것처럼 청년 작가들은 불안정하지만, 무한한 가능성을 담고 있습니다. 불안정한 이성과 세계에 대한 자기만의 인식을 다양한 방법으로 시각화하며 각자의 일상과 살아가는 개인들의 이야기들에서부터 우리가 살아가는 세상과 예술에 대한 사유들을 작품에 담아내는 청년 작가들의 전시를 통해 새로운 가능성을 엿보려 합니다. 이제 막 졸업을 하고 자신이 맞닿은 단면과 예술가적 시선은 그들을 둘러싼 환경과 작가의 의식이 결합해 새로운 창작품을 만들어 내며 자신의 정서적 내면을 그림으로 다잡아 가는 젊은 예술가들의 시선에 주목하려 합니다. 단편적인 소재를 가지고 삶의 단면을 드러내며 자신의 세계를 구축해 가는 1부 김세은, 김수완, 김유빈, 서지연, 신해인, 오은정, 윤선재, 이도훈, 이하늘, 진형준 2부 권소영, 김도훈, 김지훈, 심규봉, 이승지, 기유, 정영훈, 정지용, 한예진, 홍명기 작가 총 20명의 청년 작가를 소개하려 합니다.",         
                 author: "",
-                img: "/img/exhibitpage/posters/2023/23-10.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-10.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -2118,13 +2136,15 @@ export const allExhibits_KOR = [
                 order:11, 
                 type:"쉐마미술관 기획초대전", 
                 title:"‘괴산의 그림쟁이’ 황창배 작고 22주기 기획초대전", 
-                time1: "2023/12/15 ~ 2024/01/28", 
-                artist1: "황창배", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2023/12/15 ~ 2024/01/28", 
+                artist: "황창배", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "황창배는 서울대학교 미술대학 동양화과 및 동 대학원을 졸업했다. 명지전문대학교, 동덕여자대학교, 경희대학교, 이화여자대학교에서 교수를 역임했으며, 제24회, 25회 대한민국 미술전람회 특선, 제26회 대한민국 미술전람회 문화공보부장관상(<秘31>출품), 제27회 대한민국미술전람회 대통령상(<秘51>출품), 1987년 선 미술상, 1991년 토탈미술상, 2019년 석재문화상을 수상하였다. 서울, 밀라노, 보스톤, 파리 등에서 9회의 개인전을 개최하였고, 전각협회전, 일연회전, 국립현대미술관, 서울시립미술관, 호암갤러리 외 다수의 그룹전 및 초대전을 개최하였다. 그의 작품은 청와대, 국회의사당, 국립현대미술관, 서울시립미술관 등에 소장되어있다.",         
                 author: "황창배",
-                img: "/img/exhibitpage/posters/2023/23-11.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-11.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -2174,13 +2194,15 @@ export const allExhibits_KOR = [
                 order:1, 
                 type:"쉐마미술관 소장품전", 
                 title:"쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
-                time1: "2022/01/27 ~ 2022/02/27", 
-                artist1: "김서연, 김영배, 김재관, 문상욱, 박영대, 박진명, 심명희, 심재분, 유석규, 임성수, 임은수, 전년일, 정명희, 조현애, 한영섭, 허문정", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2022/01/27 ~ 2022/02/27", 
+                artist: "김서연, 김영배, 김재관, 문상욱, 박영대, 박진명, 심명희, 심재분, 유석규, 임성수, 임은수, 전년일, 정명희, 조현애, 한영섭, 허문정", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "쉐마미술관은 2022년 소장품 전시 ‘이성과 감성이 만든 공간’展을 통해 자기표현의 한 방법인 현대미술로 작가의 정신적 욕망인 감성을 이성의 작용으로 조화시켜 보여주는 소장 작품을 선보인다. 현대미술에서 감성이란 작가의 강력한 욕구와 창조성을 말하고, 이성은 감성을 실현할 수 있는 지적 능력과 테크닉의 기술을 의미한다. 이성과 감성은 현대미술에서 절대적 상호관계를 지켜왔고 작품들은 언제나 이성과 감성의 그 사이에서 우위를 반복하며 진행되고 있다. 참여 작가는 김서연, 김영배, 김재관, 문상욱, 박영대, 박진명, 심명희, 심재분, 유석규, 임성수, 임은수, 전년일, 정명희, 조현애, 한영섭, 허문정 16명의 작가가 참여하며 형식이 전혀 다른 작품들로 구성되며 이성과 감성의 공감을 일으키는 소장 작품 전시이다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-1.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-1.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -2467,13 +2489,15 @@ export const allExhibits_KOR = [
                 order:1, 
                 type:"쉐마미술관 기획초대전", 
                 title:"쉐마미술관 기획초대전 - 김연희 개인전 'ACCEPT 받아들이다'", 
-                time1: "2022/03/04 ~ 2022/04/24", 
-                artist1: "김연희", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2022/03/04 ~ 2022/04/24", 
+                artist: "김연희", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "김연희 작가는 자신의 회화에서의 상징적 이미지를 ‘명상적 개념’에서 찾고자 한다. 작가의 화면에는 흑과 백이 공존하며 화면 안에는 단순함의 묘미에 무게를 두게 되며 추상 작업에서 쓰던 네모를 발전시켜 공간 구성에 활용 작업을 한다. 작가는 네모 안에 우주를 담아내고자 하는데 그 색은 검정 흑색이다. 흑의 세계에는 모든 색이 섞여 있어 다른 어떤 색보다 응축된 힘과 아름다움 담고 있다고 한다. 작가에게 먹의 색은 아크릴로 만들어 쓰는 표본 색으로 그동안 김연희 작가의 일련의 작품의 형식에서 볼 수 있듯이, 작품은 대부분 독자적 연구를 통해서 습득하고 후기 현대미술의 사조로서 풍미했던 ‘미니멀 아트’와 ‘모노크롬 회화’, ‘개념미술’ 등의 정신을 공유하려고 노력하였음을 볼 수 있다. 이러한 사상은 물질문명 중심의 서구적 시각에서 동양사상의 정신, 이데아가 새로운 중요한 대안으로 부상되어지는 ‘한국적 모노크롬 회화’의 기저가 되어졌음을 볼 수 있다. 현대미술에서는 색과 구도의 절제, 단순화 시키면서 동양적 사유인 ‘무위(無爲)’와 불교의 ‘공(空)’ 사상의 영향으로 화면의 여백과 공간성의 중시하는 현상이 나타나게 된다. 김연희 작가의 회화의 순수성의 배경은 이러한 동양적 사상을 미적 가치의 형상화의 배경으로 수용되어지고 있음을 알 수 있다. 이러한 개념이 작가 정신의 회화 속에 수용, 확장 되어지며 물성과 매체가 중첩되어서 우연성의 형태로 작품의 이미지에 용해되고 있음을 보게 된다. 김연희 작가의 작품의 기호는 작품 전체에 배열되어 상징적, 서정적 이미지로 나타나며 묵시적 의미를 전달하게 된다. 작가가 표현기법으로 차용하고 있는 ‘플로잉(Flowing)’ 기법과 ‘오토마티즘(Automatism)’ 기법이 자유롭게 의도된 물성으로 화면을 구성하는 조형성으로 적용되고 있음을 볼 수 있다. 2015년 이후 작품들, 문자 추상 작품에서 볼 수 있듯이 70년대 초 ‘사물 자체로서의 미술(object art)’의 대안적 방법으로 선택한 ‘언어’와 ‘이념’을 ‘예술’과 ‘진술’의 대안으로 제시했던 컨셉츄얼 작가들의 ‘언어’와 ‘문자’에도 매료되었음을 볼 수 있다. 이러한 언어적 기술(記述)이 검은 단색화의 표상으로 결정되어짐을 보게 된다. 대형 모노크롬 작품으로 형상과 바탕 사이의 관계, 모호한 방형에 가까운 색면을 색채의 미묘한 조화로 자신의 미학을 발전시키는 방법을 기저로 삼아 회화라는 매체를 재해석하고 그 영역을 확장시키지 않았나 생각된다. 이들 작가들의 작품은 대부분 물성과 매체가 중첩되어 우연한 효과로 화면이 구성되어짐을 볼 수 있는데, 이와 같이 특징이 작품 속에 적용되면서 물감이 캔버스 안에서 밀고 당기고 이러한 중력에 의해 화면 위에서 밀도감과 속도감의 궤적을 갖게 되고 화면에 자연스러운 형태의 여백이 형성되어지는데, 이러한 현상을 김연희 작가는 자신의 독창적인 색채 기법으로 진화시켜 나갔음을 볼 수 있다. 김연희 작가는 자신의 의지로, 자신의 넘쳐흐르는 생명력으로, 자신만의 작품세계를 만들고 그 속에 의미와 아름다움을 부여한다. 가장 단순한 구성 색, 면, 선이 각기 다른 여백 속에서 큰 울림을 가져오는 2022 쉐마미술관의 기획초대 된 김연희 작가의 Accept 전시에는 2016부터 최근 작품 30여 점의 작품을 감상할 수 있다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-2.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-2.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -2505,13 +2529,15 @@ export const allExhibits_KOR = [
                 order:2, 
                 type:"쉐마미술관 개인전", 
                 title:"박용수 개인전 ‘울림소리’", 
-                time1: "2022/03/05 ~ 2022/04/25", 
-                artist1: "박용수", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2022/03/05 ~ 2022/04/25", 
+                artist: "박용수", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "소리는 울림이다. 물건들은 저마다의 소리를 가지고 있다. 세상은 소리로 가득 차 있다. 현재의 모양과 상태로 물건들은 각자의 소리를 들려주지만 스피커의 모양으로 변화되면 더 좋은 소리를 만들 수 있다. 각기 다른 모양, 재질, 구조로 인하여 스피커는 독특한 음색을 갖는다. 이 스피커들은 재료에 따라 각각의 울림소리는 전부 다르게 울려 퍼진다. 일상품으로 만들어지는 일상의 소리, 여러 가지 재료로 만들어지는 융합의 소리, 새롭게 쓰임을 준 재생의 소리, 쓰임이 끝난 물건에서 부활의 소리, 그리고 떨림에 의한 진동의 소리, 이 모든 울림소리가 행복소리이다. 知之者不如好之者 아는 것은 좋아하는 것보다 못합니다. 好之者不如樂之者 좋아하는 것은 즐기는 것만 같지 못합니다. 樂之者不如福之者 즐거움도 행복함에 따라 갈 수 없습니다. 福之者不如生之者 행복도 생명이 없으면 아무것도 아닙니다. 生之者不如愛之者 생명도 사랑 없으면 아무것도 아닙니다. 愛之者不如和之者 사랑은 평화로 완성됩니다.", 
                 author: "박용수 작가",
-                img: "/img/exhibitpage/posters/2022/22-3.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-3.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -2537,13 +2563,15 @@ export const allExhibits_KOR = [
                 order:3, 
                 type:"쉐마미술관 후기 에스펙트전", 
                 title:"2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
-                time1: "2022/06/03 ~ 2022/06/26", 
-                artist1: "김재관, 임은수, 장백순, 김영란, 심재분, 김성미, 최익규, 이경화, 박진명, 최민건, 오승언, 김로이, 한희준, 원영미, 김유진", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2022/06/03 ~ 2022/06/26", 
+                artist: "김재관, 임은수, 장백순, 김영란, 심재분, 김성미, 최익규, 이경화, 박진명, 최민건, 오승언, 김로이, 한희준, 원영미, 김유진", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "이 전시는 청주 지역의 현대미술을 선도하는 미술 단체로 가장 대표적인 그룹 ‘애스펙트 현대미술동인회’가 주관하는 전시로 ‘새로운 미술의 변종과 변이’의 주제 전시이다. 후기 애스펙트 현대미술 동인회 15명의 작가는 급격히 변화하는 자연과의 공존, 현재의 문제와 현상을 직시하며 코로나-19의 그늘에 가린 지난 시간을 극복하고 받아들여 각자의 현실에 결합해 출구를 찾아가고자 한다. ‘2030 축의 전환’의 저자, ‘마우로 기옌 와튼스쿨’은, 코로나19는 끝나지 않는다. 세계는 더 심오하고 거대한 질적 전환을 맞이한다고 언급하였다. 또한, 찰스 다윈은 ‘생명은 생존을 위해 환경에 적응하고 변화한다.’라고 말했다. 이에 대응이라도 하듯 팬데믹 시기에 우리 사회에 많은 변화가 생겼고, 생존을 위해 새로운 방법들을 모색해야만 하는 시기가 되었다. 이번 전시에는 후기애스펙트 현대미술 동인회원 김재관, 김로이, 김성미, 김영란, 김유진, 박진명, 심재분, 오승언, 원영미, 이경화, 임은수, 장백순, 최민건, 최익규, 한희준 15명의 작가가 참여한다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-4.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-4.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -2846,13 +2874,15 @@ export const allExhibits_KOR = [
                 order: 4,  
                 type:"쉐마미술관 SM-Smash#1", 
                 title:"SM-Smash#1: Data Material", 
-                time1: "2022/08/10 ~ 2022/09/08", 
-                artist1: "강재원, 강주형, 이승훈, 한재열", 
-                location1: "Decentraland(57,-83)", host1: "쉐마미술관", support1: "문화체육관광부, 한국문화예술위원회", 
+                time: "2022/08/10 ~ 2022/09/08", 
+                artist: "강재원, 강주형, 이승훈, 한재열", 
+                location: "Decentraland(57,-83)", 
+                host: "쉐마미술관", 
+                support: "문화체육관광부, 한국문화예술위원회", 
                 explanation: "본 프로젝트 ‘SM Smash’는 지역적 한계를 넘어서 쉐마미술관의 기획과 작가관을 세계적인 무대로 옮기는 초석이 되는 작업이다. 지역 미술관은 지리적 한계와 수도권 중심으로 벌어지는 문화예술 활동에 큰 제약이 있는 것이 사실이다. 피지컬-오프라인에서의 기획과 더불어 온라인으로는 갑자기 떠오른 블록체인 신대륙인 메타버스에 쉐마미술관의 컨셉 공간을 구축하여 쉐마미술관의 실험적 기획을 메타버스 공간에 노출하고 지역과 중앙을 아우르는 현대미술 작가들을 소개하려고 한다. SM Smash 체인점 형식 플랫폼은 마치 맥도널드가 세계로 뻣어 나간 페스트푸드점이 된 것과 같이 쉐마미술관의 NFT 본점이 되며 분점화시키고자 한다. ‘Schema art museum – SM Smash’ 공간에서는 세 개의 이벤트를 진행 예정이다. 1. 디지털 회화, 디지털 조각을 연구하는 SM-Smash#1, 2. 참여형프로젝트와 퍼포먼스 공간 SM-Smash#2, 3. 아카이빙과 이벤트를 통해 네트워크를 확장하는 SM-Smash#3 세 개의 이벤트 중 ‘SM-Smash#1 : Data Material’ 은 SM Smash 첫 전시로서 데이터를 물성으로 가지는 작품들 중 메타버스에 최적화된 형태의 연구가 진행되고 있는 회화, 조각작가를 소개하고 전시구성을 진행하려 한다. 미술의 질료로서 데이터가 가지는 특성을 활용하거나 작품의 목적에 맞는 형태로 데이터 질료로 리메이크 하는 작품들은 동시대 현대미술작가들에게는 하나의 커다란 환경적 변화이자 화두라고 생각한다. 우리는 환영을 적극 가동시키는 메타버스 플랫폼에서 이러한 선도적 작가들의 작품을 소개하려 한다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-5.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-5.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -2923,13 +2953,15 @@ export const allExhibits_KOR = [
                 order: 5,  
                 type:"쉐마미술관 청주국제현대미술전", 
                 title:"2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
-                time1: "2022/06/30 ~ 2022/07/31", 
-                artist1: "김재관, 박승순, 박영학, 박진명, 방효성, 이규식, 진익송, 최민건, 하명복, 창신, 덩상동, 무레이, 이신모, 이자신, 장정정, 저우빈, 주이밍, 진젠룽", 
-                location1: "", host1: "쉐마미술관", support1: "", 
+                time: "2022/06/30 ~ 2022/07/31", 
+                artist: "김재관, 박승순, 박영학, 박진명, 방효성, 이규식, 진익송, 최민건, 하명복, 창신, 덩상동, 무레이, 이신모, 이자신, 장정정, 저우빈, 주이밍, 진젠룽", 
+                location: "", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "제9회 청주국제현대미술전 – ‘한·중 현대미술의 새로운 좌표’전시는 올해로 9년째를 맞이하는 청주의 대표적인 국제교류전으로 쉐마미술관은 지역을 넘어 국제미술의 활발한 교류를 통해 세계미술의 다양성과 고유성의 문제와 해체되고 변화하는 지금의 현대미술의 흐름을 확인하는 플랫폼의 역할과 소통의 공간으로 나아가고 있다. 이번 전시는 코로나-19라는 세계의 혼돈 시간을 지나 한국과 중국의 중견 작가와 청년 작가 18명이 참여하며 다양한 매체, 다양한 질료의 실험을 통해 개개인의 예술세계와 현대미술 전반의 변화를 살펴보고 조망해보는 소통의 전시이다. 이번 전시에 참여하는 한국 작가들은 청주를 연고로 활동하는 김재관, 박영학, 박진명, 이규식, 진익송, 최민건 작가와 한국의 대표적 추상회화 중견 작가 박승순, 하명복 작가와 한국을 넘어 세계적 퍼포먼스 작가로 알려진 방효성 작가가 참여한다. 중국 작가는 세계적인 퍼포먼스 작가 창 신(Cang Xin)작가가 커미셔너로 참여하며 창 신(Cang Xin) 작가가 추천한 퍼포먼스 작가 덩상동(Deng Shangdong), 저우빈(Zhou Bin), 이신모(Li xinmo), 주이밍(Zhu Yiming), 영상 무레이(Mulei), 장정정(Zhang Zengzeng), 사진 이자신(Li Jiaxin), 진젠룽(Jin Jianrong)작가가 참여한다. 특히 9명의 중국 작가 중 8명의 영상, 퍼포먼스, 사진작가는 중국의 거대한 시대의 변화와 혼돈 속의 자본 사회, 급격한 도시화와 경제성장, 중국의 자연 생태계 환경적인 현상을 비판하고 기록하며 작가들의 뚜렷한 예술관을 보여주는 작품을 선보이고 있다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-6.gif",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-6.gif`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -3288,13 +3320,15 @@ export const allExhibits_KOR = [
                 order: 6,  
                 type:"쉐마미술관 개인전", 
                 title:"김성미 개인전 ‘숲의 잔상’", 
-                time1: "2022/08/06 ~ 2022/08/28", 
-                artist1: "김성미", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "충청북도, 충북문화재단", 
+                time: "2022/08/06 ~ 2022/08/28", 
+                artist: "김성미", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "충청북도, 충북문화재단", 
                 explanation: "쉐마미술관은 무더운 여름 김성미 작가의 12번째 개인전 ‘숲의 잔상’ 展을 준비하고 있다. 작가의 작업에 모티브가 되는 ‘숲’은 삶에 ‘생명력과 치유’의 의미이다. 인간의 삶의 터전이자 휴식처이기도 한 숲은 작가에게 자연이 주는 영감으로 다가온다. 김성미 작가에게 ‘숲’은 시각적 ‘숲’을 넘어 ‘숲’이 가지고 있는 비밀과 기록, 인류가 새로운 문명으로 발전하며 새로운 역사를 만들어 가며 필연적으로 파괴하고 자연과 멀어짐을 경고한다. 우리가 예상하지 못했던 여러 가지 사회적, 자연적 문제들은 이번 전시에서 푸른색의 추상 평면 작업과 영상 작업을 통해 보여준다. 작가에게 숲이란 존재로서, 생명으로서 외부 세계를 직면하게 되며 작가가 느끼는 자연에 대한 동경과 갈망, 안타까움은 미묘한 세계와 관계하게 되며 여러 번 색이 레이어 되고 물감 흡수되며 마르면서 남게 되는 흔적들은 작가가 생각하는 세계관의 상호작용을 보여주는 추상회화를 선보이게 된다. 이번 전시는 작가는 최근 몇 년 동안 계속해서 숲을 모티브로 하여 시간에 따라 변화되는 모습을 모두 담아내고 있다. 우리들의 삶이 그렇듯이 세월의 변화를 수용하며 그 안에 작가 개인의 삶이 투영되는 은유적 표현을 통해 작가가 바라보는 ‘숲’을 감상하는 전시가 될 예정이다. 캔버스 평면을 넘어 디지털 작업으로 확장된 시간의 변화와 흔적의 구현을 통해 ‘자연과 함께 하는 삶’을 찾는 계기가 되기를 기대해 본다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-7.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-7.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -3322,13 +3356,15 @@ export const allExhibits_KOR = [
                 order: 7,  
                 type:"쉐마미술관 매끄러운 돌밭", 
                 title:"매끄러운 돌밭", 
-                time1: "2022/09/02 ~ 2022/10/09", 
-                artist1: "김만순, 김윤섭, 이병호, 조민선", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "한국문화예술위원회, 시각예술창작산실", 
+                time: "2022/09/02 ~ 2022/10/09", 
+                artist: "김만순, 김윤섭, 이병호, 조민선", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "한국문화예술위원회, 시각예술창작산실", 
                 explanation: "인류의 조상들은 돌벽을 평평하게 만들어 그곳에 사냥을 기원하는 그림을 그렸다. 인류가 만들어낸 평면은 그 자체로 하나의 획기적인 진화의 수단이 되었고 평면 안에서 인류는 새로운 형이상학과 언어, 이미지를 상상할 수 있었다. 예술의 탄생 배경에는 이런 평면성이 자리하고 있다. 돌벽을 부수고 갈아 만든 평면이 흙과 나무를 거쳐 현재는 희토류를 기본 원자재로 하는 매끄러운 모니터가 되었다. 인류의 역사는 어쩌면 인간이 만들어내는 평면의 매끄러움의 감도에 따라 보인다고도 할 수 있다. 물질세계와 형이상학의 세계는 [매끄러움-입자의 조밀함]과 어떤 연관이 있으며 이것은 현대미술에 어떠한 영향을 끼치고 있을 것인지 또한 현대미술 작가들은 이러한 인류 역사상 가장 매끄러운 평면을 가지고 있는 세대에서 여전히 물질세계의 부분으로 존재하며 어떠한 상호작용을 하며 작업을 하는지 살펴보고자 이 전시를 기획했다. 우리는 어쩌면 돌로 상징되는 물질의 입자와 그것으로 인해 파생된 형이상학과 상상력의 세계를 가장 조밀한 형태로 이해하고 있지 않을까? 생각한다. 김윤섭 작가는 이미지의 홍수 속에서 이미지들을 수집하고 그것들을 하루하루 아카이빙하며 그날의 현대미술을 캔버스 화면에 조합해 [오늘의 현대미술 시리즈]를 제작한다. 그는 물질이 아닌 스크린으로 소비되는 현대미술의 이미지를 전유하여 새로운 화면구성을 만들어내고 그것을 회화적 회화의 방식으로 구현해낸다. 이병호 작가는 유일하게 입체 작업을 하는 작가로서 새로운 조각을 만들기 위한 도구로 먼저 3D 프로그램으로 스케치를 한다. 스케치 된 입체 폴리곤은 다시 물질로 옮겨지며 분할되어 각 부분이 서로 다른 재료로 다시 조립되며 제작된다. 그는 이 과정에서 발생하는 재료의 충돌과 대비를 적극적으로 받아들이며 새로운 조형성을 가진 조각을 제작한다. 조민선 작가는 형이상학적 상상력의 세계를 가장 조밀하게 보여줄 수 있는 작가가 아닐까 생각한다. 작가는 작품을 통해 상호 의존적 이지만 또 독립된 개체로서 끊임없이 관계 맺는 인간의 양가적 모습을 담아내고 있다. 관계 맺음으로부터 오는 다양한 상황, 복잡한 감정들을 설치, 영상, 인터렉티브 등의 다양한 매체를 사용해 시각화한다. 주로 프로그래밍, 영상 맵핑 등의 기술을 이용한 인터랙티브 설치 작업으로 보여주며 사진이나 회화를 접목한 작업도 보여주며 데이터에서 다시 물질적 작업으로 회귀하는 이러한 작업의 형식으로도 보여준다. 이처럼 현대의 작가들은 기본적으로 매끄러운 돌밭과 거친 돌밭을 동시에 사용하며 물질로 대표되는 몸을 이용하여 다시 작품을 제작한다. 우리에게 이러한 방식은 어떠한 의의가 있으며 앞으로 어떤 방식으로 변화할지 시대의 눈을 크게 떠야 할 시기이다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-8.gif",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-8.gif`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -3486,13 +3522,15 @@ export const allExhibits_KOR = [
                 order: 8,  
                 type:"쉐마미술관 SM-Smash#2", 
                 title:"SM-Smash#2 : We are Happening", 
-                time1: "2022/09/19 ~ 2022/10/17", 
-                artist1: "디오라마비방씨어터 송주호 감독", 
-                location1: "Decentraland(57, -83)", host1: "쉐마미술관", support1: "문화체육관광부, 한국문화예술위원회", 
+                time: "2022/09/19 ~ 2022/10/17", 
+                artist: "디오라마비방씨어터 송주호 감독", 
+                location: "Decentraland(57, -83)", 
+                host: "쉐마미술관", 
+                support: "문화체육관광부, 한국문화예술위원회", 
                 explanation: "본 프로젝트 ‘SM Smash’는 지역적 한계를 넘어서 쉐마미술관의 기획과 작가관을 세계적인 무대로 옮기는 초석이 되는 작업이다. 지역 미술관은 지리적 한계와 수도권 중심으로 벌어지는 문화예술 활동에 큰 제약이 있는 것이 사실이다. 피지컬-오프라인에서의 기획과 더불어 온라인으로는 갑자기 떠오른 블록체인 신대륙인 메타버스에 쉐마미술관의 컨셉 공간을 구축하여 쉐마미술관의 실험적 기획을 메타버스 공간에 노출하고 지역과 중앙을 아우르는 현대미술 작가들을 소개하려고 한다. SM Smash 체인점 형식 플랫폼은 마치 맥도널드가 세계로 뻗어 나간 페스트푸드점이 된 것과 같이 쉐마미술관의 NFT 본점이 되며 분점화시키고자 한다. 쉐마미술관의 온라인 메타버스 분점인 SM-Smash에서 디지털 미디어의 가능성을 실험했던 첫번째 전시인 <Data Meterial> 이후 두번째 전시를 진행한다. 두번째 전시인 <Wa are Happening> 전은 메타버스 플랫폼을 이용한 퍼포먼스 분야의 실험적 전시를 보여준다. 관객들은 세계최대 메타버스 플랫폼인 디센트럴랜드 Decentraland를 통해 새로운 극의 세계로 들어가게 된다. 디센트럴랜드 내에 존재하는 SM-Smash 매표소를 찾아(57,-83) 새로운 메타버스 공간인 메타베리 Metaberry에 입장하게 되는 이런 전시 형식은 국내에서 처음 이루어지는 메타버스 간 이동 전시이며, 메타버스 플랫폼의 확장과 네트워크의 가능성을 통해 새로운 형태의 극 예술의 가능성을 보여준다. 이번 전시를 위해 초대된 디오라마비방씨어터 Diorama Vivant Theatre의 송주호 감독은 특유의 아날로그적 감성을 토대로 확장된 극의 형태를 디자인하고 실험한다. 관객들은 마치 매표소를 지나 극장으로 들어가 현대예술의 전위에 서있는 새로운 극을 함께 경험할 것이다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-9.gif",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-9.gif`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -3533,13 +3571,15 @@ export const allExhibits_KOR = [
                 order: 9,  
                 type:"쉐마미술관 기획 초대전", 
                 title:"구자승·장지원 夫婦展 ‘테이블 위의 정물과 숨겨진 次元’", 
-                time1: "2022/10/14 ~ 2022/11/13", 
-                artist1: "구자승, 장지원", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2022/10/14 ~ 2022/11/13", 
+                artist: "구자승, 장지원", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관",
+                support: "", 
                 explanation: "구자승 작가(1941~, 서양화가)는 한국 극사실주의 1세대 작가로 동양적 세계관의 사유 공간을 통해 절제된 정물화 작품을 보여준다. 구자승 작가는 1941년 태어나 홍익대학교 미술대학 회화학과 및 동 교육대학원을 졸업하고 1978년 선화랑 첫 개인전을 시작으로 44년 동안 끝없는 작품 활동을 하고 있다. 장지원 작가(1946~, 서양화가)는 꽃, 새, 나무들의 소재들로 마음속에 숨겨진 자연을 은유하며 작가의 심상적 세상을 지금도 치열한 자기와의 싸움을 통해 작품을 하고 있다. 구자승, 장지원 작가는 1986년부터 충주 남한강 변으로 작업실을 옮기면서 충주에서 작업을 시작하였고 구자승 작가가 상명대학교 은퇴 후 2007년 지금의 작업실을 신축하며 충북에서 현재까지 작업 활동을 하고 있다. 이번 쉐마미술관에서의 구자승, 장지원 부부 전시는 지역의 원로작가이며 부부 작가라는 특별한 시너지가 있는 전시이다. 두 작가는 서로 교감하고 자극을 주는 동료로서 한국 화단에 굵직한 자취를 남겼다고 말할 수 있다. 두 부부 작가의 화풍은 다르지만, 작품에 소재인 꽃은 두 부부의 상통되는 부분이다. 치열한 작가의 세상에 두 부부가 서로를 지지하며 지원하며 반평생 작업을 하며 새로운 조형적인 해석의 아름다움과 동양의 사유의 공간 그리고 동양적 시각으로 각자의 독특한 작업 세계를 구축하고 확장해 왔다. 구자승 작가는 극사실주의에 가까운 정물화를 그리는데 글라스, 술병, 꽃병, 꽃, 궤짝 등과 같은 평범한 모티브들이 구자승 작가의 그림의 주인공이 된다. 이러한 대상들은 섬세함과 빛의 반사효과 등으로 각각의 만남과 조화를 이루고 많은 사물을 의도적으로 화폭 중심에 몰아놓고 그대로 재현하거나 옮겨 놓는 작업이 아니라 절제된 시간의 흐름을 보여준다. 절제된 작가의 정물화에서는 아름다움을 넘어 치열한 작가의 정신세계까지 엿볼 수 있다. 장지원 작가는 자연의 숨겨진 차원을 작가만의 심상적 풍경으로 보여준다. 작가의 작업에 등장하는 꽃, 새, 나무 등의 소재들은 한지를 이용해 기초 작업을 하며 오려 붙이기를 반복하고 그 위에 칠하고 긁어내고 또다시 한지를 붙이며 두꺼운 마티에르 효과로 원하는 형태를 만들고 아크릴, 오일, 파스텔, 색연필 등 다양한 재료를 사용해 자유롭게 표현된다. 작가는 자연에서 인간의 본질을 들여다보며 치유와 행복의 세계, 위로와 평안의 세계를 보여준다. 쉐마미술관에서 진행되는 이번 구자승, 장지원 기획 초대 부부 전시는 충북의 리얼리즘의 거장 구자승 작가의 44년 동안의 작품세계와 장지원 작가의 40여 년의 작품 세계가 서로를 마주 보며 숨 쉬는 전시이다. 반평생 서로를 응원하며 교감하며 작업했던 두 원로 부부 작가의 작품세계를 쉐마미술관에서 10. 14 ~11. 13 일까지 감상할 수 있다. 한국 리얼리즘 최고의 작가로 부동의 자리를 지키고 있는 구자승 작가의 ‘숨 쉬는 정물화’와 자연의 심상적 풍경을 따뜻한 소재들로 보여주는 또 다른 정물화의 세계를 보여주는 장지원 작가의 ‘숨겨진 次元’ 작품을 통해 1세기 이전의 사실주의의 미학적 조형성과 심상적 표현을 찾아보며 독창적이며 아름다운 정물화의 매력에 빠져보는 전시가 될 예정이다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-10.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-10.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -3604,25 +3644,29 @@ export const allExhibits_KOR = [
                 order: 10,  
                 type:"쉐마미술관 SM-Smash#3", 
                 title:"SM-Smash#3 - SMASH ARCHIVE", 
-                time1: "2022/11/01 ~ 2022/11/30", 
-                artist1: "강재원, 강주형, 이승훈, 한재열, 디오라마비방씨어터 송주호 감독", 
-                location1: "Decentraland(57, -83)", host1: "쉐마미술관", support1: "문화체육관광부, 한국문화예술위원회", 
+                time: "2022/11/01 ~ 2022/11/30", 
+                artist: "강재원, 강주형, 이승훈, 한재열, 디오라마비방씨어터 송주호 감독", 
+                location: "Decentraland(57, -83)", 
+                host: "쉐마미술관", 
+                support: "문화체육관광부, 한국문화예술위원회", 
                 explanation: "쉐마미술관의 세번째 메타버스 전시 ‘SM-SMASH#3 : SMASH ARCHIVE’ 는 SM-Smash#1, SM-Smash#2를 잇는 링크 공간이자 아카이빙 공간으로서 프로젝트와 전시 후기 등의 다양한 소통의 창구 역할을 한다. 우리의 두 체인 점을 이어주는 연결로이자 매개의 공간으로서 SM-Smash에 유동성과 확장을 주는 공간이 될 것이다. 이 곳은 전시 활동 과정에서 이루어진 도록과 발간물 등과 예술가들의 포트폴리오를 볼 수도 있는 공간으로 디자인하려 한다. 사람들은 각 공간의 링크로 들어갈 수 있고 예술가들은 이곳에서 아이디어 공유와 함께 메타버스 안에서 전 세계의 작가들과 교류를 할 수 있을 것이다. 우리의 목표는 SM-Smash#3 공간을 통하여 전 세계에 한국의 젊은 작가들의 작품을 보여주고 각자의 메타버스 스튜디오 공간을 만드는 것을 도와 하나의 예술 거리로 만들려고 한다. 한국의 여러 작가들의 메타버스 스튜디오 제작과 정보 공유를 이곳에서 도와주고 교류함으로서 부동산 같은 개념의 정보 교류의 장이 되었으면 한다. 또한 다양한 예술체험 이벤트를 만들어 세계의 사람을 대상으로 한국의 예술을 체험 할 수 있는 기회를 주는 등 공지를 통한 참여를 확대하고자 한다. 작가 커뮤니티와 자유로운 참여 활동의 독려를 위한 여러 이벤트를 기획하고 진행할 예정이다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-11.jpg",
-                artist: [],
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-11.jpg`,
+                artist_info: [],
             },
             {
                 order: 11,  
                 type:"쉐마미술관 지원사업 결과보고전", 
                 title:"2022 지원사업 결과보고전 ‘뜬구름잡기 + 조각주머니’", 
-                time1: "2022/11/19 ~ 2022/12/04", 
-                artist1: "백솔뫼, 신용재", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "충청북도, 충북문화재단 충북문화예술교육지원센터", 
+                time: "2022/11/19 ~ 2022/12/04", 
+                artist: "백솔뫼, 신용재", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "충청북도, 충북문화재단 충북문화예술교육지원센터", 
                 explanation: "2022 쉐마미술관은 지역 작가와 함께 미술관의 교육프로그램을 협업하고 쉐마미술관의 고유성을 소재로 다양한 문화예술교육을 진행하였습니다. 쉐마미술관이 만들어가는 문화예술교육프로그램은 지역의 작가와 함께 일반 학교 교육과는 차별성을 가지며 다양한 연령들이 함께 만들어가는 맞춤 문화예술교육을 진행하고자 노력하고 있습니다. 이번 결과보고 전시는 지역의 대표적인 하늘 기록 작가인 신용재 작가가 함께한 꿈다락토요문화학교 지원사업 – ‘뜬구름잡기’와 추상 조각 작가인 백솔뫼 작가와 함께 1년간 진행된 유아문화예술교육의-‘조각주머니’ 진행 내용과 과정을 아카이브 형태와 전시 형태로 진행되는 결과 보고전입니다. 전시는 모든 프로그램의 참여자들로 사회예술교육의 중요성과 미술관의 역할을 다시 한번 생각해보며 쉐마미술관이 공공 문화공간으로 시민들과 소통하는 공간으로 자리잡는 시간의 전시라고 생각합니다. 어느 해 보다 활기차며 참여 가족과 어린이들이 열정을 느낄 수 있었던 문화예술교육 결과 보고전시에 여러분을 초대합니다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-12.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-12.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -3667,13 +3711,15 @@ export const allExhibits_KOR = [
                 order: 12,  
                 type:"쉐마미술관 불안정한 가능성", 
                 title:"2022 불안정한 가능성", 
-                time1: "2022/11/19 ~ 2022/11/26, 2022/11/27 ~ 2022/12/04", 
-                artist1: "김기태, 손 별, 윤승원, 전상희, 최규봉, 김준후, 이유승, 이준우, 장윤희, 전치훈", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2022/11/19 ~ 2022/11/26, 2022/11/27 ~ 2022/12/04", 
+                artist: "김기태, 손 별, 윤승원, 전상희, 최규봉, 김준후, 이유승, 이준우, 장윤희, 전치훈", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "2022 ‘불안정한 가능성’ 展에 참여하는 작가들은 이제 막 졸업하거나 새로운 시작을 앞둔 신생 작가들이 참여한다. 쉐마미술관은 매년 지속적인 지역 예술의 밸런스 구축을 위해 청년 작가들에게 기회를 주고자 하며 신진작가들의 작업 열정을 격려하고자 한다. ‘불안정한 가능성’ 展에 참여하는 청년 작가들의 적극적인 작업 태도와 실험정신, 도전정신을 지지하며 지역 청년 예술가들에게 새로운 도전과 기회가 되어 우리 지역의 예술 생태계가 만들어지길 희망해 보는 전시이다. 불안정한 가능성 전시는 1부 2부로 진행되며 ‘불안정한 가능성 1’ 전시는 김기태, 손 별, 윤승원, 전상희, 최규봉 작가가 참여하며 2부 불안정한 가능성 2’ 전시에는 김준후, 이유승, 이준우, 장윤희, 전치훈 작가 총 열 명의 작가가 참여한다. 특히 Unstable Possibility가 의미하는 것처럼 작가들은 불안정하지만 무한한 가능성을 담고 있다. 작가들은 불안정한 이성과 세계에 대한 자기만의 인식을 다양한 방법으로 시각화하며 각자의 일상을 살아가는 개인들의 이야기들에서부터 우리가 살아가는 세상과 예술에 대한 사유들을 작품에 담아낸다. 이런 사유와 고민은 불안정하지만 새로운 세계를 만들어 가고 있다. 불안정한 가능성 1부 전시에 참여하는 김기태 작가는 자연스럽게 흘러가는가는 삶을 찾아가고 싶다고 한다. 그런 물음을 ‘선인장’을 통해 찾으려 한다. 작가에게 선인장은 편안함을 주면서도 동시에 수많은 가시는 개인의 아픔이기도 하며 삶을 찾으며 겪는 아픔과 고난이기고 하다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2022/22-13.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2022/22-13.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -3866,13 +3912,15 @@ export const allExhibits_KOR = [
                 order:1, 
                 type:"쉐마미술관 쉐마국제미술상 수상작가 초대전", 
                 title:"제3회 쉐마국제미술상 수상작가 초대전 ‘몸 이후의 창신’", 
-                time1: "2021/01/06 ~ 2021/02/14", 
-                artist1: "창신", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2021/01/06 ~ 2021/02/14", 
+                artist: "창신", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "쉐마미술관은 쉐마국제미술상(The Schema International Best Artist Award) 수상을 진행하며 청주 지역의 가장 대표적인 현대미술관으로서 새로운 현대미술의 정보를 제공하고 창의적인 작품전을 기획하여 세계 현대미술의 흐름을 확인하는 플랫폼의 역할을 하고자 한다. 그런 의미에서 매년 쉐마미술관에서 기획한 각종 국제행사에 참여하고 국제적으로 가장 활발하게 작가 활동을 해온 대표적 예술가를 선정하여 상패와 상금을 수여하고 있다. 이번 전시회는 수상 작가 <창신 특별전>으로 2021년 쉐마미술관의 첫 번째 전시로 열리게 된다. 쉐마국제미술상 역대 수상작가 2018년 제 1회 쉐마국제미술상 – 수상작가 : Jusuf Hadẑifejzović / Bosnia And Herzegovina 2019년 제 2회 쉐마국제미술상 – 수상작가 : 김재남 Kim, Jae-nam / Korea (R. O. K.) 2020년 제 3회 쉐마국제미술상 – 수상작가 : 창신 Cang Xin / China 제 3회 쉐마국제미술상(The 3rd Schema International Best Artist Award) 수상 작가 「창신(Cang Xin)」은 시대정신 ‘Fluxes 운동’, ‘해체주의’, ‘Cyber 미학의 정신’이 추구하는 정신에 선도적으로 실행하는 중국 현대미술을 대표하는 작가라 말을 할 수 있다. 그는 드로잉, 오브제, 설치, 퍼포먼스 등으로 중국에서뿐만 아니라 미국, 영국, 한국 등 세계 각지에서도 매우 활발하게 활동하고 있다. 그의 작품 ‘천인합일(天人合一)’ 퍼포먼스, ‘북방적 낭만주의’ 제작품, ‘기화승초(奇花昇草)’ 오브제 설치 작품, 드로잉(素描) 시리즈 작품들은 하나하나가 그의 천재적 작가의 모습을 보여주기에 충분한 작품들이다. 2009년 쉐마미술관 김재관 관장님과 우연히 만난 후, “不期而遇” 展 <베이징 사면공간 갤러리, 2010>, “和異不同” 展 <청주 쉐마미술관, 2011>, “必然的 偶然” 展 <베이징 사면공간 갤러리, 2012> 등 몇 차례의 기획전을 함께 하였고 베이징과 청주를 오가며 교류하였다. 특히 2017년 쉐마미술관 특별전으로 열린 4개국 국제교류전 “새로운 미술로서의 기억과 상상” 전에 중국을 대표하는 작가로 선정되어 참가하였다. 2020 한·중 국제미술교류전 遭遇与相处(조우여상처), “우연히 만나 다시 함께 떠나다” 전시에서도 중국 커미셔너로 Cang Xin이 참여하였다. 두 작가의 관계는 작품을 넘어 작가의 정신적 교감으로 이어져 교류하고 있으며 자신만의 정체성을 확고하게 이어나가고 있다. 이번 초대전에서 창신 작가의 2003년 작품부터 20년도 퍼포먼스 영상까지 모두 13점의 작품을 감상할 수 있다. 유감스럽게도 이 뜻깊은 행사에 ‘코로나-19’ 팬데믹으로 인하여 창신 작가가 참석할 수 없다는 것이 매우 안타깝다. 그렇지만 우리는 곧 다시 만날 수 있다는 희망과 기대를 한다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2021/21-1.gif",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2021/21-1.gif`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -3919,13 +3967,15 @@ export const allExhibits_KOR = [
                 order:2, 
                 type:"쉐마미술관 개인전", 
                 title:"심재분 개인전 ‘인드라얄라 : 연’", 
-                time1: "2021/03/18 ~ 2021/04/25", 
-                artist1: "심재분", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2021/03/18 ~ 2021/04/25", 
+                artist: "심재분", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "비욘드 연(蓮) (Beyond Lotus): 2021년 쉐마미술관의 첫 번째 기획초대전 ‘심재분 작가’의 ‘인드라얄라:연’ 전시는 작가가 2018년부터 최근까지 찍은 64점의 ‘연꽃’ 사진 작품들을 선보이는 전시이다. 현대미술에서 사진은 ‘기록과 재현’이라는 기본 속성을 넘어 개성적 표현이 가능해지며 작가가 대상을 어떻게 선택하느냐, 또 어떻게 보느냐에 따라 표현 가능성이 다양해지며 확장되고 있다. 심재분 작가는 ‘연꽃’을 사진에 카메라에 담으며 작가의 심층적 내면에 있는 무의식과 상상의 세계로까지 표현 영역을 확장하고 ‘연꽃’이라는 대상을 단순한 재현이 아닌 대상의 내적 표현을 찾으려 수년 동안 기록하며 깨달음의 정신적 세계로 나가는 수행으로 이어지고 있다. 전시 타이틀인 인드라얄라(Indrjala)는 이런 작가의 생각을 고스란히 담고 있다. 인드라얄라(Indrjala)는 산스크리트어로 인드라의 그물을 뜻한다고 한다. 고대 인도 신화에 따르면 인드라 신이 사는 선견성(善見城) 위의 하늘을 덮고 있고 일종의 무기로 그물코마다 보배 구슬이 박혀 있고 거기에서 나오는 빛들이 무수히 겹치며 신비한 세계를 만들어 낸다고 한다. 불교에서는 끊임없이 서로 연결되어 온 세상으로 퍼지는 법의 세계를 뜻하는 말로 쓰이며 인드라망은 불교에서 세상을 바라보는 관점이기도 하다. 심재분 작가는 ‘인드리얄라 : 연’展에서 ‘연꽃’이라는 대상을 넘어 작가만의 인드라망을 통해 인간 세상의 모습을 바라보고 있다. 우리는 저 혼자 살아가는 것 같지만 실제로는 서로 연결돼 있고, 서로가 서로를 비추고 더 나아가서는 세상과 인간과의 관계로까지 밀접한 관계 속에 존재를 재현하기 위해 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 담으며 느껴지는 초현실적인 사실을 작품화하고 또 다른 이미지를 재현하고 있다. 이번 전시에서 대상의 본질을 꿰뚫어 자신의 언어로 다시 재현한 ‘원초적 순수’, ‘순수의 정화’, ‘존재의 그림자’, ‘집착의 타락’, ‘초췌한 고뇌의 형상’, ‘균형과 형상을 찾아서’, ‘자유로운 영혼의 승화’ 시리즈 작품과 설치 작품 ‘Chaos’를 선보일 예정이다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2021/21-2.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2021/21-2.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -3947,13 +3997,15 @@ export const allExhibits_KOR = [
                 order:3, 
                 type:"쉐마미술관 기획전", 
                 title:"스튜디오 (STUDIO)", 
-                time1: "2021/04/29 ~ 2021/06/06", 
-                artist1: "김현묵, 나일 크레이븐, 신용재, 이선구, 최재영", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "충청북도, 청주시", 
+                time: "2021/04/29 ~ 2021/06/06", 
+                artist: "김현묵, 나일 크레이븐, 신용재, 이선구, 최재영", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "충청북도, 청주시", 
                 explanation: "스튜디오란 작가들이 작업을 생산하는 장소이자 사유하는 장소이며 움직이는 장소를 대표한다. 쉐마미술관은 쉐마미술관의 안과 밖을 어우르는 장소로서의 스튜디오를 미술관으로 대체 하려 한다. 청주 내수의 아름다운 시골에 위치한 쉐마미술관은 야외와 화이트큐브를 모두 갖춘 장소로서 다섯 명의 작가들에게 스튜디오-전시장을 내어주려 한다. 작가들은 이곳의 내 외부에서 벽이나 혹은 야외에서 작품의 영감을 느끼고 이곳에서 작업을 진행한다. 이는 작가 개인의 ‘스튜디오’ 확장이자 대체로서 작가 스스로가 다른 장소성을 느끼며 새로운 작품을 생산하고 그 현장성을 생생하게 기록하고 작품화하려는 목적을 가지고 있다. ‘스튜디오(STUDIO)’ 전시는 작가들의 작업을 생산하고, 사유하고, 움직이는 장소를 청주 내수의 아름다운 시골에 위치한 야외와 화이트큐브를 모두 갖춘 장소인 쉐마미술관에 스튜디오-전시장을 내어주어 청주에서 활동하고 있는 다섯 명의 작가들에게 쉐마미술관의 내 외부, 벽 혹은 야외에서 작품의 영감을 느끼고 이곳에서 작업을 진행하고자 한다. 참여 작가는 청주 지역에서 활동하는 김현묵, 나일 크레벤, 신용재, 이선구, 최재영 다섯 명의 작가들로 쉐마미술관의 내부와 외부를 연결하는 하나의 매개체이며 작가들이 쉐마미술관을 새로운 작품이 탄생하는 장소이자 스튜디오로서 또한 이곳에서 발생한 작품들로서 전시를 진행하며 점유하는 전시이다. 특히 이번 전시에 참여하는 다섯 명의 작가들은 작업에 대한 열정과 참신한 아이디어와 이들이 지니는 무한한 잠재력과 앞으로 발전해 나갈 수 있는 실험과 도전 그리고 작업의 정체성을 탐색하며 동시대의 담론과 다각적인 시각적 조형 작품으로 소통하고자 한다. 쉐마미술관에서 기획한 이번 ‘스튜디오(studio)’ 전시는 확장되고 있는 현대미술에서 장소성에 대한 물음과 실험적인 창작 공간 역할의 매개체가 되고자 한다. 현대미술에서 ‘장소’는 많은 의미를 부여하고 우리에게 새로운 영감을 주었고 지금도 현재 진행형으로 진행되고 있다. ‘스튜디오(studio)’ 전시에서 장소의 이미지는 바로 곧 정체성이며, 개인적 또는 집단적, 사회적으로 만들어지고 있다. 각자의 ‘정체성’ 찾으며 만들고 있는 지역의 젊은 작가들 김현묵, 나일 크레벤, 신용재, 이선구, 최재영이 참여하는 이번 전시는 작가들에게 쉐마미술관이라는 새로운 공간을 부여함으로 유기적인 관계를 맺고 있는 화이트 큐브와 외부 환경이 작가들에게 각기 다른 기억과 영감이 마주하여 회화와 설치까지 다양한 매체로 형상화되는 전시이다. 작가들은 작업에 대한 열정과 참신한 아이디어와 이들이 지니는 무한한 잠재력과 앞으로 발전해 나갈 수 있는 실험과 도전 그리고 작업의 정체성을 탐색하며 동시대의 담론과 다각적인 시각적 조형 작품 전시는 지역의 현대미술의 새로운 발판을 마련하게 될 것으로 예상한다.", 
                 author: "쉐마미술관 큐레이터 / 한영애",
-                img: "/img/exhibitpage/posters/2021/21-3.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2021/21-3.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
@@ -4106,13 +4158,15 @@ export const allExhibits_KOR = [
                 order:4, 
                 type:"쉐마미술관 기획 초대전", 
                 title:"조현애 개인전 ‘Time Layer II’", 
-                time1: "2021/06/10 ~ 2021/07/11", 
-                artist1: "조현애", 
-                location1: "쉐마미술관", host1: "쉐마미술관", support1: "", 
+                time: "2021/06/10 ~ 2021/07/11", 
+                artist: "조현애", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
                 explanation: "조현애 회화 : 가상세계의 공간과 시간 구성: 새로운 생각은 어떻게 만들어지는가? 새로운 작품을 구상하고 작업과정을 거치고 작품을 완성해야 하는 작가들에게는 늘 새로운 생각과 작업에 대한 고민이 그칠 새 없다, 빈 캔버스는 현실의 세계와 대면하고 있는 또 다른 세계이기 때문이다. 그래서 개념미술가 이우환 작가는 하얀 캔버스에 붓질이 찍히는 순간 현실의 세계와 또 다른 세계가 처음으로 만나는 순간이라고 정의하였다. 그러한 철학사상이 기저가 되었기 때문인지 이우환 화백의 작품 명제는 대부분 ‘만남’ ‘조우(遭遇)’로 되어 있다. 건축가 유현준 저서 <공간이 만든 공간>에는 “빈 공간은 빛보다 먼저 존재한다. 어두운 땅 위에 하나님께서 빛이 있으라 이르시며 빛이 있었다.” 라는 구절이 있다. 영어 성경에 ‘비어 있다’는 ‘Void’라 표기되어 있다. 과학적 사고가 거의 없던 초기 문명사회 시절에는 신이 세상을 창조할 때 ‘빈 공간’인 ‘보이드 공간을 먼저 창조하고 그 이후 ’빛‘을 창조했다고 생각했다. 그것은 빈 공간이 없으면 빛조차 존재할 수 없음을 말함이다. 천재 물리학자 아인슈타인은 그가 발견한 ‘상대성 원리’에서 ‘빈 공간’을 인정하지 않는다. 그 이유는 그는 ‘빈 공간’(공기)도 물질로 정의하였기 때문이다. 그와 마찬가지로 현대미술에서 피카소의 ‘큐비즘’은 원근법을 해체시켜서 자연주의적 명암을 거부하고 환영적 공간을 없애버렸기 때문에 큐비즘의 작품에는 빈 공간이 없다. 지난 2015년 그림손 갤러리 개인전에 작품에 대하여 필자는 이렇게 말하였다. 첫째, 작가 고유의 창조적 이미지를 가져야 한다. 둘째, 그림의 내용이 반드시 서술적으로 이루어져야 할 필요가 없다. 그것은 비대상적이던 비구상적이던 비재현적이던 상상력을 유발할 수 있어야 한다. 셋째, 은유적이어야 한다. 작품에서 은유란 언어적이던 시각적이던 연관성이 있어야 한다. 이 세 가지 특징은 지금도 똑 같이 적용되는 말일 것이다. 결국 조현애의 새로운 회화는 이미지의 해체를 전제로 한 평면회화로부터 이미지를 회복시키면서 새로운 소재를 구사하게 되고 새로운 공간과 시간을 구성하여 표현하는 문제로 관심이 바뀌게 되었음을 볼 수 있다. 이차원 평면 위에 시각적 은유를 만들어내며 은유 속에 담긴 연상을 만들어내고 있는데, 여기서 등장하는 이미지들은 화면 공간 속에서 시간을 뛰어넘어 동시에 재현되고 있기 때문에 ‘공간과 시간의 구성’이라는 특징으로 설명할 수 있을 것 같다. 포스트모더니즘 이후의 특징에서 가장 다원적 구조의 복잡한 양식으로 감성(sensibility)을 중요한 표현성으로 수용하고 있다. 다원적 구조의 복잡한 양식의 특징은 analogy(類推), metaphor(隱喩), symbol(象徵), allegory(寓喩, 寓話)에 의해 묘사된 관념과 상황 그리고 체험과 일치하려고 한다. 이것은 새로운 의미와 가치에 대한 인정에서 부상되어지면서 생태학적 감성의 표현, 미래의 문제에 관심, Modernist의 무미건조한 양식에서 탈피, 자유로운 방식으로 전환된다. ‘빈 공간’의 문제나 ‘감성’의 문제나 이러한 요소들이 조현애의 작품을 형성하는 주요한 요소로 작동하고 있지 않나 생각한다. 파울 클레는 “예술이란 눈에 보이는 것의 재현이 아니며, 눈에 보이지 않는 것을 보이게 하는 겻이다.”라고 하였다. 결국 회화는 클레의 말처럼 눈에 보이지 않는 세계를 재현하는 것이다. 그리고 재현된 이미지는 아무리 똑 같이 그렸다 해도 실제가 ‘아닌’ 것이 분명하다. 조현애의 작품세계는 표본작가로 ‘르네 마그리트’와 ‘샤갈’을 떠올릴 수 있다. 재현의 문제에 있어서 샤갈의 작품세계는 초현실주의적이며 대상의 존재와 실재에 대한 탐구이고 보이는 것과 보이지 않는 것의 문제이며 현실과 환영의 문제 즉 시(視)·지(知)각의 문제라 한다면, 마그리트의 작품세계는 ‘말과 이미지’의 문제라 규정할 수 있을 것 같다. ‘말과 이미지’는 서술에 있어 단어를 대신할 수도 있고 때로는 회화에 쓰여진 이름들을 정확히 가리키기도 하고 모호하게도 하고 경우에 따라서는 반어적 메타포를 지니기도 한다. 그렇기 때문에 마그리트는 회화에서 ‘이미지’와 ‘물’과 ‘언어’의 문제를 최초로 제시한 작가로 평가되고 있다. 조현애 작품의 특징은 화면에 이미지를 설정할 ‘빈 공간’을 우선 설정한다. 그 다음 마그리트처럼 ‘이미지’와 ‘물’과 ‘언어’를 어떻게 구성할 것인가 생각하는 것 같다. 얼마 전까지 대부분의 작품들이 이미지의 해체를 전제로 한 평면회화로부터 이미지를 회복시키면서 새로운 소재를 병합시키고 새로운 공간과 시간을 구성하는 문제로 관심이 바뀌고 있음을 볼 수 있다. 이차원 평면 위에 시각적 은유를 만들어내며 은유 속에 담긴 연상을 만들어내는데 그치지 않고 ‘오브제’를 병합시킴으로 해서 ‘이미지’와 ‘물’과 ‘언어’가 화면 공간 속에서 시간을 뛰어넘어 동시에 재현되고 있기 때문에 새로운 ‘공간과 시간의 구성’이라는 특징으로 설명할 수 있을 것 같다. 미술사가 와이트(Kit White)릐 말처럼 “이미지라는 것은 추상적이다.” 그리고 “이미지는 그곳에 나타난 물건 그것이라는 것은 아니라는 것이다. 전에 그곳에 있었던 ‘物’의 개념적 또는 기계적인 복제물인 것입니다. 당연한 일 같아 보이지만, 그것은 우리들이 ‘物’을 지각하는 방법이랑 이미지를 사용할 때의 태도와 깊이 연관되어 있는 것이다. 繪畵는 여러 가지 형태를 Symbolic 하게 집약한 것에서, 그것이 의식되어지던 되어지지 않던 간에 그것은 언제나 ‘Metaphor’라는 것이다. 그것은 메타포라는 상징적 언어의 Media 로서 이고, 아트의 언어라는 것이다.” 조현애의 회화는 10여 년 전까지는 모더니즘의 추상미술의 범주에 머물러있었다, 그러나 평면에 대한 이해와 ‘빈 공간’을 인식하면서 완전히 포스트모더니즘 이후의 새로운 작품으로 탈바꿈하였음을 알 수 있다. 2015년 그림손 갤러리 개인전, 2020년 금보성 미술관 개인전에서는 계속 변화하고 발전하는 모습을 보여주고 있다. 특히 최근 작품에서는 이미지와 오브제의 결합으로 만들어지는 공간과 시간의 문제뿐만 아니라, 현대미술에서 점점 중요시 되는 생태학적 감성의 표현, 미래의 문제에 관심으로 확산시켜 더욱 자유로운 방식으로 확장될 수 있을 것으로 기대한다.", 
                 author: "김재관 / 미술학 박사, 쉐마미술관 관장",
-                img: "/img/exhibitpage/posters/2021/21-4.jpg",
-                artist: [
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2021/21-4.jpg`,
+                artist_info: [
                     {
                         order: 0, 
                         number: "01",
