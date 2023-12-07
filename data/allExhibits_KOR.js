@@ -23,7 +23,7 @@ export const allExhibits_KOR = [
                         title: "이고운 기획초대전 '정원의 자장가'", 
                         name: "이고운", 
                         engname: "Goun Lee",
-                        imgname:`/2023/23-1/23-1-1.png`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-1/23-1-1.png`, 
                         text: "이고운의 작업은 삶의 하루하루에서부터 시작한다. 일상을 고스란히 기록하는 것은 아니지만 어디에 머무르며 무엇을 보고 느끼는지가 중요하다. 작가는 동시대의 첨예한 담론, 거시적인 이슈들과는 살짝 거리를 두고 외부적 요인으로 발생하는 상념으로부터 자유로운 상태를 담으려 노력한다. 처음에는 세계 속 존재인 자신에게 집중했다. 먼발치의 눈밭 그리고 여성. 멀리 보이는 바다와 그 위의 사람들. 자연을 배경으로 생성되는, 현실과 환상이 맞닿은 듯한 몽환적 분위기는 이고운의 작업 초기부터 최근까지 지속되는 특징이다. 달무지개뿐 아니라 비와 눈, 구름 같은 날씨에 관한 기억, 봄과 겨울 같은 계절의 분위기, 현실임에도 현실을 벗어난 것 같은 낯선 풍경 등은 작가의 내면과 외부 세계를 연결 짓는 상상의 시작점이 된다. 눈과 비를 배경으로 ‘구름나무’와 하나가 된 얼굴을 가진 사람들은 구름처럼 자유로운 사유를 가능하게 하는 상상의 공간에 머무르는 것 같다. 정체성을 가장 명확히 드러내는 얼굴이 사라진 존재는 사회 규범과 통념이 규정한 한정된 개인을 벗어나게 한다. 사실 눈이 쌓이고 비가 오는 상황들은 일상에서 자주 일어난다. 그러나 신비로운 변화들이다. 무엇보다 눈과 비는 현실 속에서 현실을 벗어나게 해준다. 선명한 시야를 방해한다. 경계를 흐릿하게 해 여지를 남기고 정서에 영향을 끼친다. 세상은 명명백백한 구획을 요구한다. 그러나 모든 구획을 지워버리고 싶을 때가 있다. 현실에 닿은 두 발을 살짝 떼고 몽상의 시간을 갖게 하는 비와 눈이다. 미지의 시공간은 그렇게 상상된다. 결혼하고 어머니가 된 뒤 이고운은 아이들에게 자장가를 불러주듯 그림을 그리게 되었다. 특별히 의도하거나 계획한 것은 아니었다. 어머니가 된 여성의 노동이나 현실적 고충을 다루기 위한 것도 아니었다. 자기에게 집중할수록 작가의 머릿속에는 아이와 관련된 이미지들이 떠올랐다. 물이 흘러가고 계절이 바뀌듯 자연스러운 일이었다. 작품 속 장난감은 상상을 직조하는 훌륭한 소재로 작동한다. 아이와의 기억을 담은 작품들이 밤을 배경으로 하는 이유 역시 상상과 연결된다. 눈과 비가 오는 시간이 그렇듯 밤에는 날카로운 경계가 흐릿해진다. 신비로운 밤의 기운은 나른한 편안함을 제공하고 낮 동안의 번잡함과 스트레스로부터 자유로운 고요함을 선사한다. 무엇보다 아이에게 밤은 잠을 자고 꿈을 꾸는 시간이다. 작가는 아이가 어떤 꿈나라에 들어설지 상상해본다. 작가는 꿈의 시간을 그려본다. 아이의 꿈과 작가의 상상이 교차한다. 작가는 그렇게 몽상에 빠진다. 몽상은 생각하는 자아(cogito)의 활동이다. 몽상가들은 존재의 아래, 무(無) 위에 위치한 영혼의 상태이자 현실과 비현실의 매개 지대를 탐색하며 시적 몽상을 유발하는 의식의 주인이다. 몽상은 무의식의 활동인 꿈이 아니다. 몽상은 의식의 빛이 그 안에 지속되는 정신 활동이다. 의식은 몽상을 지탱하고 방향을 인도한다. 한편 이고운의 작품에 자주 등장하는 정원이나 풍경들 역시 일상에 존재하지만 일상을 벗어나는 것 같은 환상적인 상황, 여행지에서의 경험 등과 관련된 기억에 근거한다. 이고운이 창작하는 공간은 낭만적 헤테로토피아(heterotopia)와 같다. 현실 공간과도 다르고, 유토피아도 아닌 헤테로토피아는 일상과 단절된 특이한 공간이지만 현실에 존재하는, 양립할 수 없는 이질적 요소들로 구성된 공간이다. 작가는 이번에도 현실과 상상, 실재와 환상이 연결되는 경계를 넘나들며 부유한다. 현실과 비현실이 겹치는 순간이 반복되며 작가적 상상의 여지는 더 커진다. 이처럼 이고운이 초기부터 꾸준히 추구하는 작업 방식, 태도, 그리고 완성된 작품들은 모두 상상과 긴밀하다. 이미지의 지각과 함께 상상은 시작된다. 작가의 상상력은 지각 작용으로 받아들이게 된 이미지들을 변형시킨다. 외부의 공간과 내밀의 공간은 서로를 고무하며 자라난다. 객관적 사실보다 더 많은 가능성의 여지를 주는 시적인 공간이 만들어지고 내밀의 공간은 팽창한다. 상상력은 현존하는 이미지에서 보이지 않는 이미지를 떠올리게 하기에 작가는 이미지의 깊은 곳에 숨겨진 무언가를 발견하고 표현한다. 그런데 상상력의 주된 활동 무대인 몽상은 특정한 문제에 집중해서 논리적인 해결을 찾는 사색과 다르다. 그것은 뚜렷한 의지 없이 상상력의 활동으로 자연스럽게 이뤄지는 정신 활동이다. 그러나 꿈을 꾸는 것 같은 무의식의 상태가 아니라 의식의 빛이 존재하는 정신 활동이 몽상이기 때문에 작가는 생각하는 주체로서 자신을 중심에 놓을 수 있다. 완전한 무의식도, 완전한 의식도 아닌 상태의 활동, 합리주의적인 현실에 속하지 않는 비현실의 기능, 그러나 현실 세계에 뿌리를 갖는 것이 몽상이다. 그렇게 조금은 멍한 듯 편안한 상태에서 빠져드는 공상 속에서 작가는 느슨하게, 자연스럽게 이미지를 떠올리고 몽상한다. 그리고 작품에 펼쳐낸다. 이미지를 받아들여서 독자적으로 변형할 수 있는 상상력은 보편성을 갖기에 이고운의 작품을 보는 우리도 다양한 상상을 할 수 있다. 몽상의 철학적 범주라 말할 수 있는 무한은 우리의 내부에 있다. 현실의 삶이 억제하고 조심성이 멈추게 하지만, 고독 가운데에서 계속되는 존재의 팽창과 연결되는 그것. 작가(우리)는 무한한 세계 속에서 무한을 꿈꾼다. 그렇게 “지적 노고로부터 자유로운, 스르르 시작하고 끝나는” 작품이 선사하는 따뜻한 시공간, 무한의 세계에 조금 더 깊이 들어가 본다.",
                         education: "",
                         individual_exhibition: [],
@@ -67,7 +67,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김재관", 
                         engname: "Jai-Kwan Kim",
-                        imgname:`/2023/23-2/23-2-1.png`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-1.png`, 
                         text: "김재관 작가는 기하학적 추상미술 반세기 작품 중 최근 ‘관계’ 시리즈는 오랫동안 기하학적 추상구조의 이성적 해석으로 접근해오던 작품 형식에서 벗어나 자연을 그리고 있다. 자연을 상식적인 풍경화로 그리는 것이 아니라 ‘자연의 현상’- ‘빛’, ‘소리’, ‘색’, ‘율(律)’로 표현된다.",
                         education: "홍익대학교 서양화 학부, 석사 졸업 및 동대학교 미술학박사학위 취득",
                         individual_exhibition: [
@@ -107,7 +107,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김성미", 
                         engname: "Sungmi Kim",
-                        imgname:`/2023/23-2/23-2-2.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-2.jpg`, 
                         text: "김성미 작가에게 숲이란 존재로서, 작가는 최근 몇 년 동안 계속해서 숲을 모티브로 하여 시간에 따라 변화되는 모습을 모두 담아내고 있다. 우리들의 삶이 그렇듯이 세월의 변화를 수용하며 그 안에 작가 개인의 삶이 투영되는 은유적 표현을 통해 작가가 바라보는 ‘숲’을 감상하는 전시가 될 예정이다. 캔버스 평면을 넘어 디지털 작업으로 확장된 시간의 변화와 흔적의 구현을 통해 ‘자연과 함께 하는 삶’을 찾는다.",
                         education: "",
                         individual_exhibition: [],
@@ -122,7 +122,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김연희", 
                         engname: "YeonHee Kim",
-                        imgname:`/2023/23-2/23-2-3.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-3.jpg`, 
                         text: "김연희 작가는 자신의 회화에서의 상징적 이미지를 ‘명상적 개념’에서 찾고자 한다. 작가의 화면에는 흑과 백이 공존하며 화면 안에는 단순함의 묘미에 무게를 두게 되며 추상 작업에서 쓰던 네모를 발전시켜 공간 구성에 활용 작업을 한다. 작가는 네모 안에 우주를 담아내고자 하는데 그 색은 검정 흑색이다.",
                         education: "",
                         individual_exhibition: [],
@@ -137,7 +137,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김영배", 
                         engname: "YoungBae Kim",
-                        imgname:`/2023/23-2/23-2-4.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-4.jpg`, 
                         text: "김영배(1947-2001 )작가는 모더니즘과 포스트모더니즘의 가교 역할을 하는 특유의 방법론을 고민했던 작고 작가로서 팝과 리얼리즘을 동시에 충돌시키고 선과 면, 구상과 레이어 등을 각각 충돌시키며 새로운 회화의 차원을 실험하던 작가였다. 그는 여러 방면에 열린 자세를 취하고 있었고 만화에도 관심이 많았기 때문에 상명대학교 만화학과의 교수를 지내며 많은 후학을 양성했다. ”무제“ 시리즈 형상적 이미지와 기하학적 패턴과 같은 언어의 조합으로 반복된 패턴으로 화면을 구성한다.",
                         education: "",
                         individual_exhibition: [],
@@ -152,7 +152,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "김재남", 
                         engname: "Jaenam Kim",
-                        imgname:`/2023/23-2/23-2-5.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-5.jpg`, 
                         text: "김재남 작가의 <사라진 풍경(lost Landscape)>회화 시리즈는 문화적, 사회적 기억들을 내포하고 있는 특정 장소의 바다 이미지들을 채집하고 “낯설게 하기”를 통하여 불완전한 상태로 보여준다. 해석체(interpretant)로서의 기억들을 환기시키기 위해 검은색 목탄을 캔버스에 수없이 칠하고 문지르기를 반복하여 신체가 개입된 흑과 백의 단순한 색 면으로 치환시킨다.",
                         education: "",
                         individual_exhibition: [
@@ -185,7 +185,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "박진명", 
                         engname: "JinMyoung Park",
-                        imgname:`/2023/23-2/23-2-6.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-6.jpg`, 
                         text: "박진명 작가는 청주의 대표적인 현대적 동양화 작가로 기억 속에 떠오르는 이미지를 그림으로 표현하면서 작가에게 스치듯 지나간 특정 장면들은 또 다른 기억과 이미지를 생산하고, 그 순간들을 겹쳐지는 것을 반복하며 하나의 새로운 장면이 돼 잔상으로 새긴다.",
                         education: "",
                         individual_exhibition: [],
@@ -200,7 +200,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "심재분", 
                         engname: "Jaeboon Shim",
-                        imgname:`/2023/23-2/23-2-7.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-7.jpg`, 
                         text: "심재분 작가는 연꽃’이라는 대상을 넘어 대상의 본질을 꿰뚫어 자신의 언어로 다시 재현한다. 자연과 인간의 보이지 않는 존재를 재현하기 위해 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 담으며 느껴지는 초현실적인 사실을 작품화한다.",
                         education: "",
                         individual_exhibition: [],
@@ -215,7 +215,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "이홍원", 
                         engname: "Hongwon Lee",
-                        imgname:`/2023/23-2/23-2-8.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-8.jpg`, 
                         text: "이홍원 작가는 현란한 색채로 한국적인 미의식을 강하게 드러낸다. 그림 속에 등장하는 호랑이나 인물 형상은 전통성을 기초로 하면서도 현대미술로의 접근성을 내포한다. 주제나 표현의 자유로움이라든가 단순화하거나 과장된, 대범함, 익살의 미학과 해학이 가득한은 이홍원 작가의 작품이 지니는 큰 특징이며 고전과 현대, 신화의 세계와 현실의 세계가 동시성 속에 공존한다.",
                         education: "",
                         individual_exhibition: [],
@@ -230,7 +230,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "임은수", 
                         engname: "Eunsoo Lim",
-                        imgname:`/2023/23-2/23-2-9.png`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-9.png`, 
                         text: "임은수 작가는 페미니즘의 자의식을 가지고 여성의 관능과 감각을 체현하는 작가로서 특유의 자의식으로 인하여 모더니즘의 톱니에서 한층 멀어져 자신만의 문제의식과 움직을 통한 새로운 드로잉을 표현하는 작가이다. 2020년부터 최근까지 작가는 ‘나는 지금 이곳에 있다’ 퍼포먼스를 통해 지금의 사회, 기후, 환경의 현상을 특유의 위로와 순환의 마음을 담아 영상으로 담아 보여준다. 작가는 ‘나는 지금 이곳에 있다 7’에서 대청호수의 물의 순환 과정으로 들어가 합류한다. 그리고 자아를 확장해 대리자로서, 생명의 모체가 되어 이 시대 우리가 진정 소중히 여기고 보호해야 할 것이 무엇인가를, 상징적인 도구와 행위로 제시한다.",
                         education: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
                         individual_exhibition: [
@@ -275,7 +275,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "전년일", 
                         engname: "NyeonIl Jun",
-                        imgname:`/2023/23-2/23-2-10.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-10.jpg`, 
                         text: "전년일 작가(1945-2021)는 현대사회의 산업의 발달로 인해 사라진 인간성 회복을 담는 동시에 우리 민족이 오래전부터 숭배하며 생활에 매우 가깝게 사용한 오방색을 작품의 소재로 사용한다. 오방색은 우리의 삶의 즐거움, 슬픔, 등을 근본으로 현대화된 시각화 작품을 보여준다. 시각화된 작품은 샤머니즘 적이면서도 원시적으로 다가온다.",
                         education: "",
                         individual_exhibition: [],
@@ -290,7 +290,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "정명희", 
                         engname: "MyeongHee Chung",
-                        imgname:`/2023/23-2/23-2-11.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-11.jpg`, 
                         text: "기산 정명희 작가는 한지와 먹을 중심으로 금강과 우주적 이야기를 다양한 재료와 색으로 펼쳐왔다. 근래에는 문인화의 정신과 빗대 희 바탕에 검은 먹을 바탕으로 삶의 근본을 말하고 있다. 화면 가득 기산의 새가 검은 먹으로 혹은 여백으로 나타난다. 이새는 마치 십자가와도 같은 근본적인 조형으로 화면을 분활하며 삶을 자유롭게 날아가는 모습으로 시각화하고 있다.",
                         education: "",
                         individual_exhibition: [],
@@ -305,7 +305,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "조현애", 
                         engname: "HyunAe Cho",
-                        imgname:`/2023/23-2/23-2-12.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-12.jpg`, 
                         text: "조현애 작가는 캔버스에 ‘시간’을 담아낸다. 사라진 시간과 현재의 시간이 공존하는 작가의 작품은 시간의 누적을 작가가 만들어내는 공간에 담고 있다. 특히 작가의 가상공간에는 과거와 현재의 이미지가 공존하며 조선 시대 산수화, 풍속화, 서양의 명화 들이 함께 여려 층위의 공간들을 형성하고 겹쳐있다. 2차원 평면 안에 과거와 현재의 공존은 작가만의 ‘초현실적’ 세계를 형성하며 시각적 은유를 만들어내고 있다.",
                         education: "",
                         individual_exhibition: [],
@@ -320,7 +320,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 소장품전 - 에꼴드 청주: 쉐마의 걸작전", 
                         name: "최민건", 
                         engname: "Mingun Choi",
-                        imgname:`/2023/23-2/23-2-13.jpg`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-2/23-2-13.jpg`, 
                         text: "최민건 작가는 경계의 모호함으로 인해 가상과 실제, 주체와 객체 사이에서 방황하면서 즐기고 있는 우리들의 모습을 표현한다. 화면에서 착시효과를 주는 개는 가상과 실제의 경계를 모호하게 하며, 인간과 다른 동물 중 가장 친숙한 개의 모습을 표현함으로써 우리와 다름을 인지함과 동시에 동질성을 느끼게 한다.",
                         education: "",
                         individual_exhibition: [],
@@ -350,7 +350,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 기획전 - 부드러운 인생", 
                         name: "박해빈", 
                         engname: "Haebin Park",
-                        imgname:"/2023/23-3/23-3-1.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-3/23-3-1.png`, 
                         text: "오랜 역사 위에 우리가 사는 풍경은 많은 변화를 겪어왔다. 지금 이 시간에도 풍경은 변화되고 있다. 과거의 화가들에게도 풍경은 끊임없이 작품의 소재가 되어왔다. 현대를 살아가는 화가인 나는 어떤 풍경을 어떻게 그릴 것인가를 늘 고민한다. 코로나19 팬데믹 2년여 시간 동안 나는 주변의 세계를 더 집중하여 바라보는 시간을 보냈다. 아무도 없는 자연을 찾아 들어가 사색하며 더 다양한 시각적 경험을 하는 기회가 되었다. 내가 바라보고 그려내는 풍경은 현실과 비현실, 실재와 허구, 친숙함과 낯설음의 경계에 있다. 나만의 독특한 시각적 체험을 바탕으로 익숙함과 낯설음의 이질적인 극과 극의 감정이 공존하는 현실의 풍경을 재구성하여 현실과 비현실, 실재와 허구의 심리적인 경계에 있는 풍경의 단면들을 평면 회화 작업을 통해 보여주고자 한다. 이는 분명 현실 세계를 향한 시각적 인식에서 비롯되지만, 단순히 현실 공간의 반영이 아닌 정신작용에 의한 또 다른 공간을 만들어 낸다. 보이는 것만으로는 다 알 수 없는 이야기가 숨어있을 것 같은 풍경을 통해 우리가 현실에서 익숙함 때문에 볼 수 없었거나 보지 않았던 것들을 바라보고 개개인의 잠재의식 속에 존재하는 익숙함과 낯설음 같은 이질적인 감정의 심리적인 경계에 대한 호기심을 불러일으키고자 한다.",
                         education: "한국예술종합학교 미술원 조형예술과 예술사 및 조형예술과(평면조형) 전문사 졸업",
                         individual_exhibition: [
@@ -381,7 +381,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 기획전 - 부드러운 인생", 
                         name: "이규선", 
                         engname: "Gyusun Lee",
-                        imgname:"/2023/23-3/23-3-2.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-3/23-3-2.png`, 
                         text: "나는 자화상을 그리고 있던 것이 아닐지도 모른다. 예의를 차린 질문들, 구태의연함은 평범함과 유사한 걸까? 그렇지만은 않겠지만 매번 색다른 것만 추구한다면 그것 또한 거짓에 가까울 것이다. 삶이란 그런 것이다. 평범한 것이다. 그러나 그 순간 속에서도, 평범한 하루 속에서도, 빛나는 무언가를 발견할 때가 분명히 존재한다. 수많은 이야기, 대화, 시간의 흐름, 반복적인 일상과 군상들의 얼굴들. 이미지, 즉 어떠한 상(像). 흩어지고 부서지고 떠오르는 크고 작은 일상의 경험과 삶의 조각들. 이미지. 그 이미지 때문에 굳이 느끼지 않아도 될 고통을 느끼고 붙잡으려 번민한다. 때로는 폐색감을 느끼기도, 때로는 고마움을 느끼기도 하는 삶 속의 질긴 이야기와 그 이야기 속의 사람들. 체화된 순간들과 해소되지 않는 무언가는 이미지 때문이다. 나는 그 이미지를 떠올리며 담아내고 표현하고 싶기에 몸부림치는 것이다. 많은 사람들과의 관계성과 보이지 않는 무언가. 그 인연과 만남의 성질들이 교차를 이루고 물성들이 혼연 되는, 그러나 의도한 것만은 아닌 Self-Portrait. 직면된 자화상. 피할 수도 모른체할 수도 없는 삶의 상황들. 유기적인 형태로 항상 맞닥뜨려야 했던 순간들. 나는 나를 그리고 싶었던 것이 아니었을지도 모른다. 어떠한, 다른 형태로 표출하고도 싶었으나, 또한 나와 자아의 객관성에서의 한계에 직면했을지도 모른다. 나이프의 터치나 유화가 갖고 있는 오묘하며 발생적인 표현들, 물성들의 교차가 어떤 형상을 구성하며 -이미지를 헤아리고는 있으나 이미지를 구성하는 것이 아닌- 또 다른 무언가를 이루기 위한. 행위와 방법은 의도하였거나 인지된 움직임은 아니었기에 획을 오가는 브러시의 방향은 추상성을 품은 무의미한 붓질로 현현하는 것이다. 당연한 소리, 당연하지만 살아내야 하는 평범한 것이며 당연한 것인 삶. 삶 속에서의 피할 수 없는 경험과 유기적인 하나의 살아있는 생명과도 같은 삶과 일상. 세포들이 뭉치고 흩어지며 움직이는, 생동하는 인생. 필연적이고 때론 치졸하기도 한 유기적인 관계들. 그 ‘유기적 관계성’ 속에서의 회화성을 찾아내고 집착하는 몸부림. 가깝지만 멀고도 먼 Image(像)인 것이다. 그렇게 그려온 자화상. 그렇게 어차피, 나는 또 그림을 그릴 것이다. 그렇게 피할 수도, 모른체할 수도 없는 인생을 살아내듯 떼려야 뗄 수조차 없는 관계성 속에서 아마 나는 또 그릴 것이다. 그렇게 그리는 나의 자화상은 자화상이 아닐지도 모른다.",
                         education: "",
                         individual_exhibition: [
@@ -424,7 +424,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 기획전 - 부드러운 인생", 
                         name: "조민아", 
                         engname: "Minah-Cho",
-                        imgname:"/2023/23-3/23-3-3.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-3/23-3-3.png`, 
                         text: "상황에 따라 끊임없이 변모하는 개인의 태도들과 유동적인 가치판단, 저울의 무게를 재듯 균형을 맞추며 사는 현재 우리 모습은 늘 동적인 에너지들을 만들어 낸다. 그 속에서 일어나는 균열과 화합은 각기 다른 사람들이 어우러져 살아가는 가운데서 나오는 자연스러운 것들이라고 생각했다. 누군가는 미래에 누군가는 과거에 머물며 교차하는 현재의 일상을 살아가는 동상이몽과 같은 상황을 연상하며 어질러진 공간 속에 오지 않을 미래의 무언가, 혹은 현재를 바꿀 수 있는 어떤 존재를 기다리는 이들을 생각하게 되었다. 각자 다른 모양의 테트리스가 맞춰져 블록을 부숴나가는 것처럼 타인과 공존하며 벌어지는 복잡다단함 속에서도 현재를 영유하는 개인들과 그를 둘러싼 관계 속에서 현재 진행되는 일상, 현실 속 우리의 이야기를 하고자 했다. 상징성을 가지는 상징이나 사물들이 등장하는데 모두가 인지하는 보편적인 상징이 있고 내가 생각하여 의미화가 되면 그 요소들을 그림 속에 그린다. 알레고리를 만들어내면서 작업을 하는 것은 이중적 의미가 있다는 것에서 매력적이지만 그것이 내 작업에 주요한 요소는 아니다. 화면구성의 조화를 위한 색이나 선을 구상적 이미지로 들여오는 경우가 있다. 그런 과정에서 작업이 나오기 때문에 서사가 있지만 파악되지 않는 부분들이 생기는 것 같다. 사물과 인물의 인과관계나 연결지점도 중요하지만, 조합되는 그것들의 기본적인 토대는 조형적인 균형감으로부터 시작되는 것이다. 한눈에 파악되지 않지만 그림이 보여주는 상황과 색, 분위기를 실마리로 삼아 개인의 내밀한 서사로 혹은 지금 우리의 삶에 대해 다시 환기해보는 작업으로 보여지길 바란다.",
                         education: "성신여자대학교 동양화과 졸업 및 동대학원 동향화과 졸업",
                         individual_exhibition: [
@@ -476,7 +476,7 @@ export const allExhibits_KOR = [
                         title: "2023 쉐마미술관 기획전 - 부드러운 인생", 
                         name: "서민정", 
                         engname: "MinJeong Seo",
-                        imgname:"/2023/23-3/23-3-4.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-3/23-3-4.png`, 
                         text: "최근의 작업은 ‘세계는 끊임없이 부서지고 다시 구축하기를 반복한다’는 생각을 그림 하나하나의 이미지와 작업 과정에 밀착시켜보려는 시도다. 우리가 경험하는 크고 작은 폭력과 불통으로부터의 소외, 공허, 혹은 해석하기 힘든 복잡하고 혼란스러운 광경과 두려움이 어쩌면 매우 뻔한 질서이거나, 불온하지만 균형을 향한 하나의 축인 것은 아닐까 질문한다. 작업을 통해 양가적인 것들 사이에서 허둥대고 소외되고 상처받고 이러지도 저러지도 못하는 상태, 예컨대 소통과 불통, 이상과 현실, 열리고 닫히는 것, 말을 하고 싶은 욕망과 침묵하고자 하는 욕망, 동일한 사건에 가하는 긍정과 부정의 태도와 같은 것들과 그때의 정서에 주목한다. 먹과 주묵의 드로잉은 대상을 깨뜨리는 쪽으로 움직이고 색 안료(분채)는 대상을 찾으려는 움직임으로 서로 엎치락뒤치락하지만 그 경계는 작업 과정에서 자연스럽게 무너진다. 깨뜨렸다가 짜 맞추기를 계속 반복하는 작업 과정을 통해 파편화되고 혼란스러운 세계의 구조와 명료하지 않았던 경험, 기억들을 지금의 우리는 어떻게 의미 지을 수 있는지 되묻는다. 개별적이면서 보편적인 삶의 고비들, 다양한 아픔과 상처, 거듭된 실패, 공회전과 같은 소외된 정서와 감정의 무수한 순간들을 손대지 않은 자연의 무성한 구조를 빌려 표현해왔다. 모든 것에는 상충되는 충동들이 있고 우리는 계속 모순적인 것에 신경 쓰면서 이런 것들에 관여하고 정리하고 이해해보려 하고 좀 더 나은 것은 뭘까 고민하는 노력을 한다. 그 싸움을 여러가지 언어로 표현 할 수 있지만 나에게는 파편화되려는 힘과 구축하려는 힘으로 가장 또렷하게 와 닿는다. 어떤 일들로 인해 내 세계의 일부가 부서지고 상실을 경험하고, 그걸 다시 조립하거나 받아들이는 과정, 즉 구축하려는 과정을 지나고 나서야 다음 여정으로 이동이 가능하다. 어쩌면 파편과 구축의 과정 자체가 이동일지도 모른다. 분명한 것은 부서지는 것, 파편화되는 것이 부정을 표상한다던가, 반대로 구축하는 것이 긍정을 표상하는 것은 아니다. 이들은 조금 다른 방향으로 움직이게 하고 형태를 바꾸게 하는 서로 다른 신호 같은 것이다.",
                         education: "",
                         individual_exhibition: [
@@ -537,7 +537,7 @@ export const allExhibits_KOR = [
                         title: "방효성 기획초대전 《 脫  경계의  언어 》", 
                         name: "방효성", 
                         engname: "HyoSung Pang",
-                        imgname:"/2023/23-4/23-4-1.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-4/23-4-1.png`, 
                         text: "1987년 제1회 개인전을 시작으로 서울, 오사카, 대구에서 개인전 29회 개최. 87년 제1회 바다미술제 초청, 89년 동경 사가쵸 스페이스갤러리 초대 퍼포먼스와 94년 뉴욕링컨센타 초대 퍼포먼스공연, NDH 그룹 국제아트심포지움과 Kopas 실험미술제에서 퍼포먼스 발표. 예루살렘, 베르린, 호주, 뉴욕, 동경, 헤이그, 사라예보, 이스탄불, 스위스 비엘-비엔느, 카투만두와 국내에서 300여회 퍼포먼스 와 설치, 드로잉, 자연미술을 발표. 2017년 이스탄불 비엔날레, 한강의 생명전, 순천만 국제환경미술전, 조지아 국립미술관 초대전, 사라예보 윈터패스티발, 쉐마 미술관에서 한.중 현대미술교류전 에 참여하였으며 온세미로 국제미술프로젝트에 참여하였다. 화가이며 행동심리 예술가, 설치미술, 자연미술, 환경 미술가로 활동. 퍼포먼스 그룹 ‘몸’ 대표.",
                         education: "경희대학교 및 동대학원 미술과 졸업",
                         individual_exhibition: [
@@ -598,7 +598,7 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "김재관", 
                         engname: "JaiKwan Kim",
-                        imgname:"/2023/23-5/23-5-1.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-1.png`, 
                         text: "",
                         education: "홍익대학교 서양화 학부, 석사 졸업 및 동대학교 미술학박사학위 취득",
                         individual_exhibition: [
@@ -629,7 +629,7 @@ export const allExhibits_KOR = [
                             {order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
                         ],
                         paint: [
-                            {order: 0, title: "Deviation from Grid 2021-2001", imgname: "/2023/23-5/1-180x90.jpg", overview: "180x90cm", overview1: "Acrylic + Acrylic Mirror on Plywood, 2021"},
+                            {order: 0, title: "Deviation from Grid 2021-2001", name: "김재관", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/1-180x90.jpg`, width: 3.6, height: 7.2, overview: "180x90cm", overview1: "Acrylic + Acrylic Mirror on Plywood, 2021"},
                         ]
                     },
                     {
@@ -638,13 +638,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "김정희", 
                         engname: "Jeonghee Kim",
-                        imgname:"/2023/23-5/23-5-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-2.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "Thing_Rock 23-012", imgname: "/2023/23-5/2-163.3x97.2.jpg", overview: "163.3x97.2cm", overview1: "Acrylic on Canvas, 2023"},
+                            {order: 1, title: "Thing_Rock 23-012", name: "김정희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/2-163.3x97.2.jpg`, width: 6.52, height: 3.888, overview: "163.3x97.2cm", overview1: "Acrylic on Canvas, 2023"},
                         ]
                     },
                     {
@@ -653,7 +653,7 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "김재남", 
                         engname: "JaeNam Kim",
-                        imgname:"/2023/23-5/23-5-3.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-3.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [
@@ -677,7 +677,7 @@ export const allExhibits_KOR = [
                             {order: 10, exhibit: "2016 서울사진축제-열 개의 문장으로 쓴 편지(문래예술촌, 서울)"},
                         ],
                         paint: [
-                            {order: 2, title: "34°3510.1N-127°3338.6E-사도", imgname: "/2023/23-5/3-91x91.jpg", overview: "91x91cm", overview1: "Acrylic on Canvas, 2022"},
+                            {order: 2, title: "34°3510.1N-127°3338.6E-사도", name: "김재남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/3-91x91.jpg`, width: 3.64, height: 3.64, overview: "91x91cm", overview1: "Acrylic on Canvas, 2022"},
                         ]
                     },
                     {
@@ -686,7 +686,7 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "방효성", 
                         engname: "HyoSung Pang",
-                        imgname:"/2023/23-5/23-5-4.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-4.png`, 
                         text: "1987년 제1회 개인전을 시작으로 서울, 오사카, 대구에서 개인전 29회 개최. 87년 제1회 바다미술제 초청, 89년 동경 사가쵸 스페이스갤러리 초대 퍼포먼스와 94년 뉴욕링컨센타 초대 퍼포먼스공연, NDH 그룹 국제아트심포지움과 Kopas 실험미술제에서 퍼포먼스 발표. 예루살렘, 베르린, 호주, 뉴욕, 동경, 헤이그, 사라예보, 이스탄불, 스위스 비엘-비엔느, 카투만두와 국내에서 300여회 퍼포먼스 와 설치, 드로잉, 자연미술을 발표. 2017년 이스탄불 비엔날레, 한강의 생명전, 순천만 국제환경미술전, 조지아 국립미술관 초대전, 사라예보 윈터패스티발, 쉐마 미술관에서 한.중 현대미술교류전 에 참여하였으며 온세미로 국제미술프로젝트에 참여하였다. 화가이며 행동심리 예술가, 설치미술, 자연미술, 환경 미술가로 활동. 퍼포먼스 그룹 ‘몸’ 대표.",
                         education: "경희대학교 및 동대학원 미술과 졸업",
                         individual_exhibition: [
@@ -719,7 +719,7 @@ export const allExhibits_KOR = [
                             {order: 24, exhibit: "2016 순천만 국제환경미술제 (순천만 국가정원 미술관. 순천)"},
                         ],
                         paint: [
-                            {order: 3, title: "현대인의 성경", imgname: "/2023/23-5/4-31x37.jpg", overview: "31x37x30cm", overview1: "물에 담긴 책, 유리 상자, 입체 설치, 2023"},
+                            {order: 3, title: "현대인의 성경", name: "방효성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/4-31x37.jpg`, width: 4.07, height: 3.41, overview: "31x37x30cm", overview1: "물에 담긴 책, 유리 상자, 입체 설치, 2023"},
                         ]
                     },
                     {
@@ -728,13 +728,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "최익규", 
                         engname: "Ik Gyu Choi",
-                        imgname:"/2023/23-5/23-5-5.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-5.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 4, title: "아버지 전상서_Letters to parents", imgname: "/2023/23-5/5-210x140.jpg", overview: "210x140cm", overview1: "천에 바느질, 판넬, 2017-2019"},
+                            {order: 4, title: "아버지 전상서_Letters to parents", name: "최익규", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/5-210x140.jpg`, width: 2.8, height: 4.2, overview: "210x140cm", overview1: "천에 바느질, 판넬, 2017-2019"},
                         ]
                     },
                     {
@@ -743,13 +743,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "문상욱", 
                         engname: "Sang Wook Moon",
-                        imgname:"/2023/23-5/23-5-6.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-6.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "잠자리와 프랙털", imgname: "/2023/23-5/6-58x85.jpg", overview: "58x85cm", overview1: "구리판, 2021"},
+                            {order: 5, title: "잠자리와 프랙털", name: "문상욱", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/6-58x85.jpg`, width: 5.1, height: 3.48, overview: "58x85cm", overview1: "구리판, 2021"},
                         ]
                     },
                     {
@@ -758,7 +758,7 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "임은수", 
                         engname: "Eun Soo Lim",
-                        imgname:"/2023/23-5/23-5-7.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-7.png`, 
                         text: "",
                         education: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
                         individual_exhibition: [
@@ -794,7 +794,7 @@ export const allExhibits_KOR = [
                             {order: 11, exhibit: "2019 조각조각 -Pieces of times 전 (터미널 작은미술관, 정선)"},
                         ],
                         paint: [
-                            {order: 6, title: "변이", imgname: "/2023/23-5/7-45x65.jpg", overview: "45x65cm", overview1: "한지에 물감 드로잉 5 Pieces, 동물뼈, 깃털, 2023"},
+                            {order: 6, title: "변이", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/7-45x65.jpg`, width: 5.85, height: 4.05, overview: "45x65cm", overview1: "한지에 물감 드로잉 5 Pieces, 동물뼈, 깃털, 2023"},
                         ]
                     },
                     {
@@ -803,13 +803,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "서윤희", 
                         engname: "Yoon Hee Suh",
-                        imgname:"/2023/23-5/23-5-8.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-8.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "Memory Gap-delight I", imgname: "/2023/23-5/8-147x147.jpg", overview: "147x147cm", overview1: "Mixed media on Korean Paper, 2021"},
+                            {order: 7, title: "Memory Gap-delight I", name: "서윤희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/8-147x147.jpg`, width: 4.41, height: 4.41, overview: "147x147cm", overview1: "Mixed media on Korean Paper, 2021"},
                         ]
                     },
                     {
@@ -818,13 +818,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "심재분", 
                         engname: "Jae Bun Sim",
-                        imgname:"/2023/23-5/23-5-9.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-9.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "대지의 희망", imgname: "/2023/23-5/9-75x75.jpg", overview: "75x75cm", overview1: "화인아트 벨벳, 2023"},
+                            {order: 8, title: "대지의 희망", name: "심재분", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/9-75x75.jpg`, width: 3.75, height: 3.75, overview: "75x75cm", overview1: "화인아트 벨벳, 2023"},
                         ]
                     },
                     {
@@ -833,13 +833,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "허은영", 
                         engname: "Eun Young Heo",
-                        imgname:"/2023/23-5/23-5-10.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-10.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "Untitled", imgname: "/2023/23-5/10-24x20.jpg", overview: "24x20cm", overview1: "금속 CNC조각, 한지에 아트스틱, 2018"},
+                            {order: 9, title: "Untitled", name: "허은영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/10-24x20.jpg`, width: 4, height: 4.8, overview: "24x20cm", overview1: "금속 CNC조각, 한지에 아트스틱, 2018"},
                         ]
                     },
                     {
@@ -848,13 +848,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "제시 라만", 
                         engname: "Jessy Rahman",
-                        imgname:"/2023/23-5/23-5-11.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-11.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "Indonesian Jaran Kepang Flat horse", imgname: "/2023/23-5/11-63x93.jpg", overview: "63x93cm", overview1: "Colour Wood cut Printon Hanji Paper, 2023 Netherlands"},
+                            {order: 10, title: "Indonesian Jaran Kepang Flat horse", name: "제시 라만", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/11-63x93.jpg`, width: 4.65, height: 3.15, overview: "63x93cm", overview1: "Colour Wood cut Printon Hanji Paper, 2023 Netherlands"},
                         ]
                     },
                     {
@@ -863,13 +863,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "피터 반 슈페터", 
                         engname: "Pietertje van Splunter",
-                        imgname:"/2023/23-5/23-5-12.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-12.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "Scrap 1", imgname: "/2023/23-5/12-70x60.jpg", overview: "70x60cm", overview1: "Acrylic on Canvas, 2023 Netherlands"},
+                            {order: 11, title: "Scrap 1", name: "피터 반 슈페터", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/12-70x60.jpg`, width: 3.6, height: 4.2, overview: "70x60cm", overview1: "Acrylic on Canvas, 2023 Netherlands"},
                         ]
                     },
                     {
@@ -878,13 +878,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "아지트바르 쿠마르 더글라스", 
                         engname: "Ajitvar Kumar Douglas",
-                        imgname:"/2023/23-5/23-5-13.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-13.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "The game of percentage %", imgname: "/2023/23-5/13-29.7x21.jpg", overview: "29.7x21cm", overview1: "Mix medium on Paper, 8 piece, 2019, India"},
+                            {order: 12, title: "The game of percentage %", name: "아지트바르 쿠마르 더글라스", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/13-29.7x21.jpg`, width: 3.15, height: 4.455, overview: "29.7x21cm", overview1: "Mix medium on Paper, 8 piece, 2019, India"},
                         ]
                     },
                     {
@@ -893,13 +893,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "라비 라잔", 
                         engname: "Ravi Ranjan",
-                        imgname:"/2023/23-5/23-5-14.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-14.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "Embracing Social Consciousness", imgname: "/2023/23-5/14-55.2x91.4.jpg", overview: "55.2x91.4cm", overview1: "Photo(Print), 2023, India"},
+                            {order: 13, title: "Embracing Social Consciousness", name: "라비 라잔", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/14-55.2x91.4.jpg`, width: 5.484, height: 3.312, overview: "55.2x91.4cm", overview1: "Photo(Print), 2023, India"},
                         ]
                     },
                     {
@@ -908,13 +908,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "타와차이 창퀴엔", 
                         engname: "Thawatchai Changkwien",
-                        imgname:"/2023/23-5/23-5-15.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-15.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "Over Think", imgname: "/2023/23-5/15-37x60.jpg", overview: "37x60cm", overview1: "2022 Installation Photo(Print), 2023, Thailand"},
+                            {order: 14, title: "Over Think", name: "타와차이 창퀴엔", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/15-37x60.jpg`, width: 6, height: 3.7, overview: "37x60cm", overview1: "2022 Installation Photo(Print), 2023, Thailand"},
                         ]
                     },
                     {
@@ -923,13 +923,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "콩삭 굴글랑돈", 
                         engname: "Kongsak Gulglangdon",
-                        imgname:"/2023/23-5/23-5-16.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-16.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 15, title: "Shuffle off", imgname: "/2023/23-5/16-15x13.jpg", overview: "15x13x26cm", overview1: "Yellow ropes in Buddhist image from, 2023, Thailand"},
+                            {order: 15, title: "Shuffle off", name: "콩삭 굴글랑돈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/16-15x13.jpg`, width: 3.9, height: 4.5, overview: "15x13x26cm", overview1: "Yellow ropes in Buddhist image from, 2023, Thailand"},
                         ]
                     },
                     {
@@ -938,7 +938,7 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "창신", 
                         engname: "Cang Xin",
-                        imgname:"/2023/23-5/23-5-17.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-17.jpg`, 
                         text: "",
                         education: "텐진대학교 음악대학 졸업",
                         individual_exhibition: [
@@ -969,7 +969,7 @@ export const allExhibits_KOR = [
                             {order: 13, exhibit: "2019 “뇌의 비밀”, 베이징"},
                         ],
                         paint: [
-                            {order: 16, title: "3149-苍鑫行为", imgname: "/2023/23-5/17-120x180.png", overview: "120x180cm", overview1: "Performance Photo 2015, Print 2023, China"},
+                            {order: 16, title: "3149-苍鑫行为", name: "창신", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/17-120x180.png`, width: 5.4, height: 3.6, overview: "120x180cm", overview1: "Performance Photo 2015, Print 2023, China"},
                         ]
                     },
                     {
@@ -978,13 +978,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "첸 광", 
                         engname: "Chen Gang",
-                        imgname:"/2023/23-5/23-5-18.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-18.png`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 17, title: "昆虫肖像NO3", imgname: "/2023/23-5/18-120x100.png", overview: "120x100cm", overview1: "Oil on Canvas, 2023, China"},
+                            {order: 17, title: "昆虫肖像NO3", name: "첸광", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/18-120x100.png`, width: 4, height: 4.8, overview: "120x100cm", overview1: "Oil on Canvas, 2023, China"},
                         ]
                     },
                     {
@@ -993,13 +993,13 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "하세가와 이치로", 
                         engname: "Hasegawa Ichirou",
-                        imgname:"/2023/23-5/23-5-19.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-19.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "Grid", imgname: "/2023/23-5/19-162x112.jpg", overview: "162x112cm", overview1: "Acrylic on Canvas, 2021, Japan"},
+                            {order: 18, title: "Grid", name: "하세가와 이치로", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/19-162x112.jpg`, width: 4.48, height: 4.86, overview: "162x112cm", overview1: "Acrylic on Canvas, 2021, Japan"},
                         ]
                     },
                     {
@@ -1008,7 +1008,7 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "우노 가즈유키", 
                         engname: "Uno Kazuyuki",
-                        imgname:"/2023/23-5/23-5-20.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-20.jpg`, 
                         text: "",
                         education: "도쿄 예술 대학 대학원 미술 연구과 박사 후기 과정 수료",
                         individual_exhibition: [
@@ -1054,7 +1054,7 @@ export const allExhibits_KOR = [
                             {order: 35, exhibit: "“세키 경고 고 Relative Landscape”갤러리 목 (치바), 외"},
                         ],
                         paint: [
-                            {order: 19, title: "Landscape of Atmosphere", imgname: "/2023/23-5/20-108x94.5.jpg", overview: "108x94.5cm", overview1: "Mixed media on Japanese Paper, 2023, Japan"},
+                            {order: 19, title: "Landscape of Atmosphere", name: "우노 가즈유키", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/20-108x94.5.jpg`, width: 3.78, height: 4.32, overview: "108x94.5cm", overview1: "Mixed media on Japanese Paper, 2023, Japan"},
                         ]
                     },
                     {
@@ -1063,7 +1063,7 @@ export const allExhibits_KOR = [
                         title: "《제10회 청주국제현대미술전》-2023 청주국제현대미술 Decade의 회고와 새로운 미래의 전망", 
                         name: "유숩 하지페조비치", 
                         engname: "Jusuf Hadžifejzović",
-                        imgname:"/2023/23-5/23-5-21.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-21.jpg`, 
                         text: "",
                         education: "School of Applied Art, Academy of Fine Arts in Belgrade",
                         individual_exhibition: [
@@ -1094,7 +1094,7 @@ export const allExhibits_KOR = [
                             {order: 17, exhibit: "1994 Ceci n’est pas une pomme, Contemporary Belgian Art, Foundation Carlos de Amberes, Madrid, Spain"},
                         ],
                         paint: [
-                            {order: 20, title: "", imgname: "/2023/23-5/21-80x181.jpg", overview: "80x181cm", overview1: "Acrylic color on camouflage Canvas, 2023, Bosnia"},
+                            {order: 20, title: "", name: "유숩 하지페조비치", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/21-80x181.jpg`, width: 5.43, height: 2.4, overview: "80x181cm", overview1: "Acrylic color on camouflage Canvas, 2023, Bosnia"},
                         ]
                     },
                 ],
@@ -1118,13 +1118,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "구명회", 
                         engname: "Myeong Hwe Koo",
-                        imgname:"/2023/23-6/23-6-1.jpeg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-1.jpeg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "거짓말", imgname: "/2023/23-6/1-130.3x162.2.jpeg", overview: "130.3x162.2cm", overview1: "Oil on canvas, 2022"},
+                            {order: 0, title: "거짓말", name: "구명회", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/1-130.3x162.2.jpeg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Oil on canvas, 2022"},
                         ]
                     },
                     {
@@ -1133,13 +1133,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "김로이", 
                         engname: "Roi Kim",
-                        imgname:"/2023/23-6/23-6-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-2.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "interaction RD", imgname: "/2023/23-6/2-72.2.x50.jpg", overview: "72.2x50cm", overview1: "Mother-of-pearl, Hemp cloth and ottchil on wood panel, 2021"},
+                            {order: 1, title: "interaction RD", name: "김로이", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/2-72.2.x50.jpg`, width: 4, height: 5.776, overview: "72.2x50cm", overview1: "Mother-of-pearl, Hemp cloth and ottchil on wood panel, 2021"},
                         ]
                     },
                     {
@@ -1148,13 +1148,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "김성미", 
                         engname: "Sungmi Kim",
-                        imgname:"/2023/23-6/23-6-3.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-3.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "숲의 잔상 2022", imgname: "/2023/23-6/3-116.8x91.jpg", overview: "116.8x91cm", overview1: "캔버스위에 혼합재료, 2022"},
+                            {order: 2, title: "숲의 잔상 2022", name: "김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/3-116.8x91.jpg`, width: 4.55, height: 5.84, overview: "116.8x91cm", overview1: "캔버스위에 혼합재료, 2022"},
                         ]
                     },
                     {
@@ -1163,13 +1163,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "김영란", 
                         engname: "YoungRan Kim",
-                        imgname:"/2023/23-6/23-6-4.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-4.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "쉼 comfort", imgname: "/2023/23-6/4-140x80.jpg", overview: "140x80cm", overview1: "Korean paper, 2019"},
+                            {order: 3, title: "쉼 comfort", name: "김영란", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/4-140x80.jpg`, width: 4, height: 5.6, overview: "140x80cm", overview1: "Korean paper, 2019"},
                         ]
                     },
                     {
@@ -1178,7 +1178,7 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "김재관", 
                         engname: "JaiKwan Kim",
-                        imgname:"/2023/23-6/23-6-5.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-5.png`, 
                         text: "",
                         education: "홍익대학교 서양화 학부, 석사 졸업 및 동대학교 미술학박사학위 취득",
                         individual_exhibition: [
@@ -1209,7 +1209,7 @@ export const allExhibits_KOR = [
                             {order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
                         ],
                         paint: [
-                            {order: 4, title: "Agencement-Light & Color 2022-501", imgname: "/2023/23-6/5-91x116.8.jpg", overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 4, title: "Agencement-Light & Color 2022-501", name: "김재관", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/5-91x116.8.jpg`, width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -1218,13 +1218,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "김유진", 
                         engname: "YooJin Kim",
-                        imgname:"/2023/23-6/23-6-6.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-6.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "Our work", imgname: "/2023/23-6/6-168x55.jpg", overview: "168x55cm", overview1: "패브릭 바느질 작업, 2023"},
+                            {order: 5, title: "Our work", name: "김유진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/6-168x55.jpg`, width: 2.2, height: 6.72, overview: "168x55cm", overview1: "패브릭 바느질 작업, 2023"},
                         ]
                     },
                     {
@@ -1233,13 +1233,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "박진명", 
                         engname: "JinMyeong Park",
-                        imgname:"/2023/23-6/23-6-7.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-7.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "그... 봄", imgname: "/2023/23-6/7-110x80.jpg", overview: "110x80cm", overview1: "종이 위에 먹, 과슈, 2023"},
+                            {order: 6, title: "그... 봄", name: "박진명", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/7-110x80.jpg`, width: 4, height: 5.5, overview: "110x80cm", overview1: "종이 위에 먹, 과슈, 2023"},
                         ]
                     },
                     {
@@ -1248,13 +1248,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "심재분", 
                         engname: "Jae Bun Sim",
-                        imgname:"/2023/23-6/23-6-8.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-8.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "생각에 대한 생각 1", imgname: "/2023/23-6/8-30x30.png", overview: "30x30cm", overview1: "화인아트 벨벳 사진프린트, 2023"},
+                            {order: 7, title: "생각에 대한 생각 1", name: "심재분", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/8-30x30.png`, width: 3.6, height: 3.6, overview: "30x30cm", overview1: "화인아트 벨벳 사진프린트, 2023"},
                         ]
                     },
                     {
@@ -1263,13 +1263,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "오승언", 
                         engname: "Seung Eun Oh",
-                        imgname:"/2023/23-6/23-6-9.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-9.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "검은벽", imgname: "/2023/23-6/9-33.4x24.2.jpg", overview: "33.4x24.2cm", overview1: "Oil on canvas, 2021"},
+                            {order: 8, title: "검은벽", name: "오승언", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/9-33.4x24.2.jpg`, width: 2.904, height: 4.008, overview: "33.4x24.2cm", overview1: "Oil on canvas, 2021"},
                         ]
                     },
                     {
@@ -1278,13 +1278,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "우라카와 아츠코", 
                         engname: "Urakawa Azuko",
-                        imgname:"/2023/23-6/23-6-10.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-10.png`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "untitled", imgname: "/2023/23-6/10-145.5x112.1.png", overview: "145.5x112.1cm", overview1: "설치, 2023"},
+                            {order: 9, title: "untitled", name: "우라카와 아츠코", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/10-145.5x112.1.png`, width: 4.484, height: 5.82, overview: "145.5x112.1cm", overview1: "설치, 2023"},
                         ]
                     },
                     {
@@ -1293,13 +1293,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "이경화", 
                         engname: "KyungHwa Lee",
-                        imgname:"/2023/23-6/23-6-11.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-11.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "夢中果", imgname: "/2023/23-6/11-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "Acrylic on canvas, 2023"},
+                            {order: 10, title: "夢中果", name: "이경화", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/11-60.6x72.7.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "Acrylic on canvas, 2023"},
                         ]
                     },
                     {
@@ -1308,7 +1308,7 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "임은수", 
                         engname: "Eun Soo Lim",
-                        imgname:"/2023/23-6/23-6-12.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-12.png`, 
                         text: "",
                         education: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
                         individual_exhibition: [
@@ -1344,7 +1344,7 @@ export const allExhibits_KOR = [
                             {order: 11, year: 2019, exhibit: " 조각조각 -Pieces of times 전 (터미널 작은미술관, 정선)"},
                         ],
                         paint: [
-                            {order: 11, title: "파종", imgname: "/2023/23-6/12-102.4x57.3.jpg", overview: "", overview1: "가변설치, 한지위에 펜 드로잉, 8 pieces, 2023"},
+                            {order: 11, title: "파종", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/12-102.4x57.3.jpg`, width: 5.12, height: 2.865, overview: "", overview1: "가변설치, 한지위에 펜 드로잉, 8 pieces, 2023"},
                         ]
                     },
                     {
@@ -1353,13 +1353,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "최민건", 
                         engname: "Mingun Choi",
-                        imgname:"/2023/23-6/23-6-13.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-13.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "A borderline between", imgname: "/2023/23-6/13-60.6x200.jpg", overview: "60.6x200cm", overview1: "천 위에 아크릴 과슈, 2023"},
+                            {order: 12, title: "A borderline between", name: "최민건", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/13-60.6x200.jpg`, width: 5, height: 1.515, overview: "60.6x200cm", overview1: "천 위에 아크릴 과슈, 2023"},
                         ]
                     },
                     {
@@ -1368,13 +1368,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "최익규", 
                         engname: "Ik Gyu Choi",
-                        imgname:"/2023/23-6/23-6-14.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-14.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "자화상", imgname: "/2023/23-6/14-120x180.jpg", overview: "120x180cm", overview1: "천에 바느질 후 채색, 2023"},
+                            {order: 13, title: "자화상", name: "최익규", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/14-120x180.jpg`, width: 5.4, height: 3.6, overview: "120x180cm", overview1: "천에 바느질 후 채색, 2023"},
                         ]
                     },
                     {
@@ -1383,13 +1383,13 @@ export const allExhibits_KOR = [
                         title: "2023 후기 애스펙트 《아름답게 사유하는 예술》", 
                         name: "한희준", 
                         engname: "HeeJune Han",
-                        imgname:"/2023/23-6/23-6-15.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-15.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "Plastic NO-45", imgname: "/2023/23-6/15-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                            {order: 14, title: "Plastic NO-45", name: "한희준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/15-82x110.jpg`, width: 4.4, height: 3.28, overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
                         ]
                     },
                 ],
@@ -1413,7 +1413,7 @@ export const allExhibits_KOR = [
                         title: "매끄러운 돌밭2", 
                         name: "금민정", 
                         engname: "Guem Min Jeong",
-                        imgname:"/2023/23-7/23-7-1.jpeg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-7/23-7-1.jpeg`, 
                         text: "2023년 작품 시리즈는 현대 도시 산업화의 상징인 콘크리트라는 재료를 사용했다. 나의 콘크리트 프레임은 도시 건축물의 작은 상징물 이기도 하다. 특정한 벽의 이미지를 촬영하여 그 장소에서 채집한 자연현상(바람의 움직임, 빛과 그림자의 움직임)과 빛과 그림자의 움직임을 데이터화하여 영상 이미지의 움직임에  반응시킨다. 그리고 그 영상 결과물을 콘크리트 조각프레임과 믹스한다. 또한 2021년에는 담양의 ‘소쇄원’이라는 특정 장소를 소재로 그 장소의 자연 현상을 촬영하여 그 장소의 건축물의 이미지에 반응시켜 만든 영상을 실재 건축물에 영감을 받아 제작한 조형적 요소와 함께 조각과 영상을 믹스매치하여 제작했다. 자연현상은 인간이 제어할 수 없는 영역이다. 그러나 지금 이시대에는 인간의 감정도, 자연현상도 컴퓨터가 재현해 내는 시대에 이르렀다. 재미있는 생각을 해보았다, “미래에는 천재지변이라고 불리는 자연현상도 예측하고 막고, 바꿀 수 있지 않을까?” 인간의 감성과 밀접한 자연현상은 때로는 인간의 생존에도 현실적인 데이터가 된다. 기술은 예술에도 과학에도 영향을 미친다.",
                         education: "홍익대학교 미술대학 조소과 및 동대학원 석사, 박사 졸업",
                         individual_exhibition: [
@@ -1458,11 +1458,11 @@ export const allExhibits_KOR = [
                             {order: 18, exhibit: "《21C Water Color》, 양평군립미술관, 양평"},
                         ],
                         paint: [
-                            {order: 0, title: "The-Wind-Ⅰ", imgname: "/2023/23-7/1.jpeg", overview: "27x18x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:50 loop, 2023"},
-                            {order: 1, title: "The-Wind-Ⅱ", imgname: "/2023/23-7/2.jpg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
-                            {order: 2, title: "The-Wind-Ⅲ", imgname: "/2023/23-7/3.jpeg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
-                            {order: 3, title: "바람을 짓다", imgname: "/2023/23-7/4.jpg", overview: "225x130x100cm", overview1: "Sculpture with 2-channel video on LED screens, 00:02:30 loop, 2020"},
-                            {order: 4, title: "생각하는 정원", imgname: "/2023/23-7/5.jpg", overview: "200x240x200cm", overview1: "Sculpture with 3-channel video on LED screens, 2020"},
+                            {order: 0, title: "The-Wind-Ⅰ", name: "금민정", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/1.jpeg`, width: 5.4, height: 3.6, overview: "27x18x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:50 loop, 2023"},
+                            {order: 1, title: "The-Wind-Ⅱ", name: "금민정",  imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/2.jpg`, width: 3.6, height: 5.4, overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
+                            {order: 2, title: "The-Wind-Ⅲ", name: "금민정",  imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/3.jpeg`, width: 3.6, height: 5.4, overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
+                            {order: 3, title: "바람을 짓다", name: "금민정",  imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/4.jpg`, width: 4.5, height: 3.5, overview: "225x130x100cm", overview1: "Sculpture with 2-channel video on LED screens, 00:02:30 loop, 2020"},
+                            {order: 4, title: "생각하는 정원", name: "금민정",  imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/5.jpg`, width: 4, height: 4.8, overview: "200x240x200cm", overview1: "Sculpture with 3-channel video on LED screens, 2020"},
                         ]
                     },
                     {
@@ -1471,7 +1471,7 @@ export const allExhibits_KOR = [
                         title: "매끄러운 돌밭2", 
                         name: "김준", 
                         engname: "Kim Joon",
-                        imgname:"/2023/23-7/23-7-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-7/23-7-2.jpg`, 
                         text: "몸을 빌어 감각할 수 있는 기쁨에 대한 댓가는 만만치 않다. 그래서 몸은 관능적이고 매혹적이며… 때로는 공포스럽고 협오스럽다. 몸을 극복하려는 노력과 몸을 초월하려는 의지를 오가며 몸에 집착한다. 내 작업은 몸에 대한 애증과 그로테스크한 현실에서 시작된다. 몸에서 비롯되는 문제가 해결되면 다른 주제를 다루고 싶었다. …경솔했다. 다시 몸과의 전쟁이다. 디지털 작업의 세계로 발을 디뎠을 때, 오프라인 작업실을 컴퓨터 모니터 안으로 옮기는 것에 성공했다. 거기엔 월세도 없었고 평수의 제한도 없었다. 약간의 전기세면 충분했다. 어쩌면 내 몸도 가능해질지 모를 일이다.",
                         education: "홍익대학교 미술대학 회화전공 및 동대학원 석사 졸업 현 국립공주대학교 만화애니메이션학부 교수",
                         individual_exhibition: [
@@ -1531,14 +1531,13 @@ export const allExhibits_KOR = [
                             {order: 13, exhibit: "《현대미술, 런웨이를 걷다》, 성남아트센터 큐브미술관, 성남"},
                         ],
                         paint: [
-                            {order: 5, title: "Flying-cat-Loop-Animation", imgname: "/2023/23-7/6.jpg", overview: "", overview1: "2022-5"},
-                            {order: 6, title: "Mr.-purple-Loop-Animation", imgname: "/2023/23-7/7.jpg", overview: "", overview1: "2022-3"},
-                            {order: 7, title: "Somebody-anne", imgname: "/2023/23-7/8.jpg", overview: "100x100cm", overview1: "Digitalprint-2023-3"},
-                            {order: 8, title: "Somebody-chair-man", imgname: "/2023/23-7/9.jpg", overview: "70x70cm", overview1: "Digitalprint-2023-3"},
-                            {order: 9, title: "Somebody-curtain-call", imgname: "/2023/23-7/10.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
-                            {order: 10, title: "Somebody-pink-tile", imgname: "/2023/23-7/11.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
-                            {order: 11, title: "Somebody-red-dot", imgname: "/2023/23-7/12.jpg", overview: "78x110cm", overview1: "Digitalprint-2023-3"},
-                
+                            {order: 5, title: "Flying-cat-Loop-Animation", name: "김준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/6.jpg`, width: 3, height: 2, overview: "", overview1: "2022-5"},
+                            {order: 6, title: "Mr.-purple-Loop-Animation", name: "김준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/7.jpg`, width: 3, height: 2, overview: "", overview1: "2022-3"},
+                            {order: 7, title: "Somebody-anne", name: "김준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/8.jpg`, width: 3, height: 3, overview: "100x100cm", overview1: "Digitalprint-2023-3"},
+                            {order: 8, title: "Somebody-chair-man", name: "김준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/9.jpg`, width: 4.9, height: 4.9, overview: "70x70cm", overview1: "Digitalprint-2023-3"},
+                            {order: 9, title: "Somebody-curtain-call", name: "김준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/10.jpg`, width: 4.4, height: 4.4, overview: "110x110cm", overview1: "Digitalprint-2023-3"},
+                            {order: 10, title: "Somebody-pink-tile", name: "김준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/11.jpg`, width: 4.4, height: 4.4, overview: "110x110cm", overview1: "Digitalprint-2023-3"},
+                            {order: 11, title: "Somebody-red-dot", name: "김준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/12.jpg`, width: 4.68, height: 6.6, overview: "78x110cm", overview1: "Digitalprint-2023-3"},
                         ]
                     },
                     {
@@ -1547,7 +1546,7 @@ export const allExhibits_KOR = [
                         title: "매끄러운 돌밭2", 
                         name: "옥승철", 
                         engname: "OK Seungcheol",
-                        imgname:"/2023/23-7/23-7-3.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-7/23-7-3.jpg`, 
                         text: "“매번 같은 것을 반복하는 듯한 옥승철의 작품들은 반복을 통해 더 새로울 수 있다는 믿음에서 출발한다. 이러한 믿음은 그의 도상이 다중 매체들로 전환/순환할 때마다 동시대 다양한 제작 기술들의 한계와 만나며 마찰한다. 즉, 그의 그림이 조각 또는 거울이 될 때, 그의 그림이 영상이 될 때, 그의 그림이 다른 캔버스로 옮겨갈 때, 형상들은 이상과 현실 사이를 맴돌며 미묘하게 달라지거나 풍화된다.”_정현 <무-시-공-연속체의 파티나> 부분 발췌 옥승철 작가는 활동 초반부터 현재까지 포스트 디지털 시대의 관점에서 원본성(Originality)의 문제를 다뤄오고 있다. 디지털 이미지를 원본 삼아 회화, 조각 등 전통 매체뿐 아니라 현실과 가상, 미술과 비미술의 경계를 오가며 출력하고 공유함으로써, 가벼운(디지털 원본) 이미지와 무거운(미술 작품) 이미지가 교차하는 아이러니를 부각한다. 이미지가 하나의 형식으로 고착되지 않고 그 안과 밖에서 상호작용하며 여러 형태와 질감으로 구체화하는 과정, 그리고 출력된 외피가 빚어내는 이른바 가벼움과 진지함이 공존(무한 복제 가능한 디지털 이미지와 유일성이 강조되는 미술작품이 대비되는)하는 모순을 강조해 원본성의 의미를 새로운 관점에서 살피는 작업을 선보인다. 이번 전시에서 작가는 작품 하나 하나보다 소전시실 자체를 하나의 작업의 포맷으로 생각하고 구성했다. 평면 회화 <Portrait, 2023>부터 프로젝터로 틀어진 <Never Again, 2018> 영상, 또 그것을 반사시키는 한 쌍의 거울 <Outline, 2022>까지 납작한 형태의 다매체 작품을 구성하여 얇은 여러 두께감이 주는 시각적인 효과를 관람객에게 제시한다. 작가의 의도처럼 평면성의 한계로 물리적 형태를 만족시킬 수 없는 지점에 대한 감상과 해석을 체험하도록 유도한다. 특히 정면의 얼굴이 없는 압축된 평면 조각 형태의 양면 부조 <Face, 2023>는 제목에서부터 상상하게 만드는 얼굴의 모습은 볼 수 없고 같은 뒷모습만 반복적으로 보여지는 작품이다. 답답함을 의도적으로 느끼게 해 모니터 화면 속에 있는 평면 이미지가 갖는 한계를 물성 그리고 그 본질을 질문한다. 또한 많은 레이어가 겹겹이 쌓여 압축된 테두리는 그 한계를 내포하고 있다.",
                         education: "중앙대학교 서양화 졸업",
                         individual_exhibition: [
@@ -1573,11 +1572,11 @@ export const allExhibits_KOR = [
                             {order: 14, exhibit: "《소년이여, 신화가 되어라》, 스페이스 K, 대구"},
                         ],
                         paint: [
-                            {order: 12, title: "Portrait", imgname: "/2023/23-7/13.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-2-3"},
-                            {order: 13, title: "Portrait", imgname: "/2023/23-7/14.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-4"},
-                            {order: 14, title: "Install cut", imgname: "/2023/23-7/15.jpg", overview: "", overview1: ""},
-                            {order: 15, title: "Install cut", imgname: "/2023/23-7/16.jpg", overview: "", overview1: ""},
-                            {order: 16, title: "Install cut", imgname: "/2023/23-7/17.jpg", overview: "", overview1: ""},
+                            {order: 12, title: "Portrait", name: "옥승철", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/13.jpg`, width: 2.4, height: 3, overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-2-3"},
+                            {order: 13, title: "Portrait", name: "옥승철", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/14.jpg`, width: 2.4, height: 3, overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-4"},
+                            {order: 14, title: "Install cut", name: "옥승철", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/15.jpg`, width: 3, height: 2, overview: "", overview1: ""},
+                            {order: 15, title: "Install cut", name: "옥승철", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/16.jpg`, width: 3, height: 2, overview: "", overview1: ""},
+                            {order: 16, title: "Install cut", name: "옥승철", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/17.jpg`, width: 3, height: 2, overview: "", overview1: ""},
                         ]
                     },    
                     {
@@ -1586,7 +1585,7 @@ export const allExhibits_KOR = [
                         title: "매끄러운 돌밭2", 
                         name: "이윤성", 
                         engname: "Lee Yun Sung",
-                        imgname:"/2023/23-7/23-7-4.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-7/23-7-4.jpg`, 
                         text: "나는 오래된 서사와 현대 시각 문화에서 드러나는 표현에 관심을 두고 있다. 그리스 로마 신화와 같은 신화나 전설에서 생산된 이야기를 모티프로, 망가 또는 모에화로 불리는 서브컬처 이미지에서 연유한 표현 방법을 형식으로 삼는다. 그리고 이러한 방법론을 그림의 주제와 형상뿐만 아니라 프레임의 형태와 크기, 조합 모듈과 구성 방식, 색채와 묘법에 까지 폭넓게 활용하고있다. [토르소(Torso)]는 손상된 고대 그리스 조각과 일본 애니메이션 <공각기동대 :Ghost in the Shell (1995)> 극장판의 마지막 장면에서 영감을 받았다. 파괴된 신체들 사이에서 발견된 새로운 이미지는, 분출하거나 흩날리는 핏방울, 반짝이거나 폭발하는 효과들, 소용돌이치는 공간 같은 다양한 요소들과 충돌하면서, 일련의 작품으로 변형되었다. 그리스 신화에 등장하는 삼미신을 모티브로 그려낸 큰 회화 작업, [삼미신 (The Three Graces)] 은 오래도록 예술가에게 영감을 가져다준 주제이기도 하다. 가장 전형적인 형태의 삼미신 포즈와 미소녀 만화 캐릭터의 특징들을 참조하며 작업을 하였다. 열 점의 캔버스의 조각이 모여 하나의 큰 화면을 이루는 이 작품은, 손바닥만한 만화책이나 티브이 매체 등을 통해 보던 이미지들이 거대한 회화의 주인공이 되었을 때, 어떤 모습으로 보여질지를 생각하며 제작하였다. 회화 연작과 디지털 조각 영상으로 제작된 [메두사(Medusa)] 시리즈는, 하나의 드로잉에서부터 시작되었다. 드로잉은 고전 애니메이션 스타일의 페인팅으로 제작되고, 다시 이를 토대로 만들어진 가상의 디지털 입체작업이, 마침내 3D프린터로 출력되어 물리적인 조각이 되는 과정 속에서의 결과물들이다. 과거의 회화가 현실을 평면에 재현하는 다양한 시도들이었다면, 현재는 이미 평면인 세계를, 어떻게 재구성해 내거나, 새로운 공간으로 확장시켜낼 수 있을지 실험해 보는 과정에 있다고 생각했다.",
                         education: "중앙대학교 서양화 전공 학사",
                         individual_exhibition: [
@@ -1623,13 +1622,13 @@ export const allExhibits_KOR = [
                             {order: 20, exhibit: "《미묘한 만남》, 갤러리 루, 서울"},
                         ],
                         paint: [
-                            {order: 17, title: "Head-of-Medusa-Pink", imgname: "/2023/23-7/18.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-2-3"},
-                            {order: 18, title: "Head-of-Medusa", imgname: "/2023/23-7/19.jpg", overview: "162x162cm", overview1: "Oil-on-Canvas-2021-1"},
-                            {order: 19, title: "Head-of-Medusa-Pink", imgname: "/2023/23-7/20.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-1"},
-                            {order: 20, title: "Head-of-Medusa-Silver-3D-Rendering", imgname: "/2023/23-7/21.png", overview: "", overview1: "video-loop-2023-1"},
-                            {order: 21, title: "The-Three-Graces", imgname: "/2023/23-7/22.jpg", overview: "300x480cm", overview1: "Oil-on-Canvas-2023-1"},
-                            {order: 22, title: "Torso-12", imgname: "/2023/23-7/23.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-1-1"},
-                            {order: 23, title: "Torso-12", imgname: "/2023/23-7/24.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-2-1"},
+                            {order: 17, title: "Head-of-Medusa-Pink", name: "이윤성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/18.jpg`, width: 3.65, height: 4.55, overview: "73x91cm", overview1: "Oil-on-Canvas-2022-2-3"},
+                            {order: 18, title: "Head-of-Medusa", name: "이윤성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/19.jpg`, width: 4.86, height: 4.86, overview: "162x162cm", overview1: "Oil-on-Canvas-2021-1"},
+                            {order: 19, title: "Head-of-Medusa-Pink", name: "이윤성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/20.jpg`, width: 3.65, height: 4.55, overview: "73x91cm", overview1: "Oil-on-Canvas-2022-1"},
+                            {order: 20, title: "Head-of-Medusa-Silver-3D-Rendering", name: "이윤성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/21.png`, width: 3, height: 2, overview: "", overview1: "video-loop-2023-1"},
+                            {order: 21, title: "The-Three-Graces", name: "이윤성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/22.jpg`, width: 4.8, height: 3, overview: "300x480cm", overview1: "Oil-on-Canvas-2023-1"},
+                            {order: 22, title: "Torso-12", name: "이윤성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/23.jpg`, width: 4.86, height: 3.9, overview: "162x130cm", overview1: "Oil-on-Canvas-2023-1-1"},
+                            {order: 23, title: "Torso-12", name: "이윤성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/24.jpg`, width: 4.86, height: 3.9, overview: "162x130cm", overview1: "Oil-on-Canvas-2023-2-1"},
                         ]
                     },        
                 ],
@@ -1653,7 +1652,7 @@ export const allExhibits_KOR = [
                         title:"숨을 위한 시간 (Time for Breath)", 
                         name: "임은수", 
                         engname: "Eunsoo Lim",
-                        imgname:"/2023/23-8/23-8-1.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-8/23-8-1.png`, 
                         text: "‘숨을 위한 시간(Time for Breath)’\ 나의 예술표현 활동은 내 몸과 정신의 통로를 기준으로 삼는다. 공간 속 생명 에너지를 받아들여, 생명 의지를 잃은 공간에 연결해 치유와 회복에 참여하는 실천 과정이다. ‘숨을 위한 시간(Time for Breath)’은 자연의 에너지를 불러내어 이어주는 생명 회복과 치유에 관한 이야기다. 자연 속에서 쉼 없이 부유하는 생명 입자를 화면으로 옮겨 드로잉 하거나 자연물을 설치하고 에너지를 채집하는 상징적인 행위를 한다. 치유를 의미하는 주제를 통해 취약한 공간에 생명 에너지를 이어주는 퍼프먼스, 설치, 드로잉 작품들로 구성된다. 숨을 위한 시간(Time for Breath)’ 전시를 통해 불안한 시대를 살아하는 사람들에게 치유와 힘이 되는 계기가 되길 희망한다.",
                         education: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
                         individual_exhibition: [
@@ -1689,11 +1688,11 @@ export const allExhibits_KOR = [
                             {order: 11, exhibit: "2019 조각조각 -Pieces of times 전 (터미널 작은미술관, 정선)"},
                         ],
                         paint: [
-                            {order: 0, title: "변이", imgname: "/2023/23-8/1-45x65.jpg", overview: "45x65cm", overview1: "한지에 물감 드로잉 5 Pieces, 동물 뼈, 깃털, 2023"},
-                            {order: 1, title: "물의 기억", imgname: "/2023/23-8/2-102.4x68.3.jpg", overview: "", overview1: "채색된 의류설치 위에 영상, 염색된 천 설치 위에 영상, 벽면에 초크 드로잉 가변설치, 영상 19분 5초, 2022"},
-                            {order: 2, title: "지나가다", imgname: "/2023/23-8/3-95x180.jpg", overview: "95x180cm", overview1: "한지에 물감 드로잉, 2013"},
-                            {order: 3, title: "나는 지금 이곳에 있다 속리산에서", imgname: "/2023/23-8/4-102.4x57.6.jpg", overview: "", overview1: "Video, 10분 6초, 2020. 10.25"},
-                            {order: 4, title: "나는 지금 이곳에 있다. 대청호 미천리 습지에서", imgname: "/2023/23-8/5-102.4x68.3.jpg", overview: "", overview1: "Video, 2021.09.04._스틸컷1"},
+                            {order: 0, title: "변이", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/1-45x65.jpg`, width: 6.5, height: 4.5, overview: "45x65cm", overview1: "한지에 물감 드로잉 5 Pieces, 동물 뼈, 깃털, 2023"},
+                            {order: 1, title: "물의 기억", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/2-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "채색된 의류설치 위에 영상, 염색된 천 설치 위에 영상, 벽면에 초크 드로잉 가변설치, 영상 19분 5초, 2022"},
+                            {order: 2, title: "지나가다", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/3-95x180.jpg`, width: 5.4, height: 2.85, overview: "95x180cm", overview1: "한지에 물감 드로잉, 2013"},
+                            {order: 3, title: "나는 지금 이곳에 있다 속리산에서", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/4-102.4x57.6.jpg`, width: 4.096, height: 2.304, overview: "", overview1: "Video, 10분 6초, 2020. 10.25"},
+                            {order: 4, title: "나는 지금 이곳에 있다. 대청호 미천리 습지에서", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/5-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "Video, 2021.09.04._스틸컷1"},
                         ]
                     },      
                 ],
@@ -1717,7 +1716,7 @@ export const allExhibits_KOR = [
                         title: "2023년 지원사업 결과보고전", 
                         name: "김라연", 
                         engname: "RaYeon Kim",
-                        imgname:"/2023/23-9/23-9-1.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-9/23-9-1.png`, 
                         text: "어느 순간, 길을 걸을 때마다 바닥을 보고 걷는 버릇이 생겨 버렸다. 매일 지나치는 내수동로 102번길을 평소처럼 바닥만 보고 무심히 걷다가 무관심하게 여겨졌던 것들이 서서히 눈에 띄기 시작했다. 다양한 모양새를 띈 낮은 석축들과 보도블록 틈 사이에서 자라난 잡초들을 유심히 바라보게 되었다. 어떻게 저것들을 뚫고 자라날 수 있을까 라는 의문과 함께 천천히 걷는 것이 일상이 되었다. 그동안 보이지 않았던 것들이 보이기 시작했다. 떨어진 낙엽들, 유유히 지나가는 고양이, 지나가는 사람들의 발자욱 소리… 늘 앞만 보고 걸었던 나에겐 새로운 느낌이었다. 그리고 끈질긴 생명력으로 피어난 잡초들이 갑자기 서글프게 아름다워 보이기 시작하였다. 그리고 나는 그 길을 따라 걸으며 보았던 잡초들을 하나씩 그리기 시작했다.",
                         education: "충북대학교 미술학과 서양화 전공 졸업 및 충북대학교 일반대학원 조형예술학과 석사과정 재학",
                         individual_exhibition: [
@@ -1743,14 +1742,14 @@ export const allExhibits_KOR = [
                             {order: 15, exhibit: "2015 GIAF 아시아현대미술청년작가공모전, 서울 세종미술관, 서울"},
                         ],
                         paint: [
-                            {order: 0, title: "Naesudong-ro 102beon-gil No.10", imgname: "/2023/23-9/1-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
-                            {order: 1, title: "Naesudong-ro 102beon-gil", imgname: "/2023/23-9/2-195.3x454.5.jpg", overview: "195.3x454.5cm", overview1: "oil on canvas_2021"},
-                            {order: 2, title: "Naesudong-ro 102beon-gil No.02", imgname: "/2023/23-9/3-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
-                            {order: 3, title: "Naesudong-ro 102beon-gil No.12", imgname: "/2023/23-9/4-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
-                            {order: 4, title: "Naesudong-ro 102beon-gil No.13", imgname: "/2023/23-9/5-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
-                            {order: 5, title: "잡초들", imgname: "/2023/23-9/6-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "oil on canvas_2021"},
-                            {order: 6, title: "잡초들", imgname: "/2023/23-9/7-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "oil on canvas_2021"},
-                            {order: 7, title: "잡초들", imgname: "/2023/23-9/8-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "oil on canvas_2021"},
+                            {order: 0, title: "Naesudong-ro 102beon-gil No.10", name: "김라연", mgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/1-65.1x90.9.jpg`, width: 5.454, height: 3.906, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 1, title: "Naesudong-ro 102beon-gil", name: "김라연", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/2-195.3x454.5.jpg`, width: 4.545, height: 1.953, overview: "195.3x454.5cm", overview1: "oil on canvas_2021"},
+                            {order: 2, title: "Naesudong-ro 102beon-gil No.02", name: "김라연", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/3-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 3, title: "Naesudong-ro 102beon-gil No.12", name: "김라연", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/4-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 4, title: "Naesudong-ro 102beon-gil No.13", name: "김라연", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/5-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 5, title: "잡초들", name: "김라연", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/6-33.4x21.2.jpg`, overview: "33.4x21.2cm", width: 4.24, height: 6.68, overview1: "oil on canvas_2021"},
+                            {order: 6, title: "잡초들", name: "김라연", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/7-33.4x21.2.jpg`, overview: "33.4x21.2cm", width: 4.24, height: 6.68, overview1: "oil on canvas_2021"},
+                            {order: 7, title: "잡초들", name: "김라연", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/8-33.4x21.2.jpg`, overview: "33.4x21.2cm", width: 4.24, height: 6.68, overview1: "oil on canvas_2021"},
                         ]
                     },   
                     {
@@ -1759,13 +1758,13 @@ export const allExhibits_KOR = [
                         title: "2023년 지원사업 결과보고전", 
                         name: "이자연", 
                         engname: "JaYeon Lee",
-                        imgname:"/2023/23-9/23-9-2.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-9/23-9-2.png`, 
                         text: "조형의 기본요소 점선면과 기법, 형식, 재료를 알아보고 물성의 특징에 따라 다양한 도구 사용법 경험으로 입체작품 표현 연구를 다양한 만들기 실험을 통해 표현해보고 폭넓은 시각사고를 확장시키며 반려식물 작품 창작해보는 시간.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "붉은 촉(觸)_어떤 상황적 풍경", imgname: "/2023/23-9/9-76.8x51.2.png", overview: "", overview1: "한지, 파라핀왁스, 콘크리트블록, 가변크기, 2022"},
+                            {order: 8, title: "붉은 촉(觸)_어떤 상황적 풍경", name: "이자연", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/9-76.8x51.2.png`, width: 3.072, height: 4.608, overview: "", overview1: "한지, 파라핀왁스, 콘크리트블록, 가변크기, 2022"},
                         ]
                     },   
                     {
@@ -1774,13 +1773,13 @@ export const allExhibits_KOR = [
                         title: "2023년 지원사업 결과보고전", 
                         name: "김동우", 
                         engname: "Dongwoo Kim",
-                        imgname:"/2023/23-9/23-9-3.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-9/23-9-3.png`, 
                         text: "각자가 꿈꾸는 세상의 모습과 풍경을 서로 이야기하고 나, 타인 그리고 우리에 대해 이해해보고 아날로그 페인팅을 통해 일상의 공간에서 일어나는 낯선 상황을 마주하는 상상 의 시간.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "표류하거나 벗어나거나", imgname: "/2023/23-9/10-227x728.png", overview: "227x728cm", overview1: "캔버스 위에 유화, 2022"},
+                            {order: 9, title: "표류하거나 벗어나거나", name: "김동우", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/10-227x728.png`, width: 2.27, height: 7.28, overview: "227x728cm", overview1: "캔버스 위에 유화, 2022"},
                         ]
                     },   
                     {
@@ -1789,13 +1788,13 @@ export const allExhibits_KOR = [
                         title: "2023년 지원사업 결과보고전", 
                         name: "최민솔", 
                         engname: "Minsol Choi",
-                        imgname:"/2023/23-9/23-9-4.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-9/23-9-4.png`, 
                         text: "형태에 대한 이해와 현대미술의 ‘추상 회화’의 ‘선, 형태, 색채, 질감’ 등 추상적 요소들을 통해 자유롭게 표현하며 작가의 직관과 감정에 중점을 두고, 즉흥적, 표현주의적, 비정형의 확장된 시각을 함께 경험하고 공간의 설치를 통해 창의적 경험과 표현으로 정서적 예술사고 발달 형성하는 시간.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "우리들의 초상 (肖像)", imgname: "/2023/23-9/11-76.8x78.2.png", overview: "", overview1: "캔버스 위에 아크릴, 거울, 가변크기, 2020"},
+                            {order: 10, title: "우리들의 초상 (肖像)", name: "최민솔", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/11-76.8x78.2.png`, width: 4.692, height: 4.608, overview: "", overview1: "캔버스 위에 아크릴, 거울, 가변크기, 2020"},
                         ]
                     },      
                 ],
@@ -1819,13 +1818,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "김세은", 
                         engname: "Seeun Kim",
-                        imgname:"/2023/23-10/23-10-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-1.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "행복", imgname: "/2023/23-10/1-394x545.jpg", overview: "394x545cm", overview1: "아크릴, 2023"},
+                            {order: 0, title: "행복", name: "김세은", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/1-394x545.jpg`, width: 5.45, height: 3.94, overview: "394x545cm", overview1: "아크릴, 2023"},
                         ]
                     },   
                     {
@@ -1834,13 +1833,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "김수완", 
                         engname: "Soowan Kim",
-                        imgname:"/2023/23-10/23-10-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-2.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "꿈 속에서", imgname: "/2023/23-10/2-59.7x42.7.jpg", overview: "59.7x42.7cm", overview1: "캔버스에 Oil, 2023"},
+                            {order: 1, title: "꿈 속에서", name: "김수완", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/2-59.7x42.7.jpg`, width: 3.843, height: 4.776, overview: "59.7x42.7cm", overview1: "캔버스에 Oil, 2023"},
                         ]
                     },   
                     {
@@ -1849,7 +1848,7 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "김유빈", 
                         engname: "Yoobin Kim",
-                        imgname:"/2023/23-10/23-10-3.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-3.jpg`, 
                         text: "",
                         education: "배재대학교 아트앤웹툰학과 졸업",
                         individual_exhibition: [],
@@ -1862,8 +1861,8 @@ export const allExhibits_KOR = [
                             {order: 6, exhibit: "2021 대전시 미술대전 입선 (대전시립미술관)"},
                         ],
                         paint: [
-                            {order: 2, title: "", imgname: "/2023/23-10/3-30x29.8.jpg", overview: "", overview1: ""},
-                            {order: 3, title: "대비", imgname: "/2023/23-10/4-116.8x91.jpg", overview: "116.8x91cm", overview1: "장치에 채색, 2023"},
+                            {order: 2, title: "", name: "김유빈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/3-30x29.8.jpg`, width: 6, height: 5.96, overview: "", overview1: ""},
+                            {order: 3, title: "대비", name: "김유빈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/4-116.8x91.jpg`, width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "장치에 채색, 2023"},
                         ]
                     },   
                     {
@@ -1872,13 +1871,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "서지연", 
                         engname: "Jiyeon Seo",
-                        imgname:"/2023/23-10/23-10-4.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-4.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition:  [],
                         group_exhibition: [],
                         paint: [
-                            {order: 4, title: "공구함 속 재료들", imgname: "/2023/23-10/5-27x22.jpg", overview: "27x22cm", overview1: "아크릴, 2022"},
+                            {order: 4, title: "공구함 속 재료들", name: "서지연", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/5-27x22.jpg`, width: 4.4, height: 5.4, overview: "27x22cm", overview1: "아크릴, 2022"},
                         ]
                     },   
                     {
@@ -1887,13 +1886,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "신해인", 
                         engname: "Haein Shin",
-                        imgname:"/2023/23-10/23-10-5.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-5.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "", imgname: "/2023/23-10/6-30x30.jpg", overview: "", overview1: ""},
+                            {order: 5, title: "", name: "신해인", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/6-30x30.jpg`, width: 6, height: 6, overview: "", overview1: ""},
                         ]
                     },  
                     {
@@ -1902,14 +1901,14 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "윤선재", 
                         engname: "Sunjae Yoon",
-                        imgname:"/2023/23-10/23-10-6.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-6.png`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "빛나는 시선1", imgname: "/2023/23-10/7-30x20.png", overview: "", overview1: ""},
-                            {order: 7, title: "빛나는 시선2", imgname: "/2023/23-10/8-30x20.png", overview: "", overview1: ""},                         
+                            {order: 6, title: "빛나는 시선1", name: "윤선재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/7-30x20.png`, width: 6, height: 4, overview: "", overview1: ""},
+                            {order: 7, title: "빛나는 시선2", name: "윤선재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/8-30x20.png`, width: 6, height: 4, overview: "", overview1: ""},                          
                         ]
                     },   
                     {
@@ -1918,13 +1917,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "이도훈", 
                         engname: "Dohoon Lee",
-                        imgname:"/2023/23-10/23-10-7.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-7.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "셀픽", imgname: "/2023/23-10/9-59.7x42.7.jpg", overview: "", overview1: "디지털 프린트에 아크릴릭, 2023"},
+                            {order: 8, title: "셀픽", name: "이도훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/9-59.7x42.7.jpg`, width: 4.27, height: 5.97, overview: "", overview1: "디지털 프린트에 아크릴릭, 2023"},
                         ]
                     }, 
                     {
@@ -1933,13 +1932,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "이하늘", 
                         engname: "Haneul Lee",
-                        imgname:"/2023/23-10/23-10-8.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-8.png`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "밥상", imgname: "/2023/23-10/10-49.4x49.4.png", overview: "49.4x49.4cm", overview1: "아크릴, 2023"},
+                            {order: 9, title: "밥상", name: "이하늘", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/10-49.4x49.4.png`, width: 4.94, height: 4.94, overview: "49.4x49.4cm", overview1: "아크릴, 2023"},
                         ]
                     }, 
                     {
@@ -1948,13 +1947,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "진형준", 
                         engname: "Hyungjun Jin",
-                        imgname:"/2023/23-10/23-10-9.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-9.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "", imgname: "/2023/23-10/11-29.5x30.jpg", overview: "", overview1: ""},
+                            {order: 10, title: "", name: "진형준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/11-29.5x30.jpg`, width: 5.9, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -1963,13 +1962,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "권소영", 
                         engname: "Soyoung Kwon",
-                        imgname:"/2023/23-10/23-10-10.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-10.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "안식처", imgname: "/2023/23-10/12-53x45.5.jpg", overview: "53x45.5cm", overview1: "캔버스에 아크릴릭, 2023"},
+                            {order: 11, title: "안식처", name: "권소영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/12-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "캔버스에 아크릴릭, 2023"},
                         ]
                     }, 
                     {
@@ -1978,13 +1977,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "김도훈", 
                         engname: "Dohoon Kim",
-                        imgname:"/2023/23-10/23-10-11.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-11.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "끝에 다다라", imgname: "/2023/23-10/13-90.9x72.7.jpg", overview: "90.9x72.7cm", overview1: "캔버스에 유채, 2023"},
+                            {order: 12, title: "끝에 다다라", name: "김도훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/13-90.9x72.7.jpg`, width: 2.908, height: 3.636, overview: "90.9x72.7cm", overview1: "캔버스에 유채, 2023"},
                         ]
                     }, 
                     {
@@ -1993,14 +1992,14 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "김지훈", 
                         engname: "Jihoon Kim",
-                        imgname:"/2023/23-10/23-10-12.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-12.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "심연", imgname: "/2023/23-10/14-130.3x97.jpg", overview: "130.3x97cm", overview1: "면끈 벨벳 끈 비닐 혼합재료, 2023"},
-                            {order: 14, title: "사유의 숲", imgname: "/2023/23-10/15-72.7x72.7.jpg", overview: "72.7x72.7cm", overview1: "종이에 먹 채색, 2023"},
+                            {order: 13, title: "심연", name: "김지훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/14-130.3x97.jpg`, width: 3.88, height: 5.212, overview: "130.3x97cm", overview1: "면끈 벨벳 끈 비닐 혼합재료, 2023"},
+                            {order: 14, title: "사유의 숲", name: "김지훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/15-72.7x72.7.jpg`, width: 4.362, height: 4.362, overview: "72.7x72.7cm", overview1: "종이에 먹 채색, 2023"},
                         ]
                     }, 
                     {
@@ -2009,13 +2008,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "심규봉", 
                         engname: "Kyubong Shim",
-                        imgname:"/2023/23-10/23-10-13.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-13.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 15, title: "", imgname: "/2023/23-10/16-30x30.jpg", overview: "", overview1: ""},
+                            {order: 15, title: "", name: "심규봉", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/16-30x30.jpg`, width: 6, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2024,13 +2023,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "이승지", 
                         engname: "Seungjee Lee",
-                        imgname:"/2023/23-10/23-10-14.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-14.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 16, title: "", imgname: "/2023/23-10/17-23.4x30.jpg", overview: "", overview1: ""},
+                            {order: 16, title: "", name: "이승지", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/17-23.4x30.jpg`, width: 4.68, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2039,7 +2038,7 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "임재현", 
                         engname: "Jaehyun Lim",
-                        imgname:"/2023/23-10/23-10-15.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-15.jpg`, 
                         text: "",
                         education: "배재대학교 아트앤웹툰학과 졸업",
                         individual_exhibition: [],
@@ -2055,7 +2054,7 @@ export const allExhibits_KOR = [
                             {order: 9, exhibit: "2021 테미오래 3기 연결된 상상 전시"},
                         ],
                         paint: [
-                            {order: 17, title: "", imgname: "/2023/23-10/18-25.9x30.jpg", overview: "", overview1: ""},
+                            {order: 17, title: "", name: "임재현", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/18-25.9x30.jpg`, width: 5.18, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2064,7 +2063,7 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "기유", 
                         engname: "Yu Gi",
-                        imgname:"/2023/23-10/23-10-16.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-16.jpg`, 
                         text: "",
                         education: "배재대학교 아트앤웹툰학과 졸업",
                         individual_exhibition: [],
@@ -2081,7 +2080,7 @@ export const allExhibits_KOR = [
                             {order: 10, exhibit: "2021, 동인전, 동양장비원"},
                         ],
                         paint: [
-                            {order: 18, title: "", imgname: "/2023/23-10/19-21x29.jpg", overview: "21x29cm", overview1: ""},
+                            {order: 18, title: "", name: "기유", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/19-21x29.jpg`, width: 5.8, height: 4.2, overview: "21x29cm", overview1: ""},
                         ]
                     }, 
                     {
@@ -2090,13 +2089,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "정영훈", 
                         engname: "Younghoon Chung",
-                        imgname:"/2023/23-10/23-10-17.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-17.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 19, title: "고립의 시대", imgname: "/2023/23-10/20-25.3x30.jpg", overview: "", overview1: ""},
+                            {order: 19, title: "고립의 시대", name: "정영훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/20-25.3x30.jpg`, width: 5.06, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2105,14 +2104,14 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "한예진", 
                         engname: "Yejin Han",
-                        imgname:"/2023/23-10/23-10-18.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-18.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "시선1", imgname: "/2023/23-10/21-35x27.5.jpg", overview: "35x27.5cm", overview1: "캔버스에 아크릴, 2023"},
-                            {order: 21, title: "시선2", imgname: "/2023/23-10/22-35x27.5.jpg", overview: "35x27.5cm", overview1: "캔버스에 아크릴, 2023"},
+                            {order: 20, title: "시선1", name: "한예진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/21-35x27.5.jpg`, width: 2.75, height: 3.5, overview: "35x27.5cm", overview1: "캔버스에 아크릴, 2023"},
+                            {order: 21, title: "시선2", name: "한예진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/22-35x27.5.jpg`, width: 2.75, height: 3.5, overview: "35x27.5cm", overview1: "캔버스에 아크릴, 2023"},
                         ]
                     }, 
                     {
@@ -2121,13 +2120,13 @@ export const allExhibits_KOR = [
                         title: "2023 불안정한 가능성 -청년신생작가 전시", 
                         name: "홍명기", 
                         engname: "Myunggi Hong",
-                        imgname:"/2023/23-10/23-10-19.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-10/23-10-19.jpg`, 
                         text: "",
                         education: "청주대학교 아트앤패션 디자인학과 졸업",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 22, title: "조류 공포증", imgname: "/2023/23-10/23-45x45.jpg", overview: "45x45cm", overview1: "오일파스텔-canvas-2023"},
+                            {order: 22, title: "조류 공포증", name: "홍명기", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/23-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "오일파스텔-canvas-2023"},
                         ]
                     }, 
                 ],
@@ -2151,7 +2150,7 @@ export const allExhibits_KOR = [
                         title:"‘괴산의 그림쟁이’ 황창배 작고 22주기 기획초대전", 
                         name: "황창배", 
                         engname: "Changbae Hwang",
-                        imgname:"/2023/23-11/23-11-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-11/23-11-1.jpg`, 
                         text: "나는 내 그림을 통하여 어떤 메세지를 강하게 전달하겠다는 생각은 별로 하지 않는다. 그래서 작업에 들어가기 전에 무엇을 그릴 것인가에 대한 구체적인 계획이 없다. 그러나 반면에 계획이 없기에 화면을 대할 때마다 막연하고 두려울 때도 있어서 마치 암흑 속에 갇혀 있는 것 같기도 하다. 나는 그림마다 그 당시의 즉흥적 감정에 충실하려 노력한다. 나에게는 표현된 대상이 주는 의미의 진폭은 그리 크지 않다. 나는 그 표현된 구체적 대상들이 내가 의도하고자 하는 최종의 것이 아니라는 것을 알고 있기 때문이다.",
                         education: "서울대학교 미술대학 회화과 졸업, 서울대학교 대학원 회화전공 졸업",
                         individual_exhibition: [
@@ -2169,17 +2168,17 @@ export const allExhibits_KOR = [
             
                         ],
                         paint: [
-                            {order: 0, title: "탄생, 시련, 기적, 사랑, 영생, 부활", imgname: "/2023/23-11/1-71.6x72.7.jpg", overview: "310x70cm", overview1: "캔버스에 아크릴릭, 1997"},
-                            {order: 1, title: "탄생, 시련, 기적, 사랑, 영생, 부활", imgname: "/2023/23-11/2-71.7x72.8.jpg", overview: "310x70cm", overview1: "캔버스에 아크릴릭, 1997"},
-                            {order: 2, title: "부활하신 예수님", imgname: "/2023/23-11/3-45x45.jpg", overview: "45x45cm", overview1: "캔버스에 아크릴릭, 1998"},
-                            {order: 3, title: "엘리야의 기도", imgname: "/2023/23-11/4-45x45.jpg", overview: "45x45cm", overview1: "캔버스에 아크릴릭, 1998"},
-                            {order: 4, title: "성모마리아와 말", imgname: "/2023/23-11/5-130.5x130.5.jpg", overview: "130.5x130.5cm", overview1: "캔버스에 혼합재료, 1995"},
-                            {order: 5, title: "95-57", imgname: "/2023/23-11/6-127x166.jpg", overview: "127x166cm", overview1: "한지에 혼합재료, 1995"},
-                            {order: 6, title: "96-2", imgname: "/2023/23-11/7-117x91.jpg", overview: "117x91cm", overview1: "캔버스에 혼합재료, 1996"},
-                            {order: 7, title: "96-12", imgname: "/2023/23-11/8-162x130.jpg", overview: "162x130cm", overview1: "캔버스에 혼합재료, 1996"},
-                            {order: 8, title: "C33", imgname: "/2023/23-11/9-21x25.jpg", overview: "21x25cm", overview1: "종이에 채색, 1992"},
-                            {order: 9, title: "D-107", imgname: "/2023/23-11/10-135x167.jpg", overview: "135x167cm", overview1: "한지에 혼합, 1994"},
-                            {order: 10, title: "D-139", imgname: "/2023/23-11/11-130x166.jpg", overview: "130x166cm", overview1: "한지에 혼합재료, 1996"},
+                            {order: 0, title: "탄생, 시련, 기적, 사랑, 영생, 부활", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "캔버스에 아크릴릭, 1997"},
+                            {order: 1, title: "탄생, 시련, 기적, 사랑, 영생, 부활", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "캔버스에 아크릴릭, 1997"},
+                            {order: 2, title: "부활하신 예수님", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/3-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "캔버스에 아크릴릭, 1998"},
+                            {order: 3, title: "엘리야의 기도", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/4-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "캔버스에 아크릴릭, 1998"},
+                            {order: 4, title: "성모마리아와 말", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/5-130.5x130.5.jpg`, width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "캔버스에 혼합재료, 1995"},
+                            {order: 5, title: "95-57", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/6-127x166.jpg`, width: 4.98, height: 3.81, overview: "127x166cm", overview1: "한지에 혼합재료, 1995"},
+                            {order: 6, title: "96-2", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/7-117x91.jpg`, width: 3.64, height: 4.68, overview: "117x91cm", overview1: "캔버스에 혼합재료, 1996"},
+                            {order: 7, title: "96-12", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "캔버스에 혼합재료, 1996"},
+                            {order: 8, title: "C33", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/9-21x25.jpg`, width: 5, height: 4.2, overview: "21x25cm", overview1: "종이에 채색, 1992"},
+                            {order: 9, title: "D-107", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/10-135x167.jpg`, width: 5.01, height: 4.05, overview: "135x167cm", overview1: "한지에 혼합, 1994"},
+                            {order: 10, title: "D-139", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/11-130x166.jpg`, width: 4.98, height: 3.9, overview: "130x166cm", overview1: "한지에 혼합재료, 1996"},
                         ]
                     },
                 ],
@@ -2209,13 +2208,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "김서연", 
                         engname: "SeoYeon Kim",
-                        imgname:"/2022/22-1/22-1-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-1.jpg`, 
                         text: "김서연 작가는 캔버스를 Hand-Cut 하며 캔버스에 의미를 담기보다는 의미를 비우고 지우는 부정의 시간을 담아낸다. 캔버스를 비우며 행해지는 끊임없는 단순 반복은 삶에 대한 희망을 의미할 수도 있지만 그 이면적인 의미는 죽음을 내포한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "CutPieces-Pink", imgname: "/2022/22-1/1-162x130.jpg", overview: "162x130cm", overview1: "acrylic-on-canvas-hand-cut-2014"},
+                            {order: 0, title: "CutPieces-Pink", name: "김서연", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/1-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "acrylic-on-canvas-hand-cut-2014"},
                         ]
                     },
                     {
@@ -2224,13 +2223,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "김영배", 
                         engname: "Youngbae Kim",
-                        imgname:"/2022/22-1/22-1-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-2.jpg`, 
                         text: "김영배(1947-2001) 작가의 “무제” 시리즈 형상적 이미지와 기하학적 패턴과 같은 언어의 조합으로 반복된 패턴으로 화면을 구성한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "간間", imgname: "/2022/22-1/2-148x115.jpg", overview: "148x115cm", overview1: "캔버스에-유채-1985"},
+                            {order: 1, title: "간間", name: "김영배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/2-148x115.jpg`, width: 4.6, height: 5.92, overview: "148x115cm", overview1: "캔버스에-유채-1985"},
                         ]
                     },
                     {
@@ -2239,7 +2238,7 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "김재관", 
                         engname: "JaiKwan Kim",
-                        imgname:"/2022/22-1/22-1-3.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-3.png`, 
                         text: "김재관 작가의 기하학적 추상미술 반세기 작품 중 80년대 ‘관계’ 시리즈는 지속과 조형적 레퍼토리가 등장하게 되는 시기로 캔버스 화면에 무정형의 반복된 획과 사각면의 중첩이 시작을 보여준다. <Relationship-1980~1981>은 백색 톤의 미세한 칼라의 사각 앵글과 코발트블루 붓질(劃)의 반복된 겹침이 평면으로 중첩된 구조로 이루어져 있으며, 이후 컴포지션과 재료의 사용 방법이 조금씩 변하면서 지속된다.",
                         education: "",
                         individual_exhibition: [
@@ -2270,7 +2269,7 @@ export const allExhibits_KOR = [
                             {order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
                         ],
                         paint: [
-                            {order: 2, title: "Relation", imgname: "/2022/22-1/3-100x80.3.jpg", overview: "100x80.3cm", overview1: "Oil-on-canvas-1981"},
+                            {order: 2, title: "Relation", name: "김재관", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/3-100x80.3.jpg`, width: 4.15, height: 5, overview: "100x80.3cm", overview1: "Oil-on-canvas-1981"},
                         ]
                     },
                     {
@@ -2279,13 +2278,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "문상욱", 
                         engname: "Sangwook Moon",
-                        imgname:"/2022/22-1/22-1-4.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-4.jpg`, 
                         text: "문상욱 작가는 사회현상이나 자연현상을 넓은 미시적 시야로 바라보며 그 안에 보이지 않는 체계와 질서의 구조를 사진 작품으로 형상화하고 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "우주에서 온 편지", imgname: "/2022/22-1/4-60.5x89.5.jpg", overview: "60.5x89.5cm", overview1: "사진-2014"},
+                            {order: 3, title: "우주에서 온 편지", name: "문상욱", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/4-60.5x89.5.jpg`, width: 5.37, height: 3.63, overview: "60.5x89.5cm", overview1: "사진-2014"},
                         ]
                     },
                     {
@@ -2294,13 +2293,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "박영대", 
                         engname: "Youngdae Park",
-                        imgname:"/2022/22-1/22-1-5.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-5.jpg`, 
                         text: "박영대 작가는 ‘보리’ 작가로 알려져 있으며 지역의 대표적 원로작가이다. 처음에는 멍석 위에 엿질금을 그렸으나 점차 보리로 변하게 되고 지금은 추상적 형식이 더 가까운 보리 시리즈를 선보이고 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 4, title: "보리-생명生命", imgname: "/2022/22-1/5-62x93.jpg", overview: "62x93cm", overview1: "한지-먹-담채-1997"},
+                            {order: 4, title: "보리-생명生命", name: "박영대", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/5-62x93.jpg`, width: 5.58, height: 3.72, overview: "62x93cm", overview1: "한지-먹-담채-1997"},
                         ]
                     },
                     {
@@ -2309,13 +2308,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "박진명", 
                         engname: "Jinmyoung Park",
-                        imgname:"/2022/22-1/22-1-6.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-6.jpg`, 
                         text: "박진명 작가는 현대적 동양화 작가로 기억 속에 떠오르는 이미지를 그림으로 표현하면서 작가에게 스치듯 지나간 특정 장면들은 또 다른 기억과 이미지를 생산하고, 그 순간들을 겹쳐지는 것을 반복하며 하나의 새로운 장면이 돼 잔상으로 새긴다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "Shimmery", imgname: "/2022/22-1/6-36x96.jpg", overview: "36x96cm", overview1: "한지-위에-수묵채색-2009"},
+                            {order: 5, title: "Shimmery", name: "박진명", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/6-36x96.jpg`, width: 6.72, height: 2.52, overview: "36x96cm", overview1: "한지-위에-수묵채색-2009"},
                         ]
                     },
                     {
@@ -2324,13 +2323,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "심명희", 
                         engname: "Myunghee Shim",
-                        imgname:"/2022/22-1/22-1-7.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-7.jpg`, 
                         text: "심명희 작가는 2022년 ‘Untitled’ 사진 작품을 통해 ‘기록과 재현’이라는 기본 속성을 넘어 카메라의 대상은 단순한 재현이 아닌 대상의 내적 표현을 찾아 담아내고 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "Untitled-20", imgname: "/2022/22-1/7-90x72.jpg", overview: "90x72cm", overview1: "Pigment-Print-2022"},
+                            {order: 6, title: "Untitled-20", name: "심명희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/7-90x72.jpg`, width: 4.32, height: 5.4, overview: "90x72cm", overview1: "Pigment-Print-2022"},
                         ]
                     },
                     {
@@ -2339,13 +2338,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "심재분", 
                         engname: "Jaeboon Shim",
-                        imgname:"/2022/22-1/22-1-8.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-8.jpg`, 
                         text: "심재분 작가는 ‘연꽃’이라는 대상을 넘어 대상의 본질을 꿰뚫어 자신의 언어로 다시 재현한다. 자연과 인간의 보이지 않는 존재를 재현하기 위해 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 담으며 느껴지는 초현실적인 사실을 작품화한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "초최한 고뇌의 형상3", imgname: "/2022/22-1/8-100x200.jpg", overview: "100x200cm", overview1: "프린트화이아트-벨벳-2021"},
+                            {order: 7, title: "초최한 고뇌의 형상3", name: "심재분", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/8-100x200.jpg`, width: 6, height: 3, overview: "100x200cm", overview1: "프린트화이아트-벨벳-2021"},
                         ]
                     },
                     {
@@ -2354,13 +2353,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "유석규", 
                         engname: "Sukkyu Yoo",
-                        imgname:"/2022/22-1/22-1-9.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-9.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "1인 시위", imgname: "/2022/22-1/9-60.5x50.jpg", overview: "60.5x50cm", overview1: "Sandpaper-Oil-on-Canvas-2014"},
+                            {order: 8, title: "1인 시위", name: "유석규", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/9-60.5x50.jpg`, width: 4.5, height: 5.445, overview: "60.5x50cm", overview1: "Sandpaper-Oil-on-Canvas-2014"},
                         ]
                     },
                     {
@@ -2369,13 +2368,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "임성수", 
                         engname: "Sungsoo Lim",
-                        imgname:"/2022/22-1/22-1-10.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-10.jpg`, 
                         text: "",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "Untitled-2", imgname: "/2022/22-1/10-116x91.jpg", overview: "116x91cm", overview1: "캔버스-위에-아크릴릭-2009"},
+                            {order: 9, title: "Untitled-2", name: "임성수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/10-116x91.jpg`, width: 4.55, height: 5.8, overview: "116x91cm", overview1: "캔버스-위에-아크릴릭-2009"},
                         ]
                     },
                     {
@@ -2384,7 +2383,7 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "임은수", 
                         engname: "Eunsoo Lim",
-                        imgname:"/2022/22-1/22-1-11.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-11.png`, 
                         text: "",
                         education: "",
                         individual_exhibition: [
@@ -2420,7 +2419,7 @@ export const allExhibits_KOR = [
                             {order: 11, exhibit: "2019 조각조각 -Pieces of times 전 (터미널 작은미술관, 정선)"},
                         ],
                         paint: [
-                            {order: 10, title: "변이-Meramorphosis", imgname: "/2022/22-1/11-145.5x112.1.jpg", overview: "145.5x112.1cm", overview1: "Drawing-on-Korean-paper-2013"},
+                            {order: 10, title: "변이-Meramorphosis", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/11-145.5x112.1.jpg`, width: 4.484, height: 5.82, overview: "145.5x112.1cm", overview1: "Drawing-on-Korean-paper-2013"},
                         ]
                     },
                     {
@@ -2429,13 +2428,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "전년일", 
                         engname: "NyunIl Chun",
-                        imgname:"/2022/22-1/22-1-12.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-12.jpg`, 
                         text: "전년일 작가는 우리 민족이 오래전부터 숭배하고 친근했던 색상을 중시한다. 그것은 노랑(黃), 파랑(靑), 흰색(白), 검정(黑)인데 바로 우리 민족이 숭상했던 오방색의 근본을 갖고 현대화된 이미지의 형상을 입체적으로 시각화하는 기법을 작품의 근원으로 삼고 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "그것", imgname: "/2022/22-1/12-160x40.jpg", overview: "160x40cm", overview1: "아크릴물감-철망-등나무-색한지-2016"},
+                            {order: 11, title: "그것", name: "전년일", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/12-160x40.jpg`, width: 1.6, height: 6.4, overview: "160x40cm", overview1: "아크릴물감-철망-등나무-색한지-2016"},
                         ]
                     },
                     {
@@ -2444,13 +2443,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "정명희", 
                         engname: "Myunghee Chung",
-                        imgname:"/2022/22-1/22-1-13.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-13.jpg`, 
                         text: "정명희 작가는 대지의 기운이 농축되어 있는 편경의 이미지를 중심으로 새 그리고 물의 흐름이나 파동에 연결되는 흘러내리는 선들로 짜이는 구성을 보인다. 오방색, 무지개를 연상하게하는 채색은 대지의 기운을 발산한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "독도를 바로 세우자 부끄럽지 않게", imgname: "/2022/22-1/13-97x162.jpg", overview: "97x162cm", overview1: "수묵-아크릴릭-2008"},
+                            {order: 12, title: "독도를 바로 세우자 부끄럽지 않게", name: "정명희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/13-97x162.jpg`, width: 6.48, height: 3.88, overview: "97x162cm", overview1: "수묵-아크릴릭-2008"},
                         ]
                     },
                     {
@@ -2459,13 +2458,13 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "조현애", 
                         engname: "Hyunae Cho",
-                        imgname:"/2022/22-1/22-1-14.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-14.jpg`, 
                         text: "조현애 작가는 시간을 주제로 작업을 한다. 작가는 과거의 명화에 현재의 이미지를 결합하여 현실과 가상의 경계가 없는 공간, 과거와 현재와 미래의 모호한 시간의 흐름을 시각적 은유로 구성하여 보여주고 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "Unknown time with 정선", imgname: "/2022/22-1/14-91x.116.8.jpg", overview: "91x116.8cm", overview1: "Acrylic-on-canvas-2020"},
+                            {order: 13, title: "Unknown time with 정선", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/14-91x.116.8.jpg`, width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "Acrylic-on-canvas-2020"},
                         ]
                     },
                     {
@@ -2474,19 +2473,19 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 소장품전 – 이성과 감성이 만든 공간", 
                         name: "한영섭", 
                         engname: "Youngsub Han",
-                        imgname:"/2022/22-1/22-1-15.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-1/22-1-15.jpg`, 
                         text: "한영섭 작가는 독특한 ‘한지와 탁본의 화가’로 알려져 있으며 한국 고유의 전통적 소재인 한지 위에 자연의 다양한 표정을 담으며, 한지의 물성을 넘어 자연속에 내재된 운율을 표현한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "불확실", imgname: "/2022/22-1/15-60x96.jpg", overview: "60x96cm", overview1: "한지탁본-2006"},
+                            {order: 14, title: "불확실", name: "한영섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/15-60x96.jpg`, width: 5.76, height: 3.6, overview: "60x96cm", overview1: "한지탁본-2006"},
                         ]
                     },
                 ],
             },
             {
-                order:1, 
+                order:2, 
                 type:"쉐마미술관 기획초대전", 
                 title:"쉐마미술관 기획초대전 - 김연희 개인전 'ACCEPT 받아들이다'", 
                 time: "2022/03/04 ~ 2022/04/24", 
@@ -2504,29 +2503,29 @@ export const allExhibits_KOR = [
                         title: "쉐마미술관 기획초대전 - 김연희 개인전 'ACCEPT 받아들이다'", 
                         name: "김연희", 
                         engname: "YounHee Kim",
-                        imgname:"/2022/22-2/22-2-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-2/22-2-1.jpg`, 
                         text: "“예술은 살아 있음과 죽음, 받아드림과 받아드리지 못함, 공간과 형태가 있고 없음 등 여러 가지 요인이 영원함이다. 이 모든 것이 예술의 끝이 아닌가 싶다.” “나의 내면의 열정은 캄캄한 밤 반딧불을 보고 눈의 초점을 맞추듯 그렇게 한 사물에 집중하고 몰입해야 한다고 생각한다.” “예술가로서 나는 구상적 이미지를 모두 제거하고 싶다, 색에서도 모든 색을 아우르고 함축하고 있는 검정색과 아무 색도 품지 않은 흰색 이 두 색의 성격과 대비가 같은 사고와 단순함을 동시에 갖게 하는 면에서 흥미롭다.”",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Accept", imgname: "/2022/22-2/1-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
-                            {order: 1, title: "Accept", imgname: "/2022/22-2/2-144.5x144.5.jpg", overview: "144.5x144.5cm", overview1: "Acrylic-on-canvas-2022"},
-                            {order: 2, title: "Accept", imgname: "/2022/22-2/3-72.7x91.jpg", overview: "72.7x90cm", overview1: "Acrylic-on-canvas-2022"},
-                            {order: 3, title: "Accept", imgname: "/2022/22-2/4-145x89.4.jpg", overview: "145x89.4cm", overview1: "Acrylic-on-canvas-2022"},
-                            {order: 4, title: "Accept", imgname: "/2022/22-2/5-97x162.jpg", overview: "97x162cm", overview1: "Acrylic-on-canvas-2022"},
-                            {order: 5, title: "Accept", imgname: "/2022/22-2/6-130x162.jpg", overview: "130x162cm", overview1: "Acrylic-on-canvas-2017"},
-                            {order: 6, title: "Accept", imgname: "/2022/22-2/7-162x130.jpg", overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
-                            {order: 7, title: "Accept", imgname: "/2022/22-2/8-162x130.jpg", overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
-                            {order: 8, title: "Accept", imgname: "/2022/22-2/9-72x53.jpg", overview: "72x53cm", overview1: "Acrylic-on-canvas-2017"},
-                            {order: 9, title: "Accept", imgname: "/2022/22-2/10-130x162.jpg", overview: "130x162cm", overview1: "Acrylic-on-canvas-2017"},
-                            {order: 10, title: "Accept", imgname: "/2022/22-2/11-162x130.jpg", overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 0, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/1-60.6x72.7.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
+                            {order: 1, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/2-144.5x144.5.jpg`, width: 4.335, height: 4.335, overview: "144.5x144.5cm", overview1: "Acrylic-on-canvas-2022"},
+                            {order: 2, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/3-72.7x91.jpg`, width: 5.4, height: 4.362, overview: "72.7x90cm", overview1: "Acrylic-on-canvas-2022"},
+                            {order: 3, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/4-145x89.4.jpg`, width: 3.576, height: 5.8, overview: "145x89.4cm", overview1: "Acrylic-on-canvas-2022"},
+                            {order: 4, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/5-97x162.jpg`, width: 6.48, height: 3.88, overview: "97x162cm", overview1: "Acrylic-on-canvas-2022"},
+                            {order: 5, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/6-130x162.jpg`, width: 6.48, height: 5.2, overview: "130x162cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 6, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/7-162x130.jpg`, width: 5.2, height: 6.48, overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 7, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/8-162x130.jpg`, width: 5.2, height: 6.48, overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 8, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/9-72x53.jpg`, width: 4.24, height: 5.76, overview: "72x53cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 9, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/10-130x162.jpg`, width: 6.48, height: 5.2, overview: "130x162cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 10, title: "Accept", name: "김연희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/11-162x130.jpg`, width: 5.2, height: 6.48, overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
                         ]
                     },
                 ],
             },
             {
-                order:2, 
+                order:3, 
                 type:"쉐마미술관 개인전", 
                 title:"박용수 개인전 ‘울림소리’", 
                 time: "2022/03/05 ~ 2022/04/25", 
@@ -2544,23 +2543,23 @@ export const allExhibits_KOR = [
                         title: "박용수 개인전 ‘울림소리’", 
                         name: "박용수", 
                         engname: "YongSoo Park",
-                        imgname:"/2022/22-3/22-3-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-3/22-3-1.jpg`, 
                         text: "“예술은 살아 있음과 죽음, 받아드림과 받아드리지 못함, 공간과 형태가 있고 없음 등 여러 가지 요인이 영원함이다. 이 모든 것이 예술의 끝이 아닌가 싶다.” “나의 내면의 열정은 캄캄한 밤 반딧불을 보고 눈의 초점을 맞추듯 그렇게 한 사물에 집중하고 몰입해야 한다고 생각한다.” “예술가로서 나는 구상적 이미지를 모두 제거하고 싶다, 색에서도 모든 색을 아우르고 함축하고 있는 검정색과 아무 색도 품지 않은 흰색 이 두 색의 성격과 대비가 같은 사고와 단순함을 동시에 갖게 하는 면에서 흥미롭다.”",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "비틀즈발라드오디오", imgname: "/2022/22-3/1-70x60.jpg", overview: "70x60cm", overview1: "나무_2021"},
-                            {order: 1, title: "오크통오디오", imgname: "/2022/22-3/2-80x56.7.jpg", overview: "200x100cm", overview1: "나무_2019"},
-                            {order: 2, title: "재즈12오디오", imgname: "/2022/22-3/3-80x44.6.jpg", overview: "300x90cm", overview1: "종이_2021"},
-                            {order: 3, title: "재즈100", imgname: "/2022/22-3/4-100x80.jpg", overview: "100x80cm", overview1: "나무_2021"},
-                            {order: 4, title: "행복소리", imgname: "/2022/22-3/5-300x200.jpg", overview: "300x200cm", overview1: "나무_2022"},
+                            {order: 0, title: "비틀즈발라드오디오", name: "박용수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-3/1-70x60.jpg`, width: 4.2, height: 4.9, overview: "70x60cm", overview1: "나무_2021"},
+                            {order: 1, title: "오크통오디오", name: "박용수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-3/2-80x56.7.jpg`, width: 4, height: 2.835, overview: "200x100cm", overview1: "나무_2019"},
+                            {order: 2, title: "재즈12오디오", name: "박용수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-3/3-80x44.6.jpg`, width: 4, height: 2.23, overview: "300x90cm", overview1: "종이_2021"},
+                            {order: 3, title: "재즈100", name: "박용수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-3/4-100x80.jpg`, width: 3.2, height: 4, overview: "100x80cm", overview1: "나무_2021"},
+                            {order: 4, title: "행복소리", name: "박용수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-3/5-300x200.jpg`, width: 4, height: 6, overview: "300x200cm", overview1: "나무_2022"},
                         ]
                     },
                 ],
             },
             {
-                order:3, 
+                order:4, 
                 type:"쉐마미술관 후기 에스펙트전", 
                 title:"2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                 time: "2022/06/03 ~ 2022/06/26", 
@@ -2578,7 +2577,7 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "김재관", 
                         engname: "JaiKwan Kim",
-                        imgname:"/2022/22-4/22-4-1.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-1.png`, 
                         text: "김재관 작가의 기하학은 가시적 실체는 아니지만, 추상적 실체이다. 작가의 추상 세계의 아이콘이었던 정방형의 세계를 해체하고 보다 자유스러운 기하학적 추상 세계의 새로운 형태의 ‘율(律)’과 ‘색’으로 자유스럽게 표현한다. 작가의 작업은 과거에 완성하지 못했던 개념과 방법에 대한 재발견과 새로운 모색은 또 다른 시작을 보여준다.",
                         education: "홍익대학교 서양화 학부, 석사 졸업 및 동대학교 미술학박사학위 취득",
                         individual_exhibition: [
@@ -2609,8 +2608,8 @@ export const allExhibits_KOR = [
                             {order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
                         ],
                         paint: [
-                            {order: 0, title: "Relationship - Color & Light 2022-501", imgname: "/2022/22-4/1-91x116.8.jpg", overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 1, title: "Relationship - Color & Light 2022-502", imgname: "/2022/22-4/2-91x116.8.jpg", overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 0, title: "Relationship - Color & Light 2022-501", name: "김재관", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/1-91x116.8.jpg`, width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 1, title: "Relationship - Color & Light 2022-502", name: "김재관", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/2-91x116.8.jpg`, width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -2619,7 +2618,7 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "임은수", 
                         engname: "Eunsoo Lim",
-                        imgname:"/2022/22-4/22-4-2.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-2.png`, 
                         text: "임은수 작가는 2020년부터 지금까지 ‘나는 지금 이곳에 있다’ 퍼포먼스를 통해 지금의 사회, 기후, 환경의 현상을 특유의 위로와 순환의 마음을 담아 영상으로 담아 보여준다. 작가는 ‘나는 지금 이곳에 있다 7’에서 대청호수의 물의 순환 과정으로 들어가 합류한다. 그리고 자아를 확장해 대리자로서, 생명의 모체가 되어 이 시대 우리가 진정 소중히 여기고 보호해야 할 것이 무엇인가를, 상징적인 도구와 행위로 제시한다.",
                         education: "충북대학교 사범대학 미술교육과 및 동대학원 졸업",
                         individual_exhibition: [
@@ -2655,9 +2654,9 @@ export const allExhibits_KOR = [
                             {order: 11, exhibit: "2019 조각조각 -Pieces of times 전 (터미널 작은미술관, 정선)"},
                         ],
                         paint: [
-                            {order: 2, title: "나는 지금 이곳에 있다. 대청호 미천리 습지에서", imgname: "/2022/22-4/3-102.4x68.3.jpg", overview: "", overview1: "퍼포먼스 비디오, 2021"},
-                            {order: 3, title: "나는 지금 이곳에 있다. 대청호 미전리 습지에서", imgname: "/2022/22-4/4-102.4x68.3.jpg", overview: "", overview1: "퍼포먼스 비디오, 2021"},
-                            {order: 4, title: "나는 지금 이곳에 있다. 대청호 미전리 습지에서", imgname: "/2022/22-4/5-102.4x68.3.jpg", overview: "", overview1: "퍼포먼스 비디오, 2021"},
+                            {order: 2, title: "나는 지금 이곳에 있다. 대청호 미천리 습지에서", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/3-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "퍼포먼스 비디오, 2021"},
+                            {order: 3, title: "나는 지금 이곳에 있다. 대청호 미전리 습지에서", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/4-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "퍼포먼스 비디오, 2021"},
+                            {order: 4, title: "나는 지금 이곳에 있다. 대청호 미전리 습지에서", name: "임은수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/5-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "퍼포먼스 비디오, 2021"},
                         ]
                     },
                     {
@@ -2666,14 +2665,14 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "장백순", 
                         engname: "Baeksoon Chang",
-                        imgname:"/2022/22-4/22-4-3.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-3.jpg`, 
                         text: "장백순 작가는 물질과 정신의 관계를 자연물인 마(麻)를 통해 일상 사물과 일상 경계를 만들어 생명의 짧음과 시간의 영원함, 개체의 한계와 우주의 아득함을 물체와 공간을 통해 보여준다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "부유(浮游)", imgname: "/2022/22-4/6-68.9x45.9.jpg", overview: "65x60x210cm", overview1: "마(麻), 2020"},
-                            {order: 6, title: "부유(浮游)", imgname: "/2022/22-4/7-45.4x71.9.jpg", overview: "65x60x210cm", overview1: "마(麻), 2020"},
+                            {order: 5, title: "부유(浮游)", name: "장백순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/6-68.9x45.9.jpg`, width: 4.823, height: 3.213, overview: "65x60x210cm", overview1: "마(麻), 2020"},
+                            {order: 6, title: "부유(浮游)", name: "장백순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/7-45.4x71.9.jpg`, width: 3.178, height: 5.033, overview: "65x60x210cm", overview1: "마(麻), 2020"},
                         ]
                     },
                     {
@@ -2682,15 +2681,15 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "김영란", 
                         engname: "YoungRan Kim",
-                        imgname:"/2022/22-4/22-4-4.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-4.jpg`, 
                         text: "김영란 작가는 작업은 한지의 물성과 질감을 살려 구상된 부조 작품들로 회화와 조각의 장점을 끌어안으며 시각과 촉각의 호기심을 동시에 자극한다. 특히 회화가 지닌 입체감 표현의 한계를 조소 기법을 활용하여, 작품을 구성하는 소재들이 지닌 실제의 양감을 표현한다. 꽃이 피고 지는 자연의 한 가운데서 사계절의 아름다운 기억을 더듬어 간다",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "끌림 attraction", imgname: "/2022/22-4/8-60x80.jpg", overview: "60x80x5cm", overview1: "조각, 2016"},
-                            {order: 8, title: "끌림 attraction", imgname: "/2022/22-4/9-60x80.jpg", overview: "60x80x5cm", overview1: "조각, 2016"},
-                            {order: 9, title: "끌림 attraction", imgname: "/2022/22-4/10-60x80.jpg", overview: "60x80x5cm", overview1: "조각, 2016"},
+                            {order: 7, title: "끌림 attraction", name: "김영란", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/8-60x80.jpg`, width: 5.6, height: 4.2, overview: "60x80x5cm", overview1: "조각, 2016"},
+                            {order: 8, title: "끌림 attraction", name: "김영란", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/9-60x80.jpg`, width: 5.6, height: 4.2, overview: "60x80x5cm", overview1: "조각, 2016"},
+                            {order: 9, title: "끌림 attraction", name: "김영란", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/10-60x80.jpg`, width: 5.6, height: 4.2, overview: "60x80x5cm", overview1: "조각, 2016"},
                         ]
                     },
                     {
@@ -2699,13 +2698,13 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "심재분", 
                         engname: "Jaeboon Shim",
-                        imgname:"/2022/22-4/22-4-5.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-5.jpg`, 
                         text: "심재분 작가는 세상과 인간과의 관계, 보이지 않는 관계 속에 존재를 재현하기 위해 작가는 ‘초 망원 렌즈’와 ‘초 광각 렌즈’를 사용하여, 눈으로는 다 보지 못하는 자연을 한 컷의 이미지에 카메라에 담으며 대상의 본질을 꿰뚫어 자신의 언어로 이미지를 재현한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "환상여행1", imgname: "/2022/22-4/11-75x75.jpg", overview: "75x75cm", overview1: "사진프린트, 2022"},
+                            {order: 10, title: "환상여행1", name: "심재분", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/11-75x75.jpg`, width: 4.5, height: 4.5, overview: "75x75cm", overview1: "사진프린트, 2022"},
                         ]
                     },
                     {
@@ -2714,14 +2713,14 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "김성미", 
                         engname: "Sungmi Kim",
-                        imgname:"/2022/22-4/22-4-6.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-6.jpg`, 
                         text: "김성미 작가는 숲의 다양하고 자연스러운 생성과 변주들에서 ‘자연과 함께하는 인간의 모습’을 찾는 과정을 상상하며 추상적 회화 작업으로 표현하였다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "알레고리 2021-001", imgname: "/2022/22-4/12-162.2x130.3.jpg", overview: "162.2x130.3cm", overview1: "캔버스 위 혼합재료, 2021"},
-                            {order: 12, title: "알레고리 2021-002", imgname: "/2022/22-4/13-162.2x130.3.jpg", overview: "162.2x130.3cm", overview1: "캔버스 위 혼합재료, 2021"},
+                            {order: 11, title: "알레고리 2021-001", name: "김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/12-162.2x130.3.jpg`, width: 3.909, height: 4.866, overview: "162.2x130.3cm", overview1: "캔버스 위 혼합재료, 2021"},
+                            {order: 12, title: "알레고리 2021-002", name: "김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/13-162.2x130.3.jpg`, width: 3.909, height: 4.866, overview: "162.2x130.3cm", overview1: "캔버스 위 혼합재료, 2021"},
                         ]
                     },
                     {
@@ -2730,13 +2729,13 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "최익규", 
                         engname: "IkGyu Choi",
-                        imgname:"/2022/22-4/22-4-7.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-7.jpg`, 
                         text: "최익규 작가는 작가를 존재하게 한 가족과 작가 자신을 둘러쌓고 있는 사람들, 특히 아버지와 작가의 관계를 반복된 바느질 선 만들기의 과정을 통해 성찰하고, 시간 꾸밈없이 좀 더 진실에 가까운 작가의 자화상을 그리고 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "무제", imgname: "/2022/22-4/14-180x122.jpg", overview: "180x122cm", overview1: "천에 바느질 후 채색, 2022"},
+                            {order: 13, title: "무제", name: "최익규", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/14-180x122.jpg`, width: 3.66, height: 5.4, overview: "180x122cm", overview1: "천에 바느질 후 채색, 2022"},
                         ]
                     },
                     {
@@ -2745,15 +2744,15 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "이경화", 
                         engname: "KyungHwa Lee",
-                        imgname:"/2022/22-4/22-4-8.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-8.jpg`, 
                         text: "이경화 작가의 작품에 보이는 풍경은 동양의 무의식적, 무위 자연적인 공간을 유지하려고 하면서도 그것이 실경이 아닌 관념적 세계를 비주얼로 해석하고자 하는 의도를 표현한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "夢中夢 9-1", imgname: "/2022/22-4/15-100x80.3.jpg", overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
-                            {order: 15, title: "夢中夢 10-2", imgname: "/2022/22-4/16-100x80.3.jpg", overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
-                            {order: 16, title: "夢中夢1-3", imgname: "/2022/22-4/17-53x45.5.jpg", overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 14, title: "夢中夢 9-1", name: "이경화", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/15-100x80.3.jpg`, width: 3.212, height: 4, overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 15, title: "夢中夢 10-2", name: "이경화", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/16-100x80.3.jpg`, width: 3.212, height: 4, overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 16, title: "夢中夢 1-3", name: "이경화", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/17-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -2762,13 +2761,13 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "박진명", 
                         engname: "JinMyung Park",
-                        imgname:"/2022/22-4/22-4-9.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-9.jpg`, 
                         text: "박진명 작가는 작가만의 눈과 심상으로 무심코 지나쳐서 스치듯 지나간 그날의 기억과 이미지의 잔재는 무언가를 떠올리게 되고 나름의 새로운 기억을 ‘잔상의 기록’으로 담아낸다. 이번 ‘똑같은 봄은 없다’ 작품에서는 작가만의 기억의 봄을 남긴다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 17, title: "똑같은 봄은 없다", imgname: "/2022/22-4/18-166.5x71.jpg", overview: "166.5x71cm", overview1: "종이 위에 먹, 과슈, 2022"},
+                            {order: 17, title: "똑같은 봄은 없다", name: "박진명", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/18-166.5x71.jpg`, width: 2.13, height: 4.995, overview: "166.5x71cm", overview1: "종이 위에 먹, 과슈, 2022"},
                         ]
                     },
                     {
@@ -2777,13 +2776,13 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "최민건", 
                         engname: "MinGun Choi",
-                        imgname:"/2022/22-4/22-4-10.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-10.jpg`, 
                         text: "최민건 작가는 경계의 모호함으로 인해 가상과 실제, 주체와 객체 사이에서 방황하면서 즐기고 있는 우리들의 모습을 표현한다. 화면에서 착시효과를 주는 개는 가상과 실제의 경계를 모호하게 하며, 인간과 다른 동물 중 가장 친숙한 개의 모습을 표현함으로써 우리와 다름을 인지함과 동시에 동질성을 느끼게 한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "Game of Thrones", imgname: "/2022/22-4/19-73x182.jpg", overview: "73x182cm", overview1: "천 위에 아크릴, 2022"},
+                            {order: 18, title: "Game of Thrones", name: "최민건", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/19-73x182.jpg`, width: 5.46, height: 2.19, overview: "73x182cm", overview1: "천 위에 아크릴, 2022"},
                         ]
                     },
                     {
@@ -2792,15 +2791,15 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "오승언", 
                         engname: "SeungUn Oh",
-                        imgname:"/2022/22-4/22-4-11.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-11.jpg`, 
                         text: "오승언 작가는 특유의 시선으로 사회의 일상의 풍경을 고스란히 캔버스 화면에 담아 보여준다. 작가의 풍경은 지금의 풍경이면서도 어딘가 낯설고 감정이 느껴지지 않는 공간이기도 하다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 19, title: "Untitled", imgname: "/2022/22-4/20-45.5x53.jpg", overview: "45.5x53cm", overview1: "Oil on canvas, 2020"},
-                            {order: 20, title: "네 명의 행인", imgname: "/2022/22-4/21-91x91.jpg", overview: "91x91cm", overview1: "Oil on canvas, 2020"},
-                            {order: 21, title: "옥상", imgname: "/2022/22-4/22-130.3x97.jpg", overview: "130.3x97cm", overview1: "Oil on canvas, 2020"},
+                            {order: 19, title: "Untitled", name: "오승언", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/20-45.5x53.jpg`, width: 5.3, height: 4.55, overview: "45.5x53cm", overview1: "Oil on canvas, 2020"},
+                            {order: 20, title: "네 명의 행인", name: "오승언", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/21-91x91.jpg`, width: 4.55, height: 4.55, overview: "91x91cm", overview1: "Oil on canvas, 2020"},
+                            {order: 21, title: "옥상", name: "오승언", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/22-130.3x97.jpg`, width: 4.85, height: 5.212, overview: "130.3x97cm", overview1: "Oil on canvas, 2020"},
                         ]
                     },
                     {
@@ -2809,14 +2808,14 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "김로이", 
                         engname: "Loi Kim",
-                        imgname:"/2022/22-4/22-4-12.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-12.jpg`, 
                         text: "김로이 작가는 캔버스의 물리적 공간 안의 색과 선이 함께 사용하며 긴밀하게 상호작용한다. 작가의 Silicone string 선은 조밀하면서도 여백을 가지고 새로운 공간을 만들어낸다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 22, title: "90°8’0", imgname: "/2022/22-4/23-72.7x50.jpg", overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
-                            {order: 23, title: "90°12’0”", imgname: "/2022/22-4/24-72.7x50.jpg", overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
+                            {order: 22, title: "90°8’0", name: "김로이", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/23-72.7x50.jpg`, width: 3, height: 4.362, overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
+                            {order: 23, title: "90°12’0”", name: "김로이", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/24-72.7x50.jpg`, width: 3, height: 4.362, overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
                         ]
                     },
                     {
@@ -2825,15 +2824,15 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "한희준", 
                         engname: "HeeJoon Han",
-                        imgname:"/2022/22-4/22-4-13.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-13.jpg`, 
                         text: "한희준 작가는 플리스틱 병을 포토그램 방식으로 인화하여 물질이 자연으로 되돌아가는 것을 상상하며 푸른빛은 영혼이 떠도는 그림자처럼 주위를 배회하면서 죽음을 연상하게 하여 환경의 중요성을 암시한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 24, title: "Plastic NO-44", imgname: "/2022/22-4/25-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
-                            {order: 25, title: "Plastic NO-47", imgname: "/2022/22-4/26-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
-                            {order: 26, title: "Plastic NO-48", imgname: "/2022/22-4/27-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                            {order: 24, title: "Plastic NO-44", name: "한희준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/25-82x110.jpg`, width: 4.4, height: 3.28, overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                            {order: 25, title: "Plastic NO-47", name: "한희준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/26-82x110.jpg`, width: 4.4, height: 3.28, overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                            {order: 26, title: "Plastic NO-48", name: "한희준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/27-82x110.jpg`, width: 4.4, height: 3.28, overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
                         ]
                     },
                     {
@@ -2842,14 +2841,14 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "원영미", 
                         engname: "YoungMi Won",
-                        imgname:"/2022/22-4/22-4-14.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-14.jpg`, 
                         text: "원영미 작가는 세상의 모든 흔적은 느낌의 편린이라고 생각한다. 작가의 느낌의 기억들은 그리움의 실체이다. 이런 그리움의 실체는 털실을 통해 보여준다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 27, title: "연(緣)", imgname: "/2022/22-4/28-100x100.jpg", overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
-                            {order: 28, title: "연(緣)", imgname: "/2022/22-4/29-100x100.jpg", overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
+                            {order: 27, title: "연(緣)", name: "원영미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/28-100x100.jpg`, width: 5, height: 5, overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
+                            {order: 28, title: "연(緣)", name: "원영미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/29-100x100.jpg`, width: 5, height: 5, overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
                         ]
                     },
                     {
@@ -2858,20 +2857,20 @@ export const allExhibits_KOR = [
                         title: "2022 후기 애스펙트 - 새로운 미술의 변종과 변이", 
                         name: "김유진", 
                         engname: "YooJin Kim",
-                        imgname:"/2022/22-4/22-4-15.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-4/22-4-15.jpg`, 
                         text: "김유진 작가의 시선과 호기심들을 자연이라는 매개체를 통해 캔버스 화면에 담아내고 있다. 특히 여성 작가가 가지고 있는 섬세함과 특유의 감수성, 작가의 생활 속에 녹아있는 심상은 작가만의 색채로 만들어간다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 29, title: "paper plants", imgname: "/2022/22-4/30-73x182.jpg", overview: "73x182cm", overview1: "Oil on canvas, 2022"},
-                            {order: 30, title: "The flow", imgname: "/2022/22-4/31-91x146.jpg", overview: "91x146cm", overview1: "Mixed media on Canvas, 2021"},
+                            {order: 29, title: "paper plants", name: "김유진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/30-73x182.jpg`, width: 5.46, height: 2.19, overview: "73x182cm", overview1: "Oil on canvas, 2022"},
+                            {order: 30, title: "The flow", name: "김유진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/31-91x146.jpg`, width: 5.84, height: 3.64, overview: "91x146cm", overview1: "Mixed media on Canvas, 2021"},
                         ]
                     },
                 ],
             },
             {
-                order: 4,  
+                order: 5,  
                 type:"쉐마미술관 SM-Smash#1", 
                 title:"SM-Smash#1: Data Material", 
                 time: "2022/08/10 ~ 2022/09/08", 
@@ -2889,14 +2888,14 @@ export const allExhibits_KOR = [
                         title: "SM-Smash#1: Data Material", 
                         name: "강재원", 
                         engname: "Jaewon Kang",
-                        imgname:"/2022/22-5/22-5-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-5/22-5-1.jpg`, 
                         text: "강재원 작가는 전통적 조각의 형식을 뛰어넘어 3D프로그램의 프로그램 명령어의 방법으로 불어나고 쪼그라드는 조각을 만든다. 공기를 주입하여 만드는 풍선 조각을 만들던 작가는 금속의 착시를 주는 원단을 사용하여 마치 스테인리스 조각의 환영을 보여주는 듯한 미래적 조각을 만든다. 그의 작품은 전통 조각의 양감과 균형감을 가지고 나타났다 사라지길 반복한다. 인플레이터 조각의 조형성에서 3D프로그램을 사용하기 때문에 그의 조각은 자연스럽게 디지털과 NFT의 세계로 발전한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Exo2_crop", imgname: "/2022/22-5/1-102.4x68.3.jpg", overview: "458x213x270cm", overview1: "Inflatable, 2021"},
-                            {order: 1, title: "Trippy Deflate", imgname: "/2022/22-5/2-102.4x72.5.jpg", overview: "84.1x59.4cm", overview1: "pigment print(digital image), 2020"},
+                            {order: 0, title: "Exo2_crop", name: "강재원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/1-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "458x213x270cm", overview1: "Inflatable, 2021"},
+                            {order: 1, title: "Trippy Deflate", name: "강재원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/2-102.4x72.5.jpg`, width: 5.12, height: 3.625, overview: "84.1x59.4cm", overview1: "pigment print(digital image), 2020"},
                         ]
                     },
                     {
@@ -2905,14 +2904,14 @@ export const allExhibits_KOR = [
                         title: "SM-Smash#1: Data Material", 
                         name: "강주형", 
                         engname: "JooHyung Kang",
-                        imgname:"/2022/22-5/22-5-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-5/22-5-2.jpg`, 
                         text: "강주형 작가는 빛나는 캔버스 위에 움직임을 그린다. 움직임 속에 그림이 있고 그림은 그려지는 동시에 움직이기를 기다린다. 멈춰있는 상(像)들에서 느껴지는 아득한 아우라는 끊임없이 흔적을 남기며 자신의 신체를 만들어간다. 매일 반복하며 어디론가 걸어가는 사람들, 달리는 자동차에 흔들리는 나뭇가지들, 물을 주지 않으면 시들어버리는 화분 등 일상의 율동이라는 리듬을 만들어내고 레이어를 쌓는다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "도시 산책(A city walk)", imgname: "/2022/22-5/3-102.4x57.6.jpg", overview: "", overview1: "시간-회화(Single channel video), 2160p, 1m 30s, 2021"},
-                            {order: 3, title: "움직이는 나무(Moving tree)", imgname: "/2022/22-5/4-57.6x102.4.jpg", overview: "", overview1: "시간-회화(Single channel video), 2160p, 2m 59s, 2020"},
+                            {order: 2, title: "도시 산책(A city walk)", name: "강주형", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "시간-회화(Single channel video), 2160p, 1m 30s, 2021"},
+                            {order: 3, title: "움직이는 나무(Moving tree)", name: "강주형", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/4-57.6x102.4.jpg`, width: 2.88, height: 5.12, overview: "", overview1: "시간-회화(Single channel video), 2160p, 2m 59s, 2020"},
                         ]
                     },
                     {
@@ -2921,14 +2920,14 @@ export const allExhibits_KOR = [
                         title: "SM-Smash#1: Data Material", 
                         name: "이승훈", 
                         engname: "SeungHoon Lee",
-                        imgname:"/2022/22-5/22-5-3.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-5/22-5-3.jpg`, 
                         text: "이승훈 작가는 광학적 디스플레이를 일종의 통로로 삼되, 현실적인 감각의 증강과는 다른 방향을 향한다. 우리가 미술사에서 알고 있는 초현실주의가 현실을 초월하는 어떤 이상적인 상태의 재현이나 환상과는 정반대이듯이, 이승훈의 디스플레이는 현실보다 더 매끈한 디지털 환영을 오히려 삐걱거리고 울퉁불퉁한 매질로 변형시킨다. 그의 애니메이션 회화는 디지털 디스플레이에서 으레 기대하는 매끈하고 환영적인 이미지, 현실보다 더욱 실감 나는, ‘자연스러움’을 자랑하며 ‘살아나는 animated’ 이미지를 배반한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 4, title: "말 잘 듣는 사람들", imgname: "/2022/22-5/5-102.4x57.6.jpg", overview: "", overview1: "시간-회화(4K Single channel video), 3min, 2021"},
-                            {order: 5, title: "섬", imgname: "/2022/22-5/6-102.4x57.6.jpg", overview: "", overview1: "시간-회화(4K Single channel video), 2160p, 3min, 2022"},
+                            {order: 4, title: "말 잘 듣는 사람들", name: "이승훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/5-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "시간-회화(4K Single channel video), 3min, 2021"},
+                            {order: 5, title: "섬", name: "이승훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/6-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "시간-회화(4K Single channel video), 2160p, 3min, 2022"},
                         ]
                     },
                     {
@@ -2937,20 +2936,20 @@ export const allExhibits_KOR = [
                         title: "SM-Smash#1: Data Material", 
                         name: "한재열", 
                         engname: "JaeYeol Han",
-                        imgname:"/2022/22-5/22-5-4.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-5/22-5-4.jpg`, 
                         text: "한재열 작가는 작가 생활의 출발점으로 2010년 대지진이 휩쓸고 간 아이티에서의 파병 생활을 꼽곤 한다. 한재열의 그림은 재난의 자리에서 시작된 셈이다. 『Passersby』 연작의 캔버스는 얼핏 보아 재난으로 부서진 형상을 직설적으로 표현하는 것 같다. 그곳에는 한 사람을 알아볼 수 있는 외양의 차이, 즉 눈, 코, 입이나 사회적 기호, 즉 인종, 성별이나 계급을 추측할 수 있는 기호를 제거한 얼굴 아닌 얼굴이 있다. 이 형상은 질료적 원상태를 끊임없이 환기하는 색채 덩어리, 얼굴의 자리, 자국에 가까워 보인다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "Deathmask #2(Passerby, Flesh Off)", imgname: "/2022/22-5/7-102.4x102.4.jpg", overview: "", overview1: "Digital Sculpture, Single channel video(Color), 50sec, 2022"},
-                            {order: 7, title: "Deathmask #14", imgname: "/2022/22-5/8-97.1x102.4.jpg", overview: "", overview1: "Digital Sculpture, Single channel video(Color), 50sec, 2022"},
+                            {order: 6, title: "Deathmask #2(Passerby, Flesh Off)", name: "한재열", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/7-102.4x102.4.jpg`, width: 5.12, height: 5.12, overview: "", overview1: "Digital Sculpture, Single channel video(Color), 50sec, 2022"},
+                            {order: 7, title: "Deathmask #14", name: "한재열", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/8-97.1x102.4.jpg`, width: 4.855, height: 5.12, overview: "", overview1: "Digital Sculpture, Single channel video(Color), 50sec, 2022"},
                         ]
                     },
                 ],
             },
             {
-                order: 5,  
+                order: 6,  
                 type:"쉐마미술관 청주국제현대미술전", 
                 title:"2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                 time: "2022/06/30 ~ 2022/07/31", 
@@ -2968,7 +2967,7 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "김재관", 
                         engname: "Jaikwan Kim",
-                        imgname:"/2022/22-6/22-6-1.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-1.png`, 
                         text: "한국 작가 커미셔너이며 참여 작가인 김재관 작가는 그리드(Grid)와 방형(Cube)에서 출발한 작가의 작품세계는 최근에는 ’왜곡된 기하학‘과 ’멀티플 기하학‘의 아름다움으로 확산되고 있다. ‘자연으로의 회귀’ 시리즈에서 예술은 ‘꼭’ 미학적, 조형적 원칙과 원리에 따라 그려지는 것이 아니라 자유로운 형태의 ‘율(律)’과 ‘색’으로 자유스럽게 표현하며 공간에 ‘빛’을 넣고 있다.",
                         education: "홍익대학교 서양화 학부, 석사 졸업 및 동대학교 미술학박사학위 취득",
                         individual_exhibition: [
@@ -2999,7 +2998,7 @@ export const allExhibits_KOR = [
                             {order: 22, exhibit: "1984~1991 현대미술초대전 / 국립현대미술관, 과천"},
                         ],
                         paint: [
-                            {order: 0, title: "Relationship 律과 色 2021-1001", imgname: "/2022/22-6/1-162.2x112.jpg", overview: "162.2x112cm", overview1: "Acrylic on Korea Paper, 2021"},
+                            {order: 0, title: "Relationship 律과 色 2021-1001", name: "김재관", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/1-162.2x112.jpg`, width: 3.36, height: 4.866, overview: "162.2x112cm", overview1: "Acrylic on Korea Paper, 2021"},
                         ]
                     },
                     {
@@ -3008,13 +3007,13 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "박승순", 
                         engname: "Seung-soon Park",
-                        imgname:"/2022/22-6/22-6-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-2.jpg`, 
                         text: "박승순 작가는 다양하게 변모하는 도시 이미지와 현대 도시의 시대상에서 아름다움을 찾는 작가이다. 작가에게 도시란 생명력과 자연 생태계의 순환을 보여주는 곳이자 자신에게 상상력과 자극을 부여하는 공간이다. 이런 작가의 시선은 불규칙한 선의 변형을 거쳐 직선과 운동감이 넘치는 곡선의 형태로 변화하며 또 다른 색을 가진 면과 함께 중첩되면 작품에서 새로운 조화를 만들어 낸다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "선.미.공간 8-28", imgname: "/2022/22-6/2-120x120.jpg", overview: "120x120cm", overview1: "Oil on Canvas, 2020"},
+                            {order: 1, title: "선.미.공간 8-28", name: "박승순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/2-120x120.jpg`, width: 4.8, height: 4.8, overview: "120x120cm", overview1: "Oil on Canvas, 2020"},
                         ]
                     },
                     {
@@ -3023,13 +3022,13 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "박영학", 
                         engname: "Young-hak Park",
-                        imgname:"/2022/22-6/22-6-3.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-3.jpg`, 
                         text: "박영학 작가의 ‘단아한 풍경’은 불필요한 욕망과 억제 사이의 균형과 긴장감을 갖고, 그 경계의 풍경을 표현한다. 작품에 보이는 흰색과 검은색의 대비는 가시적 세계와 비가시적 세계를 동시에 보여주며 그 풍경은 실제의 풍경을 그리거나 원근법적 질서를 파괴한 새로운 풍경이다. 한국화 적인 느낌을 현대화시켜 보여주는 공허한 풍경은 오묘하고 신비로운 풍경을 보여준다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "세월의 흔적", imgname: "/2022/22-6/3-68.3x102.4.jpg", overview: "50x30x30cm", overview1: "Gypsum, pigment(석고에 안료), 2021"},
+                            {order: 2, title: "세월의 흔적", name: "박영학", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/3-68.3x102.4.jpg`, width: 2.732, height: 4.096, overview: "50x30x30cm", overview1: "Gypsum, pigment(석고에 안료), 2021"},
                         ]
                     },
                     {
@@ -3038,13 +3037,13 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "박진명", 
                         engname: "Jin-Myung Park",
-                        imgname:"/2022/22-6/22-6-4.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-4.jpg`, 
                         text: "박진명 작가는 빠르게 살아가는 우리의 삶 속의 여러 풍경에서 생명력을 발견한다. 작가는 화면 밖에 놓인 기억의 잔상의 이미지들은 작가만의 풍경으로 재탄생 시킨다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "똑같은 봄은 없다", imgname: "/2022/22-6/4-166.5x71.jpg", overview: "166.5x71cm", overview1: "Ink stick, Gouache on Paper(종이에 먹, 과슈), 2022"},
+                            {order: 3, title: "똑같은 봄은 없다", name: "박진명", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/4-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "166.5x71cm", overview1: "Ink stick, Gouache on Paper(종이에 먹, 과슈), 2022"},
                         ]
                     },
                     {
@@ -3053,7 +3052,7 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "방효성", 
                         engname: "Hyo-sung Pang",
-                        imgname:"/2022/22-6/22-6-5.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-5.png`, 
                         text: "방효성 작가는 국내와 해외에 널리 알려진 행위예술가이다. 행위예술가이면서도 작가는 회화와 드로잉에 주력한다. 작가의 드로잉 안에는 소멸을 반복하는 시간 속에서 영원을 추구하는 본능적 욕구가 있다. 화면 속에는 여러 가지 기호들이 차용되어 사용되고 조형적 요소들은 이미지 채집을 통하여 잠재된 의식 속에 떠오르는 것들을 기호적으로 표현된다.",
                         education: "경희대학교 및 동대학원 미술과 졸업",
                         individual_exhibition: [
@@ -3086,7 +3085,7 @@ export const allExhibits_KOR = [
                             {order: 24, exhibit: "2016 순천만 국제환경미술제 (순천만 국가정원 미술관. 순천)"},
                         ],
                         paint: [
-                            {order: 4, title: "Over the there", imgname: "/2022/22-6/5-76x52.jpg", overview: "76x52cm", overview1: "Acrylic on paper, 2021"},
+                            {order: 4, title: "Over the there", name: "방효성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/5-76x52.jpg`, width: 3.64, height: 5.32, overview: "76x52cm", overview1: "Acrylic on paper, 2021"},
                         ]
                     },
                     {
@@ -3095,13 +3094,13 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "이규식", 
                         engname: "Gyu-sik Lee",
-                        imgname:"/2022/22-6/22-6-6.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-6.jpg`, 
                         text: "이규식 작가는 ‘이름 쓰기’ 드로잉을 통해 타인의 시선으로 자신을 바라보려 한다. 작가는 욕망에 사로잡힌 자신을 인정함으로써 자기부정과 비판이 가능해진다면 삶은 한결 자유로워진다고 생각한다. 자신의 이름 쓰기는 수행과도 같으며 쓰기의 수행은 자신과 또 다른 존재들을 소환하며 존재 이유를 깨닫게 해준다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "李규식 - Red", imgname: "/2022/22-6/6-73.5x143.5.jpg", overview: "73.5x143.5cm", overview1: "Acrylic on paper, 2022"},                        
+                            {order: 5, title: "李규식 - Red", name: "이규식", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/6-73.5x143.5.jpg`, width: 5.74, height: 2.94, overview: "73.5x143.5cm", overview1: "Acrylic on paper, 2022"},                        
                         ]
                     },
                     {
@@ -3110,14 +3109,14 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "진익송", 
                         engname: "Ik-song Jin",
-                        imgname:"/2022/22-6/22-6-7.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-7.jpg`, 
                         text: "진익송 작가는 어떤 크고 작은 사연이 내재 된 오브제들을 장소와 시간을 넘어 재조합해 새로운 이야기를 엮어낸다. 사소하고도 작은 물체들(Objects)을 통해 지나간 이들의 삶과 시간과 흔적이 뒤섞여지며 경의와 연민이 자연스럽게 표현하여 우주의 신비를 밝혀내는 범위를 확장해간다. 작가에게 오브제로 재조합하며 육체는 한정적으로 어떤 신비로운 코드(code)를 채굴하는 도구이며, 행위는 작품이 된다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "Another song of cosmoss(Front)", imgname: "/2022/22-6/7-72.4x102.4.jpg", overview: "56.2x180x15cm", overview1: "Mixed media on a Door, 2021"}, 
-                            {order: 7, title: "Another song of cosmoss(Back)", imgname: "/2022/22-6/8-71.1x102.4.jpg", overview: "56.2x180x15cm", overview1: "Mixed media on a Door, 2021"},                        
+                            {order: 6, title: "Another song of cosmoss(Front)", name: "진익송", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/7-72.4x102.4.jpg`, width: 2.896, height: 4.816, overview: "56.2x180x15cm", overview1: "Mixed media on a Door, 2021"}, 
+                            {order: 7, title: "Another song of cosmoss(Back)", name: "진익송", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/8-71.1x102.4.jpg`, width: 2.844, height: 4.816, overview: "56.2x180x15cm", overview1: "Mixed media on a Door, 2021"},          
                         ]
                     },
                     {
@@ -3126,13 +3125,13 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "최민건", 
                         engname: "Min-gun Choi",
-                        imgname:"/2022/22-6/22-6-8.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-8.jpg`, 
                         text: "최민건 작가의 작품에는 의식 속에 존재하는 화면으로 표출된 공간과 현실과 괴리된 환상 속의 공간이 아니라 현재를 사는 현실의 공간과 가상의 공간과의 경계의 틈에 존재하는 일종의 이중적인 공간을 보여주려 한다. 화면 안에는 현재와 과거, 현존과 부재의 의미를 동시에 담고 있으며 화면 속 개는 작가의 가상과 실제의 경계를 모호하게 하며, 과거와 현재, 현세와 가상의 세계를 이어주며 시공간을 초월한 안내자와 같은 매개체이다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "A borderline between", imgname: "/2022/22-6/9-100x224.jpg", overview: "100x224cm", overview1: "Acrylic on canvas, 2022"}, 
+                            {order: 8, title: "A borderline between", name: "최민건", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/9-100x224.jpg`, width: 6.72, height: 3, overview: "100x224cm", overview1: "Acrylic on canvas, 2022"}, 
                         ]
                     },
                     {
@@ -3141,13 +3140,13 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "하명복", 
                         engname: "Myung-bok Ha",
-                        imgname:"/2022/22-6/22-6-9.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-9.jpg`, 
                         text: "하명복 작가의 영루(靈淚) 작품은 구체적 형상이 드러나지 않는 추상적인 이미지로 작업하며 캔버스에 흔적을 남긴다. 작가의 깊은 곳에서 전해지는 울림과 떨림으로 인해 흐르는 눈물을 바라보며 그 눈물은 점이 되어 화면 위에 남겨지는 흔적을 통해 무의식의 잠재의식이 표출된다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "영루(靈淚)", imgname: "/2022/22-6/10-162x112.jpg", overview: "162x112cm", overview1: "Acrylic on canvas, 2022"}, 
+                            {order: 9, title: "영루(靈淚)", name: "하명복", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/10-162x112.jpg`, width: 3.36, height: 4.86, overview: "162x112cm", overview1: "Acrylic on canvas, 2022"}, 
                         ]
                     },
                     {
@@ -3156,7 +3155,7 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "창신", 
                         engname: "Cang Xin",
-                        imgname:"/2022/22-6/22-6-10.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-10.jpg`, 
                         text: "중국 작가 창 신(Cang Xin)은 현대 인간 사회에 대한 정확한 인식과 성찰을 표현하고 새로운 가치와 예술적 양식을 구축하기 위해 항상 “새로운 샤머니즘”과 “과학적, 기술적 혁신”을 작업에 통합하려고 한다. 신샤머니즘은 중국 북부의 한랭지에서 샤머니즘의 애니미즘에서 파생된 것이다.",
                         education: "텐진대학교 음악대학 졸업",
                         individual_exhibition: [
@@ -3187,7 +3186,7 @@ export const allExhibits_KOR = [
                             {order: 13, exhibit: "2019 “뇌의 비밀”, 베이징"},
                         ],
                         paint: [
-                            {order: 10, title: "Broadhand User", imgname: "/2022/22-6/11-134x200.jpg", overview: "134x200cm", overview1: "Golden color on rice paper(Print), 2022"}, 
+                            {order: 10, title: "Broadhand User", name: "창신", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/11-134x200.jpg`, width: 6, height: 4.02, overview: "134x200cm", overview1: "Golden color on rice paper(Print), 2022"}, 
                         ]
                     },
                     {
@@ -3196,13 +3195,13 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "덩상동", 
                         engname: "Deng Shangdong",
-                        imgname:"/2022/22-6/22-6-11.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-11.jpg`, 
                         text: "덩상동(Deng Shangdong) 작가는 퍼포먼스 영상을 통해 개인적인 감정적 경험에 초점을 맞추고 삶과 죽음의 의미를 탐구한다. 특히 작품을 통해 오늘날 젊은이들의 신체에 대한 탐구와 기록이나 젊은이들의 서브컬처 생활환경에 주목하여 실제적인 신체 관을 제시하거나 과거를 잊지 않고, 순간을 기억하여 현재를 살아가고자 한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "Earthquake Remembrance Day", imgname: "/2022/22-6/12-102.4x57.jpg", overview: "", overview1: "15m, Performance Video, 2018"}, 
+                            {order: 11, title: "Earthquake Remembrance Day", name: "덩상동", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/12-102.4x57.jpg`, width: 5.12, height: 2.85, overview: "", overview1: "15m, Performance Video, 2018"}, 
                         ]
                     },
                     {
@@ -3211,14 +3210,14 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "무레이", 
                         engname: "Mulei",
-                        imgname:"/2022/22-6/22-6-12.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-12.jpg`, 
                         text: "무레이(Mulei) 작가는 디지털 영상 작품을 통해 영상의 모든 프레임에 시간적 측면을 상징하며 초자연적인 변형이 일어난다. 특히 작가의 눈에는 영원 속에 떠 있는 신기한 돌들과 무한히 흐르는 원형 물속에서 시간이 드러난다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "Infinity", imgname: "/2022/22-6/13-102.4x57.6.jpg", overview: "", overview1: "5m, Video, 2021"}, 
-                            {order: 13, title: "Infinity", imgname: "/2022/22-6/14-102.4x57.6.jpg", overview: "", overview1: "5m, Video, 2021"}, 
+                            {order: 12, title: "Infinity", name: "무레이", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/13-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "5m, Video, 2021"}, 
+                            {order: 13, title: "Infinity", name: "무레이", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/14-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "5m, Video, 2021"},  
                         ]
                     },
                     {
@@ -3227,13 +3226,13 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "이신모", 
                         engname: "Li Xinmo",
-                        imgname:"/2022/22-6/22-6-13.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-13.jpg`, 
                         text: "이신모(Li xinmo) 작가의 작업은 실존적 질문을 불러일으킬 방법을 탐구하며 여성의 신체에 대한 폭력, 자연환경에 대한 폭력, 가부장적 폭력의 사회적 사이의 유사점들에 대해 생태 페미니스트적 렌즈를 통해 퍼포먼스를 한다. 몸을 써 겪는 신체적 불편함을 통해 관객을 압도하고 끌어들인다. 작가는 산업화와 상업화가 자연환경을 파괴하며 사라지며 상실되는 환경은 생태계와 여성의 몸뿐만 아니라 우리 인류의 핵심 본질인 예술 형식의 파괴라고 생각한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "Maxim", imgname: "/2022/22-6/15-78.8x102.4.jpg", overview: "", overview1: "4m 42s, Performance Video, 2018"}, 
+                            {order: 14, title: "Maxim", name: "이신모", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/15-78.8x102.4.jpg`, width: 3.94, height: 5.12, overview: "", overview1: "4m 42s, Performance Video, 2018"}, 
                         ]
                     },
                     {
@@ -3242,14 +3241,14 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "이자신", 
                         engname: "Li Jiaxin",
-                        imgname:"/2022/22-6/22-6-14.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-14.jpg`, 
                         text: "이자신(Li Jiaxin) 작가는 작품을 통해 또한 다른 사람들이 세상을 이해하고 어떤 것을 이해하기 위해 다른 관점을 보게 할 수 있다고 생각하며 다른 사람들과 소통하는 매개체이며, 단어와 문자보다 더 상상력과 힘을 가지 매개체라고 생각한다. 작가는 지허(Jihe River) 강가에서 태어났으며 무차별적 개발로 조각난 고향을 지키기 위해 사진을 사용한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 15, title: "Investigation of Zihe River", imgname: "/2022/22-6/16-25x30.jpg", overview: "25x30cm", overview1: "Photo(Print), 2022"}, 
-                            {order: 16, title: "Investigation of Zihe River", imgname: "/2022/22-6/17-25x30.jpg", overview: "25x30cm", overview1: "Photo(Print), 2022"}, 
+                            {order: 15, title: "Investigation of Zihe River", name: "이자신", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/16-25x30.jpg`, width: 6, height: 5, overview: "25x30cm", overview1: "Photo(Print), 2022"}, 
+                            {order: 16, title: "Investigation of Zihe River", name: "이자신", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/17-25x30.jpg`, width: 6, height: 5, overview: "25x30cm", overview1: "Photo(Print), 2022"}, 
                         ]
                     },
                     {
@@ -3258,13 +3257,13 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "장정정", 
                         engname: "Zhang Zengzeng",
-                        imgname:"/2022/22-6/22-6-15.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-15.jpg`, 
                         text: "장정정(Zhang Zengzeng) 작가는 조각의 보이지 않는 것의 형태를 탐구한다. 조각의 ‘형태’의 가장 기본적인 개념 중 하나인 ‘공간’, ‘멀티미디어 기술의 형태‘로 해석한다. 작가의 이런 생각은 작품에서 ‘무형’의 형태로 사용하고 나타난다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 17, title: "The Moment", imgname: "/2022/22-6/18-102.4x52.jpg", overview: "", overview1: "1m 16s, Video, 2021"}, 
+                            {order: 17, title: "The Moment", name: "장정정", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/18-102.4x52.jpg`, width: 5.12, height: 2.6, overview: "", overview1: "1m 16s, Video, 2021"}, 
                         ]
                     },
                     {
@@ -3273,14 +3272,14 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "저우빈", 
                         engname: "Zhou Bin",
-                        imgname:"/2022/22-6/22-6-16.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-16.jpg`, 
                         text: "저우빈 (Zhou Bin) 작가는 청두를 중심으로 활동하는 퍼포먼스 작가로 주로 정치적, 사회적 문제를 다루는 작가로 알려져 있다. ‘谁是恐怖分子(Who is the Terrorist)’ 작품은 2008년 9월 유대교 구역에 있는 Western Wall에서 진행한 퍼포먼스 작품으로 이 벽은 구약성서에 등장하는 성전의 서쪽 벽, ‘통곡의 벽’(Wailing Wall)이라는 별칭을 가지고 있는 장소에서 유대교인들이 자신의 소원이 담긴 성격을 성지 ‘서벽’ 틈에 끼워 넣고 떨어진 종이들로 작가는 ‘테러리스트는 누구인가?’를 발문하며 테러와 전쟁의 위협을 안고 살아가는 사회적 문제를 제시한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "Who Is the Terrorist_谁", imgname: "/2022/22-6/19-60x40.jpg", overview: "60x40cm", overview1: "Photo(Print), 2022"}, 
-                            {order: 19, title: "Who Is the Terrorist", imgname: "/2022/22-6/20-60x40.jpg", overview: "60x40", overview1: "Photo(Print), 2022"}, 
+                            {order: 18, title: "Who Is the Terrorist_谁", name: "저우빈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/19-60x40.jpg`, width: 4, height: 6, overview: "60x40cm", overview1: "Photo(Print), 2022"}, 
+                            {order: 19, title: "Who Is the Terrorist", name: "저우빈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/20-60x40.jpg`, width: 4, height: 6, overview: "60x40", overview1: "Photo(Print), 2022"}, 
                         ]
                     },
                     {
@@ -3289,13 +3288,13 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "주이밍", 
                         engname: "Zhu Yiming",
-                        imgname:"/2022/22-6/22-6-17.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-17.jpg`, 
                         text: "주이밍(Zhu Yiming) 작가는 영상 작품을 통해 예술작품 자체는 현재 환경에 존재한다고 생각한다. 이런 작가의 생각은 ‘In one breath’ 작품에서 시민들이 풍선을 불며 참여하여 이 시대의 사람들의 상태와 영적인 힘과 더 나아가 보이지 않는 삶의 생명을 보여준다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "In one breath", imgname: "/2022/22-6/21-102.4x57.1.jpg", overview: "", overview1: "7m 36s, Video, 2021"}, 
+                            {order: 20, title: "In one breath", name: "주이밍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/21-102.4x57.1.jpg`, width: 5.12, height: 2.855, overview: "", overview1: "7m 36s, Video, 2021"}, 
                         ]
                     },
                     {
@@ -3304,20 +3303,20 @@ export const allExhibits_KOR = [
                         title: "2022 제9회 청주국제현대미술전 ‘한·중 현대미술의 새로운 좌표’", 
                         name: "진젠룽", 
                         engname: "Jin Jianrong",
-                        imgname:"/2022/22-6/22-6-18.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-6/22-6-18.jpg`, 
                         text: "진젠룽(Jin Jianrong) 작가는 사람들은 복부나 발가락 등을 잡아당겨서 촬영하며 순간에 이상적인 이미지를 갖게 된다는 사실에서 작품이 시작한다. 아름다움을 추구하는 인간의 본성의 중독된 환상을 객관적으로 관찰하는 작품을 선보인다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 21, title: "Partial eclipse", imgname: "/2022/22-6/22-80x45.jpg", overview: "80x45cm", overview1: "Art micro spray photo(Print), 2022"}, 
-                            {order: 22, title: "Partial eclipse", imgname: "/2022/22-6/23-45x80.jpg", overview: "45x80cm", overview1: "Art micro spray photo(Print), 2022"}, 
+                                {order: 21, title: "Partial eclipse", name: "진젠룽", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/22-80x45.jpg`, width: 2.7, height: 4.8, overview: "80x45cm", overview1: "Art micro spray photo(Print), 2022"}, 
+                                {order: 22, title: "Partial eclipse", name: "진젠룽", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/23-45x80.jpg`, width: 4.8, height: 2.7, overview: "45x80cm", overview1: "Art micro spray photo(Print), 2022"}, 
                         ]
                     },
                 ],
             },
             {
-                order: 6,  
+                order: 7,  
                 type:"쉐마미술관 개인전", 
                 title:"김성미 개인전 ‘숲의 잔상’", 
                 time: "2022/08/06 ~ 2022/08/28", 
@@ -3335,25 +3334,25 @@ export const allExhibits_KOR = [
                         title:"김성미 개인전 ‘숲의 잔상’", 
                         name: "김성미", 
                         engname: "Sungmi Kim",
-                        imgname:"/2022/22-7/22-7-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-7/22-7-1.jpg`, 
                         text: "‘숲의 다양하고 자연스러운 생성과 변주들이 인류의 발전이라 거대한 욕망에 의해 광적으로 빠르게 파괴되고, 이러한 파괴된 자연과 소외된 인간의 모습을 ‘숲의 잔상’이라는 주제로 전시하고자 한다.’",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "숲의 잔상 22-1", imgname: "/2022/22-7/1-100x100.jpg", overview: "100x100cm", overview1: "캔버스 위에 혼합재료, 2022"},
-                            {order: 1, title: "숲의 잔상 22-2", imgname: "/2022/22-7/2-100x100.jpg", overview: "100x100cm", overview1: "캔버스 위에 혼합재료, 2022"},
-                            {order: 2, title: "숲의 잔상 2022-1", imgname: "/2022/22-7/3-102.4x57.6.jpg", overview: "", overview1: "video(3m 20s), 2022"},
-                            {order: 3, title: "숲의 잔상 2022", imgname: "/2022/22-7/4-102.4x59.2.jpg", overview: "", overview1: "video(4m 14s), 2022"},
-                            {order: 4, title: "숲의 잔상 2020", imgname: "/2022/22-7/5-102.4x76.8.jpg", overview: "78x54cm", overview1: "gumprint, 2020"},
-                            {order: 5, title: "숲의 알레고리 2020", imgname: "/2022/22-7/6-145.5x112.1.jpg", overview: "145.5x112.1cm", overview1: "캔버스 위에 혼합재료, 2020"},
-                            {order: 6, title: "숲의 알레고리 - 2019", imgname: "/2022/22-7/7-102.4x68.3.jpg", overview: "120x120cmx4p", overview1: "LED설치, 2019"},
+                            {order: 0, title: "숲의 잔상22-1", name: "김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/1-100x100.jpg`, width: 5, height: 5, overview: "100x100cm", overview1: "캔버스 위에 혼합재료, 2022"},
+                            {order: 1, title: "숲의 잔상22-2", name: "김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/2-100x100.jpg`, width: 5, height: 5, overview: "100x100cm", overview1: "캔버스 위에 혼합재료, 2022"},
+                            {order: 2, title: "숲의 잔상2022-1", name: "김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "video(3m 20s), 2022"},
+                            {order: 3, title: "숲의 잔상2022", name: "김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/4-102.4x59.2.jpg`, width: 5.12, height: 2.96, overview: "", overview1: "video(4m 14s), 2022"},
+                            {order: 4, title: "숲의 잔상2020", name: "김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/5-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "78x54cm", overview1: "gumprint, 2020"},
+                            {order: 5, title: "숲의 알레고리2020", name: "김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/6-145.5x112.1.jpg`, width: 4.484, height: 5.82, overview: "145.5x112.1cm", overview1: "캔버스 위에 혼합재료, 2020"},
+                            {order: 6, title: "숲의 알레고리-2019", name: "김성미", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/7-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "120x120cmx4p", overview1: "LED설치, 2019"},
                         ]
                     },
                 ],
             },
             {
-                order: 7,  
+                order: 8,  
                 type:"쉐마미술관 매끄러운 돌밭", 
                 title:"매끄러운 돌밭", 
                 time: "2022/09/02 ~ 2022/10/09", 
@@ -3371,7 +3370,7 @@ export const allExhibits_KOR = [
                         title:"매끄러운 돌밭", 
                         name: "김만순", 
                         engname: "Man-soon Kim",
-                        imgname:"/2022/22-8/22-8-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-8/22-8-1.jpg`, 
                         text: "나는 주로 반복적인 스트로크로 화면을 채우거나 유화 물감의 물성을 사용해 화면 전체를 다른 레이어로 덮는 방식으로 작업한다. 이러한 작업방식은 완성이 아닌 그리는 과정을 기념하고 그 속에 최대한 머무르려는 시도로서 수행된다. 테드 창의 단편소설 <지옥은 신의 부재> 에는 ‘라이트 시커’ 들이 등장한다. 그들은 천상의 빛이 강림하는 소설 속 세계관에서 천국에 들어가기 위해 그 빛을 쫓는 순례자들이다. 그들은 순례 과정에서 다치거나 죽기도 하고, 구원이라 믿는 천상의 빛으로 인해 눈이 멀거나 지옥으로 떨어지기도 한다. 믿음은 무엇일까? 이성의 눈으로 볼 때 라이트 시커들은 미련한 도박꾼들이지만, 자신들의 죽음을 각오하면서 까지 행동한다는 점에선 실존적이다. 실패를 예견하며 계속 그림을 그리는 나와 천상의 빛을 쫓는 라이트 시커들은 별반 다르지 않다고 느낀다. 하지만 라이트 시커들은 나와 달리 구원을 의심하지 않는다. 빛에 닿으면 천국에 들어갈 수 있다는 믿음과 그에 따른 실존적인 실천을 통해 그들은 신을 느끼며 희망 속에서 현세를 사는 이미 구원받은 자들 일지 모른다. 나는 나의 완성된 그림의 형태를 아직 알지 못하지만 항상 그것에 닿는 것을 목표로, 기도하듯 작업한다. 염세적인 것은 아니다. 다만 그리는 과정 속에 가능한 한 길게 머물며 단 한번뿐일지 모를 그 구원의 황홀한 순간을 최대한 늦춰보려 한다.",
                         education: "",
                         individual_exhibition: [
@@ -3386,25 +3385,25 @@ export const allExhibits_KOR = [
                             {order: 6, exhibit: "2016, A Whole New World, 세움아트스페이스, Seoul, Korea"},
                         ],
                         paint: [
-                            {order: 0, title: "Dancing Shaman", imgname: "/2022/22-8/1-145.5x112.jpg", overview: "145.5x112cm", overview1: "oil on canvas, 2021"},
-                            {order: 1, title: "Arrow", imgname: "/2022/22-8/2-53x45.5.jpg", overview: "53x45.5cm", overview1: "oil on canvas, 2021"},
-                            {order: 2, title: "Cave", imgname: "/2022/22-8/3-116.8x91.jpg", overview: "116.8x91cm", overview1: "oil on canvas, 2022"},
-                            {order: 3, title: "Dancing Shaman #3", imgname: "/2022/22-8/4-145.5x112.jpg", overview: "145.5x112cm", overview1: "oil on canvas, 2022"},
-                            {order: 4, title: "Dancing Shaman #2", imgname: "/2022/22-8/5-145.5x112.jpg", overview: "145.5x112cm", overview1: "oil on canvas, 2022"},
-                            {order: 5, title: "Floating Stones", imgname: "/2022/22-8/6-33.4x24.jpg", overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
-                            {order: 6, title: "Fungi #7", imgname: "/2022/22-8/7-91x91.jpg", overview: "91x91cm", overview1: "oil on canvas, 2022"},
-                            {order: 7, title: "Fungi", imgname: "/2022/22-8/8-91x91.jpg", overview: "91x91cm", overview1: "oil, glitter on canvas, 2022"},
-                            {order: 8, title: "Lightseeker #2", imgname: "/2022/22-8/9-91x73.jpg", overview: "91x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 9, title: "Lightseeker", imgname: "/2022/22-8/10-91x73.jpg", overview: "91x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 10, title: "ManSun", imgname: "/2022/22-8/11-60.6x50.jpg", overview: "60.6x50cm", overview1: "oil on canvas, 2021"},
-                            {order: 11, title: "Molds", imgname: "/2022/22-8/12-91x61.jpg", overview: "91x61cm", overview1: "oil on canvas, 2021"},
-                            {order: 12, title: "Pupil #3", imgname: "/2022/22-8/13-33.4x24.jpg", overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
-                            {order: 13, title: "Pupil #4", imgname: "/2022/22-8/14-33.4x24.jpg", overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
-                            {order: 14, title: "Pupil", imgname: "/2022/22-8/15-45.5x33.4.jpg", overview: "45.5x33.4cm", overview1: "oil on canvas, 2022"},
-                            {order: 15, title: "Statue #2", imgname: "/2022/22-8/16-116.8x80.jpg", overview: "116.8x80cm", overview1: "oil on canvas, 2021"},
-                            {order: 16, title: "Statue #3", imgname: "/2022/22-8/17-100x80.jpg", overview: "100x80cm", overview1: "oil on canvas, 2021"},
-                            {order: 17, title: "Statue", imgname: "/2022/22-8/18-100x72.jpg", overview: "100x72cm", overview1: "oil on canvas, 2021"},
-                            {order: 18, title: "Tomb", imgname: "/2022/22-8/19-33.4x24.jpg", overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
+                            {order: 0, title: "Dancing Shaman", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/1-145.5x112.jpg`, width: 4.48, height: 5.82, overview: "145.5x112cm", overview1: "oil on canvas, 2021"},
+                            {order: 1, title: "Arrow", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/2-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "oil on canvas, 2021"},
+                            {order: 2, title: "Cave", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/3-116.8x91.jpg`, width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "oil on canvas, 2022"},
+                            {order: 3, title: "Dancing Shaman #3", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/4-145.5x112.jpg`, width: 4.48, height: 5.82, overview: "145.5x112cm", overview1: "oil on canvas, 2022"},
+                            {order: 4, title: "Dancing Shaman #2", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/5-145.5x112.jpg`, width: 4.48, height: 5.82, overview: "145.5x112cm", overview1: "oil on canvas, 2022"},
+                            {order: 5, title: "Floating Stones", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/6-33.4x24.jpg`, width: 2.64, height: 3.674, overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
+                            {order: 6, title: "Fungi #7", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/7-91x91.jpg`, width: 3.64, height: 3.64, overview: "91x91cm", overview1: "oil on canvas, 2022"},
+                            {order: 7, title: "Fungi", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/8-91x91.jpg`, width: 3.64, height: 3.64, overview: "91x91cm", overview1: "oil, glitter on canvas, 2022"},
+                            {order: 8, title: "Lightseeker #2", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/9-91x73.jpg`, width: 3.65, height: 4.55, overview: "91x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 9, title: "Lightseeker", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/10-91x73.jpg`, width: 3.65, height: 4.55, overview: "91x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 10, title: "ManSun", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/11-60.6x50.jpg`, width: 5, height: 6.06, overview: "60.6x50cm", overview1: "oil on canvas, 2021"},
+                            {order: 11, title: "Molds", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/12-91x61.jpg`, width: 3.05, height: 4.55, overview: "91x61cm", overview1: "oil on canvas, 2021"},
+                            {order: 12, title: "Pupil #3", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/13-33.4x24.jpg`, width: 2.88, height: 4.008, overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
+                            {order: 13, title: "Pupil #4", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/14-33.4x24.jpg`, width: 2.88, height: 4.008, overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
+                            {order: 14, title: "Pupil", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/15-45.5x33.4.jpg`, width: 3.34, height: 4.55, overview: "45.5x33.4cm", overview1: "oil on canvas, 2022"},
+                            {order: 15, title: "Statue #2", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/16-116.8x80.jpg`, width: 3.2, height: 4.672, overview: "116.8x80cm", overview1: "oil on canvas, 2021"},
+                            {order: 16, title: "Statue #3", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/17-100x80.jpg`, width: 3.2, height: 4, overview: "100x80cm", overview1: "oil on canvas, 2021"},
+                            {order: 17, title: "Statue", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/18-100x72.jpg`, width: 2.88, height: 4, overview: "100x72cm", overview1: "oil on canvas, 2021"},
+                            {order: 18, title: "Tomb", name: "김만순", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/19-33.4x24.jpg`, width: 2.88, height: 4.008, overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
                         ]
                     },
                     {
@@ -3413,7 +3412,7 @@ export const allExhibits_KOR = [
                         title:"매끄러운 돌밭", 
                         name: "김윤섭", 
                         engname: "Yun-seob Kim",
-                        imgname:"/2022/22-8/22-8-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-8/22-8-2.jpg`, 
                         text: "나는 애니메이션을 전공한 후 운동을 질료로 한 새로운 회화를 꿈꾸며 미술 작업을 시작했다. ‘근방역-오늘의 현대미술시리즈’는 핸드폰에 저장된 그날의 캡쳐이미지를 회화의 공간안에 전 부 우겨 넣어 그린 그림이다. 나는 캔버스를 펼쳐 놓고 하나하나 이미지를 선택해 쌓아가고 채워가듯이 그림을 완성했다. 순차적으로 부분부분 그려진 피규어들은 각 각의 빛의 흐름을 가졌고 시점도 다르기 때문에 함께 있지만 각 다른 공간성을 띄게 되고 그것은 평평한 평면과 입체, 그리고 면과 선으로 대비되어 함께 회화의 공간안에서 연결되는 초현실적 구성을 가지게 된다. 회화는 동시대를 비추는 얼굴이라고 생각한다. 나는 동시대의 이미지는 어떤 얼굴을 가질까? 라는 의문을 가지고 이미지에 접근했으며 아이러니하게도 회화가 그려지는 순간 과거의 얼굴이 되어버리는 오늘의 현대미술시리즈가 되었다.",
                         education: "",
                         individual_exhibition: [
@@ -3434,13 +3433,12 @@ export const allExhibits_KOR = [
                             {order: 8, exhibit: "2017 <2017 내일의 미술가들>, 청주시립미술관, 청주"},
                         ],
                         paint: [
-                            {order: 19, title: "오늘의 현대미술시리즈-2022 봄-여름1", imgname: "/2022/22-8/20-90.5x73.jpg", overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 20, title: "오늘의 현대미술시리즈-2022 봄-여름2", imgname: "/2022/22-8/21-90.5x73.jpg", overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 21, title: "오늘의 현대미술시리즈-2022 봄-여름3", imgname: "/2022/22-8/22-90.5x73.jpg", overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 22, title: "오늘의 현대미술시리즈-2022 봄-여름4", imgname: "/2022/22-8/23-226.5x182.jpg", overview: "226.5x182cm", overview1: "oil on canvas, 2022"},
-                            {order: 23, title: "오늘의 현대미술시리즈-2022 봄-여름5", imgname: "/2022/22-8/24-90.5x73.jpg", overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 24, title: "근방역-오늘의 현대미술시리즈 2020.02.20", imgname: "/2022/22-8/25-194x259.jpg", overview: "194x259cm", overview1: "oil on canvas, 2020"},
-                           
+                            {order: 19, title: "오늘의 현대미술시리즈-2022 봄-여름1", name: "김윤섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/20-90.5x73.jpg`, width: 3.65, height: 4.525, overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 20, title: "오늘의 현대미술시리즈-2022 봄-여름2", name: "김윤섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/21-90.5x73.jpg`, width: 3.65, height: 4.525, overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 21, title: "오늘의 현대미술시리즈-2022 봄-여름3", name: "김윤섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/22-90.5x73.jpg`, width: 3.65, height: 4.525, overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 22, title: "오늘의 현대미술시리즈-2022 봄-여름4", name: "김윤섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/23-226.5x182.jpg`, width: 3.64, height: 4.53, overview: "226.5x182cm", overview1: "oil on canvas, 2022"},
+                            {order: 23, title: "오늘의 현대미술시리즈-2022 봄-여름5", name: "김윤섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/24-90.5x73.jpg`, width: 3.65, height: 4.525, overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 24, title: "근방역-오늘의 현대미술시리즈 2020.02.20", name: "김윤섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/25-194x259.jpg`, width: 5.18, height: 3.88, overview: "194x259cm", overview1: "oil on canvas, 2020"},
                         ]
                     },
                     {
@@ -3449,7 +3447,7 @@ export const allExhibits_KOR = [
                         title:"매끄러운 돌밭", 
                         name: "이병호", 
                         engname: "Byung-ho Lee",
-                        imgname:"/2022/22-8/22-8-3.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-8/22-8-3.jpg`, 
                         text: "근래 진행하는 일련의 작업들에는 완결성이 결여되어있는 특징이 있다. 이것은 작품의 완성단계에서 결정되는 견고한 형태와 표면을 극복하기 위함이고 지속적으로 유동하고 변형하는 상태의 조각을 제시하려는 작업적 태도를 보여준다. 복제의 방식으로 단위화된 작업의 재료들은 변형, 해체, 재조합을 거쳐 새로운 원본이 된다. 작업 과정속에서 생산/파생된 조각들은 그 자체로 독자적 작품이 되기도 하고 새로운 프로젝트를 진행할 때마다 또 다른 조각으로 거듭나기 위한 재료 또는 오브제로 쓰이기도 한다. 이러한 작업적 여정은 물리적 공간은 물론 3d스캔 데이터화를 통해 가상 공간에서도 이루어진다. 쉐마 미술관의 ‘매끄러운 돌밭’ 전에 선보이는 작품은 ‘Eccentric Abattis’ 연작이다.  ‘Eccentric Abattis’연작은 19세기 말엽 조각가 로댕(Auguste Rodin)의 방법론에 참조점을 둔다. 로댕은 기존의 작업물을 재조합해 새로운 작업물로 제시하는 마르코타주(marcottage) 작업을 즐겨 하였고 이 작업 과정에서 쓰이지 못하고 남겨진 부산물들이 생겨났는데 로댕은 이를 ‘아바티(abattis)’라고 불렀다. ‘Eccentric Abattis’연작은 소용을 다하고 남겨진 (로댕의) 아바티를 작업적 객체에서 주체로 수용하게 하고, 형상이 잔존한 아바티를 형상이 모호함을 가질 정도로 더욱 세분화 한 후 그것을 소조적 재료로서 재 조합 하는 연작이다.",
                         education: "",
                         individual_exhibition: [
@@ -3471,11 +3469,11 @@ export const allExhibits_KOR = [
                             {order: 10, exhibit: "2016 ‘그다음 몸-담론.실천.재현으로서의 예술’. 소마미술관. 서울"},
                         ],
                         paint: [
-                            {order: 25, title: "Eccentric Abattis", imgname: "/2022/22-8/26-102.4x76.8.jpg", overview: "77x62x78cm", overview1: "color plaster on sculpture, 2022"},
-                            {order: 26, title: "Eccentric Abattis", imgname: "/2022/22-8/27-76.8x102.4.jpg", overview: "120x110x117cm", overview1: "color plaster on sculpture, 2022"},
-                            {order: 27, title: "Eccentric Abattis", imgname: "/2022/22-8/28-102.4x76.8.jpg", overview: "120x124x161cm", overview1: "color plaster on sculpture, 2022"},
-                            {order: 28, title: "Eccentric Abattis", imgname: "/2022/22-8/29-102.4x76.8.jpg", overview: "82x85x76cm", overview1: "color plaster on sculpture, 2022"},
-                            {order: 29, title: "Eccentric Abattis", imgname: "/2022/22-8/30-102.4x76.8.jpg", overview: "49x47x38cm", overview1: "color plaster on sculpture, 2022"},                           
+                            {order: 25, title: "Eccentric Abattis", name: "이병호", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/26-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "77x62x78cm", overview1: "color plaster on sculpture, 2022"},
+                            {order: 26, title: "Eccentric Abattis", name: "이병호", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/27-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "120x110x117cm", overview1: "color plaster on sculpture, 2022"},
+                            {order: 27, title: "Eccentric Abattis", name: "이병호", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/28-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "120x124x161cm", overview1: "color plaster on sculpture, 2022"},
+                            {order: 28, title: "Eccentric Abattis", name: "이병호", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/29-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "82x85x76cm", overview1: "color plaster on sculpture, 2022"},
+                            {order: 29, title: "Eccentric Abattis", name: "이병호", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/30-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "49x47x38cm", overview1: "color plaster on sculpture, 2022"},                           
                         ]
                     },
                     {
@@ -3484,7 +3482,7 @@ export const allExhibits_KOR = [
                         title:"매끄러운 돌밭", 
                         name: "조민선", 
                         engname: "Min-sun Cho",
-                        imgname:"/2022/22-8/22-8-4.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-8/22-8-4.jpg`, 
                         text: "그동안 사람, 사물 혹은 어떤 보이지 않는 존재와 인간과의 관계성을 탐구하며, 작품을 통해 관계와 상호작용, 소통, 영향력 등에 대한 작업을 해왔다. 이를 영상작업 뿐만 아니라, 다양한 오브제와 센서를 활용한 여러 미디어 설치방식을 이용하여 시각화한다. 이번 전시에서는 작품 <reflection, 2021>과 <fragility, 2020>를 하나로 융합하여 새로운 의미의 작품을 선보인다. 구체적으로는 현대사회 속에서 다양하게 변화하는 관계에 대하여 사유하고, 관람자를 작품 속으로 유도하여 그들과 작품 사이에 새로운 관계를 형성하거나 이를 재해석시키는 작업이다. 전시장의 천장에 설치된 여러 대의 빔 프로젝터는 바닥을 향해 투사된다. 기하학적 형태의 파편들은 끊임없이 부유하고, 센서의 데이터 값에 의해 그 모습을 변화시킨다. 또한, 벽면에는 부서진 거울조각이 설치되어있다. 부서진 거울조각은 그 표면의 휜 정도와 방향에 따라 공간의 빛을 다르게 왜곡하고 반사한다. 수십 개의 거울조각이 만들어 낸 입체적이고 비현실적인 효과는 어떤 공간에도 속하지 않은 유토피아적 장소와 현실에 없는 유크로니아적 시간으로 이동시킨다. 매개로 사용된 거울은 현실 속 우리의 모습을 반영하는 한편, 현실화된 공간에서 벗어나 다른 차원의 경험을 유도하는 중간적 장치이다. 각기 다른 형태로 부서진 거울은 관람객을 작은 조각 안에 가두어 스스로를 다른 객체로서 바라볼 수 있는 기회를 제공한다. 그리고 그 거울을 통해 반사된 파편적 이미지는 현실에서 경험할 수 없는 몽환적, 중립적인 세계를 구성한다.",
                         education: "",
                         individual_exhibition: [
@@ -3507,19 +3505,19 @@ export const allExhibits_KOR = [
                             {order: 11, exhibit: "2020  <실재와가상 그 경계에서> 수창청춘맨숀, 대구, 한국"},
                         ],
                         paint: [
-                            {order: 30, title: "파편의 경계(boundary of the fragments)", imgname: "/2022/22-8/31-102.4x68.3.jpg", overview: "", overview1: "사운드 반응형 실시간 인터랙티브 비디오, 2022"},
-                            {order: 31, title: "파편의 경계(boundary of the fragments)", imgname: "/2022/22-8/32-102.4x68.3.jpg", overview: "", overview1: "사운드 반응형 실시간 인터랙티브 비디오, 2022"},
-                            {order: 32, title: "파편의 경계(boundary of the fragments)", imgname: "/2022/22-8/33-102.4x69.1.jpg", overview: "", overview1: "사운드 반응형 실시간 인터랙티브 비디오, 2022"},
-                            {order: 33, title: "파편의 경계(boundary of the fragments)", imgname: "/2022/22-8/34-102.4x68.3.jpg", overview: "", overview1: "사운드 반응형 실시간 인터랙티브 비디오, 2022"},
-                            {order: 34, title: "파편의 경계(boundary of the fragments)", imgname: "/2022/22-8/35-102.4x69.7.jpg", overview: "", overview1: "사운드 반응형 실시간 인터랙티브 비디오, 2022"},                           
-                            {order: 35, title: "fragility", imgname: "/2022/22-8/36-102.4x65.3.jpg", overview: "", overview1: "비디오 프로젝션, 6m, 2020"},                           
-                            {order: 36, title: "unstable 02, unstable 01", imgname: "/2022/22-8/37-102.4x68.3.jpg", overview: "", overview1: "모니터에 영상, 2m, 3m, 2021"},                           
+                            {order: 30, title: "파편의 경계(boundary of the fragments)", name: "조민선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/31-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "", overview1: "사운드 반응형 실시간 인터랙티브 비디오, 2022"},
+                            {order: 31, title: "파편의 경계(boundary of the fragments)", name: "조민선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/32-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "", overview1: "사운드 반응형 실시간 인터랙티브 비디오, 2022"},
+                            {order: 32, title: "파편의 경계(boundary of the fragments)", name: "조민선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/33-102.4x69.1.jpg`, width: 5.12, height: 3.455, overview: "", overview1: "사운드 반응형 실시간 인터랙티브 비디오, 2022"},
+                            {order: 33, title: "파편의 경계(boundary of the fragments)", name: "조민선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/34-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "", overview1: "사운드 반응형 실시간 인터랙티브 비디오, 2022"},
+                            {order: 34, title: "파편의 경계(boundary of the fragments)", name: "조민선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/35-102.4x69.7.jpg`, width: 5.12, height: 3.485, overview: "", overview1: "사운드 반응형 실시간 인터랙티브 비디오, 2022"},                           
+                            {order: 35, title: "fragility", name: "조민선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/36-102.4x65.3.jpg`, width: 5.12, height: 3.265, overview: "", overview1: "비디오 프로젝션, 6m, 2020"},                           
+                            {order: 36, title: "unstable 02, unstable 01", name: "조민선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/37-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "", overview1: "모니터에 영상, 2m, 3m, 2021"},                           
                         ]
                     },
                 ],
             },
             {
-                order: 8,  
+                order: 9,  
                 type:"쉐마미술관 SM-Smash#2", 
                 title:"SM-Smash#2 : We are Happening", 
                 time: "2022/09/19 ~ 2022/10/17", 
@@ -3537,7 +3535,7 @@ export const allExhibits_KOR = [
                         title:"SM-Smash#2 : We are Happening", 
                         name: "송주호", 
                         engname: "JooHo Song",
-                        imgname:"/2022/22-9/22-9-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-9/22-9-1.jpg`, 
                         text: "– 시놉시스: 여섯 명의 배우들이 발굴 현장을 가장한 무대에 선다. 그들은 이미 죽어 땅속에 묻힌 등장인물들의 유골을 발굴하면서 죽은 자들의 잊어버린 표정과 잃어버린 목소리를 재연한다. – 작품설명: <History / Hysterie>는 “잃어버린 서사”를 상상하는 여섯 명의 배우들이 유골을 발굴하거나 독백하는 모습 등을 촬영한 2차원의 영상들로 구성된다. 이는 본 작품의 ‘상실’이라는 주제가 “소실된 자료”를 가리키는 ‘푸티지’ 형식으로 외연화된다. 메타버스 극장에 파편화 되어 흩뿌려진 푸티지들이 디스플레이되는 방식과 이를 관람하는 방식 사이에서 퍼포머-아바타가 된 관객들이 소실된 서사-완성본을 각자의 관점으로 “완성된 혹은 이미 죽은” 원본에 접근하려는 시도에서 다양한 판본이 ‘재생’하게 될 것이다. 이러한 복원의 풍경은 실재했던 작품의 역사-History가 가상 세계에 “작품의 아바타”로 전이하면서 어떤 신경증-Hysterie을 앓는지 목격하고자 한다. 역사는 신경증의 퍼포먼스이기도 할 것이다. – 제작의도: 일회성의 실황과 여러 차례의 재연 사이에서 특정 상태를 지속하지 못하는 연극의 특성인 영원의 불가능성은 그 자체로 “완성 혹은 죽음”에 저항하는 신화적 행위이자 존재 방식이기도 하다. 비록 연극은 죽음을 재현할 수 없지만, 가까스로 재연하면서 신화의 가장자리를 탐색하거나 머물다가 때때로 신화 내부에 침투하고 싶을 때 경험하지 못한 서사-이야기를 지어내 욕망을 드러내고 욕망에 잠식되기도 한다. 욕망은 죽음을 재현할 수 없기 때문인지 연극을 통해 차라리 저항한다. 한편, ‘디오라마비방씨어터’는 연극의 영원 불가능성이란 특성에서 드러나는 ‘미완성’이라는 예술의 불경스러움을 미학적 윤리로 두고 연극을 만든다. 이때 말하는 미완성이란, “마무리 짓지 못한 이야기”를 가리키는 게 아니라 “죽음에 저항하지 않음”이다. 그러다 문득, 완성한 결과물을 영원히 고정할 수 있는 영화의 특성을 빌어서야 비로소 재현되는 연극을 떠올린다.",
                         education: "",
                         individual_exhibition: [
@@ -3559,16 +3557,16 @@ export const allExhibits_KOR = [
                             {order: 6, exhibit: "2015 《연말연시》 인사미술공간, 서울"},
                         ],
                         paint: [
-                            {order: 0, title: "DIORAMA VIVANT THEATRE", imgname: "/2022/22-9/1-102.4x66.2.jpg", overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
-                            {order: 1, title: "DIORAMA VIVANT THEATRE", imgname: "/2022/22-9/2-102.4x66.1.jpg", overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
-                            {order: 2, title: "DIORAMA VIVANT THEATRE", imgname: "/2022/22-9/3-102.4x66.2.jpg", overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
-                            {order: 3, title: "DIORAMA VIVANT THEATRE", imgname: "/2022/22-9/4-102.4x65.9.jpg", overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
+                            {order: 0, title: "DIORAMA VIVANT THEATRE", name: "송주호", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-9/1-102.4x66.2.jpg`, width: 5.12, height: 3.31, overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
+                            {order: 1, title: "DIORAMA VIVANT THEATRE", name: "송주호", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-9/2-102.4x66.1.jpg`, width: 5.12, height: 3.305, overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
+                            {order: 2, title: "DIORAMA VIVANT THEATRE", name: "송주호", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-9/3-102.4x66.2.jpg`, width: 5.12, height: 3.31, overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
+                            {order: 3, title: "DIORAMA VIVANT THEATRE", name: "송주호", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-9/4-102.4x65.9.jpg`, width: 5.12, height: 3.295, overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
                         ]
                     },
                 ],
             },
             {
-                order: 9,  
+                order: 10,  
                 type:"쉐마미술관 기획 초대전", 
                 title:"구자승·장지원 夫婦展 ‘테이블 위의 정물과 숨겨진 次元’", 
                 time: "2022/10/14 ~ 2022/11/13", 
@@ -3586,28 +3584,28 @@ export const allExhibits_KOR = [
                         title:"구자승·장지원 夫婦展 ‘테이블 위의 정물과 숨겨진 次元’", 
                         name: "구자승", 
                         engname: "Cha-soong Koo",
-                        imgname:"/2022/22-10/22-10-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-10/22-10-1.jpg`, 
                         text: "숨을 쉬는 그림, 그 미세한 호흡을 찾아서: 나는 내 작품에서 감정의 과잉을 억제하면서 철저한 이지적인 태도로 모티브와 대결하는 치열한 정신을 통해 표현하고자 한다. 숨을 쉬는 그림, 그 대상들이 주는 더 미세한 호흡을 찾으려 늘 탐구한다. 마치 그려놓은 대상이 무생물체의 큰 덩어리가 아닌, 무수한 꿈의 파편들이 부서져 그 잔해의 흔적들을 극복하고 온전한 오브제가 되기까지 상처투성이의 그 정물들을 나는 내 그림속에서 치유한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "함 위에 꽃", imgname: "/2022/22-10/1-162x112.jpg", overview: "162x112cm", overview1: "Oil on canvas, 2022"},
-                            {order: 1, title: "해주항아리에 꽃", imgname: "/2022/22-10/2-162x130.jpg", overview: "162x130cm", overview1: "Oil on canvas, 2022"},
-                            {order: 2, title: "유리항아리에 꽃", imgname: "/2022/22-10/3-150x150.jpg", overview: "150x150cm", overview1: "Oil on canvas, 2022"},
-                            {order: 3, title: "백색 테이블 위에 정물", imgname: "/2022/22-10/4-100x100.jpg", overview: "100x100cm", overview1: "Oil on canvas, 2022"},
-                            {order: 4, title: "꽃", imgname: "/2022/22-10/5-116x91.jpg", overview: "116x91cm", overview1: "Oil on canvas, 2021"},
-                            {order: 5, title: "와인박스 위의 정물", imgname: "/2022/22-10/6-72.7x60.jpg", overview: "72.7x60cm", overview1: "Oil on canvas, 2021"},
-                            {order: 6, title: "장미", imgname: "/2022/22-10/7-53x45.jpg", overview: "53x45cm", overview1: "Oil on canvas, 2021"},
-                            {order: 7, title: "햇자두", imgname: "/2022/22-10/8-72.7x50.jpg", overview: "72.7x50cm", overview1: "Oil on canvas, 2021"},
-                            {order: 8, title: "천도복숭아", imgname: "/2022/22-10/9-72.7x60.6.jpg", overview: "72.7x60cm", overview1: "Oil on canvas, 2021"},
-                            {order: 9, title: "테이블보 있는 정물", imgname: "/2022/22-10/10-91x72.jpg", overview: "91x72cm", overview1: "Oil on canvas, 2020"},
-                            {order: 10, title: "L씨 무용가", imgname: "/2022/22-10/11-162x130.3.jpg", overview: "162x130.3cm", overview1: "Oil on canvas, 2021"},
-                            {order: 11, title: "고적", imgname: "/2022/22-10/12-91x72.jpg", overview: "91x72cm", overview1: "Oil on canvas, 2021"},
-                            {order: 12, title: "타자기 있는 정물", imgname: "/2022/22-10/13-120x120.jpg", overview: "120x120cm", overview1: "Oil on canvas, 2019"},
-                            {order: 13, title: "꽃", imgname: "/2022/22-10/14-100x100.jpg", overview: "100x100cm", overview1: "Oil on canvas, 2019"},
-                            {order: 14, title: "꽃", imgname: "/2022/22-10/15-100x100.jpg", overview: "100x100cm", overview1: "Oil on canvas, 2019"},
-                            {order: 15, title: "꽃", imgname: "/2022/22-10/16-150x150.jpg", overview: "150x150cm", overview1: "Oil on canvas, 2018"},
+                            {order: 0, title: "함 위에 꽃",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/1-162x112.jpg`, width: 3.36, height: 4.86, overview: "162x112cm", overview1: "Oil on canvas, 2022"},
+                            {order: 1, title: "해주항아리에 꽃",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/2-162x130.jpg`, width: 3.3, height: 4.86, overview: "162x130cm", overview1: "Oil on canvas, 2022"},
+                            {order: 2, title: "유리항아리에 꽃",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/3-150x150.jpg`, width: 4.5, height: 4.5, overview: "150x150cm", overview1: "Oil on canvas, 2022"},
+                            {order: 3, title: "백색 테이블 위에 정물",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/4-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Oil on canvas, 2022"},
+                            {order: 4, title: "꽃",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/5-116x91.jpg`, width: 3.64, height: 4.64, overview: "116x91cm", overview1: "Oil on canvas, 2021"},
+                            {order: 5, title: "와인박스 위의 정물",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/6-72.7x60.jpg`, width: 3.6, height: 4.362, overview: "72.7x60cm", overview1: "Oil on canvas, 2021"},
+                            {order: 6, title: "장미",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/7-53x45.jpg`, width: 4.5, height: 5.3, overview: "53x45cm", overview1: "Oil on canvas, 2021"},
+                            {order: 7, title: "햇자두",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/8-72.7x50.jpg`, width: 4, height: 5.816, overview: "72.7x50cm", overview1: "Oil on canvas, 2021"},
+                            {order: 8, title: "천도복숭아",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/9-72.7x60.6.jpg`, width: 4.8, height: 5.816, overview: "72.7x60cm", overview1: "Oil on canvas, 2021"},
+                            {order: 9, title: "테이블보 있는 정물",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/10-91x72.jpg`, width: 3.6, height: 4.55, overview: "91x72cm", overview1: "Oil on canvas, 2020"},
+                            {order: 10, title: "L씨 무용가",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/11-162x130.3.jpg`, width: 3.909, height: 4.86, overview: "162x130.3cm", overview1: "Oil on canvas, 2021"},
+                            {order: 11, title: "고적",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/12-91x72.jpg`, width: 3.6, height: 4.55, overview: "91x72cm", overview1: "Oil on canvas, 2021"},
+                            {order: 12, title: "타자기 있는 정물",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/13-120x120.jpg`, width: 4.8, height: 4.8, overview: "120x120cm", overview1: "Oil on canvas, 2019"},
+                            {order: 13, title: "꽃",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/14-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Oil on canvas, 2019"},
+                            {order: 14, title: "꽃",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/15-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Oil on canvas, 2019"},
+                            {order: 15, title: "꽃",name: "구자승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/16-150x150.jpg`, width: 4.5, height: 4.5, overview: "150x150cm", overview1: "Oil on canvas, 2018"},
                         ]
                     },
                     {
@@ -3616,32 +3614,32 @@ export const allExhibits_KOR = [
                         title:"구자승·장지원 夫婦展 ‘테이블 위의 정물과 숨겨진 次元’", 
                         name: "장지원", 
                         engname: "Chi-won Chang",
-                        imgname:"/2022/22-10/22-10-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-10/22-10-2.jpg`, 
                         text: "예술에 있어 창작은 깊은 영혼의 밑바닥에서 길어내는 맑은 샘물이다. 치열한 고독과 싸워 이겨내는 심오한 환타지아! 나는 긍정적인 사고와 향수에 젖은 아우라를 표출하고자 노력한다. 사랑과 평화, 자연의 소리에 귀기울이며 마음속에 오염되지 않은 청정한 영역을 노래하고 싶다. 아직도 소녀처럼 마음에 정원을 가꾸며 위안과 휴식을 모든 이에게 전하고 싶다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 16, title: "숨겨진 차원", imgname: "/2022/22-10/17-53x45.jpg", overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
-                            {order: 17, title: "숨겨진 차원", imgname: "/2022/22-10/18-41x27.jpg", overview: "41x27cm", overview1: "Mixed media on canvas, 2022"},
-                            {order: 18, title: "숨겨진 차원", imgname: "/2022/22-10/19-53x45.jpg", overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
-                            {order: 19, title: "숨겨진 차원", imgname: "/2022/22-10/20-53x45.jpg", overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
-                            {order: 20, title: "숨겨진 차원", imgname: "/2022/22-10/21-45.5x33.jpg", overview: "45.5x33cm", overview1: "Mixed media on canvas, 2022"},
-                            {order: 21, title: "숨겨진 차원", imgname: "/2022/22-10/22-162x130.jpg", overview: "162x130cm", overview1: "Mixed media on canvas, 2019"},
-                            {order: 22, title: "숨겨진 차원", imgname: "/2022/22-10/23-65.2x65.2.jpg", overview: "65.2x65.2cm", overview1: "Mixed media on canvas, 2018"},
-                            {order: 23, title: "숨겨진 차원", imgname: "/2022/22-10/24-53x45.5.jpg", overview: "53x45.5cm", overview1: "Mixed media on canvas, 2017"},
-                            {order: 24, title: "숨겨진 차원", imgname: "/2022/22-10/25-72.2x60.6.jpg", overview: "72.2x60.6cm", overview1: "Mixed media on canvas, 2015"},
-                            {order: 25, title: "숨겨진 차원", imgname: "/2022/22-10/26-116.7x91.jpg", overview: "116.7x91cm", overview1: "Mixed media on canvas, 2014"},
-                            {order: 26, title: "숨겨진 차원", imgname: "/2022/22-10/27-65.2x50.jpg", overview: "65.2x50cm", overview1: "Mixed media on canvas, 2013"},
-                            {order: 27, title: "숨겨진 차원", imgname: "/2022/22-10/28-116.8x91.jpg", overview: "116.8x91cm", overview1: "Mixed media on canvas, 2012"},
-                            {order: 28, title: "숨겨진 차원", imgname: "/2022/22-10/29-72x60.6.jpg", overview: "72x60.6cm", overview1: "Mixed media on canvas, 2010"},
-                            {order: 29, title: "숨겨진 차원", imgname: "/2022/22-10/30-91x72.7.jpg", overview: "91x72.7cm", overview1: "Mixed media on canvas, 2003"},
+                            {order: 16, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/17-53x45.jpg`, width: 4.5, height: 5.3, overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
+                            {order: 17, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/18-41x27.jpg`, width: 3.24, height: 4.92, overview: "41x27cm", overview1: "Mixed media on canvas, 2022"},
+                            {order: 18, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/19-53x45.jpg`, width: 4.5, height: 5.3, overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
+                            {order: 19, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/20-53x45.jpg`, width: 4.5, height: 5.3, overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
+                            {order: 20, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/21-45.5x33.jpg`, width: 3.3, height: 4.55, overview: "45.5x33cm", overview1: "Mixed media on canvas, 2022"},
+                            {order: 21, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/22-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "Mixed media on canvas, 2019"},
+                            {order: 22, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/23-65.2x65.2.jpg`, width: 5.216, height: 5.216, overview: "65.2x65.2cm", overview1: "Mixed media on canvas, 2018"},
+                            {order: 23, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/24-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Mixed media on canvas, 2017"},
+                            {order: 24, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/25-72.2x60.6.jpg`, width: 3.636, height: 4.332, overview: "72.2x60.6cm", overview1: "Mixed media on canvas, 2015"},
+                            {order: 25, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/26-116.7x91.jpg`, width: 3.64, height: 4.668, overview: "116.7x91cm", overview1: "Mixed media on canvas, 2014"},
+                            {order: 26, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/27-65.2x50.jpg`, width: 4.5, height: 5.868, overview: "65.2x50cm", overview1: "Mixed media on canvas, 2013"},
+                            {order: 27, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/28-116.8x91.jpg`, width: 4.55, height: 5.84, overview: "116.8x91cm", overview1: "Mixed media on canvas, 2012"},
+                            {order: 28, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/29-72x60.6.jpg`, width: 3.636, height: 4.32, overview: "72x62.6cm", overview1: "Mixed media on canvas, 2010"},
+                            {order: 29, title: "숨겨진 차원", name: "장지원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/30-91x72.7.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "Mixed media on canvas, 2003"},
                         ]
                     },
                 ],
             },
             {
-                order: 10,  
+                order: 11,  
                 type:"쉐마미술관 SM-Smash#3", 
                 title:"SM-Smash#3 - SMASH ARCHIVE", 
                 time: "2022/11/01 ~ 2022/11/30", 
@@ -3655,7 +3653,7 @@ export const allExhibits_KOR = [
                 artist_info: [],
             },
             {
-                order: 11,  
+                order: 12,  
                 type:"쉐마미술관 지원사업 결과보고전", 
                 title:"2022 지원사업 결과보고전 ‘뜬구름잡기 + 조각주머니’", 
                 time: "2022/11/19 ~ 2022/12/04", 
@@ -3673,15 +3671,15 @@ export const allExhibits_KOR = [
                         title:"2022 유아문화예술교육 ‘조각주머니’", 
                         name: "백솔뫼", 
                         engname: "Sol-mye Paek",
-                        imgname:"/2022/22-12/22-12-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-12/22-12-1.jpg`, 
                         text: "2022 ‘조각주머니’ 프로그램은 지역의 추상 조각 작가 ‘백솔뫼’ 작가가 참여하여 형태가 없는 감정이 조각의 2차원적인 화면을 재구성하여 3차원적 덩어리를 예술적으로 창조하는 ‘조각’작품이 만들어지는 전 과정을 ‘조각주머니’ 3회차 프로그램을 경험해보며 유아들이 직접 조각가가 되어보는 프로그램. 특히 일상의 사물을 새롭게 재탐구, 재관찰하며 일상의 재료들로 상상하며 감정의 입체 설계도 만들기, 설계도를 바탕으로 조각가가 되어 창작과 표현해보는 예술창작 프로그램.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "유아문화예술교육 <조각주머니>", imgname: "/2022/22-12/1-102.4x76.8.jpg", overview: "", overview1: ""},
-                            {order: 1, title: "유아문화예술교육 <조각주머니>", imgname: "/2022/22-12/2-102.4x76.8.jpg", overview: "", overview1: ""},
-                            {order: 2, title: "FLOW No.1-No.6, 사이", imgname: "/2022/22-12/3-76.8x102.4.jpg", overview: "45x60cm, 40x45x70cm", overview1: "Urethane paint, 2017(벽면), Urethane paint, 2019"},
+                            {order: 0, title: "유아문화예술교육 <조각주머니>", name: "백솔뫼", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: ""},
+                            {order: 1, title: "유아문화예술교육 <조각주머니>", name: "백솔뫼", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: ""},
+                            {order: 2, title: "FLOW No.1-No.6, 사이", name: "백솔뫼", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/3-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "45x60cm, 40x45x70cm", overview1: "Urethane paint, 2017(벽면), Urethane paint, 2019"},
                         ]
                     },
                     {
@@ -3690,25 +3688,25 @@ export const allExhibits_KOR = [
                         title:"2022 꿈다락 토요문화학교 ‘뜬구름 잡기’", 
                         name: "신용재", 
                         engname: "Yong-jae Shin",
-                        imgname:"/2022/22-12/22-12-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-12/22-12-2.jpg`, 
                         text: "2022 꿈다락토요문화학교 지원사업 -‘신용재’ 작가와 함께 일상의 자연환경을 참여자들의 새로운 ‘눈’과 ‘마음으로’ 관찰하며 아카이브 형식의 관찰과 삶의 기록을 통하며 현대미술 옴니버스 프로그램을 만들어가고자 한다. 특히 이 과정에서 참여 가족들은 평범하고 일상에서 발견하는 소재들을 이용하여 현대미술에서 어떻게 개인의 의미를 부여하고 표현되는지 서로의 생각을 공유하며 참여 가족들은 단순한 현대미술 접근 방식이 아닌 삶 속에 녹아드는 접근 방식으로 현대미술을 경험하는 시간.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "무제, 자연과 대화하기, 해가지지 않는 곳에서 기다리는", imgname: "/2022/22-12/4-102.4x76.8.jpg", overview: "94.8x122cm, 54x68cm, 25.9x32cm", overview1: "Acrylic on wood panel, 2021, 2022"},
-                            {order: 4, title: "꿈다락토요문화학교 <뜬구름잡기>", imgname: "/2022/22-12/5-76.8x102.4.jpg", overview: "", overview1: ""},
-                            {order: 5, title: "꿈다락토요문화학교 뜬구름잡기", imgname: "/2022/22-12/6-102.4x76.8.jpg", overview: "", overview1: "9주차 달빛드로잉, 2022"},
-                            {order: 6, title: "꿈다락토요문화학교 <뜬구름잡기>", imgname: "/2022/22-12/7-102.4x76.8.jpg", overview: "", overview1: ""},
-                            {order: 7, title: "꿈다락토요문화학교 뜬구름잡기", imgname: "/2022/22-12/8-102.4x76.8.jpg", overview: "", overview1: "10주차 뜬구름 잡기, 2022"},
-                            {order: 8, title: "꿈다락토요문화학교 <뜬구름잡기>", imgname: "/2022/22-12/9-102.4x76.8.jpg", overview: "", overview1: ""},
-                            {order: 9, title: "꿈다락토요문화학교 뜬구름잡기", imgname: "/2022/22-12/10-76.8x102.4.jpg", overview: "", overview1: "3-4주차 뜬구름 산책, 2022"},
+                            {order: 3, title: "무제, 자연과 대화하기, 해가지지 않는 곳에서 기다리는", name: "신용재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/4-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "94.8x122cm, 54x68cm, 25.9x32cm", overview1: "Acrylic on wood panel, 2021, 2022"},
+                            {order: 4, title: "꿈다락토요문화학교 <뜬구름잡기>", name: "신용재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/5-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "", overview1: ""},
+                            {order: 5, title: "꿈다락토요문화학교 <뜬구름잡기>", name: "신용재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/6-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: "9주차 달빛드로잉, 2022"},
+                            {order: 6, title: "꿈다락토요문화학교 <뜬구름잡기>", name: "신용재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/7-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: ""},
+                            {order: 7, title: "꿈다락토요문화학교 <뜬구름잡기>", name: "신용재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/8-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: "10주차 뜬구름 잡기, 2022"},
+                            {order: 8, title: "꿈다락토요문화학교 <뜬구름잡기>", name: "신용재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/9-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: ""},
+                            {order: 9, title: "꿈다락토요문화학교 <뜬구름잡기>", name: "신용재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/10-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "", overview1: "3-4주차 뜬구름 산책, 2022"},
                         ]
                     },
                 ],
             },
             {
-                order: 12,  
+                order: 13,  
                 type:"쉐마미술관 불안정한 가능성", 
                 title:"2022 불안정한 가능성", 
                 time: "2022/11/19 ~ 2022/11/26, 2022/11/27 ~ 2022/12/04", 
@@ -3726,14 +3724,14 @@ export const allExhibits_KOR = [
                         title:"2022 불안정한 가능성", 
                         name: "김기태", 
                         engname: "Ki-tae Kim",
-                        imgname:"/2022/22-13/22-13-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-13/22-13-1.jpg`, 
                         text: "김기태 작가는 자연스럽게 흘러가는가는 삶을 찾아가고 싶다고 한다. 그런 물음을 ‘선인장’을 통해 찾으려 한다. 작가에게 선인장은 편안함을 주면서도 동시에 수많은 가시는 개인의 아픔이기도 하며 삶을 찾으며 겪는 아픔과 고난이기고 하다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "마지막 위로", imgname: "/2022/22-13/1-100x300.jpg", overview: "100x300cm", overview1: "장지에 수채화, 2021"},
-                            {order: 1, title: "서로의 공간", imgname: "/2022/22-13/2-97x131.jpg", overview: "97x131cm", overview1: "장지에 수채화, 2021"},
+                            {order: 0, title: "마지막 위로", name: "김기태", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/1-100x300.jpg`, width: 6, height: 2, overview: "100x300cm", overview1: "장지에 수채화, 2021"},
+                            {order: 1, title: "서로의 공간", name: "김기태", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/2-97x131.jpg`, width: 5.24, height: 3.88, overview: "97x131cm", overview1: "장지에 수채화, 2021"},
                         ]
                     },
                     {
@@ -3742,20 +3740,20 @@ export const allExhibits_KOR = [
                         title:"2022 불안정한 가능성", 
                         name: "손 별", 
                         engname: "Byul Son",
-                        imgname:"/2022/22-13/22-13-2.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-13/22-13-2.jpg`, 
                         text: "손 별 작가는 작가의 개인적인 사건들을 훑고 지나거나 기억을 그린다. 개인적 기억의 파편들은 삶의 단면을 드러내며 그 감성을 공유하게 한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "살아가는 삶의 얄궃음", imgname: "/2022/22-13/3-91x91.jpg", overview: "91x91cm", overview1: "Oil on canvas, 2022"},
-                            {order: 3, title: "완전해질 수 없는 관계", imgname: "/2022/22-13/4-145.5x97.jpg", overview: "145.5x97cm", overview1: "Oil on canvas, 2022"},
-                            {order: 4, title: "어떤 몫", imgname: "/2022/22-13/5-33.3x53.jpg", overview: "33.3x53cm", overview1: "Oil on canvas, 2022"},
-                            {order: 5, title: "사랑 안에서 공존하기", imgname: "/2022/22-13/6-53x53.jpg", overview: "53x53cm", overview1: "Oil on canvas, 2022"},
-                            {order: 6, title: "아주아주아주 잘했어", imgname: "/2022/22-13/7-45.5x45.5.jpg", overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
-                            {order: 7, title: "적당한 거리", imgname: "/2022/22-13/8-45.5x45.5.jpg", overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
-                            {order: 8, title: "따땃하게 입고 오세요", imgname: "/2022/22-13/9-45.5x45.5.jpg", overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
-                            {order: 9, title: "털어놓고 싶은 마음은", imgname: "/2022/22-13/10-45.5x53.jpg", overview: "45.5x53c,", overview1: "Oil on canvas, 2022"},
+                            {order: 2, title: "살아가는 삶의 얄궃음", name: "손 별", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/3-91x91.jpg`, width: 3.64, height: 3.64, overview: "91x91cm", overview1: "Oil on canvas, 2022"},
+                            {order: 3, title: "완전해질 수 없는 관계", name: "손 별", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/4-145.5x97.jpg`, width: 3.88, height: 5.82, overview: "145.5x97cm", overview1: "Oil on canvas, 2022"},
+                            {order: 4, title: "어떤 몫", name: "손 별", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/5-33.3x53.jpg`, width: 5.3, height: 3.33, overview: "33.3x53cm", overview1: "Oil on canvas, 2022"},
+                            {order: 5, title: "사랑 안에서 공존하기", name: "손 별", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/6-53x53.jpg`, width: 5.3, height: 5.3, overview: "53x53cm", overview1: "Oil on canvas, 2022"},
+                            {order: 6, title: "아주아주아주 잘했어", name: "손 별", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/7-45.5x45.5.jpg`, width: 4.55, height: 4.55, overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
+                            {order: 7, title: "적당한 거리", name: "손 별", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/8-45.5x45.5.jpg`, width: 4.55, height: 4.55, overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
+                            {order: 8, title: "따땃하게 입고 오세요", name: "손 별", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/9-45.5x45.5.jpg`, width: 4.55, height: 4.55, overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
+                            {order: 9, title: "털어놓고 싶은 마음은", name: "손 별", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/10-45.5x53.jpg`, width: 5.3, height: 4.55, overview: "45.5x53c,", overview1: "Oil on canvas, 2022"},
                         ]
                     },
                     {
@@ -3764,16 +3762,16 @@ export const allExhibits_KOR = [
                         title:"2022 불안정한 가능성", 
                         name: "윤승원", 
                         engname: "Seungwon Yoon",
-                        imgname:"/2022/22-13/22-13-3.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-13/22-13-3.jpg`, 
                         text: "윤승원 작가의 작품에는 사회 속에서 느끼는 다양한 감정, 유기적인 관계, 작은 세계들을 담아낸다. 작가의 소재가 되는 것들은 작가만의 표현으로 독특한 개성을 보는 인물들로 풍경으로 표현된다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "나의 불안에게", imgname: "/2022/22-13/11-81x65.jpg", overview: "81x65cm", overview1: "Mixed media, 2022"},
-                            {order: 11, title: "그림자", imgname: "/2022/22-13/12-130.3x97.jpg", overview: "130.3x97cm", overview1: "Oil on canvas, pastel drawing, 2022"},
-                            {order: 12, title: "나의 연대기", imgname: "/2022/22-13/13-112x162.jpg", overview: "112x162cm", overview1: "Mixed media, 2022"},
-                            {order: 13, title: "그렇게 안긴채 잠든다", imgname: "/2022/22-13/14-72.7x90.9.jpg", overview: "72.7x90.9cm", overview1: "Mixed media, 2022"},
+                            {order: 10, title: "나의 불안에게", name: "윤승원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/11-81x65.jpg`, width: 3.9, height: 4.86, overview: "81x65cm", overview1: "Mixed media, 2022"},
+                            {order: 11, title: "그림자", name: "윤승원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/12-130.3x97.jpg`, width: 4.85, height: 5.212, overview: "130.3x97cm", overview1: "Oil on canvas, pastel drawing, 2022"},
+                            {order: 12, title: "나의 연대기", name: "윤승원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/13-112x162.jpg`, width: 4.86, height: 3.36, overview: "112x162cm", overview1: "Mixed media, 2022"},
+                            {order: 13, title: "그렇게 안긴채 잠든다", name: "윤승원", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/14-72.7x90.9.jpg`, width: 5.454, height: 4.362, overview: "72.7x90.9cm", overview1: "Mixed media, 2022"},
                         ]
                     },
                     {
@@ -3782,15 +3780,15 @@ export const allExhibits_KOR = [
                         title:"2022 불안정한 가능성", 
                         name: "전상희", 
                         engname: "Sanghee Chun",
-                        imgname:"/2022/22-13/22-13-4.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-13/22-13-4.jpg`, 
                         text: "전상희 작가의 시선은 매 순간 빠르게 변화하고 있는 현대사회 속에서 계속 변화하는 주변의 상황과 현상들에 멈춘다. 어떻게 변화할지 무슨 모습일지 모르는 그런 상황들은 마불링 기법과 어우러지며 시간 속의 일렁임을 포착한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "일렁이는", imgname: "/2022/22-13/15-50x50.jpg", overview: "50x50cm", overview1: "장지에 채색, 2022"},
-                            {order: 15, title: "어느 순간", imgname: "/2022/22-13/16-45.5x60.6.jpg", overview: "45.5x60.6cm", overview1: "장지에 채색, 2022"},
-                            {order: 16, title: "변화에 변화3", imgname: "/2022/22-13/17-130.3x162.2.jpg", overview: "130.3x162.2cm", overview1: "장지에 채색, 2022"},
+                            {order: 14, title: "일렁이는", name: "전상희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/15-50x50.jpg`, width: 5, height: 5, overview: "50x50cm", overview1: "장지에 채색, 2022"},
+                            {order: 15, title: "어느 순간", name: "전상희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/16-45.5x60.6.jpg`, width: 6.06, height: 4.55, overview: "45.5x60.6cm", overview1: "장지에 채색, 2022"},
+                            {order: 16, title: "변화에 변화3", name: "전상희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/17-130.3x162.2.jpg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "장지에 채색, 2022"},
                         ]
                     },
                     {
@@ -3799,15 +3797,15 @@ export const allExhibits_KOR = [
                         title:"2022 불안정한 가능성", 
                         name: "최규봉", 
                         engname: "Gyubong Choi",
-                        imgname:"/2022/22-13/22-13-5.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-13/22-13-5.jpg`, 
                         text: "최규봉 작가의 투박하고 거친 인물의 표현으로 우리가 직면하는 사회의 현실과 작가의 ‘한’을 보여주며 평범한 삶과 정서를 시각화하며 현실을 드러내고 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 17, title: "목 매달린 사람들", imgname: "/2022/22-13/18-100x80.3.jpg", overview: "100x80.3cm", overview1: "Oil on canvas, 2021"},
-                            {order: 18, title: "음흉한 남자 질색하는 여자", imgname: "/2022/22-13/19-90x116.8.jpg", overview: "90x116.8cm", overview1: "Oil on canvas, 2021"},
-                            {order: 19, title: "피폐해진 사람들", imgname: "/2022/22-13/20-130.3x162.2.jpg", overview: "130.3x162.2cm", overview1: "Oil on canvas, 2021"},
+                            {order: 17, title: "목 매달린 사람들", name: "최규봉", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/18-100x80.3.jpg`, width: 3.212, height: 4, overview: "100x80.3cm", overview1: "Oil on canvas, 2021"},
+                            {order: 18, title: "음흉한 남자 질색하는 여자", name: "최규봉", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/19-90x116.8.jpg`, width: 4.672, height: 3.6, overview: "90x116.8cm", overview1: "Oil on canvas, 2021"},
+                            {order: 19, title: "피폐해진 사람들", name: "최규봉", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/20-130.3x162.2.jpg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Oil on canvas, 2021"},
                         ]
                     },
                     {
@@ -3816,15 +3814,15 @@ export const allExhibits_KOR = [
                         title:"2022 불안정한 가능성", 
                         name: "김준후", 
                         engname: "Junhoo Kim",
-                        imgname:"/2022/22-13/22-13-6.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-13/22-13-6.jpg`, 
                         text: "김준후 작가는 심상의 변화를 ‘물’이라는 대상을 통해 보여준다. 작가에게 ‘물’이라는 무형 형태는 시간의 흐름에 따라 만들어가는 개인적 공간이며 모두의 공간이기도 하다. 작가는 볼펜으로 켜켜이 쌓아가며 내면의 공간을 만들어간다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "심연", imgname: "/2022/22-13/21-91x116.8.jpg", overview: "91x116.8cm", overview1: "장지에 목탄, 2019"},
-                            {order: 21, title: "안식", imgname: "/2022/22-13/22-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "판넬에 볼펜, 2021"},
-                            {order: 22, title: "흘러내리는 중", imgname: "/2022/22-13/23-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "장지에 볼펜, 2021"},
+                            {order: 20, title: "심연", name: "김준후", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/21-91x116.8.jpg`, width: 4.672, height: 3.64, overview: "91x116.8cm", overview1: "장지에 목탄, 2019"},
+                            {order: 21, title: "안식", name: "김준후", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/22-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "판넬에 볼펜, 2021"},
+                            {order: 22, title: "흘러내리는 중", name: "김준후", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/23-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "장지에 볼펜, 2021"},
                         ]
                     },
                     {
@@ -3833,14 +3831,14 @@ export const allExhibits_KOR = [
                         title:"2022 불안정한 가능성", 
                         name: "이유승", 
                         engname: "Yooseung Lee",
-                        imgname:"/2022/22-13/22-13-7.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-13/22-13-7.jpg`, 
                         text: "이유승 작가는 현대 사회의 씁쓸한 인간관계를 역설적으로 표현한다. 작가의 직관적 표현은 세상을 몰랐을 때나 받을 수 있었던 선물 같은 관계, 상상 속에나 존재할 수 있을 것 같은 순수하고 절대적인 관계에 대한 환상 같은 그리움을 어린아이로 표현한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 23, title: "Relationship with", imgname: "/2022/22-13/24-76.8x102.4.jpg", overview: "230x90x90cm", overview1: "혼합 매체, 2022"},
-                            {order: 24, title: "하늘과 바다사이", imgname: "/2022/22-13/25-56.4x60.8.jpg", overview: "64x86x35cm", overview1: "혼합 매체, 2021"},
+                            {order: 23, title: "Relationship with", name: "이유승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/24-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "230x90x90cm", overview1: "혼합 매체, 2022"},
+                            {order: 24, title: "하늘과 바다사이", name: "이유승", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/25-56.4x60.8.jpg`, width: 4.864, height: 4.512, overview: "64x86x35cm", overview1: "혼합 매체, 2021"},
                         ]
                     },
                     {
@@ -3849,20 +3847,20 @@ export const allExhibits_KOR = [
                         title:"2022 불안정한 가능성", 
                         name: "이준우", 
                         engname: "Yooseung Lee",
-                        imgname:"/2022/22-13/22-13-8.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-13/22-13-8.jpg`, 
                         text: "이준우 작가는 ‘생각을 이미지로 표현하고, 이미지를 통해 교감하는 것’을 가장 중요하게 생각한다고 한다. 이런 작가의 생각은 푸른색으로 기하학적 구성과 추상적 이미지들로 교감한다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 25, title: "내가 생각한, 너가 바라는, 우리가 가야할", imgname: "/2022/22-13/26-89.4x130.3.jpg", overview: "89.4x130.3cm", overview1: "Acrylic on canvas, 2019"},
-                            {order: 26, title: "거리감", imgname: "/2022/22-13/27-80.3x130.3.jpg", overview: "80.3x130.3cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 27, title: "시선", imgname: "/2022/22-13/28-37.9x45.5.jpg", overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 28, title: "어떻게 생각해-FC", imgname: "/2022/22-13/29-72.7x90.9.jpg", overview: "72.7x90.9cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 29, title: "어떻게 생각해-L1", imgname: "/2022/22-13/30-37.9x45.5.jpg", overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 30, title: "어떻게 생각해-L2", imgname: "/2022/22-13/31-37.9x45.5.jpg", overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 31, title: "어떻게 생각해-T", imgname: "/2022/22-13/32-37.9x45.5.jpg", overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 32, title: "어떻게 생각해-W", imgname: "/2022/22-13/33-193.3x130.3.jpg", overview: "193.3x130.3cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 25, title: "내가 생각한, 너가 바라는, 우리가 가야할", name: "이준우", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/26-89.4x130.3.jpg`, width: 5.212, height: 3.576, overview: "89.4x130.3cm", overview1: "Acrylic on canvas, 2019"},
+                            {order: 26, title: "거리감", name: "이준우", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/27-80.3x130.3.jpg`, width: 5.212, height: 3.212, overview: "80.3x130.3cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 27, title: "시선", name: "이준우", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/28-37.9x45.5.jpg`, width: 4.55, height: 3.79, overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 28, title: "어떻게 생각해-FC", name: "이준우", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/29-72.7x90.9.jpg`, width: 4.545, height: 3.635, overview: "72.7x90.9cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 29, title: "어떻게 생각해-L1", name: "이준우", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/30-37.9x45.5.jpg`, width: 4.55, height: 3.79, overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 30, title: "어떻게 생각해-L2", name: "이준우", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/31-37.9x45.5.jpg`, width: 4.55, height: 3.79, overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 31, title: "어떻게 생각해-T", name: "이준우", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/32-37.9x45.5.jpg`, width: 4.55, height: 3.79, overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 32, title: "어떻게 생각해-W", name: "이준우", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/33-193.3x130.3.jpg`, width: 3.909, height: 5.799, overview: "193.3x130.3cm", overview1: "Acrylic on canvas, 2020"},
                         ]
                     },
                     {
@@ -3871,14 +3869,14 @@ export const allExhibits_KOR = [
                         title:"2022 불안정한 가능성", 
                         name: "장윤희", 
                         engname: "Yoonhee Chang",
-                        imgname:"/2022/22-13/22-13-9.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-13/22-13-9.jpg`, 
                         text: "장윤희 작가는 일상생활 속에서 소재를 찾고 그 기억을 사진으로 재현한 다음 화면 위에 그린다. 일상의 단면과 예술가적 시선이 머문 장면들은 작가의 정서를 느낄 수 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 33, title: "부재", imgname: "/2022/22-13/34-112.1x193.9.jpg", overview: "112.1x193.9cm", overview1: "광목에 채색, 2021"},
-                            {order: 34, title: "무제", imgname: "/2022/22-13/35-30x40.jpg", overview: "30x40cm", overview1: "광목에 채색, 2022"},
+                            {order: 33, title: "부재", name: "장윤희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/34-112.1x193.9.jpg`, width: 5.817, height: 3.363, overview: "112.1x193.9cm", overview1: "광목에 채색, 2021"},
+                            {order: 34, title: "무제", name: "장윤희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/35-30x40.jpg`, width: 4, height: 3, overview: "30x40cm", overview1: "광목에 채색, 2022"},
                         ]
                     },
                     {
@@ -3887,17 +3885,17 @@ export const allExhibits_KOR = [
                         title:"2022 불안정한 가능성", 
                         name: "전치훈", 
                         engname: "Chihoon Chun",
-                        imgname:"/2022/22-13/22-13-10.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2022/22-13/22-13-10.jpg`, 
                         text: "전치훈 작가는 무의식 속 장소로부터 왜곡된 감정 속에 숨겨져 있는 감정들을 찾아 화면을 구성한다. 감정 속 장면들은 단편적인 이미지들로 재조합되고 작가만의 감정들을 느낄 수 있는 화려한 색채는 청년들의 시선이 머무는 곳과 사회의 이면들을 포장하고 있다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 35, title: "잊을만하면", imgname: "/2022/22-13/36-53x45.5.jpeg", overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 36, title: "얽히고 설켜", imgname: "/2022/22-13/37-65.1x53.jpeg", overview: "65.1x53cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 37, title: "Blind for Love", imgname: "/2022/22-13/38-53x45.5.jpeg", overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 38, title: "감각의 소멸", imgname: "/2022/22-13/39-72.5x72.5.jpeg", overview: "72.5x72.5cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 39, title: "감각의 소멸", imgname: "/2022/22-13/40-72.5x72.5.jpeg", overview: "72.5x72.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 35, title: "잊을만하면", name: "전치훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/36-53x45.5.jpeg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 36, title: "얽히고 설켜", name: "전치훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/37-65.1x53.jpeg`, width: 4.77, height: 5.859, overview: "65.1x53cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 37, title: "Blind for Love", name: "전치훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/38-53x45.5.jpeg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 38, title: "감각의 소멸", name: "전치훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/39-72.5x72.5.jpeg`, width: 5.8, height: 5.8, overview: "72.5x72.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 39, title: "감각의 소멸", name: "전치훈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/40-72.5x72.5.jpeg`, width: 5.8, height: 5.8, overview: "72.5x72.5cm", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                 ],
@@ -3927,7 +3925,7 @@ export const allExhibits_KOR = [
                         title:"제3회 쉐마국제미술상 수상작가 초대전 ‘몸 이후의 창신’", 
                         name: "창신", 
                         engname: "Cang Xin",
-                        imgname:"/2021/21-1/21-1-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2021/21-1/21-1-1.jpg`, 
                         text: "작품에서 “뉴샤머니즘”과 “과학의 첨단적 성과”를 통합하고 당대 인류 사회에 대한 정확한 이해와 자기 성찰로 확장하여 일종의 새로운 가치관과 예술 언어 양식을 형성하고자 시도하였다. 뉴샤머니즘은 한랭지대의 샤머니즘 숭배 중 애니미즘, 고대 페르시아 조로아스터교의 이원론, 바벨론의 점성술, 힌두교의 윤회설, 인도 자이나교 중 동물에 대한 연민, 이슬람교 수피파의 호형 선회 수행, 그노시스교의 타향신론, 유대교 카발라의 지혜의 나무, 역경의 수리 괘상, 도교의 연단술, 서방의 연금술, 헤르메스의 신비로운 가르침, 피타고라스 학파의 수론, 2차대전 이후 서양에서 신흥한 “신기원” 영적수련 운동 등을 포함하여 당시 삶의 영적 수행 방식을 통합한 것이다. 과학은 논리적 추리와 실증적 방법으로 당대 인류가 자연을 개발하여 첨단 이론과 성과를 제시하도록 촉진한다. 예를 들어 사이보그, 블록체인, 사물인터넷, 브레인 과학, 디지털 화폐, 알고리즘 생명, 뉴미디어 예술, 바이오 유전자 공학, 우주 여행, 나노 기술, 양자 물리, 인류 영생, 특이점의 출현 등은 과학 종교와 기술 철학을 배경으로 전통적 생활 방식과 지구의 모습을 놀랍게 변화시키고 있다. 결론적으로 “뉴샤머니즘”과 “과학의 첨단적 성과” 두 라인을 통해 체계적인 예술 언어 체계를 주관적으로 구축하고자 한다.",
                         education: "텐진대학교 음악대학 졸업",
                         individual_exhibition: [
@@ -3982,7 +3980,7 @@ export const allExhibits_KOR = [
                         title:"심재분 개인전 ‘인드라얄라 : 연’", 
                         name: "심재분", 
                         engname: "Jaeboon Shim",
-                        imgname:"/2021/21-2/21-2-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2021/21-2/21-2-1.jpg`, 
                         text: "일상에서 일어나는 수많은 생각들은 어디가 시작이고 어디가 끝인지 모를 만큼 쉼 없이 이어진다. 연꽃을 보면 그들에게 명명된 기록뿐만 아니라, 바람에 흔들려 나는 작은 소리에도 생각은 먼저 앞서간다. 물 공기 바람 흙이 길러낸 연꽃들… 지하세계와 땅 그리고 하늘이 결합하는 보편적 이데아로 생명의 근원으로 다산을 상징하며 극락왕생과 윤회, 인연의 연결 고리를 연꽃의 사계에서 찾고자 했다. 그것이 어둠이 내린 밤이든 안개 자욱한 연 밭이든 끈질긴 생명력과 지혜로 더러운 진흙탕 속에서도 더러움에 물들지 않고 흔들리는 수면 위로 솟아 있어도 요염하지 않으며 꽃이 피면서 동시에 열매를 맺음으로써 인과 연을 동시에 나타내어 어떤 원인이 만들어질 때 이미 결과도 함께 있다는 진리를 말하고 있었다. 그것을 실제의 형태에서 느낄 수 없었던 내재되어 있는 또 다른 인연의 고리를 사진 적 주제로 삼아 직설적이면서 추상적이고 우회적이며 간접적이면서 함축적인 그래서 보여지는 실제에서 채도나 빛 색상을 바꾸고, 더하거나 제거하면서, 그 과정을 살피고 인연의 시작점을 찾아 자유로운 영혼의 승화를 제연 하려 했다. 보여지는 모든 것이 전부가 아니라 보이지 않는 그 무엇까지도 모두 진실이라는 진리에 조금 더 다가갈 수 있었다.",
                         education: "",
                         individual_exhibition: [],
@@ -4012,7 +4010,7 @@ export const allExhibits_KOR = [
                         title:"스튜디오 (STUDIO)", 
                         name: "김현묵", 
                         engname: "Hyeon-Muk Kim",
-                        imgname:"/2021/21-3/21-3-1.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2021/21-3/21-3-1.png`, 
                         text: "공간이 갖는 특성을 드러내고 개인의 서사에서 비롯되는 사건을 정리하는 작업을 이어나간다. 특히 개인의 이야기와 사회의 사건이 만나는 지점을 찾아내고 비유화하는 작업을 진행한다. 우연히 발견되는 사건과 사람에게서 전달되는 이야기를 수집하는 등의 작업을 통해 공간을 기록하는 다양한 방법을 시도하고 비유적 이미지를 통해 시각예술가로서 시각화의 임무를 전개한다.",
                         education: "디종국립미술학교 학사 및 동대학원 석사 (순수미술전공)",
                         individual_exhibition: [
@@ -4033,8 +4031,8 @@ export const allExhibits_KOR = [
                             {order: 7, exhibit: "2016 다시한지, 동부창고, 청주"},
                         ],
                         paint: [
-                            {order: 0, title: "", imgname: "/2021/21-3/1-102.4x76.8.jpg", overview: "", overview1: "미술관리서치시도 설치 모습"},
-                            {order: 1, title: "", imgname: "/2021/21-3/2-102.4x72.4.jpg", overview: "", overview1: "미술관리서치시도 영상 스틸"},
+                            {order: 0, title: "", name: "김현묵", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: "미술관리서치시도 설치 모습"},
+                            {order: 1, title: "", name: "김현묵", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/2-102.4x72.4.jpg`, width: 5.12, height: 3.62, overview: "", overview1: "미술관리서치시도 영상 스틸"},
                         ]
                     },
                     {
@@ -4043,7 +4041,7 @@ export const allExhibits_KOR = [
                         title:"스튜디오 (STUDIO)", 
                         name: "나일 크레이븐", 
                         engname: "Niall Craven",
-                        imgname:"/2021/21-3/21-3-2.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2021/21-3/21-3-2.png`, 
                         text: "나는 오랫동안 사람이 스스로의 신체와 주고받는 영향에 대한 그림을 그렸습니다. 최근에는 감각 차원, 감정 차원에서 주변 환경이 사람에게 끼치는 영향에 대한 작품을 그리고 있습니다. 내년에도 이러한 탐구를 계속할 계획입니다. 가장 최근의 작품들은 훨씬 더 개인적인 주제를 다룹니다. 저는 스스로의 불안, 집착, 기분을 드러내는 작품을 그리기 위해 제 몸과 환경에서 영감을 받습니다. 스튜디오란 개인적인 주제를 자유롭게 탐구할 수 있는 안전한 장소입니다. 스튜디오에서 작품을 가져다가 전시하는 것은 신뢰에 기반을 둔 행동입니다. 저는 보다 개인적인 작업들을 창작하고 전시하기에, 전시라는 행동에 더 깊은 의미가 담겨있습니다. 제가 이번 전시에서 탐구하고자 하는 것은, 작가와 관람객을 위해 스튜디오에서 작업을 가져오는 과정 전반을 포함한 것입니다. 스튜디오에 남는 작품들은 실패라고 생각할 수 있습니다. 혹은 너무 사적이어서 전시하고 싶지 않은 것일 수도 있습니다. 그러나 제 작품 중에서는 되려 이러한 작품들이 제가 통상 타인에게 보여주기 위해 전시하는 작품보다 더 강렬한 인상을 줄 수도 있습니다. 과거의 작업들은 종종 개인적인 주제를 다루지 않고, 그보다는 주제에 관해서 좀 더 보편적인 접근을 하고자 하였습니다. 앞으로는 작업에 더욱더 개인적이고 사적인 의미를 부여하고자 노력할 계획입니다.",
                         education: "2014 미술학, 뉴캐슬대학교, 영국",
                         individual_exhibition: [],
@@ -4060,18 +4058,17 @@ export const allExhibits_KOR = [
                             {order: 10, exhibit: "2011 Art and Documentation Baltic Gallery, 뉴캐슬, 영국"},
                         ],
                         paint: [
-                            {order: 2, title: "Untitled protest", imgname: "/2021/21-3/3-16x26.jpg", overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"},
-                            {order: 3, title: "Untitled protest", imgname: "/2021/21-3/4-16x26.jpg", overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"},
+                            {order: 2, title: "Untitled protest", name: "나일 크레이븐", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/3-16x26.jpg`, width: 5.2, height: 3.2, overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"},
+                            {order: 3, title: "Untitled protest", name: "나일 크레이븐", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/4-16x26.jpg`, width: 5.2, height: 3.2, overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"}, 
                         ]
                     },
-               
                     {
                         order: 2, 
                         number: "03",
                         title:"스튜디오 (STUDIO)", 
                         name: "신용재", 
                         engname: "Yong-Jae Shin",
-                        imgname:"/2021/21-3/21-3-3.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2021/21-3/21-3-3.png`, 
                         text: "옥상에 올라가 그 날의 하늘을 바라본다. 현실과 동떨어져 보이는 공간의 이미지를 눈으로 살펴보고 정지되어 있지 않은 변화들을 순간에 일어나는 기분들로 표현한다. 하늘의 색은 시시각각 변화하고 구름의 형태 또한 일정치 않은 모습들이다. 예측할 수 없는 태도로 맞이하는 마음가짐이 긴장과 위안, 설렘을 가져 온다. 사람은 자연과 같이 살아왔지만 몫은 다른 듯하다. 자연의 모습들과 느낌들은 매순간 다르고 그려본다 해서 같아질 수 없는 색이다. 머무르지 않는 변화들이 시간의 흐름을 느끼게 해준다. 하늘을 바라보는 시간은 집중할수록 고요하다. 귀를 의심할 정도로 생활의 소음들은 잦아들고 오직 온도와 냄새 바람의 세기 자연의 소리들만이 몸을 감싸 안는다. 이런 순간 영화나 드라마에서 한번쯤 보았을 장면처럼 자신은 가만히 서 있고 주변의 모습들이 계속 변화한다. 보고 있으면 자연이 주는 시간이 느릴 때도 빠를 때도 있다. 하늘을 보며 그릴 때의 모습은 정확한 형태보다 몸의 감각으로 전달하는 분명하지 않은 생각 속에 자연스러운 붓질이 이루어진다. 붓질 자국은 자신의 감각에 맡긴다. 기분은 그런 것으로 조절되기도 하고 바라보는 저 곳에 흡수되어 가는 느낌이다. 날이 샐 무렵, 아침이 오는 기운, 정오에 눈부심, 해질녘 소리 없는 변화, 빛이 사라지는 밤 등을 매일 바라보면서 규칙적이지도 같지도 않은 나날들을 보았다. 사람과 비교하자면 매일 하루는 반복되지만 오늘과 내일이 다른 삶으로 이루어진다. 하루가 시간으로 정해져 있는데 이것 역시 자연의 흐름에 바탕을 두고 있는 것이며 사람들마다 그 날의 작은 변화들이 있다. 그렇게 다른 매일이 흘러가는 것이다. 그러한 날들이 쌓이면 한 사람의 인생이 만들어져가고 '살았다'라는 가치 있는 말이 쓰이는 것 같다. 사는 것이 저 끝이 없는 텅 빈 공간을 계속 걸어가고 있다는 생각이 든다. 구름 한 점 없는 날, 끝이 보이지 않는 저 곳을 보면 마음 한 구석이 먹먹하다. 시간이 지나면 기억이 변질되고 무뎌져가는 날들처럼 하늘을 계속 바라보고 그리는 행위는 자연스럽게 흘러가는 자신의 일과이다. 비가 온다. 감각하는 것은 구름 낀 하늘, 대체로 어두운 빛, 축축해 지는 서늘함, 빗소리 등이다. 이 분위기에 일어나는 기분들이 감정을 일으킨다. 불쾌하거나 우울해질 때도 있지만 운치가 있을 때도 있다. 비를 맞으며 그림을 그리는 부분들은 그 전에 작업하던 환겨과는 다른 움직임이다. 캔버스 안에 그런 자국들이 빗물에 뒤엉키거나 지워질 때면 우연한 재미를 본다. 비오는 날에 감정이 일어나는 상태는 그리고 있는 중의 변화를 보는 것과 같다. 내리는 비는 받아들일 수밖에 없다. 우연히 본 하늘을 매일 보게 됬다. 하늘을 그린 것도 감정의 동요가 있었을 것이다. 아름답다는 느낌도 별 다를 것 없다는 느낌도 하늘의 우연한 생김새를 본 것이다. 어떻게 생겨난 것일까라는 의문보다 일상 속에서의 삶을 바탕으로 이입되는 감정들을 하늘에 견주어 보았다. 그리고 그리는 행위로 이어질 때 삶의 응어리들에서 벗어나는 자유를 느낀다.",
                         education: "한남대학교 회화과 서양화 졸업 및 한남대학교 일반대학원 미술학과 졸업",
                         individual_exhibition: [
@@ -4094,8 +4091,8 @@ export const allExhibits_KOR = [
                             {order: 9, exhibit: "2016 Hybrid_새로운 시작, 청주미술창작스튜디오, 청주"},
                         ],
                         paint: [
-                            {order: 4, title: "운형리듬3", imgname: "/2021/21-3/5-72.7x90.9.jpg", overview: "72.7x90.9cm", overview1: "Acrylic on canvas, 2021"},
-                            {order: 5, title: "운형리듬4", imgname: "/2021/21-3/6-60.6x90.9.jpg", overview: "60.6x90.9cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 4, title: "운형리듬3", name: "신용재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/5-72.7x90.9.jpg`, width: 4.545, height: 3.635, overview: "72.7x90.9cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 5, title: "운형리듬4", name: "신용재", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/6-60.6x90.9.jpg`, width: 4.545, height: 3.03, overview: "60.6x90.9cm", overview1: "Acrylic on canvas, 2021"},
                         ]
                     },
                     {
@@ -4104,7 +4101,7 @@ export const allExhibits_KOR = [
                         title:"스튜디오 (STUDIO)", 
                         name: "이선구", 
                         engname: "Sun-Gu Lee",
-                        imgname:"/2021/21-3/21-3-4.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2021/21-3/21-3-4.png`, 
                         text: "일반적으로 공간은 누군가에게는 휴식을 찾는 곳이 될 수도 있고, 또 다른 누군가에게는 사적인 장소 일 수도 있다. 그만큼 다양한 종류의 평온을 찾는 장소이다. 하지만 이런 평온의 장소 이면에는 마치 배신이라도 한 듯 '공간안에서' 라는 암묵적인 조건이 따라 붙는다. 혹자들은 이런 거래조건이 당연하다고 생각한다. 하지만 반대로 오랜 시간에 반복되는 수많은 감각들에 의해 무감각해진 것이 아닌 것인지 혹은 수렵시대부터 모더니즘시대를 지나 현대사회에 이르기까지 '이성적'이라는 범주 안에서 만들어진 규격화된 사회프레임을 대변하는 곳이 '평온'이라는 포장지에 포장되어 꾸준히 영향을 주고 있던 것은 아닌지 생각해본다. 어쩌면 현재의 공간은 나에게 아름답게 포장된 헤테로토피아로 보여진다. 이러한 생각의 근간이 되는 상황이 여러 있다. 첫 번째로 가장으로써의 예술가라는 사회적 위치에서 나타나게 되는 '불안'이다. 물론 물리적인 공간과 '불안'은 이질적인 것으로 느껴지지만 많은 사람들은 공간을 '집'이라는 용어를 사용하여 '불안'의 해소의 장소로 인식하고 있다. 하지만 작가는 '집'이라는 장소가 '불안'의 해결적 장소로 느껴지지 않은 것이 작업의 시발점이라고 할 수 있다. 그리고 두 번째로 습관에 있다. 어느 장소에 작가가 포함되면 항상 버릇처럼 그 장소에 대한 조사를 시작한다. 크게는 장소의 전체 구조부터 세세하게는 창문의 개수, 천장 지붕의 구조, 벽의 대들보, 재료를 확인하는 등 장소를 구성하고 있는 모든 것들은 확인한다. 이런 버릇이 언제부터 시작된 건지 알 수 없지만 오래된 것 같다. 이러한 상황이 복합적으로 작용하여 나에게 접해지는 공간을 살펴본다. 그리고 그 공간에 나타나는 모든 요소를 이용하여 실험의 결과문이 나의 작업이다.",
                         education: "충북대학교 미술과 인문대학 미술과 조소전공, 홍익대학교 일반대학원 조소과 박사과정 수료",
                         individual_exhibition: [
@@ -4120,8 +4117,8 @@ export const allExhibits_KOR = [
                             {order: 5, exhibit: "2018 “에너지 모델” 광저우"},
                         ],
                         paint: [
-                            {order: 6, title: "Line-drawing-3", imgname: "/2021/21-3/7-50x35.jpg", overview: "50x35cm", overview1: "An-inked-string-on-paper, 2020"},
-                            {order: 7, title: "Space-drawing-2", imgname: "/2021/21-3/8-40x29.jpg", overview: "40x29cm", overview1: "Acrylic-on-paper-Pen, 2020"},
+                            {order: 6, title: "Line-drawing-3", name: "이선구", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/7-50x35.jpg`, width: 5, height: 3.5, overview: "50x35cm", overview1: "An-inked-string-on-paper, 2020"},
+                            {order: 7, title: "Space-drawing-2", name: "이선구", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/8-40x29.jpg`, width: 3.19, height: 4.4, overview: "40x29cm", overview1: "Acrylic-on-paper-Pen, 2020"},
                         ]
                     },
                     {
@@ -4130,7 +4127,7 @@ export const allExhibits_KOR = [
                         title:"스튜디오 (STUDIO)", 
                         name: "최재영", 
                         engname: "Jae-Young Choi",
-                        imgname:"/2021/21-3/21-3-5.png", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2021/21-3/21-3-5.png`, 
                         text: "작품 주제는 'Easter Egg Puzzle'로 'Easter Egg'란 본래 기독교에서 부활절 토끼가 부활절 전날, 집 안에 달걀이 담긴 바구니를 숨겨놓는다는 믿음에서 유래했다. 현재에는 게임이나 프로그램 개발자가 자신이 개발한 프로그램에 숨겨놓은 메시지나 기능을 뜻한다. Easter Egg는 발견 할 수도, 발견하지 못할 수도 있는 기능으로 예상치 못한 곳에서 종종 발견되곤 한다. 스치는 일상 속에서 항상 같아 왔던 것들이 다르게 보일 때가 있고, 보이지 않던 것들이 보일 때가 있다. 나름의 질서에 따라 돌아가는 세상 속 틈 사이로 발견한 특이점을 'Easter Egg'라고 이름 짓고 '나의 세상을 읽기(Easter Egg)'를 퍼즐로 엮어 회화로 표현하고자 한다.",
                         education: "2012 한국교원대학교 미술교육과 졸업",
                         individual_exhibition: [
@@ -4148,8 +4145,8 @@ export const allExhibits_KOR = [
                             {order: 6, exhibit: "2016 살아있는 것들, 춘자 아트센터, 부산"},
                         ],
                         paint: [
-                            {order: 8, title: "Easter-Eggs-Puzzle_1", imgname: "/2021/21-3/9-162x130.jpg", overview: "162x130cm", overview1: "Oil on canvas, 2021"},
-                            {order: 9, title: "Easter-Eggs-Puzzle_2", imgname: "/2021/21-3/10-162x130.jpg", overview: "162x130cm", overview1: "Oil on canvas, 2021"},
+                            {order: 8, title: "Easter-Eggs-Puzzle_1", name: "최재영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/9-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "Oil on canvas, 2021"},
+                            {order: 9, title: "Easter-Eggs-Puzzle_2", name: "최재영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/10-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "Oil on canvas, 2021"},
                         ]
                     },
                 ], 
@@ -4173,23 +4170,23 @@ export const allExhibits_KOR = [
                         title:"조현애 개인전 ‘Time Layer II’", 
                         name: "조현애", 
                         engname: "Hyunae Cho",
-                        imgname:"/2021/21-4/21-4-1.jpg", 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2021/21-4/21-4-1.jpg`, 
                         text: "내 작업의 주제는 시간이다 삶이 지평이 아득한 아포리아의 세계이듯이 삶의 근거인 시간 역시 아득하다 그래서 시간은 단순한 흐름이거나 소멸되는 것이 아니다 시간은 오랜 삶의 현장이 질펀히 녹아 있는 장소이다. 일체의 기억과 흔적, 그리고 꿈과 기대가 층층히 주름 잡혀 있다 시간은 두껍다 이 시간의 두께를 어떻게 가늠할까? 나의 회화는 공간과 시간을 구성하여 이차원 평면 위에 시각적 은유를 만들어내고 은유속에 담긴 연상을 공간적, 시각적 언어로 표현하는 작업이다. 현실과 가상의 모호한 경계에서 과거와 현재와 미래의 환영적인 이미지를 재현하거나 변용하여 화면을 완성해간다. 작품 속에 등장하는 이미지들은 전혀 다른 공간과 시간에 존재하였던 사물을 동시에 혹은 비현실적으로 배치하여 시공(時空)을 초월한 초현실적 공간을 극대화하고 무한공간의 metaphor로 작용하기도 한다. 최근 2~3년의 작품 중 커다란 꽃잎 한 장이 주제가 되는 작품들이 있다. 작가에게는 작업실과 주위환경이 미치는 영향이 크다. 다행히 작업실이 전원에 있어 온갖 나무와 꽃들을 가까이 접할 수 있고 계절의 변화를 실감나게 느낄 수 있다. 매년 백모란 꽃의 크고 화려한 자태에 눈을 빼앗기던 어느 날 겨우내 움을 키우며 기다리다 막상 꽃을 피운지 열흘도 채 되지 않아 시들어 떨어지는 것을 보고 안타까운 마음에 꽃잎 한 장을 시간의 metaphor로 설정하게 되었다. 기다림에 비해 너무 짧게 피었다가 지는 것이 우리의 삶과 다를 것이 없다는 쓸쓸함의 표현이기도 하다. 올 상반기엔 보자기와 쇼핑백을 시간의 metaphor로 설정하여 새로운 작업을 시작하였다. 평면작업에서 부족한 입체감을 추가하기 위해 자작나무로 shape canvas를 만들고 오브제나 네온을 접목하여 시간의 층을 다양한 방법으로 추구하였다. 쇼핑백과 보자기는 present, gift의 상징성도 가지고 있어 시대를 아우르는 사랑과 욕망의 기표가 아닐까? 그러므로 나의 작업은 과거와 현재 그리고 미래를 아우르는, 현실과 가상의 경계가 없는 공간과 과거와 현재와 미래의 모호한 시간의 흐름을 구성한 것이다.",
                         education: "",
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Unknown-time", imgname: "/2021/21-4/1-70x140.jpg", overview: "70x140cm", overview1: "Acrylic on canvas, 2021"},
-                            {order: 1, title: "Time-layer-205", imgname: "/2021/21-4/2-77x97.jpg", overview: "77x97cm", overview1: "Acrylic on wood, 2021"},
-                            {order: 2, title: "Time-layer-202", imgname: "/2021/21-4/3-65x87.jpg", overview: "65x87cm", overview1: "Acrylic on wood, 2020"},
-                            {order: 3, title: "Time-layer-201", imgname: "/2021/21-4/4-66x86.jpg", overview: "66x86cm", overview1: "Acrylic on wood, 2020"},
-                            {order: 4, title: "Unknown-time", imgname: "/2021/21-4/5-130.3x162.2.jpg", overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 5, title: "Unknown-time with 정선", imgname: "/2021/21-4/6-130.3x162.2.jpg", overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 6, title: "Unknown-time", imgname: "/2021/21-4/7-130.3x162.2.jpg", overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 7, title: "", imgname: "/2021/21-4/8-79.9x100.jpg", overview: "", overview1: ""},
-                            {order: 8, title: "", imgname: "/2021/21-4/9-80x100.jpg", overview: "", overview1: ""},
-                            {order: 9, title: "", imgname: "/2021/21-4/10-66.7x100.jpg", overview: "", overview1: ""},
-                            {order: 10, title: "", imgname: "/2021/21-4/11-66.7x100.jpg", overview: "", overview1: ""},
+                            {order: 0, title: "Unknown-time", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/1-70x140.jpg`, width: 5.6, height: 2.8, overview: "70x140cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 1, title: "Time-layer-205", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/2-77x97.jpg`, width: 4.85, height: 3.85, overview: "77x97cm", overview1: "Acrylic on wood, 2021"},
+                            {order: 2, title: "Time-layer-202", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/3-65x87.jpg`, width: 4.35, height: 3.25, overview: "65x87cm", overview1: "Acrylic on wood, 2020"},
+                            {order: 3, title: "Time-layer-201", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/4-66x86.jpg`, width: 4.3, height: 3.3, overview: "66x86cm", overview1: "Acrylic on wood, 2020"},
+                            {order: 4, title: "Unknown-time", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/5-130.3x162.2.jpg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 5, title: "Unknown-time with 정선", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/6-130.3x162.2.jpg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 6, title: "Unknown-time", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/7-130.3x162.2.jpg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 7, title: "", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/8-79.9x100.jpg`, width: 5, height: 3.995, overview: "", overview1: ""},
+                            {order: 8, title: "", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/9-80x100.jpg`, width: 5, height: 4, overview: "", overview1: ""},
+                            {order: 9, title: "", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/10-66.7x100.jpg`, width: 5, height: 3.335, overview: "", overview1: ""},
+                            {order: 10, title: "", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/11-66.7x100.jpg`, width: 5, height: 3.335, overview: "", overview1: ""},
                         ]
                     },
                 ], 

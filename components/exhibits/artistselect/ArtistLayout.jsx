@@ -107,7 +107,8 @@ const Artistlayout = ({children}) => {
                     <div className={clsx(isPortrait ? "w-full h-1/3 justify-center items-center" : "w-1/3 h-full justify-center items-center")}>
                         <img 
                             className="flex mx-auto border-4 border-Awhite"
-                            src={`/img/exhibitpage/artists/${artist.imgname}`}
+                            // src={`/img/exhibitpage/artists/${artist.imgname}`}
+                            src={`${artist.imgname}`}
                             alt="artists"
                         />
                     </div>
@@ -171,7 +172,8 @@ const Artistlayout = ({children}) => {
                                                 >
                                                 <img 
                                                     className={item === artist ? "border-4 border-Awhite rounded-lg" : "rounded-lg"}
-                                                    src={`/img/exhibitpage/artists/${item.imgname}`}
+                                                    // src={`/img/exhibitpage/artists/${item.imgname}`}
+                                                    src={`${item.imgname}`}
                                                     alt="artist"
                                                 />
                                                 </div>
