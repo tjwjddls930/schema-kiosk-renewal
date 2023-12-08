@@ -99,7 +99,7 @@ export default function Mainpage() {
     }, [language, currentPath]);
 
     useEffect(()=> {
-        setSign(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/sign-docents/schema-sign-docent-main-1.webm`)
+        setSign(`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/sign-docents/schema-sign-docent-main-4.webm`)
     }, []);
 
     return(

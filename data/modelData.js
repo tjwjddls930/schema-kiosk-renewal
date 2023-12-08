@@ -13,6 +13,8 @@ export const modelData_KOR = [
     {order: 1, title: "조형물2", name: "", keyname: "schema_model_2_1.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_2_1.glb`, position: [0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
     {order: 2, title: "영겁", name: "김윤화", keyname: "schema_model_list_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_list_2.glb`, position:[0, -1, -1], scale: [4, 4, 4], overview: "", overview1: "",},
     {order: 3, title: "조형물4", name: "", keyname: "schemalist_4(re).glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schemalist_4(re).glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
+    {order: 4, title: "조형물5", name: "", keyname: "schema_model_3.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_3.glb`, position:[0, -1, 0], scale: [2, 2, 2], overview: "", overview1: "",},
+    {order: 5, title: "조형물6", name: "", keyname: "schema_model_8.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_8.glb`, position:[0, -1, 0], scale: [15, 15, 15], overview: "", overview1: "",},
 ];
 
 export const modelData_ENG = [
@@ -20,6 +22,8 @@ export const modelData_ENG = [
     {order: 1, title: "Sculpture 2", name: "", keyname: "schema_model_2_1.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_2_1.glb`, position: [0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
     {order: 2, title: "Eternity", name: "YoonHwa Kim", keyname: "schema_model_list_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_list_2.glb`, position:[0, -1, -1], scale: [4, 4, 4], overview: "", overview1: "",},
     {order: 3, title: "Sculpture 4", name: "", keyname: "schemalist_4(re).glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schemalist_4(re).glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
+    {order: 4, title: "Scu2, 2, 25", name: "", keyname: "schema_model_3.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_3.glb`, position:[0, -1, 0], scale: [2, 2, 2], overview: "", overview1: "",},
+    {order: 5, title: "Scu2, 2, 26", name: "", keyname: "schema_model_8.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_8.glb`, position:[0, -1, 0], scale: [15, 15, 15], overview: "", overview1: "",},
 ];
 
 export const modelData_CH = [
@@ -27,6 +31,8 @@ export const modelData_CH = [
     {order: 4, title: "雕塑2", name: "", keyname: "schema_model_2_1.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_2_1.glb`, position: [0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
     {order: 2, title: "永", name: "金润华", keyname: "schema_model_list_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_list_2.glb`, position:[0, -1, -1], scale: [4, 4, 4], overview: "", overview1: "",},
     {order: 3, title: "雕塑4", name: "", keyname: "schemalist_4(re).glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schemalist_4(re).glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
+    {order: 4, title: "雕塑5", name: "", keyname: "schema_model_3.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_3.glb`, position:[0, -1, 0], scale: [2, 2, 2], overview: "", overview1: "",},
+    {order: 5, title: "雕塑6", name: "", keyname: "schema_model_8.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_8.glb`, position:[0, -1, 0], scale: [15, 15, 15], overview: "", overview1: "",},
 ];
 
 export const modelData_TH = [
@@ -34,6 +40,8 @@ export const modelData_TH = [
     {order: 1, title: "ประติมากรรม2", name: "", keyname: "schema_model_2_1.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_2_1.glb`, position: [0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
     {order: 2, title: "กัป", name: "ยุนฮวา คิม", keyname: "schema_model_list_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_list_2.glb`, position:[0, -1, -1], scale: [4, 4, 4], overview: "", overview1: "",},
     {order: 3, title: "ประติมากรรม4", name: "", keyname: "schemalist_4(re).glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schemalist_4(re).glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
+    {order: 4, title: "ประติมากรรม5", name: "", keyname: "schema_model_3.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_3.glb`, position:[0, -1, 0], scale: [2, 2, 2], overview: "", overview1: "",},
+    {order: 5, title: "ประติมากรรม6", name: "", keyname: "schema_model_8.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_8.glb`, position:[0, -1, 0], scale: [15, 15, 15], overview: "", overview1: "",},
 ];
 
 export const modelData_VI = [
@@ -41,4 +49,6 @@ export const modelData_VI = [
     {order: 2, title: "Điêu khắc2", name: "", keyname: "schema_model_2_1.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_2_1.glb`, position: [0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
     {order: 2, title: "Eon", name: "YoonHwa Kim", keyname: "schema_model_list_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_list_2.glb`, position:[0, -1, -1], scale: [4, 4, 4], overview: "", overview1: "",},
     {order: 3, title: "Điêu khắc4", name: "", keyname: "schemalist_4(re).glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schemalist_4(re).glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
+    {order: 4, title: "Điêu khắc5", name: "", keyname: "schema_model_3.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_3.glb`, position:[0, -1, 0], scale: [2, 2, 2], overview: "", overview1: "",},
+    {order: 5, title: "Điêu khắc6", name: "", keyname: "schema_model_8.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_8.glb`, position:[0, -1, 0], scale: [15, 15, 15], overview: "", overview1: "",},
 ];

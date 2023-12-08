@@ -25,27 +25,27 @@ const name = {
 
 const paragraph1 = {
     KOR: (orient, font) => (
-        <p className={clsx(orient ? `text-Cgrey text-sm ${font ? "screen-w:text-[52px]" : "screen-w:text-5xl"} font-bold screen-w:leading-snug` : `text-Cgrey text-sm ${font ? "screen-w:text-[44px]" : "screen-w:text-4xl"} font-bold screen-w:leading-snug`)}>
+        <p className={clsx(orient ? `text-Cgrey ${font ? "text-sm screen-w:text-[52px]" : "text-xs screen-w:text-5xl"} font-bold screen-w:leading-snug` : `text-Cgrey text-sm ${font ? "screen-w:text-[44px]" : "screen-w:text-4xl"} font-bold screen-w:leading-snug`)}>
         {"쉐마미술관은 그 동안 대학 강단에서 30여 년간 교수로서의 길을 걸었던 서양화가 김재관 교수가 예술과 교육자로서의 열정과 지역 예술인들과 지역민들의 예술적 교감의 필요성을 인지하고, 고향 청주 근교에 2009년 6월 26일 설립한 사설 미술관으로써 충청북도 제 2011-01호 제 1종 미술관이며, 최근 한국박물관협회, 한국과학창의재단, 교육과학기술부로부터 박물관, 미술관 창제 프로그램 우수 운영기관으로 선정되었습니다."}
         </p>
     ),
     ENG: (orient, font) => (
-        <p className={clsx(orient ? `text-Cgrey text-sm ${font ? "screen-w:text-[42px]" : "screen-w:text-4xl"} font-bold screen-w:leading-snug` : `text-Cgrey text-sm ${font ? "screen-w:text-[35px]" : "screen-w:text-3xl"} font-bold screen-w:leading-snug`)}>
+        <p className={clsx(orient ? `text-Cgrey ${font ? "text-[8px] screen-w:text-[42px]" : "text-[6px] screen-w:text-4xl"} font-bold screen-w:leading-snug` : `text-Cgrey text-sm ${font ? "screen-w:text-[35px]" : "screen-w:text-3xl"} font-bold screen-w:leading-snug`)}>
         {"Schema Museum of Art was founded in June 2009 near his hometown of Cheongju by Professor Kim Jae-gwan, a Western painter who had worked as a professor at a university for over 30 years, after recognizing his passion as an art and educator and the need for artistic communication between local artists and local residents. As a private art museum established on the 26th, it is the first type of art museum in Chungcheongbuk-do No. 2011-01, and was recently selected as an excellent operating institution for museum and art gallery creation programs by the Korea Museum Association, Korea Foundation for the Advancement of Science and Creativity, and the Ministry of Education, Science and Technology."}
         </p>
     ),
     CH: (orient, font) => (
-        <p className={clsx(orient ? `text-Cgrey text-sm ${font ? "screen-w:text-[55px]" : "screen-w:text-5xl"} font-bold screen-w:leading-snug` : `text-Cgrey text-sm ${font ? "screen-w:text-[44px]" : "screen-w:text-4xl"} font-bold screen-w:leading-snug`)}>
+        <p className={clsx(orient ? `text-Cgrey ${font ? "text-sm screen-w:text-[55px]" : "text-xs screen-w:text-5xl"} font-bold screen-w:leading-snug` : `text-Cgrey text-sm ${font ? "screen-w:text-[44px]" : "screen-w:text-4xl"} font-bold screen-w:leading-snug`)}>
         {"Schema 美术馆是由在大学担任教授 30 多年的西方画家 Kim Jae-gwan 教授认识到自己对艺术和教育家的热情以及当地艺术家和当地居民之间艺术交流的需要。作为26日成立的私立美术馆，是忠清北道第2011-01号的第一个类型的美术馆，最近被选为优秀博物馆运营机构以及韩国博物馆协会、韩国科学技术创造基金会和教育科学技术部的美术馆创建计划。"}
         </p>
     ),
     TH: (orient, font) => (
-        <p className={clsx(orient ? `text-Cgrey text-sm ${font ? "screen-w:text-[44px]" : "screen-w:text-4xl"} font-bold screen-w:leading-snug` : `text-Cgrey text-sm ${font ? "screen-w:text-[35px]" : "screen-w:text-3xl"} font-bold screen-w:leading-snug`)}>
+        <p className={clsx(orient ? `text-Cgrey ${font ? "text-[8px] screen-w:text-[44px]" : "text-[6px] screen-w:text-4xl"} font-bold screen-w:leading-snug` : `text-Cgrey text-sm ${font ? "screen-w:text-[35px]" : "screen-w:text-3xl"} font-bold screen-w:leading-snug`)}>
         {"Schema Museum of Art ก่อตั้งขึ้นในเดือนมิถุนายน พ.ศ. 2552 ใกล้กับบ้านเกิดของเขาที่ชองจู โดยศาสตราจารย์คิม แจกวาน จิตรกรชาวตะวันตกที่ทำงานเป็นอาจารย์ในมหาวิทยาลัยแห่งหนึ่งมานานกว่า 30 ปี หลังจากตระหนักถึงความหลงใหลในศิลปะและนักการศึกษาและความต้องการ เพื่อการสื่อสารทางศิลปะระหว่างศิลปินท้องถิ่นและคนในท้องถิ่นในฐานะพิพิธภัณฑ์ศิลปะส่วนตัวที่ก่อตั้งขึ้นเมื่อวันที่ 26 จึงเป็นพิพิธภัณฑ์ศิลปะประเภทแรกในชุงชองบุกโด เลขที่ 2011-01 และเมื่อเร็ว ๆ นี้ได้รับเลือกให้เป็นสถาบันปฏิบัติการที่ยอดเยี่ยมสำหรับพิพิธภัณฑ์และ โปรแกรมสร้างห้องแสดงงานศิลปะโดยสมาคมพิพิธภัณฑ์เกาหลี มูลนิธิเกาหลีเพื่อความก้าวหน้าของวิทยาศาสตร์และความคิดสร้างสรรค์ และกระทรวงศึกษาธิการ วิทยาศาสตร์ และเทคโนโลยี"}
         </p>
     ),
     VI: (orient, font) => (
-        <p className={clsx(orient ? `text-Cgrey text-sm ${font ? "screen-w:text-[40px]" : "screen-w:text-4xl"} font-bold screen-w:leading-snug` : `text-Cgrey text-sm ${font ? "screen-w:text-[34px]" : "screen-w:text-3xl"} font-bold screen-w:leading-snug`)}>
+        <p className={clsx(orient ? `text-Cgrey ${font ? "text-[8px] screen-w:text-[40px]" : "text-[6px] screen-w:text-4xl"} font-bold screen-w:leading-snug` : `text-Cgrey text-sm ${font ? "screen-w:text-[34px]" : "screen-w:text-3xl"} font-bold screen-w:leading-snug`)}>
         {"Bảo tàng Nghệ thuật Schema được thành lập vào tháng 6 năm 2009 gần quê hương Cheongju của ông bởi Giáo sư Kim Jae-gwan, một họa sĩ phương Tây đã từng làm giáo sư tại một trường đại học trong hơn 30 năm, sau khi nhận ra niềm đam mê của ông là một nghệ thuật và nhà giáo dục cũng như nhu cầu để giao tiếp nghệ thuật giữa các nghệ sĩ địa phương và người dân địa phương. Là một bảo tàng nghệ thuật tư nhân được thành lập vào ngày 26, đây là loại hình bảo tàng nghệ thuật đầu tiên ở Chungcheongbuk-do số 2011-01, và gần đây đã được chọn là cơ quan điều hành xuất sắc cho bảo tàng và các chương trình sáng tạo phòng trưng bày nghệ thuật của Hiệp hội Bảo tàng Hàn Quốc, Quỹ vì sự tiến bộ của khoa học và sáng tạo Hàn Quốc và Bộ Giáo dục, Khoa học và Công nghệ."}
         </p>
     ),
@@ -271,7 +271,7 @@ const Schemaintro = () => {
         <button className="absolute left-24 bottom-20 screen-w:left-24 screen-w:bottom-80">
             <Link href="/main">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
-                    className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Awhite">
+                    className="w-12 h-12 screen-w:w-36 screen-w:h-36 text-Awhite">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
             </Link>

@@ -29,21 +29,21 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "花园里的摇篮曲", imgname: "/2023/23-1/1-50x150.png", overview: "50x150cm",overview1: "布面丙烯, 2022"},
-                            {order: 1, title: "Pink Muhly", imgname:"/2023/23-1/2-70x70.jpg", overview: "70x70cm", overview1: "布面丙烯, 2022"},
-                            {order: 2, title: "我的小花园", imgname:"/2023/23-1/3-90x90.jpg", overview: "90x90cm", overview1: "布面丙烯, 2022"},
-                            {order: 3, title: "彩虹王子", imgname:"/2023/23-1/4-40x30.png", overview: "40x30cm", overview1: "纸上水粉和铅笔, 2022"},
-                            {order: 4, title: "雨中勇敢的小鸭", imgname:"/2023/23-1/5-40x40.png", overview: "40x40cm", overview1: "纸上水粉和铅笔, 2022"} ,
-                            {order: 5, title: "Pink Muhly Chestnut 22-2", imgname: "/2023/23-1/6-50x40.jpg", overview: "50x40cm",overview1: "纸上水粉画, 2022"},
-                            {order: 6, title: "摘星之夜", imgname: "/2023/23-1/7-162x520.png",overview: "162x520cm", overview1: "布面丙烯, 2022"},
-                            {order: 7, title: "摘星之夜1", imgname: "/2023/23-1/8-162x130.jpg",overview: "162x520cm", overview1: "布面丙烯, 2022"},
-                            {order: 8, title: "星聚之夜2", imgname: "/2023/23-1/9-162x130.jpg",overview: "162x520cm", overview1: "布面丙烯, 2022"},
-                            {order: 9, title: "Stargazing Night 3", imgname: "/2023/23-1/10-162x130.jpg", overview: "162x520cm", overview1: "布面丙烯, 2022"},
-                            {order: 10, title: "观星之夜 4", imgname: "/2023/23-1/11-162x130.jpg",overview: "162x520cm", overview1: "布面丙烯, 2022"},
-                            {order: 11, title: "晚安亲爱的", imgname: "/2023/23-1/12-200x200.png",overview: "200x200cm", overview1: "纸上水粉和铅笔, 2022"},
-                            {order: 12, title: "茶花花园 II", imgname: "/2023/23-1/13-90x90.png",overview: "90x90cm", overview1: "布面丙烯, 2020"},
-                            {order: 13, title: "无名花园", imgname: "/2023/23-1/14-40x40.png",overview: "40x40cm",overview1: "张杰水粉画, 2019"},
-                            {order: 14, title: "无名花园II", imgname: "/2023/23-1/15-180x260.png",overview: "180x260cm",overview1: "张杰水粉画, 2015"},
+                            {order: 0, title: "花园里的摇篮曲", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/1-50x150.png`, width: 7.5, height: 2.5, overview: "50x150cm",overview1: "布面丙烯, 2022"},
+                            {order: 1, title: "Pink Muhly", name: "伊古恩", imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/2-70x70.jpg`, width: 4.2, height: 4.2, overview: "70x70cm", overview1: "布面丙烯, 2022"},
+                            {order: 2, title: "我的小花园", name: "伊古恩", imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/3-90x90.jpg`, width: 5.6, height: 5.6, overview: "90x90cm", overview1: "布面丙烯, 2022"},
+                            {order: 3, title: "彩虹王子", name: "伊古恩", imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/4-40x30.png`, width: 3.3, height: 4.4, overview: "40x30cm", overview1: "纸上水粉和铅笔, 2022"},
+                            {order: 4, title: "雨中勇敢的小鸭", name: "伊古恩", imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/5-40x40.png`, width: 4.4, height: 4.4, overview: "40x40cm", overview1: "纸上水粉和铅笔, 2022"} ,
+                            {order: 5, title: "Pink Muhly Chestnut 22-2", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/6-50x40.jpg`, width: 4, height: 5, overview: "50x40cm",overview1: "纸上水粉画, 2022"},
+                            {order: 6, title: "摘星之夜", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/7-162x520.png`, width: 5.2, height: 1.62,overview: "162x520cm", overview1: "布面丙烯, 2022"},
+                            {order: 7, title: "摘星之夜1", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/8-162x130.jpg`, width: 3.9, height: 4.86,overview: "162x520cm", overview1: "布面丙烯, 2022"},
+                            {order: 8, title: "星聚之夜2", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/9-162x130.jpg`, width: 3.9, height: 4.86,overview: "162x520cm", overview1: "布面丙烯, 2022"},
+                            {order: 9, title: "Stargazing Night 3", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/10-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x520cm", overview1: "布面丙烯, 2022"},
+                            {order: 10, title: "观星之夜 4", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/11-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x520cm", overview1: "布面丙烯, 2022"},
+                            {order: 11, title: "晚安亲爱的", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/12-200x200.png`, width: 4, height: 4, overview: "200x200cm", overview1: "纸上水粉和铅笔, 2022"},
+                            {order: 12, title: "茶花花园 II", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/13-90x90.png`, width: 5.6, height: 5.6, overview: "90x90cm", overview1: "布面丙烯, 2020"},
+                            {order: 13, title: "无名花园", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/14-40x40.png`, width: 4, height: 4, overview: "40x40cm",overview1: "张杰水粉画, 2019"},
+                            {order: 14, title: "无名花园II", name: "伊古恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/15-180x260.png`, width: 5.2, height: 3.6, overview: "180x260cm",overview1: "张杰水粉画, 2015"},
                         ]
                     }
                 ],
@@ -98,7 +98,7 @@ export const allExhibits_CH = [
                             {order: 22, exhibit: "1984~1991当代艺术邀请展/果川国立现代美术馆"},
                         ],
                         paint: [
-                            {order: 0, title: "光层 - 关系 2022-601", imgname: "/2023/23-2/1-130.3x97.jpg", overview: "130.3x97", overview1: "布面丙烯, 2022"},
+                            {order: 0, title: "光层 - 关系 2022-601", name: "金宰宽", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/1-130.3x97.jpg`, width: 5.212, height: 3.88, overview: "130.3x97", overview1: "布面丙烯, 2022"},
                         ]
                     },
                     {
@@ -113,7 +113,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "森林残影 2022-4", imgname: "/2023/23-2/2-91x91.jpg", overview: "91x91cm", overview1: "布面混合媒体, 2022"},
+                            {order: 1, title: "森林残影 2022-4", name: "金成美", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/2-91x91.jpg`, width: 5.46, height: 5.46, overview: "91x91cm", overview1: "布面混合媒体, 2022"},
                         ]
                     },
                     {
@@ -128,7 +128,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "接受", imgname: "/2023/23-2/3-65.2x182.jpg", overview: "65.2x182cm", overview1: "布面丙烯, 2022"},
+                            {order: 2, title: "接受", name: "金妍熙", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/3-65.2x182.jpg`, width: 7.28, height: 2.608, overview: "65.2x182cm", overview1: "布面丙烯, 2022"},
                         ]
                     },
                     {
@@ -143,7 +143,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "图案-圆圈2", imgname: "/2023/23-2/4-184x93.jpg", overview: "184x93cm", overview1: "纸上丙烯, 1997"},
+                            {order: 3, title: "图案-圆圈2", name: "金英培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/4-184x93.jpg`, width: 3.72, height: 5.52, overview: "184x93cm", overview1: "纸上丙烯, 1997"},
                         ]
                     },
                     {
@@ -176,7 +176,7 @@ export const allExhibits_CH = [
                             {order: 10, exhibit: "2016首尔摄影节-一封十句话写的信（首尔文来艺术村）"},
                         ],
                         paint: [
-                            {order: 4, title: "遥不可及的点，看不见的点——丽水（韩国）", imgname: "/2023/23-2/5-130x130.jpg", overview: "130x130cm", overview1: "布面炭笔, 2019"},
+                            {order: 4, title: "遥不可及的点，看不见的点——丽水（韩国）", name: "金杰南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/5-130x130.jpg`, width: 5.2, height: 5.2, overview: "130x130cm", overview1: "布面炭笔, 2019"},
                         ]
                     },
                     {
@@ -191,7 +191,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "闪闪发光", imgname: "/2023/23-2/6-49x33.jpg", overview: "49x33cm", overview1: "水墨、设色、银粉 宣纸, 2019"},
+                            {order: 5, title: "闪闪发光", name: "真明公园", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/6-49x33.jpg`, width: 4.9, height: 3.3, overview: "49x33cm", overview1: "水墨、设色、银粉 宣纸 2019"},
                         ]
                     },
                     {
@@ -206,7 +206,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "憔悴痛苦的形状1", imgname: "/2023/23-2/7-100x140.jpg", overview: "100x140cm", overview1: "印刷与美术天鹅绒, 2021"},
+                            {order: 6, title: "憔悴痛苦的形状1", name: "沉载芬", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/7-100x140.jpg`, width: 5.6, height: 4, overview: "100x140cm", overview1: "印刷与美术天鹅绒, 2021"},
                         ]
                     },
                     {
@@ -221,7 +221,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "池塘故事", imgname: "/2023/23-2/8-60x60.jpg", overview: "60x60cm", overview1: "混色韩纸贴在面板上, 2009年"},
+                            {order: 7, title: "池塘故事", name: "李洪元", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/8-60x60.jpg`, width: 5.4, height: 5.4, overview: "60x60cm", overview1: "混色韩纸贴在面板上, 2009年"},
                         ]
                     },
                     {
@@ -266,7 +266,7 @@ export const allExhibits_CH = [
                             {order: 11, exhibit: "2019时代碎片展 (旌善航站楼小美术馆)"},
                         ],
                         paint: [
-                            {order: 8, title: "过渡", imgname: "/2023/23-2/9-72.7x91.jpg", overview: "72.9x91cm", overview1: "布面水性丙烯, 2015"},
+                            {order: 8, title: "过渡", name: "林恩秀", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/9-72.7x91.jpg`, width: 4.55, height: 3.645, overview: "72.9x91cm", overview1: "布面水性丙烯, 2015"},
                         ]
                     },
                     {
@@ -281,7 +281,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "那", imgname: "/2023/23-2/10-160x30.jpg", overview: "160x30cm", overview1: "丙烯颜料、金属丝网等木色韩纸, 2021"},
+                            {order: 9, title: "那", name: "前一年", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/10-160x30.jpg`, width: 0.9, height: 4.8, overview: "160x30cm", overview1: "丙烯颜料、金属丝网等木色韩纸, 2021"},
                         ]
                     },
                     {
@@ -296,7 +296,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "自由之路 324", imgname: "/2023/23-2/11-88.5x138.5.jpg", overview: "88.5x138.5cm", overview1: "韩国纸墨, 2022"},
+                            {order: 10, title: "自由之路 324", name: "郑明熙", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/11-88.5x138.5.jpg`, width: 5.54, height: 3.54, overview: "88.5x138.5cm", overview1: "韩国纸墨, 2022"},
                         ]
                     },
                     {
@@ -311,7 +311,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "未知时间 2015", imgname: "/2023/23-2/12-116.8x91.jpg", overview: "116.8x91cm", overview1: "画布丙烯, 2015"},
+                            {order: 11, title: "未知时间 2015", name: "赵贤爱", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/12-116.8x91.jpg`, width: 3.94, height: 4.672, overview: "116.8x91cm", overview1: "画布丙烯, 2015"},
                         ]
                     },
                     {
@@ -326,7 +326,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "17-3001 之间的边界", imgname: "/2023/23-2/13-130x489.jpg", overview: "130x489cm", overview1: "布面丙烯, 2017"},
+                            {order: 12, title: "17-3001 之间的边界", name: "崔民建", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/13-130x489.jpg`, width: 4.89, height: 1.3, overview: "130x489cm", overview1: "布面丙烯, 2017"},
                         ]
                     },
                 ],
@@ -369,8 +369,8 @@ export const allExhibits_CH = [
                             {order: 6, exhibit: "2019 <空的空间与盒子>空的空间，清州"},
                         ],
                         paint: [
-                            {order: 0, title: "场景_R2", imgname: "/2023/23-3/1-53x33.4.jpg", overview: "53x33.4", overview1: "布面丙烯, 2022"},
-                            {order: 1, title: "消失的风景", imgname: "/2023/23-3/2-116.8x72.7.jpg", overview: "116.8x72.7", overview1: "布面丙烯, 2022"},
+                            {order: 0, title: "场景_R2", name: "海滨公园", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/1-53x33.4.jpg`, width: 3.34, height: 5.3, overview: "53x33.4", overview1: "布面丙烯, 2022"},
+                            {order: 1, title: "消失的风景", name: "海滨公园", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/2-116.8x72.7.jpg`, width: 2.908, height: 4.672, overview: "116.8x72.7", overview1: "布面丙烯, 2022"},
                         ]
                     },
                     {
@@ -413,7 +413,7 @@ export const allExhibits_CH = [
                             {order: 23, exhibit: "2015年“真正的年轻艺术家”清州图式艺术博物馆"},
                         ],
                         paint: [
-                            {order: 2, title: "因为什么都没有", imgname: "/2023/23-3/3-72.7x60.6.jpg", overview: "72.7x60.6cm", overview1: "布面油画, 2023"},
+                            {order: 2, title: "因为什么都没有", name: "李奎善", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/3-72.7x60.6.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "布面油画, 2023"},
                         ]
                     },
                     {
@@ -464,8 +464,8 @@ export const allExhibits_CH = [
                             {order: 25, exhibit: "人们称这些东西为小说。第三名，首尔和许多其他地方参加了"},
                         ],
                         paint: [
-                            {order: 3, title: "假装不动", imgname: "/2023/23-3/4-60x72.jpg", overview: "60x72cm", overview1: "纸上着色, 2022"},
-                            {order: 4, title: "寻宝", imgname: "/2023/23-3/5-72x60.jpg", overview: "72x60cm", overview1: "纸上着色, 2022"},
+                            {order: 3, title: "假装不动", name: "赵敏儿", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/4-60x72.jpg`, width: 4.32, height: 3.6, overview: "60x72cm", overview1: "纸上着色, 2022"},
+                            {order: 4, title: "寻宝", name: "赵敏儿", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/5-72x60.jpg`, width: 3.6, height: 4.32, overview: "72x60cm", overview1: "纸上着色, 2022"},
                         ]
                     },
                     {
@@ -510,8 +510,8 @@ export const allExhibits_CH = [
                             {order: 23, exhibit: "2006 ‘You Creator Selection Exhibition’ Art Sonje Center，首尔"},
                         ],
                         paint: [
-                            {order: 5, title: "小石塔", imgname: "/2023/23-3/6-45.5x37.9.jpg", overview: "45.5x37.9cm", overview1: "长地的 Bunchae, 2021"},
-                            {order: 6, title: "余烬01", imgname: "/2023/23-3/7-45.5x37.9.jpg", overview: "45.5x37.9cm", overview1: "长地的 Bunchae, 2021"},
+                            {order: 5, title: "小石塔", name: "徐珉廷", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/6-45.5x37.9.jpg`, width: 3.79, height: 4.55, overview: "45.5x37.9cm", overview1: "长地的 Bunchae, 2021"},
+                            {order: 6, title: "余烬01", name: "徐珉廷", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/7-45.5x37.9.jpg`, width: 3.79, height: 4.55, overview: "45.5x37.9cm", overview1: "长地的 Bunchae, 2021"},
                         ]
                     },
                 ],
@@ -568,11 +568,11 @@ export const allExhibits_CH = [
                             {order: 24, exhibit: "2016顺天湾国际环境艺术节（顺天湾国家园林美术馆，顺天）"},
                         ],
                         paint: [
-                            {order: 0, title: "回忆", imgname: "/2023/23-4/1-56x78.jpg", overview: "56x78cm", overview1: "纸上丙烯, 2021"},
-                            {order: 1, title: "时间旅行", imgname: "/2023/23-4/2-52x76.jpg", overview: "52x76cm", overview1: "纸上丙烯, 2021"},
-                            {order: 2, title: "朝圣", imgname: "/2023/23-4/3-52x79.jpg", overview: "52x79cm", overview1: "纸上丙烯, 2016"},
-                            {order: 3, title: "在那儿", imgname: "/2023/23-4/4-76x52.jpg", overview: "76x52cm", overview1: "纸上丙烯, 2021"},
-                            {order: 4, title: "觅食, 伊斯坦布尔 餐厅", imgname: "/2023/23-4/5-102.4x68.4.jpg", overview: "", overview1: "2017"},
+                            {order: 0, title: "回忆", name: "方孝成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/1-56x78.jpg`, width: 4.68, height: 3.36, overview: "56x78cm", overview1: "纸上丙烯, 2021"},
+                            {order: 1, title: "时间旅行", name: "方孝成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/2-52x76.jpg`, width: 4.56, height: 3.12, overview: "52x76cm", overview1: "纸上丙烯, 2021"},
+                            {order: 2, title: "朝圣", name: "方孝成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/3-52x79.jpg`, width: 4.74, height: 3.64, overview: "52x79cm", overview1: "纸上丙烯, 2016"},
+                            {order: 3, title: "在那儿", name: "方孝成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/4-76x52.jpg`, width: 5.32, height: 3.64, overview: "76x52cm", overview1: "纸上丙烯, 2021"},
+                            {order: 4, title: "觅食, 伊斯坦布尔 餐厅", name: "方孝成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/5-102.4x68.4.jpg`, width: 3.84, height: 5.12, overview: "", overview1: "2017"},
                         ]
                     },
                 ],
@@ -627,7 +627,7 @@ export const allExhibits_CH = [
                             {order: 22, exhibit: "1984~1991当代艺术邀请展/果川国立现代美术馆"},
                         ],
                         paint: [
-                            {order: 0, title: "偏离网格 2021-2001", imgname: "/2023/23-5/1-180x90.jpg", overview: "180x90cm", overview1: "胶合板上的亚克力+亚克力镜子, 2021"},
+                            {order: 0, title: "偏离网格 2021-2001", name: "金宰宽", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/1-180x90.jpg`, width: 3.6, height: 7.2, overview: "180x90cm", overview1: "胶合板上的亚克力+亚克力镜子, 2021"},
                         ]
                     },
                     {
@@ -642,7 +642,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "东西摇滚23-012", imgname: "/2023/23-5/2-163.3x97.2.jpg", overview: "163.3x97.2cm", overview1: "布面丙烯, 2023"},
+                            {order: 1, title: "东西摇滚23-012", name: "金正熙", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/2-163.3x97.2.jpg`, width: 6.52, height: 3.888, overview: "163.3x97.2cm", overview1: "布面丙烯, 2023"},
                         ]
                     },
                     {
@@ -675,7 +675,7 @@ export const allExhibits_CH = [
                             {order: 10, exhibit: "2016首尔摄影节-一封十句话写的信（首尔文来艺术村）"},
                         ],
                         paint: [
-                            {order: 2, title: "34°3510.1N-127°3338.6E-使徒", imgname: "/2023/23-5/3-91x91.jpg", overview: "91x91cm", overview1: "布面丙烯, 2022"},
+                            {order: 2, title: "34°3510.1N-127°3338.6E-使徒", name: "金杰南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/3-91x91.jpg`, width: 3.64, height: 3.64, overview: "91x91cm", overview1: "布面丙烯, 2022"},
                         ]
                     },
                     {
@@ -717,7 +717,7 @@ export const allExhibits_CH = [
                             {order: 24, exhibit: "2016 顺天湾国际环境艺术节（顺天湾国家园林美术馆, 顺天）"},
                         ],
                         paint: [
-                            {order: 3, title: "现代人的圣经", imgname: "/2023/23-5/4-31x37.jpg", overview: "31x37x30cm", overview1: "水中之书, 玻璃盒子, 三维装置, 2023"},
+                            {order: 3, title: "现代人的圣经", name: "方孝成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/4-31x37.jpg`, width: 4.07, height: 3.41, overview: "31x37x30cm", overview1: "水中之书, 玻璃盒子, 三维装置, 2023"},
                         ]
                     },
                     {
@@ -732,7 +732,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 4, title: "全相绪神父_给父母的信", imgname: "/2023/23-5/5-210x140.jpg", overview: "210x140cm", overview1: "布料、镶板缝纫, 2017-2019"},
+                            {order: 4, title: "全相绪神父_给父母的信", name: "崔益奎", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/5-210x140.jpg`, width: 2.8, height: 4.2, overview: "210x140cm", overview1: "布料、镶板缝纫, 2017-2019"},
                         ]
                     },
                     {
@@ -747,7 +747,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "蜻蜓和分形", imgname: "/2023/23-5/6-58x85.jpg", overview: "58x85cm", overview1: "铜板, 2021"},
+                            {order: 5, title: "蜻蜓和分形", name: "文相旭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/6-58x85.jpg`, width: 5.1, height: 3.48, overview: "58x85cm", overview1: "铜板, 2021"},
                         ]
                     },
                     {
@@ -792,7 +792,7 @@ export const allExhibits_CH = [
                             {order: 11, exhibit: "2019时代碎片展（旌善航站楼小美术馆）"},
                         ],
                         paint: [
-                            {order: 6, title: "过渡", imgname: "/2023/23-5/7-45x65.jpg", overview: "45x65cm", overview1: "韩纸绘画 5 块, 动物骨头, 羽毛, 2023 年"},
+                            {order: 6, title: "过渡", name: "林恩秀", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/7-45x65.jpg`, width: 5.85, height: 4.05, overview: "45x65cm", overview1: "韩纸绘画 5 块, 动物骨头, 羽毛, 2023 年"},
                         ]
                     },
                     {
@@ -807,7 +807,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "记忆间隙-喜悦I", imgname: "/2023/23-5/8-147x147.jpg", overview: "147x147cm", overview1: "韩国纸上的混合媒体, 2021"},
+                            {order: 7, title: "记忆间隙-喜悦I", name: "徐允熙", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/8-147x147.jpg`, width: 4.41, height: 4.41, overview: "147x147cm", overview1: "韩国纸上的混合媒体, 2021"},
                         ]
                     },
                     {
@@ -822,7 +822,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "地球的希望", imgname: "/2023/23-5/9-75x75.jpg", overview: "75x75cm", overview1: "美术天鹅绒, 2023"},
+                            {order: 8, title: "地球的希望", name: "沉载芬", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/9-75x75.jpg`, width: 3.75, height: 3.75, overview: "75x75cm", overview1: "美术天鹅绒, 2023"},
                         ]
                     },
                     {
@@ -837,7 +837,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "无标题", imgname: "/2023/23-5/10-24x20.jpg", overview: "24x20cm", overview1: "金属数控雕塑, 韩纸艺术棒, 2018"},
+                            {order: 9, title: "无标题", name: "许恩英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/10-24x20.jpg`, width: 4, height: 4.8, overview: "24x20cm", overview1: "金属数控雕塑, 韩纸艺术棒, 2018"},
                         ]
                     },
                     {
@@ -852,7 +852,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "印尼 Jaran Kepang 平马", imgname: "/2023/23-5/11-63x93.jpg", overview: "63x93cm", overview1: "彩色木切 Printon 韩纸, 2023 年荷兰"},
+                            {order: 10, title: "印尼 Jaran Kepang 平马", name: "杰西·拉赫曼", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/11-63x93.jpg`, width: 4.65, height: 3.15, overview: "63x93cm", overview1: "彩色木切 Printon 韩纸, 2023 年荷兰"},
                         ]
                     },
                     {
@@ -867,7 +867,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "废料 1", imgname: "/2023/23-5/12-70x60.jpg", overview: "70x60cm", overview1: "布面丙烯, 2023 荷兰"},
+                            {order: 11, title: "废料 1", name: "彼得·范·斯佩特", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/12-70x60.jpg`, width: 3.6, height: 4.2, overview: "70x60cm", overview1: "布面丙烯, 2023 荷兰"},
                         ]
                     },
                     {
@@ -882,7 +882,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "百分比游戏", imgname: "/2023/23-5/13-29.7x21.jpg", overview: "29.7x21cm", overview1: "纸本混合媒介, 8 件, 2019, 印度"},
+                            {order: 12, title: "百分比游戏", name: "阿吉特瓦尔·库马尔·道格拉斯", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/13-29.7x21.jpg`, width: 3.15, height: 4.455, overview: "29.7x21cm", overview1: "纸本混合媒介, 8 件, 2019, 印度"},
                         ]
                     },
                     {
@@ -897,7 +897,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "拥抱社会意识", imgname: "/2023/23-5/14-55.2x91.4.jpg", overview: "55.2x91.4cm", overview1: "照片（印刷）, 2023 年, 印度"},
+                            {order: 13, title: "拥抱社会意识", name: "拉维·拉詹", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/14-55.2x91.4.jpg`, width: 5.484, height: 3.312, overview: "55.2x91.4cm", overview1: "照片（印刷）, 2023 年，印度"},
                         ]
                     },
                     {
@@ -912,7 +912,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "想多了", imgname: "/2023/23-5/15-37x60.jpg", overview: "37x60cm", overview1: "2022年装置照片（印刷）, 2023年, 泰国"},
+                            {order: 14, title: "想多了", name: "塔瓦猜昌奎恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/15-37x60.jpg`, width: 6, height: 3.7,  overview: "37x60cm", overview1: "2022年装置照片(印刷), 2023年, 泰国"},
                         ]
                     },
                     {
@@ -927,7 +927,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 15, title: "随机播放", imgname: "/2023/23-5/16-15x13.jpg", overview: "15x13x26cm", overview1: "2023 年泰国佛像中的黄绳"},
+                            {order: 15, title: "随机播放", name: "孔萨克·古兰登", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/16-15x13.jpg`, width: 3.9, height: 4.5, overview: "15x13x26cm", overview1: "2023 年泰国佛像中的黄绳"},
                         ]
                     },
                     {
@@ -967,7 +967,7 @@ export const allExhibits_CH = [
                             {order: 13, exhibit: "2019 “大脑的秘密”, 北京"},
                         ],
                         paint: [
-                            {order: 16, title: "3149-苍鑫行为", imgname: "/2023/23-5/17-120x180.png", overview: "120x180cm", overview1: "表演照片 2015, 版画 2023, 中国"},
+                            {order: 16, title: "3149-苍鑫行为", name: "苍鑫", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/17-120x180.png`, width: 5.4, height: 3.6, overview: "120x180cm", overview1: "表演照片 2015, 版画 2023, 中国"},
                         ]
                     },
                     {
@@ -982,7 +982,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 17, title: "昆虫肖像NO3", imgname: "/2023/23-5/18-120x100.png", overview: "120x100cm", overview1: "布面油画, 2023, 中国"},
+                            {order: 17, title: "昆虫肖像NO3", name: "陈刚", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/18-120x100.png`, width: 4, height: 4.8, overview: "120x100cm", overview1: "布面油画, 2023, 中国"},
                         ]
                     },
                     {
@@ -997,7 +997,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "网格", imgname: "/2023/23-5/19-162x112.jpg", overview: "162x112cm", overview1: "布面丙烯, 2021, 日本"},
+                            {order: 18, title: "网格", name: "长谷川一郎", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/19-162x112.jpg`, width: 4.48, height: 4.86, overview: "162x112cm", overview1: "布面丙烯, 2021, 日本"},
                         ]
                     },
                     {
@@ -1053,7 +1053,7 @@ export const allExhibits_CH = [
                             {order: 35, exhibit: "“关行乡相对景观”莫克画廊（千叶）等"},
                         ],
                         paint: [
-                            {order: 19, title: "大气景观", imgname: "/2023/23-5/20-108x94.5.jpg", overview: "108x94.5cm", overview1: "日本纸混合媒材, 2023, 日本"},
+                            {order: 19, title: "大气景观", name: "宇野一之", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/20-108x94.5.jpg`, width: 3.78, height: 4.32, overview: "108x94.5cm", overview1: "日本纸混合媒材, 2023, 日本"},
                         ]
                     },
                     {
@@ -1093,7 +1093,7 @@ export const allExhibits_CH = [
                             {order: 17, exhibit: "Ceci n’est pas une pomme，当代比利时艺术，卡洛斯·德·安贝雷斯基金会，西班牙马德里"},
                         ],
                         paint: [
-                            {order: 20, title: "", imgname: "/2023/23-5/21-80x181.jpg", overview: "80x181cm", overview1: "迷彩画布上的丙烯颜料, 2023, 波斯尼亚"},
+                            {order: 20, title: "", name: "尤苏普·哈吉佩佐维奇", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/21-80x181.jpg`, width: 5.43, height: 2.4, overview: "80x181cm", overview1: "迷彩画布上的丙烯颜料, 2023, 波斯尼亚"},
                         ]
                     },
                 ],
@@ -1123,7 +1123,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "说谎", imgname: "/2023/23-6/1-130.3x162.2.jpeg", overview: "130.3x162.2cm", overview1: "布面油画, 2022"},
+                            {order: 0, title: "说谎", name: "救生俱乐部", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/1-130.3x162.2.jpeg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "布面油画, 2022"},
                         ]
                     },
                     {
@@ -1138,7 +1138,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "互动研发", imgname: "/2023/23-6/2-72.2.x50.jpg", overview: "72.2x50cm", overview1: "珍珠母, 麻布和木板上的 ottchil, 2021 年"},
+                            {order: 1, title: "互动研发", name: "罗伊·金", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/2-72.2.x50.jpg`, width: 4, height: 5.776, overview: "72.2x50cm", overview1: "珍珠母、麻布和木板上的 ottchil, 2021 年"},
                         ]
                     },
                     {
@@ -1153,7 +1153,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "森林残影 2022", imgname: "/2023/23-6/3-116.8x91.jpg", overview: "116.8x91cm", overview1: "布面混合媒体, 2022"},
+                            {order: 2, title: "森林残影 2022", name: "金成美", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/3-116.8x91.jpg`, width: 4.55, height: 5.84, overview: "116.8x91cm", overview1: "布面混合媒体, 2022"},
                         ]
                     },
                     {
@@ -1168,7 +1168,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "休息舒适度", imgname: "/2023/23-6/4-140x80.jpg", overview: "140x80cm", overview1: "韩国报纸, 2019"},
+                            {order: 3, title: "休息舒适度", name: "金英兰", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/4-140x80.jpg`, width: 4, height: 5.6, overview: "140x80cm", overview1: "韩国报纸, 2019"},
                         ]
                     },
                     {
@@ -1208,7 +1208,7 @@ export const allExhibits_CH = [
                             {order: 22, exhibit: "1984~1991当代艺术邀请展/果川国立现代美术馆"},
                         ],
                         paint: [
-                            {order: 4, title: "代理-灯光与色彩 2022-501", imgname: "/2023/23-6/5-91x116.8.jpg", overview: "91x116.8cm", overview1: "布面丙烯, 2022"},
+                            {order: 4, title: "代理-灯光与色彩 2022-501", name: "金宰宽", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/5-91x116.8.jpg`, width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "布面丙烯, 2022"},
                         ]
                     },
                     {
@@ -1223,7 +1223,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "我们的工作", imgname: "/2023/23-6/6-168x55.jpg", overview: "168x55cm", overview1: "布料针线活, 2023"},
+                            {order: 5, title: "我们的工作", name: "金裕珍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/6-168x55.jpg`, width: 2.2, height: 6.72, overview: "168x55cm", overview1: "布料针线活, 2023"},
                         ]
                     },
                     {
@@ -1238,14 +1238,14 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "那个……春天", imgname: "/2023/23-6/7-110x80.jpg", overview: "110x80cm", overview1: "纸本水墨, 水粉, 2023"},
+                            {order: 6, title: "那个……春天", name: "真明公园", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/7-110x80.jpg`, width: 4, height: 5.5, overview: "110x80cm", overview1: "纸本水墨, 水粉, 2023"},
                         ]
                     },
                     {
                         order: 7, 
                         number: "08",
                         title:"2023年回顾看点《美丽思考的艺术》",
-                        name: "심재분", 
+                        name: "沉载芬", 
                         engname: "Jae Bun Sim",
                         imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-6/23-6-8.jpg`, 
                         text: "",
@@ -1253,7 +1253,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "关于想法的想法1", imgname: "/2023/23-6/8-30x30.png", overview: "30x30cm", overview1: "美术天鹅绒照片打印, 2023"},
+                            {order: 7, title: "关于想法的想法1", name: "沉载芬", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/8-30x30.png`, width: 3.6, height: 3.6, overview: "30x30cm", overview1: "美术天鹅绒照片打印, 2023"},
                         ]
                     },
                     {
@@ -1268,7 +1268,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "黑墙", imgname: "/2023/23-6/9-33.4x24.2.jpg", overview: "33.4x24.2cm", overview1: "布面油画, 2021"},
+                            {order: 8, title: "黑墙", name: "吴升彦", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/9-33.4x24.2.jpg`, width: 2.904, height: 4.008, overview: "33.4x24.2cm", overview1: "布面油画, 2021"},
                         ]
                     },
                     {
@@ -1283,7 +1283,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "无标题", imgname: "/2023/23-6/10-145.5x112.1.png", overview: "145.5x112.1cm", overview1: "安装, 2023"},
+                            {order: 9, title: "无标题", name: "浦川亚津子", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/10-145.5x112.1.png`, width: 4.484, height: 5.82, overview: "145.5x112.1cm", overview1: "安装, 2023"},
                         ]
                     },
                     {
@@ -1298,7 +1298,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "夢中果", imgname: "/2023/23-6/11-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "布面丙烯, 2023"},
+                            {order: 10, title: "夢中果", name: "李庆和", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/11-60.6x72.7.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "布面丙烯, 2023"},
                         ]
                     },
                     {
@@ -1343,7 +1343,7 @@ export const allExhibits_CH = [
                             {order: 11, exhibit: "2019时代碎片展（旌善航站楼小美术馆）"},
                         ],
                         paint: [
-                            {order: 11, title: "播种", imgname: "/2023/23-6/12-102.4x57.3.jpg", overview: "", overview1: "可变装置, 韩纸钢笔画, 8幅, 2023年"},
+                            {order: 11, title: "播种", name: "林恩秀", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/12-102.4x57.3.jpg`, width: 5.12, height: 2.865, overview: "", overview1: "可变装置, 韩纸钢笔画, 8幅, 2023年"},
                         ]
                     },
                     {
@@ -1358,7 +1358,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "之间的界限", imgname: "/2023/23-6/13-60.6x200.jpg", overview: "60.6x200cm", overview1: "布面丙烯水粉画, 2023"},
+                            {order: 12, title: "之间的界限", name: "崔民建", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/13-60.6x200.jpg`, width: 5, height: 1.515, overview: "60.6x200cm", overview1: "布面丙烯水粉画, 2023"},
                         ]
                     },
                     {
@@ -1373,7 +1373,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "自画像", imgname: "/2023/23-6/14-120x180.jpg", overview: "120x180cm", overview1: "布料缝制后着色, 2023"},
+                            {order: 13, title: "自画像", name: "崔益奎", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/14-120x180.jpg`, width: 5.4, height: 3.6, overview: "120x180cm", overview1: "布料缝制后着色, 2023"},
                         ]
                     },
                     {
@@ -1388,7 +1388,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "塑料NO-45", imgname: "/2023/23-6/15-82x110.jpg", overview: "82x110cm", overview1: "重铬酸盐胶印刷品, 2021"},
+                            {order: 14, title: "塑料NO-45", name: "韩熙俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/15-82x110.jpg`, width: 4.4, height: 3.28, overview: "82x110cm", overview1: "重铬酸盐胶印刷品, 2021"},
                         ]
                     },
                 ],
@@ -1457,11 +1457,11 @@ export const allExhibits_CH = [
                             {order: 18, exhibit: "《21C水彩》，杨平郡美术馆，杨平"},
                         ],
                         paint: [
-                            {order: 0, title: "风-Ⅰ", imgname: "/2023/23-7/1.jpeg", overview: "27x18x10cm", overview1: "LED 屏幕上的单通道视频, 艺术家雕刻的混凝土框架，00:03:50 循环, 2023 年"},
-                            {order: 1, title: "风-Ⅱ", imgname: "/2023/23-7/2.jpg", overview: "18x27x10cm", overview1: "LED 屏幕上的单通道视频, 艺术家雕刻的混凝土框架，00:03:20 循环, 2023 年"},
-                            {order: 2, title: "风-Ⅲ", imgname: "/2023/23-7/3.jpeg", overview: "18x27x10cm", overview1: "LED 屏幕上的单通道视频, 艺术家雕刻的混凝土框架，00:03:20 循环, 2023 年"},
-                            {order: 3, title: "制造风", imgname: "/2023/23-7/4.jpg", overview: "225x130x100cm", overview1: "LED 屏幕上的 2 通道视频雕塑, 00:02:30 循环, 2020 年"},
-                            {order: 4, title: "思维花园", imgname: "/2023/23-7/5.jpg", overview: "200x240x200cm", overview1: "LED 屏幕上的 3 通道视频雕塑, 2020"},
+                            {order: 0, title: "风-Ⅰ", name: "金珉廷", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/1.jpeg`, width: 5.4, height: 3.6, overview: "27x18x10cm", overview1: "LED 屏幕上的单通道视频, 艺术家雕刻的混凝土框架, 00:03:50 循环, 2023 年"},
+                            {order: 1, title: "风-Ⅱ", name: "金珉廷", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/2.jpg`, width: 3.6, height: 5.4, overview: "18x27x10cm", overview1: "LED 屏幕上的单通道视频, 艺术家雕刻的混凝土框架, 00:03:20 循环, 2023 年"},
+                            {order: 2, title: "风-Ⅲ", name: "金珉廷", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/3.jpeg`, width: 3.6, height: 5.4, overview: "18x27x10cm", overview1: "LED 屏幕上的单通道视频, 艺术家雕刻的混凝土框架, 00:03:20 循环, 2023 年"},
+                            {order: 3, title: "制造风", name: "金珉廷", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/4.jpg`, width: 4.5, height: 3.5, overview: "225x130x100cm", overview1: "LED 屏幕上的 2 通道视频雕塑, 00:02:30 循环, 2020 年"},
+                            {order: 4, title: "思维花园", name: "金珉廷", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/5.jpg`, width: 4, height: 4.8, overview: "200x240x200cm", overview1: "LED 屏幕上的 3 通道视频雕塑, 2020"},
                         ]
                     },
                     {
@@ -1530,13 +1530,13 @@ export const allExhibits_CH = [
                             {order: 13, exhibit: "当代艺术，走在T台上”，城南艺术中心立方博物馆，城南市"},
                         ],
                         paint: [
-                            {order: 5, title: "飞猫循环动画", imgname: "/2023/23-7/6.jpg", overview: "", overview1: "2022-5"},
-                            {order: 6, title: "紫色先生循环动画", imgname: "/2023/23-7/7.jpg", overview: "", overview1: "2022-3"},
-                            {order: 7, title: "有人安妮", imgname: "/2023/23-7/8.jpg", overview: "100x100cm", overview1: "数字印刷-2023-3"},
-                            {order: 8, title: "某某主席", imgname: "/2023/23-7/9.jpg", overview: "70x70cm", overview1: "数字印刷-2023-3"},
-                            {order: 9, title: "有人谢幕", imgname: "/2023/23-7/10.jpg", overview: "110x110cm", overview1: "数字印刷-2023-3"},
-                            {order: 10, title: "某人-粉红色-瓷砖", imgname: "/2023/23-7/11.jpg", overview: "110x110cm", overview1: "数字印刷-2023-3"},
-                            {order: 11, title: "有人红点", imgname: "/2023/23-7/12.jpg", overview: "78x110cm", overview1: "数字印刷-2023-3"},
+                            {order: 5, title: "飞猫循环动画", name: "金俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/6.jpg`, width: 3, height: 2, overview: "", overview1: "2022-5"},
+                            {order: 6, title: "紫色先生循环动画", name: "金俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/7.jpg`, width: 3, height: 2, overview: "", overview1: "2022-3"},
+                            {order: 7, title: "有人安妮", name: "金俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/8.jpg`, width: 3, height: 3, overview: "100x100cm", overview1: "数字印刷-2023-3"},
+                            {order: 8, title: "某某主席", name: "金俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/9.jpg`, width: 4.9, height: 4.9, overview: "70x70cm", overview1: "数字印刷-2023-3"},
+                            {order: 9, title: "有人谢幕", name: "金俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/10.jpg`, width: 4.4, height: 4.4, overview: "110x110cm", overview1: "数字印刷-2023-3"},
+                            {order: 10, title: "某人-粉红色-瓷砖", name: "金俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/11.jpg`, width: 4.4, height: 4.4, overview: "110x110cm", overview1: "数字印刷-2023-3"},
+                            {order: 11, title: "有人红点", name: "金俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/12.jpg`, width: 4.68, height: 6.6, overview: "78x110cm", overview1: "数字印刷-2023-3"},
                         ]
                     },
                     {
@@ -1571,11 +1571,11 @@ export const allExhibits_CH = [
                             {order: 14, exhibit: "《男孩，成为传奇》，Space K，大邱"},
                         ],
                         paint: [
-                            {order: 12, title: "肖像", imgname: "/2023/23-7/13.jpg", overview: "50x40cm", overview1: "布面丙烯-2023-2-3"},
-                            {order: 13, title: "肖像", imgname: "/2023/23-7/14.jpg", overview: "50x40cm", overview1: "布面丙烯-2023-4"},
-                            {order: 14, title: "安装切割", imgname: "/2023/23-7/15.jpg", overview: "", overview1: ""},
-                            {order: 15, title: "安装切割", imgname: "/2023/23-7/16.jpg", overview: "", overview1: ""},
-                            {order: 16, title: "安装切割", imgname: "/2023/23-7/17.jpg", overview: "", overview1: ""},
+                            {order: 12, title: "肖像", name: "玉承哲", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/13.jpg`, width: 2.4, height: 3, overview: "50x40cm", overview1: "布面丙烯-2023-2-3"},
+                            {order: 13, title: "肖像", name: "玉承哲", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/14.jpg`, width: 2.4, height: 3, overview: "50x40cm", overview1: "布面丙烯-2023-4"},
+                            {order: 14, title: "安装切割", name: "玉承哲", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/15.jpg`, width: 3, height: 2, overview: "", overview1: ""},
+                            {order: 15, title: "安装切割", name: "玉承哲", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/16.jpg`, width: 3, height: 2, overview: "", overview1: ""},
+                            {order: 16, title: "安装切割", name: "玉承哲", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/17.jpg`, width: 3, height: 2, overview: "", overview1: ""},
                         ]
                     },    
                     {
@@ -1621,13 +1621,13 @@ export const allExhibits_CH = [
                             {order: 20, exhibit: "《微妙的邂逅》，卢画廊，首尔"},
                         ],
                         paint: [
-                            {order: 17, title: "美杜莎头-粉色", imgname: "/2023/23-7/18.jpg", overview: "73x91cm", overview1: "布面油画-2022-2-3"},
-                            {order: 18, title: "美杜莎头颅", imgname: "/2023/23-7/19.jpg", overview: "162x162cm", overview1: "布面油画-2021-1"},
-                            {order: 19, title: "美杜莎头-粉色", imgname: "/2023/23-7/20.jpg", overview: "73x91cm", overview1: "布面油画-2022-1"},
-                            {order: 20, title: "美杜莎头银 3D 渲染", imgname: "/2023/23-7/21.png", overview: "", overview1: "视频循环-2023-1"},
-                            {order: 21, title: "美惠三女神", imgname: "/2023/23-7/22.jpg", overview: "300x480cm", overview1: "布面油画-2023-1"},
-                            {order: 22, title: "躯干12", imgname: "/2023/23-7/23.jpg", overview: "162x130cm", overview1: "布面油画-2023-1-1"},
-                            {order: 23, title: "躯干12", imgname: "/2023/23-7/24.jpg", overview: "162x130cm", overview1: "布面油画-2023-2-1"},
+                            {order: 17, title: "美杜莎头-粉色", name: "李润成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/18.jpg`, width: 3.65, height: 4.55, overview: "73x91cm", overview1: "布面油画-2022-2-3"},
+                            {order: 18, title: "美杜莎头颅", name: "李润成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/19.jpg`, width: 4.86, height: 4.86, overview: "162x162cm", overview1: "布面油画-2021-1"},
+                            {order: 19, title: "美杜莎头-粉色", name: "李润成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/20.jpg`, width: 3.65, height: 4.55, overview: "73x91cm", overview1: "布面油画-2022-1"},
+                            {order: 20, title: "美杜莎头银 3D 渲染", name: "李润成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/21.png`, width: 3, height: 2, overview: "", overview1: "视频循环-2023-1"},
+                            {order: 21, title: "美惠三女神", name: "李润成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/22.jpg`, width: 4.8, height: 3, overview: "300x480cm", overview1: "布面油画-2023-1"},
+                            {order: 22, title: "躯干12", name: "李润成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/23.jpg`, width: 4.86, height: 3.9, overview: "162x130cm", overview1: "布面油画-2023-1-1"},
+                            {order: 23, title: "躯干12", name: "李润成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/24.jpg`, width: 4.86, height: 3.9, overview: "162x130cm", overview1: "布面油画-2023-2-1"},
                         ]
                     },        
                 ],
@@ -1637,7 +1637,7 @@ export const allExhibits_CH = [
                 type:"图式博物馆特展",
                 title:"呼吸时间",
                 time: "2023/10/13 ~ 2023/11/12",
-                artist: "Eunsoo Lim",
+                artist: "林恩秀",
                 location: "示玛博物馆", 
                 host: "示玛博物馆", 
                 support: "",
@@ -1687,11 +1687,11 @@ export const allExhibits_CH = [
                             {order: 11, exhibit: "2019时代碎片展（旌善航站楼小美术馆）"},
                         ],
                         paint: [
-                            {order: 0, title: "过渡", imgname: "/2023/23-8/1-45x65.jpg", overview: "45x65cm", overview1: "韩纸绘画 5 块, 动物骨头, 羽毛, 2023 年"},
-                            {order: 1, title: "水的记忆", imgname: "/2023/23-8/2-102.4x68.3.jpg", overview: "", overview1: "彩色服装装置视频, 染布装置视频, 墙上粉笔画的可变装置, 视频19分5秒, 2022年"},
-                            {order: 2, title: "经过", imgname: "/2023/23-8/3-95x180.jpg", overview: "95x180cm", overview1: "韩纸绘画, 2013"},
-                            {order: 3, title: "我现在在俗离山", imgname: "/2023/23-8/4-102.4x57.6.jpg", overview: "", overview1: "视频, 10分6秒, 2020年10.25"},
-                            {order: 4, title: "我现在在这里。大清湖密川里湿地", imgname: "/2023/23-8/5-102.4x68.3.jpg", overview: "", overview1: "视频, 2021.09.04._仍剪1"},
+                            {order: 0, title: "过渡", name: "林恩秀", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/1-45x65.jpg`, width: 6.5, height: 4.5, overview: "45x65cm", overview1: "韩纸绘画 5 块, 动物骨头, 羽毛, 2023 年"},
+                            {order: 1, title: "水的记忆", name: "林恩秀", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/2-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "彩色服装装置视频、染布装置视频、墙上粉笔画的可变装置，视频19分5秒，2022年"},
+                            {order: 2, title: "经过", name: "林恩秀", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/3-95x180.jpg`, width: 5.4, height: 2.85, overview: "95x180cm", overview1: "韩纸绘画, 2013"},
+                            {order: 3, title: "我现在在俗离山", name: "林恩秀", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/4-102.4x57.6.jpg`, width: 4.096, height: 2.304, overview: "", overview1: "视频, 10分6秒, 2020年10.25"},
+                            {order: 4, title: "我现在在这里。大清湖密川里湿地", name: "林恩秀", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/5-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "视频, 2021.09.04._仍剪1"},
                         ]
                     },      
                 ],
@@ -1741,14 +1741,14 @@ export const allExhibits_CH = [
                             {order: 15, exhibit: "2015 GIAF 亚洲当代艺术青年艺术家大赛，首尔世宗美术馆"},
                         ],
                         paint: [
-                            {order: 0, title: "内水洞路102号路 No.10", imgname: "/2023/23-9/1-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "布面油画_2021"},
-                            {order: 1, title: "内水洞路102号路", imgname: "/2023/23-9/2-195.3x454.5.jpg", overview: "195.3x454.5cm", overview1: "布面油画_2021"},
-                            {order: 2, title: "内水洞路102号路 No.02", imgname: "/2023/23-9/3-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "布面油画_2021"},
-                            {order: 3, title: "内水洞路102号路 No.12", imgname: "/2023/23-9/4-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "布面油画_2021"},
-                            {order: 4, title: "内水洞路102号路 No.13", imgname: "/2023/23-9/5-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "布面油画_2021"},
-                            {order: 5, title: "杂草", imgname: "/2023/23-9/6-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "布面油画_2021"},
-                            {order: 6, title: "杂草", imgname: "/2023/23-9/7-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "布面油画_2021"},
-                            {order: 7, title: "杂草", imgname: "/2023/23-9/8-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "布面油画_2021"},
+                            {order: 0, title: "内水洞路102号路 No.10", name: "金罗妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/1-65.1x90.9.jpg`, width: 5.454, height: 3.906, overview: "65.1x90.9cm", overview1: "布面油画_2021"},
+                            {order: 1, title: "内水洞路102号路", name: "金罗妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/2-195.3x454.5.jpg`, width: 4.545, height: 1.953, overview: "195.3x454.5cm", overview1: "布面油画_2021"},
+                            {order: 2, title: "内水洞路102号路 No.02", name: "金罗妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/3-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "布面油画_2021"},
+                            {order: 3, title: "内水洞路102号路 No.12", name: "金罗妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/4-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "布面油画_2021"},
+                            {order: 4, title: "内水洞路102号路 No.13", name: "金罗妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/5-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "布面油画_2021"},
+                            {order: 5, title: "杂草", name: "金罗妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/6-33.4x21.2.jpg`, width: 4.24, height: 6.68, overview: "33.4x21.2cm", overview1: "布面油画_2021"},
+                            {order: 6, title: "杂草", name: "金罗妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/7-33.4x21.2.jpg`, width: 4.24, height: 6.68, overview: "33.4x21.2cm", overview1: "布面油画_2021"},
+                            {order: 7, title: "杂草", name: "金罗妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/8-33.4x21.2.jpg`, width: 4.24, height: 6.68, overview: "33.4x21.2cm", overview1: "布面油画_2021"},
                         ]
                     },   
                     {
@@ -1763,7 +1763,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "红笔尖_某情境场景", imgname: "/2023/23-9/9-76.8x51.2.png", overview: "", overview1: "韩国纸、石蜡、混凝土块，尺寸可变，2022"},
+                            {order: 8, title: "红笔尖_某情境场景", name: "李子妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/9-76.8x51.2.png`, width: 3.072, height: 4.608, overview: "", overview1: "韩国纸、石蜡、混凝土块, 尺寸可变, 2022"},
                         ]
                     },   
                     {
@@ -1778,7 +1778,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "漂流还是逃跑", imgname: "/2023/23-9/10-227x728.png", overview: "227x728cm", overview1: "布面油画，2022"},
+                            {order: 9, title: "漂流还是逃跑", name: "金东宇", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/10-227x728.png`, width: 2.27, height: 7.28, overview: "227x728cm", overview1: "布面油画, 2022"},
                         ]
                     },   
                     {
@@ -1793,7 +1793,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "我们的肖像", imgname: "/2023/23-9/11-76.8x78.2.png", overview: "", overview1: "布面丙烯，镜子，尺寸可变，2020"},
+                            {order: 10, title: "我们的肖像", name: "崔珉索尔", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/11-76.8x78.2.png`, width: 4.692, height: 4.608, overview: "", overview1: "布面丙烯, 镜子, 尺寸可变, 2020"},
                         ]
                     },      
                 ],
@@ -1823,7 +1823,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "幸福", imgname: "/2023/23-10/1-394x545.jpg", overview: "394x545cm", overview1: "亚克力, 2023"},
+                            {order: 0, title: "幸福", name: "金世恩", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/1-394x545.jpg`, width: 5.45, height: 3.94, overview: "394x545cm", overview1: "亚克力, 2023"},
                         ]
                     },   
                     {
@@ -1838,7 +1838,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "在梦中", imgname: "/2023/23-10/2-59.7x42.7.jpg", overview: "59.7x42.7cm", overview1: "布面油画，2023"},
+                            {order: 1, title: "在梦中", name: "金秀完", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/2-59.7x42.7.jpg`, width: 3.843, height: 4.776, overview: "59.7x42.7cm", overview1: "布面油画, 2023"},
                         ]
                     },   
                     {
@@ -1860,8 +1860,8 @@ export const allExhibits_CH = [
                             {order: 6, exhibit: "2021年大田艺术展精选（大田美术馆）"},
                         ],
                         paint: [
-                            {order: 2, title: "", imgname: "/2023/23-10/3-30x29.8.jpg", overview: "", overview1: ""},
-                            {order: 3, title: "准备", imgname: "/2023/23-10/4-116.8x91.jpg", overview: "116.8x91cm", overview1: "为您的设备上色，2023 年"},
+                            {order: 2, title: "", name: "金宥彬", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/3-30x29.8.jpg`, width: 6, height: 5.96, overview: "", overview1: ""},
+                            {order: 3, title: "准备", name: "金宥彬", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/4-116.8x91.jpg`, width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "为您的设备上色, 2023 年"},
                         ]
                     },   
                     {
@@ -1876,7 +1876,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 4, title: "工具箱中的材料", imgname: "/2023/23-10/5-27x22.jpg", overview: "27x22cm", overview1: "亚克力，2022"},
+                            {order: 4, title: "工具箱中的材料", name: "徐智妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/5-27x22.jpg`, width: 4.4, height: 5.4, overview: "27x22cm", overview1: "亚克力, 2022"},
                         ]
                     },   
                     {
@@ -1891,7 +1891,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "", imgname: "/2023/23-10/6-30x30.jpg", overview: "", overview1: ""},
+                            {order: 5, title: "", name: "申海仁", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/6-30x30.jpg`, width: 6, height: 6, overview: "", overview1: ""},
                         ]
                     },  
                     {
@@ -1906,8 +1906,8 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "闪亮的目光1", imgname: "/2023/23-10/7-30x20.png", overview: "", overview1: ""},
-                            {order: 7, title: "闪亮的目光2", imgname: "/2023/23-10/8-30x20.png", overview: "", overview1: ""},                         
+                            {order: 6, title: "闪亮的目光1", name: "吴恩静", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/7-30x20.png`, width: 6, height: 4, overview: "", overview1: ""},
+                            {order: 7, title: "闪亮的目光2", name: "吴恩静", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/8-30x20.png`, width: 6, height: 4, overview: "", overview1: ""},                        
                         ]
                     },   
                     {
@@ -1922,7 +1922,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "自拍", imgname: "/2023/23-10/9-59.7x42.7.jpg", overview: "", overview1: "亚克力数字印刷，2023"},
+                            {order: 8, title: "自拍", name: "尹善宰", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/9-59.7x42.7.jpg`, width: 4.27, height: 5.97, overview: "", overview1: "亚克力数字印刷, 2023"},
                         ]
                     }, 
                     {
@@ -1937,7 +1937,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "餐桌", imgname: "/2023/23-10/10-49.4x49.4.png", overview: "49.4x49.4cm", overview1: "亚克力，2023"},
+                            {order: 9, title: "餐桌", name: "李道勋", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/10-49.4x49.4.png`, width: 4.94, height: 4.94, overview: "49.4x49.4cm", overview1: "亚克力, 2023"},
                         ]
                     }, 
                     {
@@ -1952,7 +1952,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "", imgname: "/2023/23-10/11-29.5x30.jpg", overview: "", overview1: ""},
+                            {order: 10, title: "", name: "金亨-jun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/11-29.5x30.jpg`, width: 5.9, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -1967,7 +1967,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "家", imgname: "/2023/23-10/12-53x45.5.jpg", overview: "53x45.5cm", overview1: "布面丙烯，2023"},
+                            {order: 11, title: "家", name: "权素英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/12-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "布面丙烯, 2023"},
                         ]
                     }, 
                     {
@@ -1982,7 +1982,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "到达终点", imgname: "/2023/23-10/13-90.9x72.7.jpg", overview: "90.9x72.7cm", overview1: "布面油画，2023"},
+                            {order: 12, title: "到达终点", name: "金道勋", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/13-90.9x72.7.jpg`, width: 2.908, height: 3.636, overview: "90.9x72.7cm", overview1: "布面油画, 2023"},
                         ]
                     }, 
                     {
@@ -1997,8 +1997,8 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "深渊", imgname: "/2023/23-10/14-130.3x97.jpg", overview: "130.3x97cm", overview1: "棉绳丝绒绳乙烯基混合材料，2023"},
-                            {order: 14, title: "私人思想的森林", imgname: "/2023/23-10/15-72.7x72.7.jpg", overview: "72.7x72.7cm", overview1: "纸本水墨设色，2023"},
+                            {order: 13, title: "深渊", name: "金智勋", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/14-130.3x97.jpg`, width: 3.88, height: 5.212, overview: "130.3x97cm", overview1: "棉绳丝绒绳乙烯基混合材料, 2023"},
+                            {order: 14, title: "私人思想的森林", name: "金智勋", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/15-72.7x72.7.jpg`, width: 4.362, height: 4.362, overview: "72.7x72.7cm", overview1: "纸本水墨设色, 2023"},
                         ]
                     }, 
                     {
@@ -2013,7 +2013,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 15, title: "", imgname: "/2023/23-10/16-30x30.jpg", overview: "", overview1: ""},
+                            {order: 15, title: "", name: "沉奎峰", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/16-30x30.jpg`, width: 6, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2028,7 +2028,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 16, title: "", imgname: "/2023/23-10/17-23.4x30.jpg", overview: "", overview1: ""},
+                            {order: 16, title: "", name: "李承志", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/17-23.4x30.jpg`, width: 4.68, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2053,7 +2053,7 @@ export const allExhibits_CH = [
                             {order: 9, exhibit: "2021 Temiorae 第三届互联想象展"},
                         ],
                         paint: [
-                            {order: 17, title: "", imgname: "/2023/23-10/18-25.9x30.jpg", overview: "", overview1: ""},
+                            {order: 17, title: "", name: "林在玹", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/18-25.9x30.jpg`, width: 5.18, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2079,7 +2079,7 @@ export const allExhibits_CH = [
                             {order: 10, exhibit: "2021，东仁展会，东阳装备中心"},
                         ],
                         paint: [
-                            {order: 18, title: "", imgname: "/2023/23-10/19-21x29.jpg", overview: "21x29cm", overview1: ""},
+                            {order: 18, title: "", name: "原油", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/19-21x29.jpg`, width: 5.8, height: 4.2, overview: "21x29cm", overview1: ""},
                         ]
                     }, 
                     {
@@ -2094,7 +2094,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 19, title: "孤立的时代", imgname: "/2023/23-10/20-25.3x30.jpg", overview: "", overview1: ""},
+                            {order: 19, title: "孤立的时代", name: "郑英勋", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/20-25.3x30.jpg`, width: 5.06, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2109,8 +2109,8 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "视线1", imgname: "/2023/23-10/21-35x27.5.jpg", overview: "35x27.5cm", overview1: "布面丙烯，2023"},
-                            {order: 21, title: "视线2", imgname: "/2023/23-10/22-35x27.5.jpg", overview: "35x27.5cm", overview1: "布面丙烯，2023"},
+                            {order: 20, title: "视线1", name: "韩业进", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/21-35x27.5.jpg`, width: 2.75, height: 3.5, overview: "35x27.5cm", overview1: "布面丙烯, 2023"},
+                            {order: 21, title: "视线2", name: "韩业进", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/22-35x27.5.jpg`, width: 2.75, height: 3.5, overview: "35x27.5cm", overview1: "布面丙烯, 2023"},
                         ]
                     }, 
                     {
@@ -2125,7 +2125,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 22, title: "鸟类恐惧症", imgname: "/2023/23-10/23-45x45.jpg", overview: "45x45cm", overview1: "油画棒画布-2023"},
+                            {order: 22, title: "鸟类恐惧症", name: "洪明基", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/23-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "油画棒画布-2023"},
                         ]
                     }, 
                 ],
@@ -2165,17 +2165,17 @@ export const allExhibits_CH = [
                         ],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "诞生、考验、奇迹、爱、永生、复活", imgname: "/2023/23-11/1-71.6x72.7.jpg", overview: "310x70cm", overview1: "布面丙烯, 1997"},
-                            {order: 1, title: "诞生、考验、奇迹、爱、永生、复活", imgname: "/2023/23-11/2-71.7x72.8.jpg", overview: "310x70cm", overview1: "布面丙烯, 1997"},
-                            {order: 2, title: "复活的耶稣", imgname: "/2023/23-11/3-45x45.jpg", overview: "45x45cm", overview1: "布面丙烯, 1998"},
-                            {order: 3, title: "以利亚的祷告", imgname: "/2023/23-11/4-45x45.jpg", overview: "45x45cm", overview1: "布面丙烯, 1998"},
-                            {order: 4, title: "圣母玛利亚和马", imgname: "/2023/23-11/5-130.5x130.5.jpg", overview: "130.5x130.5cm", overview1: "画布上的混合媒体, 1995"},
-                            {order: 5, title: "95-57", imgname: "/2023/23-11/6-127x166.jpg", overview: "127x166cm", overview1: "韩纸混合材质, 1995"},
-                            {order: 6, title: "96-2", imgname: "/2023/23-11/7-117x91.jpg", overview: "117x91cm", overview1: "画布上的混合媒体, 1996"},
-                            {order: 7, title: "96-12", imgname: "/2023/23-11/8-162x130.jpg", overview: "162x130cm", overview1: "画布上的混合媒体, 1996"},
-                            {order: 8, title: "C33", imgname: "/2023/23-11/9-21x25.jpg", overview: "21x25cm", overview1: "纸上着色, 1992"},
-                            {order: 9, title: "D-107", imgname: "/2023/23-11/10-135x167.jpg", overview: "135x167cm", overview1: "与韩纸混合, 1994"},
-                            {order: 10, title: "D-139", imgname: "/2023/23-11/11-130x166.jpg", overview: "130x166cm", overview1: "韩纸混合材质, 1996"},
+                            {order: 0, title: "诞生、考验、奇迹、爱、永生、复活", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "布面丙烯, 1997"},
+                            {order: 1, title: "诞生、考验、奇迹、爱、永生、复活", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "布面丙烯, 1997"},
+                            {order: 2, title: "复活的耶稣", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/3-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "布面丙烯, 1998"},
+                            {order: 3, title: "以利亚的祷告", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/4-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "布面丙烯, 1998"},
+                            {order: 4, title: "圣母玛利亚和马", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/5-130.5x130.5.jpg`, width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "画布上的混合媒体, 1995"},
+                            {order: 5, title: "95-57", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/6-127x166.jpg`, width: 4.98, height: 3.81, overview: "127x166cm", overview1: "韩纸混合材质, 1995"},
+                            {order: 6, title: "96-2", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/7-117x91.jpg`, width: 3.64, height: 4.68, overview: "117x91cm", overview1: "画布上的混合媒体, 1996"},
+                            {order: 7, title: "96-12", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "画布上的混合媒体, 1996"},
+                            {order: 8, title: "C33", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/9-21x25.jpg`, width: 5, height: 4.2, overview: "21x25cm", overview1: "纸上着色, 1992"},
+                            {order: 9, title: "D-107", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/10-135x167.jpg`, width: 5.01, height: 4.05, overview: "135x167cm", overview1: "与韩纸混合, 1994"},
+                            {order: 10, title: "D-139", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/11-130x166.jpg`, width: 4.98, height: 3.9, overview: "130x166cm", overview1: "韩纸混合材质, 1996"},
                         ]
                     },
                 ],

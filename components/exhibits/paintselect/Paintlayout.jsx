@@ -26,7 +26,7 @@ const Paintlayout = ({children}) => {
     const router = useRouter();
     return(
         <div className="h-screen w-screen bg-Awhite">
-            <div className="w-full py-6 px-12 screen-w:py-12 screen-w:px-20 flex flex-row justify-between">
+            <div className="w-full py-4 px-12 screen-w:py-12 screen-w:px-20 flex flex-row justify-between">
                 <div className="flex flex-row"
                     onClick={async()=>router.push("/main")}
                 >
@@ -57,11 +57,11 @@ const Paintlayout = ({children}) => {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
                 </svg>
             </button>
-            <button className="absolute left-16 bottom-20 screen-w:bottom-80"
+            <button className="absolute left-16 bottom-36 screen-w:bottom-80"
                 onClick={async()=>router.push("/main")}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
-                    className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Ablack">
+                    className="w-12 h-12 screen-w:w-36 screen-w:h-36 text-Ablack">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
             </button>

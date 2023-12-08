@@ -108,7 +108,7 @@ export default function Structure() {
                     </main>
                 </div>
                 <div className="w-11/12 h-14 screen-w:h-24 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center border-opacity-30 z-10">
-                    <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2 screen-w:space-x-16 screen-w:text-4xl">
+                    <ul className="flex flex-row space-x-12 font-bold text-lg pb-2 screen-w:space-x-16 screen-w:text-4xl">
                         {inputintroData[language].map((item)=> (
                             <li
                                 key={item.title}
@@ -143,7 +143,7 @@ export default function Structure() {
                     </div>
                 </div>
                 <div className="w-11/12 h-14 screen-w:h-24 flex text-Cgrey border-b-4 border-Cgrey mx-auto justify-center border-opacity-30 z-10">
-                    <ul className="flex flex-row space-x-12 font-bold text-2xl pb-2 screen-w:space-x-16 screen-w:text-4xl">
+                    <ul className="flex flex-row space-x-12 font-bold text-lg pb-2 screen-w:space-x-16 screen-w:text-4xl">
                         {inputintroData[language].map((item)=> (
                             <li
                                 key={item.title}

@@ -102,31 +102,33 @@ const Paintcontent = () => {
             <div className="w-full flex flex-col space-y-1 screen-w:space-y-6">
                 <div
                  ref={carousel} 
-                 className={clsx(isPortrait ? "grid gap-6 grid-cols-3 w-[85%] h-[2000px] mx-auto items-center pt-72 overflow-x-auto overflow-y-hidden" : "h-2/3 w-full px-12 py-3 screen-w:pt-8 screen-w:px-16 flex flex-row overflow-x-auto overflow-y-hidden space-x-4")}>
+                 className={clsx(isPortrait 
+                 ? "grid gap-6 grid-cols-3 w-[85%] h-[2000px] mx-auto items-center pt-72 overflow-x-auto overflow-y-hidden" 
+                 : "h-2/3 w-full px-12 py-3 screen-w:pt-8 screen-w:px-16 flex flex-row overflow-x-auto overflow-y-hidden space-x-4")}>
                  {data.paint.map((item, index)=> (
                      <div
                             key={item.order} 
-                            className="h-1/2 w-1/3 screen-w:h-[750px] screen-w:w-[850px] flex flex-col">
+                            className="h-[15%] w-[15%] screen-w:h-[750px] screen-w:w-[850px] flex flex-col">
                             <div className="w-full flex justify-between p-2">
                                 <div
                                     key={item.imgname} 
                                     className="flex flex-col space-y-1 screen-w:space-y-2">
-                                    <span className="font-bold text-Ablack text-sm screen-w:text-screen-w">{item.title}</span>
+                                    <span className="font-bold text-Ablack text-sm screen-w:text-text-2xl">{item.title}</span>
                                     <span className="font-bold text-Cgrey text-xs screen-w:text-lg">{item.overview}</span>
                                     <span className="font-bold text-Cgrey text-xs screen-w:text-lg">{item.overview1}</span>
                                 </div>
                                 <span className="font-bold text-black text-3xl screen-w:text-6xl">{item.order}</span>
                             </div>
                             <div className="h-[1px] w-full bg-Cpurple mb-3"/>
-                            <div className="relative group w-[850px] h-5/6">
+                            <div className="relative group w-full screen-w:w-[850px] h-5/6">
                                 <img 
-                                    className={clsx(`shadow-xl flex mx-auto ${index === current ? "border-4 border-Awhite" : null}`)}
+                                    className={clsx(`shadow-xl flex mx-auto h-[200px] w-[200px] screen-w:h-max screen-w:w-max ${index === current ? "border-4 border-Awhite" : null}`)}
                                     // src={`/img/exhibitpage/paintings/${item.imgname}`}
                                     src={`${item.imgname}`}
                                     alt="paintings"
                                     onClick={()=>router.push(`/artist/paint/viewpage/${item.order}?order=${order}&year=${pid}`)}
                                 />
-                                <div className="absolute h-20 screen-w:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0"
+                                <div className="absolute h-16 screen-w:h-28 w-full bg-Ablack bg-opacity-50 bottom-0 left-0"
                                     onClick={()=>router.push(`/artist/paint/viewpage/${item.order}?order=${order}&year=${pid}`)}
                                 >
                                     <div className="flex justify-between p-4 screen-w:p-6">

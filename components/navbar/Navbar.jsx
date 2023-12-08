@@ -576,7 +576,7 @@ const Navbar = ({ url, sign }) => {
             className={clsx(
               isPortrait
                 ? "flex flex-col h-[60%] w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-[700px] space-y-4 screen-w:space-y-6"
-                : "flex flex-col h-3/4 w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-60 space-y-4 screen-w:space-y-6"
+                : "flex flex-col h-3/4 w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 screen-w:mt-60 space-y-4 screen-w:space-y-6"
             )}
           >
             <span className="text-xl screen-w:text-6xl text-black font-bold mt-4 screen-w:mt-6">

@@ -106,7 +106,7 @@ const Artistlayout = ({children}) => {
                 <div className={clsx(isPortrait ? "flex flex-col w-full h-5/6 mx-auto space-y-4 screen-w:space-y-8 screen-w:pt-28" : "flex flex-row w-full h-5/6 mx-auto space-x-4 screen-w:space-x-8")}>
                     <div className={clsx(isPortrait ? "w-full h-1/3 justify-center items-center" : "w-1/3 h-full justify-center items-center")}>
                         <img 
-                            className="flex mx-auto border-4 border-Awhite"
+                            className="flex mx-auto border-4 border-Awhite h-[400px] w-[400px] screen-w:h-max screen-w:w-max"
                             // src={`/img/exhibitpage/artists/${artist.imgname}`}
                             src={`${artist.imgname}`}
                             alt="artists"
@@ -167,11 +167,11 @@ const Artistlayout = ({children}) => {
                                             {item === artist ? "" : <><div className="h-[0.5px] w-12 screen-w:h-[1px] screen-w:w-32 bg-Ablue" />
                                             <span className="text-Agrey text-md screen-w:text-5xl mb-2">{name}</span></>}
                                                 <div 
-                                                    className={item === artist ? "h-[650px] w-[650px]" : "h-[600px] w-[600px]"}
+                                                    className={item === artist ? "h-[200px] w-[200px] screen-w:h-[650px] screen-w:w-[650px]" : "h-[200px] w-[200px] screen-w:h-[600px] screen-w:w-[600px]"}
                                                     onClick={()=> setArtist(item)}
                                                 >
                                                 <img 
-                                                    className={item === artist ? "border-4 border-Awhite rounded-lg" : "rounded-lg"}
+                                                    className={item === artist ? "border-4 border-Awhite rounded-lg h-[200px] w-[200px] screen-w:h-max screen-w:w-max" : "rounded-lg h-[200px] w-[200px] screen-w:h-max screen-w:w-max"}
                                                     // src={`/img/exhibitpage/artists/${item.imgname}`}
                                                     src={`${item.imgname}`}
                                                     alt="artist"
@@ -194,11 +194,11 @@ const Artistlayout = ({children}) => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
                     </svg>
                 </button>
-                <button className="absolute bottom-20 left-16 screen-w:bottom-80"
+                <button className="absolute bottom-36 left-16 screen-w:bottom-80"
                     onClick={()=>router.push("/main")}
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
-                        className="w-16 h-16 screen-w:w-36 screen-w:h-36 text-Ablack">
+                        className="w-12 h-12 screen-w:w-36 screen-w:h-36 text-Ablack">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                     </svg>
                 </button>

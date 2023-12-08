@@ -29,21 +29,21 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Lullaby in the Garden", imgname: "/2023/23-1/1-50x150.png", overview: "50x150cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 1, title: "Pink Muhly", imgname: "/2023/23-1/2-70x70.jpg", overview: "70x70cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 2, title: "My Little Garden", imgname: "/2023/23-1/3-90x90.jpg", overview: "90x90cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 3, title: "Rainbow Prince", imgname: "/2023/23-1/4-40x30.png", overview: "40x30cm", overview1: "Gouache and pencil on paper, 2022"},
-                            {order: 4, title: "Brave Duckling in the Rain", imgname: "/2023/23-1/5-40x40.png", overview: "40x40cm", overview1: "Gouache and pencil on paper, 2022"},
-                            {order: 5, title: "Pink Muhly Chestnut 22-2", imgname: "/2023/23-1/6-50x40.jpg", overview: "50x40cm", overview1: "Gouache on paper, 2022"},
-                            {order: 6, title: "Star Picking Night", imgname: "/2023/23-1/7-162x520.png", overview: "162x520cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 7, title: "Star Picking Night 1", imgname: "/2023/23-1/8-162x130.jpg", overview: "162x520cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 8, title: "Star Gathering Night 2", imgname: "/2023/23-1/9-162x130.jpg", overview: "162x520cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 9, title: "Stargazing Night 3", imgname: "/2023/23-1/10-162x130.jpg", overview: "162x520cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 10, title: "Stargazing Night 4", imgname: "/2023/23-1/11-162x130.jpg", overview: "162x520cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 11, title: "Good Night My Dear", imgname: "/2023/23-1/12-200x200.png", overview: "200x200cm", overview1: "Gouache and pencil on paper, 2022"},
-                            {order: 12, title: "Camellia Garden II", imgname: "/2023/23-1/13-90x90.png", overview: "90x90cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 13, title: "Nameless Garden", imgname: "/2023/23-1/14-40x40.png", overview: "40x40cm", overview1: "Zhangjie gouache, 2019"},
-                            {order: 14, title: "Nameless Garden II", imgname: "/2023/23-1/15-180x260.png", overview: "180x260cm", overview1: "Zhangjie gouache, 2015"},
+                            {order: 0, title: "Lullaby in the Garden", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/1-50x150.png`, width: 7.5, height: 2.5, overview: "50x150cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 1, title: "Pink Muhly", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/2-70x70.jpg`, width: 4.2, height: 4.2, overview: "70x70cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 2, title: "My Little Garden", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/3-90x90.jpg`, width: 5.6, height: 5.6, overview: "90x90cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 3, title: "Rainbow Prince", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/4-40x30.png`, width: 3.3, height: 4.4, overview: "40x30cm", overview1: "Gouache and pencil on paper, 2022"},
+                            {order: 4, title: "Brave Duckling in the Rain", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/5-40x40.png`, width: 4.4, height: 4.4, overview: "40x40cm", overview1: "Gouache and pencil on paper, 2022"},
+                            {order: 5, title: "Pink Muhly Chestnut 22-2", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/6-50x40.jpg`, width: 4, height: 5, overview: "50x40cm", overview1: "Gouache on paper, 2022"},
+                            {order: 6, title: "Star Picking Night", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/7-162x520.png`, width: 5.2, height: 1.62, overview: "162x520cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 7, title: "Star Picking Night 1", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x520cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 8, title: "Star Gathering Night 2", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/9-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x520cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 9, title: "Stargazing Night 3", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/10-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x520cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 10, title: "Stargazing Night 4", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/11-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x520cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 11, title: "Good Night My Dear", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/12-200x200.png`, width: 4, height: 4, overview: "200x200cm", overview1: "Gouache and pencil on paper, 2022"},
+                            {order: 12, title: "Camellia Garden II", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/13-90x90.png`, width: 5.6, height: 5.6, overview: "90x90cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 13, title: "Nameless Garden", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/14-40x40.png`, width: 4, height: 4, overview: "40x40cm", overview1: "Zhangjie gouache, 2019"},
+                            {order: 14, title: "Nameless Garden II", name: "Goun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-1/15-180x260.png`, width: 5.2, height: 3.6, overview: "180x260cm", overview1: "Zhangjie gouache, 2015"},
                         ]
                     }
                 ],
@@ -98,7 +98,7 @@ export const allExhibits_ENG = [
                             {order: 22, exhibit: "1984~1991 Contemporary Art Invitational Exhibition / National Museum of Modern and Contemporary Art, Gwacheon"},
                         ],
                         paint: [
-                            {order: 0, title: "Layer of Light - Relationship 2022-601", imgname: "/2023/23-2/1-130.3x97.jpg", overview: "130.3x97", overview1: "Acrylic on canvas, 2022"},
+                            {order: 0, title: "Layer of Light - Relationship 2022-601", name: "Jai-Kwan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/1-130.3x97.jpg`, width: 5.212, height: 3.88, overview: "130.3x97", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -113,7 +113,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "Afterimage of the Forest 2022-4", imgname: "/2023/23-2/2-91x91.jpg", overview: "91x91cm", overview1: "Mixed materials on canvas, 2022"} ,
+                            {order: 1, title: "Afterimage of the Forest 2022-4", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/2-91x91.jpg`, width: 5.46, height: 5.46, overview: "91x91cm", overview1: "Mixed materials on canvas, 2022"} ,
                         ]
                     },
                     {
@@ -128,7 +128,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "ACCEPT", imgname: "/2023/23-2/3-65.2x182.jpg", overview: "65.2x182cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 2, title: "ACCEPT", name: "YeonHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/3-65.2x182.jpg`, width: 7.28, height: 2.608, overview: "65.2x182cm", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -143,7 +143,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "Pattern-Circle 2", imgname: "/2023/23-2/4-184x93.jpg", overview: "184x93cm", overview1: "Acrylic on paper, 1997"},
+                            {order: 3, title: "Pattern-Circle 2", name: "YoungBae Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/4-184x93.jpg`, width: 3.72, height: 5.52, overview: "184x93cm", overview1: "Acrylic on paper, 1997"},
                         ]
                     },
                     {
@@ -176,7 +176,7 @@ export const allExhibits_ENG = [
                             {order: 10, exhibit: "2016 Seoul Photo Festival-A letter written in ten sentences (Mullae Art Village, Seoul)"},
                         ],
                         paint: [                            
-                            {order: 4, title: "Unreachable point, invisible viewpoint - Yeosu (Korea)", imgname: "/2023/23-2/5-130x130.jpg", overview: "130x130cm", overview1: "Canvas in charcoal, 2019"},
+                            {order: 4, title: "Unreachable point, invisible viewpoint - Yeosu (Korea)", name: "Jaenam Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/5-130x130.jpg`, width: 5.2, height: 5.2, overview: "130x130cm", overview1: "Canvas in charcoal, 2019"},
                         ]
                     },
                     {
@@ -191,7 +191,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "Shimmery", imgname: "/2023/23-2/6-49x33.jpg", overview: "49x33cm", overview1: "Ink, color, silver powder on rice paper, 2019"},
+                            {order: 5, title: "Shimmery", name: "JinMyoung Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/6-49x33.jpg`, width: 4.9, height: 3.3, overview: "49x33cm", overview1: "Ink, color, silver powder on rice paper, 2019"},
                         ]
                     },
                     {
@@ -206,7 +206,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [                         
-                            {order: 6, title: "Haggard shape of agony1", imgname: "/2023/23-2/7-100x140.jpg", overview: "100x140cm", overview1: "Print & Fine Art Velvet, 2021" },
+                            {order: 6, title: "Haggard shape of agony1", name: "Jaeboon Shim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/7-100x140.jpg`, width: 5.6, height: 4, overview: "100x140cm", overview1: "Print & Fine Art Velvet, 2021" },
                         ]
                     },
                     {
@@ -221,7 +221,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "Pond Story", imgname: "/2023/23-2/8-60x60.jpg", overview: "60x60cm", overview1: "Mix-Color Korean paper reied on panel, 2009"} ,
+                            {order: 7, title: "Pond Story", name: "Hongwon Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/8-60x60.jpg`, width: 5.4, height: 5.4, overview: "60x60cm", overview1: "Mix-Color Korean paper reied on panel, 2009"} ,
                         ]
                     },
                     {
@@ -266,7 +266,7 @@ export const allExhibits_ENG = [
                             {order: 11, exhibit: "Pieces of Times Exhibition (Terminal Small Art Museum, Jeongseon)"},
                         ],
                         paint: [
-                            {order: 8, title: "Mutation", imgname: "/2023/23-2/9-72.7x91.jpg", overview: "72.9x91cm", overview1: "water acrylic on canvas, 2015"},                        
+                            {order: 8, title: "Mutation", name: "Eunsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/9-72.7x91.jpg`, width: 4.55, height: 3.645, overview: "72.9x91cm", overview1: "water acrylic on canvas, 2015"},                        
                         ]
                     },
                     {
@@ -281,7 +281,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [                           
-                            {order: 9, title: "It", imgname: "/2023/23-2/10-160x30.jpg", overview: "160x30cm", overview1: "Acrylic paint, wire mesh, etc. wooden colored paper, 2021"},
+                            {order: 9, title: "It", name: "NyeonIl Jun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/10-160x30.jpg`, width: 0.9, height: 4.8, overview: "160x30cm", overview1: "Acrylic paint, wire mesh, etc. wooden colored paper, 2021"},
                         ]
                     },
                     {
@@ -296,7 +296,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "Freedom trail 324", imgname: "/2023/23-2/11-88.5x138.5.jpg", overview: "88.5x138.5cm", overview1: "Hanji ink, 2022" },
+                            {order: 10, title: "Freedom trail 324", name: "MyeongHee Chung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/11-88.5x138.5.jpg`, width: 5.54, height: 3.54, overview: "88.5x138.5cm", overview1: "Hanji ink, 2022" },
                         ]
                     },
                     {
@@ -311,7 +311,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "Unknown time 2015", imgname: "/2023/23-2/12-116.8x91.jpg", overview: "116.8x91cm", overview1: "Acrylic on canvs, 2015"},
+                            {order: 11, title: "Unknown time 2015", name: "HyunAe Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/12-116.8x91.jpg`, width: 3.94, height: 4.672, overview: "116.8x91cm", overview1: "Acrylic on canvs, 2015"},
                         ]
                     },
                     {
@@ -326,7 +326,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "Borderline between 17-3001", imgname: "/2023/23-2/13-130x489.jpg", overview: "130x489cm", overview1: "Acrylic on canvas, 2017"},
+                            {order: 12, title: "Borderline between 17-3001", name: "Mingun Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-2/13-130x489.jpg`, width: 4.89, height: 1.3, overview: "130x489cm", overview1: "Acrylic on canvas, 2017"},
                         ]
                     },
                 ],
@@ -369,8 +369,8 @@ export const allExhibits_ENG = [
                             {order: 6, exhibit: "2019 <Empty Space and Box> Empty Space, Cheongju"},
                         ],
                         paint: [
-                            {order: 0, title: "SCENE_R2", imgname: "/2023/23-3/1-53x33.4.jpg", overview: "53x33.4", overview1: "Acrylic on canvas, 2022"},
-                            {order: 1, title: "Disappeared Landscape", imgname: "/2023/23-3/2-116.8x72.7.jpg", overview: "116.8x72.7", overview1: "Acrylic on canvas, 2022" },
+                            {order: 0, title: "SCENE_R2", name: "Haebin Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/1-53x33.4.jpg`, width: 3.34, height: 5.3, overview: "53x33.4", overview1: "Acrylic on canvas, 2022"},
+                            {order: 1, title: "Disappeared Landscape", name: "Haebin Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/2-116.8x72.7.jpg`, width: 2.908, height: 4.672, overview: "116.8x72.7", overview1: "Acrylic on canvas, 2022" },
                         ]
                     },
                     {
@@ -413,7 +413,7 @@ export const allExhibits_ENG = [
                             {order: 23, exhibit: "2015 “Real Young Artist” Schema Museum of Art, Cheongju"},
                         ],
                         paint: [                            
-                            {order: 2, title: "Because there is nothing", imgname: "/2023/23-3/3-72.7x60.6.jpg", overview: "72.7x60.6cm", overview1: "Oil on canvas, 2023" },
+                            {order: 2, title: "Because there is nothing", name: "Gyusun Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/3-72.7x60.6.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "Oil on canvas, 2023" },
                         ]
                     },
                     {
@@ -464,8 +464,8 @@ export const allExhibits_ENG = [
                             {order: 25, exhibit: "People call these things novels. Third Place, Seoul and many others participated"},
                         ],
                         paint: [
-                            {order: 3, title: "Pretending to stay still", imgname: "/2023/23-3/4-60x72.jpg", overview: "60x72cm", overview1: "Coloring on paper, 2022"},
-                            {order: 4, title: "Treasure Hunt", imgname: "/2023/23-3/5-72x60.jpg", overview: "72x60cm", overview1: "Coloring on paper, 2022"},
+                            {order: 3, title: "Pretending to stay still", name: "Minah-Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/4-60x72.jpg`, width: 4.32, height: 3.6, overview: "60x72cm", overview1: "Coloring on paper, 2022"},
+                            {order: 4, title: "Treasure Hunt", name: "Minah-Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/5-72x60.jpg`, width: 3.6, height: 4.32, overview: "72x60cm", overview1: "Coloring on paper, 2022"},
                         ]
                     },
                     {
@@ -510,8 +510,8 @@ export const allExhibits_ENG = [
                             {order: 23, exhibit: "2006 ‘You Creator Selection Exhibition’ Art Sonje Center, Seoul"},
                         ],
                         paint: [
-                            {order: 5, title: "Small stone pagoda", imgname: "/2023/23-3/6-45.5x37.9.jpg", overview: "45.5x37.9cm", overview1: "Bunchae on Jangji, 2021"},
-                            {order: 6, title: "Ember01", imgname: "/2023/23-3/7-45.5x37.9.jpg", overview: "45.5x37.9cm", overview1: "Bunchae on Jangji, 2021"},
+                            {order: 5, title: "Small stone pagoda", name: "MinJeong Seo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/6-45.5x37.9.jpg`, width: 3.79, height: 4.55, overview: "45.5x37.9cm", overview1: "Bunchae on Jangji, 2021" },
+                            {order: 6, title: "Ember01", name: "MinJeong Seo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-3/7-45.5x37.9.jpg`, width: 3.79, height: 4.55, overview: "45.5x37.9cm", overview1: "Bunchae on Jangji, 2021"},
                         ]
                     },
                 ],
@@ -568,11 +568,11 @@ export const allExhibits_ENG = [
                             {order: 24, exhibit: "2016 Suncheon Bay International Environmental Art Festival (Suncheon Bay National Garden Art Museum, Suncheon)"},
                         ],
                         paint: [                        
-                            {order: 0, title: "Reminisce", imgname: "/2023/23-4/1-56x78.jpg", overview: "56x78cm", overview1: "Acrylic on paper, 2021"},
-                            {order: 1, title: "Time Travel", imgname: "/2023/23-4/2-52x76.jpg", overview: "52x76cm", overview1: "Acrylic on paper, 2021"},
-                            {order: 2, title: "Pilgrim", imgname: "/2023/23-4/3-52x79.jpg", overview: "52x79cm", overview1: "Acrylic on paper, 2016"},
-                            {order: 3, title: "Over the there", imgname: "/2023/23-4/4-76x52.jpg", overview: "76x52cm", overview1: "Acrylic on paper, 2021"},
-                            {order: 4, title: "Gathering, Istanbul Restaurant", imgname: "/2023/23-4/5-102.4x68.4.jpg", overview: "", overview1: "2017"},
+                            {order: 0, title: "Reminisce", name: "HyoSung Pang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/1-56x78.jpg`, width: 4.68, height: 3.36, overview: "56x78cm", overview1: "Acrylic on paper, 2021"},
+                            {order: 1, title: "Time Travel", name: "HyoSung Pang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/2-52x76.jpg`, width: 4.56, height: 3.12, overview: "52x76cm", overview1: "Acrylic on paper, 2021"},
+                            {order: 2, title: "Pilgrim", name: "HyoSung Pang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/3-52x79.jpg`, width: 4.74, height: 3.64, overview: "52x79cm", overview1: "Acrylic on paper, 2016"},
+                            {order: 3, title: "Over the there", name: "HyoSung Pang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/4-76x52.jpg`, width: 5.32, height: 3.64, overview: "76x52cm", overview1: "Acrylic on paper, 2021"},
+                            {order: 4, title: "Gathering, Istanbul Restaurant", name: "HyoSung Pang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-4/5-102.4x68.4.jpg`, width: 3.84, height: 5.12, overview: "", overview1: "2017"},
                         ]
                     },
                 ],
@@ -594,8 +594,8 @@ export const allExhibits_ENG = [
                         order: 0, 
                         number: "01",
                         title:"《10th Cheongju International Contemporary Art Exhibition》-Retrospective of the 2023 Cheongju International Contemporary Art Decade and prospects for a new future",
-                        name: "JaiKwan Kim", 
-                        engname: "JaiKwan Kim",
+                        name: "Jai-Kwan Kim", 
+                        engname: "Jai-Kwan Kim",
                         imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-5/23-5-1.png`, 
                         text: "",
                         education: "Graduated from the Department of Western Painting at Hongik University with a master's degree and obtained a doctorate in fine arts from the same university.",
@@ -627,7 +627,7 @@ export const allExhibits_ENG = [
                             {order: 22, exhibit: "1984~1991 Contemporary Art Invitational Exhibition / National Museum of Modern and Contemporary Art, Gwacheon"},
                         ],
                         paint: [
-                            {order: 0, title: "Deviation from Grid 2021-2001", imgname: "/2023/23-5/1-180x90.jpg", overview: "180x90cm", overview1: "Acrylic + Acrylic Mirror on Plywood, 2021"},
+                            {order: 0, title: "Deviation from Grid 2021-2001", name: "Jai-Kwan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/1-180x90.jpg`, width: 3.6, height: 7.2, overview: "180x90cm", overview1: "Acrylic + Acrylic Mirror on Plywood, 2021"},
                         ]
                     },
                     {
@@ -644,7 +644,7 @@ export const allExhibits_ENG = [
                         group_exhibition: [
                         ],
                         paint: [
-                            {order: 1, title: "Thing_Rock 23-012", imgname: "/2023/23-5/2-163.3x97.2.jpg", overview: "163.3x97.2cm", overview1: "Acrylic on Canvas, 2023"},
+                            {order: 1, title: "Thing_Rock 23-012", name: "Jeonghee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/2-163.3x97.2.jpg`, width: 6.52, height: 3.888, overview: "163.3x97.2cm", overview1: "Acrylic on Canvas, 2023"},
                         ]
                     },
                     {
@@ -677,7 +677,7 @@ export const allExhibits_ENG = [
                             {order: 10, exhibit: "2016 Seoul Photo Festival-A letter written in ten sentences (Mullae Art Village, Seoul)"},
                         ],
                         paint: [
-                            {order: 2, title: "34°3510.1N-127°3338.6E-Apostle", imgname: "/2023/23-5/3-91x91.jpg", overview: "91x91cm", overview1: "Acrylic on Canvas , 2022"},
+                            {order: 2, title: "34°3510.1N-127°3338.6E-Apostle", name: "JaeNam Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/3-91x91.jpg`, width: 3.64, height: 3.64, overview: "91x91cm", overview1: "Acrylic on Canvas , 2022"},
                         ]
                     },
                     {
@@ -719,7 +719,7 @@ export const allExhibits_ENG = [
                             {order: 24, exhibit: "2016 Suncheon Bay International Environmental Art Festival (Suncheon Bay National Garden Art Museum, Suncheon)"},
                         ],
                         paint: [
-                            {order: 3, title: "Modern Man's Bible", imgname: "/2023/23-5/4-31x37.jpg", overview: "31x37x30cm", overview1: "Book submerged in water, glass box, three-dimensional installation, 2023"},                        
+                            {order: 3, title: "Modern Man's Bible", name: "HyoSung Pang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/4-31x37.jpg`, width: 4.07, height: 3.41, overview: "31x37x30cm", overview1: "Book submerged in water, glass box, three-dimensional installation, 2023"},                        
                         ]
                     },
                     {
@@ -734,7 +734,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 4, title: "Father Jeon Sang-seo_Letters to parents", imgname: "/2023/23-5/5-210x140.jpg", overview: "210x140cm", overview1: "Sewing on fabric, panel, 2017- 2019"},
+                            {order: 4, title: "Father Jeon Sang-seo_Letters to parents", name: "Ik Gyu Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/5-210x140.jpg`, width: 2.8, height: 4.2, overview: "210x140cm", overview1: "Sewing on fabric, panel, 2017- 2019"},
                         ]
                     },
                     {
@@ -749,7 +749,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "Dragonfly and Fractals", imgname: "/2023/23-5/6-58x85.jpg", overview: "58x85cm", overview1: "Copper Plate, 2021"},
+                            {order: 5, title: "Dragonfly and Fractals", name: "Sang Wook Moon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/6-58x85.jpg`, width: 5.1, height: 3.48, overview: "58x85cm", overview1: "Copper Plate, 2021"},
                         ]
                     },
                     {
@@ -794,7 +794,7 @@ export const allExhibits_ENG = [
                             {order: 11, exhibit: "Pieces of Times Exhibition (Terminal Small Art Museum, Jeongseon)"},
                         ],
                         paint: [                           
-                            {order: 6, title: "Mutation", imgname: "/2023/23-5/7-45x65.jpg", overview: "45x65cm", overview1: "Paint drawing on Korean paper 5 Pieces, animal bone, feather, 2023 "},
+                            {order: 6, title: "Mutation", name: "Eun Soo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/7-45x65.jpg`, width: 5.85, height: 4.05, overview: "45x65cm", overview1: "Paint drawing on Korean paper 5 Pieces, animal bone, feather, 2023 "},
                         ]
                     },
                     {
@@ -809,7 +809,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "Memory Gap-delight I", imgname: "/2023/23-5/8-147x147.jpg", overview: "147x147cm", overview1: "Mixed media on Korean Paper, 2021"},
+                            {order: 7, title: "Memory Gap-delight I", name: "Yoon Hee Suh", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/8-147x147.jpg`, width: 4.41, height: 4.41, overview: "147x147cm", overview1: "Mixed media on Korean Paper, 2021"},
                         ]
                     },
                     {
@@ -824,7 +824,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "Hope of the Earth", imgname: "/2023/23-5/9-75x75.jpg", overview: "75x75cm", overview1: "Fine Art Velvet, 2023"},
+                            {order: 8, title: "Hope of the Earth", name: "Jae Bun Sim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/9-75x75.jpg`, width: 3.75, height: 3.75, overview: "75x75cm", overview1: "Fine Art Velvet, 2023"},
                         ]
                     },
                     {
@@ -839,7 +839,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "Untitled", imgname: "/2023/23-5/10-24x20.jpg", overview: "24x20cm", overview1: "Metal CNC sculpture, Art Stick on Hanji, 2018"},
+                            {order: 9, title: "Untitled", name: "Eun Young Heo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/10-24x20.jpg`, width: 4, height: 4.8, overview: "24x20cm", overview1: "Metal CNC sculpture, Art Stick on Hanji, 2018"},
                         ]
                     },
                     {
@@ -854,7 +854,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "Indonesian Jaran Kepang Flat horse", imgname: "/2023/23-5/11-63x93.jpg", overview: "63x93cm", overview1: "Colour Wood cut Printon Hanji Paper, 2023 Netherlands"},
+                            {order: 10, title: "Indonesian Jaran Kepang Flat horse", name: "Jessy Rahman", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/11-63x93.jpg`, width: 4.65, height: 3.15, overview: "63x93cm", overview1: "Colour Wood cut Printon Hanji Paper, 2023 Netherlands"},
                         ]
                     },
                     {
@@ -869,7 +869,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "Scrap 1", imgname: "/2023/23-5/12-70x60.jpg", overview: "70x60cm", overview1: "Acrylic on Canvas, 2023 Netherlands"},
+                            {order: 11, title: "Scrap 1", name: "Pietertje van Splunter", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/12-70x60.jpg`, width: 3.6, height: 4.2, overview: "70x60cm", overview1: "Acrylic on Canvas, 2023 Netherlands"},
                         ]
                     },
                     {
@@ -884,7 +884,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "The game of percentage %", imgname: "/2023/23-5/13-29.7x21.jpg", overview: "29.7x21cm", overview1: "Mix medium on Paper, 8 piece, 2019, India"},
+                            {order: 12, title: "The game of percentage %", name: "Ajitvar Kumar Douglas", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/13-29.7x21.jpg`, width: 3.15, height: 4.455, overview: "29.7x21cm", overview1: "Mix medium on Paper, 8 piece, 2019, India"},
                         ]
                     },
                     {
@@ -899,7 +899,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "Embracing Social Consciousness", imgname: "/2023/23-5/14-55.2x91.4.jpg", overview: "55.2x91.4cm", overview1: "Photo(Print), 2023, India"},
+                            {order: 13, title: "Embracing Social Consciousness", name: "Ravi Ranjan", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/14-55.2x91.4.jpg`, width: 5.484, height: 3.312, overview: "55.2x91.4cm", overview1: "Photo(Print), 2023, India"},
                         ]
                     },
                     {
@@ -914,7 +914,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "Over Think", imgname: "/2023/23-5/15-37x60.jpg", overview: "37x60cm", overview1: "2022 Installation Photo(Print), 2023, Thailand"},
+                            {order: 14, title: "Over Think", name: "Thawatchai Changkwien", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/15-37x60.jpg`, width: 6, height: 3.7, overview: "37x60cm", overview1: "2022 Installation Photo(Print), 2023, Thailand"},
                         ]
                     },
                     {
@@ -929,7 +929,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 15, title: "Shuffle off", imgname: "/2023/23-5/16-15x13.jpg", overview: "15x13x26cm", overview1: "Yellow ropes in Buddhist image from, 2023, Thailand"},
+                            {order: 15, title: "Shuffle off", name: "Kongsak Gulglangdon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/16-15x13.jpg`, width: 3.9, height: 4.5, overview: "15x13x26cm", overview1: "Yellow ropes in Buddhist image from, 2023, Thailand"},
                         ]
                     },
                     {
@@ -969,7 +969,7 @@ export const allExhibits_ENG = [
                             {order: 13, exhibit: "2019 “Secrets of the Brain”, Beijing"},
                         ],
                         paint: [
-                            {order: 16, title: "3149-Cangxin Behavior", imgname: "/2023/23-5/17-120x180.png", overview: "120x180cm", overview1: "Performance Photo 2015, Print 2023, China"},
+                            {order: 16, title: "3149-Cangxin Behavior", name: "Cang Xin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/17-120x180.png`, width: 5.4, height: 3.6, overview: "120x180cm", overview1: "Performance Photo 2015, Print 2023, China"},
                         ]
                     },
                     {
@@ -984,7 +984,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 17, title: "Insect portrait NO3", imgname: "/2023/23-5/18-120x100.png", overview: "120x100cm", overview1: "Oil on Canvas, 2023, China"},
+                            {order: 17, title: "Insect portrait NO3", name: "Chen Gang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/18-120x100.png`, width: 4, height: 4.8, overview: "120x100cm", overview1: "Oil on Canvas, 2023, China"},
                         ]
                     },
                     {
@@ -999,7 +999,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "Grid", imgname: "/2023/23-5/19-162x112.jpg", overview: "162x112cm", overview1: "Acrylic on Canvas, 2021, Japan"},
+                            {order: 18, title: "Grid", name: "Hasegawa Ichirou", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/19-162x112.jpg`, width: 4.48, height: 4.86, overview: "162x112cm", overview1: "Acrylic on Canvas, 2021, Japan"},
                         ]
                     },
                     {
@@ -1055,7 +1055,7 @@ export const allExhibits_ENG = [
                             {order: 35, exhibit: "“Seki Gyogo Relative Landscape” Gallery Mok (Chiba), etc."},
                         ],
                         paint: [
-                            {order: 19, title: "Landscape of Atmosphere", imgname: "/2023/23-5/20-108x94.5.jpg", overview: "108x94.5cm", overview1: "Mixed media on Japanese Paper, 2023, Japan"},
+                            {order: 19, title: "Landscape of Atmosphere", name: "Uno Kazuyuki", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/20-108x94.5.jpg`, width: 3.78, height: 4.32, overview: "108x94.5cm", overview1: "Mixed media on Japanese Paper, 2023, Japan"},
                         ]
                     },
                     {
@@ -1095,7 +1095,7 @@ export const allExhibits_ENG = [
                             {order: 17, exhibit: "1994 Ceci n’est pas une pomme, Contemporary Belgian Art, Foundation Carlos de Amberes, Madrid, Spain"},
                         ],
                         paint: [
-                            {order: 20, title: "", imgname: "/2023/23-5/21-80x181.jpg", overview: "80x181cm", overview1: "Acrylic color on camouflage Canvas, 2023, Bosnia"},
+                            {order: 20, title: "", name: "Jusuf Hadžifejzović", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-5/21-80x181.jpg`, width: 5.43, height: 2.4, overview: "80x181cm", overview1: "Acrylic color on camouflage Canvas, 2023, Bosnia"},
                         ]
                     },
                 ],
@@ -1125,7 +1125,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Lies", imgname: "/2023/23-6/1-130.3x162.2.jpeg", overview: "130.3x162.2cm", overview1: "Oil on canvas, 2022"} ,
+                            {order: 0, title: "Lies", name: "Myeong Hwe Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/1-130.3x162.2.jpeg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Oil on canvas, 2022"} ,
                         ]
                     },
                     {
@@ -1140,7 +1140,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "interaction RD", imgname: "/2023/23-6/2-72.2.x50.jpg", overview: "72.2x50cm", overview1: "Mother-of-pearl, Hemp cloth and ottchil on wood panel, 2021"},
+                            {order: 1, title: "interaction RD", name: "Roi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/2-72.2.x50.jpg`, width: 4, height: 5.776, overview: "72.2x50cm", overview1: "Mother-of-pearl, Hemp cloth and ottchil on wood panel, 2021"},
                         ]
                     },
                     {
@@ -1155,7 +1155,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "Afterimage of the Forest 2022", imgname: "/2023/23-6/3-116.8x91.jpg", overview: "116.8x91cm", overview1: "Mixed materials on canvas, 2022"} ,
+                            {order: 2, title: "Afterimage of the Forest 2022", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/3-116.8x91.jpg`, width: 4.55, height: 5.84, overview: "116.8x91cm", overview1: "Mixed materials on canvas, 2022"} ,
                         ]
                     },
                     {
@@ -1170,7 +1170,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "rest comfort", imgname: "/2023/23-6/4-140x80.jpg", overview: "140x80cm", overview1: "Korean paper, 2019"},
+                            {order: 3, title: "rest comfort", name: "YoungRan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/4-140x80.jpg`, width: 4, height: 5.6, overview: "140x80cm", overview1: "Korean paper, 2019"},
                         ]
                     },
                     {
@@ -1210,7 +1210,7 @@ export const allExhibits_ENG = [
                             {order: 22, exhibit: "1984~1991 Contemporary Art Invitational Exhibition / National Museum of Modern and Contemporary Art, Gwacheon"},
                         ],
                         paint: [
-                            {order: 4, title: "Agencement-Light & Color 2022-501", imgname: "/2023/23-6/5-91x116.8.jpg", overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 4, title: "Agencement-Light & Color 2022-501", name: "JaiKwan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/5-91x116.8.jpg`, width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -1225,7 +1225,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "Our work", imgname: "/2023/23-6/6-168x55.jpg", overview: "168x55cm", overview1: "Fabric needlework, 2023"},
+                            {order: 5, title: "Our work", name: "YooJin Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/6-168x55.jpg`, width: 2.2, height: 6.72, overview: "168x55cm", overview1: "Fabric needlework, 2023"},
                         ]
                     },
                     {
@@ -1240,7 +1240,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "That... spring", imgname: "/2023/23-6/7-110x80.jpg", overview: "110x80cm", overview1: "Ink on paper, gouache, 2023"} ,
+                            {order: 6, title: "That... spring", name: "JinMyeong Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/7-110x80.jpg`, width: 4, height: 5.5, overview: "110x80cm", overview1: "Ink on paper, gouache, 2023"} ,
                         ]
                     },
                     {
@@ -1255,7 +1255,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "Thoughts on Thoughts 1", imgname: "/2023/23-6/8-30x30.png", overview: "30x30cm", overview1: "Fine Art Velvet Photo Print, 2023"} ,
+                            {order: 7, title: "Thoughts on Thoughts 1", name: "Jae Bun Sim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/8-30x30.png`, width: 3.6, height: 3.6, overview: "30x30cm", overview1: "Fine Art Velvet Photo Print, 2023"} ,
                         ]
                     },
                     {
@@ -1270,7 +1270,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "Black Wall", imgname: "/2023/23-6/9-33.4x24.2.jpg", overview: "33.4x24.2cm", overview1: "Oil on canvas, 2021" },
+                            {order: 8, title: "Black Wall", name: "Seung Eun Oh", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/9-33.4x24.2.jpg`, width: 2.904, height: 4.008, overview: "33.4x24.2cm", overview1: "Oil on canvas, 2021" },
                         ]
                     },
                     {
@@ -1285,7 +1285,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "untitled", imgname: "/2023/23-6/10-145.5x112.1.png", overview: "145.5x112.1cm", overview1: "Installation, 2023"},
+                            {order: 9, title: "untitled", name: "Urakawa Azuko", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/10-145.5x112.1.png`, width: 4.484, height: 5.82, overview: "145.5x112.1cm", overview1: "Installation, 2023"},
                         ]
                     },
                     {
@@ -1300,7 +1300,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "Dream Fruit", imgname: "/2023/23-6/11-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "Acrylic on canvas, 2023"},
+                            {order: 10, title: "Dream Fruit", name: "KyungHwa Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/11-60.6x72.7.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "Acrylic on canvas, 2023"},
                         ]
                     },
                     {
@@ -1345,7 +1345,7 @@ export const allExhibits_ENG = [
                             {order: 11, exhibit: "Pieces of Times Exhibition (Terminal Small Art Museum, Jeongseon)"},
                         ],
                         paint: [
-                            {order: 11, title: "Sowing", imgname: "/2023/23-6/12-102.4x57.3.jpg", overview: "", overview1: "Variable installation, pen drawing on Hanji, 8 pieces, 2023"},
+                            {order: 11, title: "Sowing", name: "Eun Soo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/12-102.4x57.3.jpg`, width: 5.12, height: 2.865, overview: "", overview1: "Variable installation, pen drawing on Hanji, 8 pieces, 2023"},
                         ]
                     },
                     {
@@ -1360,7 +1360,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "A borderline between", imgname: "/2023/23-6/13-60.6x200.jpg", overview: "60.6x200cm", overview1: "Acrylic gouache on fabric, 2023"},
+                            {order: 12, title: "A borderline between", name: "Mingun Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/13-60.6x200.jpg`, width: 5, height: 1.515, overview: "60.6x200cm", overview1: "Acrylic gouache on fabric, 2023"},
                         ]
                     },
                     {
@@ -1375,7 +1375,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "Self-portrait", imgname: "/2023/23-6/14-120x180.jpg", overview: "120x180cm", overview1: "Coloring after sewing on fabric, 2023"},
+                            {order: 13, title: "Self-portrait", name: "Ik Gyu Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/14-120x180.jpg`, width: 5.4, height: 3.6, overview: "120x180cm", overview1: "Coloring after sewing on fabric, 2023"},
                         ]
                     },
                     {
@@ -1390,7 +1390,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "Plastic NO-45", imgname: "/2023/23-6/15-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                            {order: 14, title: "Plastic NO-45", name: "HeeJune Han", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-6/15-82x110.jpg`, width: 4.4, height: 3.28, overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
                         ]
                     },
                 ],
@@ -1459,11 +1459,11 @@ export const allExhibits_ENG = [
                             {order: 18, exhibit: "《21C Water Color》, Yangpyeong County Museum of Art, Yangpyeong"},
                         ],
                         paint: [
-                            {order: 0, title: "The-Wind-Ⅰ", imgname: "/2023/23-7/1.jpeg", overview: "27x18x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:50 loop, 2023"},
-                            {order: 1, title: "The-Wind-Ⅱ", imgname: "/2023/23-7/2.jpg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
-                            {order: 2, title: "The-Wind-Ⅲ", imgname: "/2023/23-7/3.jpeg", overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
-                            {order: 3, title: "Building the Wind", imgname: "/2023/23-7/4.jpg", overview: "225x130x100cm", overview1: "Sculpture with 2-channel video on LED screens, 00:02 :30 loop, 2020"},
-                            {order: 4, title: "Thinking Garden", imgname: "/2023/23-7/5.jpg", overview: "200x240x200cm", overview1: "Sculpture with 3-channel video on LED screens, 2020"} ,
+                            {order: 0, title: "The-Wind-Ⅰ", name: "Guem Min Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/1.jpeg`, width: 5.4, height: 3.6, overview: "27x18x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:50 loop, 2023"},
+                            {order: 1, title: "The-Wind-Ⅱ", name: "Guem Min Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/2.jpg`, width: 3.6, height: 5.4, overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
+                            {order: 2, title: "The-Wind-Ⅲ", name: "Guem Min Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/3.jpeg`, width: 3.6, height: 5.4, overview: "18x27x10cm", overview1: "Single-channel video on LED screen, Sculptured concrete frame by the artist, 00:03:20 loop, 2023"},
+                            {order: 3, title: "Building the Wind", name: "Guem Min Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/4.jpg`, width: 4.5, height: 3.5, overview: "225x130x100cm", overview1: "Sculpture with 2-channel video on LED screens, 00:02 :30 loop, 2020"},
+                            {order: 4, title: "Thinking Garden", name: "Guem Min Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/5.jpg`, width: 4, height: 4.8, overview: "200x240x200cm", overview1: "Sculpture with 3-channel video on LED screens, 2020"} ,
                         ]
                     },
                     {
@@ -1532,13 +1532,13 @@ export const allExhibits_ENG = [
                             {order: 13, exhibit: "《Contemporary Art, Walking the Runway》, Seongnam Art Center Cube Museum, Seongnam"},
                         ],
                         paint: [
-                            {order: 5, title: "Flying-cat-Loop-Animation", imgname: "/2023/23-7/6.jpg", overview: "", overview1: "2022-5"},
-                            {order: 6, title: "Mr.-purple-Loop-Animation", imgname: "/2023/23-7/7.jpg", overview: "", overview1: "2022-3"},
-                            {order: 7, title: "Somebody-anne", imgname: "/2023/23-7/8.jpg", overview: "100x100cm", overview1: "Digitalprint-2023-3"},
-                            {order: 8, title: "Somebody-chair-man", imgname: "/2023/23-7/9.jpg", overview: "70x70cm", overview1: "Digitalprint-2023-3"},
-                            {order: 9, title: "Somebody-curtain-call", imgname: "/2023/23-7/10.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
-                            {order: 10, title: "Somebody-pink-tile", imgname: "/2023/23-7/11.jpg", overview: "110x110cm", overview1: "Digitalprint-2023-3"},
-                            {order: 11, title: "Somebody-red-dot", imgname: "/2023/23-7/12.jpg", overview: "78x110cm", overview1: "Digitalprint-2023-3"},
+                            {order: 5, title: "Flying-cat-Loop-Animation", name: "Kim Joon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/6.jpg`, width: 3, height: 2, overview: "", overview1: "2022-5"},
+                            {order: 6, title: "Mr.-purple-Loop-Animation", name: "Kim Joon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/7.jpg`, width: 3, height: 2, overview: "", overview1: "2022-3"},
+                            {order: 7, title: "Somebody-anne", name: "Kim Joon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/8.jpg`, width: 3, height: 3, overview: "100x100cm", overview1: "Digitalprint-2023-3"},
+                            {order: 8, title: "Somebody-chair-man", name: "Kim Joon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/9.jpg`, width: 4.9, height: 4.9, overview: "70x70cm", overview1: "Digitalprint-2023-3"},
+                            {order: 9, title: "Somebody-curtain-call", name: "Kim Joon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/10.jpg`, width: 4.4, height: 4.4, overview: "110x110cm", overview1: "Digitalprint-2023-3"},
+                            {order: 10, title: "Somebody-pink-tile", name: "Kim Joon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/11.jpg`, width: 4.4, height: 4.4, overview: "110x110cm", overview1: "Digitalprint-2023-3"},
+                            {order: 11, title: "Somebody-red-dot", name: "Kim Joon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/12.jpg`, width: 4.68, height: 6.6, overview: "78x110cm", overview1: "Digitalprint-2023-3"},
                         ]
                     },
                     {
@@ -1573,11 +1573,11 @@ export const allExhibits_ENG = [
                             {order: 14, exhibit: "《Boy, Become a Legend》, Space K, Daegu"},
                         ],
                         paint: [
-                            {order: 12, title: "Portrait", imgname: "/2023/23-7/13.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-2-3"},
-                            {order: 13, title: "Portrait", imgname: "/2023/23-7/14.jpg", overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-4"},
-                            {order: 14, title: "Install cut", imgname: "/2023/23-7/15.jpg", overview: "", overview1: ""},
-                            {order: 15, title: "Install cut", imgname: "/2023/23-7/16.jpg", overview: "", overview1: ""},
-                            {order: 16, title: "Install cut", imgname: "/2023/23-7/17.jpg", overview: "", overview1: ""},
+                            {order: 12, title: "Portrait", name: "OK Seungcheol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/13.jpg`, width: 2.4, height: 3, overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-2-3"},
+                            {order: 13, title: "Portrait", name: "OK Seungcheol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/14.jpg`, width: 2.4, height: 3, overview: "50x40cm", overview1: "Acrylic-on-Canvas-2023-4"},
+                            {order: 14, title: "Install cut", name: "OK Seungcheol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/15.jpg`, width: 3, height: 2, overview: "", overview1: ""},
+                            {order: 15, title: "Install cut", name: "OK Seungcheol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/16.jpg`, width: 3, height: 2, overview: "", overview1: ""},
+                            {order: 16, title: "Install cut", name: "OK Seungcheol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/17.jpg`, width: 3, height: 2, overview: "", overview1: ""},
                         ]
                     },    
                     {
@@ -1623,13 +1623,13 @@ export const allExhibits_ENG = [
                             {order: 20, exhibit: "《Subtle Encounter》, Gallery Lu, Seoul"},
                         ],
                         paint: [
-                            {order: 17, title: "Head-of-Medusa-Pink", imgname: "/2023/23-7/18.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-2-3"},
-                            {order: 18, title: "Head-of-Medusa", imgname: "/2023/23-7/19.jpg", overview: "162x162cm", overview1: "Oil-on-Canvas-2021-1"},
-                            {order: 19, title: "Head-of-Medusa-Pink", imgname: "/2023/23-7/20.jpg", overview: "73x91cm", overview1: "Oil-on-Canvas-2022-1"},
-                            {order: 20, title: "Head-of-Medusa-Silver-3D-Rendering", imgname: "/2023/23-7/21.png", overview: "", overview1: "video-loop-2023-1"},
-                            {order: 21, title: "The-Three-Graces", imgname: "/2023/23-7/22.jpg", overview: "300x480cm", overview1: "Oil-on-Canvas-2023-1"},
-                            {order: 22, title: "Torso-12", imgname: "/2023/23-7/23.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-1-1"},
-                            {order: 23, title: "Torso-12", imgname: "/2023/23-7/24.jpg", overview: "162x130cm", overview1: "Oil-on-Canvas-2023-2-1"},
+                            {order: 17, title: "Head-of-Medusa-Pink", name: "Lee Yun Sung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/18.jpg`, width: 3.65, height: 4.55, overview: "73x91cm", overview1: "Oil-on-Canvas-2022-2-3"},
+                            {order: 18, title: "Head-of-Medusa", name: "Lee Yun Sung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/19.jpg`, width: 4.86, height: 4.86, overview: "162x162cm", overview1: "Oil-on-Canvas-2021-1"},
+                            {order: 19, title: "Head-of-Medusa-Pink", name: "Lee Yun Sung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/20.jpg`, width: 3.65, height: 4.55, overview: "73x91cm", overview1: "Oil-on-Canvas-2022-1"},
+                            {order: 20, title: "Head-of-Medusa-Silver-3D-Rendering", name: "Lee Yun Sung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/21.png`,  width: 3, height: 2, overview: "", overview1: "video-loop-2023-1"},
+                            {order: 21, title: "The-Three-Graces", name: "Lee Yun Sung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/22.jpg`, width: 4.8, height: 3, overview: "300x480cm", overview1: "Oil-on-Canvas-2023-1"},
+                            {order: 22, title: "Torso-12", name: "Lee Yun Sung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/23.jpg`, width: 4.86, height: 3.9, overview: "162x130cm", overview1: "Oil-on-Canvas-2023-1-1"},
+                            {order: 23, title: "Torso-12", name: "Lee Yun Sung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-7/24.jpg`, width: 4.86, height: 3.9, overview: "162x130cm", overview1: "Oil-on-Canvas-2023-2-1"},
                         ]
                     },        
                 ],
@@ -1689,11 +1689,11 @@ export const allExhibits_ENG = [
                             {order: 11, exhibit: "Pieces of Times Exhibition (Terminal Small Art Museum, Jeongseon)"},
                         ],
                         paint: [                        
-                            {order: 0, title: "Mutation", imgname: "/2023/23-8/1-45x65.jpg", overview: "45x65cm", overview1: "Paint drawing on Korean paper 5 Pieces, animal bones, feathers, 2023 "},
-                            {order: 1, title: "Memory of Water", imgname: "/2023/23-8/2-102.4x68.3.jpg", overview: "", overview1: "Video on colored clothing installation, dyed fabric Video on installation, variable installation of chalk drawings on wall, video 19 minutes 5 seconds, 2022"},
-                            {order: 2, title: "Passing by", imgname: "/2023/23-8/3-95x180.jpg", overview: "95x180cm", overview1: "Paint drawing on Korean paper, 2013"},
-                            {order: 3, title: "I am here now at Songnisan Mountain", imgname: "/2023/23-8/4-102.4x57.6.jpg", overview: "", overview1: "Video, 10 minutes 6 Second, 2020. 10.25"},
-                            {order: 4, title: "I am here now. At Daecheong Lake Micheon-ri Wetland", imgname: "/2023/23-8/5-102.4x68.3.jpg", overview: "", overview1: "Video, 2021.09.04._Still cut 1"},
+                            {order: 0, title: "Mutation", name: "Eunsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/1-45x65.jpg`, width: 6.5, height: 4.5, overview: "45x65cm", overview1: "Paint drawing on Korean paper 5 Pieces, animal bones, feathers, 2023 "},
+                            {order: 1, title: "Memory of Water", name: "Eunsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/2-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "Video on colored clothing installation, dyed fabric Video on installation, variable installation of chalk drawings on wall, video 19 minutes 5 seconds, 2022"},
+                            {order: 2, title: "Passing by", name: "Eunsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/3-95x180.jpg`, width: 5.4, height: 2.85, overview: "95x180cm", overview1: "Paint drawing on Korean paper, 2013"},
+                            {order: 3, title: "I am here now at Songnisan Mountain", name: "Eunsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/4-102.4x57.6.jpg`, width: 4.096, height: 2.304, overview: "", overview1: "Video, 10 minutes 6 Second, 2020. 10.25"},
+                            {order: 4, title: "I am here now. At Daecheong Lake Micheon-ri Wetland", name: "Eunsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-8/5-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "Video, 2021.09.04._Still cut 1"},
                         ]
                     },      
                 ],
@@ -1743,14 +1743,14 @@ export const allExhibits_ENG = [
                             {order: 15, year: 2015, exhibit: "2015 GIAF Asian Contemporary Art Young Artist Contest, Sejong Museum of Art, Seoul"},
                         ],
                         paint: [
-                            {order: 0, title: "Naesudong-ro 102beon-gil No.10", imgname: "/2023/23-9/1-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
-                            {order: 1, title: "Naesudong-ro 102beon-gil", imgname: "/2023/23-9/2-195.3x454.5.jpg", overview: "195.3x454.5cm", overview1: "oil on canvas_2021"},
-                            {order: 2, title: "Naesudong-ro 102beon-gil No.02", imgname: "/2023/23-9/3-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
-                            {order: 3, title: "Naesudong-ro 102beon-gil No.12", imgname: "/2023/23-9/4-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
-                            {order: 4, title: "Naesudong-ro 102beon-gil No.13", imgname: "/2023/23-9/5-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
-                            {order: 5, title: "Weeds", imgname: "/2023/23-9/6-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "oil on canvas_2021"},
-                            {order: 6, title: "Weeds", imgname: "/2023/23-9/7-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "oil on canvas_2021"},
-                            {order: 7, title: "Weeds", imgname: "/2023/23-9/8-33.4x21.2.jpg", overview: "33.4x21.2cm", overview1: "oil on canvas_2021"},
+                            {order: 0, title: "Naesudong-ro 102beon-gil No.10", name: "RaYeon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/1-65.1x90.9.jpg`, width: 5.454, height: 3.906, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 1, title: "Naesudong-ro 102beon-gil", name: "RaYeon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/2-195.3x454.5.jpg`, width: 4.545, height: 1.953, overview: "195.3x454.5cm", overview1: "oil on canvas_2021"},
+                            {order: 2, title: "Naesudong-ro 102beon-gil No.02", name: "RaYeon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/3-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 3, title: "Naesudong-ro 102beon-gil No.12", name: "RaYeon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/4-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 4, title: "Naesudong-ro 102beon-gil No.13", name: "RaYeon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/5-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "oil on canvas_2021"},
+                            {order: 5, title: "Weeds", name: "RaYeon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/6-33.4x21.2.jpg`, overview: "33.4x21.2cm", width: 4.24, height: 6.68, overview1: "oil on canvas_2021"},
+                            {order: 6, title: "Weeds", name: "RaYeon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/7-33.4x21.2.jpg`, overview: "33.4x21.2cm", width: 4.24, height: 6.68, overview1: "oil on canvas_2021"},
+                            {order: 7, title: "Weeds", name: "RaYeon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/8-33.4x21.2.jpg`, overview: "33.4x21.2cm", width: 4.24, height: 6.68, overview1: "oil on canvas_2021"},
                         ]
                     },   
                     {
@@ -1765,7 +1765,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "Red touch_A certain situational landscape", imgname: "/2023/23-9/9-76.8x51.2.png", overview: "", overview1: "Hanji, Paraffin wax, concrete block, variable size, 2022"},                        
+                            {order: 8, title: "Red touch_A certain situational landscape", name: "JaYeon Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/9-76.8x51.2.png`, width: 3.072, height: 4.608, overview: "", overview1: "Hanji, Paraffin wax, concrete block, variable size, 2022"},                        
                         ]
                     },   
                     {
@@ -1780,7 +1780,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "Drift or escape", imgname: "/2023/23-9/10-227x728.png", overview: "227x728cm", overview1: "Oil painting on canvas, 2022"},
+                            {order: 9, title: "Drift or escape", name: "Dongwoo Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/10-227x728.png`, width: 2.27, height: 7.28, overview: "227x728cm", overview1: "Oil painting on canvas, 2022"},
                         ]
                     },   
                     {
@@ -1795,7 +1795,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "Our Portraits", imgname: "/2023/23-9/11-76.8x78.2.png", overview: "", overview1: "Acrylic on canvas, mirror, Variable size, 2020"},
+                            {order: 10, title: "Our Portraits", name: "Minsol Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-9/11-76.8x78.2.png`, width: 4.692, height: 4.608, overview: "", overview1: "Acrylic on canvas, mirror, Variable size, 2020"},
                         ]
                     },      
                 ],
@@ -1825,7 +1825,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Happiness", imgname: "/2023/23-10/1-394x545.jpg", overview: "394x545cm", overview1: "Acrylic, 2023"},
+                            {order: 0, title: "Happiness", name: "Seeun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/1-394x545.jpg`, width: 5.45, height: 3.94, overview: "394x545cm", overview1: "Acrylic, 2023"},
                         ]
                     },   
                     {
@@ -1840,7 +1840,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "In a dream", imgname: "/2023/23-10/2-59.7x42.7.jpg", overview: "59.7x42.7cm", overview1: "Oil on canvas, 2023 "},
+                            {order: 1, title: "In a dream", name: "Soowan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/2-59.7x42.7.jpg`, width: 3.843, height: 4.776, overview: "59.7x42.7cm", overview1: "Oil on canvas, 2023 "},
                         ]
                     },   
                     {
@@ -1862,8 +1862,8 @@ export const allExhibits_ENG = [
                             {order: 6, exhibit: "2021 Daejeon Art Exhibition Selection (Daejeon Museum of Art)"},
                         ],
                         paint: [
-                            {order: 2, title: "", imgname: "/2023/23-10/3-30x29.8.jpg", overview: "", overview1: ""},
-                            {order: 3, title: "Contrast", imgname: "/2023/23-10/4-116.8x91.jpg", overview: "116.8x91cm", overview1: "Coloring on your device, 2023"},
+                            {order: 2, title: "", name: "Yoobin Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/3-30x29.8.jpg`, width: 6, height: 5.96, overview: "", overview1: ""},
+                            {order: 3, title: "Contrast", name: "Yoobin Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/4-116.8x91.jpg`, width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "Coloring on your device, 2023"},
                         ]
                     },   
                     {
@@ -1878,7 +1878,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 4, title: "Materials in the toolbox", imgname: "/2023/23-10/5-27x22.jpg", overview: "27x22cm", overview1: "Acrylic, 2022"},                        
+                            {order: 4, title: "Materials in the toolbox", name: "Jiyeon Seo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/5-27x22.jpg`, width: 4.4, height: 5.4, overview: "27x22cm", overview1: "Acrylic, 2022"},                        
                         ]
                     },   
                     {
@@ -1893,7 +1893,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "", imgname: "/2023/23-10/6-30x30.jpg", overview: "", overview1: ""},
+                            {order: 5, title: "", name: "Haein Shin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/6-30x30.jpg`, width: 6, height: 6, overview: "", overview1: ""},
                         ]
                     },  
                     {
@@ -1908,8 +1908,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "Shining gaze 1", imgname: "/2023/23-10/7-30x20.png", overview: "", overview1: ""},
-                            {order: 7, title: "Shining Gaze 2", imgname: "/2023/23-10/8-30x20.png", overview: "", overview1: ""},                       
+                            {order: 6, title: "Shining gaze 1", name: "Sunjae Yoon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/7-30x20.png`, width: 6, height: 4, overview: "", overview1: ""},
+                            {order: 7, title: "Shining Gaze 2", name: "Sunjae Yoon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/8-30x20.png`, width: 6, height: 4, overview: "", overview1: ""},                         
                         ]
                     },   
                     {
@@ -1924,7 +1924,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "Selfpic", imgname: "/2023/23-10/9-59.7x42.7.jpg", overview: "", overview1: "Acrylic on digital print, 2023"},                        
+                            {order: 8, title: "Selfpic", name: "Dohoon Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/9-59.7x42.7.jpg`, width: 4.27, height: 5.97, overview: "", overview1: "Acrylic on digital print, 2023"},                        
                         ]
                     }, 
                     {
@@ -1939,7 +1939,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "dining table", imgname: "/2023/23-10/10-49.4x49.4.png", overview: "49.4x49.4cm", overview1: "Acrylic, 2023"},                        
+                            {order: 9, title: "dining table", name: "Haneul Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/10-49.4x49.4.png`, width: 4.94, height: 4.94, overview: "49.4x49.4cm", overview1: "Acrylic, 2023"},                        
                         ]
                     }, 
                     {
@@ -1954,7 +1954,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "", imgname: "/2023/23-10/11-29.5x30.jpg", overview: "", overview1: ""},
+                            {order: 10, title: "", name: "Hyungjun Jin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/11-29.5x30.jpg`, width: 5.9, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -1969,7 +1969,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "Sanctuary", imgname: "/2023/23-10/12-53x45.5.jpg", overview: "53x45.5cm", overview1: "Acrylic on canvas, 2023"},                        
+                            {order: 11, title: "Sanctuary", name: "Soyoung Kwon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/12-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Acrylic on canvas, 2023"},                        
                         ]
                     }, 
                     {
@@ -1984,7 +1984,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "Reach the End", imgname: "/2023/23-10/13-90.9x72.7.jpg", overview: "90.9x72.7cm", overview1: "Oil on canvas, 2023" },                        
+                            {order: 12, title: "Reach the End", name: "Dohoon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/13-90.9x72.7.jpg`, width: 2.908, height: 3.636, overview: "90.9x72.7cm", overview1: "Oil on canvas, 2023" },                        
                         ]
                     }, 
                     {
@@ -1999,8 +1999,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "Abyss", imgname: "/2023/23-10/14-130.3x97.jpg", overview: "130.3x97cm", overview1: "Cotton string, velvet string, vinyl mixed materials, 2023"},
-                            {order: 14, title: "Forest of Thoughts", imgname: "/2023/23-10/15-72.7x72.7.jpg", overview: "72.7x72.7cm", overview1: "Ink and coloring on paper, 2023"},
+                            {order: 13, title: "Abyss", name: "Jihoon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/14-130.3x97.jpg`, width: 3.88, height: 5.212, overview: "130.3x97cm", overview1: "Cotton string, velvet string, vinyl mixed materials, 2023"},
+                            {order: 14, title: "Forest of Thoughts", name: "Jihoon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/15-72.7x72.7.jpg`, width: 4.362, height: 4.362, overview: "72.7x72.7cm", overview1: "Ink and coloring on paper, 2023"},
                         ]
                     }, 
                     {
@@ -2015,7 +2015,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 15, title: "", imgname: "/2023/23-10/16-30x30.jpg", overview: "", overview1: ""},
+                            {order: 15, title: "", name: "Kyubong Shim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/16-30x30.jpg`, width: 6, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2030,7 +2030,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 16, title: "", imgname: "/2023/23-10/17-23.4x30.jpg", overview: "", overview1: ""},
+                            {order: 16, title: "", name: "Seungjee Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/17-23.4x30.jpg`, width: 4.68, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2055,7 +2055,7 @@ export const allExhibits_ENG = [
                             {order: 9, exhibit: "2021 Temiorae 3rd Connected Imagination Exhibition"},
                         ],
                         paint: [
-                            {order: 17, title: "", imgname: "/2023/23-10/18-25.9x30.jpg", overview: "", overview1: ""},
+                            {order: 17, title: "", name: "Jaehyun Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/18-25.9x30.jpg`, width: 5.18, height: 6, overview: "", overview1: ""},
                         ]
                     }, 
                     {
@@ -2081,7 +2081,7 @@ export const allExhibits_ENG = [
                             {order: 10, exhibit: "2021, Dongin Exhibition, Dongyang Equipment Center"},
                         ],
                         paint: [
-                            {order: 18, title: "", imgname: "/2023/23-10/19-21x29.jpg", overview: "21x29cm", overview1: ""},
+                            {order: 18, title: "", name: "Yu Gi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/19-21x29.jpg`, width: 5.8, height: 4.2, overview: "21x29cm", overview1: ""},
                         ]
                     }, 
                     {
@@ -2096,7 +2096,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 19, title: "The Age of Isolation", imgname: "/2023/23-10/20-25.3x30.jpg", overview: "", overview1: ""},   
+                            {order: 19, title: "The Age of Isolation", name: "Younghoon Chung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/20-25.3x30.jpg`, width: 5.06, height: 6, overview: "", overview1: ""},   
                         ]
                     }, 
                     {
@@ -2111,8 +2111,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "Gaze1", imgname: "/2023/23-10/21-35x27.5.jpg", overview: "35x27.5cm", overview1: "Acrylic on canvas, 2023"},
-                            {order: 21, title: "Gaze2", imgname: "/2023/23-10/22-35x27.5.jpg", overview: "35x27.5cm", overview1: "Acrylic on canvas, 2023"},
+                            {order: 20, title: "Gaze1", name: "Yejin Han", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/21-35x27.5.jpg`, width: 2.75, height: 3.5, overview: "35x27.5cm", overview1: "Acrylic on canvas, 2023"},
+                            {order: 21, title: "Gaze2", name: "Yejin Han", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/22-35x27.5.jpg`, width: 2.75, height: 3.5, overview: "35x27.5cm", overview1: "Acrylic on canvas, 2023"},
                         ]
                     }, 
                     {
@@ -2127,7 +2127,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 22, title: "Birdphobia", imgname: "/2023/23-10/23-45x45.jpg", overview: "45x45cm", overview1: "Oil pastel-canvas-2023"},
+                            {order: 22, title: "Birdphobia", name: "Myunggi Hong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-10/23-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "Oil pastel-canvas-2023"},
                         ]
                     }, 
                 ],
@@ -2167,17 +2167,17 @@ export const allExhibits_ENG = [
                         ],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Birth, trials, miracles, love, eternal life, resurrection", imgname: "/2023/23-11/1-71.6x72.7.jpg", overview: "310x70cm", overview1: " Acrylic on canvas, 1997"},
-                            {order: 1, title: "Birth, trials, miracles, love, eternal life, resurrection", imgname: "/2023/23-11/2-71.7x72.8.jpg", overview: "310x70cm", overview1: " Acrylic on canvas, 1997"},
-                            {order: 2, title: "The Resurrected Jesus", imgname: "/2023/23-11/3-45x45.jpg", overview: "45x45cm", overview1: "Acrylic on canvas, 1998"},
-                            {order: 3, title: "Elijah's Prayer", imgname: "/2023/23-11/4-45x45.jpg", overview: "45x45cm", overview1: "Acrylic on canvas, 1998"},
-                            {order: 4, title: "The Virgin Mary and Horse", imgname: "/2023/23-11/5-130.5x130.5.jpg", overview: "130.5x130.5cm", overview1: "Mixed media on canvas , 1995"},
-                            {order: 5, title: "95-57", imgname: "/2023/23-11/6-127x166.jpg", overview: "127x166cm", overview1: "Mixed materials on Hanji, 1995"},
-                            {order: 6, title: "96-2", imgname: "/2023/23-11/7-117x91.jpg", overview: "117x91cm", overview1: "Mixed media on canvas, 1996"},
-                            {order: 7, title: "96-12", imgname: "/2023/23-11/8-162x130.jpg", overview: "162x130cm", overview1: "Mixed media on canvas, 1996"},
-                            {order: 8, title: "C33", imgname: "/2023/23-11/9-21x25.jpg", overview: "21x25cm", overview1: "Color on paper, 1992"},
-                            {order: 9, title: "D-107", imgname: "/2023/23-11/10-135x167.jpg", overview: "135x167cm", overview1: "Mixed on Hanji, 1994"},
-                            {order: 10, title: "D-139", imgname: "/2023/23-11/11-130x166.jpg", overview: "130x166cm", overview1: "Mixed materials on Hanji, 1996"},
+                            {order: 0, title: "Birth, trials, miracles, love, eternal life, resurrection", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: " Acrylic on canvas, 1997"},
+                            {order: 1, title: "Birth, trials, miracles, love, eternal life, resurrection", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: " Acrylic on canvas, 1997"},
+                            {order: 2, title: "The Resurrected Jesus", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/3-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "Acrylic on canvas, 1998"},
+                            {order: 3, title: "Elijah's Prayer", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/4-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "Acrylic on canvas, 1998"},
+                            {order: 4, title: "The Virgin Mary and Horse", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/5-130.5x130.5.jpg`, width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "Mixed media on canvas , 1995"},
+                            {order: 5, title: "95-57", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/6-127x166.jpg`, width: 4.98, height: 3.81, overview: "127x166cm", overview1: "Mixed materials on Hanji, 1995"},
+                            {order: 6, title: "96-2", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/7-117x91.jpg`, width: 3.64, height: 4.68, overview: "117x91cm", overview1: "Mixed media on canvas, 1996"},
+                            {order: 7, title: "96-12", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "Mixed media on canvas, 1996"},
+                            {order: 8, title: "C33", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/9-21x25.jpg`, width: 5, height: 4.2, overview: "21x25cm", overview1: "Color on paper, 1992"},
+                            {order: 9, title: "D-107", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/10-135x167.jpg`, width: 5.01, height: 4.05, overview: "135x167cm", overview1: "Mixed on Hanji, 1994"},
+                            {order: 10, title: "D-139", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/11-130x166.jpg`, width: 4.98, height: 3.9, overview: "130x166cm", overview1: "Mixed materials on Hanji, 1996"},
                         ]
                     },
                 ],
@@ -2213,7 +2213,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "CutPieces-Pink", imgname: "/2022/22-1/1-162x130.jpg", overview: "162x130cm", overview1: "acrylic-on-canvas-hand-cut-2014"},
+                            {order: 0, title: "CutPieces-Pink", name: "SeoYeon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/1-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "acrylic-on-canvas-hand-cut-2014"},
                         ]
                     },
                     {
@@ -2228,7 +2228,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "Between", imgname: "/2022/22-1/2-148x115.jpg", overview: "148x115cm", overview1: "Oil on canvas-1985"},
+                            {order: 1, title: "Between", name: "Youngbae Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/2-148x115.jpg`, width: 4.6, height: 5.92, overview: "148x115cm", overview1: "Oil on canvas-1985"},
                         ]
                     },
                     {
@@ -2268,7 +2268,7 @@ export const allExhibits_ENG = [
                             {order: 22, exhibit: "1984~1991 Contemporary Art Invitational Exhibition / National Museum of Modern and Contemporary Art, Gwacheon"},
                         ],
                         paint: [
-                            {order: 2, title: "Relation", imgname: "/2022/22-1/3-100x80.3.jpg", overview: "100x80.3cm", overview1: "Oil-on-canvas-1981"},
+                            {order: 2, title: "Relation", name: "Jai-Kwan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/3-100x80.3.jpg`, width: 4.15, height: 5, overview: "100x80.3cm", overview1: "Oil-on-canvas-1981"},
                         ]
                     },
                     {
@@ -2283,7 +2283,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "Letter from Space", imgname: "/2022/22-1/4-60.5x89.5.jpg", overview: "60.5x89.5cm", overview1: "picture-2014"},
+                            {order: 3, title: "Letter from Space", name: "Sangwook Moon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/4-60.5x89.5.jpg`, width: 5.37, height: 3.63, overview: "60.5x89.5cm", overview1: "picture-2014"},
                         ]
                     },
                     {
@@ -2298,7 +2298,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 4, title: "Barley - Life", imgname: "/2022/22-1/5-62x93.jpg", overview: "62x93cm", overview1: "Korean paper-ink-light color-1997"},
+                            {order: 4, title: "Barley - Life", name: "Youngdae Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/5-62x93.jpg`, width: 5.58, height: 3.72, overview: "62x93cm", overview1: "Korean paper-ink-light color-1997"},
                         ]
                     },
                     {
@@ -2313,7 +2313,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "Shimmery", imgname: "/2022/22-1/6-36x96.jpg", overview: "36x96cm", overview1: "Hanji-on-ink and ink coloring-2009"},
+                            {order: 5, title: "Shimmery", name: "Jinmyoung Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/6-36x96.jpg`, width: 6.72, height: 2.52, overview: "36x96cm", overview1: "Hanji-on-ink and ink coloring-2009"},
                         ]
                     },
                     {
@@ -2328,7 +2328,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "Untitled-20", imgname: "/2022/22-1/7-90x72.jpg", overview: "90x72cm", overview1: "Pigment-Print-2022"},
+                            {order: 6, title: "Untitled-20", name: "Myunghee Shim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/7-90x72.jpg`, width: 4.32, height: 5.4, overview: "90x72cm", overview1: "Pigment-Print-2022"},
                         ]
                     },
                     {
@@ -2343,7 +2343,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "The first form of agony 3", imgname: "/2022/22-1/8-100x200.jpg", overview: "100x200cm", overview1: "Print White Art-Velvet-2021"},
+                            {order: 7, title: "The first form of agony 3", name: "Jaeboon Shim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/8-100x200.jpg`, width: 6, height: 3, overview: "100x200cm", overview1: "Print White Art-Velvet-2021"},
                         ]
                     },
                     {
@@ -2358,7 +2358,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "One Person Protest", imgname: "/2022/22-1/9-60.5x50.jpg", overview: "60.5x50cm", overview1: "Sandpaper-Oil-on-Canvas-2014"},
+                            {order: 8, title: "One Person Protest", name: "Sukkyu Yoo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/9-60.5x50.jpg`, width: 4.5, height: 5.445, overview: "60.5x50cm", overview1: "Sandpaper-Oil-on-Canvas-2014"},
                         ]
                     },
                     {
@@ -2373,7 +2373,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "Untitled-2", imgname: "/2022/22-1/10-116x91.jpg", overview: "116x91cm", overview1: "Acrylic on canvas-2009"},
+                            {order: 9, title: "Untitled-2", name: "Sungsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/10-116x91.jpg`, width: 4.55, height: 5.8, overview: "116x91cm", overview1: "Acrylic on canvas-2009"},
                         ]
                     },
                     {
@@ -2418,7 +2418,7 @@ export const allExhibits_ENG = [
                             {order: 11, exhibit: "Pieces of Times Exhibition (Terminal Small Art Museum, Jeongseon)"},
                         ],
                         paint: [
-                            {order: 10, title: "Meramorphosis", imgname: "/2022/22-1/11-145.5x112.1.jpg", overview: "145.5x112.1cm", overview1: "Drawing-on-Korean-paper-2013"},
+                            {order: 10, title: "Meramorphosis", name: "Eunsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/11-145.5x112.1.jpg`, width: 4.484, height: 5.82, overview: "145.5x112.1cm", overview1: "Drawing-on-Korean-paper-2013"},
                         ]
                     },
                     {
@@ -2433,7 +2433,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "That", imgname: "/2022/22-1/12-160x40.jpg", overview: "160x40cm", overview1: "Acrylic paint-wire mesh-rattan-colored Korean paper-2016"},
+                            {order: 11, title: "That", name: "Nyunil Chun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/12-160x40.jpg`, width: 1.6, height: 6.4, overview: "160x40cm", overview1: "Acrylic paint-wire mesh-rattan-colored Korean paper-2016"},
                         ]
                     },
                     {
@@ -2448,7 +2448,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "Let’s straighten up Dokdo without shame.", imgname: "/2022/22-1/13-97x162.jpg", overview: "97x162cm", overview1: "Ink-acrylic-2008"},
+                            {order: 12, title: "Let’s straighten up Dokdo without shame.", name: "Myunghee Chung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/13-97x162.jpg`, width: 6.48, height: 3.88, overview: "97x162cm", overview1: "Ink-acrylic-2008"},
                         ]
                     },
                     {
@@ -2463,7 +2463,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "Unknown time with Jeongseon", imgname: "/2022/22-1/14-91x.116.8.jpg", overview: "91x116.8cm", overview1: "Acrylic-on-canvas-2020"},
+                            {order: 13, title: "Unknown time with Jeongseon", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/14-91x.116.8.jpg`, width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "Acrylic-on-canvas-2020"},
                         ]
                     },
                     {
@@ -2478,7 +2478,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "Uncertainty", imgname: "/2022/22-1/15-60x96.jpg", overview: "60x96cm", overview1: "Korean paper rubbing-2006"},
+                            {order: 14, title: "Uncertainty", name: "Youngsub Han", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-1/15-60x96.jpg`, width: 5.76, height: 3.6, overview: "60x96cm", overview1: "Korean paper rubbing-2006"},
                         ]
                     },
                 ],
@@ -2508,17 +2508,17 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Accept", imgname: "/2022/22-2/1-60.6x72.7.jpg", overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
-                            {order: 1, title: "Accept", imgname: "/2022/22-2/2-144.5x144.5.jpg", overview: "144.5x144.5cm", overview1: "Acrylic-on-canvas-2022"},
-                            {order: 2, title: "Accept", imgname: "/2022/22-2/3-72.7x91.jpg", overview: "72.7x90cm", overview1: "Acrylic-on-canvas-2022"},
-                            {order: 3, title: "Accept", imgname: "/2022/22-2/4-145x89.4.jpg", overview: "145x89.4cm", overview1: "Acrylic-on-canvas-2022"},
-                            {order: 4, title: "Accept", imgname: "/2022/22-2/5-97x162.jpg", overview: "97x162cm", overview1: "Acrylic-on-canvas-2022"},
-                            {order: 5, title: "Accept", imgname: "/2022/22-2/6-130x162.jpg", overview: "130x162cm", overview1: "Acrylic-on-canvas-2017"},
-                            {order: 6, title: "Accept", imgname: "/2022/22-2/7-162x130.jpg", overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
-                            {order: 7, title: "Accept", imgname: "/2022/22-2/8-162x130.jpg", overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
-                            {order: 8, title: "Accept", imgname: "/2022/22-2/9-72x53.jpg", overview: "72x53cm", overview1: "Acrylic-on-canvas-2017"},
-                            {order: 9, title: "Accept", imgname: "/2022/22-2/10-130x162.jpg", overview: "130x162cm", overview1: "Acrylic-on-canvas-2017"},
-                            {order: 10, title: "Accept", imgname: "/2022/22-2/11-162x130.jpg", overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 0, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/1-60.6x72.7.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "Acrylic-on-canvas-2022"},
+                            {order: 1, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/2-144.5x144.5.jpg`, width: 4.335, height: 4.335, overview: "144.5x144.5cm", overview1: "Acrylic-on-canvas-2022"},
+                            {order: 2, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/3-72.7x91.jpg`, width: 5.4, height: 4.362, overview: "72.7x90cm", overview1: "Acrylic-on-canvas-2022"},
+                            {order: 3, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/4-145x89.4.jpg`, width: 3.576, height: 5.8, overview: "145x89.4cm", overview1: "Acrylic-on-canvas-2022"},
+                            {order: 4, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/5-97x162.jpg`, width: 6.48, height: 3.88, overview: "97x162cm", overview1: "Acrylic-on-canvas-2022"},
+                            {order: 5, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/6-130x162.jpg`, width: 6.48, height: 5.2, overview: "130x162cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 6, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/7-162x130.jpg`, width: 5.2, height: 6.48, overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 7, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/8-162x130.jpg`, width: 5.2, height: 6.48, overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 8, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/9-72x53.jpg`, width: 4.24, height: 5.76, overview: "72x53cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 9, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/10-130x162.jpg`, width: 6.48, height: 5.2, overview: "130x162cm", overview1: "Acrylic-on-canvas-2017"},
+                            {order: 10, title: "Accept", name: "YeonnHee Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-2/11-162x130.jpg`, width: 5.2, height: 6.48, overview: "162x130cm", overview1: "Acrylic-on-canvas-2017"},
                         ]
                     },
                 ],
@@ -2548,11 +2548,11 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Beatles ballad audio", imgname: "/2022/22-3/1-70x60.jpg", overview: "70x60cm", overview1: "Wood_2021"},
-                            {order: 1, title: "Oak barrel audio", imgname: "/2022/22-3/2-80x56.7.jpg", overview: "200x100cm", overview1: "Wood_2019"},
-                            {order: 2, title: "Jazz 12 Audio", imgname: "/2022/22-3/3-80x44.6.jpg", overview: "300x90cm", overview1: "Paper_2021"},
-                            {order: 3, title: "Jazz 100", imgname: "/2022/22-3/4-100x80.jpg", overview: "100x80cm", overview1: "Wood_2021"},
-                            {order: 4, title: "Sound of Happiness", imgname: "/2022/22-3/5-300x200.jpg", overview: "300x200cm", overview1: "Wood_2022"},
+                            {order: 0, title: "Beatles ballad audio", name: "YongSoo Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-3/1-70x60.jpg`, width: 4.2, height: 4.9, overview: "70x60cm", overview1: "Wood_2021"},
+                            {order: 1, title: "Oak barrel audio", name: "YongSoo Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-3/2-80x56.7.jpg`, width: 4, height: 2.835, overview: "200x100cm", overview1: "Wood_2019"},
+                            {order: 2, title: "Jazz 12 Audio", name: "YongSoo Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-3/3-80x44.6.jpg`, width: 4, height: 2.23, overview: "300x90cm", overview1: "Paper_2021"},
+                            {order: 3, title: "Jazz 100", name: "YongSoo Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-3/4-100x80.jpg`, width: 3.2, height: 4, overview: "100x80cm", overview1: "Wood_2021"},
+                            {order: 4, title: "Sound of Happiness", name: "YongSoo Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-3/5-300x200.jpg`, width: 4, height: 6, overview: "300x200cm", overview1: "Wood_2022"},
                         ]
                     },
                 ],
@@ -2607,8 +2607,8 @@ export const allExhibits_ENG = [
                             {order: 22, exhibit: "1984~1991 Contemporary Art Invitational Exhibition / National Museum of Modern and Contemporary Art, Gwacheon"},
                         ],
                         paint: [
-                            {order: 0, title: "Relationship - Color & Light 2022-501", imgname: "/2022/22-4/1-91x116.8.jpg", overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 1, title: "Relationship - Color & Light 2022-502", imgname: "/2022/22-4/2-91x116.8.jpg", overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 0, title: "Relationship - Color & Light 2022-501", name: "JaiKwan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/1-91x116.8.jpg`, width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 1, title: "Relationship - Color & Light 2022-502", name: "JaiKwan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/2-91x116.8.jpg`, width: 5.84, height: 4.55, overview: "91x116.8cm", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -2653,9 +2653,9 @@ export const allExhibits_ENG = [
                             {order: 11, exhibit: "Pieces of Times Exhibition (Terminal Small Art Museum, Jeongseon)"},
                         ],
                         paint: [
-                            {order: 2, title: "I am here now. At Daecheong Lake Micheon-ri Wetland", imgname: "/2022/22-4/3-102.4x68.3.jpg", overview: "", overview1: "performance video, 2021"},
-                            {order: 3, title: "I am here now. At Daecheong Lake Micheon-ri Wetland", imgname: "/2022/22-4/4-102.4x68.3.jpg", overview: "", overview1: "performance video, 2021"},
-                            {order: 4, title: "I am here now. At Daecheong Lake Micheon-ri Wetland", imgname: "/2022/22-4/5-102.4x68.3.jpg", overview: "", overview1: "performance video, 2021"},
+                            {order: 2, title: "I am here now. At Daecheong Lake Micheon-ri Wetland", name: "Eunsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/3-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "performance video, 2021"},
+                            {order: 3, title: "I am here now. At Daecheong Lake Micheon-ri Wetland", name: "Eunsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/4-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "performance video, 2021"},
+                            {order: 4, title: "I am here now. At Daecheong Lake Micheon-ri Wetland", name: "Eunsoo Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/5-102.4x68.3.jpg`, width: 4.096, height: 2.732, overview: "", overview1: "performance video, 2021"},
                         ]
                     },
                     {
@@ -2670,8 +2670,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "Floating", imgname: "/2022/22-4/6-68.9x45.9.jpg", overview: "65x60x210cm", overview1: "numb, 2020"},
-                            {order: 6, title: "Floating", imgname: "/2022/22-4/7-45.4x71.9.jpg", overview: "65x60x210cm", overview1: "numb, 2020"},
+                            {order: 5, title: "Floating", name: "Baeksoon Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/6-68.9x45.9.jpg`, width: 4.823, height: 3.213, overview: "65x60x210cm", overview1: "numb, 2020"},
+                            {order: 6, title: "Floating", name: "Baeksoon Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/7-45.4x71.9.jpg`, width: 3.178, height: 5.033, overview: "65x60x210cm", overview1: "numb, 2020"},
                         ]
                     },
                     {
@@ -2686,9 +2686,9 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 7, title: "Attraction", imgname: "/2022/22-4/8-60x80.jpg", overview: "60x80x5cm", overview1: "Sculpture, 2016"},
-                            {order: 8, title: "Attraction", imgname: "/2022/22-4/9-60x80.jpg", overview: "60x80x5cm", overview1: "Sculpture, 2016"},
-                            {order: 9, title: "Attraction", imgname: "/2022/22-4/10-60x80.jpg", overview: "60x80x5cm", overview1: "Sculpture, 2016"},
+                            {order: 7, title: "Attraction", name: "YoungRan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/8-60x80.jpg`, width: 5.6, height: 4.2, overview: "60x80x5cm", overview1: "sculpture, 2016"},
+                            {order: 8, title: "Attraction", name: "YoungRan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/9-60x80.jpg`, width: 5.6, height: 4.2, overview: "60x80x5cm", overview1: "sculpture, 2016"},
+                            {order: 9, title: "Attraction", name: "YoungRan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/10-60x80.jpg`, width: 5.6, height: 4.2, overview: "60x80x5cm", overview1: "sculpture, 2016"},
                         ]
                     },
                     {
@@ -2703,7 +2703,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "Fantasy Trip1", imgname: "/2022/22-4/11-75x75.jpg", overview: "75x75cm", overview1: "photo print, 2022"},
+                            {order: 10, title: "Fantasy Trip1", name: "Jaeboon Shim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/11-75x75.jpg`, width: 4.5, height: 4.5, overview: "75x75cm", overview1: "photo print, 2022"},
                         ]
                     },
                     {
@@ -2718,8 +2718,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "Allegory 2021-001", imgname: "/2022/22-4/12-162.2x130.3.jpg", overview: "162.2x130.3cm", overview1: "mixed media on canvas, 2021"},
-                            {order: 12, title: "Allegory 2021-002", imgname: "/2022/22-4/13-162.2x130.3.jpg", overview: "162.2x130.3cm", overview1: "mixed media on canvas, 2021"},
+                            {order: 11, title: "Allegory 2021-001", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/12-162.2x130.3.jpg`, width: 3.909, height: 4.866, overview: "162.2x130.3cm", overview1: "mixed media on canvas, 2021"},
+                            {order: 12, title: "Allegory 2021-002", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/13-162.2x130.3.jpg`, width: 3.909, height: 4.866, overview: "162.2x130.3cm", overview1: "mixed media on canvas, 2021"},
                         ]
                     },
                     {
@@ -2734,7 +2734,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 13, title: "Untitled", imgname: "/2022/22-4/14-180x122.jpg", overview: "180x122cm", overview1: "Coloring the fabric after sewing it, 2022"},
+                            {order: 13, title: "Untitled", name: "IkGyu Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/14-180x122.jpg`, width: 3.66, height: 5.4, overview: "180x122cm", overview1: "Coloring the fabric after sewing it, 2022"},
                         ]
                     },
                     {
@@ -2749,9 +2749,9 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "Dream within Dream 9-1", imgname: "/2022/22-4/15-100x80.3.jpg", overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
-                            {order: 15, title: "Dream within Dream 10-2", imgname: "/2022/22-4/16-100x80.3.jpg", overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
-                            {order: 16, title: "Dream within Dream 1-3", imgname: "/2022/22-4/17-53x45.5.jpg", overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 14, title: "Dream within Dream 9-1", name: "KyungHwa Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/15-100x80.3.jpg`, width: 3.212, height: 4, overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 15, title: "Dream within Dream 10-2", name: "KyungHwa Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/16-100x80.3.jpg`, width: 3.212, height: 4, overview: "100x80.3cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 16, title: "Dream within Dream 1-3", name: "KyungHwa Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/17-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                     {
@@ -2766,7 +2766,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 17, title: "No spring is the same", imgname: "/2022/22-4/18-166.5x71.jpg", overview: "166.5x71cm", overview1: "Ink and gouache on paper, 2022"},
+                            {order: 17, title: "No spring is the same", name: "JinMyung Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/18-166.5x71.jpg`, width: 2.13, height: 4.995, overview: "166.5x71cm", overview1: "Ink and gouache on paper, 2022"},
                         ]
                     },
                     {
@@ -2781,7 +2781,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "Game of Thrones", imgname: "/2022/22-4/19-73x182.jpg", overview: "73x182cm", overview1: "acrylic on fabric, 2022"},
+                            {order: 18, title: "Game of Thrones", name: "MinGun Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/19-73x182.jpg`, width: 5.46, height: 2.19, overview: "73x182cm", overview1: "acrylic on fabric, 2022"},
                         ]
                     },
                     {
@@ -2796,9 +2796,9 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 19, title: "Untitled", imgname: "/2022/22-4/20-45.5x53.jpg", overview: "45.5x53cm", overview1: "Oil on canvas, 2020"},
-                            {order: 20, title: "Four Pedestrians", imgname: "/2022/22-4/21-91x91.jpg", overview: "91x91cm", overview1: "Oil on canvas, 2020"},
-                            {order: 21, title: "Rooftop", imgname: "/2022/22-4/22-130.3x97.jpg", overview: "130.3x97cm", overview1: "Oil on canvas, 2020"},
+                            {order: 19, title: "Untitled", name: "SeungUn Oh", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/20-45.5x53.jpg`, width: 5.3, height: 4.55, overview: "45.5x53cm", overview1: "Oil on canvas, 2020"},
+                            {order: 20, title: "Four Pedestrians", name: "SeungUn Oh", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/21-91x91.jpg`, width: 4.55, height: 4.55, overview: "91x91cm", overview1: "Oil on canvas, 2020"},
+                            {order: 21, title: "Rooftop", name: "SeungUn Oh", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/22-130.3x97.jpg`, width: 4.85, height: 5.212, overview: "130.3x97cm", overview1: "Oil on canvas, 2020"},
                         ]
                     },
                     {
@@ -2813,8 +2813,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 22, title: "90°8’0", imgname: "/2022/22-4/23-72.7x50.jpg", overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
-                            {order: 23, title: "90°12’0”", imgname: "/2022/22-4/24-72.7x50.jpg", overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
+                            {order: 22, title: "90°8’0", name: "Loi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/23-72.7x50.jpg`, width: 3, height: 4.362, overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
+                            {order: 23, title: "90°12’0”", name: "Loi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/24-72.7x50.jpg`, width: 3, height: 4.362, overview: "72.7x50cm", overview1: "Oil on canvas, 2020"},
                         ]
                     },
                     {
@@ -2829,9 +2829,9 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 24, title: "Plastic NO-44", imgname: "/2022/22-4/25-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
-                            {order: 25, title: "Plastic NO-47", imgname: "/2022/22-4/26-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
-                            {order: 26, title: "Plastic NO-48", imgname: "/2022/22-4/27-82x110.jpg", overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                            {order: 24, title: "Plastic NO-44", name: "HeeJoon Han", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/25-82x110.jpg`, width: 4.4, height: 3.28, overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                            {order: 25, title: "Plastic NO-47", name: "HeeJoon Han", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/26-82x110.jpg`, width: 4.4, height: 3.28, overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
+                            {order: 26, title: "Plastic NO-48", name: "HeeJoon Han", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/27-82x110.jpg`, width: 4.4, height: 3.28, overview: "82x110cm", overview1: "Gum Bichromate Print, 2021"},
                         ]
                     },
                     {
@@ -2846,8 +2846,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 27, title: "Fate", imgname: "/2022/22-4/28-100x100.jpg", overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
-                            {order: 28, title: "Fate", imgname: "/2022/22-4/29-100x100.jpg", overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
+                            {order: 27, title: "Fate", name: "YoungMi Won", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/28-100x100.jpg`, width: 5, height: 5, overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
+                            {order: 28, title: "Fate", name: "YoungMi Won", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/29-100x100.jpg`, width: 5, height: 5, overview: "100x100cm", overview1: "Mixed media on Canvas, 2021"},
                         ]
                     },
                     {
@@ -2862,8 +2862,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 29, title: "Paper plants", imgname: "/2022/22-4/30-73x182.jpg", overview: "73x182cm", overview1: "Oil on canvas, 2022"},
-                            {order: 30, title: "The flow", imgname: "/2022/22-4/31-91x146.jpg", overview: "91x146cm", overview1: "Mixed media on Canvas, 2021"},
+                            {order: 29, title: "paper plants", name: "YooJin Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/30-73x182.jpg`, width: 5.46, height: 2.19, overview: "73x182cm", overview1: "Oil on canvas, 2022"},
+                            {order: 30, title: "The flow", name: "YooJin Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-4/31-91x146.jpg`, width: 5.84, height: 3.64, overview: "91x146cm", overview1: "Mixed media on Canvas, 2021"},
                         ]
                     },
                 ],
@@ -2893,8 +2893,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Exo2_crop", imgname: "/2022/22-5/1-102.4x68.3.jpg", overview: "458x213x270cm", overview1: "Inflatable, 2021"},
-                            {order: 1, title: "Trippy Deflate", imgname: "/2022/22-5/2-102.4x72.5.jpg", overview: "84.1x59.4cm", overview1: "pigment print(digital image), 2020"},
+                            {order: 0, title: "Exo2_crop", name: "Jaewon Kang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/1-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "458x213x270cm", overview1: "Inflatable, 2021"},
+                            {order: 1, title: "Trippy Deflate", name: "Jaewon Kang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/2-102.4x72.5.jpg`, width: 5.12, height: 3.625, overview: "84.1x59.4cm", overview1: "pigment print(digital image), 2020"},
                         ]
                     },
                     {
@@ -2909,8 +2909,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "A city walk", imgname: "/2022/22-5/3-102.4x57.6.jpg", overview: "", overview1: "Single channel video, 2160p, 1m 30s, 2021"},
-                            {order: 3, title: "Moving tree", imgname: "/2022/22-5/4-57.6x102.4.jpg", overview: "", overview1: "Single channel video, 2160p, 2m 59s, 2020"},
+                            {order: 2, title: "A city walk", name: "JooHyung Kang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "Single channel video, 2160p, 1m 30s, 2021"},
+                            {order: 3, title: "Moving tree", name: "JooHyung Kang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/4-57.6x102.4.jpg`, width: 2.88, height: 5.12, overview: "", overview1: "Single channel video, 2160p, 2m 59s, 2020"},
                         ]
                     },
                     {
@@ -2925,8 +2925,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 4, title: "People who listen well", imgname: "/2022/22-5/5-102.4x57.6.jpg", overview: "", overview1: "4K Single channel video, 3min, 2021"},
-                            {order: 5, title: "Island", imgname: "/2022/22-5/6-102.4x57.6.jpg", overview: "", overview1: "4K Single channel video, 2160p, 3min, 2022"},
+                            {order: 4, title: "People who listen well", name: "SeungHoon Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/5-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "4K Single channel video, 3min, 2021"},
+                            {order: 5, title: "Island", name: "SeungHoon Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/6-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "4K Single channel video, 2160p, 3min, 2022"},
                         ]
                     },
                     {
@@ -2941,8 +2941,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "Deathmask #2(Passerby, Flesh Off)", imgname: "/2022/22-5/7-102.4x102.4.jpg", overview: "", overview1: "Digital Sculpture, Single channel video(Color), 50sec, 2022"},
-                            {order: 7, title: "Deathmask #14", imgname: "/2022/22-5/8-97.1x102.4.jpg", overview: "", overview1: "Digital Sculpture, Single channel video(Color), 50sec, 2022"},
+                            {order: 6, title: "Deathmask #2(Passerby, Flesh Off)", name: "JaeYeol Han", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/7-102.4x102.4.jpg`, width: 5.12, height: 5.12, overview: "", overview1: "Digital Sculpture, Single channel video(Color), 50sec, 2022"},
+                            {order: 7, title: "Deathmask #14", name: "JaeYeol Han", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-5/8-97.1x102.4.jpg`, width: 4.855, height: 5.12, overview: "", overview1: "Digital Sculpture, Single channel video(Color), 50sec, 2022"},
                         ]
                     },
                 ],
@@ -2997,7 +2997,7 @@ export const allExhibits_ENG = [
                             {order: 22, exhibit: "1984~1991 Contemporary Art Invitational Exhibition / National Museum of Modern and Contemporary Art, Gwacheon"},
                         ],
                         paint: [
-                            {order: 0, title: "Relationship Beauty and color 2021-1001", imgname: "/2022/22-6/1-162.2x112.jpg", overview: "162.2x112cm", overview1: "Acrylic on Korea Paper, 2021"},
+                            {order: 0, title: "Relationship Beauty and color 2021-1001", name: "Jaikwan Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/1-162.2x112.jpg`, width: 3.36, height: 4.866, overview: "162.2x112cm", overview1: "Acrylic on Korea Paper, 2021"},
                         ]
                     },
                     {
@@ -3012,7 +3012,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 1, title: "Sun.mi.space 8-28", imgname: "/2022/22-6/2-120x120.jpg", overview: "120x120cm", overview1: "Oil on Canvas, 2020"},
+                            {order: 1, title: "Sun.mi.space 8-28", name: "Seung-soon Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/2-120x120.jpg`, width: 4.8, height: 4.8, overview: "120x120cm", overview1: "Oil on Canvas, 2020"},
                         ]
                     },
                     {
@@ -3027,7 +3027,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "Traces of time", imgname: "/2022/22-6/3-68.3x102.4.jpg", overview: "50x30x30cm", overview1: "Gypsum, pigment, 2021"},
+                            {order: 2, title: "Traces of time", name: "Young-hak Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/3-68.3x102.4.jpg`, width: 2.732, height: 4.096, overview: "50x30x30cm", overview1: "Gypsum, pigment, 2021"},
                         ]
                     },
                     {
@@ -3042,7 +3042,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "No spring is the same", imgname: "/2022/22-6/4-166.5x71.jpg", overview: "166.5x71cm", overview1: "Ink stick, Gouache on Paper(종이에 먹, 과슈), 2022"},
+                            {order: 3, title: "No spring is the same", name: "Jin-Myung Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/4-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "166.5x71cm", overview1: "Ink stick, Gouache on Paper, 2022"},
                         ]
                     },
                     {
@@ -3084,7 +3084,7 @@ export const allExhibits_ENG = [
                             {order: 24, exhibit: "2016 Suncheon Bay International Environmental Art Festival (Suncheon Bay National Garden Art Museum, Suncheon)"},
                         ],
                         paint: [
-                            {order: 4, title: "Over the there", imgname: "/2022/22-6/5-76x52.jpg", overview: "76x52cm", overview1: "Acrylic on paper, 2021"},
+                            {order: 4, title: "Over the there", name: "Hyo-sung Pang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/5-76x52.jpg`, width: 3.64, height: 5.32, overview: "76x52cm", overview1: "Acrylic on paper, 2021"},
                         ]
                     },
                     {
@@ -3099,7 +3099,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 5, title: "Lee Gyu-sik - Red", imgname: "/2022/22-6/6-73.5x143.5.jpg", overview: "73.5x143.5cm", overview1: "Acrylic on paper, 2022"},                        
+                            {order: 5, title: "Lee Gyu-sik - Red", name: "Gyu-sik Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/6-73.5x143.5.jpg`, width: 5.74, height: 2.94, overview: "73.5x143.5cm", overview1: "Acrylic on paper, 2022"},                        
                         ]
                     },
                     {
@@ -3114,8 +3114,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 6, title: "Another song of cosmoss(Front)", imgname: "/2022/22-6/7-72.4x102.4.jpg", overview: "56.2x180x15cm", overview1: "Mixed media on a Door, 2021"}, 
-                            {order: 7, title: "Another song of cosmoss(Back)", imgname: "/2022/22-6/8-71.1x102.4.jpg", overview: "56.2x180x15cm", overview1: "Mixed media on a Door, 2021"},                        
+                            {order: 6, title: "Another song of cosmoss(Front)", name: "Ik-song Jin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/7-72.4x102.4.jpg`, width: 2.896, height: 4.816, overview: "56.2x180x15cm", overview1: "Mixed media on a Door, 2021"}, 
+                            {order: 7, title: "Another song of cosmoss(Back)", name: "Ik-song Jin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/8-71.1x102.4.jpg`, width: 2.844, height: 4.816, overview: "56.2x180x15cm", overview1: "Mixed media on a Door, 2021"},          
                         ]
                     },
                     {
@@ -3130,7 +3130,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 8, title: "A borderline between", imgname: "/2022/22-6/9-100x224.jpg", overview: "100x224cm", overview1: "Acrylic on canvas, 2022"}, 
+                            {order: 8, title: "A borderline between", name: "Min-gun Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/9-100x224.jpg`, width: 6.72, height: 3, overview: "100x224cm", overview1: "Acrylic on canvas, 2022"}, 
                         ]
                     },
                     {
@@ -3145,7 +3145,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 9, title: "Spiritual Tears", imgname: "/2022/22-6/10-162x112.jpg", overview: "162x112cm", overview1: "Acrylic on canvas, 2022"}, 
+                            {order: 9, title: "Spiritual Tears", name: "Myung-bok Ha", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/10-162x112.jpg`, width: 3.36, height: 4.86, overview: "162x112cm", overview1: "Acrylic on canvas, 2022"}, 
                         ]
                     },
                     {
@@ -3185,7 +3185,7 @@ export const allExhibits_ENG = [
                             {order: 13, exhibit: "2019 “Secrets of the Brain”, Beijing"},
                         ],
                         paint: [
-                            {order: 10, title: "Broadhand User", imgname: "/2022/22-6/11-134x200.jpg", overview: "134x200cm", overview1: "Golden color on rice paper(Print), 2022"}, 
+                            {order: 10, title: "Broadhand User", name: "Cang Xin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/11-134x200.jpg`, width: 6, height: 4.02, overview: "134x200cm", overview1: "Golden color on rice paper(Print), 2022"}, 
                         ]
                     },
                     {
@@ -3200,7 +3200,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 11, title: "Earthquake Remembrance Day", imgname: "/2022/22-6/12-102.4x57.jpg", overview: "", overview1: "15m, Performance Video, 2018"}, 
+                            {order: 11, title: "Earthquake Remembrance Day", name: "Deng Shangdong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/12-102.4x57.jpg`, width: 5.12, height: 2.85, overview: "", overview1: "15m, Performance Video, 2018"}, 
                         ]
                     },
                     {
@@ -3215,8 +3215,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 12, title: "Infinity", imgname: "/2022/22-6/13-102.4x57.6.jpg", overview: "", overview1: "5m, Video, 2021"}, 
-                            {order: 13, title: "Infinity", imgname: "/2022/22-6/14-102.4x57.6.jpg", overview: "", overview1: "5m, Video, 2021"}, 
+                            {order: 12, title: "Infinity", name: "Mulei", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/13-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "5m, Video, 2021"}, 
+                            {order: 13, title: "Infinity", name: "Mulei", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/14-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "5m, Video, 2021"},  
                         ]
                     },
                     {
@@ -3231,7 +3231,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "Maxim", imgname: "/2022/22-6/15-78.8x102.4.jpg", overview: "", overview1: "4m 42s, Performance Video, 2018"}, 
+                            {order: 14, title: "Maxim", name: "Li Xinmo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/15-78.8x102.4.jpg`, width: 3.94, height: 5.12, overview: "", overview1: "4m 42s, Performance Video, 2018"}, 
                         ]
                     },
                     {
@@ -3246,8 +3246,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 15, title: "Investigation of Zihe River", imgname: "/2022/22-6/16-25x30.jpg", overview: "25x30cm", overview1: "Photo(Print), 2022"}, 
-                            {order: 16, title: "Investigation of Zihe River", imgname: "/2022/22-6/17-25x30.jpg", overview: "25x30cm", overview1: "Photo(Print), 2022"}, 
+                            {order: 15, title: "Investigation of Zihe River", name: "Li Jiaxin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/16-25x30.jpg`, width: 6, height: 5, overview: "25x30cm", overview1: "Photo(Print), 2022"}, 
+                            {order: 16, title: "Investigation of Zihe River", name: "Li Jiaxin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/17-25x30.jpg`, width: 6, height: 5, overview: "25x30cm", overview1: "Photo(Print), 2022"}, 
                         ]
                     },
                     {
@@ -3262,7 +3262,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 17, title: "The Moment", imgname: "/2022/22-6/18-102.4x52.jpg", overview: "", overview1: "1m 16s, Video, 2021"}, 
+                            {order: 17, title: "The Moment", name: "Zhang Zengzeng", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/18-102.4x52.jpg`, width: 5.12, height: 2.6, overview: "", overview1: "1m 16s, Video, 2021"}, 
                         ]
                     },
                     {
@@ -3277,8 +3277,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "Who Is the Terrorist_who", imgname: "/2022/22-6/19-60x40.jpg", overview: "60x40cm", overview1: "Photo(Print), 2022"}, 
-                            {order: 19, title: "Who Is the Terrorist", imgname: "/2022/22-6/20-60x40.jpg", overview: "60x40", overview1: "Photo(Print), 2022"}, 
+                            {order: 18, title: "Who Is the Terrorist_谁", name: "Zhou Bin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/19-60x40.jpg`, width: 4, height: 6, overview: "60x40cm", overview1: "Photo(Print), 2022"}, 
+                            {order: 19, title: "Who Is the Terrorist", name: "Zhou Bin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/20-60x40.jpg`, width: 4, height: 6, overview: "60x40", overview1: "Photo(Print), 2022"}, 
                         ]
                     },
                     {
@@ -3293,7 +3293,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "In one breath", imgname: "/2022/22-6/21-102.4x57.1.jpg", overview: "", overview1: "7m 36s, Video, 2021"}, 
+                            {order: 20, title: "In one breath", name: "Zhu Yiming", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/21-102.4x57.1.jpg`, width: 5.12, height: 2.855, overview: "", overview1: "7m 36s, Video, 2021"}, 
                         ]
                     },
                     {
@@ -3308,8 +3308,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 21, title: "Partial eclipse", imgname: "/2022/22-6/22-80x45.jpg", overview: "80x45cm", overview1: "Art micro spray photo(Print), 2022"}, 
-                            {order: 22, title: "Partial eclipse", imgname: "/2022/22-6/23-45x80.jpg", overview: "45x80cm", overview1: "Art micro spray photo(Print), 2022"}, 
+                            {order: 21, title: "Partial eclipse", name: "Jin Jianrong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/22-80x45.jpg`, width: 2.7, height: 4.8, overview: "80x45cm", overview1: "Art micro spray photo(Print), 2022"}, 
+                            {order: 22, title: "Partial eclipse", name: "Jin Jianrong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-6/23-45x80.jpg`, width: 4.8, height: 2.7, overview: "45x80cm", overview1: "Art micro spray photo(Print), 2022"}, 
                         ]
                     },
                 ],
@@ -3339,13 +3339,13 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Afterimage of the Forest 22-1", imgname: "/2022/22-7/1-100x100.jpg", overview: "100x100cm", overview1: "mixed media on canvas, 2022"},
-                            {order: 1, title: "Afterimage of the Forest 22-2", imgname: "/2022/22-7/2-100x100.jpg", overview: "100x100cm", overview1: "mixed media on canvas, 2022"},
-                            {order: 2, title: "Afterimage of the Forest 2022-1", imgname: "/2022/22-7/3-102.4x57.6.jpg", overview: "", overview1: "video(3m 20s), 2022"},
-                            {order: 3, title: "Afterimage of the Forest 2022", imgname: "/2022/22-7/4-102.4x59.2.jpg", overview: "", overview1: "video(4m 14s), 2022"},
-                            {order: 4, title: "Afterimage of the Forest 2020", imgname: "/2022/22-7/5-102.4x76.8.jpg", overview: "78x54cm", overview1: "gumprint, 2020"},
-                            {order: 5, title: "Allegory of the forest 2020", imgname: "/2022/22-7/6-145.5x112.1.jpg", overview: "145.5x112.1cm", overview1: "mixed media on canvas, 2020"},
-                            {order: 6, title: "Allegory of the forest - 2019", imgname: "/2022/22-7/7-102.4x68.3.jpg", overview: "120x120cmx4p", overview1: "LED installation, 2019"},
+                            {order: 0, title: "Afterimage of the Forest 22-1", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/1-100x100.jpg`, width: 5, height: 5, overview: "100x100cm", overview1: "mixed media on canvas, 2022"},
+                            {order: 1, title: "Afterimage of the Forest 22-2", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/2-100x100.jpg`, width: 5, height: 5, overview: "100x100cm", overview1: "mixed media on canvas, 2022"},
+                            {order: 2, title: "Afterimage of the Forest 2022-1", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "video(3m 20s), 2022"},
+                            {order: 3, title: "Afterimage of the Forest 2022", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/4-102.4x59.2.jpg`, width: 5.12, height: 2.96, overview: "", overview1: "video(4m 14s), 2022"},
+                            {order: 4, title: "Afterimage of the Forest 2020", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/5-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "78x54cm", overview1: "gumprint, 2020"},
+                            {order: 5, title: "Allegory of the forest 2020", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/6-145.5x112.1.jpg`, width: 4.484, height: 5.82, overview: "145.5x112.1cm", overview1: "mixed media on canvas, 2020"},
+                            {order: 6, title: "Allegory of the forest - 2019", name: "Sungmi Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-7/7-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "120x120cmx4p", overview1: "LED installation, 2019"},
                         ]
                     },
                 ],
@@ -3384,25 +3384,25 @@ export const allExhibits_ENG = [
                             {order: 6, exhibit: "2016, A Whole New World, Seum Art Space, Seoul, Korea"},
                         ],
                         paint: [
-                            {order: 0, title: "Dancing Shaman", imgname: "/2022/22-8/1-145.5x112.jpg", overview: "145.5x112cm", overview1: "oil on canvas, 2021"},
-                            {order: 1, title: "Arrow", imgname: "/2022/22-8/2-53x45.5.jpg", overview: "53x45.5cm", overview1: "oil on canvas, 2021"},
-                            {order: 2, title: "Cave", imgname: "/2022/22-8/3-116.8x91.jpg", overview: "116.8x91cm", overview1: "oil on canvas, 2022"},
-                            {order: 3, title: "Dancing Shaman #3", imgname: "/2022/22-8/4-145.5x112.jpg", overview: "145.5x112cm", overview1: "oil on canvas, 2022"},
-                            {order: 4, title: "Dancing Shaman #2", imgname: "/2022/22-8/5-145.5x112.jpg", overview: "145.5x112cm", overview1: "oil on canvas, 2022"},
-                            {order: 5, title: "Floating Stones", imgname: "/2022/22-8/6-33.4x24.jpg", overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
-                            {order: 6, title: "Fungi #7", imgname: "/2022/22-8/7-91x91.jpg", overview: "91x91cm", overview1: "oil on canvas, 2022"},
-                            {order: 7, title: "Fungi", imgname: "/2022/22-8/8-91x91.jpg", overview: "91x91cm", overview1: "oil, glitter on canvas, 2022"},
-                            {order: 8, title: "Lightseeker #2", imgname: "/2022/22-8/9-91x73.jpg", overview: "91x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 9, title: "Lightseeker", imgname: "/2022/22-8/10-91x73.jpg", overview: "91x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 10, title: "ManSun", imgname: "/2022/22-8/11-60.6x50.jpg", overview: "60.6x50cm", overview1: "oil on canvas, 2021"},
-                            {order: 11, title: "Molds", imgname: "/2022/22-8/12-91x61.jpg", overview: "91x61cm", overview1: "oil on canvas, 2021"},
-                            {order: 12, title: "Pupil #3", imgname: "/2022/22-8/13-33.4x24.jpg", overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
-                            {order: 13, title: "Pupil #4", imgname: "/2022/22-8/14-33.4x24.jpg", overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
-                            {order: 14, title: "Pupil", imgname: "/2022/22-8/15-45.5x33.4.jpg", overview: "45.5x33.4cm", overview1: "oil on canvas, 2022"},
-                            {order: 15, title: "Statue #2", imgname: "/2022/22-8/16-116.8x80.jpg", overview: "116.8x80cm", overview1: "oil on canvas, 2021"},
-                            {order: 16, title: "Statue #3", imgname: "/2022/22-8/17-100x80.jpg", overview: "100x80cm", overview1: "oil on canvas, 2021"},
-                            {order: 17, title: "Statue", imgname: "/2022/22-8/18-100x72.jpg", overview: "100x72cm", overview1: "oil on canvas, 2021"},
-                            {order: 18, title: "Tomb", imgname: "/2022/22-8/19-33.4x24.jpg", overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
+                            {order: 0, title: "Dancing Shaman", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/1-145.5x112.jpg`, width: 4.48, height: 5.82, overview: "145.5x112cm", overview1: "oil on canvas, 2021"},
+                            {order: 1, title: "Arrow", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/2-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "oil on canvas, 2021"},
+                            {order: 2, title: "Cave", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/3-116.8x91.jpg`, width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "oil on canvas, 2022"},
+                            {order: 3, title: "Dancing Shaman #3", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/4-145.5x112.jpg`, width: 4.48, height: 5.82, overview: "145.5x112cm", overview1: "oil on canvas, 2022"},
+                            {order: 4, title: "Dancing Shaman #2", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/5-145.5x112.jpg`, width: 4.48, height: 5.82, overview: "145.5x112cm", overview1: "oil on canvas, 2022"},
+                            {order: 5, title: "Floating Stones", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/6-33.4x24.jpg`, width: 2.64, height: 3.674, overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
+                            {order: 6, title: "Fungi #7", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/7-91x91.jpg`, width: 3.64, height: 3.64, overview: "91x91cm", overview1: "oil on canvas, 2022"},
+                            {order: 7, title: "Fungi", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/8-91x91.jpg`, width: 3.64, height: 3.64, overview: "91x91cm", overview1: "oil, glitter on canvas, 2022"},
+                            {order: 8, title: "Lightseeker #2", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/9-91x73.jpg`, width: 3.65, height: 4.55, overview: "91x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 9, title: "Lightseeker", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/10-91x73.jpg`, width: 3.65, height: 4.55, overview: "91x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 10, title: "ManSun", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/11-60.6x50.jpg`, width: 5, height: 6.06, overview: "60.6x50cm", overview1: "oil on canvas, 2021"},
+                            {order: 11, title: "Molds", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/12-91x61.jpg`, width: 3.05, height: 4.55, overview: "91x61cm", overview1: "oil on canvas, 2021"},
+                            {order: 12, title: "Pupil #3", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/13-33.4x24.jpg`, width: 2.88, height: 4.008, overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
+                            {order: 13, title: "Pupil #4", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/14-33.4x24.jpg`, width: 2.88, height: 4.008, overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
+                            {order: 14, title: "Pupil", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/15-45.5x33.4.jpg`, width: 3.34, height: 4.55, overview: "45.5x33.4cm", overview1: "oil on canvas, 2022"},
+                            {order: 15, title: "Statue #2", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/16-116.8x80.jpg`, width: 3.2, height: 4.672, overview: "116.8x80cm", overview1: "oil on canvas, 2021"},
+                            {order: 16, title: "Statue #3", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/17-100x80.jpg`, width: 3.2, height: 4, overview: "100x80cm", overview1: "oil on canvas, 2021"},
+                            {order: 17, title: "Statue", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/18-100x72.jpg`, width: 2.88, height: 4, overview: "100x72cm", overview1: "oil on canvas, 2021"},
+                            {order: 18, title: "Tomb", name: "Man-soon Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/19-33.4x24.jpg`, width: 2.88, height: 4.008, overview: "33.4x24cm", overview1: "oil on canvas, 2022"},
                         ]
                     },
                     {
@@ -3432,12 +3432,12 @@ export const allExhibits_ENG = [
                             {order: 8, exhibit: "2017 <2017 Artists of Tomorrow>, Cheongju Museum of Art, Cheongju"},
                         ],
                         paint: [
-                            {order: 19, title: "Today's Contemporary Art Series-2022 Spring, Summer1", imgname: "/2022/22-8/20-90.5x73.jpg", overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 20, title: "Today's Contemporary Art Series-2022 Spring, Summer2", imgname: "/2022/22-8/21-90.5x73.jpg", overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 21, title: "Today's Contemporary Art Series-2022 Spring, Summer3", imgname: "/2022/22-8/22-90.5x73.jpg", overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 22, title: "Today's Contemporary Art Series-2022 Spring, Summer4", imgname: "/2022/22-8/23-226.5x182.jpg", overview: "226.5x182cm", overview1: "oil on canvas, 2022"},
-                            {order: 23, title: "Today's Contemporary Art Series-2022 Spring, Summer5", imgname: "/2022/22-8/24-90.5x73.jpg", overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
-                            {order: 24, title: "Near Station-Today’s Contemporary Art Series 2020.02.20", imgname: "/2022/22-8/25-194x259.jpg", overview: "194x259cm", overview1: "oil on canvas, 2020"},
+                            {order: 19, title: "Today's Contemporary Art Series-2022 Spring, Summer1", name: "Yun-seob Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/20-90.5x73.jpg`, width: 3.65, height: 4.525, overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 20, title: "Today's Contemporary Art Series-2022 Spring, Summer2", name: "Yun-seob Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/21-90.5x73.jpg`, width: 3.65, height: 4.525, overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 21, title: "Today's Contemporary Art Series-2022 Spring, Summer3", name: "Yun-seob Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/22-90.5x73.jpg`, width: 3.65, height: 4.525, overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 22, title: "Today's Contemporary Art Series-2022 Spring, Summer4", name: "Yun-seob Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/23-226.5x182.jpg`, width: 3.64, height: 4.53, overview: "226.5x182cm", overview1: "oil on canvas, 2022"},
+                            {order: 23, title: "Today's Contemporary Art Series-2022 Spring, Summer5", name: "Yun-seob Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/24-90.5x73.jpg`, width: 3.65, height: 4.525, overview: "90.5x73cm", overview1: "oil on canvas, 2022"},
+                            {order: 24, title: "Near Station-Today’s Contemporary Art Series 2020.02.20", name: "Yun-seob Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/25-194x259.jpg`, width: 5.18, height: 3.88, overview: "194x259cm", overview1: "oil on canvas, 2020"},
                         ]
                     },
                     {
@@ -3468,11 +3468,11 @@ export const allExhibits_ENG = [
                             {order: 10, exhibit: "2016 ‘Next body-discourse, practice, and art as representation’. Soma Museum of Art, Seoul"},
                         ],
                         paint: [
-                            {order: 25, title: "Eccentric Abattis", imgname: "/2022/22-8/26-102.4x76.8.jpg", overview: "77x62x78cm", overview1: "color plaster on sculpture, 2022"},
-                            {order: 26, title: "Eccentric Abattis", imgname: "/2022/22-8/27-76.8x102.4.jpg", overview: "120x110x117cm", overview1: "color plaster on sculpture, 2022"},
-                            {order: 27, title: "Eccentric Abattis", imgname: "/2022/22-8/28-102.4x76.8.jpg", overview: "120x124x161cm", overview1: "color plaster on sculpture, 2022"},
-                            {order: 28, title: "Eccentric Abattis", imgname: "/2022/22-8/29-102.4x76.8.jpg", overview: "82x85x76cm", overview1: "color plaster on sculpture, 2022"},
-                            {order: 29, title: "Eccentric Abattis", imgname: "/2022/22-8/30-102.4x76.8.jpg", overview: "49x47x38cm", overview1: "color plaster on sculpture, 2022"},                           
+                            {order: 25, title: "Eccentric Abattis", name: "Byung-ho Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/26-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "77x62x78cm", overview1: "color plaster on sculpture, 2022"},
+                            {order: 26, title: "Eccentric Abattis", name: "Byung-ho Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/27-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "120x110x117cm", overview1: "color plaster on sculpture, 2022"},
+                            {order: 27, title: "Eccentric Abattis", name: "Byung-ho Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/28-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "120x124x161cm", overview1: "color plaster on sculpture, 2022"},
+                            {order: 28, title: "Eccentric Abattis", name: "Byung-ho Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/29-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "82x85x76cm", overview1: "color plaster on sculpture, 2022"},
+                            {order: 29, title: "Eccentric Abattis", name: "Byung-ho Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/30-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "49x47x38cm", overview1: "color plaster on sculpture, 2022"},  
                         ]
                     },
                     {
@@ -3504,13 +3504,13 @@ export const allExhibits_ENG = [
                             {order: 11, exhibit: "2020 <On the border between reality and virtuality> Suchang Youth Mansion, Daegu, Korea"},
                         ],
                         paint: [
-                            {order: 30, title: "Boundary of the fragments", imgname: "/2022/22-8/31-102.4x68.3.jpg", overview: "", overview1: "Sound-responsive real-time interactive video, 2022"},
-                            {order: 31, title: "Boundary of the fragments", imgname: "/2022/22-8/32-102.4x68.3.jpg", overview: "", overview1: "Sound-responsive real-time interactive video, 2022"},
-                            {order: 32, title: "Boundary of the fragments", imgname: "/2022/22-8/33-102.4x69.1.jpg", overview: "", overview1: "Sound-responsive real-time interactive video, 2022"},
-                            {order: 33, title: "Boundary of the fragments", imgname: "/2022/22-8/34-102.4x68.3.jpg", overview: "", overview1: "Sound-responsive real-time interactive video, 2022"},
-                            {order: 34, title: "Boundary of the fragments", imgname: "/2022/22-8/35-102.4x69.7.jpg", overview: "", overview1: "Sound-responsive real-time interactive video, 2022"},                           
-                            {order: 35, title: "Fragility", imgname: "/2022/22-8/36-102.4x65.3.jpg", overview: "", overview1: "Video projection, 6m, 2020"},                           
-                            {order: 36, title: "Unstable 02, unstable 01", imgname: "/2022/22-8/37-102.4x68.3.jpg", overview: "", overview1: "video on monitor, 2m, 3m, 2021"},                           
+                            {order: 30, title: "Boundary of the fragments", name: "Min-sun Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/31-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "", overview1: "Sound-responsive real-time interactive video, 2022"},
+                            {order: 31, title: "Boundary of the fragments", name: "Min-sun Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/32-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "", overview1: "Sound-responsive real-time interactive video, 2022"},
+                            {order: 32, title: "Boundary of the fragments", name: "Min-sun Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/33-102.4x69.1.jpg`, width: 5.12, height: 3.455, overview: "", overview1: "Sound-responsive real-time interactive video, 2022"},
+                            {order: 33, title: "Boundary of the fragments", name: "Min-sun Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/34-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "", overview1: "Sound-responsive real-time interactive video, 2022"},
+                            {order: 34, title: "Boundary of the fragments", name: "Min-sun Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/35-102.4x69.7.jpg`, width: 5.12, height: 3.485, overview: "", overview1: "Sound-responsive real-time interactive video, 2022"},                           
+                            {order: 35, title: "Fragility", name: "Min-sun Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/36-102.4x65.3.jpg`, width: 5.12, height: 3.265, overview: "", overview1: "Video projection, 6m, 2020"},                           
+                            {order: 36, title: "Unstable 02, unstable 01", name: "Min-sun Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-8/37-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "", overview1: "video on monitor, 2m, 3m, 2021"},                                                
                         ]
                     },
                 ],
@@ -3556,10 +3556,10 @@ export const allExhibits_ENG = [
                             {order: 6, exhibit: "2015 《Year-End》 Insa Art Space, Seoul"},
                         ],
                         paint: [
-                            {order: 0, title: "DIORAMA VIVANT THEATRE", imgname: "/2022/22-9/1-102.4x66.2.jpg", overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
-                            {order: 1, title: "DIORAMA VIVANT THEATRE", imgname: "/2022/22-9/2-102.4x66.1.jpg", overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
-                            {order: 2, title: "DIORAMA VIVANT THEATRE", imgname: "/2022/22-9/3-102.4x66.2.jpg", overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
-                            {order: 3, title: "DIORAMA VIVANT THEATRE", imgname: "/2022/22-9/4-102.4x65.9.jpg", overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
+                            {order: 0, title: "DIORAMA VIVANT THEATRE", name: "JooHo Song", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-9/1-102.4x66.2.jpg`, width: 5.12, height: 3.31, overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
+                            {order: 1, title: "DIORAMA VIVANT THEATRE", name: "JooHo Song", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-9/2-102.4x66.1.jpg`, width: 5.12, height: 3.305, overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
+                            {order: 2, title: "DIORAMA VIVANT THEATRE", name: "JooHo Song", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-9/3-102.4x66.2.jpg`, width: 5.12, height: 3.31, overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
+                            {order: 3, title: "DIORAMA VIVANT THEATRE", name: "JooHo Song", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-9/4-102.4x65.9.jpg`, width: 5.12, height: 3.295, overview: "", overview1: "Video, 3D Graphic, Multi Channel, 2022 (Decentraland, Metaberry Ver.)"},
                         ]
                     },
                 ],
@@ -3589,22 +3589,22 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Flowers on top", imgname: "/2022/22-10/1-162x112.jpg", overview: "162x112cm", overview1: "Oil on canvas, 2022"},
-                            {order: 1, title: "Flowers in a jar", imgname: "/2022/22-10/2-162x130.jpg", overview: "162x130cm", overview1: "Oil on canvas, 2022"},
-                            {order: 2, title: "Flowers in a glass jar", imgname: "/2022/22-10/3-150x150.jpg", overview: "150x150cm", overview1: "Oil on canvas, 2022"},
-                            {order: 3, title: "Still life on a white table", imgname: "/2022/22-10/4-100x100.jpg", overview: "100x100cm", overview1: "Oil on canvas, 2022"},
-                            {order: 4, title: "Flower", imgname: "/2022/22-10/5-116x91.jpg", overview: "116x91cm", overview1: "Oil on canvas, 2021"},
-                            {order: 5, title: "Still life on a wine box", imgname: "/2022/22-10/6-72.7x60.jpg", overview: "72.7x60cm", overview1: "Oil on canvas, 2021"},
-                            {order: 6, title: "Rose", imgname: "/2022/22-10/7-53x45.jpg", overview: "53x45cm", overview1: "Oil on canvas, 2021"},
-                            {order: 7, title: "New plum", imgname: "/2022/22-10/8-72.7x50.jpg", overview: "72.7x50cm", overview1: "Oil on canvas, 2021"},
-                            {order: 8, title: "Nectarine", imgname: "/2022/22-10/9-72.7x60.6.jpg", overview: "72.7x60cm", overview1: "Oil on canvas, 2021"},
-                            {order: 9, title: "Still life with tablecloth", imgname: "/2022/22-10/10-91x72.jpg", overview: "91x72cm", overview1: "Oil on canvas, 2020"},
-                            {order: 10, title: "Mr. L dancer", imgname: "/2022/22-10/11-162x130.3.jpg", overview: "162x130.3cm", overview1: "Oil on canvas, 2021"},
-                            {order: 11, title: "Historic site", imgname: "/2022/22-10/12-91x72.jpg", overview: "91x72cm", overview1: "Oil on canvas, 2021"},
-                            {order: 12, title: "Still life with typewriter", imgname: "/2022/22-10/13-120x120.jpg", overview: "120x120cm", overview1: "Oil on canvas, 2019"},
-                            {order: 13, title: "Flower", imgname: "/2022/22-10/14-100x100.jpg", overview: "100x100cm", overview1: "Oil on canvas, 2019"},
-                            {order: 14, title: "Flower", imgname: "/2022/22-10/15-100x100.jpg", overview: "100x100cm", overview1: "Oil on canvas, 2019"},
-                            {order: 15, title: "Flower", imgname: "/2022/22-10/16-150x150.jpg", overview: "150x150cm", overview1: "Oil on canvas, 2018"},
+                            {order: 0, title: "Flowers on top", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/1-162x112.jpg`, width: 3.36, height: 4.86, overview: "162x112cm", overview1: "Oil on canvas, 2022"},
+                            {order: 1, title: "Flowers in a jar", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/2-162x130.jpg`, width: 3.3, height: 4.86, overview: "162x130cm", overview1: "Oil on canvas, 2022"},
+                            {order: 2, title: "Flowers in a glass jar", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/3-150x150.jpg`, width: 4.5, height: 4.5, overview: "150x150cm", overview1: "Oil on canvas, 2022"},
+                            {order: 3, title: "Still life on a white table", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/4-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Oil on canvas, 2022"},
+                            {order: 4, title: "Flower", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/5-116x91.jpg`, width: 3.64, height: 4.64, overview: "116x91cm", overview1: "Oil on canvas, 2021"},
+                            {order: 5, title: "Still life on a wine box", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/6-72.7x60.jpg`, width: 3.6, height: 4.362, overview: "72.7x60cm", overview1: "Oil on canvas, 2021"},
+                            {order: 6, title: "Rose", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/7-53x45.jpg`, width: 4.5, height: 5.3, overview: "53x45cm", overview1: "Oil on canvas, 2021"},
+                            {order: 7, title: "New plum", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/8-72.7x50.jpg`, width: 4, height: 5.816, overview: "72.7x50cm", overview1: "Oil on canvas, 2021"},
+                            {order: 8, title: "Nectarine", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/9-72.7x60.6.jpg`, width: 4.8, height: 5.816, overview: "72.7x60cm", overview1: "Oil on canvas, 2021"},
+                            {order: 9, title: "Still life with tablecloth", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/10-91x72.jpg`, width: 3.6, height: 4.55, overview: "91x72cm", overview1: "Oil on canvas, 2020"},
+                            {order: 10, title: "Mr. L dancer", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/11-162x130.3.jpg`, width: 3.909, height: 4.86, overview: "162x130.3cm", overview1: "Oil on canvas, 2021"},
+                            {order: 11, title: "Historic site", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/12-91x72.jpg`, width: 3.6, height: 4.55, overview: "91x72cm", overview1: "Oil on canvas, 2021"},
+                            {order: 12, title: "Still life with typewriter", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/13-120x120.jpg`, width: 4.8, height: 4.8, overview: "120x120cm", overview1: "Oil on canvas, 2019"},
+                            {order: 13, title: "Flower", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/14-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Oil on canvas, 2019"},
+                            {order: 14, title: "Flower", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/15-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Oil on canvas, 2019"},
+                            {order: 15, title: "Flower", name: "Cha-soong Koo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/16-150x150.jpg`, width: 4.5, height: 4.5, overview: "150x150cm", overview1: "Oil on canvas, 2018"},
                         ]
                     },
                     {
@@ -3619,20 +3619,20 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 16, title: "Hidden dimension", imgname: "/2022/22-10/17-53x45.jpg", overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
-                            {order: 17, title: "Hidden dimension", imgname: "/2022/22-10/18-41x27.jpg", overview: "41x27cm", overview1: "Mixed media on canvas, 2022"},
-                            {order: 18, title: "Hidden dimension", imgname: "/2022/22-10/19-53x45.jpg", overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
-                            {order: 19, title: "Hidden dimension", imgname: "/2022/22-10/20-53x45.jpg", overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
-                            {order: 20, title: "Hidden dimension", imgname: "/2022/22-10/21-45.5x33.jpg", overview: "45.5x33cm", overview1: "Mixed media on canvas, 2022"},
-                            {order: 21, title: "Hidden dimension", imgname: "/2022/22-10/22-162x130.jpg", overview: "162x130cm", overview1: "Mixed media on canvas, 2019"},
-                            {order: 22, title: "Hidden dimension", imgname: "/2022/22-10/23-65.2x65.2.jpg", overview: "65.2x65.2cm", overview1: "Mixed media on canvas, 2018"},
-                            {order: 23, title: "Hidden dimension", imgname: "/2022/22-10/24-53x45.5.jpg", overview: "53x45.5cm", overview1: "Mixed media on canvas, 2017"},
-                            {order: 24, title: "Hidden dimension", imgname: "/2022/22-10/25-72.2x60.6.jpg", overview: "72.2x60.6cm", overview1: "Mixed media on canvas, 2015"},
-                            {order: 25, title: "Hidden dimension", imgname: "/2022/22-10/26-116.7x91.jpg", overview: "116.7x91cm", overview1: "Mixed media on canvas, 2014"},
-                            {order: 26, title: "Hidden dimension", imgname: "/2022/22-10/27-65.2x50.jpg", overview: "65.2x50cm", overview1: "Mixed media on canvas, 2013"},
-                            {order: 27, title: "Hidden dimension", imgname: "/2022/22-10/28-116.8x91.jpg", overview: "116.8x91cm", overview1: "Mixed media on canvas, 2012"},
-                            {order: 28, title: "Hidden dimension", imgname: "/2022/22-10/29-72x60.6.jpg", overview: "72x60.6cm", overview1: "Mixed media on canvas, 2010"},
-                            {order: 29, title: "Hidden dimension", imgname: "/2022/22-10/30-91x72.7.jpg", overview: "91x72.7cm", overview1: "Mixed media on canvas, 2003"},
+                            {order: 16, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/17-53x45.jpg`, width: 4.5, height: 5.3, overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
+                            {order: 17, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/18-41x27.jpg`, width: 3.24, height: 4.92, overview: "41x27cm", overview1: "Mixed media on canvas, 2022"},
+                            {order: 18, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/19-53x45.jpg`, width: 4.5, height: 5.3, overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
+                            {order: 19, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/20-53x45.jpg`, width: 4.5, height: 5.3, overview: "53x45cm", overview1: "Mixed media on canvas, 2022"},
+                            {order: 20, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/21-45.5x33.jpg`, width: 3.3, height: 4.55, overview: "45.5x33cm", overview1: "Mixed media on canvas, 2022"},
+                            {order: 21, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/22-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "Mixed media on canvas, 2019"},
+                            {order: 22, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/23-65.2x65.2.jpg`, width: 5.216, height: 5.216, overview: "65.2x65.2cm", overview1: "Mixed media on canvas, 2018"},
+                            {order: 23, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/24-53x45.5.jpg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Mixed media on canvas, 2017"},
+                            {order: 24, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/25-72.2x60.6.jpg`, width: 3.636, height: 4.332, overview: "72.2x60.6cm", overview1: "Mixed media on canvas, 2015"},
+                            {order: 25, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/26-116.7x91.jpg`, width: 3.64, height: 4.668, overview: "116.7x91cm", overview1: "Mixed media on canvas, 2014"},
+                            {order: 26, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/27-65.2x50.jpg`, width: 4.5, height: 5.868, overview: "65.2x50cm", overview1: "Mixed media on canvas, 2013"},
+                            {order: 27, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/28-116.8x91.jpg`, width: 4.55, height: 5.84, overview: "116.8x91cm", overview1: "Mixed media on canvas, 2012"},
+                            {order: 28, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/29-72x60.6.jpg`, width: 3.636, height: 4.32, overview: "72x62.6cm", overview1: "Mixed media on canvas, 2010"},
+                            {order: 29, title: "Hidden dimension", name: "Chi-won Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-10/30-91x72.7.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "Mixed media on canvas, 2003"},
                         ]
                     },
                 ],
@@ -3676,9 +3676,9 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Early Childhood Culture and Arts Education <Sculpture Bag>", imgname: "/2022/22-12/1-102.4x76.8.jpg", overview: "", overview1: ""},
-                            {order: 1, title: "Early Childhood Culture and Arts Education <Sculpture Bag>", imgname: "/2022/22-12/2-102.4x76.8.jpg", overview: "", overview1: ""},
-                            {order: 2, title: "FLOW No.1-No.6, between", imgname: "/2022/22-12/3-76.8x102.4.jpg", overview: "45x60cm, 40x45x70cm", overview1: "Urethane paint, 2017, Urethane paint, 2019"},
+                            {order: 0, title: "Early Childhood Culture and Arts Education <Sculpture Bag>", name: "Sol-mye Paek", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: ""},
+                            {order: 1, title: "Early Childhood Culture and Arts Education <Sculpture Bag>", name: "Sol-mye Paek", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: ""},
+                            {order: 2, title: "FLOW No.1-No.6, between", name: "Sol-mye Paek", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/3-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "45x60cm, 40x45x70cm", overview1: "Urethane paint, 2017, Urethane paint, 2019"},
                         ]
                     },
                     {
@@ -3693,13 +3693,13 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 3, title: "Untitled, Conversing with nature, waiting in a place where the sun does not set", imgname: "/2022/22-12/4-102.4x76.8.jpg", overview: "94.8x122cm, 54x68cm, 25.9x32cm", overview1: "Acrylic on wood panel, 2021, 2022"},
-                            {order: 4, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", imgname: "/2022/22-12/5-76.8x102.4.jpg", overview: "", overview1: ""},
-                            {order: 5, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", imgname: "/2022/22-12/6-102.4x76.8.jpg", overview: "", overview1: "Week 9 Moonlight Drawing, 2022"},
-                            {order: 6, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", imgname: "/2022/22-12/7-102.4x76.8.jpg", overview: "", overview1: ""},
-                            {order: 7, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", imgname: "/2022/22-12/8-102.4x76.8.jpg", overview: "", overview1: "Week 10 Catching a floating cloud, 2022"},
-                            {order: 8, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", imgname: "/2022/22-12/9-102.4x76.8.jpg", overview: "", overview1: ""},
-                            {order: 9, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", imgname: "/2022/22-12/10-76.8x102.4.jpg", overview: "", overview1: "3-4 weeks floating cloud walk, 2022"},
+                            {order: 3, title: "Untitled, Conversing with nature, waiting in a place where the sun does not set", name: "Yong-jae Shin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/4-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "94.8x122cm, 54x68cm, 25.9x32cm", overview1: "Acrylic on wood panel, 2021, 2022"},
+                            {order: 4, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", name: "Yong-jae Shin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/5-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "", overview1: ""},
+                            {order: 5, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", name: "Yong-jae Shin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/6-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: "Week 9 Moonlight Drawing, 2022"},
+                            {order: 6, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", name: "Yong-jae Shin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/7-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: ""},
+                            {order: 7, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", name: "Yong-jae Shin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/8-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: "Week 10 Catching a floating cloud, 2022"},
+                            {order: 8, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", name: "Yong-jae Shin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/9-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: ""},
+                            {order: 9, title: "Dream Attic Saturday Culture School <Catching a Floating Cloud>", name: "Yong-jae Shin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-12/10-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "", overview1: "3-4 weeks floating cloud walk, 2022"},
                         ]
                     },
                 ],
@@ -3729,8 +3729,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Last consolation", imgname: "/2022/22-13/1-100x300.jpg", overview: "100x300cm", overview1: "watercolor on paper, 2021"},
-                            {order: 1, title: "Each other's space", imgname: "/2022/22-13/2-97x131.jpg", overview: "97x131cm", overview1: "watercolor on paper, 2021"},
+                            {order: 0, title: "Last consolation", name: "Ki-tae Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/1-100x300.jpg`, width: 6, height: 2, overview: "100x300cm", overview1: "watercolor on paper, 2021"},
+                            {order: 1, title: "Each other's space", name: "Ki-tae Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/2-97x131.jpg`, width: 5.24, height: 3.88, overview: "97x131cm", overview1: "watercolor on paper, 2021"},
                         ]
                     },
                     {
@@ -3745,14 +3745,14 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 2, title: "The irony of living life", imgname: "/2022/22-13/3-91x91.jpg", overview: "91x91cm", overview1: "Oil on canvas, 2022"},
-                            {order: 3, title: "A relationship that cannot be perfected", imgname: "/2022/22-13/4-145.5x97.jpg", overview: "145.5x97cm", overview1: "Oil on canvas, 2022"},
-                            {order: 4, title: "What share", imgname: "/2022/22-13/5-33.3x53.jpg", overview: "33.3x53cm", overview1: "Oil on canvas, 2022"},
-                            {order: 5, title: "Coexist in love", imgname: "/2022/22-13/6-53x53.jpg", overview: "53x53cm", overview1: "Oil on canvas, 2022"},
-                            {order: 6, title: "You did very, very well", imgname: "/2022/22-13/7-45.5x45.5.jpg", overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
-                            {order: 7, title: "Reasonable distance", imgname: "/2022/22-13/8-45.5x45.5.jpg", overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
-                            {order: 8, title: "Please dress warmly", imgname: "/2022/22-13/9-45.5x45.5.jpg", overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
-                            {order: 9, title: "I want to confess my feelings", imgname: "/2022/22-13/10-45.5x53.jpg", overview: "45.5x53c,", overview1: "Oil on canvas, 2022"},
+                            {order: 2, title: "The irony of living life", name: "Byul Son", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/3-91x91.jpg`, width: 3.64, height: 3.64, overview: "91x91cm", overview1: "Oil on canvas, 2022"},
+                            {order: 3, title: "A relationship that cannot be perfected", name: "Byul Son", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/4-145.5x97.jpg`, width: 3.88, height: 5.82, overview: "145.5x97cm", overview1: "Oil on canvas, 2022"},
+                            {order: 4, title: "What share", name: "Byul Son", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/5-33.3x53.jpg`, width: 5.3, height: 3.33, overview: "33.3x53cm", overview1: "Oil on canvas, 2022"},
+                            {order: 5, title: "Coexist in love", name: "Byul Son", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/6-53x53.jpg`, width: 5.3, height: 5.3, overview: "53x53cm", overview1: "Oil on canvas, 2022"},
+                            {order: 6, title: "You did very, very well", name: "Byul Son", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/7-45.5x45.5.jpg`, width: 4.55, height: 4.55, overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
+                            {order: 7, title: "Reasonable distance", name: "Byul Son", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/8-45.5x45.5.jpg`, width: 4.55, height: 4.55, overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
+                            {order: 8, title: "Please dress warmly", name: "Byul Son", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/9-45.5x45.5.jpg`, width: 4.55, height: 4.55, overview: "45.5x45.5cm", overview1: "Oil on canvas, 2022"},
+                            {order: 9, title: "I want to confess my feelings", name: "Byul Son", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/10-45.5x53.jpg`, width: 5.3, height: 4.55, overview: "45.5x53c,", overview1: "Oil on canvas, 2022"},
                         ]
                     },
                     {
@@ -3767,10 +3767,10 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 10, title: "To my anxiety", imgname: "/2022/22-13/11-81x65.jpg", overview: "81x65cm", overview1: "Mixed media, 2022"},
-                            {order: 11, title: "Shadow", imgname: "/2022/22-13/12-130.3x97.jpg", overview: "130.3x97cm", overview1: "Oil on canvas, pastel drawing, 2022"},
-                            {order: 12, title: "My chronicle", imgname: "/2022/22-13/13-112x162.jpg", overview: "112x162cm", overview1: "Mixed media, 2022"},
-                            {order: 13, title: "I fall asleep while being held like that", imgname: "/2022/22-13/14-72.7x90.9.jpg", overview: "72.7x90.9cm", overview1: "Mixed media, 2022"},
+                            {order: 10, title: "To my anxiety", name: "Seungwon Yoon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/11-81x65.jpg`, width: 3.9, height: 4.86, overview: "81x65cm", overview1: "Mixed media, 2022"},
+                            {order: 11, title: "Shadow", name: "Seungwon Yoon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/12-130.3x97.jpg`, width: 4.85, height: 5.212, overview: "130.3x97cm", overview1: "Oil on canvas, pastel drawing, 2022"},
+                            {order: 12, title: "My chronicle", name: "Seungwon Yoon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/13-112x162.jpg`, width: 4.86, height: 3.36, overview: "112x162cm", overview1: "Mixed media, 2022"},
+                            {order: 13, title: "I fall asleep while being held like that", name: "Seungwon Yoon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/14-72.7x90.9.jpg`, width: 5.454, height: 4.362, overview: "72.7x90.9cm", overview1: "Mixed media, 2022"},
                         ]
                     },
                     {
@@ -3785,9 +3785,9 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 14, title: "Shimmering", imgname: "/2022/22-13/15-50x50.jpg", overview: "50x50cm", overview1: "coloring on paper, 2022"},
-                            {order: 15, title: "At some point", imgname: "/2022/22-13/16-45.5x60.6.jpg", overview: "45.5x60.6cm", overview1: "coloring on paper, 2022"},
-                            {order: 16, title: "Change after change3", imgname: "/2022/22-13/17-130.3x162.2.jpg", overview: "130.3x162.2cm", overview1: "coloring on paper, 2022"},
+                            {order: 14, title: "Shimmering", name: "Sanghee Chun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/15-50x50.jpg`, width: 5, height: 5, overview: "50x50cm", overview1: "coloring on paper, 2022"},
+                            {order: 15, title: "At some point", name: "Sanghee Chun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/16-45.5x60.6.jpg`, width: 6.06, height: 4.55, overview: "45.5x60.6cm", overview1: "coloring on paper, 2022"},
+                            {order: 16, title: "Change after change3", name: "Sanghee Chun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/17-130.3x162.2.jpg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "coloring on paper, 2022"},
                         ]
                     },
                     {
@@ -3802,9 +3802,9 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 17, title: "People hanged", imgname: "/2022/22-13/18-100x80.3.jpg", overview: "100x80.3cm", overview1: "Oil on canvas, 2021"},
-                            {order: 18, title: "A woman who hates a sneaky man", imgname: "/2022/22-13/19-90x116.8.jpg", overview: "90x116.8cm", overview1: "Oil on canvas, 2021"},
-                            {order: 19, title: "Devastated people", imgname: "/2022/22-13/20-130.3x162.2.jpg", overview: "130.3x162.2cm", overview1: "Oil on canvas, 2021"},
+                            {order: 17, title: "People hanged", name: "Gyubong Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/18-100x80.3.jpg`, width: 3.212, height: 4, overview: "100x80.3cm", overview1: "Oil on canvas, 2021"},
+                            {order: 18, title: "A woman who hates a sneaky man", name: "Gyubong Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/19-90x116.8.jpg`, width: 4.672, height: 3.6, overview: "90x116.8cm", overview1: "Oil on canvas, 2021"},
+                            {order: 19, title: "Devastated people", name: "Gyubong Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/20-130.3x162.2.jpg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Oil on canvas, 2021"},
                         ]
                     },
                     {
@@ -3819,9 +3819,9 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "Abyss", imgname: "/2022/22-13/21-91x116.8.jpg", overview: "91x116.8cm", overview1: "charcoal on paper, 2019"},
-                            {order: 21, title: "Rest", imgname: "/2022/22-13/22-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "Ballpoint pen on panel, 2021"},
-                            {order: 22, title: "It's flowing down", imgname: "/2022/22-13/23-65.1x90.9.jpg", overview: "65.1x90.9cm", overview1: "Ballpoint pen on paper, 2021"},
+                            {order: 20, title: "Abyss", name: "Junhoo Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/21-91x116.8.jpg`, width: 4.672, height: 3.64, overview: "91x116.8cm", overview1: "charcoal on paper, 2019"},
+                            {order: 21, title: "Rest", name: "Junhoo Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/22-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "Ballpoint pen on panel, 2021"},
+                            {order: 22, title: "It's flowing down", name: "Junhoo Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/23-65.1x90.9.jpg`, width: 4.545, height: 3.255, overview: "65.1x90.9cm", overview1: "Ballpoint pen on paper, 2021"},
                         ]
                     },
                     {
@@ -3836,8 +3836,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 23, title: "Relationship with", imgname: "/2022/22-13/24-76.8x102.4.jpg", overview: "230x90x90cm", overview1: "mixed media, 2022"},
-                            {order: 24, title: "Between the sky and the sea", imgname: "/2022/22-13/25-56.4x60.8.jpg", overview: "64x86x35cm", overview1: "mixed media, 2021"},
+                            {order: 23, title: "Relationship with", name: "Yooseung Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/24-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "230x90x90cm", overview1: "mixed media, 2022"},
+                            {order: 24, title: "Between the sky and the sea", name: "Yooseung Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/25-56.4x60.8.jpg`, width: 4.864, height: 4.512, overview: "64x86x35cm", overview1: "mixed media, 2021"},
                         ]
                     },
                     {
@@ -3852,14 +3852,14 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 25, title: "I thought, you hoped, we should go", imgname: "/2022/22-13/26-89.4x130.3.jpg", overview: "89.4x130.3cm", overview1: "Acrylic on canvas, 2019"},
-                            {order: 26, title: "Distance", imgname: "/2022/22-13/27-80.3x130.3.jpg", overview: "80.3x130.3cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 27, title: "Sight", imgname: "/2022/22-13/28-37.9x45.5.jpg", overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 28, title: "What do you think about it-FC", imgname: "/2022/22-13/29-72.7x90.9.jpg", overview: "72.7x90.9cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 29, title: "What do you think about it-L1", imgname: "/2022/22-13/30-37.9x45.5.jpg", overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 30, title: "What do you think about it-L2", imgname: "/2022/22-13/31-37.9x45.5.jpg", overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 31, title: "What do you think about it-T", imgname: "/2022/22-13/32-37.9x45.5.jpg", overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 32, title: "What do you think about it-W", imgname: "/2022/22-13/33-193.3x130.3.jpg", overview: "193.3x130.3cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 25, title: "I thought, you hoped, we should go", name: "Junwoo Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/26-89.4x130.3.jpg`, width: 5.212, height: 3.576, overview: "89.4x130.3cm", overview1: "Acrylic on canvas, 2019"},
+                            {order: 26, title: "Distance", name: "Junwoo Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/27-80.3x130.3.jpg`, width: 5.212, height: 3.212, overview: "80.3x130.3cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 27, title: "Sight", name: "Junwoo Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/28-37.9x45.5.jpg`, width: 4.55, height: 3.79, overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 28, title: "What do you think about it-FC", name: "Junwoo Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/29-72.7x90.9.jpg`, width: 4.545, height: 3.635, overview: "72.7x90.9cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 29, title: "What do you think about it-L1", name: "Junwoo Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/30-37.9x45.5.jpg`, width: 4.55, height: 3.79, overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 30, title: "What do you think about it-L2", name: "Junwoo Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/31-37.9x45.5.jpg`, width: 4.55, height: 3.79, overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 31, title: "What do you think about it-T", name: "Junwoo Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/32-37.9x45.5.jpg`, width: 4.55, height: 3.79, overview: "37.9x45.5cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 32, title: "What do you think about it-W", name: "Junwoo Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/33-193.3x130.3.jpg`, width: 3.909, height: 5.799, overview: "193.3x130.3cm", overview1: "Acrylic on canvas, 2020"},
                         ]
                     },
                     {
@@ -3874,8 +3874,8 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 33, title: "Absence", imgname: "/2022/22-13/34-112.1x193.9.jpg", overview: "112.1x193.9cm", overview1: "coloring on cotton, 2021"},
-                            {order: 34, title: "Untitled", imgname: "/2022/22-13/35-30x40.jpg", overview: "30x40cm", overview1: "coloring on cotton, 2022"},
+                            {order: 33, title: "Absence", name: "Yoonhee Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/34-112.1x193.9.jpg`, width: 5.817, height: 3.363, overview: "112.1x193.9cm", overview1: "coloring on cotton, 2021"},
+                            {order: 34, title: "Untitled", name: "Yoonhee Chang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/35-30x40.jpg`, width: 4, height: 3, overview: "30x40cm", overview1: "coloring on cotton, 2022"},
                         ]
                     },
                     {
@@ -3890,11 +3890,11 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 35, title: "Just forget it", imgname: "/2022/22-13/36-53x45.5.jpeg", overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 36, title: "Shaggy and tangled", imgname: "/2022/22-13/37-65.1x53.jpeg", overview: "65.1x53cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 37, title: "Blind for Love", imgname: "/2022/22-13/38-53x45.5.jpeg", overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 38, title: "Extinction of sensation", imgname: "/2022/22-13/39-72.5x72.5.jpeg", overview: "72.5x72.5cm", overview1: "Acrylic on canvas, 2022"},
-                            {order: 39, title: "Extinction of sensation", imgname: "/2022/22-13/40-72.5x72.5.jpeg", overview: "72.5x72.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 35, title: "Just forget it", name: "Chihoon Chun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/36-53x45.5.jpeg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 36, title: "Shaggy and tangled", name: "Chihoon Chun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/37-65.1x53.jpeg`, width: 4.77, height: 5.859, overview: "65.1x53cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 37, title: "Blind for Love", name: "Chihoon Chun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/38-53x45.5.jpeg`, width: 4.55, height: 5.3, overview: "53x45.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 38, title: "Extinction of sensation", name: "Chihoon Chun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/39-72.5x72.5.jpeg`, width: 5.8, height: 5.8, overview: "72.5x72.5cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 39, title: "Extinction of sensation", name: "Chihoon Chun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2022/22-13/40-72.5x72.5.jpeg`, width: 5.8, height: 5.8, overview: "72.5x72.5cm", overview1: "Acrylic on canvas, 2022"},
                         ]
                     },
                 ],
@@ -4030,8 +4030,8 @@ export const allExhibits_ENG = [
                             {order: 7, exhibit: "2016 다시한지, 동부창고, 청주"},
                         ],
                         paint: [
-                            {order: 0, title: "", imgname: "/2021/21-3/1-102.4x76.8.jpg", overview: "", overview1: "미술관리서치시도 설치 모습"},
-                            {order: 1, title: "", imgname: "/2021/21-3/2-102.4x72.4.jpg", overview: "", overview1: "미술관리서치시도 영상 스틸"},
+                            {order: 0, title: "", name: "Hyeon-Muk Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: "미술관리서치시도 설치 모습"},
+                            {order: 1, title: "", name: "Hyeon-Muk Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/2-102.4x72.4.jpg`, width: 5.12, height: 3.62, overview: "", overview1: "미술관리서치시도 영상 스틸"},
                         ]
                     },
                     {
@@ -4057,8 +4057,8 @@ export const allExhibits_ENG = [
                             {order: 10, exhibit: "2011 Art and Documentation Baltic Gallery, 뉴캐슬, 영국"},
                         ],
                         paint: [
-                            {order: 2, title: "Untitled protest", imgname: "/2021/21-3/3-16x26.jpg", overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"},
-                            {order: 3, title: "Untitled protest", imgname: "/2021/21-3/4-16x26.jpg", overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"},
+                            {order: 2, title: "Untitled protest", name: "Niall Craven", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/3-16x26.jpg`, width: 5.2, height: 3.2, overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"},
+                            {order: 3, title: "Untitled protest", name: "Niall Craven", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/4-16x26.jpg`, width: 5.2, height: 3.2, overview: "16x26cm", overview1: "Conte-Crayon-on-Paper-2021"}, 
                         ]
                     },
                     {
@@ -4090,8 +4090,8 @@ export const allExhibits_ENG = [
                             {order: 9, exhibit: "2016 Hybrid_새로운 시작, 청주미술창작스튜디오, 청주"},
                         ],
                         paint: [
-                            {order: 4, title: "운형리듬3", imgname: "/2021/21-3/5-72.7x90.9.jpg", overview: "72.7x90.9cm", overview1: "Acrylic on canvas, 2021"},
-                            {order: 5, title: "운형리듬4", imgname: "/2021/21-3/6-60.6x90.9.jpg", overview: "60.6x90.9cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 4, title: "운형리듬3", name: "Yong-Jae Shin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/5-72.7x90.9.jpg`, width: 4.545, height: 3.635, overview: "72.7x90.9cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 5, title: "운형리듬4", name: "Yong-Jae Shin", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/6-60.6x90.9.jpg`, width: 4.545, height: 3.03, overview: "60.6x90.9cm", overview1: "Acrylic on canvas, 2021"},
                         ]
                     },
                     {
@@ -4116,8 +4116,8 @@ export const allExhibits_ENG = [
                             {order: 5, exhibit: "2018 “에너지 모델” 광저우"},
                         ],
                         paint: [
-                            {order: 6, title: "Line-drawing-3", imgname: "/2021/21-3/7-50x35.jpg", overview: "50x35cm", overview1: "An-inked-string-on-paper, 2020"},
-                            {order: 7, title: "Space-drawing-2", imgname: "/2021/21-3/8-40x29.jpg", overview: "40x29cm", overview1: "Acrylic-on-paper-Pen, 2020"},
+                            {order: 6, title: "Line-drawing-3", name: "Sun-Gu Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/7-50x35.jpg`, width: 5, height: 3.5, overview: "50x35cm", overview1: "An-inked-string-on-paper, 2020"},
+                            {order: 7, title: "Space-drawing-2", name: "Sun-Gu Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/8-40x29.jpg`, width: 3.19, height: 4.4, overview: "40x29cm", overview1: "Acrylic-on-paper-Pen, 2020"},
                         ]
                     },
                     {
@@ -4144,8 +4144,8 @@ export const allExhibits_ENG = [
                             {order: 6, exhibit: "2016 살아있는 것들, 춘자 아트센터, 부산"},
                         ],
                         paint: [
-                            {order: 8, title: "Easter-Eggs-Puzzle_1", imgname: "/2021/21-3/9-162x130.jpg", overview: "162x130cm", overview1: "Oil on canvas, 2021"},
-                            {order: 9, title: "Easter-Eggs-Puzzle_2", imgname: "/2021/21-3/10-162x130.jpg", overview: "162x130cm", overview1: "Oil on canvas, 2021"},
+                            {order: 8, title: "Easter-Eggs-Puzzle_1", name: "Jae-Young Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/9-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "Oil on canvas, 2021"},
+                            {order: 9, title: "Easter-Eggs-Puzzle_2", name: "Jae-Young Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-3/10-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "Oil on canvas, 2021"},
                         ]
                     },
                 ], 
@@ -4175,17 +4175,17 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 0, title: "Unknown-time", imgname: "/2021/21-4/1-70x140.jpg", overview: "70x140cm", overview1: "Acrylic on canvas, 2021"},
-                            {order: 1, title: "Time-layer-205", imgname: "/2021/21-4/2-77x97.jpg", overview: "77x97cm", overview1: "Acrylic on wood, 2021"},
-                            {order: 2, title: "Time-layer-202", imgname: "/2021/21-4/3-65x87.jpg", overview: "65x87cm", overview1: "Acrylic on wood, 2020"},
-                            {order: 3, title: "Time-layer-201", imgname: "/2021/21-4/4-66x86.jpg", overview: "66x86cm", overview1: "Acrylic on wood, 2020"},
-                            {order: 4, title: "Unknown-time", imgname: "/2021/21-4/5-130.3x162.2.jpg", overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 5, title: "Unknown-time with 정선", imgname: "/2021/21-4/6-130.3x162.2.jpg", overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 6, title: "Unknown-time", imgname: "/2021/21-4/7-130.3x162.2.jpg", overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
-                            {order: 7, title: "", imgname: "/2021/21-4/8-79.9x100.jpg", overview: "", overview1: ""},
-                            {order: 8, title: "", imgname: "/2021/21-4/9-80x100.jpg", overview: "", overview1: ""},
-                            {order: 9, title: "", imgname: "/2021/21-4/10-66.7x100.jpg", overview: "", overview1: ""},
-                            {order: 10, title: "", imgname: "/2021/21-4/11-66.7x100.jpg", overview: "", overview1: ""},
+                            {order: 0, title: "Unknown-time", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/1-70x140.jpg`, width: 5.6, height: 2.8, overview: "70x140cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 1, title: "Time-layer-205", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/2-77x97.jpg`, width: 4.85, height: 3.85, overview: "77x97cm", overview1: "Acrylic on wood, 2021"},
+                            {order: 2, title: "Time-layer-202", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/3-65x87.jpg`, width: 4.35, height: 3.25, overview: "65x87cm", overview1: "Acrylic on wood, 2020"},
+                            {order: 3, title: "Time-layer-201", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/4-66x86.jpg`, width: 4.3, height: 3.3, overview: "66x86cm", overview1: "Acrylic on wood, 2020"},
+                            {order: 4, title: "Unknown-time", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/5-130.3x162.2.jpg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 5, title: "Unknown-time with Jungseon", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/6-130.3x162.2.jpg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 6, title: "Unknown-time", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/7-130.3x162.2.jpg`, width: 4.866, height: 3.909, overview: "130.3x162.2cm", overview1: "Acrylic on canvas, 2020"},
+                            {order: 7, title: "", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/8-79.9x100.jpg`, width: 5, height: 3.995, overview: "", overview1: ""},
+                            {order: 8, title: "", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/9-80x100.jpg`, width: 5, height: 4, overview: "", overview1: ""},
+                            {order: 9, title: "", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/10-66.7x100.jpg`, width: 5, height: 3.335, overview: "", overview1: ""},
+                            {order: 10, title: "", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2021/21-4/11-66.7x100.jpg`, width: 5, height: 3.335, overview: "", overview1: ""},
                         ]
                     },
                 ], 
