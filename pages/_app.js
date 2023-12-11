@@ -10,7 +10,6 @@ import { ScreensaverProvider } from '@/contexts/ScreensaverContext';
 import { MusicProvider } from '@/contexts/MusicContext';
 import MusicPlayer from '@/components/Musicplayer';
 import { isMobile } from 'react-device-detect';
-import { AnimatePresence, motion } from 'framer-motion';
 // const WideLayout = dynamic(() => import('@/components/pagelayout/WideLayout'));
 const TallLayout = dynamic(() => import('@/components/pagelayout/TallLayout'));
 
@@ -48,34 +47,7 @@ export default function App({ Component, pageProps }) {
             :  
             <ScreensaverProvider>
               <MusicProvider>
-                <AnimatePresence>
-                    <motion.div
-                    initial={{ y: 25, opacity: 0}}
-                    animate={{ y: 0, opacity: 1}}
-                    transition={{
-                      delay: 0.4,
-                      duration: 0.75,
-                    }}
-                    variants={{
-                      initialState: {
-                        opacity: 0,
-                        clipPath:'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
-                        transition: {duration: 0.2}
-                      },
-                      animateState: {
-                        opacity: 1,
-                        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
-                        transition: {duration: 0.2}
-                      },
-                      exitState: {
-                        clipPath: 'polygon(50% 0, 50% 0, 50% 100%, 50% 100%)',
-                        transition: {duration: 0.2}
-                      },
-                    }}
-                  >
-                    <Component {...pageProps} />
-                  </motion.div>
-                </AnimatePresence>
+                <Component {...pageProps} />
                 {currentPath === "/" 
                 ? null
                 : <>
