@@ -5384,7 +5384,7 @@ export const allExhibits_CH = [
                         title:"2021 공예비엔날레 “Art Bridge” 연계 특별전시-한국현대미술 반세기 「동세대」 특별전", 
                         name: "김태호", 
                         engname: "Tae Ho Kim",
-                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2021/21-7/21-7-4.png`, 
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2021/21-7/21-7-4.jpg`, 
                         text: "그리드란 얼개를 상정하고 여기에다 반복되는 직선을통해 일정한 두께가 만들어지면서 그리드의 안은 작은 동공으로 밀집되게 된다. 이렇게 쌓아올린 색 층을 부분적으로 긁어냄으로써 역설적인 방법이 강구된다. 이 방법이야말로 그의 말대로 “지워냄으로써 드러나는 역설의 구조”에 다름 아니다. 많은 색채가 쌓아올려졌기 때문에 끌칼로 부분 부분을 깎아내면 물감 층에 숨어있던 색 점들이 선명하게 되살아나게 된다. 마치 생명의 숨결처럼 그것은 미묘한 리듬으로 작용하게 된다. 견고한 바깥의 구조에 대비되게 섬세한 안의 리듬은 신비로운 생성의 차원을 일구어낸다. 초기의 표상의 이원성에서 방법의 이원성으로 전이되어 왔다 고나 할까.",
                         education: "1972 홍익대학교 미술대학 서양화과 졸업, 1984 홍익대학교 교육대학원 졸업",
                         individual_exhibition: [],

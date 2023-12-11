@@ -8,12 +8,16 @@ import { LanguageContext } from "@/contexts/LanguageContext";
 import { ScreenOrientContext } from "@/contexts/ScreenOrientContext";
 import { FontsizeContext } from "@/contexts/FontsizeContext";
 import { clsx } from "clsx";
-import { paintList } from "@/data/paintData";
 import { allExhibits_KOR } from "@/data/allExhibits_KOR";
 import { allExhibits_ENG } from "@/data/allExhibits_ENG";
 import { allExhibits_CH } from "@/data/allExhibits_CH";
 import { allExhibits_TH } from "@/data/allExhibits_TH";
 import { allExhibits_VI } from "@/data/allExhibits_VI";
+import { paintList_KOR } from "@/data/paintList_KOR";
+import { paintList_ENG } from "@/data/paintList_ENG";
+import { paintList_CH } from "@/data/paintList_CH";
+import { paintList_TH } from "@/data/paintList_TH";
+import { paintList_VI } from "@/data/paintList_VI";
 import QRCode from "react-qr-code";
 
 const popupText1 = {
@@ -114,6 +118,14 @@ const inputData = {
   VI: allExhibits_VI
 };
 
+const inputPaint = {
+  KOR: paintList_KOR,
+  ENG: paintList_ENG,
+  CH: paintList_CH,
+  TH: paintList_TH,
+  VI: paintList_VI
+}
+
 const CoverflowCarousel = ({index}) => {
   const [isClient, setIsClient] = useState(false);
   const {language} = useContext(LanguageContext);
@@ -159,7 +171,7 @@ const CoverflowCarousel = ({index}) => {
                   </button>
                   <button
                     className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
-                    onClick={()=> router.push(`/viewpage/${paintList[list][highlightedImageIndex][0].order}?order=${highlightedImageIndex}&year=${list}`)}
+                    onClick={()=> router.push(`/viewpage/${inputPaint[language][list][highlightedImageIndex][0].order}?order=${highlightedImageIndex}&year=${list}`)}
                     >
                       {popupText2[language]}
                       {/* <QRCode 
