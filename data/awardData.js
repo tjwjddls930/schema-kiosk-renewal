@@ -838,8 +838,8 @@ export const awardData_VI =
         inde: 3,
         title: "Người đoạt giải thứ 3", 
         imgname:"3rd.jpg", 
-        engname: "Chang Xin", 
-        name:"Chang Shin", 
+        engname: "Cang Xin", 
+        name:"Cang Xin", 
         career: "Tốt nghiệp Đại học Âm nhạc Thiên Tân",
         timeline_individual: [
             {order: 1, year: 2020, award: "“Constant & Mutation” Bảo tàng nghệ thuật Luxehille, Thành Đô"},
