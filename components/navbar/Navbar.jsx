@@ -507,7 +507,7 @@ const Navbar = ({ url, sign }) => {
           className={clsx(
             isPortrait
               ? "absolute transform -translate-x-1/2 left-1/2 bottom-4 h-1/2 w-2/3 z-40"
-              : "absolute transform -translate-x-1/2 left-1/2 bottom-0 h-2/3 w-2/3 z-40"
+              : "absolute transform -translate-x-1/2 left-1/2 bottom-0 h-1/2 w-1/2 z-40"
           )}
           // onClick={()=>setPlaying(!playing)}
           onClick={() => {

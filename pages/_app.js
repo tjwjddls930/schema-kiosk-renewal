@@ -41,9 +41,20 @@ export default function App({ Component, pageProps }) {
         <FontsizeProvider>
           <ScreenOrientProvider>
           {isPortrait ? 
-            <TallLayout>
-              <Component {...pageProps} />
-            </TallLayout>
+            <ScreensaverProvider>
+              <MusicProvider>
+                <TallLayout>
+                  <Component {...pageProps} />
+                  {currentPath === "/" 
+                    ? null
+                    : <>
+                        <InactivityRedirect timeout={150000} landingPageUrl={"/"} />
+                        {!isMobile && <MusicPlayer sources = {musicList} />}
+                      </>
+                  }
+                </TallLayout>
+              </MusicProvider>
+            </ScreensaverProvider>
             :  
             <ScreensaverProvider>
               <MusicProvider>
