@@ -154,7 +154,7 @@ const CoverflowCarousel = ({index}) => {
     setHighlightedImageIndex(swiper.activeIndex);
   };
 
-  // console.log(allExhibits[])
+  // console.log(inputPaint[language][list]?.[highlightedImageIndex]?.length)
   return (
     <>
       {/* <!-- Coverflow Slider --> */}
@@ -163,13 +163,16 @@ const CoverflowCarousel = ({index}) => {
             {popup && (
               <div className={clsx(isPortrait ? "absolute top-0 left-0 h-[92%] screen-w:h-[97.5%] w-screen bg-Ablack bg-opacity-60 z-20" : "absolute top-0 left-0 h-[91.5%] screen-w:h-[92.7%] w-screen bg-Ablack bg-opacity-60 z-20")}>
                 <div className={clsx(isPortrait ? "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-end justify-center" : "w-5/6 h-5/6 flex flex-row space-x-4 screen-w:space-x-16 mx-auto items-center justify-center")}>
-                  <button 
-                    className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
-                    onClick={()=> router.push(`/artist/${list}?order=${highlightedImageIndex}`)}
-                  >
-                      {popupText1[language]}
-                  </button>
-                  <button
+                 {inputData[language][list]?.exhibits[highlightedImageIndex]?.artist_info.length > 0 && (
+                   <button 
+                   className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
+                   onClick={()=> router.push(`/artist/${list}?order=${highlightedImageIndex}`)}
+                 >
+                     {popupText1[language]}
+                 </button>
+                 )}
+                  {inputPaint[language][list]?.[highlightedImageIndex]?.length > 0 && (
+                    <button
                     className={clsx(isPortrait ? "h-1/4 w-2/5 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue" : "h-1/3 w-1/3 text-base screen-w:text-6xl text-Awhite font-bold rounded-lg bg-gradient-to-r from-Bblue to-Ablue")}
                     onClick={()=> router.push(`/viewpage/${inputPaint[language][list][highlightedImageIndex][0].order}?order=${highlightedImageIndex}&year=${list}`)}
                     >
@@ -183,7 +186,7 @@ const CoverflowCarousel = ({index}) => {
                         {popupText4[language]}
                       </span> */}
                   </button>
-                
+                  )}
                 </div>
                 <button
                     onClick={()=>setPopup(!popup)}

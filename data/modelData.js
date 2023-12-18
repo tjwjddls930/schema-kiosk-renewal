@@ -1,13 +1,4 @@
 
-
-// export const modelData = [
-//     {order: 0, title: "조형물1", name: "", keyname: "schema_model_14.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_14.glb`, position: [0, -1, 0], scale: [1, 1, 1], overview: "", overview1: "",},
-//     {order: 1, title: "조형물2", name: "", keyname: "schema_model_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_2.glb`, position: [0, 0, 0], scale: [0.6, 0.6, 0.6], overview: "", overview1: "",},
-//     {order: 2, title: "영겁", name: "김윤화", keyname: "schema_model_list_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_list_2.glb`, position:[0, -1, -1], scale: [4, 4, 4], overview: "", overview1: "",},
-//     {order: 3, title: "조형물4", name: "", keyname: "schemalist_4(re).glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schemalist_4(re).glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
-//     {order: 1, title: "조형물2-1", name: "", keyname: "schema_model_2_1.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_2_1.glb`, position: [0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
-// ];
-
 export const modelData_KOR = [
     {order: 0, title: "조형물1", name: "", keyname: "schema_model_14.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_14.glb`, position: [0, -1, 0], scale: [1, 1, 1], overview: "", overview1: "",},
     {order: 1, title: "조형물2", name: "", keyname: "schema_model_2_1.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_2_1.glb`, position: [0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
@@ -19,6 +10,7 @@ export const modelData_KOR = [
     {order: 7, title: "조형물8", name: "", keyname: "schema_model_6.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_6.glb`, position:[0, 0, 0], scale: [3, 3, 3], overview: "", overview1: "",},
     {order: 8, title: "조형물9", name: "", keyname: "schema_model_6_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_6_2.glb`, position:[0, 0, 0], scale: [5, 5, 5], overview: "", overview1: "",},
     {order: 9, title: "조형물10", name: "", keyname: "schema_model_7.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_7.glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
+    {order: 10, title: "조형물11", name: "", keyname: "schema_model_10.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_10.glb`, position:[0, -1.5, 0], scale: [2, 2, 2], overview: "", overview1: "",},
 ];
 
 export const modelData_ENG = [
@@ -32,6 +24,7 @@ export const modelData_ENG = [
     {order: 7, title: "Sculpture 8", name: "", keyname: "schema_model_6.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_6.glb`, position:[0, 0, 0], scale: [3, 3, 3], overview: "", overview1: "",},
     {order: 8, title: "Sculpture 9", name: "", keyname: "schema_model_6_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_6_2.glb`, position:[0, 0, 0], scale: [5, 5, 5], overview: "", overview1: "",},
     {order: 9, title: "Sculpture 10", name: "", keyname: "schema_model_7.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_7.glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
+    {order: 10, title: "Sculpture 11", name: "", keyname: "schema_model_10.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_10.glb`, position:[0, -1.5, 0], scale: [2, 2, 2], overview: "", overview1: "",},
 ];
 
 export const modelData_CH = [
@@ -45,6 +38,7 @@ export const modelData_CH = [
     {order: 7, title: "雕塑8", name: "", keyname: "schema_model_6.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_6.glb`, position:[0, 0, 0], scale: [3, 3, 3], overview: "", overview1: "",},
     {order: 8, title: "雕塑9", name: "", keyname: "schema_model_6_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_6_2.glb`, position:[0, 0, 0], scale: [5, 5, 5], overview: "", overview1: "",},
     {order: 9, title: "雕塑10", name: "", keyname: "schema_model_7.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_7.glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
+    {order: 10, title: "雕塑11", name: "", keyname: "schema_model_10.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_10.glb`, position:[0, -1.5, 0], scale: [2, 2, 2], overview: "", overview1: "",},
 ];
 
 export const modelData_TH = [
@@ -58,6 +52,7 @@ export const modelData_TH = [
     {order: 7, title: "ประติมากรรม8", name: "", keyname: "schema_model_6.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_6.glb`, position:[0, 0, 0], scale: [3, 3, 3], overview: "", overview1: "",},
     {order: 8, title: "ประติมากรรม9", name: "", keyname: "schema_model_6_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_6_2.glb`, position:[0, 0, 0], scale: [5, 5, 5], overview: "", overview1: "",},
     {order: 9, title: "ประติมากรรม10", name: "", keyname: "schema_model_7.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_7.glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
+    {order: 10, title: "ประติมากรรม11", name: "", keyname: "schema_model_10.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_10.glb`, position:[0, -1.5, 0], scale: [2, 2, 2], overview: "", overview1: "",},
 ];
 
 export const modelData_VI = [
@@ -71,4 +66,5 @@ export const modelData_VI = [
     {order: 7, title: "Điêu khắc8", name: "", keyname: "schema_model_6.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_6.glb`, position:[0, 0, 0], scale: [3, 3, 3], overview: "", overview1: "",},
     {order: 8, title: "Điêu khắc9", name: "", keyname: "schema_model_6_2.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_6_2.glb`, position:[0, 0, 0], scale: [5, 5, 5], overview: "", overview1: "",},
     {order: 9, title: "Điêu khắc10", name: "", keyname: "schema_model_7.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_7.glb`, position:[0, 0, 0], scale: [4, 4, 4], overview: "", overview1: "",},
+    {order: 10, title: "Điêu khắc11", name: "", keyname: "schema_model_10.glb", url: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/models/schema_model_10.glb`, position:[0, -1.5, 0], scale: [2, 2, 2], overview: "", overview1: "",},
 ];
