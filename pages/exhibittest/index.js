@@ -101,8 +101,8 @@ export default function Exhibitpage() {
                     </motion.div>
                 </AnimatePresence>
             </main>  
-            <div className="w-3/4 screen-w:w-[88%] h-10 screen-w:h-24 flex text-Dgrey shadow-md mx-auto justify-center overflow-hidden">
-                <ul className="flex flex-row space-x-12 font-bold text-base mb-2 screen-w:text-5xl screen-w:space-x-16 screen-w:mt-4">
+            <div className="w-3/4 screen-w:w-[88%] h-10 screen-w:h-24 flex text-Dgrey shadow-md mx-auto justify-center overflow-x-auto">
+                <ul className="flex flex-row space-x-8 font-bold text-base mb-2 screen-w:text-5xl screen-w:space-x-16 screen-w:mt-4">
                     {inputData[language].map((item)=> (
                         <li
                             key={item.year}
