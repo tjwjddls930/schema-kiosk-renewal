@@ -178,7 +178,7 @@ export default function Award() {
             <button className="absolute left-16 screen-w:bottom-80">
                 <Link href="/main">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
-                        className="w-16 h-16 screen-w:w-36 screen-w:h-36">
+                        className="w-12 h-12 screen-w:w-36 screen-w:h-36">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                     </svg>
                 </Link>
@@ -223,7 +223,7 @@ export default function Award() {
                     <div className="h-2 w-2 screen-w:h-5 screen-w:w-5 bg-Bblue rounded-full"></div>
                 </div>
             </div>
-            <div className="absolute left-24 top-56 h-[390px] screen-w:h-[1150px] w-6 screen-w:w-16 screen-w:top-80 screen-w:left-44 rounded-r-xl bg-Bblue"></div>
+            <div className="absolute left-24 top-44 h-[390px] screen-w:h-[1150px] w-6 screen-w:w-16 screen-w:top-80 screen-w:left-44 rounded-r-xl bg-Bblue"></div>
             <div className="w-11/12 h-12 screen-w:h-32 flex text-Cgrey border-b-4 screen-w:pt-10 border-Cgrey mx-auto justify-center">
                 <ul className="flex flex-row space-x-12 screen-w:space-x-16 font-bold text-xl screen-w:text-4xl pb-1">
                     {inputData[language].map((item)=> (
@@ -273,7 +273,7 @@ export default function Award() {
             <button className="absolute left-32 bottom-20 screen-w:left-16 screen-w:bottom-80">
                 <Link href="/main">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
-                        className="w-16 h-16 screen-w:w-36 screen-w:h-36">
+                        className="w-12 h-12 screen-w:w-36 screen-w:h-36">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                     </svg>
                 </Link>

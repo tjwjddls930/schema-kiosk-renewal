@@ -16,7 +16,7 @@ const inputData = {
 const pageCareer = {
     KOR: (font) => (
         <div className={clsx("border-4 border-Ablack flex flex-col px-4 py-8 text-center screen-w:px-8 screen-w:py-16 text-Ablack font-bold", 
-        font ? " w-[400px] h-[250px] screen-w:w-[850px] screen-w:h-[450px] space-y-2 screen-w:space-y-4 text-sm screen-w:text-5xl" : "w-[300px] h-[150px] screen-w:w-[750px] screen-w:h-[350px] space-y-1 screen-w:space-y-2 text-xs screen-w:text-4xl")}>
+        font ? " w-[350px] h-[160px] screen-w:w-[850px] screen-w:h-[450px] space-y-2 screen-w:space-y-4 text-sm screen-w:text-5xl" : "w-[300px] h-[150px] screen-w:w-[750px] screen-w:h-[350px] space-y-1 screen-w:space-y-2 text-xs screen-w:text-4xl")}>
             <span>{'쉐마미술관 관장'}</span>
             <span>{'에스펙트 현대미술동인회 명예회장'}</span>
             <span>{'(사)한국사립미술관협회 회장 역임'}</span>
@@ -24,8 +24,8 @@ const pageCareer = {
         </div>
     ),
     ENG: (font) => (
-        <div className={clsx("border-4 border-Ablack flex flex-col px-4 py-8 text-center screen-w:px-8 screen-w:py-16 text-Ablack font-bold",
-        font ? "w-[400px] h-[250px] screen-w:w-[840px] screen-w:h-[490px] space-y-2 screen-w:space-y-4 text-sm screen-w:text-[40px] leading-none" : "w-[300px] h-[150px] screen-w:w-[800px] screen-w:h-[450px] space-y-1 screen-w:space-y-2 text-xs screen-w:text-4xl")}>
+        <div className={clsx("border-4 border-Ablack flex flex-col p-2 text-center screen-w:px-8 screen-w:py-16 text-Ablack font-bold",
+        font ? "w-[350px] h-[160px] screen-w:w-[840px] screen-w:h-[490px] space-y-2 screen-w:space-y-4 text-sm screen-w:text-[40px] leading-none" : "w-[300px] h-[150px] screen-w:w-[800px] screen-w:h-[450px] space-y-1 screen-w:space-y-2 text-xs screen-w:text-4xl")}>
             <span>{'Director of Schema Museum of Art'}</span>
             <span>{'Honorary Chairman of Aspect Contemporary Art Association'}</span>
             <span>{'Served as President of the Korea Private Art Museum Association'}</span>
@@ -34,7 +34,7 @@ const pageCareer = {
     ),
     CH: (font) => (
         <div className={clsx("border-4 border-Ablack flex flex-col px-4 py-8 text-center screen-w:px-8 screen-w:py-16 text-Ablack font-bold",
-        font ? "w-[400px] h-[250px] screen-w:w-[850px] screen-w:h-[450px] space-y-2 screen-w:space-y-4 text-sm screen-w:text-5xl" : "w-[300px] h-[150px] screen-w:w-[750px] screen-w:h-[350px] space-y-1 screen-w:space-y-2 text-xs screen-w:text-4xl")}>
+        font ? "w-[350px] h-[160px] screen-w:w-[850px] screen-w:h-[450px] space-y-2 screen-w:space-y-4 text-sm screen-w:text-5xl" : "w-[300px] h-[150px] screen-w:w-[750px] screen-w:h-[350px] space-y-1 screen-w:space-y-2 text-xs screen-w:text-4xl")}>
             <span>{'图式艺术博物馆馆长'}</span>
             <span>{'纵观当代艺术协会名誉主席'}</span>
             <span>{'担任韩国私立美术馆协会会长'}</span>
@@ -42,8 +42,8 @@ const pageCareer = {
         </div>
     ),
     TH: (font) => (
-        <div className={clsx("border-4 border-Ablack flex flex-col px-4 py-8 text-center screen-w:px-8 screen-w:py-16 text-Ablack font-bold",
-        font ? "w-[400px] h-[250px] screen-w:w-[850px] screen-w:h-[490px] space-y-2 screen-w:space-y-4 text-sm screen-w:text-[40px] leading-none" : "w-[300px] h-[150px] screen-w:w-[850px] screen-w:h-[400px] space-y-2 text-xs screen-w:text-4xl")}>
+        <div className={clsx("border-4 border-Ablack flex flex-col p-2 text-center screen-w:px-8 screen-w:py-16 text-Ablack font-bold",
+        font ? "w-[350px] h-[160px] screen-w:w-[850px] screen-w:h-[490px] space-y-2 screen-w:space-y-4 text-sm screen-w:text-[40px] leading-none" : "w-[300px] h-[150px] screen-w:w-[850px] screen-w:h-[400px] space-y-2 text-xs screen-w:text-4xl")}>
             <span>{'ผู้อำนวยการพิพิธภัณฑ์ศิลปะสคีมา'}</span>
             <span>{'ประธานกิตติมศักดิ์สมาคมศิลปะร่วมสมัยแอสเพค'}</span>
             <span>{'ดำรงตำแหน่งประธานสมาคมพิพิธภัณฑ์ศิลปะเอกชนแห่งเกาหลี'}</span>
@@ -51,8 +51,8 @@ const pageCareer = {
         </div>
     ),
     VI: (font) => (
-        <div className={clsx("border-4 border-Ablack flex flex-col px-4 py-8 text-center screen-w:px-8 screen-w:py-16 text-Ablack font-bold",
-        font ? "w-[400px] h-[250px] screen-w:w-[850px] screen-w:h-[500px] space-y-2 screen-w:space-y-4 text-sm screen-w:text-[40px] leading-none" : "w-[300px] h-[150px] screen-w:w-[850px] screen-w:h-[450px] space-y-2 screen-w:space-y-4 text-xs screen-w:text-4xl")}>
+        <div className={clsx("border-4 border-Ablack flex flex-col p-2 text-center screen-w:px-8 screen-w:py-16 text-Ablack font-bold",
+        font ? "w-[350px] h-[160px] screen-w:w-[850px] screen-w:h-[500px] space-y-2 screen-w:space-y-4 text-sm screen-w:text-[40px] leading-none" : "w-[300px] h-[160px] screen-w:w-[850px] screen-w:h-[450px] space-y-2 screen-w:space-y-4 text-xs screen-w:text-4xl")}>
             <span>{'Giám đốc Bảo tàng Nghệ thuật Schema'}</span>
             <span>{'Chủ tịch danh dự Hiệp hội nghệ thuật đương đại Aspect'}</span>
             <span>{'Từng là Chủ tịch Hiệp hội Bảo tàng Nghệ thuật Tư nhân Hàn Quốc'}</span>
@@ -186,7 +186,7 @@ const Profile = ({}) => {
                     <div className="w-1/2 h-3/4 flex items-center">
                         <img 
                             src="/img/intro/career/김재관_관장님.png"
-                            className="h-[550px] w-[450px] screen-w:h-[1700px] screen-w:w-[1400px] opacity-100 z-10"
+                            className="h-[510px] w-[420px] screen-w:h-[1700px] screen-w:w-[1400px] opacity-100 z-10"
                             alt="director"
                         />
                         </div>
@@ -195,7 +195,7 @@ const Profile = ({}) => {
                     <div className="absolute bottom-4 transform -translate-x-1/2 left-[37%] screen-w:bottom-24">
                         <img 
                             src="/img/intro/career/김재관_관장님.png"
-                            className="h-[550px] w-[450px] screen-w:h-[1600px] screen-w:w-[1300px] opacity-100 z-[999]"
+                            className="h-[510px] w-[420px] screen-w:h-[1600px] screen-w:w-[1300px] opacity-100 z-[999]"
                             alt="director"
                         />
                     </div>
