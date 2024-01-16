@@ -10,6 +10,7 @@ import { ScreensaverProvider } from '@/contexts/ScreensaverContext';
 import { MusicProvider } from '@/contexts/MusicContext';
 import MusicPlayer from '@/components/Musicplayer';
 import { isMobile } from 'react-device-detect';
+import Head from 'next/head';
 // const WideLayout = dynamic(() => import('@/components/pagelayout/WideLayout'));
 const TallLayout = dynamic(() => import('@/components/pagelayout/TallLayout'));
 
@@ -37,6 +38,15 @@ export default function App({ Component, pageProps }) {
   }, []);
   return(
     <>
+      <Head>
+        <title>쉐마미술관 AI키오스크</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="쉐마미술관 AI 키오스크 by Metalab"
+        />
+        <meta property="og:image" content="/og-image.png" />
+      </Head>
       <LanguageProvider>
         <FontsizeProvider>
           <ScreenOrientProvider>
