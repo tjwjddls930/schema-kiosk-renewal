@@ -54,13 +54,13 @@ export default function Landingpage() {
                             <Imageandmodel />
                             <Html
                                 transform
-                                distanceFactor={10}
-                                position={[9, 1.2, 1]}
+                                distanceFactor={8}
+                                position={[9, 2.2, 1]}
                                 zIndexRange={[1, 0]}
                             >
                             {video && (
                                 <Soundguide 
-                                    className="h-[400px] w-[400px] screen-w:h-[850px] screen-w:w-[850px]"
+                                    className="h-[350px] w-[350px] screen-w:h-[850px] screen-w:w-[850px]"
                                     videoUrl={video}
                                     volume={0.5}
                                     playing={true}
