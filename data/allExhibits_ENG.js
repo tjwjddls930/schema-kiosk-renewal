@@ -2,6 +2,62 @@
 export const allExhibits_ENG = [
     {
         index: 0,
+        year: 2024,
+        exhibits: [
+            {
+                order:1, 
+                type:"Schema Art Museum Special Invitational Exhibition",
+                title:"Special invitation exhibition for the 22nd anniversary of the death of ‘Goesan painter’ Hwang Chang-bae",
+                time: "2023/12/15 ~ 2024/01/28",
+                artist: "Hwang Chang-bae",
+                location: "Schema Art Museum", 
+                host: "Schema Art Museum", 
+                support: "",
+                explanation: "Hwang Chang-bae graduated from Seoul National University's College of Fine Arts, Department of Oriental Painting and its graduate school. He served as a professor at Myongji College, Dongduk Women's University, Kyunghee University, and Ewha Womans University, and received the Special Selection at the 24th and 25th Korea Art Exhibitions, the Minister of Culture and Public Information Award at the 26th Korea Art Exhibition (<Secret 31> entry), and the 27th Korea Art Exhibition. He won the Presidential Award at the Korea Art Exhibition (<Secret 51>), the Sun Art Award in 1987, the Total Art Award in 1991, and the Stone Culture Award in 2019. He held 9 solo exhibitions in Seoul, Milan, Boston, Paris, etc., and held group exhibitions and invitation exhibitions at the Seal Association Exhibition, Ilyeonhoe Exhibition, National Museum of Modern and Contemporary Art, Seoul Museum of Art, Hoam Gallery, and many others. His works are housed in the Blue House, the National Assembly Building, the National Museum of Modern and Contemporary Art, and the Seoul Museum of Art.",         
+                author: "Hwang Chang-bae",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-11.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"Special invitation exhibition for the 22nd anniversary of the death of ‘Goesan painter’ Hwang Chang-bae",
+                        name: "Changbae Hwang", 
+                        engname: "Changbae Hwang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-11/23-11-1.jpg`, 
+                        text: "I don't really think about conveying a strong message through my paintings. So I don't have a specific plan about what to draw before starting work. But on the other hand, because I don't have a plan, I feel vague and scared every time I look at the screen, so it feels like I'm trapped in the dark. In each painting, I try to remain faithful to the spontaneous emotions at the time. To me, the amplitude of meaning given by the expressed object is not that great. Because I know that the concrete objects expressed are not the final thing I intend to intend.",
+                        education: "Graduated from Seoul National University's College of Fine Arts, Department of Painting, Graduated from Seoul National University's Graduate School of Painting",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "1998 9th Solo Exhibition, Sun Gallery, Seoul"},
+                            {order: 2, exhibit: "1997 8th solo exhibition, Galerie Gana-Beaubourg. Paris, France"},
+                            {order: 3, exhibit: "1996 7th Solo Exhibition, Ye Gallery, Seoul"},
+                            {order: 4, exhibit: "1993 6th solo exhibition, Gallery Fine Art, Boston, USA"},
+                            {order: 5, exhibit: "1991 5th Solo Exhibition. World Gallery, Busan"},
+                            {order: 6, exhibit: "1991 4th Solo Exhibition. Gallery Sangmundang, Duson Gallery, Seoul"},
+                            {order: 7, exhibit: "1990 3rd solo exhibition. Gallery Carlo Grosetti, Milan Italy"},
+                            {order: 8, exhibit: "1987 2nd solo exhibition. Sun Gallery, Seoul"},
+                            {order: 9, exhibit: "1981 1st solo exhibition. Dongsanbang Gallery, Seoul"},
+                        ],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 0, title: "Birth, trials, miracles, love, eternal life, resurrection", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: " Acrylic on canvas, 1997"},
+                            {order: 1, title: "Birth, trials, miracles, love, eternal life, resurrection", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: " Acrylic on canvas, 1997"},
+                            {order: 2, title: "The Resurrected Jesus", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/3-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "Acrylic on canvas, 1998"},
+                            {order: 3, title: "Elijah's Prayer", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/4-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "Acrylic on canvas, 1998"},
+                            {order: 4, title: "The Virgin Mary and Horse", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/5-130.5x130.5.jpg`, width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "Mixed media on canvas , 1995"},
+                            {order: 5, title: "95-57", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/6-127x166.jpg`, width: 4.98, height: 3.81, overview: "127x166cm", overview1: "Mixed materials on Hanji, 1995"},
+                            {order: 6, title: "96-2", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/7-117x91.jpg`, width: 3.64, height: 4.68, overview: "117x91cm", overview1: "Mixed media on canvas, 1996"},
+                            {order: 7, title: "96-12", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "Mixed media on canvas, 1996"},
+                            {order: 8, title: "C33", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/9-21x25.jpg`, width: 5, height: 4.2, overview: "21x25cm", overview1: "Color on paper, 1992"},
+                            {order: 9, title: "D-107", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/10-135x167.jpg`, width: 5.01, height: 4.05, overview: "135x167cm", overview1: "Mixed on Hanji, 1994"},
+                            {order: 10, title: "D-139", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/11-130x166.jpg`, width: 4.98, height: 3.9, overview: "130x166cm", overview1: "Mixed materials on Hanji, 1996"},
+                        ]
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        index: 1,
         year: 2023, 
         exhibits: [
             {
@@ -2185,7 +2241,7 @@ export const allExhibits_ENG = [
         ]    
     },   
     {
-        index: 1,
+        index: 2,
         year: 2022,
         exhibits: [
             {
@@ -3902,7 +3958,7 @@ export const allExhibits_ENG = [
         ]
     }, 
     {
-        index: 2,
+        index: 3,
         year: 2021,
         exhibits: [
             {
@@ -6134,8 +6190,8 @@ export const allExhibits_ENG = [
             },
         ]
     },
-        {
-        index: 3,
+    {
+        index: 4,
         year: 2020,
         exhibits: [
             {
@@ -6348,8 +6404,8 @@ export const allExhibits_ENG = [
             },
         ]
     },
-        {
-        index: 4,
+    {
+        index: 5,
         year: 2019, 
         exhibits: [
             {
@@ -6509,7 +6565,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 5,
+        index: 6,
         year: 2018,
         exhibits: [
             {
@@ -6683,7 +6739,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 6,
+        index: 7,
         year: 2017,
         exhibits: [
             {
@@ -6801,7 +6857,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 7,
+        index: 8,
         year: 2016,
         exhibits: [
             {
@@ -6975,7 +7031,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 8,
+        index: 9,
         year: 2015,
         exhibits: [
             {
@@ -7190,8 +7246,8 @@ export const allExhibits_ENG = [
             },
         ]
     },
-     {
-        index: 9,
+    {
+        index: 10,
         year: 2014,
         exhibits: [
             {
@@ -7364,8 +7420,8 @@ export const allExhibits_ENG = [
             },
         ]
     },
-      {
-        index: 10, 
+    {
+        index: 11, 
         year: 2013,
         exhibits: [
             {
@@ -7539,7 +7595,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 11,
+        index: 12,
         year: 2012,
         exhibits: [
             {
@@ -7671,7 +7727,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index:12,
+        index:13,
         year:2011,
         exhibits: [
             {
@@ -7817,7 +7873,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index:13,
+        index:14,
         year:2010, 
         exhibits: [
             {
@@ -7879,7 +7935,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index:14,
+        index:15,
         year: 2009,
         exhibits: [
             {

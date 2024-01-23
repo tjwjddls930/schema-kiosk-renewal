@@ -2,9 +2,10 @@ import { Canvas } from "@react-three/fiber"
 import Imageandmodel from "@/components/landingpage/ImageandModel";
 import { Suspense, useState, useEffect, useContext } from "react";
 import Navbar from "@/components/navbar/Navbar";
-import Soundguide from "@/components/docent/Soundguide";
+// import Soundguide from "@/components/docent/Soundguide";
 import { Html } from "@react-three/drei";
 import { LanguageContext } from "@/contexts/LanguageContext";
+import Landingsound from "@/components/docent/Landingsound";
 
 export default function Landingpage() {
     const {language} = useContext(LanguageContext);
@@ -59,11 +60,11 @@ export default function Landingpage() {
                                 zIndexRange={[1, 0]}
                             >
                             {video && (
-                                <Soundguide 
+                                <Landingsound
                                     className="h-[350px] w-[350px] screen-w:h-[850px] screen-w:w-[850px]"
                                     videoUrl={video}
                                     volume={0.5}
-                                    playing={true}
+                                    // playing={true}
                                     muted={false}
                                     loop={true}
                                 />

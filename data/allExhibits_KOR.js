@@ -2,6 +2,64 @@
 export const allExhibits_KOR = [
     {
         index: 0,
+        year: 2024,
+        exhibits: [
+            {
+                order:1, 
+                type:"쉐마미술관 기획초대전", 
+                title:"‘괴산의 그림쟁이’ 황창배 작고 22주기 기획초대전", 
+                time: "2023/12/15 ~ 2024/01/28", 
+                artist: "황창배", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
+                explanation: "황창배는 서울대학교 미술대학 동양화과 및 동 대학원을 졸업했다. 명지전문대학교, 동덕여자대학교, 경희대학교, 이화여자대학교에서 교수를 역임했으며, 제24회, 25회 대한민국 미술전람회 특선, 제26회 대한민국 미술전람회 문화공보부장관상(<秘31>출품), 제27회 대한민국미술전람회 대통령상(<秘51>출품), 1987년 선 미술상, 1991년 토탈미술상, 2019년 석재문화상을 수상하였다. 서울, 밀라노, 보스톤, 파리 등에서 9회의 개인전을 개최하였고, 전각협회전, 일연회전, 국립현대미술관, 서울시립미술관, 호암갤러리 외 다수의 그룹전 및 초대전을 개최하였다. 그의 작품은 청와대, 국회의사당, 국립현대미술관, 서울시립미술관 등에 소장되어있다.",         
+                author: "황창배",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-11.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"‘괴산의 그림쟁이’ 황창배 작고 22주기 기획초대전", 
+                        name: "황창배", 
+                        engname: "Changbae Hwang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-11/23-11-1.jpg`, 
+                        text: "나는 내 그림을 통하여 어떤 메세지를 강하게 전달하겠다는 생각은 별로 하지 않는다. 그래서 작업에 들어가기 전에 무엇을 그릴 것인가에 대한 구체적인 계획이 없다. 그러나 반면에 계획이 없기에 화면을 대할 때마다 막연하고 두려울 때도 있어서 마치 암흑 속에 갇혀 있는 것 같기도 하다. 나는 그림마다 그 당시의 즉흥적 감정에 충실하려 노력한다. 나에게는 표현된 대상이 주는 의미의 진폭은 그리 크지 않다. 나는 그 표현된 구체적 대상들이 내가 의도하고자 하는 최종의 것이 아니라는 것을 알고 있기 때문이다.",
+                        education: "서울대학교 미술대학 회화과 졸업, 서울대학교 대학원 회화전공 졸업",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "1998 제9회 개인전, 선화랑, 서울"},
+                            {order: 2, exhibit: "1997 제8회 개인전, Galerie Gana-Beaubourg. 파리, 프랑스"},
+                            {order: 3, exhibit: "1996 제7회 개인전, 예화랑, 서울"},
+                            {order: 4, exhibit: "1993 제6회 개인전, Gallery Fine Art, 보스톤, 미국"},
+                            {order: 5, exhibit: "1991 제5회 개인전. 월드갤러리, 부산"},
+                            {order: 6, exhibit: "1991 제4회 개인전. 갤러리 상문당, 두손갤러리, 서울"},
+                            {order: 7, exhibit: "1990 제3회 개인전. Gallery Carlo Grosetti, 밀라노 이탈리아"},
+                            {order: 8, exhibit: "1987 제2회 개인전. 선화랑, 서울"},
+                            {order: 9, exhibit: "1981 제1회 개인전. 동산방갤러리, 서울"},
+                        ],
+                        group_exhibition: [
+            
+                        ],
+                        paint: [
+                            {order: 0, title: "탄생, 시련, 기적, 사랑, 영생, 부활", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "캔버스에 아크릴릭, 1997"},
+                            {order: 1, title: "탄생, 시련, 기적, 사랑, 영생, 부활", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "캔버스에 아크릴릭, 1997"},
+                            {order: 2, title: "부활하신 예수님", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/3-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "캔버스에 아크릴릭, 1998"},
+                            {order: 3, title: "엘리야의 기도", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/4-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "캔버스에 아크릴릭, 1998"},
+                            {order: 4, title: "성모마리아와 말", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/5-130.5x130.5.jpg`, width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "캔버스에 혼합재료, 1995"},
+                            {order: 5, title: "95-57", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/6-127x166.jpg`, width: 4.98, height: 3.81, overview: "127x166cm", overview1: "한지에 혼합재료, 1995"},
+                            {order: 6, title: "96-2", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/7-117x91.jpg`, width: 3.64, height: 4.68, overview: "117x91cm", overview1: "캔버스에 혼합재료, 1996"},
+                            {order: 7, title: "96-12", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "캔버스에 혼합재료, 1996"},
+                            {order: 8, title: "C33", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/9-21x25.jpg`, width: 5, height: 4.2, overview: "21x25cm", overview1: "종이에 채색, 1992"},
+                            {order: 9, title: "D-107", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/10-135x167.jpg`, width: 5.01, height: 4.05, overview: "135x167cm", overview1: "한지에 혼합, 1994"},
+                            {order: 10, title: "D-139", name: "황창배", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/11-130x166.jpg`, width: 4.98, height: 3.9, overview: "130x166cm", overview1: "한지에 혼합재료, 1996"},
+                        ]
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        index: 1,
         year: 2023, 
         exhibits: [
             {
@@ -2186,7 +2244,7 @@ export const allExhibits_KOR = [
         ]    
     },   
     {
-        index: 1,
+        index: 2,
         year: 2022,
         exhibits: [
             {
@@ -3903,7 +3961,7 @@ export const allExhibits_KOR = [
         ]
     }, 
     {
-        index: 2,
+        index: 3,
         year: 2021,
         exhibits: [
             {
@@ -6137,7 +6195,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 3,
+        index: 4,
         year: 2020,
         exhibits: [
             {
@@ -6353,7 +6411,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 4,
+        index: 5,
         year: 2019, 
         exhibits: [
             {
@@ -6513,7 +6571,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 5,
+        index: 6,
         year: 2018,
         exhibits: [
             {
@@ -6687,7 +6745,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 6,
+        index: 7,
         year: 2017,
         exhibits: [
             {
@@ -6805,7 +6863,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 7,
+        index: 8,
         year: 2016,
         exhibits: [
             {
@@ -6979,7 +7037,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 8,
+        index: 9,
         year: 2015,
         exhibits: [
             {
@@ -7195,7 +7253,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 9,
+        index: 10,
         year: 2014,
         exhibits: [
             {
@@ -7369,7 +7427,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 10, 
+        index: 11, 
         year: 2013,
         exhibits: [
             {
@@ -7543,7 +7601,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 11,
+        index: 12,
         year: 2012,
         exhibits: [
             {
@@ -7675,7 +7733,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 12,
+        index: 13,
         year:2011,
         exhibits: [
             {
@@ -7821,7 +7879,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index:13,
+        index:14,
         year:2010, 
         exhibits: [
             {
@@ -7883,7 +7941,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index:14,
+        index:15,
         year: 2009,
         exhibits: [
             {

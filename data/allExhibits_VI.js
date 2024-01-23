@@ -2,6 +2,62 @@
 export const allExhibits_VI = [
     {
         index: 0,
+        year: 2024,
+        exhibits: [
+            {
+                order:1, 
+                type:"Triển lãm mời đặc biệt của Bảo tàng Nghệ thuật Shema",
+                title:"Triển lãm mời đặc biệt nhân kỷ niệm 22 năm ngày mất của 'họa sĩ Goesan' Hwang Chang-bae",
+                time: "2023/12/15 ~ 2024/01/28",
+                artist: "Hwang Chang-bae",
+                location: "Bảo tàng Schema", 
+                host: "Bảo tàng Schema", 
+                support: "",
+                explanation: "Hwang Chang-bae tốt nghiệp trường Cao đẳng Mỹ thuật thuộc Đại học Quốc gia Seoul, Khoa Hội họa Phương Đông và trường cao học của trường. Ông từng là giáo sư tại Cao đẳng Myongji, Đại học Nữ Dongduk, Đại học Kyunghee và Đại học Nữ Ewha, đồng thời nhận được Giải thưởng Đặc biệt tại Triển lãm Nghệ thuật Hàn Quốc lần thứ 24 và 25, Giải thưởng Bộ trưởng Bộ Văn hóa và Thông tin Công cộng tại Triển lãm Nghệ thuật Hàn Quốc lần thứ 26 ( <Bí mật 31>) và Triển lãm Nghệ thuật Hàn Quốc lần thứ 27. Ông đã giành được Giải thưởng Tổng thống tại Triển lãm Nghệ thuật Hàn Quốc (<Bí mật 51>), Giải thưởng Nghệ thuật Mặt trời năm 1987, Giải thưởng Nghệ thuật Tổng thể năm 1991 và Giải thưởng Văn hóa Đá vào năm 2019. Anh đã tổ chức 9 triển lãm cá nhân tại Seoul, Milan, Boston, Paris, v.v., đồng thời tổ chức triển lãm nhóm và triển lãm mời tại Triển lãm Hiệp hội Dấu ấn, Triển lãm Ilyeonhoe, Bảo tàng Nghệ thuật Hiện đại và Đương đại Quốc gia, Bảo tàng Nghệ thuật Seoul, Phòng trưng bày Hoam, và nhiều người khác. Các tác phẩm của ông được trưng bày tại Nhà Xanh, Tòa nhà Quốc hội, Bảo tàng Nghệ thuật Đương đại và Hiện đại Quốc gia và Bảo tàng Nghệ thuật Seoul.",         
+                author: "Changbae Hwang",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-11.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"Triển lãm mời đặc biệt nhân kỷ niệm 22 năm ngày mất của 'họa sĩ Goesan' Hwang Chang-bae",
+                        name: "Changbae Hwang", 
+                        engname: "Changbae Hwang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-11/23-11-1.jpg`, 
+                        text: "Tôi thực sự không nghĩ đến việc truyền tải một thông điệp mạnh mẽ qua tranh của mình. Vì vậy tôi không có kế hoạch cụ thể về việc sẽ vẽ gì trước khi bắt đầu công việc. Nhưng mặt khác, vì không có kế hoạch nên mỗi lần nhìn vào màn hình, tôi cảm thấy mơ hồ và sợ hãi, nên có cảm giác như mình đang bị mắc kẹt trong bóng tối. Trong mỗi bức tranh, tôi cố gắng trung thành với những cảm xúc tự phát lúc đó. Đối với tôi, biên độ ý nghĩa mà đối tượng được thể hiện mang lại không lớn đến thế. Bởi vì tôi biết rằng những đối tượng cụ thể được thể hiện không phải là điều cuối cùng mà tôi dự định hướng tới.",
+                        education: "Tốt nghiệp Cao đẳng Mỹ thuật Đại học Quốc gia Seoul, khoa Hội họa, Tốt nghiệp Cao học Hội họa Đại học Quốc gia Seoul.",
+                        individual_exhibition: [         
+                            {order: 1, exhibit: "Triển lãm cá nhân lần thứ 9 năm 1998, Sun Gallery, Seoul"},
+                            {order: 2, exhibit: "Triển lãm cá nhân lần thứ 8 năm 1997, Galerie Gana-Beaubourg. Paris, Pháp"},
+                            {order: 3, exhibit: "Triển lãm cá nhân lần thứ 7 năm 1996, Phòng trưng bày Ye, Seoul"},
+                            {order: 4, exhibit: "Triển lãm cá nhân lần thứ 6 năm 1993, Gallery Fine Art, Boston, USA"},
+                            {order: 5, exhibit: "Triển lãm cá nhân lần thứ 5 năm 1991. Phòng trưng bày thế giới, Busan"},
+                            {order: 6, exhibit: "Triển lãm cá nhân lần thứ 4 năm 1991. Phòng trưng bày Sangmundang, Phòng trưng bày Duson, Seoul"},
+                            {order: 7, exhibit: "Triển lãm cá nhân lần thứ 3 năm 1990. Phòng trưng bày Carlo Grosetti, Milan Ý"},
+                            {order: 8, exhibit: "Triển lãm cá nhân lần thứ 2 năm 1987. Sun Gallery, Seoul"},
+                            {order: 9, exhibit: "Triển lãm cá nhân lần đầu tiên năm 1981. Phòng trưng bày Dongsanbang, Seoul"},
+                        ],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 0, title: "Sự ra đời, thử thách, phép lạ, tình yêu, cuộc sống vĩnh cửu, sự phục sinh", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "acrylic trên vải, 1997"},
+                            {order: 1, title: "Sự ra đời, thử thách, phép lạ, tình yêu, cuộc sống vĩnh cửu, sự phục sinh", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "acrylic trên vải, 1997"},
+                            {order: 2, title: "Chúa Giêsu phục sinh", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/3-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "acrylic trên vải, 1998"},
+                            {order: 3, title: "Lời cầu nguyện của Ê-li", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/4-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "acrylic trên vải, 1998"},
+                            {order: 4, title: "Đức Trinh Nữ Maria và con ngựa", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/5-130.5x130.5.jpg`, width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "phương tiện truyền thông hỗn hợp trên canvas, 1995"},
+                            {order: 5, title: "95-57", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/6-127x166.jpg`, width: 4.98, height: 3.81, overview: "127x166cm", overview1: "Chất liệu hỗn hợp trên giấy Hàn Quốc, 1995"},
+                            {order: 6, title: "96-2", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/7-117x91.jpg`, width: 3.64, height: 4.68, overview: "117x91cm", overview1: "phương tiện truyền thông hỗn hợp trên canvas, 1996"},
+                            {order: 7, title: "96-12", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "phương tiện truyền thông hỗn hợp trên canvas, 1996"},
+                            {order: 8, title: "C33", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/9-21x25.jpg`, width: 5, height: 4.2, overview: "21x25cm", overview1: "tô màu trên giấy, 1992"},
+                            {order: 9, title: "D-107", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/10-135x167.jpg`, width: 5.01, height: 4.05, overview: "135x167cm", overview1: "trộn với hanji, 1994"},
+                            {order: 10, title: "D-139", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/11-130x166.jpg`, width: 4.98, height: 3.9, overview: "130x166cm", overview1: "Chất liệu hỗn hợp trên giấy Hàn Quốc, 1996"},
+                        ]
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        index: 1,
         year: 2023, 
         exhibits: [
             {
@@ -2185,7 +2241,7 @@ export const allExhibits_VI = [
         ]    
     },   
     {
-        index: 1,
+        index: 2,
         year: 2022,
         exhibits: [
             {
@@ -3902,7 +3958,7 @@ export const allExhibits_VI = [
         ]
     }, 
     {
-        index: 2,
+        index: 3,
         year: 2021,
         exhibits: [
             {
@@ -6134,8 +6190,8 @@ export const allExhibits_VI = [
             },
         ]
     },
-        {
-        index: 3,
+    {
+        index: 4,
         year: 2020,
         exhibits: [
             {
@@ -6351,7 +6407,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 4,
+        index: 5,
         year: 2019, 
         exhibits: [
             {
@@ -6511,7 +6567,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 5,
+        index: 6,
         year: 2018,
         exhibits: [
             {
@@ -6685,7 +6741,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 6,
+        index: 7,
         year: 2017,
         exhibits: [
             {
@@ -6803,7 +6859,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 7,
+        index: 8,
         year: 2016,
         exhibits: [
             {
@@ -6977,7 +7033,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 8,
+        index: 9,
         year: 2015,
         exhibits: [
             {
@@ -7192,8 +7248,8 @@ export const allExhibits_VI = [
             },
         ]
     },
-     {
-        index: 9,
+    {
+        index: 10,
         year: 2014,
         exhibits: [
             {
@@ -7367,7 +7423,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 10, 
+        index: 11, 
         year: 2013,
         exhibits: [
             {
@@ -7541,7 +7597,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 11,
+        index: 12,
         year: 2012,
         exhibits: [
             {
@@ -7673,7 +7729,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index:12,
+        index:13,
         year:2011,
         exhibits: [
             {
@@ -7819,7 +7875,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index:13,
+        index:14,
         year:2010, 
         exhibits: [
             {
@@ -7881,7 +7937,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index:14,
+        index:15,
         year: 2009,
         exhibits: [
             {

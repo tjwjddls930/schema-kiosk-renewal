@@ -2,6 +2,62 @@
 export const allExhibits_CH = [
     {
         index: 0,
+        year: 2024, 
+        exhibits: [
+            {
+                order:1, 
+                type: "《舍玛美术馆特邀展》",
+                title: "‘槐山画家’黄昌培逝世22周年特别邀请展",
+                time: "2023/12/15 ~ 2024/01/28",
+                artist: "黄昌培",
+                location: "示玛博物馆", 
+                host: "示玛博物馆", 
+                support: "",
+                explanation: "黄昌培毕业于首尔大学美术学院东方画系及其研究生院。曾任明知学院、同德女子大学、庆熙大学、梨花女子大学教授，曾获第24届、第25届韩国美术展特别选拔奖、第26届韩国美术展文化宣传部长官奖（ 《秘密31》作品）、第27届韩国美术展，获韩国美术展总统奖（《秘密51》）、1987年太阳艺术奖、1991年综合艺术奖、石头文化奖2019年。在首尔、米兰、波士顿、巴黎等地举办过9次个展，并在印章协会展、一莲会展、国立现代美术馆、首尔市立美术馆、湖岩画廊、韩国等地举办群展和邀请展。好多其它的。他的作品被收藏于青瓦台、国会大厦、国立现代美术馆和首尔市立美术馆。",         
+                author: "黄昌培",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-11.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title: "‘槐山画家’黄昌培逝世22周年特别邀请展",
+                        name: "黄昌培", 
+                        engname: "Changbae Hwang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-11/23-11-1.jpg`, 
+                        text: "我并没有真正考虑通过我的绘画传达强烈的信息。所以在开始工作之前我并没有一个具体的计划来画什么。但另一方面，因为我没有计划，所以每次看屏幕都会感到模糊和害怕，所以感觉就像被困在黑暗中一样。在每一幅画中，我都尽量忠实于当时自发的情感。对我来说，所表达的对象所赋予的意义并没有那么大。因为我知道，所表达的具体对象并不是我最终想要的东西。",
+                        education: "毕业于首尔大学美术学院绘画系，毕业于首尔大学绘画研究生院。",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "1998年第九届个展，Sun Gallery，首尔"},
+                            {order: 2, exhibit: "1997年第8次个展，Galerie Gana-Beaubourg。法国巴黎"},
+                            {order: 3, exhibit: "1996年第七届个展，Ye画廊，首尔"},
+                            {order: 4, exhibit: "1993年第六次个展，Gallery Fine Art，波士顿，美国"},
+                            {order: 5, exhibit: "1991年第五届个展。世界画廊，釜山"},
+                            {order: 6, exhibit: "1991年第四届个展。Sangmundang画廊，Duson画廊，首尔"},
+                            {order: 7, exhibit: "1990年第三次个展。卡洛·格罗塞蒂画廊，意大利米兰"},
+                            {order: 8, exhibit: "1987年第二次个展。Sun画廊，首尔"},
+                            {order: 9, exhibit: "1981年第一次个展。Dongsanbang画廊，首尔"},
+                        ],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 0, title: "诞生、考验、奇迹、爱、永生、复活", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "布面丙烯, 1997"},
+                            {order: 1, title: "诞生、考验、奇迹、爱、永生、复活", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "布面丙烯, 1997"},
+                            {order: 2, title: "复活的耶稣", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/3-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "布面丙烯, 1998"},
+                            {order: 3, title: "以利亚的祷告", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/4-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "布面丙烯, 1998"},
+                            {order: 4, title: "圣母玛利亚和马", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/5-130.5x130.5.jpg`, width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "画布上的混合媒体, 1995"},
+                            {order: 5, title: "95-57", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/6-127x166.jpg`, width: 4.98, height: 3.81, overview: "127x166cm", overview1: "韩纸混合材质, 1995"},
+                            {order: 6, title: "96-2", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/7-117x91.jpg`, width: 3.64, height: 4.68, overview: "117x91cm", overview1: "画布上的混合媒体, 1996"},
+                            {order: 7, title: "96-12", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "画布上的混合媒体, 1996"},
+                            {order: 8, title: "C33", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/9-21x25.jpg`, width: 5, height: 4.2, overview: "21x25cm", overview1: "纸上着色, 1992"},
+                            {order: 9, title: "D-107", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/10-135x167.jpg`, width: 5.01, height: 4.05, overview: "135x167cm", overview1: "与韩纸混合, 1994"},
+                            {order: 10, title: "D-139", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/11-130x166.jpg`, width: 4.98, height: 3.9, overview: "130x166cm", overview1: "韩纸混合材质, 1996"},
+                        ]
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        index: 1,
         year: 2023, 
         exhibits: [
             {
@@ -2183,7 +2239,7 @@ export const allExhibits_CH = [
         ]    
     },   
     {
-        index: 1,
+        index: 2,
         year: 2022,
         exhibits: [
             {
@@ -3902,7 +3958,7 @@ export const allExhibits_CH = [
         ]
     }, 
     {
-        index: 2,
+        index: 3,
         year: 2021,
         exhibits: [
             {
@@ -6135,8 +6191,8 @@ export const allExhibits_CH = [
             },
         ]
     },
-        {
-        index: 3,
+    {
+        index: 4,
         year: 2020,
         exhibits: [
             {
@@ -6351,8 +6407,8 @@ export const allExhibits_CH = [
             },
         ]
     },
-        {
-        index: 4,
+    {
+        index: 5,
         year: 2019, 
         exhibits: [
             {
@@ -6512,7 +6568,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 5,
+        index: 6,
         year: 2018,
         exhibits: [
             {
@@ -6686,7 +6742,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 6,
+        index: 7,
         year: 2017,
         exhibits: [
             {
@@ -6804,7 +6860,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 7,
+        index: 8,
         year: 2016,
         exhibits: [
             {
@@ -6978,7 +7034,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 8,
+        index: 9,
         year: 2015,
         exhibits: [
             {
@@ -7193,8 +7249,8 @@ export const allExhibits_CH = [
             },
         ]
     },
-     {
-        index: 9,
+    {
+        index: 10,
         year: 2014,
         exhibits: [
             {
@@ -7368,7 +7424,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 10, 
+        index: 11, 
         year: 2013,
         exhibits: [
             {
@@ -7542,7 +7598,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 11,
+        index: 12,
         year: 2012,
         exhibits: [
             {
@@ -7674,7 +7730,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index:12,
+        index:13,
         year:2011,
         exhibits: [
             {
@@ -7820,7 +7876,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index:13,
+        index:14,
         year:2010, 
         exhibits: [
             {
@@ -7882,7 +7938,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index:14,
+        index:15,
         year: 2009,
         exhibits: [
             {

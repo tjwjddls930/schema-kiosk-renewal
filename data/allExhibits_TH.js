@@ -2,6 +2,62 @@
 export const allExhibits_TH = [
     {
         index: 0,
+        year: 2024,
+        exhibits: [
+            {
+                order:1, 
+                type:"นิทรรศการพิเศษเชิญพิพิธภัณฑ์ศิลปะ Schema",
+                title:"นิทรรศการเชิญพิเศษเนื่องในโอกาสครบรอบ 22 ปีการเสียชีวิตของ 'จิตรกร Goesan' Hwang Chang-bae",
+                time: "2023/12/15 ~ 2024/01/28",
+                artist: "Hwang Chang-bae",
+                location: "พิพิธภัณฑ์ Schema", 
+                host: "พิพิธภัณฑ์ Schema", 
+                support: "",
+                explanation: "Hwang Chang-bae สำเร็จการศึกษาจากวิทยาลัยวิจิตรศิลป์ มหาวิทยาลัยแห่งชาติโซล ภาควิชาจิตรกรรมตะวันออก และบัณฑิตวิทยาลัย เขาดำรงตำแหน่งศาสตราจารย์ที่วิทยาลัย Myongji, มหาวิทยาลัยสตรี Dongduk, มหาวิทยาลัย Kyunghee และมหาวิทยาลัยสตรี Ewha และได้รับการคัดเลือกพิเศษในงานนิทรรศการศิลปะเกาหลีครั้งที่ 24 และ 25, รางวัลรัฐมนตรีว่าการกระทรวงวัฒนธรรมและข้อมูลสาธารณะในงานนิทรรศการศิลปะเกาหลีครั้งที่ 26 ( รายการ <Secret 31>) และนิทรรศการศิลปะเกาหลีครั้งที่ 27 เขาได้รับรางวัล Presidential Award จากนิทรรศการศิลปะเกาหลี (<Secret 51>), รางวัล Sun Art Award ในปี 1987, รางวัล Total Art Award ในปี 1991 และรางวัล Stone Culture Award ในปี 2562 เขาจัดนิทรรศการเดี่ยว 9 ครั้งในกรุงโซล มิลาน บอสตัน ปารีส ฯลฯ และจัดนิทรรศการกลุ่มและนิทรรศการรับเชิญที่นิทรรศการ Seal Association, นิทรรศการ Ilyeonhoe, พิพิธภัณฑ์ศิลปะสมัยใหม่และร่วมสมัยแห่งชาติ, พิพิธภัณฑ์ศิลปะโซล, หอศิลป์ Hoam และ อื่น ๆ อีกมากมาย ผลงานของเขาอยู่ในทำเนียบสีน้ำเงิน อาคารรัฐสภา พิพิธภัณฑ์ศิลปะสมัยใหม่และร่วมสมัยแห่งชาติ และพิพิธภัณฑ์ศิลปะกรุงโซล",         
+                author: "ชางเบ ฮวาง",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2023/23-11.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"นิทรรศการเชิญพิเศษเนื่องในโอกาสครบรอบ 22 ปีการเสียชีวิตของ 'จิตรกร Goesan' Hwang Chang-bae",
+                        name: "ชางเบ ฮวาง", 
+                        engname: "Changbae Hwang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2023/23-11/23-11-1.jpg`, 
+                        text: "ฉันไม่คิดว่าจะถ่ายทอดข้อความที่ชัดเจนผ่านภาพวาดของฉัน ดังนั้นฉันจึงไม่มีแผนเฉพาะเกี่ยวกับสิ่งที่จะวาดก่อนเริ่มงาน แต่ในทางกลับกันเพราะฉันไม่มีแผนจึงรู้สึกคลุมเครือและกลัวทุกครั้งที่มองหน้าจอจึงรู้สึกเหมือนติดอยู่ในความมืด ในภาพวาดแต่ละภาพ ฉันพยายามที่จะรักษาอารมณ์ความรู้สึกที่เกิดขึ้นในขณะนั้น สำหรับฉัน ความกว้างของความหมายที่กำหนดโดยวัตถุที่แสดงออกมานั้นไม่ได้ดีนัก เพราะฉันรู้ว่าวัตถุที่เป็นรูปธรรมที่แสดงออกมาไม่ใช่สิ่งสุดท้ายที่ฉันตั้งใจจะทำ",
+                        education: "สำเร็จการศึกษาจากวิทยาลัยวิจิตรศิลป์ มหาวิทยาลัยแห่งชาติโซล ภาควิชาจิตรกรรม สำเร็จการศึกษาจากบัณฑิตวิทยาลัยจิตรกรรม มหาวิทยาลัยแห่งชาติโซล",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "นิทรรศการเดี่ยวครั้งที่ 9 ปี 1998, ซันแกลเลอรี, โซล"},
+                            {order: 2, exhibit: "นิทรรศการเดี่ยวครั้งที่ 8 ปี 1997 Galerie Gana-Beaubourg ปารีส ประเทศฝรั่งเศส"},
+                            {order: 3, exhibit: "นิทรรศการเดี่ยวครั้งที่ 7 ปี 1996, Ye Gallery, โซล"},
+                            {order: 4, exhibit: "นิทรรศการเดี่ยวครั้งที่ 6 ปี 1993, Gallery Fine Art, บอสตัน, สหรัฐอเมริกา"},
+                            {order: 5, exhibit: "นิทรรศการเดี่ยวครั้งที่ 5 ปี 1991 World Gallery, ปูซาน"},
+                            {order: 6, exhibit: "นิทรรศการเดี่ยวครั้งที่ 4 พ.ศ. 2534 Gallery Sangmundang, Duson Gallery, โซล"},
+                            {order: 7, exhibit: "นิทรรศการเดี่ยวครั้งที่ 3 ปี 1990 แกลเลอรี Carlo Grosetti, มิลาน อิตาลี"},
+                            {order: 8, exhibit: "นิทรรศการเดี่ยวครั้งที่ 2 ปี 1987 Sun Gallery, โซล"},
+                            {order: 9, exhibit: "นิทรรศการเดี่ยวครั้งแรกปี 1981 Dongsanbang Gallery, โซล"},
+                        ],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 0, title: "การกำเนิด การทดลอง ปาฏิหาริย์ ความรัก ชีวิตนิรันดร์ การฟื้นคืนชีพ", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "สีอะครีลิคบนผ้าใบ, 1997"},
+                            {order: 1, title: "การกำเนิด การทดลอง ปาฏิหาริย์ ความรัก ชีวิตนิรันดร์ การฟื้นคืนชีพ", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "สีอะครีลิคบนผ้าใบ, 1997"},
+                            {order: 2, title: "พระเยซูฟื้นคืนพระชนม์", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/3-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "สีอะครีลิคบนผ้าใบ, 1998"},
+                            {order: 3, title: "คำอธิษฐานของเอลียาห์", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/4-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "สีอะครีลิคบนผ้าใบ, 1998"},
+                            {order: 4, title: "พระแม่มารีและม้า", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/5-130.5x130.5.jpg`, width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "สื่อผสมบนผืนผ้าใบ, 1995"},
+                            {order: 5, title: "95-57", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/6-127x166.jpg`, width: 4.98, height: 3.81, overview: "127x166cm", overview1: "วัสดุผสมบนกระดาษเกาหลี, 1995"},
+                            {order: 6, title: "96-2", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/7-117x91.jpg`, width: 3.64, height: 4.68, overview: "117x91cm", overview1: "สื่อผสมบนผืนผ้าใบ, 1996"},
+                            {order: 7, title: "96-12", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "สื่อผสมบนผืนผ้าใบ, 1996"},
+                            {order: 8, title: "C33", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/9-21x25.jpg`, width: 5, height: 4.2, overview: "21x25cm", overview1: "ระบายสีบนกระดาษ, 1992"},
+                            {order: 9, title: "D-107", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/10-135x167.jpg`, width: 5.01, height: 4.05, overview: "135x167cm", overview1: "ผสมกับฮันจิ, 1994"},
+                            {order: 10, title: "D-139", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2023/23-11/11-130x166.jpg`, width: 4.98, height: 3.9, overview: "130x166cm", overview1: "วัสดุผสมบนกระดาษเกาหลี, 1996"},
+                        ]
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        index: 1,
         year: 2023, 
         exhibits: [
             {
@@ -2183,7 +2239,7 @@ export const allExhibits_TH = [
         ]    
     },   
     {
-        index: 1,
+        index: 2,
         year: 2022,
         exhibits: [
             {
@@ -3900,7 +3956,7 @@ export const allExhibits_TH = [
         ]
     }, 
     {
-        index: 2,
+        index: 3,
         year: 2021,
         exhibits: [
             {
@@ -6132,8 +6188,8 @@ export const allExhibits_TH = [
             },
         ]
     },
-        {
-        index: 3,
+    {
+        index: 4,
         year: 2020,
         exhibits: [
             {
@@ -6348,8 +6404,8 @@ export const allExhibits_TH = [
             },
         ]
     },
-        {
-        index: 4,
+    {
+        index: 5,
         year: 2019, 
         exhibits: [
             {
@@ -6509,7 +6565,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 5,
+        index: 6,
         year: 2018,
         exhibits: [
             {
@@ -6683,7 +6739,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 6,
+        index: 7,
         year: 2017,
         exhibits: [
             {
@@ -6801,7 +6857,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 7,
+        index: 8,
         year: 2016,
         exhibits: [
             {
@@ -6975,7 +7031,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 8,
+        index: 9,
         year: 2015,
         exhibits: [
             {
@@ -7190,8 +7246,8 @@ export const allExhibits_TH = [
             },
         ]
     },
-     {
-        index: 9,
+    {
+        index: 10,
         year: 2014,
         exhibits: [
             {
@@ -7365,7 +7421,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 10, 
+        index: 11, 
         year: 2013,
         exhibits: [
             {
@@ -7539,7 +7595,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 11,
+        index: 12,
         year: 2012,
         exhibits: [
             {
@@ -7671,7 +7727,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index:12,
+        index:13,
         year:2011,
         exhibits: [
             {
@@ -7817,7 +7873,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index:13,
+        index:14,
         year:2010, 
         exhibits: [
             {
@@ -7879,7 +7935,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index:14,
+        index:15,
         year: 2009,
         exhibits: [
             {
