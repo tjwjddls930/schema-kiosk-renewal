@@ -73,7 +73,7 @@ export default function App({ Component, pageProps }) {
                 ? null
                 : <>
                     <InactivityRedirect timeout={150000} landingPageUrl={"/"} />
-                    {!isMobile && <MusicPlayer sources = {musicList} />}
+                    <MusicPlayer sources = {musicList} />
                   </>
                 }
               </MusicProvider>

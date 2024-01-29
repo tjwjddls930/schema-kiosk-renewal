@@ -45,6 +45,14 @@ const popupText = {
     VI: "Chạm vào màn hình để phóng to!",
 };
 
+const popupText1 = {
+    KOR: "닫기",
+    ENG: "Close",
+    CH: "关闭",
+    TH: "ปิด",
+    VI: "đóng",
+};
+
 const inputData = {
     KOR: modelData_KOR,
     ENG: modelData_ENG,
@@ -61,6 +69,7 @@ export default function Modelpage({}) {
     const [popup, setPopup] = useState(true);
     const [data, setData] = useState(null);
     const [color, setColor] = useState("#F5F049");
+    const [explain, setExplain] = useState(false);
 
     useEffect(()=> {
         // Fetch and set data based on the slug from the router
@@ -185,7 +194,9 @@ export default function Modelpage({}) {
                 </>
             )}
             {/* 그림 넘기기 버튼 */}
-            <div className={clsx(isPortrait ? "absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:left-36 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2" : "absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:left-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2")}>
+            <div className={clsx(isPortrait 
+                ? "absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:left-36 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2" 
+                : "absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:left-[520px] screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2")}>
                 <button
                     id="left"
                     className="h-full w-full screen-w:h-[140px] screen-w:w-[140px]"
@@ -198,7 +209,9 @@ export default function Modelpage({}) {
                     </svg>
                 </button>
             </div>
-            <div className={clsx(isPortrait ? "absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:right-56 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2" : "absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:right-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2")}>
+            <div className={clsx(isPortrait 
+                ? "absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:right-56 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2" 
+                : "absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:right-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2")}>
                 <button
                     id="right"
                     className="h-full w-full screen-w:h-[140px] screen-w:w-[140px]"
@@ -229,7 +242,9 @@ export default function Modelpage({}) {
             {/* 작품해설 */}
             <div className="h-[130px] w-[100px] absolute left-10 bottom-72 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-[430px]">
                 <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
-                    <button className="h-12 w-12 ml-6 screen-w:h-40 screen-w:w-40 screen-w:ml-4"> 
+                    <button className="h-12 w-12 ml-6 screen-w:h-40 screen-w:w-40 screen-w:ml-4"
+                        onClick={()=> setExplain(!explain)}
+                    > 
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                         className="w-full h-full text-Ablack">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
@@ -238,6 +253,18 @@ export default function Modelpage({}) {
                         <span className="text-Ablack text-base font-bold screen-w:text-3xl">{iconText2[language]}</span>
                 </div>
             </div>
+            {explain && (
+                <div className="absolute h-2/3 w-2/3 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 bg-Ablack opacity-75 rounded-xl justify-center px-8 screen-w:px-12"
+                    onClick={()=> setExplain(!explain)}
+                >
+                    <span className="flex h-full items-center jusitfy-center text-base screen-w:text-4xl font-bold screen-w:leading-relaxed">{data.text}</span>
+                    <button
+                        onClick={()=>setExplain(!explain)}
+                        className="absolute h-10 w-[200px] screen-w:h-28 screen-w:w-[500px] text-center text-base screen-w:text-4xl text-Awhite font-bold items-center bottom-12 screen-w:bottom-28 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue z-10">
+                    {popupText1[language]}
+                </button> 
+                </div>
+            )}
             {/* 챗봇안내 */}
             <div className="h-[130px] w-[100px] absolute left-10 bottom-48 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-40">
                 <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">

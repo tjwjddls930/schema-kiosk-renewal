@@ -70,7 +70,7 @@ export default function Viewpage() {
     return(
         <>
         {data && (
-            <Viewlayout>
+            <Viewlayout data={data.text}>
             {/* 3D 콘텐츠 구역 */}
             {isPortrait 
             ? 
@@ -86,7 +86,9 @@ export default function Viewpage() {
             height={data.height}
             />}
             {/* 그림 넘기기 버튼 */}
-            <div className={clsx(isPortrait ? "absolute left-40 bottom-80 screen-w:left-44 screen-w:top-[62%] screen-w:transform screen-w:-translate-y-1/2" : "absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:left-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2")}>
+            <div className={clsx(isPortrait ? 
+                "absolute left-40 bottom-80 screen-w:left-44 screen-w:top-[62%] screen-w:transform screen-w:-translate-y-1/2" 
+                : "absolute h-[70px] w-[70px] left-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:left-[520px] screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2")}>
                 <button
                     className="h-full w-full screen-w:h-[140px] screen-w:w-[140px]"
                 >   
@@ -100,7 +102,9 @@ export default function Viewpage() {
                     </svg>
                 </button>
             </div>
-            <div className={clsx(isPortrait ? "absolute right-40 bottom-80 screen-w:right-48 screen-w:top-[62%] screen-w:transform screen-w:-translate-y-1/2" : "absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:right-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2")}>
+            <div className={clsx(isPortrait ? 
+                "absolute right-40 bottom-80 screen-w:right-48 screen-w:top-[62%] screen-w:transform screen-w:-translate-y-1/2" 
+                : "absolute h-[70px] w-[70px] right-40 bottom-80 screen-w:h-[300px] screen-w:w-[300px] screen-w:right-96 screen-w:top-1/2 screen-w:transform screen-w:-translate-y-1/2")}>
                 <button
                     className="h-full w-full screen-w:h-[140px] screen-w:w-[140px]"
                 >   

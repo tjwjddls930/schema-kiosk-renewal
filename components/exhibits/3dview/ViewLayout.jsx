@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { LanguageContext } from "@/contexts/LanguageContext";
 import { isMobile } from "react-device-detect";
 import clsx from "clsx";
@@ -28,9 +28,18 @@ const iconText3 = {
     VI: "Thông tin Chatbot",
 };
 
-const Viewlayout = ({children}) => {
+const popupText = {
+    KOR: "닫기",
+    ENG: "Close",
+    CH: "关闭",
+    TH: "ปิด",
+    VI: "đóng",
+};
+
+const Viewlayout = ({children, data}) => {
     const {language} = useContext(LanguageContext)
     const router = useRouter();
+    const [explain, setExplain] = useState(false);
     function handleRefresh() {
         router.reload();
     };
@@ -55,15 +64,29 @@ const Viewlayout = ({children}) => {
             {/* 작품해설 */}
             <div className={clsx("h-[140px] w-[100px] absolute bottom-72 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-[430px]", isMobile ? "left-2" : "left-10")}>
                 <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
-                    <button className={clsx("screen-w:h-40 screen-w:w-40 screen-w:ml-4", isMobile ? "h-6 w-6 ml-8" : "h-12 w-12 ml-6")}> 
+                    <button className={clsx("screen-w:h-40 screen-w:w-40 screen-w:ml-4", isMobile ? "h-6 w-6 ml-8" : "h-12 w-12 ml-6")}
+                        onClick={()=> setExplain(!explain)}
+                    > 
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                             className="w-full h-full text-Ablack">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
                         </svg>
-                        </button>
-                        <span className="text-Ablack text-base font-bold screen-w:text-3xl">{iconText2[language]}</span>
-                </div>
+                    </button>
+                    <span className="text-Ablack text-base font-bold screen-w:text-3xl">{iconText2[language]}</span>
             </div>
+            </div>
+            {explain && (
+                <div className="absolute h-2/3 w-2/3 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 bg-Ablack opacity-90 rounded-xl justify-center px-8 screen-w:px-12"
+                    onClick={()=> setExplain(!explain)}
+                >
+                    <span className="flex h-full items-center jusitfy-center text-base screen-w:text-4xl font-bold screen-w:leading-relaxed">{data}</span>
+                    <button
+                        onClick={()=>setExplain(!explain)}
+                        className="absolute h-10 w-[200px] screen-w:h-28 screen-w:w-[500px] text-center text-base screen-w:text-4xl text-Awhite font-bold items-center bottom-12 screen-w:bottom-28 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue z-10">
+                    {popupText[language]}
+                </button> 
+                </div>
+            )}
              {/* 챗봇안내 */}
              <div className={clsx("h-[140px] w-[100px] absolute bottom-48 screen-w:h-[600px] screen-w:w-[200px] screen-w:left-24 screen-w:bottom-40", isMobile ? "left-2" : "left-10")}>
                 <div className="flex flex-col mx-auto text-center space-y-2 screen-w:space-y-4">
