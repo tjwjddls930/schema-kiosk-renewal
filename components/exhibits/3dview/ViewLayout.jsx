@@ -79,7 +79,7 @@ const Viewlayout = ({children, data}) => {
                 <div className="absolute h-2/3 w-2/3 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 bg-Ablack opacity-90 rounded-xl justify-center px-8 screen-w:px-12"
                     onClick={()=> setExplain(!explain)}
                 >
-                    <span className="flex h-full items-center jusitfy-center text-base screen-w:text-4xl font-bold screen-w:leading-relaxed">{data}</span>
+                    <span className="flex h-full items-center jusitfy-center text-base screen-w:text-4xl font-bold screen-w:leading-relaxed text-Awhite">{data}</span>
                     <button
                         onClick={()=>setExplain(!explain)}
                         className="absolute h-10 w-[200px] screen-w:h-28 screen-w:w-[500px] text-center text-base screen-w:text-4xl text-Awhite font-bold items-center bottom-12 screen-w:bottom-28 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue z-10">
