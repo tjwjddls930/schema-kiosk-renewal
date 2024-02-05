@@ -126,10 +126,10 @@ const Artistlayout = ({children}) => {
                                         <>
                                             <div className="flex flex-col h-3/4 screen-w:w-full screen-w:h-full screen-w:mx-auto bg-Awhite">
                                                 <div className="flex flex-row space-x-2 screen-w:space-x-4 h-1/4 w-full items-center px-8 bg-Awhite mx-auto">
-                                                    <span className="text-6xl screen-w:text-9xl text-Ablack font-bold">{artist.number}</span>
-                                                    <div className="flex flex-col space-y-2 screen-w:space-y-8 w-1/4">
+                                                    <span className="w-[10%] text-6xl screen-w:text-9xl text-Ablack font-bold">{artist.number}</span>
+                                                    <div className="flex flex-col space-y-2 screen-w:space-y-8 w-[90%]">
                                                         <div className="bg-Ablue h-[1.5px] w-10 screen-w:w-20" />
-                                                        <span className="text-base screen-w:text-3xl text-Cgrey font-bold">{artist.title}</span>
+                                                        <span className="text-base w-full screen-w:text-3xl text-Cgrey font-bold">{artist.title}</span>
                                                         <span className="text-lg screen-w:text-5xl text-Ablack font-bold mb-4">{artist.name}</span>
                                                     </div>
                                                 </div>

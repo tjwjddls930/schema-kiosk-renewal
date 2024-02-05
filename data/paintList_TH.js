@@ -1,5 +1,50 @@
 
 export const paintList_TH = [
+     //2024
+     [
+        [
+            {order: 0, title: "การกำเนิด การทดลอง ปาฏิหาริย์ ความรัก ชีวิตนิรันดร์ การฟื้นคืนชีพ", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "สีอะครีลิคบนผ้าใบ, 1997"},
+            {order: 1, title: "การกำเนิด การทดลอง ปาฏิหาริย์ ความรัก ชีวิตนิรันดร์ การฟื้นคืนชีพ", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "สีอะครีลิคบนผ้าใบ, 1997"},
+            {order: 2, title: "พระเยซูฟื้นคืนพระชนม์", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/3-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "สีอะครีลิคบนผ้าใบ, 1998"},
+            {order: 3, title: "คำอธิษฐานของเอลียาห์", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/4-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "สีอะครีลิคบนผ้าใบ, 1998"},
+            {order: 4, title: "พระแม่มารีและม้า", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/5-130.5x130.5.jpg`, width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "สื่อผสมบนผืนผ้าใบ, 1995"},
+            {order: 5, title: "95-57", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/6-127x166.jpg`, width: 4.98, height: 3.81, overview: "127x166cm", overview1: "วัสดุผสมบนกระดาษเกาหลี, 1995"},
+            {order: 6, title: "96-2", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/7-117x91.jpg`, width: 3.64, height: 4.68, overview: "117x91cm", overview1: "สื่อผสมบนผืนผ้าใบ, 1996"},
+            {order: 7, title: "96-12", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "สื่อผสมบนผืนผ้าใบ, 1996"},
+            {order: 8, title: "C33", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/9-21x25.jpg`, width: 5, height: 4.2, overview: "21x25cm", overview1: "ระบายสีบนกระดาษ, 1992"},
+            {order: 9, title: "D-107", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/10-135x167.jpg`, width: 5.01, height: 4.05, overview: "135x167cm", overview1: "ผสมกับฮันจิ, 1994"},
+            {order: 10, title: "D-139", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/11-130x166.jpg`, width: 4.98, height: 3.9, overview: "130x166cm", overview1: "วัสดุผสมบนกระดาษเกาหลี, 1996"},
+        ],
+        [
+            {order: 0, title: "การเดินทางมีความสุข", name: "ควัก ยอนจู", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/1-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "สื่อผสม 2023"},
+            {order: 1, title: "ฤดูใบไม้ผลิลม", name: "คิม ยอนอค", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/2-72.7x90.9.jpg`, width: 4.362, height: 5.454, overview: "90.9x72.7cm", overview1: "สื่อผสม 2023"},
+            {order: 2, title: "กฎหมายและสี", name: "แจกวาน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/3-91x65.2.jpg`, width: 4.55, height: 3.26, overview: "65.2x91.0cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
+            {order: 3, title: "ครอสโอเวอร์", name: "บังฮโยซอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/4-76x52.jpg`, width: 4.56, height: 3.12, overview: "52x76cm", overview1: "สีอะครีลิคบนกระดาษ 2023"},
+            {order: 4, title: "ขีดจำกัดของวัฏจักร", name: "โซฟี โอ (ชิม จองกยุน)", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/5-72.7x90.9.jpg`, width: 3.635, height: 4.545, overview: "90.9x72.7x5cm", overview1: "สื่อผสม 2023"},
+            {order: 5, title: "ความสัมพันธ์", name: "ฮโยรัน ยอม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/6-116.8x91.jpg`, width: 4.672, height: 3.64, overview: "116.8x91.0cm", overview1: "สื่อผสมบนผ้าใบ 2022"},
+            {order: 6, title: "ร่องรอยของแสง", name: "โอ ฮเย-รยอน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/7-150x100.jpg`, width: 7.5, height: 5, overview: "100x150cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
+            {order: 7, title: "ตำนานภาพ1", name: "มยองฮวาน ลี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/8-73.1x102.4.jpg`, width: 3.655, height: 5.12, overview: "", overview1: "ยูรีเทนใสและวัสดุผสมแปรผันขนาด 2023"},
+            {order: 8, title: "ภาพเหมือน", name: "ลี วอน-กู", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/9-60x80.jpg`, width: 3.6, height: 4.8, overview: "60x80cm", overview1: "สีน้ำมันบนผ้าใบ 2022"},
+            {order: 9, title: "แหวน1", name: "ฮงวอน ลี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/10-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
+            {order: 10, title: "ถนน(ความทรงจำ)", name: "คิม คยองเอ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/11-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "90x52x10cm", overview1: "สีอะครีลิคบนไม้ 2023"},
+            {order: 11, title: "ภาพติดตาของป่า", name: "ซองมี คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/12-102.4x76.3.jpg`, width: 5.12, height: 3.815, overview: "91x91cm", overview1: "สื่อผสมบนผ้าใบ 2022"},
+            {order: 12, title: "ความรู้สึก1", name: "จียอน มุน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/13-70.2x102.4.jpg`, width: 3.510, height: 5.12, overview: "", overview1: "อะคริลิกบนกระจก"},
+            {order: 13, title: "แบ่งปัน", name: "ปาร์ค ยงซู", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/14-30.3x21.3.jpg`, width: 6.06, height: 4.16, overview: "530x80x410cm", overview1: "วูดส์ในการวาดภาพพร้อมเสียง 2024"},
+            {order: 14, title: "ก่อนหน้านี้อีกต่อไป_ความคิดเกี่ยวกับความแตกต่างและการทำซ้ำ", name: "ชิม มยองฮี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/15-90x90.jpg`, width: 4.5, height: 4.5, overview: "90x90cm", overview1: "พิมพ์เม็ดสี, 2022"},
+            {order: 15, title: "mp,mf", name: "ยู ฮยอนจอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/16-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "53x45.5cm", overview1: "สื่อผสม 2024"},
+            {order: 16, title: "ข. ดรีมฟรุต 5-8", name: "ลีคยองฮวา", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/17-116.8x91.jpg`, width: 4.672, height: 3.64, overview: "91x116.8cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
+            {order: 17, title: "คุณพ่อจอน ซังซอ", name: "ชเว อิก-กยู", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/18-140x210.jpg`, width: 5.2, height: 6.3, overview: "210x140cm", overview1: "การเย็บบนผ้าแผง 2017~2019"},
+            {order: 18, title: "ฤดูใบไม้ผลิแห่งความคิด", name: "ลมตีระฆัง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/19-116x91.jpg`, width: 4.64, height: 3.64, overview: "91x116cm", overview1: "สีอะคริลิคบนผ้าใบ 2024"},
+            {order: 19, title: "ดอกโบตั๋นปรสิตในบ้านบาร์โค้ด", name: "กิล จองฮยอน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/20-78.3x102.4.jpg`, width: 3.915, height: 5.12, overview: "45.5x53.0cm", overview1: "สีอะคริลิคบนผ้าใบ 2022"},
+            {order: 20, title: "ระหว่างปัญญากับความเข้าใจ", name: "ฮยอนซุก คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/21-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
+            {order: 21, title: "เรื่องราวของอังกูล", name: "ยุนยองโน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/22-116.8x72.7.jpg`, width: 5.84, height: 3.635, overview: "116.8x72.7x2.7cm", overview1: "สีอะคริลิคบนผ้าใบพิมพ์ลาย 2022"},
+            {order: 22, title: "ชีวิต 22-15", name: "ซึงยอน ซอ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/23-72.7x45.5.jpg`, width: 4.362, height: 2.73, overview: "45.5x72.7cm", overview1: "สีอะคริลิคบนผ้าใบ 2022"},
+            {order: 23, title: "", name: "เรียบร้อยแล้ว", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/24-72.7x91.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "ด้ายฝ้าย กระดาษเกาหลี สีอะครีลิคบนผ้าใบ 2023"},
+            {order: 24, title: "สปริง, สปริง B-15", name: "มยองฮี ลี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "สีน้ำมันบนผ้าใบ 2021"},
+            {order: 25, title: "ความสามัคคี", name: "ฮายองจอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
+            {order: 26, title: "ไม่ทราบเวลา - จลาจล", name: "โจ ฮยอนเอ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
+        ],
+    ],
     [
         //2023
         [        

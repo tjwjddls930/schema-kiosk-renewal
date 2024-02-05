@@ -1,5 +1,50 @@
 
 export const paintList_CH = [
+     //2024
+     [
+        [
+            {order: 0, title: "诞生、考验、奇迹、爱、永生、复活", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "布面丙烯, 1997"},
+            {order: 1, title: "诞生、考验、奇迹、爱、永生、复活", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "布面丙烯, 1997"},
+            {order: 2, title: "复活的耶稣", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/3-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "布面丙烯, 1998"},
+            {order: 3, title: "以利亚的祷告", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/4-45x45.jpg`, width: 4.5, height: 4.5, overview: "45x45cm", overview1: "布面丙烯, 1998"},
+            {order: 4, title: "圣母玛利亚和马", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/5-130.5x130.5.jpg`, width: 5.22, height: 5.22, overview: "130.5x130.5cm", overview1: "画布上的混合媒体, 1995"},
+            {order: 5, title: "95-57", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/6-127x166.jpg`, width: 4.98, height: 3.81, overview: "127x166cm", overview1: "韩纸混合材质, 1995"},
+            {order: 6, title: "96-2", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/7-117x91.jpg`, width: 3.64, height: 4.68, overview: "117x91cm", overview1: "画布上的混合媒体, 1996"},
+            {order: 7, title: "96-12", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/8-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "画布上的混合媒体, 1996"},
+            {order: 8, title: "C33", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/9-21x25.jpg`, width: 5, height: 4.2, overview: "21x25cm", overview1: "纸上着色, 1992"},
+            {order: 9, title: "D-107", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/10-135x167.jpg`, width: 5.01, height: 4.05, overview: "135x167cm", overview1: "与韩纸混合, 1994"},
+            {order: 10, title: "D-139", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/11-130x166.jpg`, width: 4.98, height: 3.9, overview: "130x166cm", overview1: "韩纸混合材质, 1996"},
+        ],
+        [
+            {order: 0, title: "开心的旅途", name: "郭延珠", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/1-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "混合媒体 2023"},
+            {order: 1, title: "春天，风", name: "金妍玉", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/2-72.7x90.9.jpg`, width: 4.362, height: 5.454, overview: "90.9x72.7cm", overview1: "混合媒体 2023"},
+            {order: 2, title: "律&-色", name: "金宰宽", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/3-91x65.2.jpg`, width: 4.55, height: 3.26, overview: "65.2x91.0cm", overview1: "布面丙烯 2023"},
+            {order: 3, title: "交叉", name: "方孝成", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/4-76x52.jpg`, width: 4.56, height: 3.12, overview: "52x76cm", overview1: "纸上丙烯 2023"},
+            {order: 4, title: "循环的崇高", name: "苏菲·吴（沉正均 饰", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/5-72.7x90.9.jpg`, width: 3.635, height: 4.545, overview: "90.9x72.7x5cm", overview1: "混合媒体 2023"},
+            {order: 5, title: "关系", name: "廉孝兰", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/6-116.8x91.jpg`, width: 4.672, height: 3.64, overview: "116.8x91.0cm", overview1: "布面混合媒体 2022"},
+            {order: 6, title: "光的痕迹", name: "吴惠莲", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/7-150x100.jpg`, width: 7.5, height: 5, overview: "100x150cm", overview1: "布面丙烯 2023"},
+            {order: 7, title: "视觉神话1", name: "李明焕", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/8-73.1x102.4.jpg`, width: 3.655, height: 5.12, overview: "", overview1: "透明聚氨酯和混合材料可变尺寸 2023"},
+            {order: 8, title: "自画像", name: "李元九", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/9-60x80.jpg`, width: 3.6, height: 4.8, overview: "60x80cm", overview1: "布面油画 2022"},
+            {order: 9, title: "声音1", name: "李洪元", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/10-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "布面丙烯 2023"},
+            {order: 10, title: "路(回忆)", name: "金敬爱", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/11-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "90x52x10cm", overview1: "木板丙烯 2023"},
+            {order: 11, title: "森林的残影", name: "金成美", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/12-102.4x76.3.jpg`, width: 5.12, height: 3.815, overview: "91x91cm", overview1: "布面混合媒体，2022"},
+            {order: 12, title: "意义1", name: "文智妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/13-70.2x102.4.jpg`, width: 3.510, height: 5.12, overview: "", overview1: "玻璃上的亚克力"},
+            {order: 13, title: "共有", name: "朴龙洙", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/14-30.3x21.3.jpg`, width: 6.06, height: 4.16, overview: "530x80x410cm", overview1: "伍兹谈 2024 年音频绘画"},
+            {order: 14, title: "更早，更长_关于差异和重复的思考", name: "沉明熙", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/15-90x90.jpg`, width: 4.5, height: 4.5, overview: "90x90cm", overview1: "颜料印花，2022"},
+            {order: 15, title: "mp,mf", name: "柳贤正", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/16-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "53x45.5cm", overview1: "混合媒体 2024"},
+            {order: 16, title: "b. 夢中果 5-8", name: "李庆和", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/17-116.8x91.jpg`, width: 4.672, height: 3.64, overview: "91x116.8cm", overview1: "布面丙烯 2023"},
+            {order: 17, title: "全相绪神父", name: "崔益奎", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/18-140x210.jpg`, width: 5.2, height: 6.3, overview: "210x140cm", overview1: "布料、面板缝纫，2017-2019"},
+            {order: 18, title: "思想之泉", name: "风铃", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/19-116x91.jpg`, width: 4.64, height: 3.64, overview: "91x116cm", overview1: "布面丙烯 2024"},
+            {order: 19, title: "条形码屋里的寄生牡丹", name: "吉正贤", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/20-78.3x102.4.jpg`, width: 3.915, height: 5.12, overview: "45.5x53.0cm", overview1: "布面丙烯 2022"},
+            {order: 20, title: "智慧与悟性之间", name: "金贤淑", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/21-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "布面丙烯 2023"},
+            {order: 21, title: "韩文故事", name: "卢允英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/22-116.8x72.7.jpg`, width: 5.84, height: 3.635, overview: "116.8x72.7x2.7cm", overview1: "布面丙烯 2022"},
+            {order: 22, title: "生活 22-15", name: "徐胜妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/23-72.7x45.5.jpg`, width: 4.362, height: 2.73, overview: "45.5x72.7cm", overview1: "布面丙烯 2022"},
+            {order: 23, title: "", name: "已经", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/24-72.7x91.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "棉线、韩国纸、布面丙烯 2023"},
+            {order: 24, title: "春天，春天 B-15", name: "李明熙", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "布面油画 2021"},
+            {order: 25, title: "和谐", name: "郑夏荣", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
+            {order: 26, title: "未知时间-骚乱", name: "赵贤爱", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "布面丙烯 2023"},
+        ]
+    ],
     [
         //2023
         [        
