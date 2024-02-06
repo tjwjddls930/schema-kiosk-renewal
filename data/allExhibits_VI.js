@@ -378,21 +378,6 @@ export const allExhibits_VI = [
                         order: 17, 
                         number: "18",
                         title:"Triển lãm dành cho thành viên Diễn đàn nghệ thuật Schema năm 2024 - Những cân nhắc về đồ vật, màu sắc và ngôn ngữ", 
-                        name: "Ikkyu Choi", 
-                        engname: "Ikkyu Choi",
-                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-2/24-2-18.jpg`, 
-                        text: "",
-                        education: "",
-                        individual_exhibition: [],
-                        group_exhibition: [],
-                        paint: [
-                            {order: 17, title: "một lá thư danh dự của cha", name: "Ikkyu Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/18-140x210.jpg`, width: 5.2, height: 6.3, overview: "210x140cm", overview1: "May trên vải, panel, 2017-2019"},
-                        ]
-                    },
-                    {
-                        order: 18, 
-                        number: "19",
-                        title:"Triển lãm dành cho thành viên Diễn đàn nghệ thuật Schema năm 2024 - Những cân nhắc về đồ vật, màu sắc và ngôn ngữ", 
                         name: "Poong Geum", 
                         engname: "Poong Geum",
                         imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-2/24-2-19.jpg`, 
@@ -401,12 +386,12 @@ export const allExhibits_VI = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "mùa xuân suy nghĩ", name: "Poong Geum", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/19-116x91.jpg`, width: 4.64, height: 3.64, overview: "91x116cm", overview1: "Acrylic trên canvas 2024"},
+                            {order: 17, title: "mùa xuân suy nghĩ", name: "Poong Geum", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/19-116x91.jpg`, width: 4.64, height: 3.64, overview: "91x116cm", overview1: "Acrylic trên canvas 2024"},
                         ]
                     },
                     {
-                        order: 19, 
-                        number: "20",
+                        order: 18, 
+                        number: "19",
                         title:"Triển lãm dành cho thành viên Diễn đàn nghệ thuật Schema năm 2024 - Những cân nhắc về đồ vật, màu sắc và ngôn ngữ", 
                         name: "Junghyun Gil", 
                         engname: "Junghyun Gil",
@@ -416,12 +401,12 @@ export const allExhibits_VI = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 19, title: "Hoa mẫu đơn ký sinh trong nhà mã vạch", name: "Junghyun Gil", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/20-78.3x102.4.jpg`, width: 3.915, height: 5.12, overview: "45.5x53.0cm", overview1: "Acrylic trên canvas 2022"},
+                            {order: 18, title: "Hoa mẫu đơn ký sinh trong nhà mã vạch", name: "Junghyun Gil", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/20-78.3x102.4.jpg`, width: 3.915, height: 5.12, overview: "45.5x53.0cm", overview1: "Acrylic trên canvas 2022"},
                         ]
                     },
                     {
-                        order: 20, 
-                        number: "21",
+                        order: 19, 
+                        number: "20",
                         title:"Triển lãm dành cho thành viên Diễn đàn nghệ thuật Schema năm 2024 - Những cân nhắc về đồ vật, màu sắc và ngôn ngữ", 
                         name: "Hyunsook Kim", 
                         engname: "Hyunsook Kim",
@@ -431,12 +416,12 @@ export const allExhibits_VI = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "Giữa trí tuệ và hiểu biết", name: "Hyunsook Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/21-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "Acrylic trên canvas 2023"},
+                            {order: 19, title: "Giữa trí tuệ và hiểu biết", name: "Hyunsook Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/21-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "Acrylic trên canvas 2023"},
                         ]
                     },
                     {
-                        order: 21, 
-                        number: "22",
+                        order: 20, 
+                        number: "21",
                         title:"Triển lãm dành cho thành viên Diễn đàn nghệ thuật Schema năm 2024 - Những cân nhắc về đồ vật, màu sắc và ngôn ngữ", 
                         name: "Yoonyoung Noh", 
                         engname: "Yoonyoung Noh",
@@ -446,12 +431,12 @@ export const allExhibits_VI = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 21, title: "Câu chuyện Hangul", name: "Yoonyoung Noh", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/22-116.8x72.7.jpg`, width: 5.84, height: 3.635, overview: "116.8x72.7x2.7cm", overview1: "Acrylic trên canvas in 2022"},
+                            {order: 20, title: "Câu chuyện Hangul", name: "Yoonyoung Noh", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/22-116.8x72.7.jpg`, width: 5.84, height: 3.635, overview: "116.8x72.7x2.7cm", overview1: "Acrylic trên canvas in 2022"},
                         ]
                     },
                     {
-                        order: 22, 
-                        number: "23",
+                        order: 21, 
+                        number: "22",
                         title:"Triển lãm dành cho thành viên Diễn đàn nghệ thuật Schema năm 2024 - Những cân nhắc về đồ vật, màu sắc và ngôn ngữ", 
                         name: "Seungyeon Seo", 
                         engname: "Seungyeon Seo",
@@ -461,12 +446,12 @@ export const allExhibits_VI = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 22, title: "Cuộc sống 22-15", name: "Seungyeon Seo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/23-72.7x45.5.jpg`, width: 4.362, height: 2.73, overview: "45.5x72.7cm", overview1: "Acrylic trên canvas 2022"},
+                            {order: 21, title: "Cuộc sống 22-15", name: "Seungyeon Seo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/23-72.7x45.5.jpg`, width: 4.362, height: 2.73, overview: "45.5x72.7cm", overview1: "Acrylic trên canvas 2022"},
                         ]
                     },
                     {
-                        order: 23, 
-                        number: "24",
+                        order: 22, 
+                        number: "23",
                         title:"Triển lãm dành cho thành viên Diễn đàn nghệ thuật Schema năm 2024 - Những cân nhắc về đồ vật, màu sắc và ngôn ngữ", 
                         name: "Mi Lee", 
                         engname: "Mi Lee",
@@ -476,12 +461,12 @@ export const allExhibits_VI = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 23, title: "", name: "Mi Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/24-72.7x91.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "sợi bông, giấy hàn quốc, acrylic trên canvas 2023"},
+                            {order: 22, title: "", name: "Mi Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/24-72.7x91.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "sợi bông, giấy hàn quốc, acrylic trên canvas 2023"},
                         ]
                     },
                     {
-                        order: 24, 
-                        number: "25",
+                        order: 23, 
+                        number: "24",
                         title:"Triển lãm dành cho thành viên Diễn đàn nghệ thuật Schema năm 2024 - Những cân nhắc về đồ vật, màu sắc và ngôn ngữ", 
                         name: "Myunghee Lee", 
                         engname: "Myunghee Lee",
@@ -491,12 +476,12 @@ export const allExhibits_VI = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 24, title: "Xuân, Xuân B-15", name: "Myunghee Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "Sơn dầu trên Canvas 2021"},
+                            {order: 23, title: "Xuân, Xuân B-15", name: "Myunghee Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "Sơn dầu trên Canvas 2021"},
                         ]
                     },
                     {
-                        order: 25, 
-                        number: "26",
+                        order: 24, 
+                        number: "25",
                         title:"Triển lãm dành cho thành viên Diễn đàn nghệ thuật Schema năm 2024 - Những cân nhắc về đồ vật, màu sắc và ngôn ngữ", 
                         name: "Hayoung Chung", 
                         engname: "Hayoung Chung",
@@ -506,12 +491,12 @@ export const allExhibits_VI = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 25, title: "Hòa hợp", name: "Hayoung Chung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
+                            {order: 24, title: "Hòa hợp", name: "Hayoung Chung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
                         ]
                     },
                     {
-                        order: 26, 
-                        number: "27",
+                        order: 25, 
+                        number: "26",
                         title:"Triển lãm dành cho thành viên Diễn đàn nghệ thuật Schema năm 2024 - Những cân nhắc về đồ vật, màu sắc và ngôn ngữ", 
                         name: "Hyunae Cho", 
                         engname: "Hyunae Cho",
@@ -521,7 +506,7 @@ export const allExhibits_VI = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 26, title: "Không rõ thời gian - bạo loạn", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Acrylic trên canvas 2023"},
+                            {order: 25, title: "Không rõ thời gian - bạo loạn", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Acrylic trên canvas 2023"},
                         ]
                     },
                 ],

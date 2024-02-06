@@ -378,21 +378,6 @@ export const allExhibits_CH = [
                         order: 17, 
                         number: "18",
                         title:"2024舍玛艺术论坛会员展——对物体、色彩、语言的思考", 
-                        name: "崔益奎", 
-                        engname: "Ikkyu Choi",
-                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-2/24-2-18.jpg`, 
-                        text: "",
-                        education: "",
-                        individual_exhibition: [],
-                        group_exhibition: [],
-                        paint: [
-                            {order: 17, title: "全相绪神父", name: "崔益奎", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/18-140x210.jpg`, width: 5.2, height: 6.3, overview: "210x140cm", overview1: "布料、面板缝纫，2017-2019"},
-                        ]
-                    },
-                    {
-                        order: 18, 
-                        number: "19",
-                        title:"2024舍玛艺术论坛会员展——对物体、色彩、语言的思考", 
                         name: "风铃", 
                         engname: "Poong Geum",
                         imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-2/24-2-19.jpg`, 
@@ -401,12 +386,12 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "思想之泉", name: "风铃", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/19-116x91.jpg`, width: 4.64, height: 3.64, overview: "91x116cm", overview1: "布面丙烯 2024"},
+                            {order: 17, title: "思想之泉", name: "风铃", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/19-116x91.jpg`, width: 4.64, height: 3.64, overview: "91x116cm", overview1: "布面丙烯 2024"},
                         ]
                     },
                     {
-                        order: 19, 
-                        number: "20",
+                        order: 18, 
+                        number: "19",
                         title:"2024舍玛艺术论坛会员展——对物体、色彩、语言的思考", 
                         name: "吉正贤", 
                         engname: "Junghyun Gil",
@@ -416,12 +401,12 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 19, title: "条形码屋里的寄生牡丹", name: "吉正贤", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/20-78.3x102.4.jpg`, width: 3.915, height: 5.12, overview: "45.5x53.0cm", overview1: "布面丙烯 2022"},
+                            {order: 18, title: "条形码屋里的寄生牡丹", name: "吉正贤", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/20-78.3x102.4.jpg`, width: 3.915, height: 5.12, overview: "45.5x53.0cm", overview1: "布面丙烯 2022"},
                         ]
                     },
                     {
-                        order: 20, 
-                        number: "21",
+                        order: 19, 
+                        number: "20",
                         title:"2024舍玛艺术论坛会员展——对物体、色彩、语言的思考", 
                         name: "金贤淑", 
                         engname: "Hyunsook Kim",
@@ -431,12 +416,12 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "智慧与悟性之间", name: "金贤淑", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/21-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "布面丙烯 2023"},
+                            {order: 19, title: "智慧与悟性之间", name: "金贤淑", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/21-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "布面丙烯 2023"},
                         ]
                     },
                     {
-                        order: 21, 
-                        number: "22",
+                        order: 20, 
+                        number: "21",
                         title:"2024舍玛艺术论坛会员展——对物体、色彩、语言的思考", 
                         name: "卢允英", 
                         engname: "Yoonyoung Noh",
@@ -446,12 +431,12 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 21, title: "韩文故事", name: "卢允英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/22-116.8x72.7.jpg`, width: 5.84, height: 3.635, overview: "116.8x72.7x2.7cm", overview1: "布面丙烯 2022"},
+                            {order: 20, title: "韩文故事", name: "卢允英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/22-116.8x72.7.jpg`, width: 5.84, height: 3.635, overview: "116.8x72.7x2.7cm", overview1: "布面丙烯 2022"},
                         ]
                     },
                     {
-                        order: 22, 
-                        number: "23",
+                        order: 21, 
+                        number: "22",
                         title:"2024舍玛艺术论坛会员展——对物体、色彩、语言的思考", 
                         name: "徐胜妍", 
                         engname: "Seungyeon Seo",
@@ -461,12 +446,12 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 22, title: "生活 22-15", name: "徐胜妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/23-72.7x45.5.jpg`, width: 4.362, height: 2.73, overview: "45.5x72.7cm", overview1: "布面丙烯 2022"},
+                            {order: 21, title: "生活 22-15", name: "徐胜妍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/23-72.7x45.5.jpg`, width: 4.362, height: 2.73, overview: "45.5x72.7cm", overview1: "布面丙烯 2022"},
                         ]
                     },
                     {
-                        order: 23, 
-                        number: "24",
+                        order: 22, 
+                        number: "23",
                         title:"2024舍玛艺术论坛会员展——对物体、色彩、语言的思考", 
                         name: "已经", 
                         engname: "Mi Lee",
@@ -476,12 +461,12 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 23, title: "", name: "已经", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/24-72.7x91.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "棉线、韩国纸、布面丙烯 2023"},
+                            {order: 22, title: "", name: "已经", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/24-72.7x91.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "棉线、韩国纸、布面丙烯 2023"},
                         ]
                     },
                     {
-                        order: 24, 
-                        number: "25",
+                        order: 23, 
+                        number: "24",
                         title:"2024舍玛艺术论坛会员展——对物体、色彩、语言的思考", 
                         name: "李明熙", 
                         engname: "Myunghee Lee",
@@ -491,12 +476,12 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 24, title: "春天，春天 B-15", name: "李明熙", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "布面油画 2021"},
+                            {order: 23, title: "春天，春天 B-15", name: "李明熙", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "布面油画 2021"},
                         ]
                     },
                     {
-                        order: 25, 
-                        number: "26",
+                        order: 24, 
+                        number: "25",
                         title:"2024舍玛艺术论坛会员展——对物体、色彩、语言的思考", 
                         name: "郑夏荣", 
                         engname: "Hayoung Chung",
@@ -506,12 +491,12 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 25, title: "和谐", name: "郑夏荣", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
+                            {order: 24, title: "和谐", name: "郑夏荣", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
                         ]
                     },
                     {
-                        order: 26, 
-                        number: "27",
+                        order: 25, 
+                        number: "26",
                         title:"2024舍玛艺术论坛会员展——对物体、色彩、语言的思考", 
                         name: "赵贤爱", 
                         engname: "Hyunae Cho",
@@ -521,7 +506,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 26, title: "未知时间-骚乱", name: "赵贤爱", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "布面丙烯 2023"},
+                            {order: 25, title: "未知时间-骚乱", name: "赵贤爱", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "布面丙烯 2023"},
                         ]
                     },
                 ],

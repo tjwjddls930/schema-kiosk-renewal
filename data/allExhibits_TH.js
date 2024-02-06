@@ -378,21 +378,6 @@ export const allExhibits_TH = [
                         order: 17, 
                         number: "18",
                         title:"นิทรรศการสมาชิก Schema Art Forum ประจำปี 2024 – ข้อพิจารณาเกี่ยวกับวัตถุ สี และภาษา", 
-                        name: "ชเว อิก-กยู", 
-                        engname: "Ikkyu Choi",
-                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-2/24-2-18.jpg`, 
-                        text: "",
-                        education: "",
-                        individual_exhibition: [],
-                        group_exhibition: [],
-                        paint: [
-                            {order: 17, title: "คุณพ่อจอน ซังซอ", name: "ชเว อิก-กยู", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/18-140x210.jpg`, width: 5.2, height: 6.3, overview: "210x140cm", overview1: "การเย็บบนผ้าแผง 2017~2019"},
-                        ]
-                    },
-                    {
-                        order: 18, 
-                        number: "19",
-                        title:"นิทรรศการสมาชิก Schema Art Forum ประจำปี 2024 – ข้อพิจารณาเกี่ยวกับวัตถุ สี และภาษา", 
                         name: "ลมตีระฆัง", 
                         engname: "Poong Geum",
                         imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-2/24-2-19.jpg`, 
@@ -401,12 +386,12 @@ export const allExhibits_TH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "ฤดูใบไม้ผลิแห่งความคิด", name: "ลมตีระฆัง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/19-116x91.jpg`, width: 4.64, height: 3.64, overview: "91x116cm", overview1: "สีอะคริลิคบนผ้าใบ 2024"},
+                            {order: 17, title: "ฤดูใบไม้ผลิแห่งความคิด", name: "ลมตีระฆัง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/19-116x91.jpg`, width: 4.64, height: 3.64, overview: "91x116cm", overview1: "สีอะคริลิคบนผ้าใบ 2024"},
                         ]
                     },
                     {
-                        order: 19, 
-                        number: "20",
+                        order: 18, 
+                        number: "19",
                         title:"นิทรรศการสมาชิก Schema Art Forum ประจำปี 2024 – ข้อพิจารณาเกี่ยวกับวัตถุ สี และภาษา", 
                         name: "กิล จองฮยอน", 
                         engname: "Junghyun Gil",
@@ -416,12 +401,12 @@ export const allExhibits_TH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 19, title: "ดอกโบตั๋นปรสิตในบ้านบาร์โค้ด", name: "กิล จองฮยอน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/20-78.3x102.4.jpg`, width: 3.915, height: 5.12, overview: "45.5x53.0cm", overview1: "สีอะคริลิคบนผ้าใบ 2022"},
+                            {order: 18, title: "ดอกโบตั๋นปรสิตในบ้านบาร์โค้ด", name: "กิล จองฮยอน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/20-78.3x102.4.jpg`, width: 3.915, height: 5.12, overview: "45.5x53.0cm", overview1: "สีอะคริลิคบนผ้าใบ 2022"},
                         ]
                     },
                     {
-                        order: 20, 
-                        number: "21",
+                        order: 19, 
+                        number: "20",
                         title:"นิทรรศการสมาชิก Schema Art Forum ประจำปี 2024 – ข้อพิจารณาเกี่ยวกับวัตถุ สี และภาษา", 
                         name: "ฮยอนซุก คิม", 
                         engname: "Hyunsook Kim",
@@ -431,12 +416,12 @@ export const allExhibits_TH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "ระหว่างปัญญากับความเข้าใจ", name: "ฮยอนซุก คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/21-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
+                            {order: 19, title: "ระหว่างปัญญากับความเข้าใจ", name: "ฮยอนซุก คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/21-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
                         ]
                     },
                     {
-                        order: 21, 
-                        number: "22",
+                        order: 20, 
+                        number: "21",
                         title:"นิทรรศการสมาชิก Schema Art Forum ประจำปี 2024 – ข้อพิจารณาเกี่ยวกับวัตถุ สี และภาษา", 
                         name: "ยุนยองโน", 
                         engname: "Yoonyoung Noh",
@@ -446,12 +431,12 @@ export const allExhibits_TH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 21, title: "เรื่องราวของอังกูล", name: "ยุนยองโน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/22-116.8x72.7.jpg`, width: 5.84, height: 3.635, overview: "116.8x72.7x2.7cm", overview1: "สีอะคริลิคบนผ้าใบพิมพ์ลาย 2022"},
+                            {order: 20, title: "เรื่องราวของอังกูล", name: "ยุนยองโน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/22-116.8x72.7.jpg`, width: 5.84, height: 3.635, overview: "116.8x72.7x2.7cm", overview1: "สีอะคริลิคบนผ้าใบพิมพ์ลาย 2022"},
                         ]
                     },
                     {
-                        order: 22, 
-                        number: "23",
+                        order: 21, 
+                        number: "22",
                         title:"นิทรรศการสมาชิก Schema Art Forum ประจำปี 2024 – ข้อพิจารณาเกี่ยวกับวัตถุ สี และภาษา", 
                         name: "ซึงยอน ซอ", 
                         engname: "Seungyeon Seo",
@@ -461,12 +446,12 @@ export const allExhibits_TH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 22, title: "ชีวิต 22-15", name: "ซึงยอน ซอ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/23-72.7x45.5.jpg`, width: 4.362, height: 2.73, overview: "45.5x72.7cm", overview1: "สีอะคริลิคบนผ้าใบ 2022"},
+                            {order: 21, title: "ชีวิต 22-15", name: "ซึงยอน ซอ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/23-72.7x45.5.jpg`, width: 4.362, height: 2.73, overview: "45.5x72.7cm", overview1: "สีอะคริลิคบนผ้าใบ 2022"},
                         ]
                     },
                     {
-                        order: 23, 
-                        number: "24",
+                        order: 22, 
+                        number: "23",
                         title:"นิทรรศการสมาชิก Schema Art Forum ประจำปี 2024 – ข้อพิจารณาเกี่ยวกับวัตถุ สี และภาษา", 
                         name: "เรียบร้อยแล้ว", 
                         engname: "Mi Lee",
@@ -476,12 +461,12 @@ export const allExhibits_TH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 23, title: "", name: "เรียบร้อยแล้ว", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/24-72.7x91.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "ด้ายฝ้าย กระดาษเกาหลี สีอะครีลิคบนผ้าใบ 2023"},
+                            {order: 22, title: "", name: "เรียบร้อยแล้ว", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/24-72.7x91.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "ด้ายฝ้าย กระดาษเกาหลี สีอะครีลิคบนผ้าใบ 2023"},
                         ]
                     },
                     {
-                        order: 24, 
-                        number: "25",
+                        order: 23, 
+                        number: "24",
                         title:"นิทรรศการสมาชิก Schema Art Forum ประจำปี 2024 – ข้อพิจารณาเกี่ยวกับวัตถุ สี และภาษา", 
                         name: "มยองฮี ลี", 
                         engname: "Myunghee Lee",
@@ -491,12 +476,12 @@ export const allExhibits_TH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 24, title: "สปริง, สปริง B-15", name: "มยองฮี ลี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "สีน้ำมันบนผ้าใบ 2021"},
+                            {order: 23, title: "สปริง, สปริง B-15", name: "มยองฮี ลี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "สีน้ำมันบนผ้าใบ 2021"},
                         ]
                     },
                     {
-                        order: 25, 
-                        number: "26",
+                        order: 24, 
+                        number: "25",
                         title:"นิทรรศการสมาชิก Schema Art Forum ประจำปี 2024 – ข้อพิจารณาเกี่ยวกับวัตถุ สี และภาษา", 
                         name: "ฮายองจอง", 
                         engname: "Hayoung Chung",
@@ -506,12 +491,12 @@ export const allExhibits_TH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 25, title: "ความสามัคคี", name: "ฮายองจอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
+                            {order: 24, title: "ความสามัคคี", name: "ฮายองจอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
                         ]
                     },
                     {
-                        order: 26, 
-                        number: "27",
+                        order: 25, 
+                        number: "26",
                         title:"นิทรรศการสมาชิก Schema Art Forum ประจำปี 2024 – ข้อพิจารณาเกี่ยวกับวัตถุ สี และภาษา", 
                         name: "โจ ฮยอนเอ", 
                         engname: "Hyunae Cho",
@@ -521,7 +506,7 @@ export const allExhibits_TH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 26, title: "ไม่ทราบเวลา - จลาจล", name: "โจ ฮยอนเอ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
+                            {order: 25, title: "ไม่ทราบเวลา - จลาจล", name: "โจ ฮยอนเอ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
                         ]
                     },
                 ],

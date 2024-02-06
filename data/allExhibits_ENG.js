@@ -378,21 +378,6 @@ export const allExhibits_ENG = [
                         order: 17, 
                         number: "18",
                         title:"2024 Schema Art Forum Member Exhibition – Considerations on Objects, Colors, and Language", 
-                        name: "Ikkyu Choi", 
-                        engname: "Ikkyu Choi",
-                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-2/24-2-18.jpg`, 
-                        text: "",
-                        education: "",
-                        individual_exhibition: [],
-                        group_exhibition: [],
-                        paint: [
-                            {order: 17, title: "My father's statue", name: "Ikkyu Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/18-140x210.jpg`, width: 5.2, height: 6.3, overview: "210x140cm", overview1: "Sewing on fabric, paneling, 2017~2019"},
-                        ]
-                    },
-                    {
-                        order: 18, 
-                        number: "19",
-                        title:"2024 Schema Art Forum Member Exhibition – Considerations on Objects, Colors, and Language", 
                         name: "Poong Geum", 
                         engname: "Poong Geum",
                         imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-2/24-2-19.jpg`, 
@@ -401,12 +386,12 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "Spring of thought", name: "Poong Geum", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/19-116x91.jpg`, width: 4.64, height: 3.64, overview: "91x116cm", overview1: "Acrylic on canvas 2024"},
+                            {order: 17, title: "Spring of thought", name: "Poong Geum", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/19-116x91.jpg`, width: 4.64, height: 3.64, overview: "91x116cm", overview1: "Acrylic on canvas 2024"},
                         ]
                     },
                     {
-                        order: 19, 
-                        number: "20",
+                        order: 18, 
+                        number: "19",
                         title:"2024 Schema Art Forum Member Exhibition – Considerations on Objects, Colors, and Language", 
                         name: "Junghyun Gil", 
                         engname: "Junghyun Gil",
@@ -416,12 +401,12 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 19, title: "Parasitic peonies in the barcode house", name: "Junghyun Gil", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/20-78.3x102.4.jpg`, width: 3.915, height: 5.12, overview: "45.5x53.0cm", overview1: "Acrylic on canvas 2022"},
+                            {order: 18, title: "Parasitic peonies in the barcode house", name: "Junghyun Gil", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/20-78.3x102.4.jpg`, width: 3.915, height: 5.12, overview: "45.5x53.0cm", overview1: "Acrylic on canvas 2022"},
                         ]
                     },
                     {
-                        order: 20, 
-                        number: "21",
+                        order: 19, 
+                        number: "20",
                         title:"2024 Schema Art Forum Member Exhibition – Considerations on Objects, Colors, and Language", 
                         name: "Hyunsook Kim", 
                         engname: "Hyunsook Kim",
@@ -431,12 +416,12 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 20, title: "Between wisdom and understanding", name: "Hyunsook Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/21-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "Acrylic on canvas 2023"},
+                            {order: 19, title: "Between wisdom and understanding", name: "Hyunsook Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/21-60.6x72.7.jpg`, width: 3.636, height: 4.362, overview: "72.7x60.6cm", overview1: "Acrylic on canvas 2023"},
                         ]
                     },
                     {
-                        order: 21, 
-                        number: "22",
+                        order: 20, 
+                        number: "21",
                         title:"2024 Schema Art Forum Member Exhibition – Considerations on Objects, Colors, and Language", 
                         name: "Yoonyoung Noh", 
                         engname: "Yoonyoung Noh",
@@ -446,12 +431,12 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 21, title: "Hangul Story", name: "Yoonyoung Noh", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/22-116.8x72.7.jpg`, width: 5.84, height: 3.635, overview: "116.8x72.7x2.7cm", overview1: "Acrylic on printed canvas 2022"},
+                            {order: 20, title: "Hangul Story", name: "Yoonyoung Noh", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/22-116.8x72.7.jpg`, width: 5.84, height: 3.635, overview: "116.8x72.7x2.7cm", overview1: "Acrylic on printed canvas 2022"},
                         ]
                     },
                     {
-                        order: 22, 
-                        number: "23",
+                        order: 21, 
+                        number: "22",
                         title:"2024 Schema Art Forum Member Exhibition – Considerations on Objects, Colors, and Language", 
                         name: "Seungyeon Seo", 
                         engname: "Seungyeon Seo",
@@ -461,12 +446,12 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 22, title: "Life 22-15", name: "Seungyeon Seo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/23-72.7x45.5.jpg`, width: 4.362, height: 2.73, overview: "45.5x72.7cm", overview1: "Acrylic on Canvas, 2022"},
+                            {order: 21, title: "Life 22-15", name: "Seungyeon Seo", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/23-72.7x45.5.jpg`, width: 4.362, height: 2.73, overview: "45.5x72.7cm", overview1: "Acrylic on Canvas, 2022"},
                         ]
                     },
                     {
-                        order: 23, 
-                        number: "24",
+                        order: 22, 
+                        number: "23",
                         title:"2024 Schema Art Forum Member Exhibition – Considerations on Objects, Colors, and Language", 
                         name: "Mi Lee", 
                         engname: "Mi Lee",
@@ -476,12 +461,12 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 23, title: "", name: "Mi Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/24-72.7x91.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "cotton thread, korean paper, acrylic on canvas 2023"},
+                            {order: 22, title: "", name: "Mi Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/24-72.7x91.jpg`, width: 3.635, height: 4.55, overview: "91x72.7cm", overview1: "cotton thread, korean paper, acrylic on canvas 2023"},
                         ]
                     },
                     {
-                        order: 24, 
-                        number: "25",
+                        order: 23, 
+                        number: "24",
                         title:"2024 Schema Art Forum Member Exhibition – Considerations on Objects, Colors, and Language", 
                         name: "Myunghee Lee", 
                         engname: "Myunghee Lee",
@@ -491,12 +476,12 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 24, title: "Spring, spring B-15", name: "Myunghee Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "Oil on Canvas 2021"},
+                            {order: 23, title: "Spring, spring B-15", name: "Myunghee Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "Oil on Canvas 2021"},
                         ]
                     },
                     {
-                        order: 25, 
-                        number: "26",
+                        order: 24, 
+                        number: "25",
                         title:"2024 Schema Art Forum Member Exhibition – Considerations on Objects, Colors, and Language", 
                         name: "Hayoung Chung", 
                         engname: "Hayoung Chung",
@@ -506,12 +491,12 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 25, title: "Harmony", name: "Hayoung Chung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
+                            {order: 24, title: "Harmony", name: "Hayoung Chung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
                         ]
                     },
                     {
-                        order: 26, 
-                        number: "27",
+                        order: 25, 
+                        number: "26",
                         title:"2024 Schema Art Forum Member Exhibition – Considerations on Objects, Colors, and Language", 
                         name: "Hyunae Cho", 
                         engname: "Hyunae Cho",
@@ -521,7 +506,7 @@ export const allExhibits_ENG = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 26, title: "Unknown time-riot", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Acrylic on canvas 2023"},
+                            {order: 25, title: "Unknown time-riot", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Acrylic on canvas 2023"},
                         ]
                     },
                 ],
