@@ -306,7 +306,7 @@ export default function VoiceGPTButton({ isChatModalOpen }) {
                 <div className="text-Bgrey font-bold p-2 gap-[0.3rem] flex justify-center items-center text-base screen-w:text-2xl whitespace-nowrap">
                   {language === "KOR" ? "AI음성안내" : "AI Voice Guide"}{"   "}
                   <div className="bg-gray-100 rounded-full flex justify-center items-center">
-                    <span className="h-auto w-auto screen-w:w-[100px] screen-w:h-16 text-white bg-blue rounded-full font-light text-2xs screen-w:text-2xl px-2 py-2 screen-w:py-3 whitespace-nowrap">
+                    <span className="h-auto w-auto screen-w:w-[100px] screen-w:h-16 text-white font-bold bg-blue rounded-full text-2xs screen-w:text-2xl px-2 screen-w:py-3.5 whitespace-nowrap">
                       {language === "KOR" ? "시작" : "Start"}
                     </span>
                   </div>
