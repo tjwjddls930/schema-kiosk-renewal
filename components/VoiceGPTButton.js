@@ -299,14 +299,14 @@ export default function VoiceGPTButton({ isChatModalOpen }) {
         <div>
           {!isRecording ? (
             <button
-              className="ml-4 bg-white rounded-full px-2 py-0"
+              className="ml-4 bg-white h-auto w-auto screen-w:w-[280px] screen-w:h-20 rounded-full px-2 py-0"
               onClick={startRecording}
             >
-              <div className="flexjustify-center items-center gap-[0.3rem]">
-                <div className="text-gray-700 p-2 gap-[0.3rem] flex justify-center items-center text-base screen-w:text-2xl whitespace-nowrap">
-                  {language === "KOR" ? "AI음성안내" : "AI Voice Guide"}{" "}
+              <div className="flex justify-center items-center gap-[0.3rem]">
+                <div className="text-Bgrey font-bold p-2 gap-[0.3rem] flex justify-center items-center text-base screen-w:text-2xl whitespace-nowrap">
+                  {language === "KOR" ? "AI음성안내" : "AI Voice Guide"}{"   "}
                   <div className="bg-gray-100 rounded-full flex justify-center items-center">
-                    <span className="text-white bg-blue rounded-full font-light text-2xs px-2 py-2 whitespace-nowrap">
+                    <span className="h-auto w-auto screen-w:w-[100px] screen-w:h-16 text-white bg-blue rounded-full font-light text-2xs screen-w:text-2xl px-2 py-2 screen-w:py-3 whitespace-nowrap">
                       {language === "KOR" ? "시작" : "Start"}
                     </span>
                   </div>
