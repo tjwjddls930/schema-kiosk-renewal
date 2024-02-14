@@ -299,7 +299,7 @@ export default function VoiceGPTButton({ isChatModalOpen }) {
         <div>
           {!isRecording ? (
             <button
-              className="ml-4 bg-white h-auto w-auto screen-w:w-[280px] screen-w:h-20 rounded-full px-2 py-0"
+              className="ml-4 bg-white h-auto w-auto screen-w:w-[250px] screen-w:h-20 rounded-full px-2 py-0"
               onClick={startRecording}
             >
               <div className="flex justify-center items-center gap-[0.3rem]">
