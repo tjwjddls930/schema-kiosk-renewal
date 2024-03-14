@@ -42,6 +42,14 @@ export const paintList_KOR = [
             {order: 23, title: "봄, 봄 B-15", name: "이명희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "Oil on Canvas 2021"},
             {order: 24, title: "Harmony", name: "정하영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
             {order: 25, title: "Unknown time-만폭동", name: "조현애", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Acrylic on canvas 2023"},
+        ],
+        [
+            {order: 0, title: "생의변주", name: "김연옥", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/1-181.8x227.3.jpg`, width: 3.636, height: 4.546, overview: "227.3x181.8cm", overview1: "mixed media, 2024"},
+            {order: 1, title: "생의변주", name: "김연옥", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/2-181.8x227.3.jpg`, width: 3.636, height: 4.546, overview: "227.3x181.8cm", overview1: "mixed media, 2023"},
+            {order: 2, title: "생의변주", name: "김연옥", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/3-145.5x227.3.jpg`, width: 2.91, height: 4.546, overview: "227.3x145.5cm", overview1: "mixed media, 2023"},
+            {order: 3, title: "생의변주", name: "김연옥", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/4-130.3x162.2.jpg`, width: 3.909, height: 4.866, overview: "162.2x130.3cm", overview1: "mixed media, 2023"},
+            {order: 4, title: "생의변주2", name: "김연옥", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/5-130.3x162.2.jpg`, width: 3.909, height: 4.866, overview: "162.2x130.3cm", overview1: "mixed media, 2023"},
+            {order: 5, title: "생의변주", name: "김연옥", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/6-97x162.2.jpg`, width: 2.91, height: 4.866, overview: "162.2x97cm", overview1: "mixed media, 2023"},  
         ]
     ],
     [

@@ -43,6 +43,14 @@ export const paintList_TH = [
             {order: 24, title: "ความสามัคคี", name: "ฮายองจอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
             {order: 25, title: "ไม่ทราบเวลา - จลาจล", name: "โจ ฮยอนเอ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
         ],
+        [
+            {order: 0, title: "การเปลี่ยนแปลงของชีวิต", name: "คิม ยอนอค", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/1-181.8x227.3.jpg`, width: 3.636, height: 4.546, overview: "227.3x181.8cm", overview1: "สื่อผสม, 2024"},
+            {order: 1, title: "การเปลี่ยนแปลงของชีวิต", name: "คิม ยอนอค", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/2-181.8x227.3.jpg`, width: 3.636, height: 4.546, overview: "227.3x181.8cm", overview1: "สื่อผสม, 2023"},
+            {order: 2, title: "การเปลี่ยนแปลงของชีวิต", name: "คิม ยอนอค", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/3-145.5x227.3.jpg`, width: 2.91, height: 4.546, overview: "227.3x145.5cm", overview1: "สื่อผสม, 2023"},
+            {order: 3, title: "การเปลี่ยนแปลงของชีวิต", name: "คิม ยอนอค", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/4-130.3x162.2.jpg`, width: 3.909, height: 4.866, overview: "162.2x130.3cm", overview1: "สื่อผสม, 2023"},
+            {order: 4, title: "การเปลี่ยนแปลงของชีวิต2", name: "คิม ยอนอค", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/5-130.3x162.2.jpg`, width: 3.909, height: 4.866, overview: "162.2x130.3cm", overview1: "สื่อผสม, 2023"},
+            {order: 5, title: "การเปลี่ยนแปลงของชีวิต", name: "คิม ยอนอค", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/6-97x162.2.jpg`, width: 2.91, height: 4.866, overview: "162.2x97cm", overview1: "สื่อผสม, 2023"},
+        ],
     ],
     [
         //2023

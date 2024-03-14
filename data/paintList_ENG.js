@@ -42,7 +42,15 @@ export const paintList_ENG = [
             {order: 23, title: "Spring, spring B-15", name: "Myunghee Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/25-46x53.jpg`, width: 4.6, height: 5.3, overview: "53x46cm", overview1: "Oil on Canvas 2021"},
             {order: 24, title: "Harmony", name: "Hayoung Chung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/26-62x72.jpg`, width: 4.96, height: 5.76, overview: "72x62cm", overview1: ""},
             {order: 25, title: "Unknown time-riot", name: "Hyunae Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-2/27-100x100.jpg`, width: 4, height: 4, overview: "100x100cm", overview1: "Acrylic on canvas 2023"},
-        ]
+        ],
+        [
+            {order: 0, title: "Variation of life", name: "YeonOk Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/1-181.8x227.3.jpg`, width: 3.636, height: 4.546, overview: "227.3x181.8cm", overview1: "mixed media, 2024"},
+            {order: 1, title: "Variation of life", name: "YeonOk Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/2-181.8x227.3.jpg`, width: 3.636, height: 4.546, overview: "227.3x181.8cm", overview1: "mixed media, 2023"},
+            {order: 2, title: "Variation of life", name: "YeonOk Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/3-145.5x227.3.jpg`, width: 2.91, height: 4.546, overview: "227.3x145.5cm", overview1: "mixed media, 2023"},
+            {order: 3, title: "Variation of life", name: "YeonOk Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/4-130.3x162.2.jpg`, width: 3.909, height: 4.866, overview: "162.2x130.3cm", overview1: "mixed media, 2023"},
+            {order: 4, title: "Variation of life2", name: "YeonOk Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/5-130.3x162.2.jpg`, width: 3.909, height: 4.866, overview: "162.2x130.3cm", overview1: "mixed media, 2023"},
+            {order: 5, title: "Variation of life", name: "YeonOk Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-3/6-97x162.2.jpg`, width: 2.91, height: 4.866, overview: "162.2x97cm", overview1: "mixed media, 2023"},
+        ],
     ],
     [
         //2023
