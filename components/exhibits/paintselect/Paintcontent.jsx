@@ -41,6 +41,14 @@ const noteText = {
     VI: "Xem ghi chú của tác giả"
 };
 
+const popupText = {
+    KOR: "닫기",
+    ENG: "Close",
+    CH: "关闭",
+    TH: "ปิด",
+    VI: "đóng",
+};
+
 const inputData = {
     KOR: allExhibits_KOR,
     ENG: allExhibits_ENG,
@@ -57,6 +65,7 @@ const Paintcontent = () => {
     const [current, setCurrent] = useState(0);
     const [data, setData] = useState(null);
     const [length, setLength] = useState(null);
+    const [popup, setPopup] = useState(false);
     const router = useRouter();
     const pid = router.query.slug; 
     const {order, artist} = router.query;
@@ -191,11 +200,25 @@ const Paintcontent = () => {
                          <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
                      ))}
                  </div>
-                 <button className="h-8 w-[100px] text-sm screen-w:h-48 screen-w:w-[400px] screen-w:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Bblue to-Ablue shadow-md">
+                 <button className="h-8 w-[100px] text-sm screen-w:h-48 screen-w:w-[400px] screen-w:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Bblue to-Ablue shadow-md"
+                    onClick={() => setPopup(!popup)}
+                 >
                      {noteText[language]}
                 </button>
              </div>
              }
+             {popup && (
+                <div className="absolute h-2/3 w-2/3 screen-w:h-[55%] screen-w:w-2/3 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 bg-Ablack opacity-90 rounded-xl justify-center px-8 screen-w:px-12"
+                    onClick={()=> setPopup(!popup)}
+                >
+                    <p className="flex screen-w:w-5/6 h-full items-center jusitfy-center text-sm screen-w:text-3xl font-bold screen-w:leading-relaxed mx-auto text-white overflow-auto">{data.text}</p>
+                    <button
+                        onClick={()=>setPopup(!popup)}
+                        className="absolute h-10 w-[200px] screen-w:h-20 screen-w:w-[300px] text-center text-base screen-w:text-3xl text-white font-bold items-center bottom-4 screen-w:bottom-16 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-Bblue to-Ablue">
+                    {popupText[language]}
+                    </button> 
+                </div>
+            )}
              <div className="h-[30px] w-[300px] screen-w:w-[800px] absolute right-72 bottom-28 screen-w:bottom-72 screen-w:right-96">
                  <div className="flex flex-row space-x-2 screen-w:space-x-4">
                      <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Ablue rounded-full" />
