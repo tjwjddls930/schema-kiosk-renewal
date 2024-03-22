@@ -208,7 +208,7 @@ const Paintcontent = () => {
              </div>
              }
              {popup && (
-                <div className="absolute h-2/3 w-2/3 screen-w:h-[55%] screen-w:w-2/3 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 bg-Ablack opacity-90 rounded-xl justify-center px-8 screen-w:px-12"
+                <div className="absolute h-2/3 w-2/3 screen-w:h-[55%] screen-w:w-2/3 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 bg-Ablack opacity-90 rounded-xl justify-center px-8 screen-w:px-12 z-10"
                     onClick={()=> setPopup(!popup)}
                 >
                     <p className="flex screen-w:w-5/6 h-full items-center jusitfy-center text-sm screen-w:text-3xl font-bold screen-w:leading-relaxed mx-auto text-white overflow-auto">{data.text}</p>
