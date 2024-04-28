@@ -183,23 +183,29 @@ const Paintcontent = () => {
                 </button>
             </div>
             :
-            <div className="w-[30%] h-[600px] screen-w:w-[35%] screen-w:h-[700px] flex flex-col space-y-1 px-12 py-3 screen-w:space-y-5 screen-w:px-16">
-                 <div className="w-20 h-[1px] bg-Ablue mb-1 screen-w:mb-2" />
-                 <span className="text-sm screen-w:text-6xl font-bold text-Bgrey">{data.engname}</span>
-                 <span className="text-base screen-w:text-7xl font-bold text-black mb-2 screen-w:mb-4">{data.name}</span>
-                 <span className="text-xs screen-w:text-4xl font-bold text-black mb-2 screen-w:mb-4">{data.career}</span>
-                 <span className="text-sm screen-w:text-4xl text-Ablue font-bold">{individualText[language]}</span>
-                 <div className="overflow-auto w-full h-[10%] screen-w:h-1/2 flex flex-col space-y-1">
-                     {data.individual_exhibition.map((item)=> (
-                         <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
-                     ))}
-                 </div>
-                 <span className="text-sm screen-w:text-4xl text-Ablue font-bold mt-4">{groupText[language]}</span>
-                 <div className="overflow-auto w-full h-[10%] screen-w:h-1/2 flex flex-col space-y-1">
-                     {data.group_exhibition.map((item)=> (
-                         <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
-                     ))}
-                 </div>
+            <div className="w-[80%] h-[300px] screen-w:w-[35%] screen-w:h-[700px] flex flex-row space-x-2 px-12 py-3 screen-w:flex-col screen-w:space-y-5 screen-w:px-16">
+                <div className="w-[15%] flex flex-col space-y-1"> 
+                    <div className="w-20 h-[1px] bg-Ablue mb-1 screen-w:mb-2" />
+                    <span className="text-sm screen-w:text-6xl font-bold text-Bgrey">{data.engname}</span>
+                    <span className="text-base screen-w:text-7xl font-bold text-black mb-2 screen-w:mb-4">{data.name}</span>
+                    <span className="text-xs screen-w:text-4xl font-bold text-black mb-2 screen-w:mb-4">{data.career}</span>
+                </div>
+                <div className="w-1/3 flex flex-col space-y-1">
+                    <span className="text-sm screen-w:text-4xl text-Ablue font-bold">{individualText[language]}</span>
+                    <div className="overflow-auto w-full h-2/3 screen-w:h-1/2 flex flex-col space-y-1">
+                        {data.individual_exhibition.map((item)=> (
+                            <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
+                        ))}
+                    </div>
+                </div>
+                <div className="w-1/3 flex flex-col space-y-1">
+                    <span className="text-sm screen-w:text-4xl text-Ablue font-bold screen-w:mt-4">{groupText[language]}</span>
+                    <div className="overflow-auto w-full h-2/3 screen-w:h-1/2 flex flex-col space-y-1">
+                        {data.group_exhibition.map((item)=> (
+                            <span key={item.order} className="text-xs screen-w:text-screen-w text-Cgrey font-bold">{item.exhibit}</span>
+                        ))}
+                    </div>
+                </div>
                  <button className="h-8 w-[100px] text-sm screen-w:h-48 screen-w:w-[400px] screen-w:text-3xl font-bold text-Awhite rounded-md bg-gradient-to-r from-Bblue to-Ablue shadow-md"
                     onClick={() => setPopup(!popup)}
                  >
@@ -219,7 +225,7 @@ const Paintcontent = () => {
                     </button> 
                 </div>
             )}
-             <div className="h-[30px] w-[300px] screen-w:w-[800px] absolute right-72 bottom-28 screen-w:bottom-72 screen-w:right-96">
+             <div className="absolute invisible screen-w:visible h-[30px] w-[300px] screen-w:w-[800px] right-72 bottom-28 screen-w:bottom-72 screen-w:right-96">
                  <div className="flex flex-row space-x-2 screen-w:space-x-4">
                      <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Ablue rounded-full" />
                      <div className="h-2 w-2 screen-w:h-4 screen-w:w-4 bg-Ablue rounded-full" />
@@ -228,7 +234,7 @@ const Paintcontent = () => {
              </div>
              <button 
                  onClick={prevExhibit}
-                 className="absolute w-[208px] h-16 screen-w:h-32 screen-w:w-[320px] text-xl font-bold text-Awhite bg-Ablue focus:bg-Bblue rounded-l-md bottom-28 right-52 screen-w:bottom-72 screen-w:right-80">
+                 className="absolute invisible screen-w:visible w-[208px] h-16 screen-w:h-32 screen-w:w-[320px] text-xl font-bold text-Awhite bg-Ablue focus:bg-Bblue rounded-l-md bottom-28 right-52 screen-w:bottom-72 screen-w:right-80">
                     <svg 
                         id="left"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
@@ -239,7 +245,7 @@ const Paintcontent = () => {
              </button>
              <button 
                  onClick={nextExhibit}
-                 className="absolute w-[208px] h-16 text-xl screen-w:h-32 screen-w:w-[320px] font-bold text-Awhite bg-Ablue focus:bg-Bblue rounded-r-md bottom-28 right-0 screen-w:bottom-72">
+                 className="absolute invisible screen-w:visible w-[208px] h-16 text-xl screen-w:h-32 screen-w:w-[320px] font-bold text-Awhite bg-Ablue focus:bg-Bblue rounded-r-md bottom-28 right-0 screen-w:bottom-72">
                     <svg 
                         id="right"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke="currentColor" 
