@@ -183,14 +183,14 @@ const Paintcontent = () => {
                 </button>
             </div>
             :
-            <div className="w-[80%] h-[300px] screen-w:w-[35%] screen-w:h-[700px] flex flex-row space-x-2 px-12 py-3 screen-w:flex-col screen-w:space-y-5 screen-w:px-16">
-                <div className="w-[15%] flex flex-col space-y-1"> 
+            <div className="w-[80%] h-[300px] screen-w:w-2/3 screen-w:h-[700px] flex flex-row space-x-2 px-12 py-3 screen-w:flex-col screen-w:space-y-5 screen-w:px-16">
+                <div className="w-1/3 flex flex-col space-y-1"> 
                     <div className="w-20 h-[1px] bg-Ablue mb-1 screen-w:mb-2" />
-                    <span className="text-sm screen-w:text-6xl font-bold text-Bgrey">{data.engname}</span>
-                    <span className="text-base screen-w:text-7xl font-bold text-black mb-2 screen-w:mb-4">{data.name}</span>
+                    <span className="screen-w:w-full text-sm screen-w:text-6xl font-bold text-Bgrey">{data.engname}</span>
+                    <span className="screen-w:w-full text-base screen-w:text-7xl font-bold text-Ablack mb-2 screen-w:mb-4">{data.name}</span>
                     <span className="text-xs screen-w:text-4xl font-bold text-black mb-2 screen-w:mb-4">{data.career}</span>
                 </div>
-                <div className="w-1/3 flex flex-col space-y-1">
+                <div className="w-1/3 screen-w:h-[250px] flex flex-col space-y-1">
                     <span className="text-sm screen-w:text-4xl text-Ablue font-bold">{individualText[language]}</span>
                     <div className="overflow-auto w-full h-2/3 screen-w:h-1/2 flex flex-col space-y-1">
                         {data.individual_exhibition.map((item)=> (
@@ -198,7 +198,7 @@ const Paintcontent = () => {
                         ))}
                     </div>
                 </div>
-                <div className="w-1/3 flex flex-col space-y-1">
+                <div className="w-1/3 screen-w:h-[250px] flex flex-col space-y-1">
                     <span className="text-sm screen-w:text-4xl text-Ablue font-bold screen-w:mt-4">{groupText[language]}</span>
                     <div className="overflow-auto w-full h-2/3 screen-w:h-1/2 flex flex-col space-y-1">
                         {data.group_exhibition.map((item)=> (
