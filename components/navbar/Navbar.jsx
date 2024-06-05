@@ -369,19 +369,19 @@ const signDocent = {
 
 const languageChange = {
   KOR: (size) => (
-      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"언어 변경"}</span>
+      <span className={`hidden lg:block screen-w:block text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"언어 변경"}</span>
   ),
   ENG: (size) => (
-      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Language Change"}</span>
+      <span className={`hidden lg:block screen-w:block text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"Language Change"}</span>
   ),
   CH: (size) => (
-      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"改变语言"}</span>
+      <span className={`hidden lg:block screen-w:block text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"改变语言"}</span>
   ),
   TH: (size) => (
-      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"เปลี่ยนภาษา"}</span>
+      <span className={`hidden lg:block screen-w:block text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"เปลี่ยนภาษา"}</span>
   ),
   VI: (size) => (
-      <span className={`text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"thay đổi ngôn ngữ"}</span>
+      <span className={`hidden lg:block screen-w:block text-base font-bold pt-2 ${size ? `screen-w:text-5xl` : `screen-w:text-4xl`}`}>{"thay đổi ngôn ngữ"}</span>
   ),
 };
 
@@ -555,9 +555,9 @@ const Navbar = ({ url, sign }) => {
       )}
       {/* 언어변경 버튼 */}
       <button 
-          // className="absolute left-12 bottom-40 screen-w:left-24 screen-w:bottom-52 text-Bgrey space-y-4"
-          className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 left-1/2 bottom-16 screen-w:bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}
-          onClick={()=>setModal(!modal)}    
+        // className="absolute left-12 bottom-40 screen-w:left-24 screen-w:bottom-52 text-Bgrey space-y-4"
+        className={clsx(isPortrait ? `transform -translate-x-1/2 left-1/2 bottom-8 lg:bottom-52 screen-w:bottom-52 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}` : `transform -translate-x-1/2 left-1/2 bottom-16 screen-w:bottom-44 text-Bgrey space-y-4 ${hide ? "hidden" : "absolute"}`)}
+        onClick={()=>setModal(!modal)}    
       >
           <div className="flex flex-col screen-w:space-y-3">
               <div className="border-2 screen-w:border-4 border-Ablue rounded-full w-12 h-12 screen-w:w-40 screen-w:h-40 items-center bg-Awhite mx-auto">
@@ -575,122 +575,122 @@ const Navbar = ({ url, sign }) => {
           <div
             className={clsx(
               isPortrait
-                ? "flex flex-col h-[60%] w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-[700px] space-y-4 screen-w:space-y-6"
+                ? "flex flex-col h-[60%] w-5/6 items-center mx-auto bg-Awhite rounded-lg z-20 mt-28 lg:mt-40 screen-w:mt-[700px] space-y-4 screen-w:space-y-6"
                 : "flex flex-col h-3/4 w-3/4 items-center mx-auto bg-Awhite rounded-lg z-20 mt-20 screen-w:mt-60 space-y-4 screen-w:space-y-6"
             )}
           >
-            <span className="text-xl screen-w:text-6xl text-black font-bold mt-4 screen-w:mt-6">
+            <span className="text-base lg:text-xl screen-w:text-6xl text-black font-bold mt-4 screen-w:mt-6">
               여러분의 언어를 선택해주세요!
             </span>
-            <span className="text-lg screen-w:text-5xl text-Cgrey font-bold">
+            <span className="text-sm lg:text-lg screen-w:text-5xl text-Cgrey font-bold">
               Please select your language
             </span>
             <div
               className={clsx(
                 isPortrait
-                  ? "flex flex-col space-y-6 w-full h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-6 screen-w:pt-[500px] items-end z-30"
-                  : "flex flex-col space-y-6 w-full h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-6 screen-w:pt-56 items-center z-30"
+                  ? "flex flex-col space-y-6 h-[350px] lg:space-y-6 w-full lg:h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-8 screen-w:pt-[500px] items-end z-30"
+                  : "flex flex-col space-y-3 h-[350px] lg:space-y-6 w-full lg:h-[700px] screen-w:space-y-24 screen-w:h-full bg-Bblue bg-opacity-30 rounded-b-lg py-6 screen-w:pt-56 items-center z-30"
               )}
             >
-              <div className="flex flex-row mx-auto space-x-6 screen-w:space-x-24 z-40">
+              <div className="flex flex-row mx-auto space-x-3 lg:space-x-6 screen-w:space-x-24 z-40">
                 {/* 한국어 */}
-                <button className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite">
+                <button className="h-[90px] w-[75px] lg:h-[150px] lg:w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite">
                   <div
                     id="ko"
                     className="flex h-full w-full items-center"
                     onClick={() => changeLanguage("KOR")}
                   >
-                    <div className="h-1/2 w-full flex flex-col text-center space-y-4 screen-w:space-y-8">
-                      <span className="text-xl screen-w:text-6xl font-bold z-40">
+                    <div className="h-1/2 w-full flex flex-col text-center space-y-2 lg:space-y-4 screen-w:space-y-8">
+                      <span className="text-sm lg:text-xl screen-w:text-6xl font-bold z-40">
                         한국어
                       </span>
-                      <span className="text-lg screen-w:text-4xl font-bold z-40">
+                      <span className="text-xs lg:text-lg screen-w:text-4xl font-bold z-40">
                         Korean
                       </span>
                     </div>
                   </div>
                 </button>
                 {/* 영어 */}
-                <button className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite">
+                <button className="h-[90px] w-[75px] lg:h-[150px] lg:w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite">
                   <div
                     id="en"
                     className="flex h-full w-full items-center"
                     onClick={() => changeLanguage("ENG")}
                   >
-                    <div className="h-1/2 w-full flex flex-col text-center space-y-4 screen-w:space-y-8">
-                      <span className="text-xl screen-w:text-6xl font-bold">
+                    <div className="h-1/2 w-full flex flex-col text-center space-y-2 lg:space-y-4 screen-w:space-y-8">
+                      <span className="text-sm lg:text-xl screen-w:text-6xl font-bold">
                         English
                       </span>
-                      <span className="text-lg screen-w:text-4xl font-bold">
+                      <span className="text-xs lg:text-lg screen-w:text-4xl font-bold">
                         English
                       </span>
                     </div>
                   </div>
                 </button>
               </div>
-              <div className="flex flex-row mx-auto space-x-6 screen-w:space-x-24 z-40">
+              <div className="flex flex-row mx-auto space-x-3 lg:space-x-6 screen-w:space-x-24 z-40">
                 {/* 중국어 */}
-                <button className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite">
+                <button className="h-[90px] w-[75px] lg:h-[150px] lg:w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite">
                   <div
                     id="zh"
                     className="flex h-full w-full items-center"
                     onClick={() => changeLanguage("CH")}
                   >
-                    <div className="h-1/2 w-full flex flex-col text-center space-y-4 screen-w:space-y-8">
-                      <span className="text-xl screen-w:text-6xl font-bold z-40">
+                    <div className="h-1/2 w-full flex flex-col text-center space-y-2 lg:space-y-4 screen-w:space-y-8">
+                      <span className="text-sm lg:text-xl screen-w:text-6xl font-bold z-40">
                         中國語
                       </span>
-                      <span className="text-lg screen-w:text-4xl font-bold z-40">
+                      <span className="text-xs lg:text-lg screen-w:text-4xl font-bold z-40">
                         Chinese
                       </span>
                     </div>
                   </div>
                 </button>
                 {/* 태국어 */}
-                <button className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite">
+                <button className="h-[90px] w-[75px] lg:h-[150px] lg:w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite">
                   <div
                     id="th"
                     className="flex h-full w-full items-center"
                     onClick={() => changeLanguage("TH")}
                   >
-                    <div className="h-1/2 w-full flex flex-col text-center space-y-4 screen-w:space-y-8">
-                      <span className="text-xl screen-w:text-6xl font-bold">
+                    <div className="h-1/2 w-full flex flex-col text-center space-y-2 lg:space-y-4 screen-w:space-y-8">
+                      <span className="text-sm lg:text-xl screen-w:text-6xl font-bold">
                         แบบไทย
                       </span>
-                      <span className="text-lg screen-w:text-4xl font-bold">
+                      <span className="text-xs lg:text-lg screen-w:text-4xl font-bold">
                         Thai
                       </span>
                     </div>
                   </div>
                 </button>
                 {/* 베트남어 */}
-                <button className="h-[150px] w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite">
+                <button className="h-[90px] w-[75px] lg:h-[150px] lg:w-[250px] screen-w:h-[300px] screen-w:w-[400px] z-40 bg-Awhite shadow-lg rounded-lg focus:bg-Bblue text-Ablack focus:text-Awhite">
                   <div
                     id="vi"
                     className="flex h-full w-full items-center"
                     onClick={() => changeLanguage("VI")}
                   >
-                    <div className="h-1/2 w-full flex flex-col text-center space-y-4 screen-w:space-y-8">
-                      <span className="text-xl screen-w:text-6xl font-bold">
+                    <div className="h-1/2 w-full flex flex-col text-center space-y-2 lg:space-y-4 screen-w:space-y-8">
+                      <span className="text-sm lg:text-xl screen-w:text-6xl font-bold">
                         Tiếng Việt
                       </span>
-                      <span className="text-lg screen-w:text-4xl font-bold">
+                      <span className="text-xs lg:text-lg screen-w:text-4xl font-bold">
                         Vietnamese
                       </span>
                     </div>
                   </div>
                 </button>
               </div>
-              <div className="flex flex-row mx-auto space-x-6 screen-w:space-x-8 z-40">
+              <div className="flex flex-row mx-auto space-x-3 lg:space-x-6 screen-w:space-x-8 z-40">
                 <button
-                  className="h-12 w-[200px] screen-w:h-32 screen-w:w-[450px] z-40 bg-Awhite shadow-lg rounded-full text-black font-bold text-xl screen-w:text-4xl"
+                  className="h-8 w-[100px] lg:h-12 lg:w-[200px] screen-w:h-32 screen-w:w-[450px] z-40 bg-Awhite shadow-lg rounded-full text-black font-bold text-sm lg:text-xl screen-w:text-4xl"
                   onClick={() => setModal(!modal)}
                 >
                   취소하기
                 </button>
                 {/* 언어 변경 버튼 */}
                 <button
-                  className="h-12 w-[200px] screen-w:h-32 screen-w:w-[450px] z-40 bg-gradient-to-r from-Bblue to-Ablue shadow-lg rounded-full text-white font-bold text-xl screen-w:text-4xl"
+                  className="h-8 w-[100px] lg:h-12 lg:w-[200px] screen-w:h-32 screen-w:w-[450px] z-40 bg-gradient-to-r from-Bblue to-Ablue shadow-lg rounded-full text-white font-bold text-sm lg:text-xl screen-w:text-4xl"
                   onClick={() => setModal(!modal)}
                 >
                   언어 변경하기
@@ -700,7 +700,7 @@ const Navbar = ({ url, sign }) => {
           </div>
         </div>
       )}
-      <nav className={clsx("fixed lg:flex bottom-0 w-screen h-16 screen-w:h-40 bg-Ablue px-10 screen-w:px-12 items-center")}>
+      <nav className={clsx("hidden fixed lg:flex screen-w:flex bottom-0 w-screen h-16 screen-w:h-40 bg-Ablue px-10 screen-w:px-12 items-center")}>
         {/* <MusicPlayer src={'/audio/TheHolyLand.mp3'} /> */}
         <div className="flex flex-row w-full h-full space-x-4 screen-w:space-x-6 justify-end">
           <VoiceGPTButton isChatModalOpen={isChatModalOpen} />

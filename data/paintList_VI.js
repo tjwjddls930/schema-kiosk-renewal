@@ -75,6 +75,15 @@ export const paintList_VI = [
             {order: 20, title: "Không có tiêu đề", name: "Hatano Shinji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-4/21-74.6x49.4.jpg`, width: 4.476, height: 2.964, overview: "145.5x112.1cm(1pc), 40.9x30.8cm(25pcs)", overview1: "Thể hiện đường nét thông qua mặt nạ, sơn acrylic, 2024"},
             {order: 21, title: "Bầu không khí", name: "Hioirwa Yuka", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-4/22-136x240.8.jpg`, width: 4.08, height: 7.224, overview: "1250x700cm", overview1: "Acrylic trên vải, 2023"},
         ],
+        [
+            {order: 0, title: "Như những vì sao trên trời", name: "Oseong Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/1-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "phương tiện truyền thông hỗn hợp trên canvas, 20240501"},
+            {order: 1, title: "Con sông", name: "Oseong Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/2-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "phương tiện truyền thông hỗn hợp trên canvas, 20240501"},
+            {order: 2, title: "Bài hát của chúng tôi", name: "Oseong Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/3-76.2x76.2.jpg`, width: 3.81, height: 3.81, overview: "76.2x76.2cm", overview1: "phương tiện truyền thông hỗn hợp trên canvas, 2024"},
+            {order: 3, title: "Từ bốn ngọn gió", name: "Oseong Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/4-118.3x118.3.jpg`, width: 4.732, height: 4.732, overview: "118.3x118.3cm", overview1: "phương tiện truyền thông hỗn hợp trên canvas, 2024"},
+            {order: 4, title: "Bài hát của chúng tôi-Ngày thứ 2", name: "Oseong Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/5-72.7x60.6.jpg`, width: 4.242, height: 5.089, overview: "72.7x60.6cm", overview1: "phương tiện truyền thông hỗn hợp trên canvas, 2024"},
+            {order: 5, title: "Bài hát của chúng tôi-Ngày thứ 3", name: "Oseong Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/6-72.7x60.6.jpg`, width: 4.242, height: 5.089, overview: "72.7x60.6cm", overview1: "phương tiện truyền thông hỗn hợp trên canvas, 2024"},
+            {order: 6, title: "Bài hát của chúng tôi-Ngày thứ 6", name: "Oseong Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/7-72.7x60.6.jpg`, width: 4.242, height: 5.089, overview: "72.7x60.6cm", overview1: "phương tiện truyền thông hỗn hợp trên canvas, 2024"},
+        ]
     ],
     [
         //2023

@@ -153,16 +153,16 @@ const Newbutton = () => {
         <>
              {/* 중단 버튼 구역*/}
              <section className={clsx(isPortrait ? 
-                    "w-3/4 h-2/3 pt-14 px-14 flex flex-col space-y-5 screen-w:space-y-10 mx-auto" 
+                    "w-[95%] h-2/3 py-6 px-6 lg:pt-14 lg:px-14 flex flex-col space-y-5 screen-w:space-y-10 mx-auto items-center" 
                     : "w-2/3 h-1/2 screen-w:w-3/4 screen-w:h-[55%] pt-14 px-14 flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end")}>
                 {isPortrait ?
                     <>
-                        <div className="h-2/3 w-full flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">
+                        <div className="h-1/2 w-full flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">
                             <div className="w-[70%] screen-w:w-full h-full relative shadow-md rounded-sm mx-auto bg-[url('/img/mainpage/intro_bg.jpg')] bg-cover bg-no-repeat"
                                 onClick={()=>{router.push("/intro")}}
                             >
                                 <div className="absolute inset-0 w-full h-full bg-Ablack opacity-10" />
-                                <button className="h-full w-full text-center text-Awhite bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto z-10 hover:translate-y-2"
+                                <button className="h-full w-full text-center text-Awhite bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto z-10"
                                     >
                                     {introButton[language](fontsize)}
                                 </button>
@@ -176,7 +176,7 @@ const Newbutton = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="h-2/3 w-full flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">
+                        <div className="h-1/2 w-full flex flex-row space-x-5 screen-w:space-x-10 mx-auto items-end">
                             <div className="w-[70%] screen-w:w-full h-full relative shadow-md rounded-sm mx-auto bg-[url('/img/intro/career/chat_bot_button_2.png')] bg-cover bg-no-repeat"
                                 onClick={()=>router.push("https://schema-gpt-final-v1.vercel.app/")}
                             > 
@@ -201,7 +201,7 @@ const Newbutton = () => {
                         onClick={()=>{router.push("/intro")}}
                     >
                         <div className="absolute inset-0 w-full h-full bg-Ablack opacity-10" />
-                        <button className="h-full w-full text-center text-Awhite bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto z-10 hover:translate-y-2"
+                        <button className="h-full w-full text-center text-Awhite bg-[url('/img/mainpage/미술관소개_도형.png')] bg-no-repeat bg-cover mx-auto z-10"
                             >
                             {introButton[language](fontsize)}
                         </button>

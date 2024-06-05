@@ -75,6 +75,15 @@ export const paintList_KOR = [
             {order: 20, title: "Untitled", name: "하타노 신지", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-4/21-74.6x49.4.jpg`, width: 4.476, height: 2.964, overview: "145.5x112.1cm(1pc), 40.9x30.8cm(25pcs)", overview1: "마스킹에 의한 선의 표현, 아크릴 도료, 2024"},
             {order: 21, title: "Atmosphere", name: "히로이와 유카", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-4/22-136x240.8.jpg`, width: 4.08, height: 7.224, overview: "1250x700cm", overview1: "Acrylic on Cloth, 2023"},
         ],
+        [
+            {order: 0, title: "As the stars in the heaven", name: "이오성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/1-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "mixed media on canvas, 20240501"},
+            {order: 1, title: "The River", name: "이오성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/2-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "mixed media on canvas, 20240501"},
+            {order: 2, title: "Our Songs", name: "이오성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/3-76.2x76.2.jpg`, width: 3.81, height: 3.81, overview: "76.2x76.2cm", overview1: "mixed media on canvas, 2024"},
+            {order: 3, title: "From the four winds", name: "이오성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/4-118.3x118.3.jpg`, width: 4.732, height: 4.732, overview: "118.3x118.3cm", overview1: "mixed media on canvas, 2024"},
+            {order: 4, title: "Our Songs-The 2nd Day", name: "이오성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/5-72.7x60.6.jpg`, width: 4.242, height: 5.089, overview: "72.7x60.6cm", overview1: "mixed media on canvas, 2024"},
+            {order: 5, title: "Our Songs-The 3rd Day", name: "이오성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/6-72.7x60.6.jpg`, width: 4.242, height: 5.089, overview: "72.7x60.6cm", overview1: "mixed media on canvas, 2024"},
+            {order: 6, title: "Our Songs-The 6th Day", name: "이오성", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/7-72.7x60.6.jpg`, width: 4.242, height: 5.089, overview: "72.7x60.6cm", overview1: "mixed media on canvas, 2024"},
+        ]
     ],
     [
         //2023

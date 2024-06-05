@@ -157,7 +157,7 @@ const IntroConnectContent = () => {
     return(
         // <div className="h-3/4 screen-w:h-[90%] w-full px-28"></div>
         <div className={clsx(isPortrait ? "h-[85%] w-[90%] flex flex-col space-y-4 screen-w:space-y-12 mx-auto items-center" : "h-5/6 w-[90%] flex flex-row space-x-4 screen-w:space-x-12 mx-auto items-center")}>
-            <div className="flex h-1/2 w-2/3 screen-w:h-2/3 screen-w:w-3/4 items-center justify-center shadow-xl"
+            <div className="flex h-1/3 lg:h-1/2 w-2/3 screen-w:h-2/3 screen-w:w-3/4 items-center justify-center shadow-xl"
                 onClick={()=>router.push("/intro/structure")}
             >
                 <div className="h-[60%] w-5/6 mx-auto">

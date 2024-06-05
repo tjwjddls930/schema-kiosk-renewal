@@ -24,7 +24,7 @@ const MusicPlayer = () => {
   };
 
   return (
-    <div className="p-4 absolute right-14 bottom-20 screen-w:bottom-40">
+    <div className="p-4 hidden lg:block screen-w:block absolute right-14 bottom-20 screen-w:bottom-40">
       <button
         onClick={togglePlay}
         className={clsx("text-white font-bold py-2 px-4 h-full w-full text-base screen-w:text-4xl")}

@@ -74,6 +74,15 @@ export const paintList_TH = [
             {order: 19, title: "การขยายตัวของความแตกแยกที่ยื่นออกมา", name: "สึโยชิ คาวาตะ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-4/20-136x91.jpg`, width: 5.44, height: 3.64, overview: "100x170x330cm", overview1: "โพลีสไตรีนและผงสำหรับอุดรูสูตรน้ำบนไม้อัด, 2018"},
             {order: 20, title: "ไม่มีชื่อ", name: "ชินจิ ฮาตาโนะ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-4/21-74.6x49.4.jpg`, width: 4.476, height: 2.964, overview: "145.5x112.1cm(1pc), 40.9x30.8cm(25pcs)", overview1: "การแสดงเส้นผ่านการมาส์ก สีอะครีลิค, 2024"},
             {order: 21, title: "บรรยากาศ", name: "ฮิโรอิ และ ยูกะ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-4/22-136x240.8.jpg`, width: 4.08, height: 7.224, overview: "1250x700cm", overview1: "สีอะครีลิคบนผ้า, 2023"},
+        ],
+        [
+            {order: 0, title: "ดังดวงดาวบนฟากฟ้า", name: "ลี โอซอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/1-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "สื่อผสมบนผืนผ้าใบ, 20240501"},
+            {order: 1, title: "แม่น้ำ", name: "ลี โอซอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/2-162x130.jpg`, width: 3.9, height: 4.86, overview: "162x130cm", overview1: "สื่อผสมบนผืนผ้าใบ, 20240501"},
+            {order: 2, title: "เพลงของเรา", name: "ลี โอซอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/3-76.2x76.2.jpg`, width: 3.81, height: 3.81, overview: "76.2x76.2cm", overview1: "สื่อผสมบนผืนผ้าใบ, 2024"},
+            {order: 3, title: "จากลมทั้งสี่", name: "ลี โอซอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/4-118.3x118.3.jpg`, width: 4.732, height: 4.732, overview: "118.3x118.3cm", overview1: "สื่อผสมบนผืนผ้าใบ, 2024"},
+            {order: 4, title: "เพลงของเรา-วันที่ 2", name: "ลี โอซอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/5-72.7x60.6.jpg`, width: 4.242, height: 5.089, overview: "72.7x60.6cm", overview1: "สื่อผสมบนผืนผ้าใบ, 2024"},
+            {order: 5, title: "เพลงของเรา-วันที่ 3", name: "ลี โอซอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/6-72.7x60.6.jpg`, width: 4.242, height: 5.089, overview: "72.7x60.6cm", overview1: "สื่อผสมบนผืนผ้าใบ, 2024"},
+            {order: 6, title: "เพลงของเรา-วันที่ 6", name: "ลี โอซอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-5/7-72.7x60.6.jpg`, width: 4.242, height: 5.089, overview: "72.7x60.6cm", overview1: "สื่อผสมบนผืนผ้าใบ, 2024"},
         ]
     ],
     [

@@ -58,7 +58,7 @@ export default function App({ Component, pageProps }) {
                   {currentPath === "/" 
                     ? null
                     : <>
-                        <InactivityRedirect timeout={150000} landingPageUrl={"/"} />
+                        {/* <InactivityRedirect timeout={150000} landingPageUrl={"/"} /> */}
                         {!isMobile && <MusicPlayer sources = {musicList} />}
                       </>
                   }
