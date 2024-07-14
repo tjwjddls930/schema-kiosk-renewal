@@ -1,6 +1,102 @@
 export const educationData_VI = [
     {
         order: 0,
+        year: 2024,
+        education: [
+            {
+                id: "24-1",
+                year: 2024,
+                type: "Chương trình giáo dục 2024",
+                title: "Dự án hỗ trợ giáo dục nghệ thuật và văn hóa vòng đời kiểu Chungbuk năm 2024 <biểu mẫu biểu mẫu biểu mẫu biểu mẫu>",
+                time: "5/21/2024 – 4/6/2024, 6/18/2024 – 2/7/2024, 7/18/2024 – 7/31/2024",
+                time1: "Thứ Ba, Thứ Tư và Thứ Năm hàng tuần, 10:00 sáng - 12:00 trưa / 1:00 chiều - 3:00 chiều",
+                location: "Phòng giáo dục và ngoài trời của Bảo tàng Schema",
+                participate: "9 trung tâm giữ trẻ và mẫu giáo ở khu vực Cheongju",
+                participate1: "đứa trẻ 7 tuổi",
+                explanation: "'Biểu mẫu Biểu mẫu Biểu mẫu Biểu mẫu' là một chương trình biểu diễn vui chơi nghệ thuật kết hợp và sắp xếp lại các đồ vật và hình dạng khác nhau thông qua biểu hiện tự do và không đều đặn với sự cộng tác của nghệ sĩ trẻ địa phương, Choi Min-sol. Trẻ em 7 tuổi làm việc với nghệ sĩ để tạo ra các hình thức chơi không thể đoán trước “Chúng tôi cung cấp thời gian để thể hiện bản thân, tập trung vào việc 'đắm chìm' và 'xử lý' trong quá trình tạo ra các hình ảnh trừu tượng.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-1.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ``}
+                ],
+            },
+            {
+                id: "24-2",
+                year: 2024,
+                type: "Dự án hỗ trợ giáo dục văn hóa và nghệ thuật Chungbuk 2024",
+                title: "Dự án hỗ trợ giáo dục văn hóa và nghệ thuật Chungbuk năm 2024 <Sky High with Artist Shin Yong-jae>",                
+                time: "7/6/2024 – 27/6/2024, 26/7/2024 – 16/8/2024",
+                time1: "7 tháng 6, 14 tháng 6, 21 tháng 6, 27 tháng 6, 26 tháng 7, 2 tháng 8, 9 tháng 8, 16 tháng 8",                
+                location: "",
+                participate: "Người lớn (19 người khuyết tật), trẻ em (8 người từ lớp 1 đến lớp 3 của trường tiểu học)",
+                participate1: "",
+                explanation: "<Sky High with Artist Shin Yong-jae> mang đến cho những người tham gia gặp khó khăn trong việc tận hưởng các lợi ích văn hóa cơ hội trải nghiệm chương trình hoạt động sáng tạo nghệ thuật với các nghệ sĩ địa phương, mang đến sự quyến rũ của nghệ thuật hiện đại và nhiều trải nghiệm nghệ thuật khác nhau, tạo ra nghệ thuật đương đại tiêu biểu trong khu vực của chúng tôi. “Một chương trình nghệ thuật chữa lành tâm trí, trong đó những người tham gia, cùng với nghệ sĩ ‘Shin Yong-jae’, quan sát ‘bầu trời’ của cuộc sống hàng ngày bằng ‘đôi mắt’ và ‘trái tim’ mới của họ, đồng thời sáng tạo và thể hiện bản thân.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-2.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ``}
+                ],
+            },
+            {
+                id: "24-3",
+                year: 2024,
+                type: "Chương trình giáo dục 2024",
+                title: "Dự án hỗ trợ giáo dục văn hóa và nghệ thuật năm 2024 theo vòng đời 「Trường văn hóa và nghệ thuật gác mái ngu ngốc」 ‘Bảo tàng nghệ thuật Shema Atelier VER.3′ (các lớp thấp hơn)",
+                time: "6/29/2024 – 8/3/2024, 8/10/2024 – 9/21/2024, 9/28/2024 – 9/11/2024",
+                time1: "Thứ Bảy hàng tuần, từ 10 giờ sáng đến 1 giờ chiều",
+                location: "Phòng giáo dục và ngoài trời của Bảo tàng Schema",
+                participate: "Tiểu học lớp 1 đến lớp 3 (lớp dưới)",
+                participate1: "10 người mỗi lớp (bao gồm cả lớp mở / tổng cộng 50 người)",
+                explanation: "Chương trình 'Schemar Museum Atelier VER.3/VER.4' mong muốn cung cấp cho người tham gia một cách tiếp cận thân thiện với nghệ thuật đương đại, điều mà trước đây được coi là khó khăn, đồng thời cung cấp cho người tham gia thời gian để biến nghệ thuật thành một phần cuộc sống của họ Đặc biệt, nghệ sĩ đương đại đương đại Sujin Yoo, một chương trình sáng tạo nghệ thuật có sự tham gia của các nghệ sĩ Yunseop Kim và Minsol Choi, chúng tôi hy vọng sẽ tạo ra thời gian để chia sẻ kinh nghiệm và quan điểm sáng tạo với những người tham gia thông qua thế giới nghệ thuật và quan điểm của các nghệ sĩ tham gia.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-3.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+            {
+                id: "24-4",
+                year: 2024,
+                type: "Chương trình giáo dục 2024",
+                title: "Dự án hỗ trợ giáo dục văn hóa và nghệ thuật năm 2024 theo vòng đời 「Trường văn hóa và nghệ thuật gác mái ngu ngốc」 ‘Bảo tàng nghệ thuật Shema Atelier VER.4′ (Lớp cuối cấp)",
+                time: "2024 29/6, 6/7, 13/7, 20/7, 27/7, 3/8, 10/8, 17/8, 24/8, 31/8, 7/9, 21/9, 28/9, 5/10, 12/10, 19 tháng 10, 2 tháng 11, 9 tháng 11",
+                time1: "Thứ Bảy hàng tuần từ 2 giờ chiều đến 5 giờ chiều",
+                location: "Phòng giáo dục và ngoài trời của Bảo tàng Schema",
+                participate: "Tiểu học lớp 4-6 (lớp trên)",
+                participate1: "10 người mỗi lớp (bao gồm cả lớp mở / tổng cộng 50 người)",
+                explanation: "Chương trình 'Schemar Museum Atelier VER.3/VER.4' mong muốn cung cấp cho người tham gia một cách tiếp cận thân thiện với nghệ thuật đương đại, điều mà trước đây được coi là khó khăn, đồng thời cung cấp cho người tham gia thời gian để biến nghệ thuật thành một phần cuộc sống của họ Đặc biệt, nghệ sĩ đương đại đương đại Sujin Yoo, một chương trình sáng tạo nghệ thuật có sự tham gia của các nghệ sĩ Yunseop Kim và Minsol Choi, chúng tôi hy vọng sẽ tạo ra thời gian để chia sẻ kinh nghiệm và quan điểm sáng tạo với những người tham gia thông qua thế giới nghệ thuật và quan điểm của các nghệ sĩ tham gia.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-4.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+            {
+                id: "24-5",
+                year: 2024,
+                type: "Chương trình giáo dục 2024",
+                title: "Dự án Bảo tàng Mở năm 2024 <Thiên đường mới> với Bảo hiểm KB",
+                time: "Tháng 4 đến tháng 11 năm 2024",
+                time1: "",
+                location: "",
+                participate: "Các cá nhân và tổ chức của trẻ em và thanh thiếu niên bị xa lánh về mặt văn hóa",
+                participate1: "",
+                explanation: "Giới thiệu các loài động vật, côn trùng sống trong môi trường xung quanh Bảo tàng Shema, chúng tôi nghĩ đến sự cộng sinh giữa con người và động vật. Hãy nghĩ đến thái độ của chính bạn đối với môi trường và hệ sinh thái và coi hệ sinh thái như 'thiên đường mới' của riêng bạn Một chương trình thể hiện sáng tạo sử dụng các vật liệu phế thải (hộp giấy, giấy gói trái cây, màng bọc bong bóng, v.v.) để thể hiện một điều không tưởng về sự chung sống bằng cách sử dụng kỹ thuật in và ghép ảnh.",
+                host: "Hiệp hội Bảo tàng Hàn Quốc, Bảo hiểm KB",
+                support: "Bảo hiểm KB",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-5.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+        ]
+    },
+    {
+        order: 1,
         year: 2023,
         education: [
             {
@@ -114,7 +210,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 1,
+        order: 2,
         year: 2022,
         education: [
             {
@@ -195,7 +291,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 2,
+        order: 3,
         year: 2021,
         education: [
             {
@@ -296,7 +392,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 3,
+        order: 4,
         year: 2020,
         education: [
             {
@@ -395,7 +491,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 4,
+        order: 5,
         year: 2019,
         education: [
             {
@@ -456,7 +552,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 5,
+        order: 6,
         year: 2018,
         education: [
             {
@@ -552,7 +648,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 6,
+        order: 7,
         year: 2017,
         education: [
             {
@@ -594,7 +690,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 7,
+        order: 8,
         year: 2016,
         education: [
             {
@@ -654,7 +750,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 8,
+        order: 9,
         year: 2015,
         education: [
             {
@@ -750,7 +846,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 9,
+        order: 10,
         year: 2014,
         education: [
             {
@@ -810,7 +906,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 10,
+        order: 11,
         year: 2013,
         education: [
             {
@@ -870,7 +966,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 11,
+        order: 12,
         year: 2012,
         education: [
             {
@@ -894,7 +990,7 @@ export const educationData_VI = [
         ]
     },
     {
-        order: 12,
+        order: 13,
         year: 2011,
         education: [
             {

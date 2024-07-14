@@ -1,6 +1,102 @@
 export const educationData_CH = [
     {
         order: 0,
+        year: 2024,
+        education: [
+            {
+                id: "24-1",
+                year: 2024,
+                type: "2024年教育计划",
+                title: "2024年忠北型生命周期文化艺术教育支援事业<form form form form form>",
+                time: "2024年5月21日-6月4日、2024年6月18日-7月2日、2024年7月18日-7月31日",
+                time1: "每周二、周三和周四上午 10:00 - 中午 12:00 / 下午 1:00 - 下午 3:00",
+                location: "图式博物馆教育室和室外",
+                participate: "清州地区9个保育中心和幼儿园",
+                participate1: "7岁的孩子",
+                explanation: "‘Form Form Form Form Form Form’是一个艺术游戏表达项目，与当地年轻艺术家崔珉索尔合作，通过自由和不规则的表达重新组合和重组各种物体和形状。7岁的孩子与“我们提供了一个自我表达的时间，在创造抽象图像的过程中注重‘沉浸’和‘过程’。",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-1.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ``}
+                ],
+            },
+            {
+                id: "24-2",
+                year: 2024,
+                type: "2024年忠北文化艺术教育实施支援项目",
+                title: "2024年忠北文化艺术教育实施支援项目<与艺术家申勇宰一起的Sky High>",
+                time: "2024年6月7日 - 2024年6月27日、2024年7月26日 - 2024年8月16日",
+                time1: "6月7日、6月14日、6月21日、6月27日、7月26日、8月2日、8月9日、8月16日",
+                location: "",
+                participate: "成人（残疾人19人）、儿童（小学1～3年级8人）",
+                participate1: "",
+                explanation: "《Sky High with Artist Shin Yong-jae》为难以享受文化福利的参与者提供了与当地艺术家一起体验艺术创意活动项目的机会，提供现代艺术的魅力和各种艺术体验，创造具有代表性的当代艺术“这是一个治愈心灵的艺术项目，参与者与艺术家‘申勇在’一起用新的‘眼睛’和‘心灵’观察日常生活的‘天空’，并创造和表达自己。",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-2.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ``}
+                ],
+            },
+            {
+                id: "24-3",
+                year: 2024,
+                type: "2024年教育计划",
+                title: "《2024年生命周期文化艺术教育支援项目「呆呆阁楼文化艺术学校」‘舍玛美术馆工作室VER.3’(低年级)》",
+                time: "2024年6月29日-8月3日、2024年8月10日-9月21日、2024年9月28日-11月9日",
+                time1: "每周六上午 10 点到下午 1 点",
+                location: "图式博物馆教育室和室外",
+                participate: "小学一年级至三年级（低年级）",
+                participate1: "每班10人（含公开课/共50人）",
+                explanation: "‘Schema Museum Atelier VER.3/VER.4’计划旨在为参与者提供一种友好的方式接触以前被认为困难的当代艺术，并为参与者提供时间让艺术成为他们生活的一部分特别是当代当代艺术家Sujin Yoo，一个由艺术家Yunseop Kim和Minsol Choi参与的艺术创作项目，我们希望通过参与艺术家的艺术世界和视角创造一个与参与者分享创作经验和观点的时间。",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-3.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+            {
+                id: "24-4",
+                year: 2024,
+                type: "2024年教育计划",
+                title: "《2024年生命周期文化艺术教育支援项目「呆呆阁楼文化艺术学校」‘舍玛美术馆工作室VER.4’(高年级)》",
+                time: "2024年6月29日、7月6日、7月13日、7月20日、7月27日、8月3日、8月10日、8月17日、8月24日、”8月31日、9月7日、9月21日、9月28日、10月5日、10月12日、 10月19日、11月2日、11月9日",
+                time1: "每周六下午 2:00 到下午 5:00",
+                location: "图式博物馆教育室和室外",
+                participate: "小学4-6年级（高年级）",
+                participate1: "每班10人（含公开课/共50人）",
+                explanation: "‘Schema Museum Atelier VER.3/VER.4’计划旨在为参与者提供一种友好的方式接触以前被认为困难的当代艺术，并为参与者提供时间让艺术成为他们生活的一部分特别是当代当代艺术家Sujin Yoo，一个由艺术家Yunseop Kim和Minsol Choi参与的艺术创作项目，我们希望通过参与艺术家的艺术世界和视角创造一个与参与者分享创作经验和观点的时间。",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-4.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+            {
+                id: "24-5",
+                year: 2024,
+                type: "2024年教育计划",
+                title: "2024年与KB保险合作开放博物馆项目<新天堂>",
+                time: "2024年4月至11月",
+                time1: "",
+                location: "",
+                participate: "文化异化儿童和青少年的个人和组织",
+                participate1: "",
+                explanation: "通过介绍舍玛博物馆周边环境中生活的动物和昆虫，我们思考人类与动物的共生。思考自己对环境和生态系统的态度，把生态系统视为自己的‘新天堂’一个利用废弃材料（纸盒、水果包装纸、气泡膜等）通过拼贴和版画技术表达共存乌托邦的创意表达方案。",
+                host: "韩国博物馆协会、KB保险",
+                support: "KB保险",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-5.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+        ]
+    },
+    {
+        order: 1,
         year: 2023,
         education: [
             {
@@ -114,7 +210,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 1,
+        order: 2,
         year: 2022,
         education: [
             {
@@ -195,7 +291,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 2,
+        order: 3,
         year: 2021,
         education: [
             {
@@ -296,7 +392,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 3,
+        order: 4,
         year: 2020,
         education: [
             {
@@ -395,7 +491,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 4,
+        order: 5,
         year: 2019,
         education: [
             {
@@ -456,7 +552,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 5,
+        order: 6,
         year: 2018,
         education: [
             {
@@ -552,7 +648,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 6,
+        order: 7,
         year: 2017,
         education: [
             {
@@ -594,7 +690,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 7,
+        order: 8,
         year: 2016,
         education: [
             {
@@ -654,7 +750,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 8,
+        order: 9,
         year: 2015,
         education: [
             {
@@ -750,7 +846,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 9,
+        order: 10,
         year: 2014,
         education: [
             {
@@ -810,7 +906,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 10,
+        order: 11,
         year: 2013,
         education: [
             {
@@ -870,7 +966,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 11,
+        order: 12,
         year: 2012,
         education: [
             {
@@ -894,7 +990,7 @@ export const educationData_CH = [
         ]
     },
     {
-        order: 12,
+        order: 13,
         year: 2011,
         education: [
             {

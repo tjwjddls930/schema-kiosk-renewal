@@ -1,6 +1,102 @@
 export const educationData_KOR = [
     {
         order: 0,
+        year: 2024,
+        education: [
+            {
+                id: "24-1",
+                year: 2024,
+                type: "2024년 교육프로그램",
+                title: "2024 충북형 생애주기 문화예술교육 지원사업 <폼form 폼form 폼form>",
+                time: "2024년 5월 21일 ~ 6월 4일, 2024년 6월 18일 ~ 7월 2일, 2024년 7월 18일 ~ 7월 31일",
+                time1: "매주 화,수,목 오전 10시 ~ 12시 / 오후 1시 ~ 3시",
+                location: "쉐마미술관 교육실 및 야외",
+                participate: "청주 지역 내 어린이집 및 유치원 9개소",
+                participate1: "7세 유아",
+                explanation: "‘폼form 폼form 폼form’은 지역의 청년작가, 최민솔 작가와 함께 자유롭고 불규칙한 표현을 통하여 다양한 오브제와 형태를 재조합하고 재구성하는 예술적 놀이표현 프로그램입니다. 7세 유아들이 작가와 함께 예측 불가능한 추상적 이미지를 만들어내는 과정에서 ‘몰입’과 ‘과정’에 중점을 둔 자기표현의 시간을 제공합니다.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-1.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ``}
+                ],
+            },
+            {
+                id: "24-2",
+                year: 2024,
+                type: "2024 충북문화예술교육배달지원사업",
+                title: "2024 충북문화예술교육배달지원사업 <신용재 작가와 함께하는 하늘높이>",
+                time: "2024년 6월 7일 ~ 2024년 6월 27일, 2024년 7월 26일 ~ 2024년 8월 16일",
+                time1: "6월 7일, 6월 14일, 6월 21일, 6월 27일, 7월 26일 8월 2일, 8월 9일, 8월 16일",
+                location: "",
+                participate: "성인(장애인 19명), 아동(초등학교 1 ~ 3 저학년 8명)",
+                participate1: "",
+                explanation: "<신용재 작가와 함께하는 하늘높이>는 문화 혜택 향유가 어려운 참가자들에게 지역작가와 함께 하는 예술 창작 활동 프로그램 체험 기회를 제공해 현대미술의 매력과 다양한 예술적 경험을 제공하여 우리 지역의 대표적 현대미술 작가, ‘신용재’ 작가와 함께 일상의 ‘하늘’을 소재로 참여자들의 새로운 ‘눈’과 ‘마음으로’ 관찰하며 창작과 표현을 해보는 마음치유 예술 프로그램",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-2.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ``}
+                ],
+            },
+            {
+                id: "24-3",
+                year: 2024,
+                type: "2024년 교육프로그램",
+                title: "2024 생애주기별 문화예술교육 지원사업 「꿈다락문화예술학교」 ‘쉐마미술관아틀리에 VER.3′(저학년)",
+                time: "2024년 6월 29일 ~ 8월 3일, 2024년 8월 10일 ~ 9월 21일, 2024년 9월 28일 ~ 11월 9일",
+                time1: "매주 토요일 오전 10시~오후 1시",
+                location: "쉐마미술관 교육실 및 야외",
+                participate: "초등학교 1-3학년 (저학년)",
+                participate1: "한 기수당 10명 (오픈클래스 포함 / 총 50명)",
+                explanation: "‘쉐마미술관 아틀리에 VER.3/ VER.4’ 프로그램은 어렵게 느껴졌던 현대미술에 친근하게 다가가며 참여자에게 예술이 삶의 일부분으로 자리 잡는 시간을 마련하고자 합니다. 특히 동시대 현대미술 작가인 유수진, 김윤섭, 최민솔 작가가 참여하는 예술 창작 프로그램으로 참여 작가들의 예술적 세계와 작가적 시각을 통해 창의적인 경험과 관점들을 참여자들과 공유하는 시간을 만들고자 합니다.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-3.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+            {
+                id: "24-4",
+                year: 2024,
+                type: "2024년 교육프로그램",
+                title: "2024 생애주기별 문화예술교육 지원사업 「꿈다락문화예술학교」 ‘쉐마미술관아틀리에 VER.4′(고학년)",
+                time: "2024년 6월 29일, 7월 6일, 7월 13일, 7월 20일, 7월 27일, 8월 3일, 8월 10일, 8월 17일, 8월 24일, 8월 31일, 9월 7일, 9월 21일, 9월 28일, 10월 5일, 10월 12일, 10월 19일, 11월 2일, 11월 9일",
+                time1: "매주 토요일 오후 2시~오후 5시",
+                location: "쉐마미술관 교육실 및 야외",
+                participate: "초등학교 4-6학년 (고학년)",
+                participate1: "한 기수당 10명( 오픈클래스 포함 / 총 50명)",
+                explanation: "‘쉐마미술관 아틀리에 VER.3/ VER.4’ 프로그램은 어렵게 느껴졌던 현대미술에 친근하게 다가가며 참여자에게 예술이 삶의 일부분으로 자리 잡는 시간을 마련하고자 합니다. 특히 동시대 현대미술 작가인 유수진, 김윤섭, 최민솔 작가가 참여하는 예술 창작 프로그램으로 참여 작가들의 예술적 세계와 작가적 시각을 통해 창의적인 경험과 관점들을 참여자들과 공유하는 시간을 만들고자 합니다.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-4.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+            {
+                id: "24-5",
+                year: 2024,
+                type: "2024년 교육프로그램",
+                title: "2024 KB손해보험과 함께하는 열린 박물관 사업<뉴 파라다이스>",
+                time: "2024년 4월 ~ 11월",
+                time1: "",
+                location: "",
+                participate: "문화소외 아동ㆍ청소년 개인 및 단체",
+                participate1: "",
+                explanation: "쉐마미술관의 주변 환경에 살고있는 동물과 곤충들을 소개하며 인간과 동물의 공생에 대해 생각해본다. 환경과 생태계를 대하는 자신의 태도에 대해 고민해보고 생태계를 자기만의‘뉴 파라다이스’생각해보는 시간. 버려진 폐품들(종이 박스, 과일 포장지, 에어캡 등)을 활용하며 콜라그래프와 판화기법을 활용하여 함께 공생하는 유토피아를 표현해보는 창작 표현프로그램.",
+                host: "한국박물관협회, KB손해보험",
+                support: "KB손해보험",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-5.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+        ]
+    },
+    {
+        order: 1,
         year: 2023,
         education: [
             {
@@ -114,7 +210,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 1,
+        order: 2,
         year: 2022,
         education: [
             {
@@ -195,7 +291,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 2,
+        order: 3,
         year: 2021,
         education: [
             {
@@ -296,7 +392,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 3,
+        order: 4,
         year: 2020,
         education: [
             {
@@ -395,7 +491,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 4,
+        order: 5,
         year: 2019,
         education: [
             {
@@ -456,7 +552,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 5,
+        order: 6,
         year: 2018,
         education: [
             {
@@ -552,7 +648,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 6,
+        order: 7,
         year: 2017,
         education: [
             {
@@ -594,7 +690,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 7,
+        order: 8,
         year: 2016,
         education: [
             {
@@ -654,7 +750,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 8,
+        order: 9,
         year: 2015,
         education: [
             {
@@ -750,7 +846,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 9,
+        order: 10,
         year: 2014,
         education: [
             {
@@ -810,7 +906,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 10,
+        order: 11,
         year: 2013,
         education: [
             {
@@ -870,7 +966,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 11,
+        order: 12,
         year: 2012,
         education: [
             {
@@ -894,7 +990,7 @@ export const educationData_KOR = [
         ]
     },
     {
-        order: 12,
+        order: 13,
         year: 2011,
         education: [
             {

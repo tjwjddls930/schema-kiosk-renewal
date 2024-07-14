@@ -1,6 +1,102 @@
 export const educationData_ENG = [
     {
         order: 0,
+        year: 2024,
+        education: [
+            {
+                id: "24-1",
+                year: 2024,
+                type: "Education Program 2024",
+                title: "2024 Chungbuk-type life cycle culture and arts education support project <form form form form form form>",
+                time: "May 21 - June 4, 2024, June 18 - July 2, 2024, July 18 - July 31, 2024",
+                time1: "Every Tuesday, Wednesday, and Thursday 10:00 AM - 12:00 PM / 1:00 PM - 3:00 PM",
+                location: "Schema Museum of Art Education Room and Outdoor",
+                participate: "9 daycare centers and kindergartens in the Cheongju area",
+                participate1: "7-year-old child",
+                explanation: "'Form Form Form Form Form Form' is an artistic play expression program that recombines and reorganizes various objects and shapes through free and irregular expression in collaboration with local young artist, Choi Min-sol. 7-year-old children work with the artist to create unpredictable play forms. “We provide a time for self-expression that focuses on ‘immersion’ and ‘process’ in the process of creating abstract images.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-1.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ``}
+                ],
+            },
+            {
+                id: "24-2",
+                year: 2024,
+                type: "2024 Chungbuk Culture and Arts Education Delivery Support Project",
+                title: "2024 Chungbuk Culture and Arts Education Delivery Support Project <Sky High with Artist Shin Yong-jae>",
+                time: "June 7, 2024 - June 27, 2024, July 26, 2024 - August 16, 2024",
+                time1: "June 7, June 14, June 21, June 27, July 26 August 2, August 9, August 16",
+                location: "",
+                participate: "Adults (19 people with disabilities), children (8 people in lower grades 1 to 3 of elementary school)",
+                participate1: "",
+                explanation: "<Sky High with Artist Shin Yong-jae> provides participants who have difficulty enjoying cultural benefits the opportunity to experience an artistic creative activity program with local artists, providing the charm of modern art and various artistic experiences, creating representative contemporary art in our region. “A mind-healing art program where participants, along with the artist ‘Shin Yong-jae’, observe the ‘sky’ of everyday life with their new ‘eyes’ and ‘heart’ and create and express themselves.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-2.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ``}
+                ],
+            },
+            {
+                id: "24-3",
+                year: 2024,
+                type: "Education Program 2024",
+                title: "2024 Culture and Arts Education Support Project by Life Cycle 「Dumb Attic Culture and Arts School」 ‘Shema Art Museum Atelier VER.3′ (lower grades)",
+                time: "June 29 - August 3, 2024, August 10 - September 21, 2024, September 28 - November 9, 2024",
+                time1: "Every Saturday from 10 AM to 1 PM",
+                location: "Schema Museum of Art Education Room and Outdoor",
+                participate: "Elementary school 1st to 3rd grades (lower grades)",
+                participate1: "10 people per class (including open class / 50 people in total)",
+                explanation: "The 'Schemar Museum Atelier VER.3/VER.4' program seeks to provide participants with a friendly approach to contemporary art, which was previously considered difficult, and to provide participants with time to establish art as a part of their lives. In particular, contemporary contemporary artist Sujin Yoo , an art creation program in which artists Yunseop Kim and Minsol Choi participate, we hope to create a time to share creative experiences and perspectives with participants through the artistic world and perspective of the participating artists.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-3.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+            {
+                id: "24-4",
+                year: 2024,
+                type: "Education Program 2024",
+                title: "2024 Culture and Arts Education Support Project by Life Cycle 「Dumb Attic Culture and Arts School」 ‘Shema Art Museum Atelier VER.4′ (Senior Grade)",
+                time: "2024 June 29, July 6, July 13, July 20, July 27, August 3, August 10, August 17, August 24, August 31, September 7, September 21, September 28, October 5, October 12, October 19, November 2, November 9",
+                time1: "Every Saturday from 2:00 PM to 5:00 PM",
+                location: "Schema Museum of Art Education Room and Outdoor",
+                participate: "Elementary school 4th-6th grade (upper grades)",
+                participate1: "10 people per class (including open class / 50 people in total)",
+                explanation: "The 'Schemar Museum Atelier VER.3/VER.4' program seeks to provide participants with a friendly approach to contemporary art, which was previously considered difficult, and to provide participants with time to establish art as a part of their lives. In particular, contemporary contemporary artist Sujin Yoo , an art creation program in which artists Yunseop Kim and Minsol Choi participate, we hope to create a time to share creative experiences and perspectives with participants through the artistic world and perspective of the participating artists.",
+                host: "",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-4.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+            {
+                id: "24-5",
+                year: 2024,
+                type: "Education Program 2024",
+                title: "2024 Open Museum Project <New Paradise> with KB Insurance",
+                time: "April to November 2024",
+                time1: "",
+                location: "",
+                participate: "Individuals and organizations of culturally alienated children and adolescents",
+                participate1: "",
+                explanation: "Introducing the animals and insects living in the surrounding environment of the Shema Museum, we think about the symbiosis between humans and animals. Think about your own attitude toward the environment and ecosystem and think of the ecosystem as your own 'new paradise'. A creative expression program that uses discarded waste materials (paper boxes, fruit wrappers, bubble wrap, etc.) to express a utopia of coexistence using collagraph and printmaking techniques.",
+                host: "Korea Museum Association, KB Insurance",
+                support: "KB Insurance",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-5.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
+        ]
+    },
+    {
+        order: 1,
         year: 2023,
         education: [
             {
@@ -114,7 +210,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 1,
+        order: 2,
         year: 2022,
         education: [
             {
@@ -195,7 +291,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 2,
+        order: 3,
         year: 2021,
         education: [
             {
@@ -296,7 +392,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 3,
+        order: 4,
         year: 2020,
         education: [
             {
@@ -395,7 +491,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 4,
+        order: 5,
         year: 2019,
         education: [
             {
@@ -456,7 +552,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 5,
+        order: 6,
         year: 2018,
         education: [
             {
@@ -552,7 +648,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 6,
+        order: 7,
         year: 2017,
         education: [
             {
@@ -594,7 +690,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 7,
+        order: 8,
         year: 2016,
         education: [
             {
@@ -654,7 +750,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 8,
+        order: 9,
         year: 2015,
         education: [
             {
@@ -750,7 +846,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 9,
+        order: 10,
         year: 2014,
         education: [
             {
@@ -810,7 +906,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 10,
+        order: 11,
         year: 2013,
         education: [
             {
@@ -870,7 +966,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 11,
+        order: 12,
         year: 2012,
         education: [
             {
@@ -894,7 +990,7 @@ export const educationData_ENG = [
         ]
     },
     {
-        order: 12,
+        order: 13,
         year: 2011,
         education: [
             {
