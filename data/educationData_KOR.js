@@ -14,11 +14,11 @@ export const educationData_KOR = [
                 participate: "청주 지역 내 어린이집 및 유치원 9개소",
                 participate1: "7세 유아",
                 explanation: "‘폼form 폼form 폼form’은 지역의 청년작가, 최민솔 작가와 함께 자유롭고 불규칙한 표현을 통하여 다양한 오브제와 형태를 재조합하고 재구성하는 예술적 놀이표현 프로그램입니다. 7세 유아들이 작가와 함께 예측 불가능한 추상적 이미지를 만들어내는 과정에서 ‘몰입’과 ‘과정’에 중점을 둔 자기표현의 시간을 제공합니다.",
-                host: "",
-                support: "",
+                host: "쉐마미술관",
+                support: "충청북도, 충북문화재단",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-1.jpg`,
                 youtube: [
-                    {order: 1, url: "", thumbnail: ``}
+                    {order: 1, url: "https://www.youtube.com/watch?v=W6bjH_X589Q", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-thumbnail-1.jpg`}
                 ],
             },
             {
@@ -50,7 +50,7 @@ export const educationData_KOR = [
                 participate: "초등학교 1-3학년 (저학년)",
                 participate1: "한 기수당 10명 (오픈클래스 포함 / 총 50명)",
                 explanation: "‘쉐마미술관 아틀리에 VER.3/ VER.4’ 프로그램은 어렵게 느껴졌던 현대미술에 친근하게 다가가며 참여자에게 예술이 삶의 일부분으로 자리 잡는 시간을 마련하고자 합니다. 특히 동시대 현대미술 작가인 유수진, 김윤섭, 최민솔 작가가 참여하는 예술 창작 프로그램으로 참여 작가들의 예술적 세계와 작가적 시각을 통해 창의적인 경험과 관점들을 참여자들과 공유하는 시간을 만들고자 합니다.",
-                host: "",
+                host: "문화체육관광부, 한국문화예술교육진흥원",
                 support: "",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-3.jpg`,
                 youtube: [
@@ -68,7 +68,7 @@ export const educationData_KOR = [
                 participate: "초등학교 4-6학년 (고학년)",
                 participate1: "한 기수당 10명( 오픈클래스 포함 / 총 50명)",
                 explanation: "‘쉐마미술관 아틀리에 VER.3/ VER.4’ 프로그램은 어렵게 느껴졌던 현대미술에 친근하게 다가가며 참여자에게 예술이 삶의 일부분으로 자리 잡는 시간을 마련하고자 합니다. 특히 동시대 현대미술 작가인 유수진, 김윤섭, 최민솔 작가가 참여하는 예술 창작 프로그램으로 참여 작가들의 예술적 세계와 작가적 시각을 통해 창의적인 경험과 관점들을 참여자들과 공유하는 시간을 만들고자 합니다.",
-                host: "",
+                host: "문화체육관광부, 한국문화예술교육진흥원",
                 support: "",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-4.jpg`,
                 youtube: [

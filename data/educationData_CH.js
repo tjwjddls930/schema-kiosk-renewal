@@ -14,11 +14,11 @@ export const educationData_CH = [
                 participate: "清州地区9个保育中心和幼儿园",
                 participate1: "7岁的孩子",
                 explanation: "‘Form Form Form Form Form Form’是一个艺术游戏表达项目，与当地年轻艺术家崔珉索尔合作，通过自由和不规则的表达重新组合和重组各种物体和形状。7岁的孩子与“我们提供了一个自我表达的时间，在创造抽象图像的过程中注重‘沉浸’和‘过程’。",
-                host: "",
-                support: "",
+                host: "模式博物馆",
+                support: "忠清北道忠北文化财团",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-1.jpg`,
                 youtube: [
-                    {order: 1, url: "", thumbnail: ``}
+                    {order: 1, url: "https://www.youtube.com/watch?v=W6bjH_X589Q", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-thumbnail-1.jpg`}
                 ],
             },
             {
@@ -50,7 +50,7 @@ export const educationData_CH = [
                 participate: "小学一年级至三年级（低年级）",
                 participate1: "每班10人（含公开课/共50人）",
                 explanation: "‘Schema Museum Atelier VER.3/VER.4’计划旨在为参与者提供一种友好的方式接触以前被认为困难的当代艺术，并为参与者提供时间让艺术成为他们生活的一部分特别是当代当代艺术家Sujin Yoo，一个由艺术家Yunseop Kim和Minsol Choi参与的艺术创作项目，我们希望通过参与艺术家的艺术世界和视角创造一个与参与者分享创作经验和观点的时间。",
-                host: "",
+                host: "文化体育观光部、韩国艺术文化教育振兴院",
                 support: "",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-3.jpg`,
                 youtube: [
@@ -68,7 +68,7 @@ export const educationData_CH = [
                 participate: "小学4-6年级（高年级）",
                 participate1: "每班10人（含公开课/共50人）",
                 explanation: "‘Schema Museum Atelier VER.3/VER.4’计划旨在为参与者提供一种友好的方式接触以前被认为困难的当代艺术，并为参与者提供时间让艺术成为他们生活的一部分特别是当代当代艺术家Sujin Yoo，一个由艺术家Yunseop Kim和Minsol Choi参与的艺术创作项目，我们希望通过参与艺术家的艺术世界和视角创造一个与参与者分享创作经验和观点的时间。",
-                host: "",
+                host: "文化体育观光部、韩国艺术文化教育振兴院",
                 support: "",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-4.jpg`,
                 youtube: [

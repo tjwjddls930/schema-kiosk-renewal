@@ -14,11 +14,11 @@ export const educationData_VI = [
                 participate: "9 trung tâm giữ trẻ và mẫu giáo ở khu vực Cheongju",
                 participate1: "đứa trẻ 7 tuổi",
                 explanation: "'Biểu mẫu Biểu mẫu Biểu mẫu Biểu mẫu' là một chương trình biểu diễn vui chơi nghệ thuật kết hợp và sắp xếp lại các đồ vật và hình dạng khác nhau thông qua biểu hiện tự do và không đều đặn với sự cộng tác của nghệ sĩ trẻ địa phương, Choi Min-sol. Trẻ em 7 tuổi làm việc với nghệ sĩ để tạo ra các hình thức chơi không thể đoán trước “Chúng tôi cung cấp thời gian để thể hiện bản thân, tập trung vào việc 'đắm chìm' và 'xử lý' trong quá trình tạo ra các hình ảnh trừu tượng.",
-                host: "",
-                support: "",
+                host: "Bảo tàng lược đồ",
+                support: "Chungcheongbuk-do, Quỹ văn hóa Chungbuk",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-1.jpg`,
                 youtube: [
-                    {order: 1, url: "", thumbnail: ``}
+                    {order: 1, url: "https://www.youtube.com/watch?v=W6bjH_X589Q", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-thumbnail-1.jpg`}
                 ],
             },
             {
@@ -50,7 +50,7 @@ export const educationData_VI = [
                 participate: "Tiểu học lớp 1 đến lớp 3 (lớp dưới)",
                 participate1: "10 người mỗi lớp (bao gồm cả lớp mở / tổng cộng 50 người)",
                 explanation: "Chương trình 'Schemar Museum Atelier VER.3/VER.4' mong muốn cung cấp cho người tham gia một cách tiếp cận thân thiện với nghệ thuật đương đại, điều mà trước đây được coi là khó khăn, đồng thời cung cấp cho người tham gia thời gian để biến nghệ thuật thành một phần cuộc sống của họ Đặc biệt, nghệ sĩ đương đại đương đại Sujin Yoo, một chương trình sáng tạo nghệ thuật có sự tham gia của các nghệ sĩ Yunseop Kim và Minsol Choi, chúng tôi hy vọng sẽ tạo ra thời gian để chia sẻ kinh nghiệm và quan điểm sáng tạo với những người tham gia thông qua thế giới nghệ thuật và quan điểm của các nghệ sĩ tham gia.",
-                host: "",
+                host: "Bộ Văn hóa, Thể thao và Du lịch, Cơ quan Xúc tiến Giáo dục Văn hóa và Nghệ thuật Hàn Quốc",
                 support: "",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-3.jpg`,
                 youtube: [
@@ -68,7 +68,7 @@ export const educationData_VI = [
                 participate: "Tiểu học lớp 4-6 (lớp trên)",
                 participate1: "10 người mỗi lớp (bao gồm cả lớp mở / tổng cộng 50 người)",
                 explanation: "Chương trình 'Schemar Museum Atelier VER.3/VER.4' mong muốn cung cấp cho người tham gia một cách tiếp cận thân thiện với nghệ thuật đương đại, điều mà trước đây được coi là khó khăn, đồng thời cung cấp cho người tham gia thời gian để biến nghệ thuật thành một phần cuộc sống của họ Đặc biệt, nghệ sĩ đương đại đương đại Sujin Yoo, một chương trình sáng tạo nghệ thuật có sự tham gia của các nghệ sĩ Yunseop Kim và Minsol Choi, chúng tôi hy vọng sẽ tạo ra thời gian để chia sẻ kinh nghiệm và quan điểm sáng tạo với những người tham gia thông qua thế giới nghệ thuật và quan điểm của các nghệ sĩ tham gia.",
-                host: "",
+                host: "Bộ Văn hóa, Thể thao và Du lịch, Cơ quan Xúc tiến Giáo dục Văn hóa và Nghệ thuật Hàn Quốc",
                 support: "",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-4.jpg`,
                 youtube: [

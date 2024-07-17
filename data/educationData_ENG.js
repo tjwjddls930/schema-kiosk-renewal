@@ -14,11 +14,11 @@ export const educationData_ENG = [
                 participate: "9 daycare centers and kindergartens in the Cheongju area",
                 participate1: "7-year-old child",
                 explanation: "'Form Form Form Form Form Form' is an artistic play expression program that recombines and reorganizes various objects and shapes through free and irregular expression in collaboration with local young artist, Choi Min-sol. 7-year-old children work with the artist to create unpredictable play forms. “We provide a time for self-expression that focuses on ‘immersion’ and ‘process’ in the process of creating abstract images.",
-                host: "",
-                support: "",
+                host: "Schema Art Museum",
+                support: "Chungcheongbuk-do, Chungbuk Cultural Foundation",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-1.jpg`,
                 youtube: [
-                    {order: 1, url: "", thumbnail: ``}
+                    {order: 1, url: "https://www.youtube.com/watch?v=W6bjH_X589Q", thumbnail: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-thumbnail-1.jpg`}
                 ],
             },
             {
@@ -50,7 +50,7 @@ export const educationData_ENG = [
                 participate: "Elementary school 1st to 3rd grades (lower grades)",
                 participate1: "10 people per class (including open class / 50 people in total)",
                 explanation: "The 'Schemar Museum Atelier VER.3/VER.4' program seeks to provide participants with a friendly approach to contemporary art, which was previously considered difficult, and to provide participants with time to establish art as a part of their lives. In particular, contemporary contemporary artist Sujin Yoo , an art creation program in which artists Yunseop Kim and Minsol Choi participate, we hope to create a time to share creative experiences and perspectives with participants through the artistic world and perspective of the participating artists.",
-                host: "",
+                host: "Ministry of Culture, Sports and Tourism, Korea Arts and Culture Education Promotion Agency",
                 support: "",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-3.jpg`,
                 youtube: [
@@ -68,7 +68,7 @@ export const educationData_ENG = [
                 participate: "Elementary school 4th-6th grade (upper grades)",
                 participate1: "10 people per class (including open class / 50 people in total)",
                 explanation: "The 'Schemar Museum Atelier VER.3/VER.4' program seeks to provide participants with a friendly approach to contemporary art, which was previously considered difficult, and to provide participants with time to establish art as a part of their lives. In particular, contemporary contemporary artist Sujin Yoo , an art creation program in which artists Yunseop Kim and Minsol Choi participate, we hope to create a time to share creative experiences and perspectives with participants through the artistic world and perspective of the participating artists.",
-                host: "",
+                host: "Ministry of Culture, Sports and Tourism, Korea Arts and Culture Education Promotion Agency",
                 support: "",
                 img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-4.jpg`,
                 youtube: [
