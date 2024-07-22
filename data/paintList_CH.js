@@ -103,7 +103,7 @@ export const paintList_CH = [
             {order: 15, title: "窗户性能", name:"马具埃格", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/16-102.4x66.jpg`, width: 5.12, height: 3.3, overview: "", overview1: "视频，5分21秒"},
             {order: 16, title: "在正确的轨道上？", name:"杰西·拉赫曼", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/17-174x124.png`, width: 5.22, height: 3.72, overview: "124x174cm", overview1: "2024"},
             {order: 17, title: "反军事艺术", name:"尤苏普·哈吉佩佐维奇", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/18-181x80.jpg`, width: 5.22, height: 3.72, overview: "80x181cm", overview1: "迷彩画布上的丙烯颜料，2023"},
-            {order: 18, title: "日常菜肴", name: "彼得西·范·斯普林特", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "日常菜肴，2024，视频，1分48秒"},
+            {order: 18, title: "日常菜肴", name: "彼得西·范·斯普林特", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "2024，视频，1分48秒"},
         ],
     ],
     [

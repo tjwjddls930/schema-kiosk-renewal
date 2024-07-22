@@ -1388,7 +1388,7 @@ export const allExhibits_CH = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "日常菜肴", name: "彼得西·范·斯普林特", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "日常菜肴，2024，视频，1分48秒"},
+                            {order: 18, title: "日常菜肴", name: "彼得西·范·斯普林特", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "2024，视频，1分48秒"},
                         ]
                     },
                 ],

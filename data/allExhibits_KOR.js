@@ -1388,7 +1388,7 @@ export const allExhibits_KOR = [
                         individual_exhibition: [],
                         group_exhibition: [],
                         paint: [
-                            {order: 18, title: "Daily Dishes", name: "피터제 반 스플런터", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "Daily Dishes, 2024, Video, 1min 48sec"},
+                            {order: 18, title: "Daily Dishes", name: "피터제 반 스플런터", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "2024, Video, 1min 48sec"},
                         ]
                     },
                 ],

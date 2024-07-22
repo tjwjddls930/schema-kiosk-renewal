@@ -103,7 +103,7 @@ export const paintList_ENG = [
             {order: 15, title: "Window Performance", name:"Hannes Egger", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/16-102.4x66.jpg`, width: 5.12, height: 3.3, overview: "", overview1: "Video, 5min 21sec"},
             {order: 16, title: "On the right track?", name:"Jessy Rahman", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/17-174x124.png`, width: 5.22, height: 3.72, overview: "124x174cm", overview1: "2024"},
             {order: 17, title: "Antimilitarishe Kunstmalerei", name:"Jusuf Hadẑifejzović", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/18-181x80.jpg`, width: 5.22, height: 3.72, overview: "80x181cm", overview1: "Acrylic color on camoufalge Canvas, 2023"},
-            {order: 18, title: "Daily Dishes", name: "Pietertje van Splunter", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "Daily Dishes, 2024, Video, 1min 48sec"},
+            {order: 18, title: "Daily Dishes", name: "Pietertje van Splunter", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "2024, Video, 1min 48sec"},
         ],
     ],
     [
