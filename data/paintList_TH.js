@@ -105,6 +105,20 @@ export const paintList_TH = [
             {order: 17, title: "ต่อต้านการทหาร Kunstmalerei", name:"ยูซุป ฮาดจิเปโซวิช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/18-181x80.jpg`, width: 5.22, height: 3.72, overview: "80x181cm", overview1: "สีอะครีลิคบนผ้าใบลายพราง, 2023"},
             {order: 18, title: "อาหารประจำวัน", name: "ปีเตอร์ซี ฟาน สปรินเตอร์", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "2024, วิดีโอ, 1 นาที 48 วินาที"},
         ],
+        [
+            {order: 0, title: "บันทึกการล่าสัตว์", name: "ชอลกยู", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/1-227x145.5.jpg`, width: 2.91, height: 4.54, overview: "227x145.5cm", overview1: "สีน้ำมันบนผ้าใบ, 2023"},
+            {order: 1, title: "แม่น้ำ", name: "ชอลกยู", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/2-145.5x227.jpg`, width: 4.54, height: 2.91, overview: "145.5x227cm", overview1: "สีน้ำมันบนผ้าใบ, 2023"},
+            {order: 2, title: "เพลงของเรา", name: "ชอลกยู", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/3-160x130.3.jpg`, width: 3.909, height: 4.8, overview: "160x130.3cm", overview1: "สีน้ำมันบนผ้าใบ, 2023"},
+            {order: 3, title: "ไม่มีชื่อ", name: "ยุนซอบ คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/4-162x360.jpg`, width: 7.2, height: 3.24, overview: "162x360cm", overview1: "สีอะครีลิคและสีน้ำมันบนผ้าใบ, 2024"},
+            {order: 4, title: "นักวิ่ง", name: "ยุนซอบ คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/5-117x99.jpg`, width: 3.96, height: 4.68, overview: "117x99cm", overview1: "สีน้ำมันบนผ้าใบ, 2024"},
+            {order: 5, title: "ยูนิคอร์น", name: "ยุนซอบ คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/6-73x61.jpg`, width: 3.05, height: 3.65, overview: "73x61cm", overview1: "สีอะครีลิคและสีน้ำมันบนผ้าใบ, 2024"},
+            {order: 6, title: "หนามแห่งการลงโทษ", name: "ยุนซอบ คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/7-73x61.jpg`, width: 3.05, height: 3.65, overview: "73x61cm", overview1: "สีน้ำมันบนผ้าใบ, 2024"},
+            {order: 7, title: "การคืนดีของสามทรราช", name: "แจฮง อัน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/8-250x190.jpg`, width: 3.8, height: 5, overview: "250x190cm", overview1: "สีน้ำมันบนผ้าใบ, 2023-2024"},
+            {order: 8, title: "ฤดูกาลที่เต็มแกว่ง", name: "แจฮง อัน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/9-53.5x80.5.jpg`, width: 4.83, height: 3.21, overview: "53.5x80.5cm", overview1: "สีน้ำมันบนผ้าใบ, 2023"},
+            {order: 9, title: "สแควร์ (RR)", name: "โฮ จีฮเย", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/10-90x90.jpg`, width: 3.6, height: 3.6, overview: "90x90cm", overview1: "กระดาษ สมุนไพร แป้ง ลวดตาข่ายเหล็ก สแตนเลส ลวดตกปลา และทองแดง 2024"},
+            {order: 10, title: "ไม่มีชื่อ", name: "โฮ จีฮเย", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/11-136x102.jpg`, width: 4.08, height: 3.06, overview: "60x60x90cm", overview1: "สื่อผสม, 2024"},
+            {order: 11, title: "NW-h6xj", name: "โฮ จีฮเย", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/12-16.4x12.5.jpg`, width: 4.92, height: 3.75, overview: "16.4x12.5cm", overview1: "ซิลค์สกรีน สีอะครีลิก หมึก กระดาษ ไม้อัด มุมอลูมิเนียม รหัส QR เข้าอัลบั้ม วันพุธ และรหัสแลก 2022"},
+        ],
     ],
     [
         //2023

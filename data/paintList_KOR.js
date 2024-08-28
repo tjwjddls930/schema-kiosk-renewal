@@ -105,6 +105,20 @@ export const paintList_KOR = [
             {order: 17, title: "Antimilitarishe Kunstmalerei", name:"유숩 하지페조비치", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/18-181x80.jpg`, width: 5.22, height: 3.72, overview: "80x181cm", overview1: "Acrylic color on camoufalge Canvas, 2023"},
             {order: 18, title: "Daily Dishes", name: "피터제 반 스플런터", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "2024, Video, 1min 48sec"},
         ],
+        [
+            {order: 0, title: "사냥일지(Hunting note)", name: "강철규", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/1-227x145.5.jpg`, width: 2.91, height: 4.54, overview: "227x145.5cm", overview1: "Oil on Canvas, 2023"},
+            {order: 1, title: "The River", name: "강철규", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/2-145.5x227.jpg`, width: 4.54, height: 2.91, overview: "145.5x227cm", overview1: "Oil on Canvas, 2023"},
+            {order: 2, title: "Our Songs", name: "강철규", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/3-160x130.3.jpg`, width: 3.909, height: 4.8, overview: "160x130.3cm", overview1: "Oil on Canvas, 2023"},
+            {order: 3, title: "무제", name: "김윤섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/4-162x360.jpg`, width: 7.2, height: 3.24, overview: "162x360cm", overview1: "Acrylic and Oil on Canvas, 2024"},
+            {order: 4, title: "Runner", name: "김윤섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/5-117x99.jpg`, width: 3.96, height: 4.68, overview: "117x99cm", overview1: "Oil on Canvas, 2024"},
+            {order: 5, title: "유니콘", name: "김윤섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/6-73x61.jpg`, width: 3.05, height: 3.65, overview: "73x61cm", overview1: "Acrylic and Oil on Canvas, 2024"},
+            {order: 6, title: "징벌의 가시", name: "김윤섭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/7-73x61.jpg`, width: 3.05, height: 3.65, overview: "73x61cm", overview1: "Oil on Canvas, 2024"},
+            {order: 7, title: "Reconciliation of the Three Tyrants", name: "안재홍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/8-250x190.jpg`, width: 3.8, height: 5, overview: "250x190cm", overview1: "Oil on Canvas, 2023-2024"},
+            {order: 8, title: "Season in Full Swing", name: "안재홍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/9-53.5x80.5.jpg`, width: 4.83, height: 3.21, overview: "53.5x80.5cm", overview1: "Oil on Canvas, 2023"},
+            {order: 9, title: "Square (RR)", name: "허지혜", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/10-90x90.jpg`, width: 3.6, height: 3.6, overview: "90x90cm", overview1: "Paper, herb, starch, steelwiremesh, stainless steel, fishing wire and copper, 2024"},
+            {order: 10, title: "Untitled", name: "허지혜", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/11-136x102.jpg`, width: 4.08, height: 3.06, overview: "60x60x90cm", overview1: "Mixed media, 2024"},
+            {order: 11, title: "NW-h6xj", name: "허지혜", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/12-16.4x12.5.jpg`, width: 4.92, height: 3.75, overview: "16.4x12.5cm", overview1: "Silkscreen, acrylic paint, ink, paper, plywood, aluminum angles, QR code to the album, Wednesday and redeem code, 2022"},
+        ],
     ],
     [
         //2023

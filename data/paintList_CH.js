@@ -105,6 +105,20 @@ export const paintList_CH = [
             {order: 17, title: "反军事艺术", name:"尤苏普·哈吉佩佐维奇", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/18-181x80.jpg`, width: 5.22, height: 3.72, overview: "80x181cm", overview1: "迷彩画布上的丙烯颜料，2023"},
             {order: 18, title: "日常菜肴", name: "彼得西·范·斯普林特", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-6/19-85.7x86.1.jpg`, width: 4.285, height: 4.305, overview: "", overview1: "2024，视频，1分48秒"},
         ],
+        [
+            {order: 0, title: "狩猎日志", name: "哲奎", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/1-227x145.5.jpg`, width: 2.91, height: 4.54, overview: "227x145.5cm", overview1: "布面油画, 2023"},
+            {order: 1, title: "河流", name: "哲奎", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/2-145.5x227.jpg`, width: 4.54, height: 2.91, overview: "145.5x227cm", overview1: "布面油画, 2023"},
+            {order: 2, title: "我们的歌", name: "哲奎", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/3-160x130.3.jpg`, width: 3.909, height: 4.8, overview: "160x130.3cm", overview1: "布面油画, 2023"},
+            {order: 3, title: "无题", name: "金允燮", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/4-162x360.jpg`, width: 7.2, height: 3.24, overview: "162x360cm", overview1: "布面丙烯和油画, 2024"},
+            {order: 4, title: "跑步者", name: "金允燮", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/5-117x99.jpg`, width: 3.96, height: 4.68, overview: "117x99cm", overview1: "布面油画, 2024"},
+            {order: 5, title: "独角兽", name: "金允燮", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/6-73x61.jpg`, width: 3.05, height: 3.65, overview: "73x61cm", overview1: "布面丙烯和油画, 2024"},
+            {order: 6, title: "惩罚之刺", name: "金允燮", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/7-73x61.jpg`, width: 3.05, height: 3.65, overview: "73x61cm", overview1: "布面油画, 2024"},
+            {order: 7, title: "三霸和解", name: "安在洪", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/8-250x190.jpg`, width: 3.8, height: 5, overview: "250x190cm", overview1: "布面油画, 2023-2024"},
+            {order: 8, title: "全面展开的季节", name: "安在洪", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/9-53.5x80.5.jpg`, width: 4.83, height: 3.21, overview: "53.5x80.5cm", overview1: "布面油画, 2023"},
+            {order: 9, title: "方形 (RR)", name: "许智慧", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/10-90x90.jpg`, width: 3.6, height: 3.6, overview: "90x90cm", overview1: "纸、香草、淀粉、钢丝网、不锈钢、渔线和铜，2024"},
+            {order: 10, title: "无题", name: "许智慧", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/11-136x102.jpg`, width: 4.08, height: 3.06, overview: "60x60x90cm", overview1: "混合媒体，2024"},
+            {order: 11, title: "NW-h6xj", name: "许智慧", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-7/12-16.4x12.5.jpg`, width: 4.92, height: 3.75, overview: "16.4x12.5cm", overview1: "丝网印刷、丙烯颜料、墨水、纸张、胶合板、铝角、相册二维码、星期三和兑换码，2022"},
+        ],
     ],
     [
         //2023
