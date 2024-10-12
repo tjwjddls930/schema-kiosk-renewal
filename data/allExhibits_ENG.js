@@ -1649,7 +1649,7 @@ export const allExhibits_ENG = [
                             {order: 5, title: "Body (Frame)", name: "Jaeseok Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/6-193.9x112.1.jpg`, width: 5.817, height: 3.363, overview: "193.9x112.1cm", overview1: "Acrylic on Canvas, 2023"},
                             {order: 6, title: "Constellation_2", name: "Jaeseok Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/7-112.1x193.9.jpg`, width: 3.363, height: 5.817, overview: "193.9x112.1cm", overview1: "Acrylic on Canvas, 2023"},
                             {order: 7, title: "Suspicious lump_1 (Carrier_1)", name: "Jaeseok Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/8-112.1x193.9.jpg`, width: 3.363, height: 5.817, overview: "193.9x112.1cm", overview1: "Acrylic on canvas, 2023"},
-                            {order: 8, title: "Configuring for Connectivity", name: "Jaeseok Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/9-112.1 x193.9.jpg`, width: 3.363, height: 5.817, overview: "193.9x112.1cm", overview1: "Acrylic on canvas, 2023"},
+                            {order: 8, title: "Configuring for Connectivity", name: "Jaeseok Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/9-112.1x193.9.jpg`, width: 3.363, height: 5.817, overview: "193.9x112.1cm", overview1: "Acrylic on canvas, 2023"},
                         ]
                     },
                     {
