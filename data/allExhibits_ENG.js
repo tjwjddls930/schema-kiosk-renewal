@@ -1721,8 +1721,8 @@ export const allExhibits_ENG = [
                         ],
                         paint: [
                             {order: 14, title: "Door of Truth", name: "Seongjin Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/15-68.3x102.4.png`, width: 3.415, height: 5.12, overview: "", overview1: "Variable installation, PLA, putty, iron, 2024 (2PCS)"},
-                            {order: 15, title: "Counter Gadget", name: "Seongjin Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/16-76.8x102.4.jpg` , width: 3.84, height: 5.12, overview: "260x140x275cm", overview1: "PLA, resin, epoxy putty, Styrofoam, iron, 2023 (partial enlargement)"},
-                            {order: 16, title: "Counter Gadget", name: "Seongjin Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/17-79.3x102.4.jpg` , width: 3.965, height: 5.12, overview: "260x140x275cm", overview1: "PLA, resin, epoxy putty, Styrofoam, iron, magnet, polystyrene, digital print, stucco, 2023"},
+                            {order: 15, title: "Counter Gadget", name: "Seongjin Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/16-76.8x102.4.jpg`, width: 3.84, height: 5.12, overview: "260x140x275cm", overview1: "PLA, resin, epoxy putty, Styrofoam, iron, 2023 (partial enlargement)"},
+                            {order: 16, title: "Counter Gadget", name: "Seongjin Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/17-79.3x102.4.jpg`, width: 3.965, height: 5.12, overview: "260x140x275cm", overview1: "PLA, resin, epoxy putty, Styrofoam, iron, magnet, polystyrene, digital print, stucco, 2023"},
                             {order: 17, title: "From the four winds", name: "Seongjin Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/18-68.3x102.4.jpg`, width: 3.415, height: 5.12, overview: "105x62x184cm", overview1: "PLA, resin, epoxy putty, Styrofoam, iron, 2023"},
                         ]
                     },
