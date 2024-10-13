@@ -93,6 +93,24 @@ export const educationData_VI = [
                     {order: 1, url: "", thumbnail: ""}
                 ],
             },
+            {
+                id: "24-6",
+                year: 2024,
+                type: "Chương trình giáo dục 2024",
+                title: "Dự án nâng cao năng lực giáo dục văn hóa nghệ thuật năm 2024 <Bảo tàng nghệ thuật âm thanh>",
+                time: "2024/10/2 ~ 2024/11/15",
+                time1: "10 ~ 12AM, 1 ~ 3PM",
+                location: "Phòng Giáo dục Bảo tàng Schema",
+                participate: "3 trường mẫu giáo và trung tâm giữ trẻ trong khu vực",
+                participate1: "",
+                explanation: "Chương trình giáo dục văn hóa nghệ thuật ‘Sounding Museum’ này đã chuẩn bị một chương trình giáo dục văn hóa nghệ thuật kết hợp nghệ thuật và âm nhạc bằng cách liên kết triển lãm đặc biệt của Bảo tàng Nghệ thuật Schema <Circular Ruins 1/2> với các bộ sưu tập siêu thực. Những người tham gia bắt gặp những hình ảnh trực quan độc đáo trong tác phẩm của tám nghệ sĩ đương đại đương đại: Kim Yun-seop, Kang Kang-gyu, Heo Ji-hye, Lee Jae-seok, Jeong Seong-jin, Son Hee-min và Lee Hwan-hee vượt xa những hiểu biết trực quan của chính họ và khám phá nghệ thuật hình thành 'sự kết hợp giữa các khái niệm và tư duy trừu tượng được tổ chức lại.' âm nhạc. Đây là một chương trình giáo dục nơi người tham gia trải nghiệm sự hội tụ của nghệ thuật và âm nhạc thông qua sự đánh giá và thể hiện ngay lập tức và sáng tạo trong một dòng suy nghĩ siêu thực, độc đáo, bơi lội và chơi đùa thông qua nhịp điệu và biểu hiện cơ thể. Chương trình này là chương trình của nhà giáo dục văn hóa và nghệ thuật ‘Lee Na-kyung’ và là cơ hội để học sinh tìm hiểu nghệ thuật hiện đại, đồng thời thể hiện ước mơ và trí tưởng tượng của mình. Những người tham gia trải nghiệm sự sáng tạo và thể hiện nghệ thuật thông qua sự thể hiện nghệ thuật tự do và sự đồng cảm lẫn nhau, đồng thời dành thời gian để mở rộng sự đánh giá và thể hiện tác phẩm mới.",
+                host: "Bộ Văn hóa, Thể thao và Du lịch, Chungcheongbuk-do, Cơ quan Xúc tiến Giáo dục Văn hóa và Nghệ thuật Hàn Quốc, Quỹ Văn hóa Chungbuk, Trung tâm Hỗ trợ Giáo dục Văn hóa và Nghệ thuật Chungbuk",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-6.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
         ]
     },
     {

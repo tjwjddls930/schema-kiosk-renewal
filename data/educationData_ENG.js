@@ -93,6 +93,24 @@ export const educationData_ENG = [
                     {order: 1, url: "", thumbnail: ""}
                 ],
             },
+            {
+                id: "24-6",
+                year: 2024,
+                type: "Education Program 2024",
+                title: "2024 Culture and Arts Education History Capacity Building Project <Sounding Museum>",
+                time: "2024/10/2 ~ 2024/11/15",
+                time1: "10 ~ 12AM, 1 ~ 3PM",
+                location: "Schema Art Museum Education Room",
+                participate: "3 kindergartens and daycare centers in the region",
+                participate1: "",
+                explanation: "This cultural arts education program ‘Sounding Museum’ has prepared a cultural arts education program that combines art and music by linking the Schema Museum of Art’s special exhibition <Circular Ruins 1/2> with surreal collections. Participants who encounter unique visual images in the works of eight contemporary contemporary artists: Kim Yun-seop, Kang Kang-gyu, Heo Ji-hye, Lee Jae-seok, Jeong Seong-jin, Son Hee-min, and Lee Hwan-hee go beyond their own intuitive insights and discover the formative art of 'combination of concepts and reorganized abstract thinking.' We want to focus on appreciating the work with our eyes and expressing and creating to our heart's content through physical expression that goes beyond visual appreciation through music. This is an educational program where participants experience the convergence of art and music through immediate and creative appreciation and expression in a unique, surrealistic flow of thought that swims and plays through rhythm and body expression. This program is a program by ‘Lee Na-kyung’ culture and arts educator and is an opportunity for students to understand modern art and express their dreams and imaginations at the same time. Participants experience artistic creation and expression through free artistic expression and mutual empathy, and provide time to expand into new appreciation and expression of works.",
+                host: "Ministry of Culture, Sports and Tourism, Chungcheongbuk-do, Korea Culture and Arts Education Promotion Agency, Chungbuk Cultural Foundation, Chungbuk Culture and Arts Education Support Center",
+                support: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/education/2024/24-6.jpg`,
+                youtube: [
+                    {order: 1, url: "", thumbnail: ""}
+                ],
+            },
         ]
     },
     {
