@@ -1729,6 +1729,321 @@ export const allExhibits_TH = [
                     },
                 ],
             },
+            {
+                order: 9, 
+                type:"นิทรรศการพิเศษ พิพิธภัณฑ์ศิลปะเชมา ศิลปินรุ่นเยาว์", 
+                title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                time: "2024/11/28 ~ 2024/12/06, 2024/12/07 ~ 2024/12/15", 
+                artist: "ทักคัง, คิมมินคยอง, คิมฮยอนจิน, ปาร์คยุนซอ, ซึงฮยอนบัน, ซองยุนจอง, ลีจงซู, ลิมดูฮยอน, ดาแฮจอง, ฮันบยองอุค, แฮ- ควอนตอนเด็ก, ฮยอนฮีรา, ซึงจูริว, จองฮยอนรยู, ดงฮวานแมง, ปาร์คแดฮยอน, ปาร์คฮเยซอน, จองกยูริม, ฮงดันบิน, ฮวังซูจิน", 
+                location: "พิพิธภัณฑ์ Schema", 
+                host: "พิพิธภัณฑ์ Schema", 
+                support: "ชุงชองบุกโด, ชองจูซี", 
+                explanation: "พิพิธภัณฑ์ศิลปะสคีมาวางแผนจัดนิทรรศการซึ่งศิลปินรุ่นเยาว์สามารถเข้าร่วมทุกปีเพื่อฟื้นฟูระบบนิเวศศิลปะในท้องถิ่นและสร้างสภาพแวดล้อมที่สร้างสรรค์ที่ยั่งยืน โครงการนี้พยายามที่จะขยายบทบาทนอกเหนือจากนิทรรศการธรรมดาๆ ไปสู่แพลตฟอร์มที่ส่งเสริมเครือข่ายระหว่างศิลปิน แลกเปลี่ยนความคิดเห็นเกี่ยวกับผลงานของกันและกัน และส่งเสริมการเติบโตร่วมกัน ด้วยความพยายามเหล่านี้ Schema Museum of Art หวังที่จะเพิ่มความหลากหลายทางศิลปะและการไม่แบ่งแยกให้กับชุมชนท้องถิ่น และกลายเป็นพื้นที่ที่ศิลปินรุ่นเยาว์สามารถแสดงความคิดเห็นได้ ในนิทรรศการนี้ ศิลปินรุ่นเยาว์จะแสดงโลกภายในของตนเองด้วยภาพ และสร้างประสบการณ์ส่วนตัวและการรับรู้ในชีวิตประจำวันให้เป็นรูปแบบใหม่ กระบวนการนี้เป็นมากกว่าการแสดงออกทางศิลปะที่เรียบง่าย และทำหน้าที่เป็นวิธีสำคัญในการสื่อสารและการเชื่อมโยงกับผู้ชม 'Ground of Artistic Sense 1/2' จะเปิดโอกาสให้ศิลปินรุ่นเยาว์ได้สำรวจอัตลักษณ์และประสาทสัมผัสของตนเองอย่างอิสระ และจะเป็นพื้นที่สำหรับขยายความเข้าใจและความเห็นอกเห็นใจซึ่งกันและกันด้วยการแบ่งปันการเดินทางทางศิลปะกับผู้เข้าชม นี่เป็นกระบวนการสำคัญที่แสดงให้เห็นว่าศิลปะสามารถเริ่มต้นได้จากความคิดสร้างสรรค์และความหลงใหลของแต่ละบุคคล และสร้างความสัมพันธ์กับชุมชนในวงกว้าง นิทรรศการนี้ไม่เพียงแต่เกี่ยวกับการแสดงผลงานเท่านั้น แต่ยังช่วยให้ศิลปินรุ่นเยาว์สร้างอาชีพและสร้างงานศิลปะได้ด้วย โอกาสในการเข้าสู่ตลาดและสำรวจเอกลักษณ์ของตนเอง เราหวังว่าจะแบ่งปันความรู้สึกที่พวกเขารู้สึกในระหว่างกระบวนการสร้างสรรค์ และมีส่วนช่วยสร้างระบบนิเวศทางศิลปะที่ยั่งยืน",         
+                author: "ภัณฑารักษ์พิพิธภัณฑ์ศิลปะเชมา / Youngae Han",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2024/24-9.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "คังตั๊ก", 
+                        engname: "Tak Kang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-1.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 0, title: "ออร์ก้า", name: "คังตั๊ก", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/1-60.6x72.7.jpg`, width: 3.03, height: 3.635, overview: "72.7x60.6cm", overview1: "สีน้ำมันบนผ้าใบ ปากกา ปากกามาร์กเกอร์ 2024"},
+                        ]
+                    },
+                    {
+                        order: 1, 
+                        number: "02",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "คิมมินคยอง", 
+                        engname: "Min-kyung Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-2.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 1, title: "ความหงุดหงิด", name: "คิมมินคยอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/2-50x60.6.jpg`, width: 3, height: 3.636, overview: "60.6x50cm", overview1: "สีอะคริลิคบนผ้าใบ 2023"},
+                          ]
+                    },
+                    {
+                        order: 2, 
+                        number: "03",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "คิมฮยอนจิน", 
+                        engname: "Hyungjin Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-3.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 2, title: "หยดน้ำ", name: "คิมฮยอนจิน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/3-75x202.png`, width: 3, height: 8.08, overview: "202x75cm", overview1: "พิมพ์หมึกบนผ้าฝ้าย 2024"},
+                        ]
+                    },
+                    {
+                        order: 3, 
+                        number: "04",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "ปาร์คยุนซอ", 
+                        engname: "Yoon-seo Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-4.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 3, title: "Hide Sneacap", name: "ปาร์คยุนซอ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/4-300x200.jpg`, width: 6, height: 4, overview: "15x30x23cm", overview1: "เครื่องลายครามและเผาศพ ปี 2023 (3 ชิ้น)"},
+                        ]
+                    },
+                    {
+                        order: 4, 
+                        number: "05",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "ซึงฮยอนบัน", 
+                        engname: "Seunghyeon Ban",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-5.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 4, title: "96711", name: "ซึงฮยอนบัน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/5-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "สีน้ำมันบนผ้าใบ 2024"},
+                        ]
+                    },
+                    {
+                        order: 5, 
+                        number: "06",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "ซงยุนจอง", 
+                        engname: "Yun-jeong Song",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-6.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 5, title: "การเผชิญหน้า", name: "ซงยุนจอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/6-72.7x116.8.png`, width: 3.635, height: 5.84, overview: "116.8x72.7cm", overview1: "สีน้ำมันบนผ้าใบ 2024"},
+                        ]
+                    },
+                    {
+                        order: 6, 
+                        number: "07",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "จงซู ลี", 
+                        engname: "Jongsu Lee",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-7.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 6, title: "ทัตโทจิ", name: "จงซู ลี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/7-75x202.jpg`, width: 2.25, height: 6.06, overview: "202x75cm", overview1: "พิมพ์หมึกบนผ้าฝ้าย, 2024"},
+                        ]
+                    },
+                    {
+                        order: 7, 
+                        number: "08",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "ลิมดูฮยอน", 
+                        engname: "Doo-hyun Lim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-8.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 7, title: "กายวิภาคศาสตร์", name: "ลิมดูฮยอน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/8-53x45.5.jpg`, width: 4.77, height: 4.095, overview: "45.5x53.0cm", overview1: "สีน้ำมันบนผ้าใบ 2024"},
+                        ]
+                    },
+                    {
+                        order: 8, 
+                        number: "09",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "จองดาเฮ", 
+                        engname: "Da-hae Jeong",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-9.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 8, title: "ชนกลุ่มน้อยทางเพศ", name: "จองดาเฮ", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/9-72x90.jpg`, width: 3.6, height: 4.5, overview: "90x72cm", overview1: "สีน้ำมันบนผ้าใบ 2022"},
+                        ]
+                    },
+                    {
+                        order: 9, 
+                        number: "10",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "แฮ- ควอนตอนเด็ก", 
+                        engname: "Byeong-Wook Han",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-10.jpeg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 9, title: "ท่าเรือ Leviathan-Janggo นอกชายฝั่ง", name: "แฮ- ควอนตอนเด็ก", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/10-60.5x45.3.jpeg`, width: 5.445, height: 4.077, overview: "45.3x60.5cm", overview1: "สีอะคริลิคบนผ้าใบ ปี 2022"},
+                        ]
+                    },
+                    {
+                        order: 10, 
+                        number: "11",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "ฮยอนฮีรา", 
+                        engname: "Haeyoung Kwon",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-11.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 10, title: "Hope", name: "ฮยอนฮีรา", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/11-102.4x76.8.jpg`, width: 4.096, height: 3.072, overview: "10x10x30cm", overview1: "Black Mountain, ดินปั้นหงส์, ดินผสม, ดินเหนียวสีดำ, Samote, 2024 (3ps)"},
+                        ]
+                    },
+                    {
+                        order: 11, 
+                        number: "12",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "รา ฮยอน-ฮี", 
+                        engname: "Hyeon-hee Ra",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-12.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 11, title: "เวลาคุยกับดวงดาว", name: "รา ฮยอน-ฮี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/12-60.6x60.6.jpg`, width: 4.242, height: 4.242, overview: "60.6x60.6cm", overview1: "สื่อผสม 2024"},
+                        ]
+                    },
+                    {
+                        order: 12, 
+                        number: "13",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "ริว ซึงจู", 
+                        engname: "Seung-ju Ryu",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-13.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 12, title: "อิน อุลมยอน", name: "ริว ซึงจู", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/13-72.7x60.6.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "ระบายสีบนผ้าฝ้าย ชาร์โคล อะคริลิค 2024"},
+                        ]
+                    },
+                    {
+                        order: 13, 
+                        number: "14",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "ริวจองฮยอน", 
+                        engname: "Jeong-hyeon Ryu",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-14.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 13, title: "ฉันจะดู ฉันจะได้ยิน ฉันจะพูดว่า", name: "ริวจองฮยอน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/14-72.7x90.9.jpg`, width: 4.362, height: 5.454, overview: "90.9x72.7cm", overview1: "สีน้ำมันบนผ้าใบ 2024"},
+                        ]
+                    },
+                    {
+                        order: 14, 
+                        number: "15",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "ดงฮวานแมง", 
+                        engname: "Dong-hwan Maeng",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-15.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 14, title: "Dong 2", name: "ดงฮวานแมง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/15-75x202.jpg`, width: 2.25, height: 6.06, overview: "202x75cm", overview1: "พิมพ์หมึกบนผ้าฝ้าย, 2024"},
+                        ]
+                    },
+                    {
+                        order: 15, 
+                        number: "16",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "พัคแดฮยอน", 
+                        engname: "Daehyun Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-16.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 15, title: "Green Emotion", name: "พัคแดฮยอน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/16-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "29x29x31cm", overview1: "แก้ว 2024"},
+                        ]
+                    },
+                    {
+                        order: 16, 
+                        number: "17",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "ปาร์คฮเยซอน", 
+                        engname: "Hye-sun Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-17.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 16, title: "โอลิมเปีย", name: "ปาร์คฮเยซอน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/17-90.9x72.7.jpg`, width: 4.545, height: 3.635, overview: "72.9x90.9cm", overview1: "สีน้ำมันบนผ้าใบ 2024"},
+                        ]
+                    },
+                    {
+                        order: 17, 
+                        number: "18",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "จองกยูริม", 
+                        engname: "Danbin Hong",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-18.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 17, title: "Waiting", name: "จองกยูริม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/18-90.9x72.7.jpg`, width: 4.545, height: 3.635, overview: "72.9x90.9cm", overview1: "สีน้ำมันบนผ้าใบ 2024"},
+                        ]
+                    },
+                    {
+                        order: 18, 
+                        number: "19",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "จุง จองริม", 
+                        engname: "Gyu-rim Jung",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-19.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 18, title: "", name: "จุง จองริม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/19-56.2x67.4.png`, width: 5.058, height: 6.066, overview: "56.2x67.4cm", overview1: ""},
+                        ]
+                    },
+                    {
+                        order: 19, 
+                        number: "20",
+                        title:"พื้นดินแห่งความรู้สึกทางศิลปะ 1/2", 
+                        name: "ฮวังซูจิน", 
+                        engname: "Sujin Hwang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-20.jpeg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 19, title: "บดแล้ว", name: "ฮวังซูจิน", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/20-102.4x68.3.jpeg`, width: 5.12, height: 3.415, overview: "114x84x40cm", overview1: "กระดาษ กาวติดไม้ ดินสอ 2024"},
+                        ]
+                    },
+                ],
+            },
         ]
     },
     {

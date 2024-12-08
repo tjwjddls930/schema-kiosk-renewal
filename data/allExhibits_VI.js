@@ -1728,6 +1728,321 @@ export const allExhibits_VI = [
                     },
                 ],
             },
+            {
+                order: 9, 
+                type:"Triển lãm đặc biệt của nghệ sĩ trẻ Bảo tàng nghệ thuật Schema", 
+                title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                time: "2024/11/28 ~ 2024/12/06, 2024/12/07 ~ 2024/12/15", 
+                artist: "Tak Kang, Min-kyung Kim, Hyeong-jin Kim, Yoon-seo Park, Seung-hyeon Ban, Yun-jeong Song, Jong-soo Lee, Doo-hyeon Lim, Da-hae Jeong, Byeong-wook Han, Hae- Young Kwon, Hyun-hee Ra, Seung-ju Ryu, Jeong-hyeon Ryu, Dong-hwan Maeng, Dae-hyun Park, Hye-sun Park, Jeong Gyu-rim, Hong Dan-bin, Hwang Su-jin", 
+                location: "Bảo tàng Schema", 
+                host: "Bảo tàng Schema", 
+                support: "Chungcheongbuk-do, Cheongju-si", 
+                explanation: "Bảo tàng Nghệ thuật Schema lên kế hoạch tổ chức một cuộc triển lãm trong đó các nghệ sĩ trẻ có thể tham gia hàng năm để hồi sinh hệ sinh thái nghệ thuật địa phương và tạo ra một môi trường sáng tạo bền vững. Dự án này tìm cách mở rộng vai trò của mình ngoài một cuộc triển lãm đơn giản thành một nền tảng thúc đẩy kết nối giữa các nghệ sĩ, trao đổi phản hồi về tác phẩm của nhau và thúc đẩy sự phát triển chung. Thông qua những nỗ lực này, Bảo tàng Nghệ thuật Schema hy vọng sẽ tăng thêm sự đa dạng và hòa nhập nghệ thuật cho cộng đồng địa phương, đồng thời trở thành không gian nơi các nghệ sĩ trẻ có thể nói lên tiếng nói của mình. Trong triển lãm này, các nghệ sĩ trẻ thể hiện một cách trực quan thế giới nội tâm của họ và tái tạo lại những trải nghiệm cá nhân cũng như nhận thức hàng ngày của họ thành những hình thức mới. Quá trình này vượt xa sự thể hiện nghệ thuật đơn giản và đóng vai trò như một phương tiện giao tiếp và kết nối quan trọng với khán giả. 'Ground of Artistic Sense 1/2' sẽ mang đến cho các nghệ sĩ trẻ cơ hội tự do khám phá bản sắc và giác quan của mình, đồng thời sẽ là không gian để mở rộng sự hiểu biết và đồng cảm lẫn nhau bằng cách chia sẻ hành trình nghệ thuật của họ với du khách. Đây là một quá trình quan trọng cho thấy nghệ thuật có thể bắt đầu từ sự sáng tạo, niềm đam mê của cá nhân và hình thành mối quan hệ với cộng đồng rộng lớn hơn. Thông qua triển lãm này, nó không chỉ là việc trưng bày các tác phẩm mà còn giúp các nghệ sĩ trẻ xây dựng sự nghiệp và sáng tạo nghệ thuật bằng cách cung cấp. cơ hội tham gia thị trường và khám phá bản sắc riêng của họ, chúng tôi hy vọng có thể chia sẻ những cảm xúc mà họ cảm nhận được trong quá trình sáng tạo và góp phần xây dựng một hệ sinh thái nghệ thuật bền vững.",         
+                author: "Người phụ trách Bảo tàng Nghệ thuật Schema / Youngae Han",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2024/24-9.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Tak Kang", 
+                        engname: "Tak Kang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-1.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 0, title: "Orca", name: "Tak Kang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/1-60.6x72.7.jpg`, width: 3.03, height: 3.635, overview: "72.7x60.6cm", overview1: "sơn dầu trên canvas, bút, bút đánh dấu, 2024"},
+                        ]
+                    },
+                    {
+                        order: 1, 
+                        number: "02",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Min-kyung Kim", 
+                        engname: "Min-kyung Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-2.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 1, title: "Thất vọng", name: "Min-kyung Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/2-50x60.6.jpg`, width: 3, height: 3.636, overview: "60.6x50cm", overview1: "Acrylic on Canvas, 2023"},
+                          ]
+                    },
+                    {
+                        order: 2, 
+                        number: "03",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Hyungjin Kim", 
+                        engname: "Hyungjin Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-3.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 2, title: "giọt nước", name: "Hyungjin Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/3-75x202.png`, width: 3, height: 8.08, overview: "202x75cm", overview1: "in mực trên cotton, 2024"},
+                        ]
+                    },
+                    {
+                        order: 3, 
+                        number: "04",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Yoon-seo Park", 
+                        engname: "Yoon-seo Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-4.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 3, title: "Hide Sneacap", name: "Yoon-seo Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/4-300x200.jpg`, width: 6, height: 4, overview: "15x30x23cm", overview1: "sứ trắng và lò hỏa táng, 2023 (3 chiếc)"},
+                        ]
+                    },
+                    {
+                        order: 4, 
+                        number: "05",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Seunghyeon Ban", 
+                        engname: "Seunghyeon Ban",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-5.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 4, title: "96711", name: "Seunghyeon Ban", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/5-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "Oil on canvas, 2024"},
+                        ]
+                    },
+                    {
+                        order: 5, 
+                        number: "06",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Yun-jeong Song", 
+                        engname: "Yun-jeong Song",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-6.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 5, title: "Gặp gỡ", name: "Yun-jeong Song", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/6-72.7x116.8.png`, width: 3.635, height: 5.84, overview: "116.8x72.7cm", overview1: "Oil on canvas, 2024"},
+                        ]
+                    },
+                    {
+                        order: 6, 
+                        number: "07",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Jongsu Lee", 
+                        engname: "Jongsu Lee",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-7.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 6, title: "Take it away", name: "Jongsu Lee", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/7-75x202.jpg`, width: 2.25, height: 6.06, overview: "202x75cm", overview1: "in mực trên cotton, 2024"},
+                        ]
+                    },
+                    {
+                        order: 7, 
+                        number: "08",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Doo-hyun Lim", 
+                        engname: "Doo-hyun Lim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-8.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 7, title: "Giải phẫu", name: "Doo-hyun Lim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/8-53x45.5.jpg`, width: 4.77, height: 4.095, overview: "45.5x53.0cm", overview1: "Oil on canvas, 2024"},
+                        ]
+                    },
+                    {
+                        order: 8, 
+                        number: "09",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Da-hae Jeong", 
+                        engname: "Da-hae Jeong",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-9.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 8, title: "giới tính thiểu số", name: "Da-hae Jeong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/9-72x90.jpg`, width: 3.6, height: 4.5, overview: "90x72cm", overview1: "Oil on canvas, 2022"},
+                        ]
+                    },
+                    {
+                        order: 9, 
+                        number: "10",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Byeong-Wook Han", 
+                        engname: "Byeong-Wook Han",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-10.jpeg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 9, title: "Cảng Leviathan-Janggo ngoài khơi", name: "Byeong-Wook Han", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/10-60.5x45.3.jpeg`, width: 5.445, height: 4.077, overview: "45.3x60.5cm", overview1: "Acrylic on canvas, 2022"},
+                        ]
+                    },
+                    {
+                        order: 10, 
+                        number: "11",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Haeyoung Kwon", 
+                        engname: "Haeyoung Kwon",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-11.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 10, title: "Hope", name: "Haeyoung Kwon", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/11-102.4x76.8.jpg`, width: 4.096, height: 3.072, overview: "10x10x30cm", overview1: "Black Mountain, Đất sét đúc thiên nga, đất sét kết hợp, đất sét đen, Samote, 2024 (3ps)"},
+                        ]
+                    },
+                    {
+                        order: 11, 
+                        number: "12",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Hyeon-hee Ra", 
+                        engname: "Hyeon-hee Ra",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-12.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 11, title: "Đã đến lúc nói chuyện với các vì sao", name: "Hyeon-hee Ra", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/12-60.6x60.6.jpg`, width: 4.242, height: 4.242, overview: "60.6x60.6cm", overview1: "Mixed media, 2024"},
+                        ]
+                    },
+                    {
+                        order: 12, 
+                        number: "13",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Seung-ju Ryu", 
+                        engname: "Seung-ju Ryu",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-13.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 12, title: "Ở Ulmyeon", name: "Seung-ju Ryu", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/13-72.7x60.6.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "tô màu trên vải cotton, than, acrylic, 2024"},
+                        ]
+                    },
+                    {
+                        order: 13, 
+                        number: "14",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Jeong-hyeon Ryu", 
+                        engname: "Jeong-hyeon Ryu",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-14.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 13, title: "tôi sẽ thấy, tôi sẽ nghe, tôi sẽ nói", name: "Jeong-hyeon Ryu", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/14-72.7x90.9.jpg`, width: 4.362, height: 5.454, overview: "90.9x72.7cm", overview1: "Oil on canvas, 2024"},
+                        ]
+                    },
+                    {
+                        order: 14, 
+                        number: "15",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Dong-hwan Maeng", 
+                        engname: "Dong-hwan Maeng",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-15.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 14, title: "Dong 2", name: "Dong-hwan Maeng", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/15-75x202.jpg`, width: 2.25, height: 6.06, overview: "202x75cm", overview1: "mực in trên cotton, 2024"},
+                        ]
+                    },
+                    {
+                        order: 15, 
+                        number: "16",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Daehyun Park", 
+                        engname: "Daehyun Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-16.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 15, title: "Green Emotion", name: "Daehyun Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/16-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "29x29x31cm", overview1: "kính, 2024"},
+                        ]
+                    },
+                    {
+                        order: 16, 
+                        number: "17",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Hye-sun Park", 
+                        engname: "Hye-sun Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-17.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 16, title: "Orlangpia", name: "Hye-sun Park", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/17-90.9x72.7.jpg`, width: 4.545, height: 3.635, overview: "72.9x90.9cm", overview1: "Oil on canvas, 2024"},
+                        ]
+                    },
+                    {
+                        order: 17, 
+                        number: "18",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Danbin Hong", 
+                        engname: "Danbin Hong",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-18.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 17, title: "Chờ đợi", name: "Danbin Hong", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/18-90.9x72.7.jpg`, width: 4.545, height: 3.635, overview: "72.9x90.9cm", overview1: "Oil on canvas, 2024"},
+                        ]
+                    },
+                    {
+                        order: 18, 
+                        number: "19",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Gyu-rim Jung", 
+                        engname: "Gyu-rim Jung",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-19.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 18, title: "", name: "Gyu-rim Jung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/19-56.2x67.4.png`, width: 5.058, height: 6.066, overview: "56.2x67.4cm", overview1: ""},
+                        ]
+                    },
+                    {
+                        order: 19, 
+                        number: "20",
+                        title:"Nền tảng cảm nhận nghệ thuật 1/2", 
+                        name: "Sujin Hwang", 
+                        engname: "Sujin Hwang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-20.jpeg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 19, title: "Crushed", name: "Sujin Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/20-102.4x68.3.jpeg`, width: 5.12, height: 3.415, overview: "114x84x40cm", overview1: "giấy, keo dán gỗ, bút chì, 2024"},
+                        ]
+                    },
+                ],
+            },
         ]
     },
     {

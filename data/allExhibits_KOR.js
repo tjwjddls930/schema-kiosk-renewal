@@ -1728,6 +1728,321 @@ export const allExhibits_KOR = [
                     },
                 ],
             },
+            {
+                order: 9, 
+                type:"쉐마미술관 청년작가 기획전시", 
+                title:"Ground of Artistic Sense 1/2", 
+                time: "2024/11/28 ~ 2024/12/06, 2024/12/07 ~ 2024/12/15", 
+                artist: "강 탁, 김민경, 김형진, 박윤서, 반승현, 송윤정, 이종수, 임두현, 정다해, 한병욱, 권해영, 라현희, 류승주, 류정현, 맹동환, 박대현, 박혜선, 정규림, 홍단빈, 황수진", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "충청북도, 청주시", 
+                explanation: "쉐마미술관은 매년 청년 작가들이 참여할 수 있는 전시를 기획하여 지역 내 예술 생태계를 활성화하고 지속 가능한 창작 환경을 조성하고자 합니다. 이러한 기획은 단순한 전시를 넘어, 작가들 간의 네트워킹을 촉진하고, 서로의 작업에 대한 피드백을 주고받으며 공동 성장을 도모하는 플랫폼으로 역할을 확장하고자 합니다. 쉐마미술관은 이와 같은 노력을 통해 지역 사회에 예술적 다양성과 포용성을 더하며, 청년 예술가들이 자신의 목소리를 낼 수 있는 공간이 되고자 합니다. 이번 전시에서 젊은 예술가들은 각자의 내면세계를 시각적으로 표현하고, 개인적 경험과 일상에서의 인식을 새로운 형태로 재구성합니다. 이러한 과정은 단순한 예술적 표현을 넘어, 관객과의 소통 및 상호 연결을 형성하는 중요한 수단으로 작용합니다. ‘Ground of Artistic Sense 1/2’는 청년 작가들이 자신의 정체성과 감각을 자유롭게 탐구할 수 있는 기회를 제공하며, 그들의 예술적 여정을 관람객과 공유함으로써 서로의 이해와 공감을 확장하는 공간이 될 것입니다. 이는 예술이 개인의 창의성과 열정을 시작으로, 더 넓은 공동체와의 관계를 형성할 수 있음을 보여주는 중요한 과정입니다.이번 전시를 통해 단지 작품을 전시하는 데 그치지 않고, 청년 작가들에게 경력을 쌓고 예술 시장에 진입할 수 있는 기회를 제공하며 자신의 정체성을 탐구하며 소통하는 기회를 마련하여 그들의 창작 과정에서 느끼는 감각들을 공유하며, 지속 가능한 예술 생태계 구축에 기여하고자 합니다.",         
+                author: "쉐마미술관 학예실장 한영애",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2024/24-9.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "강 탁", 
+                        engname: "Tak Kang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-1.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 0, title: "범고래", name: "강 탁", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/1-60.6x72.7.jpg`, width: 3.03, height: 3.635, overview: "72.7x60.6cm", overview1: "캔버스에 유채, 펜, 마커, 2024"},
+                        ]
+                    },
+                    {
+                        order: 1, 
+                        number: "02",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "김민경", 
+                        engname: "Min-kyung Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-2.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 1, title: "좌절", name: "김민경", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/2-50x60.6.jpg`, width: 3, height: 3.636, overview: "60.6x50cm", overview1: "Acrylic on Canvas, 2023"},
+                          ]
+                    },
+                    {
+                        order: 2, 
+                        number: "03",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "김형진", 
+                        engname: "Hyungjin Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-3.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 2, title: "물방울", name: "김형진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/3-75x202.png`, width: 3, height: 8.08, overview: "202x75cm", overview1: "면에 잉크 인쇄, 2024"},
+                        ]
+                    },
+                    {
+                        order: 3, 
+                        number: "04",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "박윤서", 
+                        engname: "Yoon-seo Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-4.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 3, title: "Hide Sneacap", name: "박윤서", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/4-300x200.jpg`, width: 6, height: 4, overview: "15x30x23cm", overview1: "백자토와 화장토, 2023 (3 pieces)"},
+                        ]
+                    },
+                    {
+                        order: 4, 
+                        number: "05",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "반승현", 
+                        engname: "Seunghyeon Ban",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-5.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 4, title: "96711", name: "반승현", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/5-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "Oil on canvas, 2024"},
+                        ]
+                    },
+                    {
+                        order: 5, 
+                        number: "06",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "송윤정", 
+                        engname: "Yun-jeong Song",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-6.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 5, title: "마주치다", name: "송윤정", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/6-72.7x116.8.png`, width: 3.635, height: 5.84, overview: "116.8x72.7cm", overview1: "캔버스에 유채, 2024"},
+                        ]
+                    },
+                    {
+                        order: 6, 
+                        number: "07",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "이종수", 
+                        engname: "Jongsu Lee",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-7.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 6, title: "뺏지", name: "이종수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/7-75x202.jpg`, width: 2.25, height: 6.06, overview: "202x75cm", overview1: "면에 잉크 인쇄, 2024"},
+                        ]
+                    },
+                    {
+                        order: 7, 
+                        number: "08",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "임두현", 
+                        engname: "Doo-hyun Lim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-8.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 7, title: "해부", name: "임두현", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/8-53x45.5.jpg`, width: 4.77, height: 4.095, overview: "45.5x53.0cm", overview1: "Oil on canvas, 2024"},
+                        ]
+                    },
+                    {
+                        order: 8, 
+                        number: "09",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "정다해", 
+                        engname: "Da-hae Jeong",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-9.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 8, title: "성 소수자들", name: "정다해", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/9-72x90.jpg`, width: 3.6, height: 4.5, overview: "90x72cm", overview1: "Oil on canvas, 2022"},
+                        ]
+                    },
+                    {
+                        order: 9, 
+                        number: "10",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "한병욱", 
+                        engname: "Byeong-Wook Han",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-10.jpeg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 9, title: "리워야단-장고항 앞바다", name: "한병욱", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/10-60.5x45.3.jpeg`, width: 5.445, height: 4.077, overview: "45.3x60.5cm", overview1: "캔버스에 아크릴릭, 2022"},
+                        ]
+                    },
+                    {
+                        order: 10, 
+                        number: "11",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "권해영", 
+                        engname: "Haeyoung Kwon",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-11.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 10, title: "소망(所望)", name: "권해영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/11-102.4x76.8.jpg`, width: 4.096, height: 3.072, overview: "10x10x30cm", overview1: "블랙마운틴, 백조형토, 조합토, 흑토, 사모트, 2024 (3ps)"},
+                        ]
+                    },
+                    {
+                        order: 11, 
+                        number: "12",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "라현희", 
+                        engname: "Hyeon-hee Ra",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-12.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 11, title: "별과의 대화시간", name: "라현희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/12-60.6x60.6.jpg`, width: 4.242, height: 4.242, overview: "60.6x60.6cm", overview1: "Mixed media, 2024"},
+                        ]
+                    },
+                    {
+                        order: 12, 
+                        number: "13",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "류승주", 
+                        engname: "Seung-ju Ryu",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-13.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 12, title: "울면에서", name: "류승주", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/13-72.7x60.6.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "광목천에 채색, 목탄, 아크릴, 2024"},
+                        ]
+                    },
+                    {
+                        order: 13, 
+                        number: "14",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "류정현", 
+                        engname: "Jeong-hyeon Ryu",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-14.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 13, title: "볼거야 들을거야 말할거야", name: "류정현", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/14-72.7x90.9.jpg`, width: 4.362, height: 5.454, overview: "90.9x72.7cm", overview1: "캔버스에 유채, 2024"},
+                        ]
+                    },
+                    {
+                        order: 14, 
+                        number: "15",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "맹동환", 
+                        engname: "Dong-hwan Maeng",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-15.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 14, title: "Dong 2", name: "맹동환", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/15-75x202.jpg`, width: 2.25, height: 6.06, overview: "202x75cm", overview1: "면에 잉크 인쇄, 2024"},
+                        ]
+                    },
+                    {
+                        order: 15, 
+                        number: "16",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "박대현", 
+                        engname: "Daehyun Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-16.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 15, title: "Green Emotion", name: "박대현", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/16-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "29x29x31cm", overview1: "유리, 2024"},
+                        ]
+                    },
+                    {
+                        order: 16, 
+                        number: "17",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "박혜선", 
+                        engname: "Hye-sun Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-17.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 16, title: "올랭피아", name: "박혜선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/17-90.9x72.7.jpg`, width: 4.545, height: 3.635, overview: "72.9x90.9cm", overview1: "캔버스에 유채, 2024"},
+                        ]
+                    },
+                    {
+                        order: 17, 
+                        number: "18",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "홍단빈", 
+                        engname: "Danbin Hong",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-18.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 17, title: "기다리다", name: "홍단빈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/18-90.9x72.7.jpg`, width: 4.545, height: 3.635, overview: "72.9x90.9cm", overview1: "캔버스에 유채, 2024"},
+                        ]
+                    },
+                    {
+                        order: 18, 
+                        number: "19",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "정규림", 
+                        engname: "Gyu-rim Jung",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-19.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 18, title: "", name: "정규림", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/19-56.2x67.4.png`, width: 5.058, height: 6.066, overview: "56.2x67.4cm", overview1: ""},
+                        ]
+                    },
+                    {
+                        order: 19, 
+                        number: "20",
+                        title:"Ground of Artistic Sense 1/2", 
+                        name: "황수진", 
+                        engname: "Sujin Hwang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-20.jpeg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 19, title: "짓-눌래다", name: "황수진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/20-102.4x68.3.jpeg`, width: 5.12, height: 3.415, overview: "114x84x40cm", overview1: "종이, 목공풀, 연필, 2024"},
+                        ]
+                    },
+                ],
+            },
         ]
     },
     {

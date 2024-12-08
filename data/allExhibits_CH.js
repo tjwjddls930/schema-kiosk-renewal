@@ -1728,6 +1728,321 @@ export const allExhibits_CH = [
                     },
                 ],
             },
+            {
+                order: 9, 
+                type:"舍玛美术馆青年艺术家特展", 
+                title:"艺术感的基础1/2", 
+                time: "2024/11/28 ~ 2024/12/06, 2024/12/07 ~ 2024/12/15", 
+                artist: "康德, 金敏京, 金亨镇, 朴润瑞, 潘胜贤, 宋允正, 李钟洙, 林斗贤, 郑多海, 韩秉旭, 权海英, 罗贤熙, 柳承柱, 柳正贤, 孟东焕, 朴大贤, 朴惠善, 郑奎林, 洪丹彬, 黄秀珍", 
+                location: "示玛博物馆", 
+                host: "示玛博物馆", 
+                support: "忠清北道, 清州市", 
+                explanation: "Schema艺术博物馆每年都会策划一次年轻艺术家可以参加的展览，以振兴当地的艺术生态系统，创造可持续的创作环境。该项目力求将其作用从简单的展览扩展到一个促进艺术家之间交流、交流彼此作品反馈并促进共同成长的平台。通过这些努力，Schema 艺术博物馆希望为当地社区增添艺术多样性和包容性，成为年轻艺术家发声的空间。在本次展览中，年轻艺术家以视觉方式表达他们的内心世界，并将他们的个人经历和日常感知重构为新的形式。这个过程超越了简单的艺术表达，成为与观众沟通和联系的重要手段。 “艺术感之地1/2”将为年轻艺术家提供自由探索自我身份和感官的机会，并将成为一个通过与参观者分享他们的艺术旅程来扩大相互理解和同理心的空间。这是一个重要的过程，表明艺术可以从个人的创造力和热情开始，并与更广泛的社区建立联系，通过这次展览，它不仅是展示作品，而且还帮助年轻艺术家建立自己的职业生涯并提供艺术创作。借此机会进入市场并探索自己的身份，我们希望分享他们创作过程中的感受，为构建可持续的艺术生态系统做出贡献。",         
+                author: "舍玛艺术博物馆馆长 / Youngae Han",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2024/24-9.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"艺术感的基础1/2", 
+                        name: "康德", 
+                        engname: "Tak Kang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-1.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 0, title: "逆戟鲸", name: "康德", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/1-60.6x72.7.jpg`, width: 3.03, height: 3.635, overview: "72.7x60.6cm", overview1: "布面油画，钢笔，记号笔，2024年"},
+                        ]
+                    },
+                    {
+                        order: 1, 
+                        number: "02",
+                        title:"艺术感的基础1/2", 
+                        name: "金珉璟", 
+                        engname: "Min-kyung Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-2.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 1, title: "《挫败感》", name: "金珉璟", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/2-50x60.6.jpg`, width: 3, height: 3.636, overview: "60.6x50cm", overview1: "布面丙烯，2023"},
+                          ]
+                    },
+                    {
+                        order: 2, 
+                        number: "03",
+                        title:"艺术感的基础1/2", 
+                        name: "金亨镇", 
+                        engname: "Hyungjin Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-3.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 2, title: "水滴", name: "金亨镇", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/3-75x202.png`, width: 3, height: 8.08, overview: "202x75cm", overview1: "棉质墨水印刷，2024年"},
+                        ]
+                    },
+                    {
+                        order: 3, 
+                        number: "04",
+                        title:"艺术感的基础1/2", 
+                        name: "朴润绪", 
+                        engname: "Yoon-seo Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-4.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 3, title: "Hide Sneacap", name: "朴润绪", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/4-300x200.jpg`, width: 6, height: 4, overview: "15x30x23cm", overview1: "白瓷和火葬场，2023年（3件）"},
+                        ]
+                    },
+                    {
+                        order: 4, 
+                        number: "05",
+                        title:"艺术感的基础1/2", 
+                        name: "潘胜贤", 
+                        engname: "Seunghyeon Ban",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-5.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 4, title: "96711", name: "潘胜贤", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/5-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "布面油画, 2024"},
+                        ]
+                    },
+                    {
+                        order: 5, 
+                        number: "06",
+                        title:"艺术感的基础1/2", 
+                        name: "宋润贞", 
+                        engname: "Yun-jeong Song",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-6.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 5, title: "《相遇》", name: "宋润贞", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/6-72.7x116.8.png`, width: 3.635, height: 5.84, overview: "116.8x72.7cm", overview1: "布面油画，2024"},
+                        ]
+                    },
+                    {
+                        order: 6, 
+                        number: "07",
+                        title:"艺术感的基础1/2", 
+                        name: "李钟秀", 
+                        engname: "Jongsu Lee",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-7.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 6, title: "《纹身寺》", name: "李钟秀", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/7-75x202.jpg`, width: 2.25, height: 6.06, overview: "202x75cm", overview1: "棉质墨水印花，2024年"},
+                        ]
+                    },
+                    {
+                        order: 7, 
+                        number: "08",
+                        title:"艺术感的基础1/2", 
+                        name: "林斗贤", 
+                        engname: "Doo-hyun Lim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-8.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 7, title: "解剖学", name: "林斗贤", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/8-53x45.5.jpg`, width: 4.77, height: 4.095, overview: "45.5x53.0cm", overview1: "布面油画，2024"},
+                        ]
+                    },
+                    {
+                        order: 8, 
+                        number: "09",
+                        title:"艺术感的基础1/2", 
+                        name: "郑多海", 
+                        engname: "Da-hae Jeong",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-9.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 8, title: "性少数", name: "郑多海", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/9-72x90.jpg`, width: 3.6, height: 4.5, overview: "90x72cm", overview1: "布面油画，2022"},
+                        ]
+                    },
+                    {
+                        order: 9, 
+                        number: "10",
+                        title:"艺术感的基础1/2", 
+                        name: "韩秉旭", 
+                        engname: "Byeong-Wook Han",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-10.jpeg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 9, title: "利维坦-长戈港近海", name: "韩秉旭", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/10-60.5x45.3.jpeg`, width: 5.445, height: 4.077, overview: "45.3x60.5cm", overview1: "布面丙烯，2022年"},
+                        ]
+                    },
+                    {
+                        order: 10, 
+                        number: "11",
+                        title:"艺术感的基础1/2", 
+                        name: "权海英", 
+                        engname: "Haeyoung Kwon",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-11.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 10, title: "所望", name: "权海英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/11-102.4x76.8.jpg`, width: 4.096, height: 3.072, overview: "10x10x30cm", overview1: "黑山，天鹅模制粘土，组合粘土，黑粘土，Samote，2024（3ps）"},
+                        ]
+                    },
+                    {
+                        order: 11, 
+                        number: "12",
+                        title:"艺术感的基础1/2", 
+                        name: "罗贤熙", 
+                        engname: "Hyeon-hee Ra",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-12.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 11, title: "和星星对话的时间", name: "罗贤熙", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/12-60.6x60.6.jpg`, width: 4.242, height: 4.242, overview: "60.6x60.6cm", overview1: "综合材料，2024"},
+                        ]
+                    },
+                    {
+                        order: 12, 
+                        number: "13",
+                        title:"艺术感的基础1/2", 
+                        name: "柳承柱", 
+                        engname: "Seung-ju Ryu",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-13.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 12, title: "在蔚面", name: "柳承柱", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/13-72.7x60.6.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "棉布上色，木炭，丙烯，2024"},
+                        ]
+                    },
+                    {
+                        order: 13, 
+                        number: "14",
+                        title:"艺术感的基础1/2", 
+                        name: "柳正贤", 
+                        engname: "Jeong-hyeon Ryu",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-14.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 13, title: "我会看到，我会听到，我会说", name: "柳正贤", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/14-72.7x90.9.jpg`, width: 4.362, height: 5.454, overview: "90.9x72.7cm", overview1: "布面油画，2024"},
+                        ]
+                    },
+                    {
+                        order: 14, 
+                        number: "15",
+                        title:"艺术感的基础1/2", 
+                        name: "孟东焕", 
+                        engname: "Dong-hwan Maeng",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-15.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 14, title: "Dong 2", name: "孟东焕", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/15-75x202.jpg`, width: 2.25, height: 6.06, overview: "202x75cm", overview1: "棉布墨水印刷，2024"},
+                        ]
+                    },
+                    {
+                        order: 15, 
+                        number: "16",
+                        title:"艺术感的基础1/2", 
+                        name: "朴大贤", 
+                        engname: "Daehyun Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-16.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 15, title: "绿色情感", name: "朴大贤", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/16-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "29x29x31cm", overview1: "玻璃，2024"},
+                        ]
+                    },
+                    {
+                        order: 16, 
+                        number: "17",
+                        title:"艺术感的基础1/2", 
+                        name: "朴惠善", 
+                        engname: "Hye-sun Park",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-17.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 16, title: "奥林匹亚", name: "朴惠善", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/17-90.9x72.7.jpg`, width: 4.545, height: 3.635, overview: "72.9x90.9cm", overview1: "布面油画，2024"},
+                        ]
+                    },
+                    {
+                        order: 17, 
+                        number: "18",
+                        title:"艺术感的基础1/2", 
+                        name: "洪丹斌", 
+                        engname: "Danbin Hong",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-18.jpg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 17, title: "等待", name: "洪丹斌", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/18-90.9x72.7.jpg`, width: 4.545, height: 3.635, overview: "72.9x90.9cm", overview1: "布面油画，2024"},
+                        ]
+                    },
+                    {
+                        order: 18, 
+                        number: "19",
+                        title:"艺术感的基础1/2", 
+                        name: "郑正林", 
+                        engname: "Gyu-rim Jung",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-19.png`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 18, title: "", name: "郑正林", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/19-56.2x67.4.png`, width: 5.058, height: 6.066, overview: "56.2x67.4cm", overview1: ""},
+                        ]
+                    },
+                    {
+                        order: 19, 
+                        number: "20",
+                        title:"艺术感的基础1/2", 
+                        name: "黄秀珍", 
+                        engname: "Sujin Hwang",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2024/24-9/24-9-20.jpeg`, 
+                        text: "",
+                        education: "",
+                        individual_exhibition: [],
+                        group_exhibition: [],
+                        paint: [
+                            {order: 19, title: "压碎", name: "黄秀珍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/20-102.4x68.3.jpeg`, width: 5.12, height: 3.415, overview: "114x84x40cm", overview1: "纸，木胶，铅笔，2024"},
+                        ]
+                    },
+                ],
+            },
         ]
     },
     {

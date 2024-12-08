@@ -139,6 +139,28 @@ export const paintList_KOR = [
             {order: 16, title: "카운터 가제트", name: "정성진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/17-79.3x102.4.jpg`, width: 3.965, height: 5.12, overview: "260x140x275cm", overview1: "PLA, 레진, 에폭시 퍼티, 스티로폼, 철, 자석, 폴리스티렌, 디지털 프린트, 스타코, 2023"},
             {order: 17, title: "From the four winds", name: "정성진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-8/18-68.3x102.4.jpg`, width: 3.415, height: 5.12, overview: "105x62x184cm", overview1: "PLA, 레진, 에폭시 퍼티, 스티로폼, 철, 2023"},
         ],
+        [
+            {order: 0, title: "범고래", name: "강 탁", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/1-60.6x72.7.jpg`, width: 3.03, height: 3.635, overview: "72.7x60.6cm", overview1: "캔버스에 유채, 펜, 마커, 2024"},
+            {order: 1, title: "좌절", name: "김민경", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/2-50x60.6.jpg`, width: 3, height: 3.636, overview: "60.6x50cm", overview1: "Acrylic on Canvas, 2023"},
+            {order: 2, title: "물방울", name: "김형진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/3-75x202.png`, width: 3, height: 8.08, overview: "202x75cm", overview1: "면에 잉크 인쇄, 2024"},
+            {order: 3, title: "Hide Sneacap", name: "박윤서", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/4-300x200.jpg`, width: 6, height: 4, overview: "15x30x23cm", overview1: "백자토와 화장토, 2023 (3 pieces)"},
+            {order: 4, title: "96711", name: "반승현", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/5-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91cm", overview1: "Oil on canvas, 2024"},
+            {order: 5, title: "마주치다", name: "송윤정", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/6-72.7x116.8.png`, width: 3.635, height: 5.84, overview: "116.8x72.7cm", overview1: "캔버스에 유채, 2024"},
+            {order: 6, title: "뺏지", name: "이종수", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/7-75x202.jpg`, width: 2.25, height: 6.06, overview: "202x75cm", overview1: "면에 잉크 인쇄, 2024"},
+            {order: 7, title: "해부", name: "임두현", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/8-53x45.5.jpg`, width: 4.77, height: 4.095, overview: "45.5x53.0cm", overview1: "Oil on canvas, 2024"},
+            {order: 8, title: "성 소수자들", name: "정다해", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/9-72x90.jpg`, width: 3.6, height: 4.5, overview: "90x72cm", overview1: "Oil on canvas, 2022"},
+            {order: 9, title: "리워야단-장고항 앞바다", name: "한병욱", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/10-60.5x45.3.jpeg`, width: 5.445, height: 4.077, overview: "45.3x60.5cm", overview1: "캔버스에 아크릴릭, 2022"},
+            {order: 10, title: "소망(所望)", name: "권해영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/11-102.4x76.8.jpg`, width: 4.096, height: 3.072, overview: "10x10x30cm", overview1: "블랙마운틴, 백조형토, 조합토, 흑토, 사모트, 2024 (3ps)"},
+            {order: 11, title: "별과의 대화시간", name: "라현희", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/12-60.6x60.6.jpg`, width: 4.242, height: 4.242, overview: "60.6x60.6cm", overview1: "Mixed media, 2024"},
+            {order: 12, title: "울면에서", name: "류승주", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/13-72.7x60.6.jpg`, width: 4.362, height: 3.636, overview: "60.6x72.7cm", overview1: "광목천에 채색, 목탄, 아크릴, 2024"},
+            {order: 13, title: "볼거야 들을거야 말할거야", name: "류정현", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/14-72.7x90.9.jpg`, width: 4.362, height: 5.454, overview: "90.9x72.7cm", overview1: "캔버스에 유채, 2024"},
+            {order: 14, title: "Dong 2", name: "맹동환", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/15-75x202.jpg`, width: 2.25, height: 6.06, overview: "202x75cm", overview1: "면에 잉크 인쇄, 2024"},
+            {order: 15, title: "Green Emotion", name: "박대현", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/16-102.4x68.3.jpg`, width: 5.12, height: 3.415, overview: "29x29x31cm", overview1: "유리, 2024"},
+            {order: 16, title: "올랭피아", name: "박혜선", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/17-90.9x72.7.jpg`, width: 4.545, height: 3.635, overview: "72.9x90.9cm", overview1: "캔버스에 유채, 2024"},
+            {order: 17, title: "기다리다", name: "홍단빈", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/18-90.9x72.7.jpg`, width: 4.545, height: 3.635, overview: "72.9x90.9cm", overview1: "캔버스에 유채, 2024"},
+            {order: 18, title: "", name: "정규림", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/19-56.2x67.4.png`, width: 5.058, height: 6.066, overview: "56.2x67.4cm", overview1: ""},
+            {order: 19, title: "짓-눌래다", name: "황수진", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/20-102.4x68.3.jpeg`, width: 5.12, height: 3.415, overview: "114x84x40cm", overview1: "종이, 목공풀, 연필, 2024"},
+        ]
     ],
     [
         //2023
