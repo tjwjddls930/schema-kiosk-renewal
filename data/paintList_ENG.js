@@ -161,6 +161,14 @@ export const paintList_ENG = [
             {order: 18, title: "", name: "Gyu-rim Jung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/19-56.2x67.4.png`, width: 5.058, height: 6.066, overview: "56.2x67.4cm", overview1: ""},
             {order: 19, title: "Crushed", name: "Sujin Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/20-102.4x68.3.jpeg`, width: 5.12, height: 3.415, overview: "114x84x40cm", overview1: "paper, wood glue, pencil, 2024"},
         ],
+        [
+            {order: 0, title: "Flowers from the Far East", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "Acrylic on canvas, 2021"},
+            {order: 1, title: "Five Hwatu flowers from the Far East", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "Acrylic on canvas, 2016"},
+            {order: 2, title: "Moon and Sixpence", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "Acrylic on canvas, 2010"},
+            {order: 3, title: "Landscape with Moon", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "Acrylic on canvas, 2021"},
+            {order: 4, title: "My Nostalgic Old Country Thatched House", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "Mixed media, 2021"},
+            {order: 5, title: "Rain and Umbrella", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "Mixed media, 2015"},
+        ]
     ],
     [
         //2023

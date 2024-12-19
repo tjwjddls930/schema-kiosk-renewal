@@ -274,7 +274,10 @@ const CoverflowCarousel = ({index}) => {
             className="swiper coverflow-slider !py-5"
             onSlideChange={(swiper) => handleSlideChange(swiper)}
           >
-            {inputData[language][index].exhibits.map((item, idx)=> {
+            {inputData[language][index].exhibits
+              // .slice()
+              // .sort((a,b) => b.order- a.order)
+              .map((item, idx)=> {
               const {order, title, img, author, location1} = item;
               return (
                 <SwiperSlide key={idx}>

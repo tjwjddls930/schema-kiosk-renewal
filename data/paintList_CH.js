@@ -161,6 +161,14 @@ export const paintList_CH = [
             {order: 18, title: "", name: "郑正林", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/19-56.2x67.4.png`, width: 5.058, height: 6.066, overview: "56.2x67.4cm", overview1: ""},
             {order: 19, title: "压碎", name: "黄秀珍", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-9/20-102.4x68.3.jpeg`, width: 5.12, height: 3.415, overview: "114x84x40cm", overview1: "纸，木胶，铅笔，2024"},
         ],
+        [
+            {order: 0, title: "来自远东的鲜花", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "布面丙烯, 2021"},
+            {order: 1, title: "五朵来自远东的花图", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "布面丙烯, 2016"},
+            {order: 2, title: "月亮和六便士", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "布面丙烯, 2010"},
+            {order: 3, title: "风景与月亮", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "布面丙烯, 2021"},
+            {order: 4, title: "我怀旧的乡村茅草屋", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "混合媒体, 2021"},
+            {order: 5, title: "雨和伞", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-10/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "混合媒体, 2015"},
+        ]
     ],
     [
         //2023
