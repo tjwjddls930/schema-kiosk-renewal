@@ -1,7 +1,24 @@
 
 export const paintList_VI = [
-     //2024
-     [
+    //2025
+    [
+        [
+            {order: 0, title: "Hoa từ Viễn Đông", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "Acrylic trên canvas, 2021"},
+            {order: 1, title: "Năm bông hoa hwatu từ Viễn Đông", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "Acrylic trên canvas, 2016"},
+            {order: 2, title: "mặt trăng và sáu xu", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "Acrylic trên canvas, 2010"},
+            {order: 3, title: "phong cảnh với mặt trăng", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "Acrylic trên canvas, 2021"},
+            {order: 4, title: "Ngôi nhà tranh quê hương xưa hoài niệm của tôi", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "Phương tiện truyền thông hỗn hợp, 2021"},
+            {order: 5, title: "mưa và ô", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "Phương tiện truyền thông hỗn hợp, 2015"},
+        ],
+        [
+            {order: 0, title: "Những điều nhẹ nhàng", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "25x15x130cm", overview1: "Cheoltong (LU), LED, 2022"},
+            {order: 1, title: "Những điều nhẹ nhàng", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "Gương chiếu hậu, LED, 2024"},
+            {order: 2, title: "Những điều nhẹ nhàng", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "Xốp, dây bện, mũ ngao, LED, 2023"},
+            {order: 3, title: "hơi thở", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "Video đơn kênh, 8 phút, 2025"},
+        ]
+    ],
+    //2024
+    [
         [
             {order: 0, title: "Sự ra đời, thử thách, phép lạ, tình yêu, cuộc sống vĩnh cửu, sự phục sinh", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "acrylic trên vải, 1997"},
             {order: 1, title: "Sự ra đời, thử thách, phép lạ, tình yêu, cuộc sống vĩnh cửu, sự phục sinh", name: "Changbae Hwang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "acrylic trên vải, 1997"},

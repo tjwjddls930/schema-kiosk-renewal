@@ -1,7 +1,146 @@
 
 export const allExhibits_CH = [
     {
-        index: 0,
+        index: 0, 
+        year: 2025,
+        exhibits: [
+            {
+                order:1, 
+                type: "《舍玛美术馆特邀展》",
+                title:"赵英南令人愉快的艺术实验", 
+                time: "2024/12/20 ~ 2025/02/09", 
+                artist: "赵岭南", 
+                location: "示玛博物馆", 
+                host: "示玛博物馆", 
+                support: "", 
+                explanation: "艺术家赵永南拒绝自命不凡或虚伪的态度，是一位让生活和艺术充满幽默和欢乐的“有趣的艺术家”和“流行艺术家”。以“花图”为对话主题，将大众形象和传统游戏文化在现代艺术语境中重新诠释，升华为艺术主题，并以新的视角实现对话性和多义性的阐释。本次展览聚焦艺术家曹英男独特的艺术实验，通过他的“花图”系列展示了普通的日常材料如何成为艺术工具，提出了关于艺术是什么的新问题，并创造了一个流行与艺术性共存的空间。在这里您可以体验赵岭南独特的艺术世界。",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-1.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"赵英南令人愉快的艺术实验", 
+                        name: "赵岭南", 
+                        engname: "Youngnam Cho",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-1/25-1-1.jpg`, 
+                        text: "我是一个有趣的艺术家。在我所有的空闲时间里，我只画我最喜欢的东西，就像其他人一样：钓鱼、围棋或徒步旅行。最近，他还写了一本哲学书，名叫《叔本华Plus》。 上帝赋予了我们幸福生活的权利。我希望我们大家，包括你和我，都能一起玩得开心。我。即使我们不强调，每个人都玩得很开心......",
+                        education: "首尔国立大学声乐系三一圣经学院神学学士",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "2024 年绘画 50 年，像花图雀一样的生活（Jang Eun-seon 画廊，首尔）"},
+                            {order: 2, exhibit: "2024年艺术史：曹英南“昨天”（南原市金秉钟美术馆，南原）"},
+                            {order: 3, exhibit: "2023年曹英南邀请展（Bottega画廊，长兴）"},
+                            {order: 4, exhibit: "2023维纳斯画廊曹英南邀请展（维纳斯画廊，首尔）"},
+                            {order: 5, exhibit: "2022年东远画廊特别邀请展（大邱东远前山画廊）"},
+                            {order: 6, exhibit: "2022年大白广场特别邀请展（大邱大白Prime Hall）"},
+                            {order: 7, exhibit: "2022 Monamur Jo Young-nam Exhibition（莫纳穆尔，牙山）"},
+                            {order: 8, exhibit: "2022年卡内基基金会曹英南特别展（金黑格尔，东滩）"},
+                            {order: 9, exhibit: "2022 年春天即将到来（首尔 Bontae 博物馆）"},
+                            {order: 10, exhibit: "2021 这是 Cho Young-nam（Jang Eun-seon 画廊，首尔）"},
+                            {order: 11, exhibit: "2020 Art、Heart、Hwatu 和 Youngnam Cho（Pica Project，首尔）"},
+                            {order: 12, exhibit: "2020 当代艺术家 Cho Young-nam 的艺术世界一瞥（牙山画廊，牙山）"},
+                            {order: 13, exhibit: "2016 Cho Young-nam 的绘画（GALLERY U.H.M.，首尔）"},
+                            {order: 14, exhibit: "2016看看Me Cho Young-nam展（首尔宫）"},
+                            {order: 15, exhibit: "2014年曹英南绘画展（仁川艺术平台，仁川）"},
+                            {order: 16, exhibit: "2014曹英南欺凌当代艺术展（首尔艺术中心，首尔）"},
+                            {order: 17, exhibit: "2013邀请展COCOLAFRIENDS-40周年纪念展（南木现代与当代，首尔）"},
+                            {order: 18, exhibit: "2012牙山画廊邀请展（牙山牙山画廊）"},
+                            {order: 19, exhibit: "2012 AHAF-SEOUL 特别展览（首尔威斯汀朝鲜酒店）"},
+                            {order: 20, exhibit: "2012 Kim Jaesun Gallery 邀请展 – only to you (Kim Jaesun Gallery, 釜山)"},
+                            {order: 21, exhibit: "2011 Cho Young-nam，绘画45年（光州美术馆，常绿展览馆，光州）"},
+                            {order: 22, exhibit: "...和 ​26 次"}
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2024 熟练的放纵（釜山现代艺术博物馆，釜山）"},
+                            {order: 2, exhibit: "2023 年洛杉矶艺术展（洛杉矶会议中心）"},
+                            {order: 3, exhibit: "2023仁寺艺术博览会（首尔）"},
+                            {order: 4, exhibit: "2022 亚洲艺术节（松岛国际会展中心，仁川）"},
+                            {order: 5, exhibit: "2012 釜山国际画廊艺术节（金在舜画廊，釜山海云台 Centum 酒店）"},
+                            {order: 6, exhibit: "2012 HK CONTEMPORARY (Kim Jaesun Gallery，香港柏丽酒店)"},
+                            {order: 7, exhibit: "2012 首尔开放艺术博览会（Kim Jaesun 画廊，COEX，首尔）"},
+                            {order: 8, exhibit: "2012 AHAF-HK（Kim Jaesun 画廊，香港文华东方酒店）"},
+                            {order: 9, exhibit: "2012画廊艺术节（Kim Jaeseon画廊，COEX，首尔）"},
+                            {order: 10, exhibit: "作为特邀艺术家参加2011 KIF韩国国际艺术博览会"},
+                            {order: 11, exhibit: "2011 ART ASIA MIAMI，（金在顺画廊，迈阿密，美国）"},
+                            {order: 12, exhibit: "2008 THE 3RD WHITE SALE - Cho Young-nam 慈善拍卖会（首尔拍卖空间）"},
+                            {order: 13, exhibit: "2004年光州双年展特别展-韩国特别展（光州双年展馆，光州）"},
+                            {order: 14, exhibit: "1999 韩国流行艺术（首尔成谷美术馆）"},
+                            {order: 15, exhibit: "...以及大约 600 多个"}
+                        ],
+                        paint: [
+                            {order: 0, title: "来自远东的鲜花", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "布面丙烯, 2021"},
+                            {order: 1, title: "五朵来自远东的花图", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "布面丙烯, 2016"},
+                            {order: 2, title: "月亮和六便士", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "布面丙烯, 2010"},
+                            {order: 3, title: "风景与月亮", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "布面丙烯, 2021"},
+                            {order: 4, title: "我怀旧的乡村茅草屋", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "混合媒体, 2021"},
+                            {order: 5, title: "雨和伞", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "混合媒体, 2015"},
+                        ]
+                    },
+                ],
+            },
+            {
+                order:2, 
+                type: "《舍玛美术馆特邀展》",
+                title:"2025金贤俊特别邀请展<来自呼吸无法到达的地方>", 
+                time: "2025/02/21 ~ 2025/03/30", 
+                artist: "金贤俊", 
+                location: "示玛博物馆", 
+                host: "示玛博物馆", 
+                support: "", 
+                explanation: "《来自呼吸不到的地方》讲述了济州岛沿岸收集的消费痕迹。 <The Light Things>收集人类活动的痕迹，例如海洋垃圾和渔具碎片，并使用LED（发光二极管）来可视化存在与灭绝之间的界限。光与物体相结合，捕捉时间带来的变化和多层面的意义。 《呼吸的大块》是在济州岛海岸废弃的混凝土块上完成的作品，在没有单独呼吸装置的情况下，通过屏住呼吸在海中上下移动来完成。这个过程揭示了人类身心的局限性，直接展现了自然与人类之间的张力和边界。",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-2.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"2025金贤俊特别邀请展<来自呼吸无法到达的地方>", 
+                        name: "金贤俊", 
+                        engname: "Hyun Jun Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-2/25-2-1.jpg`, 
+                        text: "",
+                        education: "东国大学艺术学院美术系 雕塑学学士 东国大学研究生院 美术学硕士",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "2024 轻的事物 - 最终存在的事物（济州伊亚艺术空间）"},
+                            {order: 2, exhibit: "2024 Breath (SpaceX/首尔)"},
+                            {order: 3, exhibit: "2024 年之舞（和平文化中心/首尔）"},
+                            {order: 4, exhibit: "2019 How to Bend（Label 画廊，首尔）"},
+                            {order: 5, exhibit: "2009 这是你的礼物（弗里尔斯画廊，首尔）"},
+                            {order: 6, exhibit: "2009 Present or Present（Scape 画廊，首尔）"},
+                            {order: 7, exhibit: "2007 The light thing（锦湖美术馆，首尔）"},
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2024 年每个人的避难所（巨济艾格尼丝公园）"},
+                            {order: 2, exhibit: "2024 年隐形之门（首尔国立大学艺术博物馆，首尔）"},
+                            {order: 3, exhibit: "2024 Perfect Cycle（全州八福艺术工厂）"},
+                            {order: 4, exhibit: "2024年初级艺术教科书出炉（首尔三角山金岩美术馆）"},
+                            {order: 5, exhibit: "2024 NEW WAVE（首尔 COEX）"},
+                            {order: 6, exhibit: "2023年收藏清单（艺术空间IA，济州文化基金会，济州）"},
+                            {order: 7, exhibit: "2023 Art Gwangju 23（光州金大中会展中心）"},
+
+
+
+                            {order: 8, exhibit: "2022 年列表项目（Jikduri 737，抱川文化基金会，抱川）"},
+                            {order: 9, exhibit: "2022 Luxury Fantasy（乌山美术馆，乌山文化基金会，乌山）"},
+                            {order: 10, exhibit: "2021 年旧未来的新常态（涟川砖厂，京畿道文化基金会，涟川）"},
+                            {order: 11, exhibit: "2021芦原月光漫步 - 在月球上看地球（首尔芦原区中溪-东堂县地区，芦原文化基金会）"},
+                            {order: 12, exhibit: "2020 Vista Art‘梦幻倒影’（Vista华克山庄，首尔）"},
+                            {order: 13, exhibit: "2018 年建筑结构（水原 I'Park 艺术博物馆，水原）"},
+                            {order: 14, exhibit: "...还有大约 24 个"}
+                        ],
+                        paint: [
+                            {order: 0, title: "轻的东西", name: "金贤俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "25x15x130cm", overview1: "哲通（LU），LED，2022"},
+                            {order: 1, title: "轻的东西", name: "金贤俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "后视镜，LED，2024"},
+                            {order: 2, title: "轻的东西", name: "金贤俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "聚苯乙烯泡沫塑料、麻线、蛤蜊帽、LED，2023"},
+                            {order: 3, title: "呼吸困难", name: "金贤俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "单频视频，8 分钟，2025 年"},
+                        ]
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        index: 1,
         year: 2024, 
         exhibits: [
             {
@@ -2043,7 +2182,7 @@ export const allExhibits_CH = [
                     },
                 ],
             },
-                        {
+            {
                 order:10, 
                 type: "《舍玛美术馆特邀展》",
                 title:"赵英南令人愉快的艺术实验", 
@@ -2120,7 +2259,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 1,
+        index: 2,
         year: 2023, 
         exhibits: [
             {
@@ -4302,7 +4441,7 @@ export const allExhibits_CH = [
         ]    
     },   
     {
-        index: 2,
+        index: 3,
         year: 2022,
         exhibits: [
             {
@@ -6021,7 +6160,7 @@ export const allExhibits_CH = [
         ]
     }, 
     {
-        index: 3,
+        index: 4,
         year: 2021,
         exhibits: [
             {
@@ -8255,7 +8394,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 4,
+        index: 5,
         year: 2020,
         exhibits: [
             {
@@ -8471,7 +8610,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 5,
+        index: 6,
         year: 2019, 
         exhibits: [
             {
@@ -8631,7 +8770,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 6,
+        index: 7,
         year: 2018,
         exhibits: [
             {
@@ -8805,7 +8944,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 7,
+        index: 8,
         year: 2017,
         exhibits: [
             {
@@ -8923,7 +9062,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 8,
+        index: 9,
         year: 2016,
         exhibits: [
             {
@@ -9097,7 +9236,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 9,
+        index: 10,
         year: 2015,
         exhibits: [
             {
@@ -9313,7 +9452,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 10,
+        index: 11,
         year: 2014,
         exhibits: [
             {
@@ -9487,7 +9626,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 11, 
+        index: 12, 
         year: 2013,
         exhibits: [
             {
@@ -9661,7 +9800,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index: 12,
+        index: 13,
         year: 2012,
         exhibits: [
             {
@@ -9793,7 +9932,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index:13,
+        index:14,
         year:2011,
         exhibits: [
             {
@@ -9939,7 +10078,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index:14,
+        index:15,
         year:2010, 
         exhibits: [
             {
@@ -10001,7 +10140,7 @@ export const allExhibits_CH = [
         ]
     },
     {
-        index:15,
+        index:16,
         year: 2009,
         exhibits: [
             {

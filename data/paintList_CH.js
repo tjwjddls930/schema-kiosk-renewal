@@ -1,7 +1,24 @@
 
 export const paintList_CH = [
-     //2024
-     [
+    //2025
+    [
+        [
+            {order: 0, title: "来自远东的鲜花", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "布面丙烯, 2021"},
+            {order: 1, title: "五朵来自远东的花图", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "布面丙烯, 2016"},
+            {order: 2, title: "月亮和六便士", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "布面丙烯, 2010"},
+            {order: 3, title: "风景与月亮", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "布面丙烯, 2021"},
+            {order: 4, title: "我怀旧的乡村茅草屋", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "混合媒体, 2021"},
+            {order: 5, title: "雨和伞", name: "赵岭南", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "混合媒体, 2015"},
+        ],
+        [
+            {order: 0, title: "轻的东西", name: "金贤俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "25x15x130cm", overview1: "哲通（LU），LED，2022"},
+            {order: 1, title: "轻的东西", name: "金贤俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "后视镜，LED，2024"},
+            {order: 2, title: "轻的东西", name: "金贤俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "聚苯乙烯泡沫塑料、麻线、蛤蜊帽、LED，2023"},
+            {order: 3, title: "呼吸困难", name: "金贤俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "单频视频，8 分钟，2025 年"},
+        ],
+    ],
+    //2024
+    [
         [
             {order: 0, title: "诞生、考验、奇迹、爱、永生、复活", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "布面丙烯, 1997"},
             {order: 1, title: "诞生、考验、奇迹、爱、永生、复活", name: "黄昌培", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "布面丙烯, 1997"},

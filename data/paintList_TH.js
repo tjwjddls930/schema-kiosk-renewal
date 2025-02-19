@@ -1,7 +1,24 @@
 
 export const paintList_TH = [
-     //2024
-     [
+    //2025
+    [
+        [
+            {order: 0, title: "ดอกไม้จากตะวันออกไกล", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "สีอะครีลิคบนผ้าใบ, 2021"},
+            {order: 1, title: "ดอกไม้วาตูห้าดอกจากตะวันออกไกล", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "สีอะครีลิคบนผ้าใบ, 2016"},
+            {order: 2, title: "ดวงจันทร์และหกเพนนี", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "สีอะครีลิคบนผ้าใบ, 2010"},
+            {order: 3, title: "ภูมิทัศน์กับดวงจันทร์", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "สีอะครีลิคบนผ้าใบ, 2021"},
+            {order: 4, title: "บ้านมุงจากในชนบทอันเก่าแก่ของฉัน", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "สื่อผสม, 2021"},
+            {order: 5, title: "ฝนและร่ม", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "สื่อผสม, 2015"},
+        ],
+        [
+            {order: 0, title: "ของเบาๆ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "25x15x130cm", overview1: "ชอลทง (LU), LED, 2022"},
+            {order: 1, title: "ของเบาๆ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "กระจกมองข้างแบบ LED ปี 2024"},
+            {order: 2, title: "ของเบาๆ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "โฟมเกลียว หมวกหอย LED 2023"},
+            {order: 3, title: "ก้อนลมหายใจ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "วิดีโอช่องเดียว 8 นาที 2025"},
+        ]
+    ],
+    //2024
+    [
         [
             {order: 0, title: "การกำเนิด การทดลอง ปาฏิหาริย์ ความรัก ชีวิตนิรันดร์ การฟื้นคืนชีพ", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/1-71.6x72.7.jpg`, width: 4.296, height: 4.362, overview: "310x70cm", overview1: "สีอะครีลิคบนผ้าใบ, 1997"},
             {order: 1, title: "การกำเนิด การทดลอง ปาฏิหาริย์ ความรัก ชีวิตนิรันดร์ การฟื้นคืนชีพ", name: "ชางเบ ฮวาง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2024/24-1/2-71.7x72.8.jpg`, width: 4.302, height: 4.368, overview: "310x70cm", overview1: "สีอะครีลิคบนผ้าใบ, 1997"},

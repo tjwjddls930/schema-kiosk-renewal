@@ -1,5 +1,22 @@
 
 export const paintList_KOR = [
+    //2025
+    [
+        [
+            {order: 0, title: "극동에서 온 꽃", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "Acrylic on canvas, 2021"},
+            {order: 1, title: "극동에서 온 다섯송이의 화투꽃", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "Acrylic on canvas, 2016"},
+            {order: 2, title: "달과 6펜스", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "Acrylic on canvas, 2010"},
+            {order: 3, title: "달이 있는 풍경", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "Acrylic on canvas, 2021"},
+            {order: 4, title: "나의 그리운 옛 시골 초가집", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "Mixed media, 2021"},
+            {order: 5, title: "비와 우산", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "Mixed media, 2015"},
+        ],
+        [
+            {order: 0, title: "The light things", name: "김현준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "25x15x130cm", overview1: "철통(LU), LED, 2022"},
+            {order: 1, title: "The light things", name: "김현준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "사이드미러, LED, 2024"},
+            {order: 2, title: "The light things", name: "김현준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "스티로폼, 노끈, 조개삿갓, LED, 2023"},
+            {order: 3, title: "숨덩어리", name: "김현준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "단채널영상, 8분, 2025"},
+        ],
+    ],
     //2024
     [
         [

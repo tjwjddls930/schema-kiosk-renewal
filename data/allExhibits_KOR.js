@@ -2,6 +2,142 @@
 export const allExhibits_KOR = [
     {
         index: 0,
+        year: 2025,
+        exhibits: [
+            {
+                order:1, 
+                type:"쉐마미술관 기획초대전", 
+                title:"조영남의 유쾌한 예술실험", 
+                time: "2024/12/20 ~ 2025/02/09", 
+                artist: "조영남", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
+                explanation: "조영남 작가는 가식적이거나 위선적인 태도를 배격하며, 삶과 예술을 유머와 즐거움으로 채우는 ‘재미스트’이며 ‘Pop 아티스트’입니다. ‘화투’를 회화의 주제로 삼아, 대중적으로 익숙한 이미지와 전통적인 놀이문화를 현대미술의 맥락으로 재해석하며 예술적 주제로 승화시키며 새로운 관점에서 대화적이고 다의적인 해석을 가능하게 했습니다. 이번 전시는 이러한 조영남 작가의 독특한 예술 실험을 집중 조명하며, 그의 화투 연작을 통해 평범한 일상적 소재가 어떻게 예술적 도구가 될 수 있는지 보여주며 예술이란 무엇인가에 대한 새로운 질문을 던지고, 대중성과 예술성이 공존하는 조영남만의 독창적인 미술 세계를 경험할 수 있는 전시입니다.",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-1.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"조영남의 유쾌한 예술실험", 
+                        name: "조영남", 
+                        engname: "Youngnam Cho",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-1/25-1-1.jpg`, 
+                        text: "나는 재미스트다. 모든 남는 시간에 남들이 낚시, 바둑, 등산하듯 내가 제일 좋아하는 그림을 그릴 뿐이다. 그러다가 최근엔 <쇼펜하우어 플러스>라는 철학에 관한 책까지 써놓았다. 神은 우리에게 재밌게 살 권리를 부여해 주었다. 나, 너 할 것 없이 우리 모두가 재미있게 살았으면 좋겠다. 내가. 강조하지 않아도 모두가 재미있게 살고 있는 중이겠지만 ……",
+                        education: "서울대학교 성악과 TRINITY BIBLE COLLEGE 신학 학사",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "2024 화업 50년, 화투짝 같은 인생 (장은선 갤러리, 서울)"},
+                            {order: 2, exhibit: "2024 예술편력: 조영남 “예스터데이” (남원시립 김병종미술관, 남원)"},
+                            {order: 3, exhibit: "2023 조영남 초대전 (보테가갤러리, 장흥)"},
+                            {order: 4, exhibit: "2023 비너스갤러리 조영남 초대전 (비너스갤러리, 서울)"},
+                            {order: 5, exhibit: "2022 동원화랑 특별 초대전 (갤러리동원 앞산, 대구)"},
+                            {order: 6, exhibit: "2022 대백프라자 특별 초대전 (대백 프라임홀, 대구)"},
+                            {order: 7, exhibit: "2022 모나무르 조영남 전 (모나무르, 아산)"},
+                            {order: 8, exhibit: "2022 카네기리재단 조영남 특별 전시회 (골드헤겔, 동탄)"},
+                            {order: 9, exhibit: "2022 봄이오다 (본태 박물관, 서울)"},
+                            {order: 10, exhibit: "2021 조영남입니다 ( 장은선갤러리, 서울)"},
+                            {order: 11, exhibit: "2020 아트, 하트, 화투 그리고 조영남 (피카프로젝트, 서울)"},
+                            {order: 12, exhibit: "2020 현대미술 조영남의 예술세계를 엿보다 (아산갤러리, 아산)"},
+                            {order: 13, exhibit: "2016 조영남 그림 그리다 (GALLERY U.H.M., 서울)"},
+                            {order: 14, exhibit: "2016 나를 돌아봐 조영남 전시회 (팔레드서울)"},
+                            {order: 15, exhibit: "2014 조영남 그림전시회 (인천아트플랫폼, 인천)"},
+                            {order: 16, exhibit: "2014 조영남의 왕따 현대 미술전 (예술의 전당, 서울)"},
+                            {order: 17, exhibit: "2013 초대전 COCOLAFRIENDS-40주년 기념전 (나무모던앤컨템포러리, 서울)"},
+                            {order: 18, exhibit: "2012 아산갤러리 초대전 (아산갤러리, 아산)"},
+                            {order: 19, exhibit: "2012 AHAF-SEOUL 특별전 (The westin Chosun, 서울)"},
+                            {order: 20, exhibit: "2012 김재선갤러리 초대전 – only to you (김재선갤러리, 부산)"},
+                            {order: 21, exhibit: "2011 조영남, 회화 45년 (광주시립미술관 상록전시관, 광주)"},
+                            {order: 22, exhibit: "...외 26회"}
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2024 능수능란한 관종 (부산 현대미술관, 부산)"},
+                            {order: 2, exhibit: "2023 LA아트쇼 (로스엔젤레스 컨벤션센터)"},
+                            {order: 3, exhibit: "2023 인사아트페어 (서울)"},
+                            {order: 4, exhibit: "2022 아시아 아트페스티벌 (송도컨벤시아, 인천)"},
+                            {order: 5, exhibit: "2012 부산 국제화랑미술제 (김재선갤러리, 센텀호텔 해운대, 부산)"},
+                            {order: 6, exhibit: "2012 HK CONTEMPORARY (김재선갤러리, THE PARK LANE HOTELM HK)"},
+                            {order: 7, exhibit: "2012 서울 오픈아트페어 (김재선갤러리, COEX, 서울)"},
+                            {order: 8, exhibit: "2012 AHAF-HK (김재선갤러리, MANDARIN ORIENTAL HOTEL, HK)"},
+                            {order: 9, exhibit: "2012 화랑미술제 (김재선갤러리, COEX, 서울)"},
+                            {order: 10, exhibit: "2011 KIF 한국 국제아트페어 특별초대전작가로 참여"},
+                            {order: 11, exhibit: "2011 ART ASIA MIAMI, (김재선갤러리, MIAMI, USA)"},
+                            {order: 12, exhibit: "2008 THE 3RD WHITE SALE-조영남과 함께하는 자선경매 (옥션스페이스, 서울)"},
+                            {order: 13, exhibit: "2004 광주비엔날레 특별전-한국특급전 (광주비엔날레관, 광주)"},
+                            {order: 14, exhibit: "1999 한국의 POP ART (성곡미술관, 서울)"},
+                            {order: 15, exhibit: "...외 600여회"}
+                        ],
+                        paint: [
+                            {order: 0, title: "극동에서 온 꽃", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 1, title: "극동에서 온 다섯송이의 화투꽃", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "Acrylic on canvas, 2016"},
+                            {order: 2, title: "달과 6펜스", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "Acrylic on canvas, 2010"},
+                            {order: 3, title: "달이 있는 풍경", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 4, title: "나의 그리운 옛 시골 초가집", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "Mixed media, 2021"},
+                            {order: 5, title: "비와 우산", name: "조영남", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "Mixed media, 2015"},
+                        ]
+                    },
+                ],
+            },
+            {
+                order:2, 
+                type:"쉐마미술관 기획초대전", 
+                title:"2025 김현준 기획초대전 <숨이 닿지 않는 곳으로부터>", 
+                time: "2025/02/21 ~ 2025/03/30", 
+                artist: "김현준", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
+                explanation: "‘숨이 닿지 않는 곳으로부터’는 제주의 해안가에서 수집한 소비의 흔적들을 다룬다. 작가는 해안가를 생산과 소비의 종착지로 바라보고 제주의 해안가와 바다속에 직접 숨을 참으며 다이빙하여 각종 어구와 생활 쓰레기, 난파선의 파편 등을 수집하고 관찰하며 작업한다. 이번 전시에 보여주는 ‘The Light Things’, ‘숨덩어리’ 작품을 통해 인간의 육체적·정신적 한계를 드러내고, 자연과 인간 사이의 긴장과 경계를 직접적으로 보여준다. 김현준 작가는 존재와 소멸, 자연과 인간이 맞닿는 경계를 탐구하며, 변화와 소멸의 흔적을 통해 지금 여기에서 우리가 무엇을 마주하고 있는가에 대해 질문을 던진다.",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-2.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"2025 김현준 기획초대전 <숨이 닿지 않는 곳으로부터>", 
+                        name: "김현준", 
+                        engname: "Hyun Jun Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-2/25-2-1.jpg`, 
+                        text: "‘숨이 닿지 않는 곳으로부터’는 제주의 해안가에서 수집한 소비의 흔적들을 다룬다. <The Light Things>는 해양 쓰레기와 어구 조각 등 인간 활동의 흔적을 수집하고, LED(발광다이오드)를 이용해 존재와 소멸의 경계를 시각화한다. 빛과 사물이 결합하며, 시간이 만든 변화와 다각적인 의미를 담아낸다. <숨덩어리>는 제주 해안의 버려진 콘크리트 덩어리를 대상으로, 별도의 호흡 장치 없이 숨을 참으며 바닷속을 오르내리는 행위로 작업이 이루어진다. 이 과정은 인간의 육체적·정신적 한계를 드러내고, 자연과 인간 사이의 긴장과 경계를 직접적으로 보여준다.",
+                        education: "동국대학교 예술대학 미술학부 조소전공 학사 동대학원 미술학과 석사",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "2024 The light things-비로소 있는 것 (예술공간 이아, 제주)"},
+                            {order: 2, exhibit: "2024 숨덩어리 (스페이스엑스엑스/서울)"},
+                            {order: 3, exhibit: "2024 사물의 춤 (평화문화진지/서울)"},
+                            {order: 4, exhibit: "2019 휘어지는 법 (레이블 갤러리, 서울)"},
+                            {order: 5, exhibit: "2009 It’s your present (프라이어스 갤러리, 서울)"},
+                            {order: 6, exhibit: "2009 Present or Present (스케이프 갤러리, 서울)"},
+                            {order: 7, exhibit: "2007 The light thing (금호미술관, 서울)"},
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2024 모두의 쉘터 (아그네스파크, 거제)"},
+                            {order: 2, exhibit: "2024 보이지 않는 것들의 관문 (서울대 미술관, 서울)"},
+                            {order: 3, exhibit: "2024 완벽한 순환 (팔복예술공장, 전주)"},
+                            {order: 4, exhibit: "2024 초등미술 교과서 밖으로 (삼각산 금암미술관, 서울)"},
+                            {order: 5, exhibit: "2024 NEW WAVE (코엑스, 서울)"},
+                            {order: 6, exhibit: "2023 Collection list (예술공간 이아, 제주문화재단, 제주)"},
+                            {order: 7, exhibit: "2023 아트광주 23 (김대중컨벤션센터, 광주)"},
+                            {order: 8, exhibit: "2022 목록프로젝트 (직두리 737, 포천문화재단, 포천)"},
+                            {order: 9, exhibit: "2022 명품판타지 (오산시립미술관, 오산문화재단, 오산)"},
+                            {order: 10, exhibit: "2021 오래된 미래의 뉴노멀 (연천벽돌공장, 경기문화재단, 연천)"},
+                            {order: 11, exhibit: "2021 노원 달빛산책-달 지구를보다 (노원구중계동당현천일대, 노원문화재단, 서울)"},
+                            {order: 12, exhibit: "2020 비스타 아트‘ Fantastic reflection’ (비스타 워커힐, 서울)"},
+                            {order: 13, exhibit: "2018 구조의 건축 (수원시립아이파크미술관, 수원)"},
+                            {order: 14, exhibit: "...외 24여회"}
+                        ],
+                        paint: [
+                            {order: 0, title: "The light things", name: "김현준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "25x15x130cm", overview1: "철통(LU), LED, 2022"},
+                            {order: 1, title: "The light things", name: "김현준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "사이드미러, LED, 2024"},
+                            {order: 2, title: "The light things", name: "김현준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "스티로폼, 노끈, 조개삿갓, LED, 2023"},
+                            {order: 3, title: "숨덩어리", name: "김현준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "단채널영상, 8분, 2025"},
+                        ]
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        index: 1,
         year: 2024,
         exhibits: [
             {
@@ -2120,7 +2256,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 1,
+        index: 2,
         year: 2023, 
         exhibits: [
             {
@@ -4305,7 +4441,7 @@ export const allExhibits_KOR = [
         ]    
     },   
     {
-        index: 2,
+        index: 3,
         year: 2022,
         exhibits: [
             {
@@ -6022,7 +6158,7 @@ export const allExhibits_KOR = [
         ]
     }, 
     {
-        index: 3,
+        index: 4,
         year: 2021,
         exhibits: [
             {
@@ -8256,7 +8392,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 4,
+        index: 5,
         year: 2020,
         exhibits: [
             {
@@ -8472,7 +8608,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 5,
+        index: 6,
         year: 2019, 
         exhibits: [
             {
@@ -8632,7 +8768,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 6,
+        index: 7,
         year: 2018,
         exhibits: [
             {
@@ -8806,7 +8942,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 7,
+        index: 8,
         year: 2017,
         exhibits: [
             {
@@ -8924,7 +9060,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 8,
+        index: 9,
         year: 2016,
         exhibits: [
             {
@@ -9098,7 +9234,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 9,
+        index: 10,
         year: 2015,
         exhibits: [
             {
@@ -9314,7 +9450,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 10,
+        index: 11,
         year: 2014,
         exhibits: [
             {
@@ -9488,7 +9624,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 11, 
+        index: 12, 
         year: 2013,
         exhibits: [
             {
@@ -9662,7 +9798,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 12,
+        index: 13,
         year: 2012,
         exhibits: [
             {
@@ -9794,7 +9930,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index: 13,
+        index: 14,
         year:2011,
         exhibits: [
             {
@@ -9940,7 +10076,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index:14,
+        index:15,
         year:2010, 
         exhibits: [
             {
@@ -10002,7 +10138,7 @@ export const allExhibits_KOR = [
         ]
     },
     {
-        index:15,
+        index:16,
         year: 2009,
         exhibits: [
             {

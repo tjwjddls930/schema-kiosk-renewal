@@ -2,6 +2,142 @@
 export const allExhibits_ENG = [
     {
         index: 0,
+        year: 2025,
+        exhibits: [
+            {
+                order:1, 
+                type:"Schema Art Museum Special Invitational Exhibition",
+                title:"Young-nam Cho's Delightful Art Experiments", 
+                time: "2024/12/20 ~ 2025/02/09", 
+                artist: "Youngnam Cho", 
+                location: "Schema Art Museum", 
+                host: "Schema Art Museum", 
+                support: "", 
+                explanation: "Artist Youngnam Cho rejects pretentious or hypocritical attitudes and is a ‘fun artist’ and ‘pop artist’ who fills life and art with humor and joy. By using ‘Hwatu’ as the subject of conversation, the popular image and traditional play culture were reinterpreted in the context of modern art, sublimated into an artistic theme, and enabled conversational and polysemic interpretation from a new perspective. This exhibition focuses on artist Cho Young-nam's unique artistic experiments and shows how ordinary, everyday materials can become artistic tools through his Hwatu series, raising new questions about what art is, and creating a space where popularity and artistry coexist. This is an exhibition where you can experience Youngnam Cho’s unique art world.",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-1.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"Young-nam Cho's Delightful Art Experiments", 
+                        name: "Youngnam Cho", 
+                        engname: "Youngnam Cho",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-1/25-1-1.jpg`, 
+                        text: "I am a fun artist. In all my free time, I just draw what I like the most, like other people do: fishing, baduk, or hiking. And recently, he even wrote a book on philosophy called <Schopenhauer Plus>. God has given us the right to live happily. I hope we all, including you and I, can have fun together. I. Even if we don't emphasize it, everyone is having fun.....",
+                        education: "Seoul National University, Department of Vocal Music, TRINITY BIBLE COLLEGE, Bachelor of Theology",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "2024 50 Years of Painting, A Life Like a Hwatujak (Jang Eun-seon Gallery, Seoul)"},
+                            {order: 2, exhibit: "2024 Art History: Cho Young-nam “Yesterday” (Namwon City Kim Byeong-jong Art Museum, Namwon)"},
+                            {order: 3, exhibit: "2023 Cho Young-nam Invitational Exhibition (Bottega Gallery, Jangheung)"},
+                            {order: 4, exhibit: "2023 Venus Gallery Cho Young-nam Invitational Exhibition (Venus Gallery, Seoul)"},
+                            {order: 5, exhibit: "2022 Dongwon Gallery Special Invitational Exhibition (Gallery Dongwon Apsan, Daegu)"},
+                            {order: 6, exhibit: "2022 Daebaek Plaza Special Invitational Exhibition (Daebaek Prime Hall, Daegu)"},
+                            {order: 7, exhibit: "2022 Monamur Cho Young-nam Exhibition (Monamur, Asan)"},
+                            {order: 8, exhibit: "2022 Carnegie Foundation Cho Young-nam Special Exhibition (Gold Hegel, Dongtan)"},
+                            {order: 9, exhibit: "2022 Spring is coming (Bontae Museum, Seoul)"},
+                            {order: 10, exhibit: "2021 This is Cho Young-nam (Jang Eun-seon Gallery, Seoul)"},
+                            {order: 11, exhibit: "2020 Art, Heart, Hwatu and Youngnam Cho (Pica Project, Seoul)"},
+                            {order: 12, exhibit: "2020 A glimpse into the art world of contemporary artist Cho Young-nam (Asan Gallery, Asan)"},
+                            {order: 13, exhibit: "2016 Cho Young-nam's drawing (GALLERY U.H.M., Seoul)"},
+                            {order: 14, exhibit: "2016 Look at Me Cho Young-nam Exhibition (Palais de Seoul)"},
+                            {order: 15, exhibit: "2014 Cho Young-nam Painting Exhibition (Incheon Art Platform, Incheon)"},
+                            {order: 16, exhibit: "2014 Cho Young-nam's Bullying Contemporary Art Exhibition (Seoul Arts Center, Seoul)"},
+                            {order: 17, exhibit: "2013 Invitational Exhibition COCOLAFRIENDS-40th Anniversary Exhibition (Namu Modern & Contemporary, Seoul)"},
+                            {order: 18, exhibit: "2012 Asan Gallery Invitational Exhibition (Asan Gallery, Asan)"},
+                            {order: 19, exhibit: "2012 AHAF-SEOUL Special Exhibition (The westin Chosun, Seoul)"},
+                            {order: 20, exhibit: "2012 Kim Jaesun Gallery Invitational Exhibition – only to you (Kim Jaesun Gallery, Busan)"},
+                            {order: 21, exhibit: "2011 Cho Young-nam, 45 years of painting (Gwangju Museum of Art, Sangnok Exhibition Hall, Gwangju)"},
+                            {order: 22, exhibit: "...and 26 times"}
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2024 Skillful Indulgence (Busan Museum of Modern Art, Busan)"},
+                            {order: 2, exhibit: "2023 LA Art Show (Los Angeles Convention Center)"},
+                            {order: 3, exhibit: "2023 Insa Art Fair (Seoul)"},
+                            {order: 4, exhibit: "2022 Asia Art Festival (Songdo Convensia, Incheon)"},
+                            {order: 5, exhibit: "2012 Busan International Gallery Art Festival (Kim Jaesun Gallery, Centum Hotel Haeundae, Busan)"},
+                            {order: 6, exhibit: "2012 HK CONTEMPORARY (Kim Jaesun Gallery, THE PARK LANE HOTELM HK)"},
+                            {order: 7, exhibit: "2012 Seoul Open Art Fair (Kim Jaesun Gallery, COEX, Seoul)"},
+                            {order: 8, exhibit: "2012 AHAF-HK (Kim Jaesun Gallery, MANDARIN ORIENTAL HOTEL, HK)"},
+                            {order: 9, exhibit: "2012 Gallery Art Festival (Kim Jaeseon Gallery, COEX, Seoul)"},
+                            {order: 10, exhibit: "Participating as a special invited artist at the 2011 KIF Korea International Art Fair"},
+                            {order: 11, exhibit: "2011 ART ASIA MIAMI, (Kim Jaesun Gallery, MIAMI, USA)"},
+                            {order: 12, exhibit: "2008 THE 3RD WHITE SALE-Charity Auction with Cho Young-nam (Auction Space, Seoul)"},
+                            {order: 13, exhibit: "2004 Gwangju Biennale Special Exhibition-Korea Special Exhibition (Gwangju Biennale Hall, Gwangju)"},
+                            {order: 14, exhibit: "1999 Korean POP ART (Sungkok Museum of Art, Seoul)"},
+                            {order: 15, exhibit: "...and about 600 more"}
+                        ],
+                        paint: [
+                            {order: 0, title: "Flowers from the Far East", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 1, title: "Five Hwatu flowers from the Far East", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "Acrylic on canvas, 2016"},
+                            {order: 2, title: "Moon and Sixpence", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "Acrylic on canvas, 2010"},
+                            {order: 3, title: "Landscape with Moon", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "Acrylic on canvas, 2021"},
+                            {order: 4, title: "My Nostalgic Old Country Thatched House", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "Mixed media, 2021"},
+                            {order: 5, title: "Rain and Umbrella", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "Mixed media, 2015"},
+                        ]
+                    },
+                ],
+            },
+            {
+                order:2, 
+                type:"Schema Art Museum Special Invitational Exhibition",
+                title:"2025 Kim Hyun-jun Special Invitation Exhibition <From a place where breath cannot reach>", 
+                time: "2025/02/21 ~ 2025/03/30", 
+                artist: "Hyun Jun Kim", 
+                location: "Schema Art Museum", 
+                host: "Schema Art Museum", 
+                support: "", 
+                explanation: "‘From a Place Where Breath Can’t Reach’ deals with traces of consumption collected along the coast of Jeju. The artist views the coast as the destination of production and consumption, and dives directly into the coast and sea of ​​Jeju while holding his breath to collect and observe various fishing gear, household waste, and shipwreck fragments. The works ‘The Light Things’ and ‘Breath’ shown in this exhibition reveal the physical and mental limitations of humans and directly show the tension and boundaries between nature and humans. Artist Hyunjun Kim explores the boundaries between existence and extinction, nature and humans, and raises questions about what we are facing here and now through traces of change and extinction.",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-2.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"2025 Kim Hyun-jun Special Invitation Exhibition <From a place where breath cannot reach>", 
+                        name: "Hyun Jun Kim", 
+                        engname: "Hyun Jun Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-2/25-2-1.jpg`, 
+                        text: "‘From a Place Where Breath Can’t Reach’ deals with traces of consumption collected along the coast of Jeju. <The Light Things> collects traces of human activity, such as marine debris and pieces of fishing gear, and uses LEDs (light-emitting diodes) to visualize the boundary between existence and extinction. Light and objects combine, capturing the changes created by time and multifaceted meaning. <Hunk of Breath> is a piece of work done on an abandoned concrete block on the coast of Jeju Island, and is performed by holding one's breath and going up and down in the sea without a separate breathing device. This process reveals human physical and mental limitations and directly shows the tension and boundary between nature and humans.",
+                        education: "Bachelor's degree in sculpture, Department of Fine Arts, Dongguk University, Master's degree in Fine Arts, Dongguk University",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "2024 The light things - Things that finally exist (Art Space Oia, Jeju)"},
+                            {order: 2, exhibit: "2024 Breath (SpaceX/Seoul)"},
+                            {order: 3, exhibit: "2024 Dance of Things (Peace Culture Center/Seoul)"},
+                            {order: 4, exhibit: "2019 How to Bend (Label Gallery, Seoul)"},
+                            {order: 5, exhibit: "2009 It’s your present (Friers Gallery, Seoul)"},
+                            {order: 6, exhibit: "2009 Present or Present (Scape Gallery, Seoul)"},
+                            {order: 7, exhibit: "2007 The light thing (Kumho Museum of Art, Seoul)"},
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2024 Everyone's Shelter (Agnes Park, Geoje)"},
+                            {order: 2, exhibit: "2024 Gateway to the Invisible (Seoul National University Museum of Art, Seoul)"},
+                            {order: 3, exhibit: "2024 Perfect Cycle (Palbok Art Factory, Jeonju)"},
+                            {order: 4, exhibit: "2024 Elementary Art Textbook Out (Samgaksan Geumam Museum of Art, Seoul)"},
+                            {order: 5, exhibit: "2024 NEW WAVE (COEX, Seoul)"},
+                            {order: 6, exhibit: "2023 Collection list (Art Space IA, Jeju Cultural Foundation, Jeju)"},
+                            {order: 7, exhibit: "2023 Art Gwangju 23 (Kimdaejung Convention Center, Gwangju)"},
+                            {order: 8, exhibit: "2022 List Project (Jikduri 737, Pocheon Cultural Foundation, Pocheon)"},
+                            {order: 9, exhibit: "2022 Luxury Fantasy (Osan Museum of Art, Osan Cultural Foundation, Osan)"},
+                            {order: 10, exhibit: "2021 New Normal of the Old Future (Yeoncheon Brick Factory, Gyeonggi Cultural Foundation, Yeoncheon)"},
+                            {order: 11, exhibit: "2021 Nowon Moonlight Walk - See the Earth on the Moon (Nowon-gu Junggye-dongdanghyeoncheon area, Nowon Cultural Foundation, Seoul)"},
+                            {order: 12, exhibit: "2020 Vista Art ‘Fantastic reflection’ (Vista Walkerhill, Seoul)"},
+                            {order: 13, exhibit: "2018 Structure of Architecture (Suwon I'Park Museum of Art, Suwon)"},
+                            {order: 14, exhibit: "...and about 24 more"}
+                        ],
+                        paint: [
+                            {order: 0, title: "The light things", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "25x15x130cm", overview1: "LU, LED, 2022"},
+                            {order: 1, title: "The light things", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "Side mirror, LED, 2024"},
+                            {order: 2, title: "The light things", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "Styrofoam, twine, clam hat, LED, 2023"},
+                            {order: 3, title: "Lump of breath", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "Single-channel video, 8 minutes, 2025"},
+                        ]
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        index: 1,
         year: 2024,
         exhibits: [
             {
@@ -2043,7 +2179,7 @@ export const allExhibits_ENG = [
                     },
                 ],
             },
-             {
+            {
                 order:10, 
                 type:"Schema Art Museum Special Invitational Exhibition",
                 title:"Young-nam Cho's Delightful Art Experiments", 
@@ -2120,7 +2256,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 1,
+        index: 2,
         year: 2023, 
         exhibits: [
             {
@@ -4304,7 +4440,7 @@ export const allExhibits_ENG = [
         ]    
     },   
     {
-        index: 2,
+        index: 3,
         year: 2022,
         exhibits: [
             {
@@ -6021,7 +6157,7 @@ export const allExhibits_ENG = [
         ]
     }, 
     {
-        index: 3,
+        index: 4,
         year: 2021,
         exhibits: [
             {
@@ -8254,7 +8390,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 4,
+        index: 5,
         year: 2020,
         exhibits: [
             {
@@ -8468,7 +8604,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 5,
+        index: 6,
         year: 2019, 
         exhibits: [
             {
@@ -8628,7 +8764,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 6,
+        index: 7,
         year: 2018,
         exhibits: [
             {
@@ -8802,7 +8938,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 7,
+        index: 8,
         year: 2017,
         exhibits: [
             {
@@ -8920,7 +9056,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 8,
+        index: 9,
         year: 2016,
         exhibits: [
             {
@@ -9094,7 +9230,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 9,
+        index: 10,
         year: 2015,
         exhibits: [
             {
@@ -9310,7 +9446,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 10,
+        index: 11,
         year: 2014,
         exhibits: [
             {
@@ -9484,7 +9620,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 11, 
+        index: 12, 
         year: 2013,
         exhibits: [
             {
@@ -9658,7 +9794,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index: 12,
+        index: 13,
         year: 2012,
         exhibits: [
             {
@@ -9790,7 +9926,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index:13,
+        index:14,
         year:2011,
         exhibits: [
             {
@@ -9936,7 +10072,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index:14,
+        index:15,
         year:2010, 
         exhibits: [
             {
@@ -9998,7 +10134,7 @@ export const allExhibits_ENG = [
         ]
     },
     {
-        index:15,
+        index:16,
         year: 2009,
         exhibits: [
             {

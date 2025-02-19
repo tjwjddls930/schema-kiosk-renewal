@@ -1,5 +1,22 @@
 
 export const paintList_ENG = [
+    //2025
+    [
+        [
+            {order: 0, title: "Flowers from the Far East", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "Acrylic on canvas, 2021"},
+            {order: 1, title: "Five Hwatu flowers from the Far East", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "Acrylic on canvas, 2016"},
+            {order: 2, title: "Moon and Sixpence", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "Acrylic on canvas, 2010"},
+            {order: 3, title: "Landscape with Moon", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "Acrylic on canvas, 2021"},
+            {order: 4, title: "My Nostalgic Old Country Thatched House", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "Mixed media, 2021"},
+            {order: 5, title: "Rain and Umbrella", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "Mixed media, 2015"},
+        ],
+        [
+            {order: 0, title: "The light things", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "25x15x130cm", overview1: "LU, LED, 2022"},
+            {order: 1, title: "The light things", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "Side mirror, LED, 2024"},
+            {order: 2, title: "The light things", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "Styrofoam, twine, clam hat, LED, 2023"},
+            {order: 3, title: "Lump of breath", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "Single-channel video, 8 minutes, 2025"},
+        ]
+    ],
      //2024
      [
         [

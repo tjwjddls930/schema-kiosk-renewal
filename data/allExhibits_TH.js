@@ -2,6 +2,142 @@
 export const allExhibits_TH = [
     {
         index: 0,
+        year: 2025,
+        exhibits: [
+            {
+                order:1, 
+                type:"นิทรรศการพิเศษเชิญพิพิธภัณฑ์ศิลปะ Schema",
+                title:"การทดลองทางศิลปะอันน่ารื่นรมย์ของโจยองนัม", 
+                time: "2024/12/20 ~ 2025/02/09", 
+                artist: "ยองนัม โช", 
+                location: "พิพิธภัณฑ์ Schema", 
+                host: "พิพิธภัณฑ์ Schema", 
+                support: "", 
+                explanation: "ศิลปิน Youngnam Cho ปฏิเสธทัศนคติเสแสร้งหรือหน้าซื่อใจคด และเป็น 'ศิลปินที่สนุกสนาน' และ 'ศิลปินป๊อป' ที่เติมเต็มชีวิตและศิลปะด้วยอารมณ์ขันและความสุข การใช้ 'Hwatu' เป็นหัวข้อสนทนา ทำให้ภาพลักษณ์ที่เป็นที่นิยมและวัฒนธรรมการเล่นแบบดั้งเดิมได้รับการตีความใหม่ในบริบทของศิลปะสมัยใหม่ กลายเป็นธีมทางศิลปะ และเปิดใช้งานการตีความการสนทนาและความหลากหลายจากมุมมองใหม่ นิทรรศการนี้มุ่งเน้นไปที่การทดลองทางศิลปะอันเป็นเอกลักษณ์ของศิลปิน Cho Young-nam และแสดงให้เห็นว่าวัสดุธรรมดาๆ ในชีวิตประจำวันสามารถกลายเป็นเครื่องมือทางศิลปะได้อย่างไรผ่านซีรีส์ Hwatu ของเขา ทำให้เกิดคำถามใหม่เกี่ยวกับศิลปะคืออะไร และสร้างพื้นที่ที่ความนิยมและศิลปะอยู่ร่วมกัน นี่คือนิทรรศการ ที่ซึ่งคุณจะได้สัมผัสกับโลกศิลปะอันเป็นเอกลักษณ์ของ Youngnam Cho",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-1.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"การทดลองทางศิลปะอันน่ารื่นรมย์ของโจยองนัม", 
+                        name: "ยองนัม โช", 
+                        engname: "Youngnam Cho",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-1/25-1-1.jpg`, 
+                        text: "ฉันเป็นศิลปินที่สนุกสนาน ในเวลาว่างของฉัน ฉันก็แค่วาดสิ่งที่ฉันชอบมากที่สุด เหมือนที่คนอื่นๆ ทำ เช่น ตกปลา บาดุก หรือเดินป่า และเมื่อไม่นานมานี้ เขายังเขียนหนังสือเกี่ยวกับปรัชญาชื่อ <Schopenhauer Plus> อีกด้วย พระเจ้าประทานสิทธิให้เรามีชีวิตอย่างมีความสุข ฉันหวังว่าเราทุกคน รวมทั้งคุณและฉัน จะได้สนุกด้วยกัน ฉัน. ถึงแม้จะไม่เน้นย้ำ แต่ทุกคนก็สนุกสนาน...",
+                        education: "มหาวิทยาลัยแห่งชาติโซล, ภาควิชาดนตรีขับร้อง, วิทยาลัยทรินิตี้ไบเบิล, ปริญญาตรีสาขาเทววิทยา",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "2024 50 ปีแห่งจิตรกรรม ชีวิตเหมือนฮวาตูจัก (แกลเลอรีจาง อึนซอน โซล)"},
+                            {order: 2, exhibit: "ประวัติศาสตร์ศิลปะปี 2024: Cho Young-nam “เมื่อวาน” (พิพิธภัณฑ์ศิลปะ Kim Byeong-jong เมืองนัมวอน, Namwon)"},
+                            {order: 3, exhibit: "นิทรรศการเชิญ Cho Young-nam ประจำปี 2023 (Bottega Gallery, Jangheung)"},
+                            {order: 4, exhibit: "นิทรรศการ Venus Gallery Cho Young-nam ประจำปี 2023 (Venus Gallery, โซล)"},
+                            {order: 5, exhibit: "นิทรรศการพิเศษเชิญแกลเลอรี Dongwon ประจำปี 2022 (แกลเลอรี Dongwon Apsan แทกู)"},
+                            {order: 6, exhibit: "นิทรรศการเชิญพิเศษ Daebaek Plaza ประจำปี 2022 (Daebaek Prime Hall, แทกู)"},
+                            {order: 7, exhibit: "นิทรรศการ Monamur Jo Young-nam ประจำปี 2022 (โมนามูร์ อาซัน)"},
+                            {order: 8, exhibit: "2022 Carnegie Foundation Cho Young-nam Special Exhibition (Gold Hegel, Dongtan)"},
+                            {order: 9, exhibit: "ฤดูใบไม้ผลิปี 2022 กำลังมา (พิพิธภัณฑ์ Bontae โซล)"},
+                            {order: 10, exhibit: "2021 นี่คือ Cho Young-nam (Jang Eun-seon Gallery, โซล)"},
+                            {order: 11, exhibit: "2020 Art, Heart, Hwatu และ Youngnam Cho (Pica Project, โซล)"},
+                            {order: 12, exhibit: "2020 สัมผัสโลกศิลปะของศิลปินร่วมสมัย Cho Young-nam (Asan Gallery, Asan)"},
+                            {order: 13, exhibit: "ภาพวาดของ Cho Young-nam ปี 2016 (GALLERY U.H.M., โซล)"},
+                            {order: 14, exhibit: "นิทรรศการ Look at Me Cho Young-nam (Palais de Seoul) ปี 2016"},
+                            {order: 15, exhibit: "นิทรรศการจิตรกรรม Cho Young-nam ประจำปี 2014 (แท่นศิลปะอินชอน, อินชอน)"},
+                            {order: 16, exhibit: "นิทรรศการศิลปะร่วมสมัย Bullying ของ Cho Young-nam ประจำปี 2014 (ศูนย์ศิลปะโซล กรุงโซล)"},
+                            {order: 17, exhibit: "นิทรรศการเชิญปี 2013 COCOLAFRIENDS-40th Anniversary Exhibition (Namu Modern & Contemporary, โซล)"},
+                            {order: 18, exhibit: "นิทรรศการเชิญหอศิลป์อาซัน 2012 (หอศิลป์อาซัน อาซัน)"},
+                            {order: 19, exhibit: "นิทรรศการพิเศษ AHAF-SEOUL ประจำปี 2012 (เดอะเวสทินโชซัน โซล)"},
+                            {order: 20, exhibit: "นิทรรศการเชิญแกลเลอรี่ Kim Jaesun ประจำปี 2012 – สำหรับคุณเท่านั้น (Kim Jaesun Gallery, ปูซาน)"},
+                            {order: 21, exhibit: "2011 Cho Young-nam, 45 ปีแห่งการวาดภาพ (พิพิธภัณฑ์ศิลปะกวางจู, ศูนย์นิทรรศการ Sangnok, กวางจู)"},
+                            {order: 22, exhibit: "...และ 26 ครั้ง"}
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2024 Skillful Indulgence (พิพิธภัณฑ์ศิลปะสมัยใหม่ปูซาน ปูซาน)"},
+                            {order: 2, exhibit: "งานแสดงศิลปะแอลเอประจำปี 2023 (ศูนย์การประชุมลอสแอนเจลิส)"},
+                            {order: 3, exhibit: "งาน Insa Art Fair (โซล) ปี 2023"},
+                            {order: 4, exhibit: "เทศกาลศิลปะเอเชียปี 2022 (ซองโดคอนเวนเซีย อินชอน)"},
+                            {order: 5, exhibit: "เทศกาลศิลปะหอศิลป์นานาชาติปูซานประจำปี 2012 (หอศิลป์ Kim Jaesun, โรงแรม Centum Haeundae, ปูซาน)"},
+                            {order: 6, exhibit: "2012 HK CONTEMPORARY (Kim Jaesun Gallery, THE PARK LANE HOTELM HK)"},
+                            {order: 7, exhibit: "งานแสดงศิลปะกรุงโซลประจำปี 2012 (Kim Jaesun Gallery, COEX, โซล)"},
+                            {order: 8, exhibit: "2012 AHAF-HK (Kim Jaesun Gallery, MANDARIN ORIENTAL HOTEL, HK)"},
+                            {order: 9, exhibit: "เทศกาลศิลปะแกลเลอรีปี 2012 (Kim Jaeseon Gallery, COEX, โซล)"},
+                            {order: 10, exhibit: "เข้าร่วมในฐานะศิลปินรับเชิญพิเศษในงาน 2011 KIF Korea International Art Fair"},
+                            {order: 11, exhibit: "2011 ART ASIA MIAMI, (Kim Jaesun Gallery, ไมอามี, สหรัฐอเมริกา)"},
+                            {order: 12, exhibit: "2008 THE 3RD WHITE SALE-การประมูลเพื่อการกุศลกับ Cho Young-nam (พื้นที่ประมูล, โซล)"},
+                            {order: 13, exhibit: "นิทรรศการพิเศษ Gwangju Biennale ปี 2004-นิทรรศการพิเศษเกาหลี (Gwangju Biennale Hall, กวางจู)"},
+                            {order: 14, exhibit: "1999 Korean POP ART (พิพิธภัณฑ์ศิลปะซุงก๊ก โซล)"},
+                            {order: 15, exhibit: "...และอีกประมาณ 600 รายการ"}
+                        ],
+                        paint: [
+                            {order: 0, title: "ดอกไม้จากตะวันออกไกล", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "สีอะครีลิคบนผ้าใบ, 2021"},
+                            {order: 1, title: "ดอกไม้วาตูห้าดอกจากตะวันออกไกล", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "สีอะครีลิคบนผ้าใบ, 2016"},
+                            {order: 2, title: "ดวงจันทร์และหกเพนนี", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "สีอะครีลิคบนผ้าใบ, 2010"},
+                            {order: 3, title: "ภูมิทัศน์กับดวงจันทร์", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "สีอะครีลิคบนผ้าใบ, 2021"},
+                            {order: 4, title: "บ้านมุงจากในชนบทอันเก่าแก่ของฉัน", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "สื่อผสม, 2021"},
+                            {order: 5, title: "ฝนและร่ม", name: "ยองนัม โช", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "สื่อผสม, 2015"},
+                        ]
+                    },
+                ],
+            },
+            {
+                order:2, 
+                type:"นิทรรศการพิเศษเชิญพิพิธภัณฑ์ศิลปะ Schema",
+                title:"นิทรรศการพิเศษเชิญคิมฮยอนจุนประจำปี 2025 <จากสถานที่ที่ลมหายใจเข้าไม่ถึง>", 
+                time: "2025/02/21 ~ 2025/03/30", 
+                artist: "ฮยอนจุน คิม", 
+                location: "พิพิธภัณฑ์ Schema", 
+                host: "พิพิธภัณฑ์ Schema", 
+                support: "", 
+                explanation: "'จากสถานที่ที่ลมหายใจไม่สามารถเข้าถึงได้' เกี่ยวข้องกับร่องรอยการบริโภคที่สะสมตามชายฝั่งเชจู ศิลปินมองว่าชายฝั่งเป็นจุดหมายปลายทางของการผลิตและการบริโภค และดำดิ่งลงสู่ชายฝั่งและทะเลเชจูโดยตรงขณะกลั้นลมหายใจเพื่อรวบรวมและสังเกตอุปกรณ์ตกปลาต่างๆ ขยะในครัวเรือน และเศษซากเรืออัปปาง ผลงาน 'The Light Things' และ 'Breath' ที่แสดงในนิทรรศการนี้เผยให้เห็นข้อจำกัดทางร่างกายและจิตใจของมนุษย์ และแสดงให้เห็นความตึงเครียดและขอบเขตระหว่างธรรมชาติกับมนุษย์โดยตรง ศิลปิน Hyunjun Kim สำรวจขอบเขตระหว่างการดำรงอยู่และการสูญพันธุ์ ธรรมชาติและมนุษย์ และตั้งคำถามเกี่ยวกับสิ่งที่เรากำลังเผชิญอยู่ที่นี่และขณะนี้ผ่านร่องรอยของการเปลี่ยนแปลงและการสูญพันธุ์",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-2.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"นิทรรศการพิเศษเชิญคิมฮยอนจุนประจำปี 2025 <จากสถานที่ที่ลมหายใจเข้าไม่ถึง>", 
+                        name: "ฮยอนจุน คิม", 
+                        engname: "Hyun Jun Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-2/25-2-1.jpg`, 
+                        text: "'จากสถานที่ที่ลมหายใจไม่สามารถเข้าถึงได้' เกี่ยวข้องกับร่องรอยการบริโภคที่สะสมตามชายฝั่งเชจู <The Light Things> รวบรวมร่องรอยของกิจกรรมของมนุษย์ เช่น ขยะทะเลและชิ้นส่วนอุปกรณ์ตกปลา และใช้ LED (ไดโอดเปล่งแสง) เพื่อให้เห็นภาพขอบเขตระหว่างการดำรงอยู่และการสูญพันธุ์ แสงและวัตถุผสมผสานกัน เพื่อบันทึกการเปลี่ยนแปลงที่เกิดขึ้นตามเวลาและความหมายที่หลากหลาย <ก้อนลมหายใจ> เป็นชิ้นงานที่สร้างขึ้นบนบล็อกคอนกรีตที่ถูกทิ้งร้างบนชายฝั่งของเกาะเชจู และดำเนินการโดยการกลั้นลมหายใจและขึ้นลงในทะเลโดยไม่ต้องใช้อุปกรณ์ช่วยหายใจแยกต่างหาก กระบวนการนี้เผยให้เห็นข้อจำกัดทางร่างกายและจิตใจของมนุษย์ และแสดงให้เห็นโดยตรงถึงความตึงเครียดและขอบเขตระหว่างธรรมชาติกับมนุษย์",
+                        education: "ปริญญาตรีสาขาประติมากรรม ภาควิชาวิจิตรศิลป์ มหาวิทยาลัยดงกุก ปริญญาโท สาขาวิจิตรศิลป์ มหาวิทยาลัยดงกุก",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "2024 สิ่งเบา - สิ่งที่มีอยู่ในที่สุด (Art Space Oia, Jeju)"},
+                            {order: 2, exhibit: "2024 Breath (SpaceX/Seoul)"},
+                            {order: 3, exhibit: "2024 Dance of Things (ศูนย์วัฒนธรรมสันติภาพ/โซล)"},
+                            {order: 4, exhibit: "2019 How to Bend (Label Gallery, โซล)"},
+                            {order: 5, exhibit: "2009 It's your present (Friers Gallery, Seoul)"},
+                            {order: 6, exhibit: "2009 ปัจจุบันหรือปัจจุบัน (Scape Gallery, โซล)"},
+                            {order: 7, exhibit: "2007 The light thing (พิพิธภัณฑ์ศิลปะ Kumho, โซล)"},
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2024 Everyone's Shelter (Agnes Park, Geoje)"},
+                            {order: 2, exhibit: "2024 ประตูสู่สิ่งที่มองไม่เห็น (พิพิธภัณฑ์ศิลปะแห่งชาติโซล โซล)"},
+                            {order: 3, exhibit: "2024 Perfect Cycle (Palbok Art Factory, Jeonju)"},
+                            {order: 4, exhibit: "หนังสือเรียนศิลปะประถมศึกษาปี 2024 ออก (พิพิธภัณฑ์ศิลปะ Samgaksan Geumam โซล)"},
+                            {order: 5, exhibit: "2024 NEW WAVE (COEX, โซล)"},
+                            {order: 6, exhibit: "รายการคอลเลกชั่นปี 2023 (Art Space IA, Jeju Cultural Foundation, Jeju)"},
+                            {order: 7, exhibit: "2023 Art Gwangju 23 (Kimdaejung Convention Center, Gwangju)"},
+                            {order: 8, exhibit: "โครงการรายการปี 2022 (Jikduri 737, Pocheon Cultural Foundation, Pocheon)"},
+                            {order: 9, exhibit: "2022 Luxury Fantasy (พิพิธภัณฑ์ศิลปะโอซาน, มูลนิธิวัฒนธรรมโอซาน, โอซาน)"},
+                            {order: 10, exhibit: "2021 New Normal of the Old Future (โรงงานอิฐยอนชอน, มูลนิธิวัฒนธรรมคยองกี, ยอนชอน)"},
+                            {order: 11, exhibit: "2021 Nowon Moonlight Walk - ดูโลกบนดวงจันทร์ (บริเวณ Nowon-gu Jungggye-dongdangheoncheon, Nowon Cultural Foundation, โซล)"},
+                            {order: 12, exhibit: "2020 Vista Art 'Fantastic Reflection' (Vista Walkerhill, โซล)"},
+                            {order: 13, exhibit: "โครงสร้างสถาปัตยกรรมปี 2018 (พิพิธภัณฑ์ศิลปะ Suwon I'Park, ซูวอน)"},
+                            {order: 14, exhibit: "...และอีกประมาณ 24 รายการ"}
+                        ],
+                        paint: [
+                            {order: 0, title: "ของเบาๆ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "25x15x130cm", overview1: "ชอลทง (LU), LED, 2022"},
+                            {order: 1, title: "ของเบาๆ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "กระจกมองข้างแบบ LED ปี 2024"},
+                            {order: 2, title: "ของเบาๆ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "โฟมเกลียว หมวกหอย LED 2023"},
+                            {order: 3, title: "ก้อนลมหายใจ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "วิดีโอช่องเดียว 8 นาที 2025"},
+                        ]
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        index: 1,
         year: 2024,
         exhibits: [
             {
@@ -2121,7 +2257,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 1,
+        index: 2,
         year: 2023, 
         exhibits: [
             {
@@ -4303,7 +4439,7 @@ export const allExhibits_TH = [
         ]    
     },   
     {
-        index: 2,
+        index: 3,
         year: 2022,
         exhibits: [
             {
@@ -6020,7 +6156,7 @@ export const allExhibits_TH = [
         ]
     }, 
     {
-        index: 3,
+        index: 4,
         year: 2021,
         exhibits: [
             {
@@ -8253,7 +8389,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 4,
+        index: 5,
         year: 2020,
         exhibits: [
             {
@@ -8469,7 +8605,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 5,
+        index: 6,
         year: 2019, 
         exhibits: [
             {
@@ -8629,7 +8765,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 6,
+        index: 7,
         year: 2018,
         exhibits: [
             {
@@ -8803,7 +8939,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 7,
+        index: 8,
         year: 2017,
         exhibits: [
             {
@@ -8921,7 +9057,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 8,
+        index: 9,
         year: 2016,
         exhibits: [
             {
@@ -9095,7 +9231,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 9,
+        index: 10,
         year: 2015,
         exhibits: [
             {
@@ -9311,7 +9447,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 10,
+        index: 11,
         year: 2014,
         exhibits: [
             {
@@ -9485,7 +9621,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 11, 
+        index: 12, 
         year: 2013,
         exhibits: [
             {
@@ -9659,7 +9795,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index: 12,
+        index: 13,
         year: 2012,
         exhibits: [
             {
@@ -9791,7 +9927,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index:13,
+        index:14,
         year:2011,
         exhibits: [
             {
@@ -9937,7 +10073,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index:14,
+        index:15,
         year:2010, 
         exhibits: [
             {
@@ -9999,7 +10135,7 @@ export const allExhibits_TH = [
         ]
     },
     {
-        index:15,
+        index:16,
         year: 2009,
         exhibits: [
             {

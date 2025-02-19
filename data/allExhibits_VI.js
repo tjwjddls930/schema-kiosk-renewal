@@ -2,6 +2,143 @@
 export const allExhibits_VI = [
     {
         index: 0,
+        year: 2025,
+        exhibits: [
+            {
+                order:1, 
+                type:"Triển lãm mời đặc biệt của Bảo tàng Nghệ thuật Schema",
+                title:"Những thử nghiệm nghệ thuật thú vị của Jo Young-nam", 
+                time: "2024/12/20 ~ 2025/02/09", 
+                artist: "Youngnam Cho", 
+                location: "Bảo tàng Schema", 
+                host: "Bảo tàng Schema", 
+                support: "", 
+                explanation: "Nghệ sĩ Youngnam Cho bác bỏ thái độ kiêu ngạo hoặc đạo đức giả và là một 'nghệ sĩ vui vẻ' và 'nghệ sĩ nhạc pop', người lấp đầy cuộc sống và nghệ thuật bằng sự hài hước và niềm vui. Bằng cách sử dụng 'Hwatu' làm chủ đề hội họa, hình ảnh đại chúng và văn hóa vui chơi truyền thống đã được diễn giải lại trong bối cảnh nghệ thuật hiện đại, thăng hoa thành một chủ đề nghệ thuật và cho phép diễn giải đàm thoại và đa nghĩa từ một góc nhìn mới. Triển lãm này tập trung vào những thử nghiệm nghệ thuật độc đáo của nghệ sĩ Cho Young-nam và cho thấy những vật liệu bình thường hàng ngày có thể trở thành công cụ nghệ thuật như thế nào thông qua loạt tranh Hwatu của anh, đặt ra những câu hỏi mới về nghệ thuật là gì và tạo ra một không gian nơi sự nổi tiếng và tính nghệ thuật cùng tồn tại. nơi bạn có thể trải nghiệm thế giới nghệ thuật độc đáo của Youngnam Cho.",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-1.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"Những thử nghiệm nghệ thuật thú vị của Jo Young-nam", 
+                        name: "Youngnam Cho", 
+                        engname: "Youngnam Cho",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-1/25-1-1.jpg`, 
+                        text: "Tôi là một nghệ sĩ vui vẻ. Trong thời gian rảnh rỗi, tôi chỉ vẽ những gì tôi thích nhất, giống như những người khác: câu cá, cờ vây hoặc đi bộ đường dài. Và gần đây, ông ấy thậm chí còn viết một cuốn sách về triết học tên là <Schopenhauer Plus>. Chúa đã ban cho chúng ta quyền được sống hạnh phúc. Tôi hy vọng tất cả chúng ta, kể cả bạn và tôi, có thể vui vẻ cùng nhau. TÔI. Ngay cả khi chúng tôi không nhấn mạnh điều đó, mọi người đều vui vẻ...",
+                        education: "Đại học Quốc gia Seoul, Khoa Thanh nhạc, TRƯỜNG ĐẠI HỌC TRINITY KINH THÁNH, Cử nhân Thần học",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "2024 50 Năm Hội Họa, Một Cuộc Đời Như Hwatujak (Phòng trưng bày Jang Eun-seon, Seoul)"},
+                            {order: 2, exhibit: "Lịch sử nghệ thuật 2024: Cho Young-nam “Ngày hôm qua” (Bảo tàng nghệ thuật Kim Byeong-jong thành phố Namwon, Namwon)"},
+                            {order: 3, exhibit: "Triển lãm mời Cho Young-nam 2023 (Phòng trưng bày Bottega, Jangheung)"},
+                            {order: 4, exhibit: "Triển lãm mời gọi 2023 Venus Gallery Cho Young-nam (Phòng trưng bày Venus, Seoul)"},
+                            {order: 5, exhibit: "Triển lãm mời đặc biệt của Phòng trưng bày Dongwon 2022 (Phòng trưng bày Dongwon Apsan, Daegu)"},
+                            {order: 6, exhibit: "Triển lãm mời đặc biệt Daebaek Plaza 2022 (Daebaek Prime Hall, Daegu)"},
+                            {order: 7, exhibit: "Triển lãm Monamur Jo Young-nam 2022 (Monamur, Asan)"},
+                            {order: 8, exhibit: "Triển lãm đặc biệt năm 2022 của Quỹ Carnegie Cho Young-nam (Gold Hegel, Dongtan)"},
+                            {order: 9, exhibit: "Mùa xuân 2022 đang đến (Bảo tàng Bontae, Seoul)"},
+                            {order: 10, exhibit: "2021 Đây là Cho Young-nam (Phòng trưng bày Jang Eun-seon, Seoul)"},
+                            {order: 11, exhibit: "2020 Art, Heart, Hwatu và Youngnam Cho (Dự án Pica, Seoul)"},
+                            {order: 12, exhibit: "2020 Cái nhìn thoáng qua về thế giới nghệ thuật của nghệ sĩ đương đại Cho Young-nam (Asan Gallery, Asan)"},
+                            {order: 13, exhibit: "Bức vẽ của Cho Young-nam 2016 (GALLERY U.H.M., Seoul)"},
+                            {order: 14, exhibit: "Triển lãm Me Cho Young-nam 2016 (Palais de Seoul)"},
+                            {order: 15, exhibit: "Triển lãm tranh Cho Young-nam 2014 (Nền tảng nghệ thuật sân khấu, Incheon)"},
+                            {order: 16, exhibit: "Triển lãm nghệ thuật đương đại bắt nạt Cho Young-nam 2014 (Trung tâm nghệ thuật Seoul, Seoul)"},
+                            {order: 17, exhibit: "Triển lãm mời 2013 COCOLAFRIENDS-Triển lãm kỷ niệm 40 năm (Namu Modern & Contemporary, Seoul)"},
+                            {order: 18, exhibit: "Triển lãm mời tham quan phòng trưng bày Asan 2012 (Phòng trưng bày Asan, Asan)"},
+                            {order: 19, exhibit: "Triển lãm đặc biệt AHAF-SEOUL 2012 (The westin Chosun, Seoul)"},
+                            {order: 20, exhibit: "Triển lãm mời chào phòng trưng bày Kim Jaesun 2012 – chỉ dành cho bạn (Phòng trưng bày Kim Jaesun, Busan)"},
+                            {order: 21, exhibit: "2011 Cho Young-nam, 45 năm hội họa (Bảo tàng nghệ thuật Gwangju, Phòng triển lãm Sangnok, Gwangju)"},
+                            {order: 22, exhibit: "...và 26 lần"}
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "Niềm đam mê khéo léo năm 2024 (Bảo tàng nghệ thuật hiện đại Busan, Busan)"},
+                            {order: 2, exhibit: "Triển lãm nghệ thuật LA 2023 (Trung tâm hội nghị Los Angeles)"},
+                            {order: 3, exhibit: "Hội chợ nghệ thuật Insa 2023 (Seoul)"},
+                            {order: 4, exhibit: "Lễ hội nghệ thuật châu Á 2022 (Songdo Convensia, Inch)"},
+                            {order: 5, exhibit: "Liên hoan nghệ thuật trưng bày quốc tế Busan 2012 (Phòng trưng bày Kim Jaesun, Khách sạn Centum Haeundae, Busan)"},
+                            {order: 6, exhibit: "2012 HK CONTEMPORARY (Phòng trưng bày Kim Jaesun, THE PARK LANE KHÁCH SẠN HK)"},
+                            {order: 7, exhibit: "Hội chợ nghệ thuật mở Seoul 2012 (Phòng trưng bày Kim Jaesun, COEX, Seoul)"},
+                            {order: 8, exhibit: "2012 AHAF-HK (Phòng trưng bày Kim Jaesun, KHÁCH SẠN MANDARIN ORIENTAL, HK)"},
+                            {order: 9, exhibit: "Lễ hội nghệ thuật trưng bày 2012 (Phòng trưng bày Kim Jaeseon, COEX, Seoul)"},
+                            {order: 10, exhibit: "Tham gia với tư cách nghệ sĩ được mời đặc biệt tại Hội chợ nghệ thuật quốc tế KIF Hàn Quốc 2011"},
+                            {order: 11, exhibit: "2011 ART ASIA MIAMI, (Phòng trưng bày Kim Jaesun, MIAMI, Hoa Kỳ)"},
+                            {order: 12, exhibit: "2008 CUỘC đấu giá từ thiện BÁN TRẮNG lần thứ 3 với Cho Young-nam (Không gian đấu giá, Seoul)"},
+                            {order: 13, exhibit: "Triển lãm đặc biệt Gwangju Biennale 2004-Triển lãm đặc biệt Hàn Quốc (Hội trường Gwangju Biennale, Gwangju)"},
+                            {order: 14, exhibit: "1999 NGHỆ THUẬT POP Hàn Quốc (Bảo tàng Nghệ thuật Sungkok, Seoul)"},
+                            {order: 15, exhibit: "...và khoảng 600 cái nữa"}
+                        ],
+                        paint: [
+                            {order: 0, title: "Hoa từ Viễn Đông", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/1-160x111.jpg`, width: 4.8, height: 3.33, overview: "111x160cm", overview1: "Acrylic trên canvas, 2021"},
+                            {order: 1, title: "Năm bông hoa hwatu từ Viễn Đông", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/2-72x60.jpg`, width: 3.6, height: 3, overview: "60x72cm", overview1: "Acrylic trên canvas, 2016"},
+                            {order: 2, title: "mặt trăng và sáu xu", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/3-53x64.jpg`, width: 3.71, height: 4.48, overview: "64x53cm", overview1: "Acrylic trên canvas, 2010"},
+                            {order: 3, title: "phong cảnh với mặt trăng", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/4-71x59.jpg`, width: 4.26, height: 3.54, overview: "59x71cm", overview1: "Acrylic trên canvas, 2021"},
+                            {order: 4, title: "Ngôi nhà tranh quê hương xưa hoài niệm của tôi", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/5-29x59.jpg`, width: 5.9, height: 2.9, overview: "59x29cm", overview1: "Phương tiện truyền thông hỗn hợp, 2021"},
+                            {order: 5, title: "mưa và ô", name: "Youngnam Cho", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-1/6-41x61.jpg`, width: 3.69, height: 5.49, overview: "61x41cm", overview1: "Phương tiện truyền thông hỗn hợp, 2015"},
+                        ]
+                    },
+                ],
+            },
+            {
+                order:2, 
+                type:"Triển lãm mời đặc biệt của Bảo tàng Nghệ thuật Schema",
+                title:"Triển lãm mời đặc biệt Hyunjun Kim 2025 <Từ nơi hơi thở không thể chạm tới>", 
+                time: "2025/02/21 ~ 2025/03/30", 
+                artist: "Hyun Jun Kim", 
+                location: "Bảo tàng Schema", 
+                host: "Bảo tàng Schema", 
+                support: "", 
+                explanation: "‘Từ nơi hơi thở không thể chạm tới’ đề cập đến dấu vết tiêu thụ được thu thập dọc theo bờ biển Jeju. Người nghệ sĩ coi bờ biển là điểm đến của sản xuất và tiêu dùng, đồng thời lặn thẳng xuống bờ biển và biển Jeju trong khi nín thở để thu thập và quan sát các ngư cụ, rác thải sinh hoạt và mảnh vỡ tàu đắm. Các tác phẩm ‘The Light Things’ và ‘Breath’ trưng bày trong triển lãm này bộc lộ những hạn chế về thể chất và tinh thần của con người, đồng thời trực tiếp thể hiện sự căng thẳng, ranh giới giữa thiên nhiên và con người. Nghệ sĩ Hyunjun Kim khám phá ranh giới giữa sự tồn tại và tuyệt chủng, thiên nhiên và con người, đồng thời đặt ra câu hỏi về những gì chúng ta đang phải đối mặt ở đây và bây giờ thông qua dấu vết của sự thay đổi và tuyệt chủng.",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-2.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"Triển lãm mời đặc biệt Hyunjun Kim 2025 <Từ nơi hơi thở không thể chạm tới>", 
+                        name: "Hyun Jun Kim", 
+                        engname: "Hyun Jun Kim",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-2/25-2-1.jpg`, 
+                        text: "‘Từ nơi hơi thở không thể chạm tới’ đề cập đến dấu vết tiêu thụ được thu thập dọc theo bờ biển Jeju. <The Light Things> thu thập dấu vết hoạt động của con người, chẳng hạn như mảnh vụn biển và mảnh ngư cụ, đồng thời sử dụng đèn LED (điốt phát sáng) để hình dung ranh giới giữa sự tồn tại và sự tuyệt chủng. Ánh sáng và vật thể kết hợp với nhau, ghi lại những thay đổi do thời gian tạo ra và ý nghĩa đa diện. <Hunk of Breath> là tác phẩm được thực hiện trên một khối bê tông bỏ hoang trên bờ biển đảo Jeju, được thực hiện bằng cách nín thở và lên xuống trên biển mà không có thiết bị thở riêng. Quá trình này bộc lộ những hạn chế về thể chất, tinh thần của con người và trực tiếp thể hiện sự căng thẳng, ranh giới giữa thiên nhiên và con người.",
+                        education: "Cử nhân điêu khắc, Khoa Mỹ thuật, Đại học Dongguk, Thạc sĩ Mỹ thuật, Đại học Dongguk",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "2024 Những điều nhẹ nhàng - Những điều cuối cùng còn tồn tại (Art Space Oia, Jeju)"},
+                            {order: 2, exhibit: "Hơi thở 2024 (SpaceX/Seoul)"},
+                            {order: 3, exhibit: "Vũ điệu vạn vật 2024 (Trung tâm Văn hóa Hòa bình/Seoul)"},
+                            {order: 4, exhibit: "2019 Cách uốn cong (Thư viện nhãn, Seoul)"},
+                            {order: 5, exhibit: "2009 Đó là món quà của bạn (Phòng trưng bày Friers, Seoul)"},
+                            {order: 6, exhibit: "2009 Hiện tại hoặc Hiện tại (Scape Gallery, Seoul)"},
+                            {order: 7, exhibit: "2007 Điều nhẹ nhàng (Bảo tàng nghệ thuật Kumho, Seoul)"},
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "2024 Nơi trú ẩn cho mọi người (Công viên Agnes, Geoje)"},
+                            {order: 2, exhibit: "2024 Cổng vào vô hình (Bảo tàng Nghệ thuật Đại học Quốc gia Seoul, Seoul)"},
+                            {order: 3, exhibit: "Chu kỳ hoàn hảo 2024 (Nhà máy nghệ thuật Palbok, Jeonju)"},
+                            {order: 4, exhibit: "Ra mắt sách giáo khoa nghệ thuật tiểu học năm 2024 (Bảo tàng nghệ thuật Samgaksan Gumam, Seoul)"},
+                            {order: 5, exhibit: "2024 NEW WAVE (COEX, Seoul)"},
+                            {order: 6, exhibit: "Danh sách bộ sưu tập năm 2023 (Không gian nghệ thuật IA, Quỹ văn hóa Jeju, Jeju)"},
+                            {order: 7, exhibit: "2023 Art Gwangju 23 (Trung tâm Hội nghị Kimdaejung, Gwangju)"},
+
+                            {order: 8, exhibit: "Dự án Danh sách 2022 (Jikduri 737, Quỹ Văn hóa Pocheon, Pocheon)"},
+                            {order: 9, exhibit: "2022 Luxury Fantasy (Bảo tàng nghệ thuật Osan, Quỹ văn hóa Osan, Osan)"},
+                            {order: 10, exhibit: "Bình thường mới năm 2021 của tương lai cũ (Nhà máy gạch Yeoncheon, Quỹ văn hóa Kyunggi, Yeoncheon)"},
+                            {order: 11, exhibit: "2021 Nowon Moonlight Walk - Ngắm Trái đất trên Mặt trăng (khu vực Nowon-gu Junggye-dongdanghyeoncheon, Tổ chức Văn hóa Nowon, Seoul)"},
+                            {order: 12, exhibit: "2020 Vista Art ‘Sự phản chiếu tuyệt vời’ (Vista Walkerhill, Seoul)"},
+                            {order: 13, exhibit: "Cấu trúc kiến ​​trúc năm 2018 (Bảo tàng nghệ thuật Suwon I'Park, Suwon)"},
+                            {order: 14, exhibit: "...và khoảng 24 cái nữa"}
+                        ],
+                        paint: [
+                            {order: 0, title: "Những điều nhẹ nhàng", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/1-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "25x15x130cm", overview1: "Cheoltong (LU), LED, 2022"},
+                            {order: 1, title: "Những điều nhẹ nhàng", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "Gương chiếu hậu, LED, 2024"},
+                            {order: 2, title: "Những điều nhẹ nhàng", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "Xốp, dây bện, mũ ngao, LED, 2023"},
+                            {order: 3, title: "hơi thở", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "Video đơn kênh, 8 phút, 2025"},
+                        ]
+                    },
+                ],
+            },
+        ]
+    },
+    {
+        index: 1,
         year: 2024,
         exhibits: [
             {
@@ -2120,7 +2257,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 1,
+        index: 2,
         year: 2023, 
         exhibits: [
             {
@@ -4304,7 +4441,7 @@ export const allExhibits_VI = [
         ]    
     },   
     {
-        index: 2,
+        index: 3,
         year: 2022,
         exhibits: [
             {
@@ -6021,7 +6158,7 @@ export const allExhibits_VI = [
         ]
     }, 
     {
-        index: 3,
+        index: 4,
         year: 2021,
         exhibits: [
             {
@@ -8254,7 +8391,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 4,
+        index: 5,
         year: 2020,
         exhibits: [
             {
@@ -8470,7 +8607,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 5,
+        index: 6,
         year: 2019, 
         exhibits: [
             {
@@ -8630,7 +8767,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 6,
+        index: 7,
         year: 2018,
         exhibits: [
             {
@@ -8804,7 +8941,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 7,
+        index: 8,
         year: 2017,
         exhibits: [
             {
@@ -8922,7 +9059,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 8,
+        index: 9,
         year: 2016,
         exhibits: [
             {
@@ -9096,7 +9233,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 9,
+        index: 10,
         year: 2015,
         exhibits: [
             {
@@ -9312,7 +9449,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 10,
+        index: 11,
         year: 2014,
         exhibits: [
             {
@@ -9486,7 +9623,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 11, 
+        index: 12, 
         year: 2013,
         exhibits: [
             {
@@ -9660,7 +9797,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index: 12,
+        index: 13,
         year: 2012,
         exhibits: [
             {
@@ -9792,7 +9929,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index:13,
+        index:14,
         year:2011,
         exhibits: [
             {
@@ -9938,7 +10075,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index:14,
+        index:15,
         year:2010, 
         exhibits: [
             {
@@ -10000,7 +10137,7 @@ export const allExhibits_VI = [
         ]
     },
     {
-        index:15,
+        index:16,
         year: 2009,
         exhibits: [
             {
