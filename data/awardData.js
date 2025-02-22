@@ -226,6 +226,25 @@ export const awardData_KOR =
             {order: 23, year: 2017, award: "이스탄불 비엔날레 (Haydarpas station. 이스탄불)"},
             {order: 24, year: 2016, award: "순천만 국제환경미술제 (순천만 국가정원 미술관. 순천)"},
         ]
+    },
+    {
+        index: 7,
+        title: "제 7회 수상작가", 
+        imgname:"7th.jpg", 
+        engname: "Myoung-Nam Kim", 
+        name:"김명남", 
+        career: "프랑스 이블린 도지사 상, 살롱 도톤느  젊은 판화가상, 프랑스 유수 살롱 올해의 작가  6회 선정 등",
+        timeline_individual: [
+            {order: 1, year: 2024, award: "다수의 개인전 개최"},
+        ],
+        timeline_group: [
+            {order: 1, year: 2015, award: "Passeurs de Rives, avec Cécile Oumhani, publié par La tête à l’envers, France"},
+            {order: 2, year: 2015, award: "Enjamber le fleuve, publié par Daniel Leuwers. France"},
+            {order: 3, year: 2012, award: "Vie saxifrage, avec Gabrielle Althen, publié par Al Manar Alain Gorius, France"},
+            {order: 4, year: 2010, award: "Écrire et Peindre au-dessus de la Nuit des Mots, publié par Voix d’encre, France"},
+            {order: 5, year: 2009, award: "Temps solaire, avec Cécile Oumhani, publié par Voix d’encre, France"},
+            {order: 6, year: 2005, award: "Demeures de mots et de nuit, avec Cécile Oumhani, publié par Voix d’encre, France"},
+        ]
     },    
 ];
 
@@ -455,7 +474,26 @@ export const awardData_ENG =
             {order: 23, year: 2017, award: "Istanbul Biennale (Haydarpas station. Istanbul)"},
             {order: 24, year: 2016, award: "Suncheon Bay International Environmental Art Festival (Suncheon Bay National Garden Art Museum, Suncheon)"},
         ]
-    },      
+    }, 
+    {
+        index: 7,
+        title: "7th Award Winner", 
+        imgname:"7th.jpg", 
+        engname: "Myoung-Nam Kim", 
+        name:"Myoung-Nam Kim", 
+        career: "French Governor of Yvelines Award, Salon d'Autonne Young Printmaker Award, selected as Artist of the Year by France's leading salons six times, etc.",
+        timeline_individual: [
+            {order: 1, year: 2024, award: "Hosted multiple solo exhibitions"},
+        ],
+        timeline_group: [
+            {order: 1, year: 2015, award: "Passeurs de Rives, avec Cécile Oumhani, publié par La tête à l’envers, France"},
+            {order: 2, year: 2015, award: "Enjamber le fleuve, publié par Daniel Leuwers. France"},
+            {order: 3, year: 2012, award: "Vie saxifrage, avec Gabrielle Althen, publié par Al Manar Alain Gorius, France"},
+            {order: 4, year: 2010, award: "Écrire et Peindre au-dessus de la Nuit des Mots, publié par Voix d’encre, France"},
+            {order: 5, year: 2009, award: "Temps solaire, avec Cécile Oumhani, publié par Voix d’encre, France"},
+            {order: 6, year: 2005, award: "Demeures de mots et de nuit, avec Cécile Oumhani, publié par Voix d’encre, France"},
+        ]
+    },         
 ];
 
 export const awardData_CH = 
@@ -684,7 +722,26 @@ export const awardData_CH =
             {order: 23, year: 2017, award: "年伊斯坦布尔双年展（Haydarpas 站。伊斯坦布尔）"},
             {order: 24, year: 2016, award: "顺天湾国际环境艺术节（顺天湾国家园林美术馆，顺天）"},
         ]
-    },   
+    }, 
+    {
+        index: 7,
+        title: "第七届获奖者", 
+        imgname:"7th.jpg", 
+        engname: "Myoung-Nam Kim", 
+        name:"金明南", 
+        career: "法国伊夫林省总督奖、Autonne沙龙青年版画家奖、六次被法国领先沙龙评选为年度艺术家等。",
+        timeline_individual: [
+            {order: 1, year: 2024, award: "多次举办个展"},
+        ],
+        timeline_group: [
+            {order: 1, year: 2015, award: "Passeurs de Rives, avec Cécile Oumhani, publié par La tête à l’envers, France"},
+            {order: 2, year: 2015, award: "Enjamber le fleuve, publié par Daniel Leuwers. France"},
+            {order: 3, year: 2012, award: "Vie saxifrage, avec Gabrielle Althen, publié par Al Manar Alain Gorius, France"},
+            {order: 4, year: 2010, award: "Écrire et Peindre au-dessus de la Nuit des Mots, publié par Voix d’encre, France"},
+            {order: 5, year: 2009, award: "Temps solaire, avec Cécile Oumhani, publié par Voix d’encre, France"},
+            {order: 6, year: 2005, award: "Demeures de mots et de nuit, avec Cécile Oumhani, publié par Voix d’encre, France"},
+        ]
+    },     
 ];
 
 export const awardData_TH = 
@@ -914,7 +971,26 @@ export const awardData_TH =
             {order: 23, year: 2017, award: "2017 Istanbul Biennale (สถานี Haydarpas อิสตันบูล)"},
             {order: 24, year: 2016, award: "เทศกาลศิลปะสิ่งแวดล้อมนานาชาติอ่าวซุนชอนปี 2016 (พิพิธภัณฑ์ศิลปะสวนแห่งชาติอ่าวซุนชอน ซุนชอน)"},
         ]
-    },     
+    }, 
+    {
+        index: 7,
+        title: "ผู้ได้รับรางวัลอันดับที่ 7", 
+        imgname:"7th.jpg", 
+        engname: "Myoung-Nam Kim", 
+        name:"มยองนัมคิม", 
+        career: "รางวัลผู้ว่าการ Yvelines ชาวฝรั่งเศส, รางวัล Salon d'Autonne Young Printmaker Award, เลือกให้เป็นศิลปินแห่งปีจากร้านทำผมชั้นนำของฝรั่งเศสถึง 6 ครั้ง เป็นต้น",
+        timeline_individual: [
+            {order: 1, year: 2024, award: "เป็นเจ้าภาพจัดนิทรรศการเดี่ยวหลายครั้ง"},
+        ],
+        timeline_group: [
+            {order: 1, year: 2015, award: "Passeurs de Rives, avec Cécile Oumhani, publié par La tête à l’envers, France"},
+            {order: 2, year: 2015, award: "Enjamber le fleuve, publié par Daniel Leuwers. France"},
+            {order: 3, year: 2012, award: "Vie saxifrage, avec Gabrielle Althen, publié par Al Manar Alain Gorius, France"},
+            {order: 4, year: 2010, award: "Écrire et Peindre au-dessus de la Nuit des Mots, publié par Voix d’encre, France"},
+            {order: 5, year: 2009, award: "Temps solaire, avec Cécile Oumhani, publié par Voix d’encre, France"},
+            {order: 6, year: 2005, award: "Demeures de mots et de nuit, avec Cécile Oumhani, publié par Voix d’encre, France"},
+        ]
+    },       
 ];
 
 export const awardData_VI = 
@@ -1144,5 +1220,24 @@ export const awardData_VI =
             {order: 23, year: 2017, award: "2017 Istanbul Biennale (ga Haydarpas. Istanbul)"},
             {order: 24, year: 2016, award: "Lễ hội nghệ thuật môi trường quốc tế Vịnh Suncheon 2016 (Bảo tàng nghệ thuật vườn quốc gia vịnh Suncheon, Suncheon)"},
         ]
-    },    
+    }, 
+    {
+        index: 7,
+        title: "Người đoạt giải thứ 7", 
+        imgname:"7th.jpg", 
+        engname: "Myoung-Nam Kim", 
+        name:"Myoung-Nam Kim", 
+        career: "Giải thưởng Thống đốc Yvelines của Pháp, Giải thưởng Thợ in trẻ Salon d'Autonne, được các salon hàng đầu của Pháp sáu lần chọn là Nghệ sĩ của năm, v.v.",
+        timeline_individual: [
+            {order: 1, year: 2024, award: "Tổ chức nhiều triển lãm cá nhân"},
+        ],
+        timeline_group: [
+            {order: 1, year: 2015, award: "Passeurs de Rives, avec Cécile Oumhani, publié par La tête à l’envers, France"},
+            {order: 2, year: 2015, award: "Enjamber le fleuve, publié par Daniel Leuwers. France"},
+            {order: 3, year: 2012, award: "Vie saxifrage, avec Gabrielle Althen, publié par Al Manar Alain Gorius, France"},
+            {order: 4, year: 2010, award: "Écrire et Peindre au-dessus de la Nuit des Mots, publié par Voix d’encre, France"},
+            {order: 5, year: 2009, award: "Temps solaire, avec Cécile Oumhani, publié par Voix d’encre, France"},
+            {order: 6, year: 2005, award: "Demeures de mots et de nuit, avec Cécile Oumhani, publié par Voix d’encre, France"},
+        ]
+    },      
 ];
