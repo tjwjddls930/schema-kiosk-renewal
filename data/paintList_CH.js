@@ -16,6 +16,11 @@ export const paintList_CH = [
             {order: 2, title: "轻的东西", name: "金贤俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "聚苯乙烯泡沫塑料、麻线、蛤蜊帽、LED，2023"},
             {order: 3, title: "呼吸困难", name: "金贤俊", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "单频视频，8 分钟，2025 年"},
         ],
+        [
+            {order: 0, title: "星际", name: "薛石英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/1-39x39.jpg`, width: 3.90, height: 3.90, overview: "39x39cm", overview1: "陶瓷板上的水晶油和混合材料，2025"},
+            {order: 1, title: "极光", name: "薛石英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "陶瓷板上的水晶油和木头，2025"},
+            {order: 2, title: "回忆", name: "薛石英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "陶瓷盘上水晶油和珍珠母贝，2025"},
+        ],
     ],
     //2024
     [

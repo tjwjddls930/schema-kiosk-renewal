@@ -137,6 +137,43 @@ export const allExhibits_CH = [
                     },
                 ],
             },
+            {
+                order:3, 
+                type:"《舍玛美术馆特邀展》", 
+                title:"2025雪石英特别邀请展<Mystery&Memories>", 
+                time: "2025/04/11 ~ 2025/05/11", 
+                artist: "薛石英", 
+                location: "示玛博物馆", 
+                host: "示玛博物馆", 
+                support: "", 
+                explanation: "艺术家Seol Suk-young是一位通过尝试各种材料和陶瓷的物理特性来呈现独特的陶瓷绘画世界的艺术家。陶瓷、颜料、珍珠母贝、黄金和漆融合而成的神秘形状，唤起一种梦幻般的氛围，让人想起星星、花朵和宇宙。在本次展览中，艺术家计划通过新的视觉表达方式展现陶瓷的独特图案、源自生命之源的美感以及陶瓷的神秘。",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-3.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"2025雪石英特别邀请展<Mystery&Memories>", 
+                        name: "薛石英", 
+                        engname: "Sook Young Seol",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-3/25-3-1.jpg`, 
+                        text: "艺术是一个永远变化而又和谐的世界，宇宙的神秘世界和当时的记忆被发展成陶瓷雕塑（绘画），利用情感能量和各种材料创造出一个独特的世界。作品采用粘土、釉料（水晶油）、生漆、珍珠母、黄金、颜料等各种物理性质的材料，产生共鸣、升华为和谐、多元化的作品。这巧合、简单，却又层次丰富，传递出宇宙生命的共鸣。希望这次展览能给大家带来全新的视觉体验，提供一个领略宇宙神秘与梦幻氛围的机会。",
+                        education: "檀国大学陶瓷研究生院毕业",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "16个个展和邀请展（Gugu、通仁、La Mer、全州韩屋村、阿里苏、京仁、蓝色画廊等）"},
+                            {order: 2, exhibit: "国际个人邀请展（日本东京麻布十番画廊，中国威海成华美术馆）"},
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "约190个国际及团体展览（美国、日本、中国、台湾、泰国、德国、法国等）"},
+                        ],
+                        paint: [
+                            {order: 0, title: "星际", name: "薛石英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/1-39x39.jpg`, width: 3.90, height: 3.90, overview: "39x39cm", overview1: "陶瓷板上的水晶油和混合材料，2025"},
+                            {order: 1, title: "极光", name: "薛石英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "陶瓷板上的水晶油和木头，2025"},
+                            {order: 2, title: "回忆", name: "薛石英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "陶瓷盘上水晶油和珍珠母贝，2025"},
+                        ]
+                    },
+                ],
+            },
         ]
     },
     {

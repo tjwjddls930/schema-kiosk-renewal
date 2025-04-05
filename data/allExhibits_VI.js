@@ -135,6 +135,43 @@ export const allExhibits_VI = [
                     },
                 ],
             },
+            {
+                order:3, 
+                type:"Triển lãm mời đặc biệt của Bảo tàng Nghệ thuật Schema",
+                title:"Triển lãm đặc biệt mời chào năm 2025 của Seol Suk-young <Bí ẩn và ký ức>", 
+                time: "2025/04/11 ~ 2025/05/11", 
+                artist: "Sook Young Seol", 
+                location: "Bảo tàng Schema", 
+                host: "Bảo tàng Schema", 
+                support: "", 
+                explanation: "설숙영 작가는 다양한 재료와 세라믹의 물성을 실험하며 독창적인 도자회화 세계를 보여주는 작가입니다. 도자기, 물감, 자개, 금, 옻칠 등의 융합으로 나타나는 신비로운 형상은 별과 꽃, 우주를 연상시키며 몽환적인 분위기를 자아냅니다. 작가는 이번 전시에서 새로운 시각적 표현으로 독특한 문양과 생명의 근원에서 비롯한 아름다움, 도예의 신비로움을 보여줄 예정입니다.",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-3.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"Triển lãm đặc biệt mời chào năm 2025 của Seol Suk-young <Bí ẩn và ký ức>", 
+                        name: "Sook Young Seol", 
+                        engname: "Sook Young Seol",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-3/25-3-1.jpg`, 
+                        text: "Nghệ thuật là một thế giới luôn thay đổi và hài hòa, thế giới bí ẩn của vũ trụ và những ký ức thời đó được phát triển thành tác phẩm điêu khắc gốm sứ (tranh vẽ) sử dụng năng lượng cảm xúc và nhiều chất liệu khác nhau để tạo nên một thế giới độc đáo. Các tác phẩm sử dụng những chất liệu có tính chất vật lý đa dạng như đất sét, men (dầu pha lê), sơn mài, xà cừ, vàng, bột màu cộng hưởng và thăng hoa thành những tác phẩm hài hòa, đa dạng. Điều này ngẫu nhiên và giản đơn nhưng lại thể hiện chiều sâu ở nhiều tầng lớp, truyền tải sự cộng hưởng của sự sống trong vũ trụ. Tôi hy vọng rằng cuộc triển lãm này sẽ mang lại trải nghiệm hình ảnh mới và mang đến cơ hội chiêm ngưỡng bầu không khí bí ẩn và mộng mơ của vũ trụ.",
+                        education: "Tốt nghiệp trường Cao học Gốm sứ Đại học Dankook",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "16 triển lãm cá nhân và mời (Gugu, Tongin, La Mer, Làng Jeonju Hanok, Arisu, Kyungin, Blue Gallery, v.v.)"},
+                            {order: 2, exhibit: "Triển lãm mời cá nhân quốc tế (Phòng trưng bày Azabu Juban, Tokyo, Nhật Bản, Bảo tàng nghệ thuật Chenhua, Uy Hải, Trung Quốc)"},
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "Khoảng 190 triển lãm quốc tế và nhóm (Mỹ, Nhật Bản, Trung Quốc, Đài Loan, Thái Lan, Đức, Pháp, v.v.)"},
+                        ],
+                        paint: [
+                            {order: 0, title: "Interstellar", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/1-39x39.jpg`, width: 3.90, height: 3.90, overview: "39x39cm", overview1: "Dầu pha lê và vật liệu hỗn hợp trên đĩa gốm, 2025"},
+                            {order: 1, title: "Aurora", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "Tinh dầu và gỗ trên đĩa gốm, 2025"},
+                            {order: 2, title: "Ký ức", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "Tinh dầu và xà cừ trên đĩa gốm, 2025"},
+                        ]
+                    },
+                ],
+            },
         ]
     },
     {

@@ -15,7 +15,12 @@ export const paintList_VI = [
             {order: 1, title: "Những điều nhẹ nhàng", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "Gương chiếu hậu, LED, 2024"},
             {order: 2, title: "Những điều nhẹ nhàng", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "Xốp, dây bện, mũ ngao, LED, 2023"},
             {order: 3, title: "hơi thở", name: "Hyun Jun Kim", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "Video đơn kênh, 8 phút, 2025"},
-        ]
+        ],
+        [
+            {order: 0, title: "Interstellar", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/1-39x39.jpg`, width: 3.90, height: 3.90, overview: "39x39cm", overview1: "Dầu pha lê và vật liệu hỗn hợp trên đĩa gốm, 2025"},
+            {order: 1, title: "Aurora", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "Tinh dầu và gỗ trên đĩa gốm, 2025"},
+            {order: 2, title: "Ký ức", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "Tinh dầu và xà cừ trên đĩa gốm, 2025"},
+        ],
     ],
     //2024
     [

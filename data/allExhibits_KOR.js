@@ -134,6 +134,43 @@ export const allExhibits_KOR = [
                     },
                 ],
             },
+            {
+                order:3, 
+                type:"쉐마미술관 기획초대전", 
+                title:"2025 설숙영 기획초대전 <Mystery&Memories>", 
+                time: "2025/04/11 ~ 2025/05/11", 
+                artist: "설숙영", 
+                location: "쉐마미술관", 
+                host: "쉐마미술관", 
+                support: "", 
+                explanation: "설숙영 작가는 다양한 재료와 세라믹의 물성을 실험하며 독창적인 도자회화 세계를 보여주는 작가입니다. 도자기, 물감, 자개, 금, 옻칠 등의 융합으로 나타나는 신비로운 형상은 별과 꽃, 우주를 연상시키며 몽환적인 분위기를 자아냅니다. 작가는 이번 전시에서 새로운 시각적 표현으로 독특한 문양과 생명의 근원에서 비롯한 아름다움, 도예의 신비로움을 보여줄 예정입니다.",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-3.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"2025 설숙영 기획초대전 <Mystery&Memories>", 
+                        name: "설숙영", 
+                        engname: "Sook Young Seol",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-3/25-3-1.jpg`, 
+                        text: "예술은 항상 변화하며, 조화를 이루는 세계로서 우주의 신비로운 세계와 그 시간의 기억들을 감성적 에너지와 다양한 재료들을 사용하여 도자조형(회화)로 발전시켜 독창적인 세계로 만들어 가고있다. 흙과 유약(결정유), 옻칠, 나전, 금, 안료 등 다양한 물성을 가진 재료들을 사용한 작품들은 공명(共鳴)을 이루어, 융화다원화된 작품으로 승화한다. 이는 우연적이고 단순하면서도 심원함을 다층적으로 보여주며, 우주생명의 울림이 전해진다. 이번 전시는 우주의 신비로움과 몽환적인 분위기를 통해 새로운 시각적 경험을 선사하고, 이를 감상하는 기회가 되었음 좋겠다.",
+                        education: "단국대학교 일반대학원 도예학과 전공 졸업",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "개인전 및 초대전 16회(구구, 통인, 라메르, 전주한옥마을, 아리수, 경인, 블루갤러리 등)"},
+                            {order: 2, exhibit: "국제 개인 초대전(일본 동경 아자부주반 갤러리, 중국 웨이하이 천화미술관)"},
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "국제전 및 단체전 190여회(미국, 일본, 중국, 대만, 태국, 독일, 프랑스 등)"},
+                        ],
+                        paint: [
+                            {order: 0, title: "Interstellar", name: "설숙영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/1-39x39.jpg`, width: 3.90, height: 3.90, overview: "39x39cm", overview1: "세라믹 도판에 크리스탈 결정유와 혼합재료, 2025"},
+                            {order: 1, title: "Aurora", name: "설숙영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "세라믹 도판에 크리스탈 결정유와 나무, 2025"},
+                            {order: 2, title: "Memories", name: "설숙영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "세라믹 도판에 크리스탈 결정유와 나전, 2025"},
+                        ]
+                    },
+                ],
+            },
         ]
     },
     {

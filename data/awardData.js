@@ -233,7 +233,7 @@ export const awardData_KOR =
         imgname:"7th.jpg", 
         engname: "Myoung-Nam Kim", 
         name:"김명남", 
-        career: "프랑스 이블린 도지사 상, 살롱 도톤느  젊은 판화가상, 프랑스 유수 살롱 올해의 작가  6회 선정 등",
+        career: "프랑스 이블린 도지사 상, 살롱 도톤느 젊은 판화가상, 프랑스 유수 살롱 올해의 작가  6회 선정 등",
         timeline_individual: [
             {order: 1, year: 2024, award: "다수의 개인전 개최"},
         ],

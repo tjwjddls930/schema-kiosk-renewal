@@ -16,6 +16,11 @@ export const paintList_KOR = [
             {order: 2, title: "The light things", name: "김현준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "스티로폼, 노끈, 조개삿갓, LED, 2023"},
             {order: 3, title: "숨덩어리", name: "김현준", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "단채널영상, 8분, 2025"},
         ],
+        [
+            {order: 0, title: "Interstellar", name: "설숙영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/1-39x39.jpg`, width: 3.90, height: 3.90, overview: "39x39cm", overview1: "세라믹 도판에 크리스탈 결정유와 혼합재료, 2025"},
+            {order: 1, title: "Aurora", name: "설숙영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "세라믹 도판에 크리스탈 결정유와 나무, 2025"},
+            {order: 2, title: "Memories", name: "설숙영", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "세라믹 도판에 크리스탈 결정유와 나전, 2025"},
+        ],
     ],
     //2024
     [

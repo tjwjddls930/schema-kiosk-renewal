@@ -15,7 +15,12 @@ export const paintList_TH = [
             {order: 1, title: "ของเบาๆ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/2-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "30x25x25cm", overview1: "กระจกมองข้างแบบ LED ปี 2024"},
             {order: 2, title: "ของเบาๆ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/3-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "15x15x15cm", overview1: "โฟมเกลียว หมวกหอย LED 2023"},
             {order: 3, title: "ก้อนลมหายใจ", name: "ฮยอนจุน คิม", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-2/4-102.4x57.6.jpg`, width: 5.12, height: 2.88, overview: "", overview1: "วิดีโอช่องเดียว 8 นาที 2025"},
-        ]
+        ],
+        [
+            {order: 0, title: "อินเตอร์สเตลลาร์", name: "ซอล ซุกยัง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/1-39x39.jpg`, width: 3.90, height: 3.90, overview: "39x39cm", overview1: "น้ำมันคริสตัลและวัสดุผสมบนจานเซรามิก ปี 2025"},
+            {order: 1, title: "ออโรร่า", name: "ซอล ซุกยัง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "น้ำมันคริสตัลและไม้บนจานเซรามิก ปี 2025"},
+            {order: 2, title: "ความทรงจำ", name: "ซอล ซุกยัง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "น้ำมันคริสตัลและหอยมุกบนจานเซรามิก ปี 2025"},
+        ],
     ],
     //2024
     [

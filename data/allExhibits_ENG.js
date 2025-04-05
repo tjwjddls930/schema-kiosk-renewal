@@ -134,6 +134,43 @@ export const allExhibits_ENG = [
                     },
                 ],
             },
+            {
+                order:3, 
+                type:"Schema Art Museum Special Invitational Exhibition",
+                title:"2025 Seol Sook-young Planning Invitational Exhibition <Mystery&Memories>", 
+                time: "2025/04/11 ~ 2025/05/11", 
+                artist: "Sook Young Seol", 
+                location: "Schema Art Museum", 
+                host: "Schema Art Museum", 
+                support: "", 
+                explanation: "Artist Seol Sook-young is an artist who shows a unique world of ceramic painting by experimenting with various materials and the properties of ceramics. The mysterious shapes that appear through the fusion of ceramics, paint, mother-of-pearl, gold, and lacquer are reminiscent of stars, flowers, and the universe, creating a dreamy atmosphere. In this exhibition, the artist plans to show unique patterns, beauty derived from the source of life, and the mystery of ceramics with new visual expressions.",         
+                author: "",
+                img: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/posters/2025/25-3.jpg`,
+                artist_info: [
+                    {
+                        order: 0, 
+                        number: "01",
+                        title:"2025 Seol Sook-young Planning Invitational Exhibition <Mystery&Memories>", 
+                        name: "Sook Young Seol", 
+                        engname: "Sook Young Seol",
+                        imgname:`${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/artists/2025/25-3/25-3-1.jpg`, 
+                        text: "Art is always changing, and as a world of harmony, the mysterious world of the universe and the memories of that time are developed into ceramic sculptures (paintings) using emotional energy and various materials, creating an original world. The works using materials with various properties such as clay, glaze (crystallized glaze), lacquer, mother-of-pearl, gold, and pigments resonate and sublimate into fusion and diversified works. This shows multi-layered coincidence and simplicity, yet profoundness, and conveys the resonance of life in the universe. I hope that this exhibition will provide a new visual experience through the mystery and dreamlike atmosphere of the universe, and become an opportunity to appreciate it.",
+                        education: "Graduated from the Department of Ceramics, Dankook University Graduate School",
+                        individual_exhibition: [
+                            {order: 1, exhibit: "16 solo and invitational exhibitions (Gugu, Tongin, La Mer, Jeonju Hanok Village, Arisu, Gyeongin, Blue Gallery, etc.)"},
+                            {order: 2, exhibit: "International solo invitational exhibitions (Azabujuban Gallery, Tokyo, Japan, Weihai Tianhua Art Museum, China)"},
+                        ],
+                        group_exhibition: [
+                            {order: 1, exhibit: "190 international and group exhibitions (USA, Japan, China, Taiwan, Thailand, Germany, France, etc.)"},
+                        ],
+                        paint: [
+                            {order: 0, title: "Interstellar", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/1-39x39.jpg`, width: 3.90, height: 3.90, overview: "39x39cm", overview1: "Crystal oil and mixed media on ceramic plate, 2025"},
+                            {order: 1, title: "Aurora", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "Crystal oil and wood on ceramic plate, 2025"},
+                            {order: 2, title: "Memories", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "Crystal oil and mother-of-pearl on ceramic plate, 2025"},
+                        ]
+                    },
+                ],
+            },
         ]
     },
     {
