@@ -21,6 +21,16 @@ export const paintList_CH = [
             {order: 1, title: "极光", name: "薛石英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "陶瓷板上的水晶油和木头，2025"},
             {order: 2, title: "回忆", name: "薛石英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "陶瓷盘上水晶油和珍珠母贝，2025"},
         ],
+        [
+            {order: 0, title: "折叠", name: "姜敏英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/1-136x100.8.jpg`, width: 5.44, height: 4.032, overview: "550x27cm", overview1: "布面油画，不锈钢, 2021"},
+            {order: 1, title: "沃特", name: "姜敏英", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/2-102.4x76.8.jpg`, width: 4.096, height: 3.072, overview: "100cm", overview1: "直径 布面油画，木材, 2021"},
+            {order: 2, title: "未来是人类的", name: "善智", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "布面丙烯, 2022"},
+            {order: 3, title: "超越现实的元小说", name: "善智", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/4-130x90.6.jpg`, width: 5.20, height: 3.624, overview: "", overview1: "布面丙烯, 浦项市美术馆展览现场, 2022"},
+            {order: 4, title: "无标题", name: "崔珉率", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/5-136x94.4.jpg`, width: 5.44, height: 3.776, overview: "", overview1: "胶合板、帆布、丙烯、可变装置, 2023"},
+            {order: 5, title: "无标题", name: "崔珉率", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/6-102.4x60.5.jpg`, width: 5.12, height: 3.025, overview: "180x1200cm", overview1: "胶合板、帆布上的丙烯画, 2023"},
+            {order: 6, title: "记录", name: "边大植", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/7-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "150x150cm", overview1: "木板上腻子、油漆和打磨后用铅笔, 2023"},
+            {order: 7, title: "记录", name: "边大植", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/8-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: "木板上的油灰、油漆、沙子和铅笔，可变的装置, 2023-24"},
+        ],
     ],
     //2024
     [

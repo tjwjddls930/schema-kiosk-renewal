@@ -21,6 +21,16 @@ export const paintList_ENG = [
             {order: 1, title: "Aurora", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "Crystal oil and wood on ceramic plate, 2025"},
             {order: 2, title: "Memories", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "Crystal oil and mother-of-pearl on ceramic plate, 2025"},
         ],
+        [
+            {order: 0, title: "Texture", name: "Minyoung Kang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/1-136x100.8.jpg`, width: 5.44, height: 4.032, overview: "550x27cm", overview1: "Oil on canvas, Stainless steel, 2021"},
+            {order: 1, title: "VOT", name: "Minyoung Kang", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/2-102.4x76.8.jpg`, width: 4.096, height: 3.072, overview: "100cm", overview1: "diameter Oil on canvas, Wood, 2021"},
+            {order: 2, title: "Future Human", name: "Soon Ji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "Acrylic on canvas, 2022"},
+            {order: 3, title: "Metafiction Beyond Reality", name: "Soon Ji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/4-130x90.6.jpg`, width: 5.20, height: 3.624, overview: "", overview1: "Acrylic on canvas, Pohang City Art Museum Exhibition View, 2022"},
+            {order: 4, title: "Untitled", name: "Minsol Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/5-136x94.4.jpg`, width: 5.44, height: 3.776, overview: "", overview1: "Plywood, Canvas, Acrylic, Variable Installation, 2023"},
+            {order: 5, title: "Untitled", name: "Minsol Choi", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/6-102.4x60.5.jpg`, width: 5.12, height: 3.025, overview: "180x1200cm", overview1: "Acrylic on Plywood, Canvas, 2023"},
+            {order: 6, title: "The Record", name: "Daesik Pyoun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/7-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "150x150cm", overview1: "Putty, paint, sand and pencil on wood panel, 2023"},
+            {order: 7, title: "The Record", name: "Daesik Pyoun", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/8-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: "Putty, paint, sand and pencil on wood panel, variable installation, 2023-24"},
+        ]
     ],
      //2024
      [
