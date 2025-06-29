@@ -21,6 +21,16 @@ export const paintList_TH = [
             {order: 1, title: "ออโรร่า", name: "ซอล ซุกยัง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "น้ำมันคริสตัลและไม้บนจานเซรามิก ปี 2025"},
             {order: 2, title: "ความทรงจำ", name: "ซอล ซุกยัง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "น้ำมันคริสตัลและหอยมุกบนจานเซรามิก ปี 2025"},
         ],
+        [
+            {order: 0, title: "เลเยอร์", name: "คังมินยอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/1-136x100.8.jpg`, width: 5.44, height: 4.032, overview: "550x27cm", overview1: "สีน้ำมันบนผ้าใบ, สแตนเลสสตีล, 2021"},
+            {order: 1, title: "VOT", name: "คังมินยอง", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/2-102.4x76.8.jpg`, width: 4.096, height: 3.072, overview: "100cm", overview1: "diameter Oil on canvas, Wood, 2021"},
+            {order: 2, title: "มนุษย์แห่งอนาคต", name: "ซุนจี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "อะคริลิกบนผ้าใบ, วิวจัดแสดงที่พิพิธภัณฑ์ศิลปะโพฮัง, 2022"},
+            {order: 3, title: "เมตาฟิกชั่น: เหนือความจริง", name: "ซุนจี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/4-130x90.6.jpg`, width: 5.20, height: 3.624, overview: "", overview1: "อะคริลิกบนผ้าใบ, วิวจัดแสดงที่พิพิธภัณฑ์ศิลปะโพฮัง, 2022"},
+            {order: 4, title: "ไม่มีชื่อ", name: "ชเวมินซล", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/5-136x94.4.jpg`, width: 5.44, height: 3.776, overview: "", overview1: "ไม้อัด, ผ้าใบ, อะคริลิก, ติดตั้งปรับเปลี่ยนได้, 2023"},
+            {order: 5, title: "ไม่มีชื่อ", name: "ชเวมินซล", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/6-102.4x60.5.jpg`, width: 5.12, height: 3.025, overview: "180x1200cm", overview1: "ไม้อัด, อะคริลิกบนผ้าใบ, 2023"},
+            {order: 6, title: "The Record", name: "พยอนแดชิก", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/7-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "150x150cm", overview1: "แผ่นไม้, พัตตี้, สี, ขัดทรายและดินสอ, 2023"},
+            {order: 7, title: "The Record", name: "พยอนแดชิก", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/8-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: "แผ่นไม้, พัตตี้, สี, ขัดทรายและดินสอ, ติดตั้งปรับเปลี่ยนได้, 2023-24"},
+        ],
     ],
     //2024
     [

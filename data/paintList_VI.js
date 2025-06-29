@@ -21,6 +21,16 @@ export const paintList_VI = [
             {order: 1, title: "Aurora", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/2-47x47.jpg`, width: 4.70, height: 4.70, overview: "47x47cm", overview1: "Tinh dầu và gỗ trên đĩa gốm, 2025"},
             {order: 2, title: "Ký ức", name: "Sook Young Seol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-3/3-55x70.jpg`, width: 7.0, height: 5.5, overview: "55x70cm", overview1: "Tinh dầu và xà cừ trên đĩa gốm, 2025"},
         ],
+        [
+            {order: 0, title: "Lớp", name: "Kang Minyoung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/1-136x100.8.jpg`, width: 5.44, height: 4.032, overview: "550x27cm", overview1: "Sơn dầu trên vải, thép không gỉ, 2021"},
+            {order: 1, title: "VOT", name: "Kang Minyoung", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/2-102.4x76.8.jpg`, width: 4.096, height: 3.072, overview: "100cm", overview1: "Đường kính, sơn dầu trên vải, gỗ, 2021"},
+            {order: 2, title: "Con người của tương lai", name: "Soon Ji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "Acrylic trên vải, 2022"},
+            {order: 3, title: "Meta-fiction: Vượt ngoài thực tại", name: "Soon Ji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/4-130x90.6.jpg`, width: 5.20, height: 3.624, overview: "", overview1: "Acrylic on canvas, 포항시립미술관 전시전경, 2022"},
+            {order: 4, title: "Không tiêu đề", name: "Choi Minsol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/5-136x94.4.jpg`, width: 5.44, height: 3.776, overview: "", overview1: "Ván ép, vải, acrylic, lắp đặt linh hoạt, 2023"},
+            {order: 5, title: "Không tiêu đề", name: "Choi Minsol", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/6-102.4x60.5.jpg`, width: 5.12, height: 3.025, overview: "180x1200cm", overview1: "Ván ép, acrylic trên vải, 2023"},
+            {order: 6, title: "The Record", name: "Pyoun Daesik", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/7-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "150x150cm", overview1: "Tấm gỗ, bột trét, sơn, mài và bút chì, 2023"},
+            {order: 7, title: "The Record", name: "Pyoun Daesik", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/8-102.4x76.8.jpg`, width: 5.12, height: 3.84, overview: "", overview1: "Tấm gỗ, bột trét, sơn, mài và bút chì, lắp đặt linh hoạt, 2023-24"},
+        ],
     ],
     //2024
     [
