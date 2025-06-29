@@ -263,7 +263,7 @@ export const allExhibits_CH = [
                         ],
                         paint: [
                             {order: 2, title: "未来是人类的", name: "善智", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-116.8x91.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "布面丙烯, 2022"},
-                            {order: 3, title: "超越现实的元小说", name: "善智", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/4-130x90.6.jpg`, width: 5.20, height: 3.624, overview: "", overview1: "布面丙烯, 浦项市美术馆展览现场, 2022"},
+                            {order: 3, title: "超越现实的元小说", name: "善智", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/4-130.6x90.6.jpg`, width: 5.20, height: 3.624, overview: "", overview1: "布面丙烯, 浦项市美术馆展览现场, 2022"},
                         ]
                     },
                     {
