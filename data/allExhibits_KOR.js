@@ -259,7 +259,7 @@ export const allExhibits_KOR = [
                             {order: 15, exhibit: "2021 산수와 풍경 사-이, 전남도립미술관 분관, 곡성"},
                         ],
                         paint: [
-                            {order: 2, title: "미래된인간", name: "쑨지", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 2, title: "미래된인간", name: "쑨지", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-116.8x91.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "Acrylic on canvas, 2022"},
                             {order: 3, title: "메타픽션 현실 그 너머", name: "쑨지", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/4-130x90.6.jpg`, width: 5.20, height: 3.624, overview: "", overview1: "Acrylic on canvas, 포항시립미술관 전시전경, 2022"},
                         ]
                     },

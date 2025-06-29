@@ -259,7 +259,7 @@ export const allExhibits_VI = [
                             {order: 14, exhibit: "2020 Kết nối Danwon, Bảo tàng Nghệ thuật Danwon, Gyeonggi"}
                         ],
                         paint: [
-                            {order: 2, title: "Con người của tương lai", name: "Soon Ji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "Acrylic trên vải, 2022"},
+                            {order: 2, title: "Con người của tương lai", name: "Soon Ji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-116.8x91.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "Acrylic trên vải, 2022"},
                             {order: 3, title: "Meta-fiction: Vượt ngoài thực tại", name: "Soon Ji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/4-130x90.6.jpg`, width: 5.20, height: 3.624, overview: "", overview1: "Acrylic on canvas, 포항시립미술관 전시전경, 2022"},
                         ]
                     },

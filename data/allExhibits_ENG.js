@@ -259,7 +259,7 @@ export const allExhibits_ENG = [
                             {order: 15, exhibit: "2021 Landscape and Scenery, Jeonnam Provincial Museum of Art Branch, Gokseong"},
                         ],
                         paint: [
-                            {order: 2, title: "Future Human", name: "Soon Ji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "Acrylic on canvas, 2022"},
+                            {order: 2, title: "Future Human", name: "Soon Ji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-116.8x91.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "Acrylic on canvas, 2022"},
                             {order: 3, title: "Metafiction Beyond Reality", name: "Soon Ji", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/4-130x90.6.jpg`, width: 5.20, height: 3.624, overview: "", overview1: "Acrylic on canvas, Pohang City Art Museum Exhibition View, 2022"},
                         ]
                     },

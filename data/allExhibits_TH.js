@@ -258,7 +258,7 @@ export const allExhibits_TH = [
                             {order: 14, exhibit: "2020 Danwon Connect, พิพิธภัณฑ์ศิลปะดันวอน, คยองกี"}
                         ],
                         paint: [
-                            {order: 2, title: "มนุษย์แห่งอนาคต", name: "ซุนจี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-91x116.8.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "อะคริลิกบนผ้าใบ, วิวจัดแสดงที่พิพิธภัณฑ์ศิลปะโพฮัง, 2022"},
+                            {order: 2, title: "มนุษย์แห่งอนาคต", name: "ซุนจี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/3-116.8x91.jpg`, width: 3.64, height: 4.672, overview: "116.8x91.0cm", overview1: "อะคริลิกบนผ้าใบ, วิวจัดแสดงที่พิพิธภัณฑ์ศิลปะโพฮัง, 2022"},
                             {order: 3, title: "เมตาฟิกชั่น: เหนือความจริง", name: "ซุนจี", imgname: `${process.env.NEXT_PUBLIC_CLOUDFLARE_R2_ENDPOINT}/images/paintings/2025/25-4/4-130x90.6.jpg`, width: 5.20, height: 3.624, overview: "", overview1: "อะคริลิกบนผ้าใบ, วิวจัดแสดงที่พิพิธภัณฑ์ศิลปะโพฮัง, 2022"},
                         ]
                     },
